@@ -9,6 +9,9 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-image: linear-gradient(45deg, #f3ec78, #af4261);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
         }
 
         #file-browser {
@@ -38,14 +41,20 @@
         .directory > span, .file > span {
             margin-left: 10px;
         }
+
+        .drawio-file {
+            background-color: #bde0ff;
+        }
     </style>
 </head>
 <body>
     <div id="file-browser"></div>
     <script>
+        drawio_url = "https://app.diagrams.net/#Uhttps%3A%2F%2Frobvogelaar.github.io%2Fdrawio%2F"
+
         const fileBrowser = document.getElementById('file-browser');
 
-        const directoryStructure = [{"type": "directory", "name": "drawio", "children": [{"type": "file", "name": "topology.drawio"}]}, {"type": "directory", "name": "forkstat-static", "children": [{"type": "file", "name": "ofw-lxd-mv3-r15-0405.html"}]}, {"type": "directory", "name": ".git", "children": [{"type": "file", "name": "index"}, {"type": "directory", "name": "info", "children": [{"type": "file", "name": "exclude"}]}, {"type": "directory", "name": "branches", "children": []}, {"type": "directory", "name": "refs", "children": [{"type": "directory", "name": "tags", "children": []}, {"type": "directory", "name": "heads", "children": [{"type": "file", "name": "main"}]}, {"type": "directory", "name": "remotes", "children": [{"type": "directory", "name": "origin", "children": [{"type": "file", "name": "main"}, {"type": "file", "name": "HEAD"}]}]}]}, {"type": "file", "name": "config"}, {"type": "directory", "name": "logs", "children": [{"type": "directory", "name": "refs", "children": [{"type": "directory", "name": "heads", "children": [{"type": "file", "name": "main"}]}, {"type": "directory", "name": "remotes", "children": [{"type": "directory", "name": "origin", "children": [{"type": "file", "name": "main"}, {"type": "file", "name": "HEAD"}]}]}]}, {"type": "file", "name": "HEAD"}]}, {"type": "directory", "name": "hooks", "children": [{"type": "file", "name": "pre-merge-commit.sample"}, {"type": "file", "name": "fsmonitor-watchman.sample"}, {"type": "file", "name": "post-update.sample"}, {"type": "file", "name": "prepare-commit-msg.sample"}, {"type": "file", "name": "pre-receive.sample"}, {"type": "file", "name": "pre-push.sample"}, {"type": "file", "name": "commit-msg.sample"}, {"type": "file", "name": "pre-rebase.sample"}, {"type": "file", "name": "pre-applypatch.sample"}, {"type": "file", "name": "update.sample"}, {"type": "file", "name": "applypatch-msg.sample"}, {"type": "file", "name": "pre-commit.sample"}]}, {"type": "file", "name": "description"}, {"type": "file", "name": "HEAD"}, {"type": "file", "name": "COMMIT_EDITMSG"}, {"type": "directory", "name": "objects", "children": [{"type": "directory", "name": "e8", "children": [{"type": "file", "name": "18a56e31157752494632768c482b0b35da288a"}]}, {"type": "directory", "name": "01", "children": [{"type": "file", "name": "74ab61d8fe5ecd521b33aa68feab8749ddfe5d"}]}, {"type": "directory", "name": "3d", "children": [{"type": "file", "name": "da44e131fc2dd7d5c71cdf782aa7ae24ba9d42"}]}, {"type": "directory", "name": "info", "children": []}, {"type": "directory", "name": "pack", "children": [{"type": "file", "name": "pack-2320e006fae5d1d2f8c34c491557a63bb2be9bd9.pack"}, {"type": "file", "name": "pack-2320e006fae5d1d2f8c34c491557a63bb2be9bd9.idx"}]}, {"type": "directory", "name": "60", "children": [{"type": "file", "name": "649e29c8251d59c8f627bb7d198c7f40b9ce8d"}]}, {"type": "directory", "name": "06", "children": [{"type": "file", "name": "c1a36c1cee898fc9a5b4d24288e4e67886b4fd"}]}, {"type": "directory", "name": "75", "children": [{"type": "file", "name": "1b04e11eac2c9a53ec342ef67ce37cf6a76590"}]}, {"type": "directory", "name": "6e", "children": [{"type": "file", "name": "3a148bc4cb2a2ad28de5d5003d3214218b1735"}]}, {"type": "directory", "name": "33", "children": [{"type": "file", "name": "e6cab5f852c40fa81bffb3a00e08615f3bac70"}]}, {"type": "directory", "name": "9e", "children": [{"type": "file", "name": "b0913523ef6c09c9d1678eac7cf0a78dc15903"}]}, {"type": "directory", "name": "1e", "children": [{"type": "file", "name": "c91561e04c1cb307a0cebc984ea4c3546c5ae3"}]}, {"type": "directory", "name": "3b", "children": [{"type": "file", "name": "e382e4347f4b3e1df5b41b62da681b0ea5ff76"}]}, {"type": "directory", "name": "f5", "children": [{"type": "file", "name": "e7bcdb25004fe694d333fb9841fd0451c1a243"}]}, {"type": "directory", "name": "19", "children": [{"type": "file", "name": "cd8cdaa1293b43182e534e683e2a33ff42a987"}, {"type": "file", "name": "b51fd3aa0df46704456cb6db717eda5c64e9bf"}]}, {"type": "directory", "name": "e4", "children": [{"type": "file", "name": "7ec0bda1eecf0ada21bf6c67a3348ca36685c9"}]}, {"type": "directory", "name": "9b", "children": [{"type": "file", "name": "6ba012d862fa47115b08497b2087da63669e83"}]}, {"type": "directory", "name": "45", "children": [{"type": "file", "name": "b6e0489a80fc1ef3e95905545d3386d5e501e1"}]}, {"type": "directory", "name": "79", "children": [{"type": "file", "name": "b37f7ac1fc2de30ae4095f2901c33ca7b6f9bf"}, {"type": "file", "name": "b8372e5b9321b7973df17e995553d8d3b40f17"}]}, {"type": "directory", "name": "df", "children": [{"type": "file", "name": "f094c0100876694ea321c718167a57134a8167"}]}]}, {"type": "file", "name": "packed-refs"}]}, {"type": "directory", "name": "rssfree", "children": [{"type": "file", "name": "rssfree-mv3-r15-0405.html"}, {"type": "file", "name": "rssfree-mv3-r15-0406.html"}]}, {"type": "directory", "name": "images", "children": [{"type": "file", "name": "forkstat.png"}]}, {"type": "file", "name": "README.md"}];
+        const directoryStructure = [{"type": "directory", "name": "drawio", "children": [{"type": "file", "name": "topology.drawio", "extension": "drawio"}]}, {"type": "directory", "name": "forkstat-static", "children": [{"type": "file", "name": "ofw-lxd-mv3-r15-0405.html", "extension": "html"}]}, {"type": "directory", "name": "rssfree", "children": [{"type": "file", "name": "rssfree-mv3-r15-0405.html", "extension": "html"}, {"type": "file", "name": "rssfree-mv3-r15-0406.html", "extension": "html"}]}, {"type": "directory", "name": "images", "children": [{"type": "file", "name": "forkstat.png", "extension": "png"}]}];
 
         renderDirectory(directoryStructure, fileBrowser, '');
 
@@ -74,14 +83,43 @@
                     });
                 } else if (item.type === 'file') {
                     const fileElement = document.createElement('div');
-                    fileElement.className = 'file';
-                    fileElement.innerHTML = `<span>${item.name}</span>`;
-                    fileElement.setAttribute('data-file-path', currentPath + '/' + item.name);
-                    fileElement.setAttribute('title', currentPath + '/' + item.name);
-                    fileElement.addEventListener('click', () => {
-                        const filePath = fileElement.getAttribute('data-file-path');
-                        window.open(filePath, '_blank');
-                    });
+
+                    if (item.extension === 'drawio') {
+
+
+                        fileElement.className = 'file drawio-file';
+
+
+                        file_path = currentPath + '/' + item.name;
+                        const drawioUrl = drawio_url + file_path.replace('/', '%2F');
+                        fileElement.setAttribute('data-file-path', drawioUrl);
+
+
+                        fileElement.innerHTML = `<span>${item.name}</span>`;
+                        fileElement.setAttribute('data-file-path', currentPath + '/' + item.name);
+                        fileElement.setAttribute('title', currentPath + '/' + item.name);
+                        fileElement.addEventListener('click', () => {
+                            const filePath = fileElement.getAttribute('data-file-path');
+                            window.open(filePath, '_blank');
+                        });
+
+
+                    } else {
+
+                        fileElement.className = 'file';
+                        fileElement.innerHTML = `<span>${item.name}</span>`;
+                        fileElement.setAttribute('data-file-path', currentPath + '/' + item.name);
+                        fileElement.setAttribute('title', currentPath + '/' + item.name);
+                        fileElement.addEventListener('click', () => {
+                            const filePath = fileElement.getAttribute('data-file-path');
+                            window.open(filePath, '_blank');
+                        });
+
+
+                    }
+
+
+
                     container.appendChild(fileElement);
                 }
             });
