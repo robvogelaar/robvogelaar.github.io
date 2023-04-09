@@ -96,7 +96,6 @@
 
 
                         fileElement.innerHTML = `<span>${item.name}</span>`;
-                        fileElement.setAttribute('data-file-path', currentPath + '/' + item.name);
                         fileElement.setAttribute('title', currentPath + '/' + item.name);
                         fileElement.addEventListener('click', () => {
                             const filePath = fileElement.getAttribute('data-file-path');
