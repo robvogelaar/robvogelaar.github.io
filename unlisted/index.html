@@ -54,7 +54,7 @@
 
         const fileBrowser = document.getElementById('file-browser');
 
-        const directoryStructure = [{"type": "file", "name": "ofw-lxd-webui-home.png", "extension": "png"}, {"type": "file", "name": "ofw-lxd-webui-traceroute.png", "extension": "png"}];
+        const directoryStructure = [{"type": "file", "name": "ofw-lxd-webui-home.png", "extension": "png"}, {"type": "directory", "name": "probes", "children": [{"type": "directory", "name": "mv3", "children": [{"type": "directory", "name": "1215", "children": [{"type": "file", "name": "syscfg-mv3-r17-9.html", "extension": "html"}, {"type": "file", "name": "forkstat-mv3-r17-9.html", "extension": "html"}, {"type": "file", "name": "rbus-mv3-r17-9.html", "extension": "html"}, {"type": "file", "name": "sysevent-mv3-r17-9.html", "extension": "html"}, {"type": "file", "name": "rssfree-mv3-r17-9.html", "extension": "html"}, {"type": "file", "name": "datamodel-mv3-r17-9.html", "extension": "html"}]}]}, {"type": "directory", "name": "mv2plus", "children": [{"type": "directory", "name": "1215", "children": [{"type": "file", "name": "rssfree-mv2plus-r17-7.html", "extension": "html"}, {"type": "file", "name": "syscfg-mv2plus-r17-7.html", "extension": "html"}, {"type": "file", "name": "sysevent-mv2plus-r17-7.html", "extension": "html"}, {"type": "file", "name": "forkstat-mv2plus-r17-7.html", "extension": "html"}, {"type": "file", "name": "rbus-mv2plus-r17-7.html", "extension": "html"}, {"type": "file", "name": "datamodel-mv2plus-r17-7.html", "extension": "html"}]}]}]}, {"type": "file", "name": "ofw-lxd-webui-traceroute.png", "extension": "png"}];
 
         renderDirectory(directoryStructure, fileBrowser, '');
 
