@@ -1,0 +1,156 @@
+[0.31 seconds] Interface addresses have changed:
+lo: ::1
+gre0: 
+gretap0: 
+erspan0: 
+wl0.1: fe80::64a3:1fff:fefd:9ba5
+wl1.1: fe80::4ce2:d3ff:fe4c:fe69
+eth0: fe80::6e3:1aff:fe75:911
+eth1: fe80::216:3eff:fe67:6a0c
+wl0: fe80::216:3eff:fe15:510
+wl1: fe80::216:3eff:fef4:90c7
+
+[5.59 seconds] Interface addresses have changed:
+lo: ::1
+gre0: 
+gretap0: 
+erspan0: 
+wl0.1: fe80::64a3:1fff:fefd:9ba5
+wl1.1: fe80::4ce2:d3ff:fe4c:fe69
+br403: fe80::6493:23ff:febd:1ac3
+brebhaul: fe80::40f6:a3ff:feda:58e3
+brlan7: fe80::cc3b:45ff:fe0d:b18d
+brlan0: 
+eth0: fe80::6e3:1aff:fe75:911
+eth1: fe80::216:3eff:fe67:6a0c
+wl0: fe80::216:3eff:fe15:510
+wl1: fe80::216:3eff:fef4:90c7
+
+[11.07 seconds] Interface addresses have changed:
+lo: ::1
+gre0: 
+gretap0: 
+erspan0: 
+wl0.1: fe80::64a3:1fff:fefd:9ba5
+wl1.1: fe80::4ce2:d3ff:fe4c:fe69
+br403: fe80::6493:23ff:febd:1ac3
+brebhaul: fe80::40f6:a3ff:feda:58e3
+brlan7: fe80::cc3b:45ff:fe0d:b18d
+brlan0: fe80::6e3:1aff:fe67:6a0c
+mg0: fe80::6e3:1aff:fe75:916
+vrf-mg0: 
+erouter0: fe80::6e3:1aff:fe75:911
+voip0: fe80::6e3:1aff:fe75:915
+vrf-voip0: 
+eth0: fe80::6e3:1aff:fe75:911
+eth1: fe80::216:3eff:fe67:6a0c
+wl0: fe80::216:3eff:fe15:510
+wl1: fe80::216:3eff:fef4:90c7
+
+[16.82 seconds] Interface addresses have changed:
+lo: ::1
+gre0: 
+gretap0: 
+erspan0: 
+wl0.1: fe80::64a3:1fff:fefd:9ba5
+wl1.1: fe80::4ce2:d3ff:fe4c:fe69
+br403: fe80::6493:23ff:febd:1ac3
+brebhaul: fe80::40f6:a3ff:feda:58e3
+brlan7: 3001:dbe:0:ec01:cc3b:45ff:fe0d:b18d, fe80::cc3b:45ff:fe0d:b18d
+brlan0: 3001:dbe:0:ec00:6e3:1aff:fe67:6a0c, fe80::6e3:1aff:fe67:6a0c
+mg0: 2001:dbd:0:1::252, fe80::6e3:1aff:fe75:916
+vrf-mg0: 
+erouter0: 2001:dbe:0:1::250, fe80::6e3:1aff:fe75:911
+voip0: 2001:dbc:0:1::251, fe80::6e3:1aff:fe75:915
+vrf-voip0: 
+eth0: fe80::6e3:1aff:fe75:911
+eth1: fe80::216:3eff:fe67:6a0c
+wl0: fe80::216:3eff:fe15:510
+wl1: fe80::216:3eff:fef4:90c7
+
+[22.26 seconds] No significant change in interface addresses.
+
+[27.64 seconds] No significant change in interface addresses.
+
+[33.01 seconds] No significant change in interface addresses.
+
+[38.38 seconds] No significant change in interface addresses.
+
+[43.75 seconds] No significant change in interface addresses.
+
+[49.12 seconds] No significant change in interface addresses.
+
+[54.49 seconds] No significant change in interface addresses.
+
+[59.89 seconds] No significant change in interface addresses.
+
+[65.25 seconds] No significant change in interface addresses.
+
+[70.62 seconds] No significant change in interface addresses.
+
+[75.98 seconds] No significant change in interface addresses.
+
+[81.34 seconds] No significant change in interface addresses.
+
+[86.71 seconds] No significant change in interface addresses.
+
+[92.07 seconds] No significant change in interface addresses.
+
+[97.47 seconds] No significant change in interface addresses.
+
+[102.83 seconds] No significant change in interface addresses.
+
+[108.20 seconds] No significant change in interface addresses.
+
+[113.56 seconds] No significant change in interface addresses.
+
+[118.92 seconds] No significant change in interface addresses.
+
+[124.30 seconds] No significant change in interface addresses.
+
+[129.67 seconds] No significant change in interface addresses.
+
+[135.06 seconds] No significant change in interface addresses.
+
+[140.43 seconds] No significant change in interface addresses.
+
+[145.80 seconds] No significant change in interface addresses.
+
+[151.21 seconds] No significant change in interface addresses.
+
+[156.59 seconds] No significant change in interface addresses.
+
+[161.95 seconds] No significant change in interface addresses.
+
+[167.32 seconds] No significant change in interface addresses.
+
+[172.72 seconds] No significant change in interface addresses.
+
+[178.09 seconds] No significant change in interface addresses.
+
+[183.47 seconds] No significant change in interface addresses.
+
+[188.83 seconds] No significant change in interface addresses.
+
+[194.19 seconds] No significant change in interface addresses.
+
+[199.55 seconds] No significant change in interface addresses.
+
+[204.92 seconds] No significant change in interface addresses.
+
+[210.31 seconds] No significant change in interface addresses.
+
+[215.67 seconds] No significant change in interface addresses.
+
+[221.03 seconds] No significant change in interface addresses.
+
+[226.43 seconds] No significant change in interface addresses.
+
+[231.83 seconds] No significant change in interface addresses.
+
+[237.19 seconds] No significant change in interface addresses.
+
+[242.57 seconds] No significant change in interface addresses.
+
+[247.96 seconds] No significant change in interface addresses.
+

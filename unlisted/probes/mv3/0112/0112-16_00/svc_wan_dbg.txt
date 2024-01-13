@@ -1,0 +1,2 @@
+[SERVICE-WAN] exec: start
+wan_start: service wan has already started !

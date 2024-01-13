@@ -1,0 +1,20 @@
+4.056995 [mod=LM, lvl=WARN] [tid=1146] LMLite:rdk initialzed!
+4.058167 [mod=LM, lvl=WARN] [tid=1157] ValidateHostRetry_Thread started
+9.065430 [mod=LM, lvl=WARN] [tid=1146] Send_Eth_Host_Sync_Req : Get Ethernet Clients 
+188.278934 [mod=LM, lvl=WARN] [tid=2011] ------------------------AssociatedClientsInfo-----------------------
+188.279007 [mod=LM, lvl=WARN] [tid=2011] RDKB_CONNECTED_CLIENTS:Total_Clients_Connected=0
+188.279030 [mod=LM, lvl=WARN] [tid=2011] RDKB_CONNECTED_CLIENTS:Total_Online_Clients=0
+188.279049 [mod=LM, lvl=WARN] [tid=2011] RDKB_CONNECTED_CLIENTS:Total_Offline_Clients=0
+188.279072 [mod=LM, lvl=WARN] [tid=2011] RDKB_CONNECTED_CLIENTS:Total_WiFi_Clients=0
+188.279095 [mod=LM, lvl=WARN] [tid=2011] RDKB_CONNECTED_CLIENTS:Total_WiFi-2.4G_Clients=0
+188.279114 [mod=LM, lvl=WARN] [tid=2011] RDKB_CONNECTED_CLIENTS:Total_WiFi-5.0G_Clients=0
+188.279137 [mod=LM, lvl=WARN] [tid=2011] RDKB_CONNECTED_CLIENTS:Total_WiFi-6.0G_Clients=0
+188.279160 [mod=LM, lvl=WARN] [tid=2011] RDKB_CONNECTED_CLIENTS:Total_Ethernet_Clients=0
+188.279179 [mod=LM, lvl=WARN] [tid=2011] RDKB_CONNECTED_CLIENTS:Total_MoCA_Clients=0
+188.279202 [mod=LM, lvl=WARN] [tid=2011] -------------------------------------------------------------------
+188.279301 [mod=LM, lvl=INFO] [tid=2011] rbuscore.c:2290 RBus Enabled
+
+188.279339 [mod=LM, lvl=INFO] [tid=2011] rbus.c:2588 rbus_open(t2_lib_ccsp-lm-lite)
+
+188.279491 [mod=LM, lvl=INFO] [tid=2011] rbus.c:2652 rbus_open(t2_lib_ccsp-lm-lite) success
+

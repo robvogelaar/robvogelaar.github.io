@@ -1,0 +1,12 @@
+[Sat Jan 13 00:57:03 CET 2024] iwconfig ath0 frag 2346
+[Sat Jan 13 00:57:03 CET 2024] iwconfig ath0 rts 2347
+[Sat Jan 13 00:57:03 CET 2024] iwconfig ath0 txpower 100
+[Sat Jan 13 00:57:03 CET 2024] iwconfig ath0 txpower 100
+[Sat Jan 13 00:57:03 CET 2024] iwconfig ath0
+[Sat Jan 13 00:57:04 CET 2024] iwconfig ath0
+[Sat Jan 13 00:57:04 CET 2024] iwconfig ath1 frag 2346
+[Sat Jan 13 00:57:04 CET 2024] iwconfig ath1 rts 2347
+[Sat Jan 13 00:57:04 CET 2024] iwconfig ath1 txpower 100
+[Sat Jan 13 00:57:04 CET 2024] iwconfig ath1 txpower 100
+[Sat Jan 13 00:57:04 CET 2024] iwconfig ath1
+[Sat Jan 13 00:57:04 CET 2024] iwconfig ath1

@@ -1,0 +1,173 @@
+2024.01.12 23:57:10 Server Notice    | Dibbler - a portable DHCPv6, version 1.0.2RC1 (SERVER, Linux port)
+2024.01.12 23:57:10 Server Notice    My pid (2491) is stored in /var/lib/dibbler/server.pid
+2024.01.12 23:57:10 Server Notice    Detected iface wl1/140, MAC=00:16:3e:f4:90:c7.
+2024.01.12 23:57:10 Server Notice    Detected iface wl0/138, MAC=00:16:3e:15:05:10.
+2024.01.12 23:57:10 Server Notice    Detected iface eth1/136, MAC=00:16:3e:67:6a:0c.
+2024.01.12 23:57:10 Server Notice    Detected iface eth0/134, MAC=04:e3:1a:75:09:11.
+2024.01.12 23:57:10 Server Notice    Detected iface vrf-voip0/15, MAC=9e:3e:f6:05:f3:ca.
+2024.01.12 23:57:10 Server Notice    Detected iface voip0/14, MAC=04:e3:1a:75:09:15.
+2024.01.12 23:57:10 Server Notice    Detected iface erouter0/13, MAC=04:e3:1a:75:09:11.
+2024.01.12 23:57:10 Server Notice    Detected iface vrf-mg0/12, MAC=fe:7d:b5:f0:8b:56.
+2024.01.12 23:57:10 Server Notice    Detected iface mg0/11, MAC=04:e3:1a:75:09:16.
+2024.01.12 23:57:10 Server Notice    Detected iface brlan0/10, MAC=04:e3:1a:67:6a:0c.
+2024.01.12 23:57:10 Server Notice    Detected iface brlan7/9, MAC=ce:3b:45:0d:b1:8d.
+2024.01.12 23:57:10 Server Notice    Detected iface brebhaul/8, MAC=42:f6:a3:da:58:e3.
+2024.01.12 23:57:10 Server Notice    Detected iface br403/7, MAC=66:93:23:bd:1a:c3.
+2024.01.12 23:57:10 Server Notice    Detected iface wl1.1/6, MAC=4e:e2:d3:4c:fe:69.
+2024.01.12 23:57:10 Server Notice    Detected iface wl0.1/5, MAC=66:a3:1f:fd:9b:a5.
+2024.01.12 23:57:10 Server Notice    Detected iface erspan0/4, MAC=00:00:00:00:00:00.
+2024.01.12 23:57:10 Server Notice    Detected iface gretap0/3, MAC=00:00:00:00:00:00.
+2024.01.12 23:57:10 Server Notice    Detected iface lo/1, MAC=00:00:00:00:00:00.
+2024.01.12 23:57:10 Server Notice    Parsing /etc/dibbler/server.conf config file...
+2024.01.12 23:57:10 Server Info      Guess-mode enabled: relay interfaces may be loosely defined (matching interface-id is not mandatory).
+2024.01.12 23:57:10 Server Debug     PD: Client will receive /64 prefixes (T1=1771..1771, T2=2834..2834).
+2024.01.12 23:57:10 Server Debug     PD: Pool 3001:dbe:0:ec00:: - 3001:dbe:0:ecff:ffff:ffff:ffff:ffff, pool length: 56, 256 prefix(es) total.
+2024.01.12 23:57:10 Server Debug     PD: Up to 256 prefixes may be assigned.
+2024.01.12 23:57:10 Server Info      Exception: Address 3001:dbe:0:ec00::123 reserved.
+2024.01.12 23:57:10 Server Info      Exception: Prefix 3001:dbe:0:ec00::/64 reserved.
+2024.01.12 23:57:10 Server Debug     Exception: DUID-based exception specified.
+2024.01.12 23:57:10 Server Debug     Vendor-spec defined: Enterprise: 3561, optionCode: 14, valuelen=6
+2024.01.12 23:57:10 Server Debug     Vendor-spec defined: Enterprise: 3561, optionCode: 15, valuelen=12
+2024.01.12 23:57:10 Server Debug     Vendor-spec defined: Enterprise: 3561, optionCode: 16, valuelen=6
+2024.01.12 23:57:10 Server Debug     1 per-client configurations (exceptions) added.
+2024.01.12 23:57:10 Server Debug     Vendor-spec defined: Enterprise: 3561, optionCode: 14, valuelen=6
+2024.01.12 23:57:10 Server Debug     Vendor-spec defined: Enterprise: 3561, optionCode: 15, valuelen=12
+2024.01.12 23:57:10 Server Debug     Vendor-spec defined: Enterprise: 3561, optionCode: 16, valuelen=6
+2024.01.12 23:57:10 Server Debug     0 per-client configurations (exceptions) added.
+2024.01.12 23:57:10 Server Info      Exception: Address 3001:dbe:0:ec00::123 reserved.
+2024.01.12 23:57:10 Server Info      Exception: Prefix 3001:dbe:0:ec00::/64 reserved.
+2024.01.12 23:57:10 Server Debug     Exception: DUID-based exception specified.
+2024.01.12 23:57:10 Server Debug     Vendor-spec defined: Enterprise: 3561, optionCode: 14, valuelen=6
+2024.01.12 23:57:10 Server Debug     Vendor-spec defined: Enterprise: 3561, optionCode: 15, valuelen=12
+2024.01.12 23:57:10 Server Debug     Vendor-spec defined: Enterprise: 3561, optionCode: 16, valuelen=6
+2024.01.12 23:57:10 Server Debug     1 per-client configurations (exceptions) added.
+2024.01.12 23:57:10 Server Debug     Parsing /etc/dibbler/server.conf done.
+2024.01.12 23:57:10 Server Info      0 client class(es) defined.
+2024.01.12 23:57:10 Server Debug     3 interface(s) specified in /etc/dibbler/server.conf
+2024.01.12 23:57:10 Server Info      Mapping allow, deny list to class 0:0 allow/deny entries in total.
+2024.01.12 23:57:10 Server Info      Mapping allow, deny list to PD  0
+2024.01.12 23:57:10 Server Info      Interface brlan0/10 configuration has been loaded.
+2024.01.12 23:57:10 Server Info      Mapping allow, deny list to class 1:0 allow/deny entries in total.
+2024.01.12 23:57:10 Server Info      Interface brlan7/9 configuration has been loaded.
+2024.01.12 23:57:10 Server Info      Mapping allow, deny list to class 2:0 allow/deny entries in total.
+2024.01.12 23:57:10 Server Notice    Running in stateful mode.
+2024.01.12 23:57:10 Server Debug     Bulk-leasequery: enabled=no, TCP port=547, max conns=10, timeout=300
+2024.01.12 23:57:10 Server Notice    Unable to open DUID file (server-duid), generating new DUID.
+2024.01.12 23:57:10 Server Info      DUID creation:  Interface wl1/140 skipped: Not erouter0.
+2024.01.12 23:57:10 Server Info      DUID creation:  Interface wl0/138 skipped: Not erouter0.
+2024.01.12 23:57:10 Server Info      DUID creation:  Interface eth1/136 skipped: Not erouter0.
+2024.01.12 23:57:10 Server Info      DUID creation:  Interface eth0/134 skipped: Not erouter0.
+2024.01.12 23:57:10 Server Info      DUID creation:  Interface vrf-voip0/15 skipped: Not erouter0.
+2024.01.12 23:57:10 Server Info      DUID creation:  Interface voip0/14 skipped: Not erouter0.
+2024.01.12 23:57:10 Server Notice    DUID creation: Generating 14-bytes long link-local+time (duid-llt) DUID.
+2024.01.12 23:57:10 Server Notice    DUID creation: generated using erouter0/13 interface.
+2024.01.12 23:57:10 Server Info      My DUID is 00:01:00:01:2d:34:8e:56:04:e3:1a:75:09:11.
+2024.01.12 23:57:10 Server Info      Loading old address database (server-AddrMgr.xml), using built-in routines.
+2024.01.12 23:57:10 Server Warning   Unable to open server-AddrMgr.xml.
+2024.01.12 23:57:10 Server Warning   Cache: Unable to open cache file server-cache.xml.
+2024.01.12 23:57:10 Server Notice    Creating multicast (ff02::1:2) socket on brlan0/10 (brlan0/10) interface.
+2024.01.12 23:57:10 Server Notice    Creating link-local (fe80::6e3:1aff:fe67:6a0c) socket on brlan0/10 interface.
+2024.01.12 23:57:10 Server Notice    Creating multicast (ff02::1:2) socket on brlan7/9 (brlan7/9) interface.
+2024.01.12 23:57:10 Server Notice    Creating link-local (fe80::cc3b:45ff:fe0d:b18d) socket on brlan7/9 interface.
+2024.01.12 23:57:10 Server Info      Relay init: Creating socket on the underlaying interface: brlan0/10.
+2024.01.12 23:57:10 Server Notice    Creating multicast (ff05::1:3) socket on relay1/1024 (brlan0/10) interface.
+2024.01.12 23:57:10 Server Notice    Address fe80::6e3:1aff:fe67:6a0c is already bound on the brlan0.
+2024.01.12 23:57:10 Server Debug     Checking which clients need RECONFIGURE.
+2024.01.12 23:57:10 Server Info      Sent Reconfigure to 0 client(s).
+2024.01.12 23:57:10 Server Debug     Cache: size set to 1048576 bytes, 1 cache entry size is 115 bytes, so maximum 9118 address-client pair(s) may be cached.
+2024.01.12 23:57:10 Server Debug     Cache: Attempt to delete 3001:dbe:0:ec00::123 failed.
+2024.01.12 23:57:10 Server Debug     Cache: Attempt to delete 3001:dbe:0:ec00:: failed.
+2024.01.12 23:57:10 Server Debug     Cache: Attempt to delete 3001:dbe:0:ec00::123 failed.
+2024.01.12 23:57:10 Server Debug     Cache: Attempt to delete 3001:dbe:0:ec00:: failed.
+2024.01.12 23:57:10 Server Debug     Increased pools usage: currently 0 address(es) and 0 prefix(es) are leased.
+2024.01.12 23:57:10 Server Notice    Server begins operation.
+2024.01.12 23:57:10 Server Notice    Accepting connections. Next event in 4294967295 second(s).
+2024.01.12 23:57:15 Server Critical  Signal received. Shutting down.
+2024.01.12 23:57:15 Server Warning   Service SHUTDOWN.
+2024.01.12 23:57:15 Server Debug     Failed to read sockets (select() returned -1), error=Interrupted system call
+2024.01.12 23:57:15 Server Notice    Accepting connections. Next event in 0 second(s).
+2024.01.12 23:57:15 Server Debug     Closing all sockets.
+2024.01.12 23:57:15 Server Debug     Closing socket 0 on ff02::1:2:547 on interface brlan0/10
+2024.01.12 23:57:15 Server Debug     Closing socket 1 on fe80::6e3:1aff:fe67:6a0c:547 on interface brlan0/10
+2024.01.12 23:57:15 Server Debug     Closing socket 20 on ff05::1:3:547 on interface brlan0/10
+2024.01.12 23:57:15 Server Debug     Closing socket 2 on ff02::1:2:547 on interface brlan7/9
+2024.01.12 23:57:15 Server Debug     Closing socket 19 on fe80::cc3b:45ff:fe0d:b18d:547 on interface brlan7/9
+2024.01.12 23:57:15 Server Notice    Bye bye.
+2024.01.12 23:57:15 Server Warning   Unable to delete /var/lib/dibbler/server.pid.
+2024.01.12 23:57:20 Server Notice    | Dibbler - a portable DHCPv6, version 1.0.2RC1 (SERVER, Linux port)
+2024.01.12 23:57:20 Server Notice    My pid (3553) is stored in /var/lib/dibbler/server.pid
+2024.01.12 23:57:20 Server Notice    Detected iface wl1/140, MAC=00:16:3e:f4:90:c7.
+2024.01.12 23:57:20 Server Notice    Detected iface wl0/138, MAC=00:16:3e:15:05:10.
+2024.01.12 23:57:20 Server Notice    Detected iface eth1/136, MAC=00:16:3e:67:6a:0c.
+2024.01.12 23:57:20 Server Notice    Detected iface eth0/134, MAC=04:e3:1a:75:09:11.
+2024.01.12 23:57:20 Server Notice    Detected iface vrf-voip0/15, MAC=9e:3e:f6:05:f3:ca.
+2024.01.12 23:57:20 Server Notice    Detected iface voip0/14, MAC=04:e3:1a:75:09:15.
+2024.01.12 23:57:20 Server Notice    Detected iface erouter0/13, MAC=04:e3:1a:75:09:11.
+2024.01.12 23:57:20 Server Notice    Detected iface vrf-mg0/12, MAC=fe:7d:b5:f0:8b:56.
+2024.01.12 23:57:20 Server Notice    Detected iface mg0/11, MAC=04:e3:1a:75:09:16.
+2024.01.12 23:57:20 Server Notice    Detected iface brlan0/10, MAC=04:e3:1a:67:6a:0c.
+2024.01.12 23:57:20 Server Notice    Detected iface brlan7/9, MAC=ce:3b:45:0d:b1:8d.
+2024.01.12 23:57:20 Server Notice    Detected iface brebhaul/8, MAC=42:f6:a3:da:58:e3.
+2024.01.12 23:57:20 Server Notice    Detected iface br403/7, MAC=66:93:23:bd:1a:c3.
+2024.01.12 23:57:20 Server Notice    Detected iface wl1.1/6, MAC=4e:e2:d3:4c:fe:69.
+2024.01.12 23:57:20 Server Notice    Detected iface wl0.1/5, MAC=66:a3:1f:fd:9b:a5.
+2024.01.12 23:57:20 Server Notice    Detected iface erspan0/4, MAC=00:00:00:00:00:00.
+2024.01.12 23:57:20 Server Notice    Detected iface gretap0/3, MAC=00:00:00:00:00:00.
+2024.01.12 23:57:20 Server Notice    Detected iface lo/1, MAC=00:00:00:00:00:00.
+2024.01.12 23:57:20 Server Notice    Parsing /etc/dibbler/server.conf config file...
+2024.01.12 23:57:20 Server Info      Guess-mode enabled: relay interfaces may be loosely defined (matching interface-id is not mandatory).
+2024.01.12 23:57:20 Server Debug     PD: Client will receive /64 prefixes (T1=1771..1771, T2=2834..2834).
+2024.01.12 23:57:20 Server Debug     PD: Pool 3001:dbe:0:ec00:: - 3001:dbe:0:ecff:ffff:ffff:ffff:ffff, pool length: 56, 256 prefix(es) total.
+2024.01.12 23:57:20 Server Debug     PD: Up to 256 prefixes may be assigned.
+2024.01.12 23:57:20 Server Info      Exception: Address 3001:dbe:0:ec00::123 reserved.
+2024.01.12 23:57:20 Server Info      Exception: Prefix 3001:dbe:0:ec00::/64 reserved.
+2024.01.12 23:57:20 Server Debug     Exception: DUID-based exception specified.
+2024.01.12 23:57:20 Server Debug     Vendor-spec defined: Enterprise: 3561, optionCode: 14, valuelen=6
+2024.01.12 23:57:20 Server Debug     Vendor-spec defined: Enterprise: 3561, optionCode: 15, valuelen=12
+2024.01.12 23:57:20 Server Debug     Vendor-spec defined: Enterprise: 3561, optionCode: 16, valuelen=6
+2024.01.12 23:57:20 Server Debug     1 per-client configurations (exceptions) added.
+2024.01.12 23:57:20 Server Debug     Vendor-spec defined: Enterprise: 3561, optionCode: 14, valuelen=6
+2024.01.12 23:57:20 Server Debug     Vendor-spec defined: Enterprise: 3561, optionCode: 15, valuelen=12
+2024.01.12 23:57:20 Server Debug     Vendor-spec defined: Enterprise: 3561, optionCode: 16, valuelen=6
+2024.01.12 23:57:20 Server Debug     0 per-client configurations (exceptions) added.
+2024.01.12 23:57:20 Server Info      Exception: Address 3001:dbe:0:ec00::123 reserved.
+2024.01.12 23:57:20 Server Info      Exception: Prefix 3001:dbe:0:ec00::/64 reserved.
+2024.01.12 23:57:20 Server Debug     Exception: DUID-based exception specified.
+2024.01.12 23:57:20 Server Debug     Vendor-spec defined: Enterprise: 3561, optionCode: 14, valuelen=6
+2024.01.12 23:57:20 Server Debug     Vendor-spec defined: Enterprise: 3561, optionCode: 15, valuelen=12
+2024.01.12 23:57:20 Server Debug     Vendor-spec defined: Enterprise: 3561, optionCode: 16, valuelen=6
+2024.01.12 23:57:20 Server Debug     1 per-client configurations (exceptions) added.
+2024.01.12 23:57:20 Server Debug     Parsing /etc/dibbler/server.conf done.
+2024.01.12 23:57:20 Server Info      0 client class(es) defined.
+2024.01.12 23:57:20 Server Debug     3 interface(s) specified in /etc/dibbler/server.conf
+2024.01.12 23:57:20 Server Info      Mapping allow, deny list to class 0:0 allow/deny entries in total.
+2024.01.12 23:57:20 Server Info      Mapping allow, deny list to PD  0
+2024.01.12 23:57:20 Server Info      Interface brlan0/10 configuration has been loaded.
+2024.01.12 23:57:20 Server Info      Mapping allow, deny list to class 1:0 allow/deny entries in total.
+2024.01.12 23:57:20 Server Info      Interface brlan7/9 configuration has been loaded.
+2024.01.12 23:57:20 Server Info      Mapping allow, deny list to class 2:0 allow/deny entries in total.
+2024.01.12 23:57:20 Server Notice    Running in stateful mode.
+2024.01.12 23:57:20 Server Debug     Bulk-leasequery: enabled=no, TCP port=547, max conns=10, timeout=300
+2024.01.12 23:57:20 Server Debug     DUID's value = 00:01:00:01:2d:34:8e:56:04:e3:1a:75:09:11 was loaded from server-duid file.
+2024.01.12 23:57:20 Server Info      My DUID is 00:01:00:01:2d:34:8e:56:04:e3:1a:75:09:11.
+2024.01.12 23:57:20 Server Info      Loading old address database (server-AddrMgr.xml), using built-in routines.
+2024.01.12 23:57:20 Server Info      DB timestamp:1705103835, now()=1705103840, db is 5 second(s) old.
+2024.01.12 23:57:20 Server Debug     Auth: Replay detection value loaded 0
+2024.01.12 23:57:20 Server Debug     Cache:server-cache.xml file: parsing started, expecting 0 entries.
+2024.01.12 23:57:20 Server Notice    Creating multicast (ff02::1:2) socket on brlan0/10 (brlan0/10) interface.
+2024.01.12 23:57:20 Server Notice    Creating link-local (fe80::6e3:1aff:fe67:6a0c) socket on brlan0/10 interface.
+2024.01.12 23:57:20 Server Notice    Creating multicast (ff02::1:2) socket on brlan7/9 (brlan7/9) interface.
+2024.01.12 23:57:20 Server Notice    Creating link-local (fe80::cc3b:45ff:fe0d:b18d) socket on brlan7/9 interface.
+2024.01.12 23:57:20 Server Info      Relay init: Creating socket on the underlaying interface: brlan0/10.
+2024.01.12 23:57:20 Server Notice    Creating multicast (ff05::1:3) socket on relay1/1024 (brlan0/10) interface.
+2024.01.12 23:57:20 Server Notice    Address fe80::6e3:1aff:fe67:6a0c is already bound on the brlan0.
+2024.01.12 23:57:20 Server Debug     Checking which clients need RECONFIGURE.
+2024.01.12 23:57:20 Server Info      Sent Reconfigure to 0 client(s).
+2024.01.12 23:57:20 Server Debug     Cache: size set to 1048576 bytes, 1 cache entry size is 115 bytes, so maximum 9118 address-client pair(s) may be cached.
+2024.01.12 23:57:20 Server Debug     Cache: Attempt to delete 3001:dbe:0:ec00::123 failed.
+2024.01.12 23:57:20 Server Debug     Cache: Attempt to delete 3001:dbe:0:ec00:: failed.
+2024.01.12 23:57:20 Server Debug     Cache: Attempt to delete 3001:dbe:0:ec00::123 failed.
+2024.01.12 23:57:20 Server Debug     Cache: Attempt to delete 3001:dbe:0:ec00:: failed.
+2024.01.12 23:57:20 Server Debug     Increased pools usage: currently 0 address(es) and 0 prefix(es) are leased.
+2024.01.12 23:57:20 Server Notice    Server begins operation.
+2024.01.12 23:57:20 Server Notice    Accepting connections. Next event in 4294967295 second(s).

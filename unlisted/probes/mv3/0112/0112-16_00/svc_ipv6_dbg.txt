@@ -1,0 +1,44 @@
+serv_ipv6_init: unknown erouter topology mode, settinf default mode to FAVOR_WIDTH 
+[SERVICE-IPV6] EXEC: restart
+Get the IA_NA and IA_PD info: IA_NA:2001:dbe:0:1::250 1 1771 2834 3543 3543, IA_PD:3001:dbe:0:ec00:: 56 1771 2834 3543 3543
+erouter0 ipv6 prefix: 3001:dbe:0:ec00::/56
+sub-prefix:3001:dbe:0:ec00::/59
+sub-prefix:3001:dbe:0:ec20::/59
+sub-prefix:3001:dbe:0:ec40::/59
+sub-prefix:3001:dbe:0:ec60::/59
+sub-prefix:3001:dbe:0:ec80::/59
+sub-prefix:3001:dbe:0:eca0::/59
+sub-prefix:3001:dbe:0:ecc0::/59
+sub-prefix:3001:dbe:0:ece0::/59
+interface-prefix brlan0:3001:dbe:0:ec00::/64
+interface-prefix brlan7:3001:dbe:0:ec01::/64
+the global ipv6 address is:3001:dbe:0:ec00:06e3:1aFF:FE67:6a0c
+the global ipv6 address is:3001:dbe:0:ec01:cC3b:45FF:FE0d:b18d
+dhcpv6s_start:2263 call gen_dibbler_conf 
+deviceManufacturerOUI: 38A659
+deviceSerialNumber: MV3000001709
+deviceProductClass: MERCV3
+Get the IA_NA and IA_PD info: IA_NA:2001:dbe:0:1::250 1 1771 2834 3543 3543, IA_PD:3001:dbe:0:ec00:: 56 1771 2834 3543 3543
+erouter0 ipv6 prefix: 3001:dbe:0:ec00::/56
+gen_dibbler_conf:1825 dhcpv6s_cfg.pool_num:5
+gen_dibbler_conf:1981 HwAddr:04:e3:1a:67:6a:0c
+ 
+gen_dibbler_conf:2000 colon_count:5 
+dhcpv6s_start:2268 gen_dibbler_conf done 
+dhcpv6s_start:2309 calling dibbler-server start 
+Closing DBUS connection 
+serv_ipv6_init: unknown erouter topology mode, settinf default mode to FAVOR_WIDTH 
+[SERVICE-IPV6] EXEC: dhcpv6s-restart
+dhcpv6s_start:2263 call gen_dibbler_conf 
+deviceManufacturerOUI: 38A659
+deviceSerialNumber: MV3000001709
+deviceProductClass: MERCV3
+Get the IA_NA and IA_PD info: IA_NA:2001:dbe:0:1::250 1 1771 2834 3543 3543, IA_PD:3001:dbe:0:ec00:: 56 1771 2834 3543 3543
+erouter0 ipv6 prefix: 3001:dbe:0:ec00::/56
+gen_dibbler_conf:1825 dhcpv6s_cfg.pool_num:5
+gen_dibbler_conf:1981 HwAddr:04:e3:1a:67:6a:0c
+ 
+gen_dibbler_conf:2000 colon_count:5 
+dhcpv6s_start:2268 gen_dibbler_conf done 
+dhcpv6s_start:2309 calling dibbler-server start 
+Closing DBUS connection 

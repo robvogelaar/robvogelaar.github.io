@@ -1,0 +1,11 @@
+suboption is vendor
+ suboption_data is 2636
+Suboption vendor-id is 2636 in option vendor=2636 1=68:74:74:70:3a:2f:2f:61:63:73:32:2e:72:65:76:64:6f:6d:61:69:6e:2e:63:6f:6d:3a:39:36:37:35 2=54:45:58:54 
+suboption is 1
+ suboption_data is 68:74:74:70:3a:2f:2f:61:63:73:32:2e:72:65:76:64:6f:6d:61:69:6e:2e:63:6f:6d:3a:39:36:37:35
+OPT17 for CL_V6OPTION_ACS_SERVER is received: 68:74:74:70:3a:2f:2f:61:63:73:32:2e:72:65:76:64:6f:6d:61:69:6e:2e:63:6f:6d:3a:39:36:37:35
+suboption_data is 687474703a2f2f616373322e726576646f6d61696e2e636f6d3a39363735
+sysevent set of ascii_url::http://acs2.revdomain.com:9675 from DHCP OPT17
+suboption is 2
+ suboption_data is 54:45:58:54
+ipv6_mg0_state=up ipv6-vendor-id=2636 dhcpv6_ntp_server=ntp2.revdomain.com ipv6_mg0_ipaddr=2001:dbd:0:1::252

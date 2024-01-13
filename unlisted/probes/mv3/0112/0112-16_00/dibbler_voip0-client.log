@@ -1,0 +1,109 @@
+2024.01.13 00:57:11 Client Notice    | Dibbler - a portable DHCPv6, version 1.0.2RC1 (CLIENT, Linux port)
+2024.01.13 00:57:11 Client Notice    My pid (2900) is stored in /tmp/dibbler_voip0/client.pid
+2024.01.13 00:57:11 Client Notice    Detected iface wl1/140, MAC=00:16:3e:f4:90:c7.
+2024.01.13 00:57:11 Client Notice    Detected iface wl0/138, MAC=00:16:3e:15:05:10.
+2024.01.13 00:57:11 Client Notice    Detected iface eth1/136, MAC=00:16:3e:67:6a:0c.
+2024.01.13 00:57:11 Client Notice    Detected iface eth0/134, MAC=04:e3:1a:75:09:11.
+2024.01.13 00:57:11 Client Notice    Detected iface vrf-voip0/15, MAC=9e:3e:f6:05:f3:ca.
+2024.01.13 00:57:11 Client Notice    Detected iface voip0/14, MAC=04:e3:1a:75:09:15.
+2024.01.13 00:57:11 Client Notice    Detected iface erouter0/13, MAC=04:e3:1a:75:09:11.
+2024.01.13 00:57:11 Client Notice    Detected iface vrf-mg0/12, MAC=fe:7d:b5:f0:8b:56.
+2024.01.13 00:57:11 Client Notice    Detected iface mg0/11, MAC=04:e3:1a:75:09:16.
+2024.01.13 00:57:11 Client Notice    Detected iface brlan0/10, MAC=04:e3:1a:67:6a:0c.
+2024.01.13 00:57:11 Client Notice    Detected iface brlan7/9, MAC=ce:3b:45:0d:b1:8d.
+2024.01.13 00:57:11 Client Notice    Detected iface brebhaul/8, MAC=42:f6:a3:da:58:e3.
+2024.01.13 00:57:11 Client Notice    Detected iface br403/7, MAC=66:93:23:bd:1a:c3.
+2024.01.13 00:57:11 Client Notice    Detected iface wl1.1/6, MAC=4e:e2:d3:4c:fe:69.
+2024.01.13 00:57:11 Client Notice    Detected iface wl0.1/5, MAC=66:a3:1f:fd:9b:a5.
+2024.01.13 00:57:11 Client Notice    Detected iface erspan0/4, MAC=00:00:00:00:00:00.
+2024.01.13 00:57:11 Client Notice    Detected iface gretap0/3, MAC=00:00:00:00:00:00.
+2024.01.13 00:57:11 Client Notice    Detected iface lo/1, MAC=00:00:00:00:00:00.
+2024.01.13 00:57:11 Client Notice    Parsing /tmp/dibbler_voip0/client.conf config file...
+2024.01.13 00:57:11 Client Info      Setting IAID to 888
+2024.01.13 00:57:11 Client Debug     Will request option 82 and iterpret response as hex.
+2024.01.13 00:57:11 Client Debug     Will send option 16 (hex data, len14)
+2024.01.13 00:57:11 Client Debug     Parsing /tmp/dibbler_voip0/client.conf done, result=0(success)
+2024.01.13 00:57:11 Client Debug     1 interface(s) specified in /tmp/dibbler_voip0/client.conf
+2024.01.13 00:57:11 Client Info      Interface voip0/14 configuration has been loaded.
+2024.01.13 00:57:11 Client Notice    Unable to open DUID file (client-duid), generating new DUID.
+2024.01.13 00:57:11 Client Debug     DUID creation: EN: EnterpriseNumber=3561, Enterprise ID=33:38:41:36:35:39:2d:4d:45:52:43:56:33:45:2d:4d:56:33:30:30:30:30:30:31:37:30:39:2d:56:4f:49:50
+2024.01.13 00:57:11 Client Notice    DUID creation: Generating 38-bytes long Enterprise Number (duid-en) DUID.
+2024.01.13 00:57:11 Client Info      My DUID is 00:02:00:00:0d:e9:33:38:41:36:35:39:2d:4d:45:52:43:56:33:45:2d:4d:56:33:30:30:30:30:30:31:37:30:39:2d:56:4f:49:50.
+2024.01.13 00:57:11 Client Info      Loading old address database (client-AddrMgr.xml), using built-in routines.
+2024.01.13 00:57:11 Client Warning   Unable to open client-AddrMgr.xml.
+2024.01.13 00:57:11 Client Debug     Bind reuse enabled (multiple instances allowed).
+2024.01.13 00:57:11 Client Notice    Creating socket (addr=fe80::6e3:1aff:fe75:915) on voip0/14 interface.
+2024.01.13 00:57:11 Client Debug     Initialising link-state detection for interfaces: voip0/14 
+2024.01.13 00:57:11 Client Notice    CONFIRM support compiled in.
+2024.01.13 00:57:11 Client Info      Creating SOLICIT message with 1 IA(s), no TA and 0 PD(s) on voip0/14 interface.
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with index 0
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with type  1
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with index 1
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with type  3
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with index 2
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with type  8
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with index 3
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with type  16
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with index 4
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with type  6
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Packet size of option (Add 4) 94
+2024.01.13 00:57:11 Client Debug     Sending SOLICIT(opts:1 3 8 16 6 ) on voip0/14 to multicast.
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with index 0
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with type  1
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with index 1
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with type  3
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with index 2
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with type  8
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with index 3
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with type  16
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with index 4
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with type  6
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Packet size of option (Add 4) 94
+2024.01.13 00:57:11 Client Debug     Sleeping for 1 second(s).
+2024.01.13 00:57:11 Client Debug     Received 128 bytes on interface voip0/14 (socket=1, addr=fe80::216:3eff:fe00:981).
+2024.01.13 00:57:11 Client Info      Received ADVERTISE on voip0/14,trans-id=0x6f63bb, 4 opts: 3 1 2 23
+2024.01.13 00:57:11 Client Info      Creating REQUEST. Backup server list contains 1 server(s).
+2024.01.13 00:57:11 Client Debug     Advertise from Server ID=00:01:00:01:2d:2b:10:22:00:16:3e:00:09:81, preference=0.[using this]
+2024.01.13 00:57:11 Client Debug     Script execution skipped for ADVERTISE response to SOLICIT. No action needed for this message type.
+2024.01.13 00:57:11 Client Info      Processing msg (REQUEST,transID=0xf78b7e,opts: 1 3 16 6 2 8)
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with index 0
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with type  1
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with index 1
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with type  3
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with index 2
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with type  16
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with index 3
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with type  6
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with index 4
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with type  2
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with index 5
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with type  8
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Packet size of option (Add 4) 140
+2024.01.13 00:57:11 Client Debug     Sending REQUEST(opts:1 3 16 6 2 8 ) on voip0/14 to multicast.
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with index 0
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with type  1
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with index 1
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with type  3
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with index 2
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with type  16
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with index 3
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with type  6
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with index 4
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with type  2
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with index 5
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Option with type  8
+2024.01.13 00:57:11 Client Info      ### CPE Debug - Packet size of option (Add 4) 140
+2024.01.13 00:57:11 Client Debug     Sleeping for 1 second(s).
+2024.01.13 00:57:11 Client Debug     Received 128 bytes on interface voip0/14 (socket=1, addr=fe80::216:3eff:fe00:981).
+2024.01.13 00:57:11 Client Info      Received REPLY on voip0/14,trans-id=0xf78b7e, 4 opts: 3 1 2 23
+2024.01.13 00:57:11 Client Notice    Address 2001:dbc:0:1::251/128 added to voip0/14 interface.
+2024.01.13 00:57:11 Client Debug     RENEW(IA_NA) will be sent (T1) after 1800, REBIND (T2) after 2880 seconds.
+2024.01.13 00:57:11 Client Notice    Setting up DNS server 2001:dbc:0:1::129 on interface voip0/14.
+2024.01.13 00:57:11 Client Warning   All IA(s), TA and PD(s) has been configured, but some options (24 82 16 ) were not assigned.
+2024.01.13 00:57:11 Client Notice    Insist-mode disabled, giving up (not sending INF-REQUEST).
+2024.01.13 00:57:11 Client Debug     About to execute /tmp/dibbler_voip0/client-notify.sh script, 15 variables.
+2024.01.13 00:57:11 Client Debug     Script execution complete, return code=0
+2024.01.13 00:57:11 Client Debug     Sleeping for 3 second(s).
+2024.01.13 00:57:14 Client Debug     Sleeping for 1 second(s).
+2024.01.13 00:57:15 Client Debug     DAD finished successfully. Address 2001:dbc:0:1::251 is not tentative.
+2024.01.13 00:57:15 Client Debug     Sleeping for 1796 second(s).

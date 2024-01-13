@@ -1,0 +1,450 @@
+[0.01 seconds] IPv6 Routing Table 255 has changed (excluding RTA_CACHEINFO):
+[attrs] [[('RTA_TABLE', 255), ('RTA_DST', '127.0.0.0'), ('RTA_PREFSRC', '127.0.0.1'), ('Interface', 'lo')]] 
+[attrs] [[('RTA_TABLE', 255), ('RTA_DST', '127.0.0.1'), ('RTA_PREFSRC', '127.0.0.1'), ('Interface', 'lo')]] 
+[attrs] [[('RTA_TABLE', 255), ('RTA_DST', '127.255.255.255'), ('RTA_PREFSRC', '127.0.0.1'), ('Interface', 'lo')]] 
+
+[0.00 seconds] IPv6 Routing Table 254 has changed (excluding RTA_CACHEINFO):
+
+[0.00 seconds] IPv6 Routing Table 100 has changed (excluding RTA_CACHEINFO):
+
+[0.00 seconds] IPv6 Routing Table 200 has changed (excluding RTA_CACHEINFO):
+
+[5.13 seconds] IPv6 Routing Table 254 has changed (excluding RTA_CACHEINFO):
+[attrs] [[('RTA_TABLE', 254), ('RTA_DST', '169.254.85.0'), ('RTA_PREFSRC', '169.254.85.1'), ('Interface', 'brebhaul')]] 
+[attrs] [[('RTA_TABLE', 254), ('RTA_DST', '192.168.245.0'), ('RTA_PREFSRC', '192.168.245.1'), ('Interface', 'br403')]] 
+
+[5.06 seconds] No significant change in IPv6 Routing Table 200.
+
+[5.10 seconds] No significant change in IPv6 Routing Table 100.
+
+[5.15 seconds] IPv6 Routing Table 255 has changed (excluding RTA_CACHEINFO):
+[attrs] [[('RTA_TABLE', 255), ('RTA_DST', '127.0.0.0'), ('RTA_PREFSRC', '127.0.0.1'), ('Interface', 'lo')]] 
+[attrs] [[('RTA_TABLE', 255), ('RTA_DST', '127.0.0.1'), ('RTA_PREFSRC', '127.0.0.1'), ('Interface', 'lo')]] 
+[attrs] [[('RTA_TABLE', 255), ('RTA_DST', '127.255.255.255'), ('RTA_PREFSRC', '127.0.0.1'), ('Interface', 'lo')]] 
+[attrs] [[('RTA_TABLE', 255), ('RTA_DST', '169.254.85.1'), ('RTA_PREFSRC', '169.254.85.1'), ('Interface', 'brebhaul')]] 
+[attrs] [[('RTA_TABLE', 255), ('RTA_DST', '169.254.85.255'), ('RTA_PREFSRC', '169.254.85.1'), ('Interface', 'brebhaul')]] 
+[attrs] [[('RTA_TABLE', 255), ('RTA_DST', '192.168.245.1'), ('RTA_PREFSRC', '192.168.245.1'), ('Interface', 'br403')]] 
+[attrs] [[('RTA_TABLE', 255), ('RTA_DST', '192.168.245.255'), ('RTA_PREFSRC', '192.168.245.1'), ('Interface', 'br403')]] 
+
+[10.17 seconds] IPv6 Routing Table 100 has changed (excluding RTA_CACHEINFO):
+[attrs] [[('RTA_TABLE', 100), ('RTA_PRIORITY', 4278198272)]] 
+
+[10.14 seconds] IPv6 Routing Table 200 has changed (excluding RTA_CACHEINFO):
+[attrs] [[('RTA_TABLE', 200), ('RTA_PRIORITY', 4278198272)]] 
+
+[10.21 seconds] IPv6 Routing Table 254 has changed (excluding RTA_CACHEINFO):
+[attrs] [[('RTA_TABLE', 254), ('RTA_DST', '169.254.85.0'), ('RTA_PREFSRC', '169.254.85.1'), ('Interface', 'brebhaul')]] 
+[attrs] [[('RTA_TABLE', 254), ('RTA_DST', '192.168.0.0'), ('RTA_PREFSRC', '192.168.0.1'), ('Interface', 'brlan0')]] 
+[attrs] [[('RTA_TABLE', 254), ('RTA_DST', '192.168.101.0'), ('RTA_PREFSRC', '192.168.101.1'), ('Interface', 'brlan7')]] 
+[attrs] [[('RTA_TABLE', 254), ('RTA_DST', '192.168.245.0'), ('RTA_PREFSRC', '192.168.245.1'), ('Interface', 'br403')]] 
+
+[10.25 seconds] IPv6 Routing Table 255 has changed (excluding RTA_CACHEINFO):
+[attrs] [[('RTA_TABLE', 255), ('RTA_DST', '127.0.0.0'), ('RTA_PREFSRC', '127.0.0.1'), ('Interface', 'lo')]] 
+[attrs] [[('RTA_TABLE', 255), ('RTA_DST', '127.0.0.1'), ('RTA_PREFSRC', '127.0.0.1'), ('Interface', 'lo')]] 
+[attrs] [[('RTA_TABLE', 255), ('RTA_DST', '127.255.255.255'), ('RTA_PREFSRC', '127.0.0.1'), ('Interface', 'lo')]] 
+[attrs] [[('RTA_TABLE', 255), ('RTA_DST', '169.254.85.1'), ('RTA_PREFSRC', '169.254.85.1'), ('Interface', 'brebhaul')]] 
+[attrs] [[('RTA_TABLE', 255), ('RTA_DST', '169.254.85.255'), ('RTA_PREFSRC', '169.254.85.1'), ('Interface', 'brebhaul')]] 
+[attrs] [[('RTA_TABLE', 255), ('RTA_DST', '192.168.0.1'), ('RTA_PREFSRC', '192.168.0.1'), ('Interface', 'brlan0')]] 
+[attrs] [[('RTA_TABLE', 255), ('RTA_DST', '192.168.0.255'), ('RTA_PREFSRC', '192.168.0.1'), ('Interface', 'brlan0')]] 
+[attrs] [[('RTA_TABLE', 255), ('RTA_DST', '192.168.101.1'), ('RTA_PREFSRC', '192.168.101.1'), ('Interface', 'brlan7')]] 
+[attrs] [[('RTA_TABLE', 255), ('RTA_DST', '192.168.101.255'), ('RTA_PREFSRC', '192.168.101.1'), ('Interface', 'brlan7')]] 
+[attrs] [[('RTA_TABLE', 255), ('RTA_DST', '192.168.245.1'), ('RTA_PREFSRC', '192.168.245.1'), ('Interface', 'br403')]] 
+[attrs] [[('RTA_TABLE', 255), ('RTA_DST', '192.168.245.255'), ('RTA_PREFSRC', '192.168.245.1'), ('Interface', 'br403')]] 
+
+[15.26 seconds] No significant change in IPv6 Routing Table 100.
+
+[15.23 seconds] No significant change in IPv6 Routing Table 200.
+
+[15.31 seconds] No significant change in IPv6 Routing Table 254.
+
+[15.36 seconds] No significant change in IPv6 Routing Table 255.
+
+[20.30 seconds] No significant change in IPv6 Routing Table 200.
+
+[20.34 seconds] No significant change in IPv6 Routing Table 100.
+
+[20.39 seconds] IPv6 Routing Table 254 has changed (excluding RTA_CACHEINFO):
+[attrs] [[('RTA_TABLE', 254), ('RTA_GATEWAY', '10.178.200.1'), ('Interface', 'erouter0')]] 
+[attrs] [[('RTA_TABLE', 254), ('RTA_DST', '10.178.0.0'), ('RTA_PREFSRC', '10.178.200.101'), ('Interface', 'erouter0')]] 
+[attrs] [[('RTA_TABLE', 254), ('RTA_DST', '169.254.85.0'), ('RTA_PREFSRC', '169.254.85.1'), ('Interface', 'brebhaul')]] 
+[attrs] [[('RTA_TABLE', 254), ('RTA_DST', '192.168.0.0'), ('RTA_PREFSRC', '192.168.0.1'), ('Interface', 'brlan0')]] 
+[attrs] [[('RTA_TABLE', 254), ('RTA_DST', '192.168.101.0'), ('RTA_PREFSRC', '192.168.101.1'), ('Interface', 'brlan7')]] 
+[attrs] [[('RTA_TABLE', 254), ('RTA_DST', '192.168.245.0'), ('RTA_PREFSRC', '192.168.245.1'), ('Interface', 'br403')]] 
+
+[20.43 seconds] IPv6 Routing Table 255 has changed (excluding RTA_CACHEINFO):
+[attrs] [[('RTA_TABLE', 255), ('RTA_DST', '10.178.200.101'), ('RTA_PREFSRC', '10.178.200.101'), ('Interface', 'erouter0')]] 
+[attrs] [[('RTA_TABLE', 255), ('RTA_DST', '10.178.255.255'), ('RTA_PREFSRC', '10.178.200.101'), ('Interface', 'erouter0')]] 
+[attrs] [[('RTA_TABLE', 255), ('RTA_DST', '127.0.0.0'), ('RTA_PREFSRC', '127.0.0.1'), ('Interface', 'lo')]] 
+[attrs] [[('RTA_TABLE', 255), ('RTA_DST', '127.0.0.1'), ('RTA_PREFSRC', '127.0.0.1'), ('Interface', 'lo')]] 
+[attrs] [[('RTA_TABLE', 255), ('RTA_DST', '127.255.255.255'), ('RTA_PREFSRC', '127.0.0.1'), ('Interface', 'lo')]] 
+[attrs] [[('RTA_TABLE', 255), ('RTA_DST', '169.254.85.1'), ('RTA_PREFSRC', '169.254.85.1'), ('Interface', 'brebhaul')]] 
+[attrs] [[('RTA_TABLE', 255), ('RTA_DST', '169.254.85.255'), ('RTA_PREFSRC', '169.254.85.1'), ('Interface', 'brebhaul')]] 
+[attrs] [[('RTA_TABLE', 255), ('RTA_DST', '192.168.0.1'), ('RTA_PREFSRC', '192.168.0.1'), ('Interface', 'brlan0')]] 
+[attrs] [[('RTA_TABLE', 255), ('RTA_DST', '192.168.0.255'), ('RTA_PREFSRC', '192.168.0.1'), ('Interface', 'brlan0')]] 
+[attrs] [[('RTA_TABLE', 255), ('RTA_DST', '192.168.101.1'), ('RTA_PREFSRC', '192.168.101.1'), ('Interface', 'brlan7')]] 
+[attrs] [[('RTA_TABLE', 255), ('RTA_DST', '192.168.101.255'), ('RTA_PREFSRC', '192.168.101.1'), ('Interface', 'brlan7')]] 
+[attrs] [[('RTA_TABLE', 255), ('RTA_DST', '192.168.245.1'), ('RTA_PREFSRC', '192.168.245.1'), ('Interface', 'br403')]] 
+[attrs] [[('RTA_TABLE', 255), ('RTA_DST', '192.168.245.255'), ('RTA_PREFSRC', '192.168.245.1'), ('Interface', 'br403')]] 
+
+[25.40 seconds] No significant change in IPv6 Routing Table 200.
+
+[25.44 seconds] No significant change in IPv6 Routing Table 100.
+
+[25.50 seconds] No significant change in IPv6 Routing Table 254.
+
+[25.56 seconds] No significant change in IPv6 Routing Table 255.
+
+[30.44 seconds] No significant change in IPv6 Routing Table 200.
+
+[30.51 seconds] No significant change in IPv6 Routing Table 100.
+
+[30.57 seconds] No significant change in IPv6 Routing Table 254.
+
+[30.60 seconds] No significant change in IPv6 Routing Table 255.
+
+[35.61 seconds] No significant change in IPv6 Routing Table 200.
+
+[35.67 seconds] No significant change in IPv6 Routing Table 100.
+
+[35.70 seconds] No significant change in IPv6 Routing Table 254.
+
+[35.73 seconds] No significant change in IPv6 Routing Table 255.
+
+[40.73 seconds] No significant change in IPv6 Routing Table 200.
+
+[40.79 seconds] No significant change in IPv6 Routing Table 100.
+
+[40.81 seconds] No significant change in IPv6 Routing Table 254.
+
+[40.86 seconds] No significant change in IPv6 Routing Table 255.
+
+[45.93 seconds] No significant change in IPv6 Routing Table 255.
+
+[45.86 seconds] No significant change in IPv6 Routing Table 200.
+
+[45.93 seconds] No significant change in IPv6 Routing Table 254.
+
+[45.89 seconds] No significant change in IPv6 Routing Table 100.
+
+[51.03 seconds] No significant change in IPv6 Routing Table 255.
+
+[50.99 seconds] No significant change in IPv6 Routing Table 100.
+
+[50.96 seconds] No significant change in IPv6 Routing Table 200.
+
+[51.04 seconds] No significant change in IPv6 Routing Table 254.
+
+[56.11 seconds] No significant change in IPv6 Routing Table 100.
+
+[56.16 seconds] No significant change in IPv6 Routing Table 255.
+
+[56.09 seconds] No significant change in IPv6 Routing Table 200.
+
+[56.15 seconds] No significant change in IPv6 Routing Table 254.
+
+[61.22 seconds] No significant change in IPv6 Routing Table 255.
+
+[61.21 seconds] No significant change in IPv6 Routing Table 100.
+
+[61.23 seconds] No significant change in IPv6 Routing Table 254.
+
+[61.19 seconds] No significant change in IPv6 Routing Table 200.
+
+[66.35 seconds] No significant change in IPv6 Routing Table 255.
+
+[66.31 seconds] No significant change in IPv6 Routing Table 100.
+
+[66.28 seconds] No significant change in IPv6 Routing Table 200.
+
+[66.36 seconds] No significant change in IPv6 Routing Table 254.
+
+[71.43 seconds] No significant change in IPv6 Routing Table 255.
+
+[71.42 seconds] No significant change in IPv6 Routing Table 100.
+
+[71.38 seconds] No significant change in IPv6 Routing Table 200.
+
+[71.47 seconds] No significant change in IPv6 Routing Table 254.
+
+[76.53 seconds] No significant change in IPv6 Routing Table 255.
+
+[76.55 seconds] No significant change in IPv6 Routing Table 254.
+
+[76.55 seconds] No significant change in IPv6 Routing Table 100.
+
+[76.51 seconds] No significant change in IPv6 Routing Table 200.
+
+[81.65 seconds] No significant change in IPv6 Routing Table 254.
+
+[81.62 seconds] No significant change in IPv6 Routing Table 100.
+
+[81.70 seconds] No significant change in IPv6 Routing Table 255.
+
+[81.62 seconds] No significant change in IPv6 Routing Table 200.
+
+[86.68 seconds] No significant change in IPv6 Routing Table 254.
+
+[86.69 seconds] No significant change in IPv6 Routing Table 200.
+
+[86.73 seconds] No significant change in IPv6 Routing Table 100.
+
+[86.80 seconds] No significant change in IPv6 Routing Table 255.
+
+[91.71 seconds] No significant change in IPv6 Routing Table 254.
+
+[91.75 seconds] No significant change in IPv6 Routing Table 200.
+
+[91.81 seconds] No significant change in IPv6 Routing Table 100.
+
+[91.85 seconds] No significant change in IPv6 Routing Table 255.
+
+[96.76 seconds] No significant change in IPv6 Routing Table 254.
+
+[96.80 seconds] No significant change in IPv6 Routing Table 200.
+
+[96.88 seconds] No significant change in IPv6 Routing Table 100.
+
+[96.94 seconds] No significant change in IPv6 Routing Table 255.
+
+[101.82 seconds] No significant change in IPv6 Routing Table 254.
+
+[101.90 seconds] No significant change in IPv6 Routing Table 200.
+
+[102.03 seconds] No significant change in IPv6 Routing Table 255.
+
+[101.99 seconds] No significant change in IPv6 Routing Table 100.
+
+[106.87 seconds] No significant change in IPv6 Routing Table 254.
+
+[107.06 seconds] No significant change in IPv6 Routing Table 100.
+
+[107.03 seconds] No significant change in IPv6 Routing Table 200.
+
+[107.12 seconds] No significant change in IPv6 Routing Table 255.
+
+[111.92 seconds] No significant change in IPv6 Routing Table 254.
+
+[112.15 seconds] No significant change in IPv6 Routing Table 100.
+
+[112.21 seconds] No significant change in IPv6 Routing Table 255.
+
+[112.13 seconds] No significant change in IPv6 Routing Table 200.
+
+[116.96 seconds] No significant change in IPv6 Routing Table 254.
+
+[117.24 seconds] No significant change in IPv6 Routing Table 100.
+
+[117.30 seconds] No significant change in IPv6 Routing Table 255.
+
+[117.23 seconds] No significant change in IPv6 Routing Table 200.
+
+[122.01 seconds] No significant change in IPv6 Routing Table 254.
+
+[122.30 seconds] No significant change in IPv6 Routing Table 200.
+
+[122.40 seconds] No significant change in IPv6 Routing Table 255.
+
+[122.36 seconds] No significant change in IPv6 Routing Table 100.
+
+[127.05 seconds] No significant change in IPv6 Routing Table 254.
+
+[127.43 seconds] No significant change in IPv6 Routing Table 100.
+
+[127.48 seconds] No significant change in IPv6 Routing Table 255.
+
+[127.41 seconds] No significant change in IPv6 Routing Table 200.
+
+[132.09 seconds] No significant change in IPv6 Routing Table 254.
+
+[132.55 seconds] No significant change in IPv6 Routing Table 255.
+
+[132.48 seconds] No significant change in IPv6 Routing Table 200.
+
+[132.53 seconds] No significant change in IPv6 Routing Table 100.
+
+[137.13 seconds] No significant change in IPv6 Routing Table 254.
+
+[137.66 seconds] No significant change in IPv6 Routing Table 255.
+
+[137.61 seconds] No significant change in IPv6 Routing Table 200.
+
+[137.65 seconds] No significant change in IPv6 Routing Table 100.
+
+[142.18 seconds] No significant change in IPv6 Routing Table 254.
+
+[142.74 seconds] No significant change in IPv6 Routing Table 200.
+
+[142.87 seconds] No significant change in IPv6 Routing Table 255.
+
+[142.83 seconds] No significant change in IPv6 Routing Table 100.
+
+[147.21 seconds] No significant change in IPv6 Routing Table 254.
+
+[147.83 seconds] No significant change in IPv6 Routing Table 200.
+
+[147.95 seconds] No significant change in IPv6 Routing Table 255.
+
+[147.91 seconds] No significant change in IPv6 Routing Table 100.
+
+[152.25 seconds] No significant change in IPv6 Routing Table 254.
+
+[152.98 seconds] No significant change in IPv6 Routing Table 200.
+
+[153.06 seconds] No significant change in IPv6 Routing Table 100.
+
+[153.10 seconds] No significant change in IPv6 Routing Table 255.
+
+[157.29 seconds] No significant change in IPv6 Routing Table 254.
+
+[158.01 seconds] No significant change in IPv6 Routing Table 200.
+
+[158.09 seconds] No significant change in IPv6 Routing Table 100.
+
+[158.17 seconds] No significant change in IPv6 Routing Table 255.
+
+[162.31 seconds] No significant change in IPv6 Routing Table 254.
+
+[163.06 seconds] No significant change in IPv6 Routing Table 200.
+
+[163.19 seconds] No significant change in IPv6 Routing Table 100.
+
+[163.26 seconds] No significant change in IPv6 Routing Table 255.
+
+[167.34 seconds] No significant change in IPv6 Routing Table 254.
+
+[168.10 seconds] No significant change in IPv6 Routing Table 200.
+
+[168.23 seconds] No significant change in IPv6 Routing Table 100.
+
+[168.32 seconds] No significant change in IPv6 Routing Table 255.
+
+[172.37 seconds] No significant change in IPv6 Routing Table 254.
+
+[173.15 seconds] No significant change in IPv6 Routing Table 200.
+
+[173.27 seconds] No significant change in IPv6 Routing Table 100.
+
+[173.36 seconds] No significant change in IPv6 Routing Table 255.
+
+[177.41 seconds] No significant change in IPv6 Routing Table 254.
+
+[178.18 seconds] No significant change in IPv6 Routing Table 200.
+
+[178.31 seconds] No significant change in IPv6 Routing Table 100.
+
+[178.40 seconds] No significant change in IPv6 Routing Table 255.
+
+[182.44 seconds] No significant change in IPv6 Routing Table 254.
+
+[183.21 seconds] No significant change in IPv6 Routing Table 200.
+
+[183.33 seconds] No significant change in IPv6 Routing Table 100.
+
+[183.43 seconds] No significant change in IPv6 Routing Table 255.
+
+[187.48 seconds] No significant change in IPv6 Routing Table 254.
+
+[188.24 seconds] No significant change in IPv6 Routing Table 200.
+
+[188.36 seconds] No significant change in IPv6 Routing Table 100.
+
+[188.46 seconds] No significant change in IPv6 Routing Table 255.
+
+[192.52 seconds] No significant change in IPv6 Routing Table 254.
+
+[193.28 seconds] No significant change in IPv6 Routing Table 200.
+
+[193.40 seconds] No significant change in IPv6 Routing Table 100.
+
+[193.50 seconds] No significant change in IPv6 Routing Table 255.
+
+[197.55 seconds] No significant change in IPv6 Routing Table 254.
+
+[198.31 seconds] No significant change in IPv6 Routing Table 200.
+
+[198.45 seconds] No significant change in IPv6 Routing Table 100.
+
+[198.54 seconds] No significant change in IPv6 Routing Table 255.
+
+[202.60 seconds] No significant change in IPv6 Routing Table 254.
+
+[203.34 seconds] No significant change in IPv6 Routing Table 200.
+
+[203.49 seconds] No significant change in IPv6 Routing Table 100.
+
+[203.58 seconds] No significant change in IPv6 Routing Table 255.
+
+[207.64 seconds] No significant change in IPv6 Routing Table 254.
+
+[208.38 seconds] No significant change in IPv6 Routing Table 200.
+
+[208.51 seconds] No significant change in IPv6 Routing Table 100.
+
+[208.61 seconds] No significant change in IPv6 Routing Table 255.
+
+[212.69 seconds] No significant change in IPv6 Routing Table 254.
+
+[213.42 seconds] No significant change in IPv6 Routing Table 200.
+
+[213.55 seconds] No significant change in IPv6 Routing Table 100.
+
+[213.64 seconds] No significant change in IPv6 Routing Table 255.
+
+[217.72 seconds] No significant change in IPv6 Routing Table 254.
+
+[218.47 seconds] No significant change in IPv6 Routing Table 200.
+
+[218.60 seconds] No significant change in IPv6 Routing Table 100.
+
+[218.69 seconds] No significant change in IPv6 Routing Table 255.
+
+[222.77 seconds] No significant change in IPv6 Routing Table 254.
+
+[223.52 seconds] No significant change in IPv6 Routing Table 200.
+
+[223.68 seconds] No significant change in IPv6 Routing Table 100.
+
+[223.77 seconds] No significant change in IPv6 Routing Table 255.
+
+[227.82 seconds] No significant change in IPv6 Routing Table 254.
+
+[228.56 seconds] No significant change in IPv6 Routing Table 200.
+
+[228.79 seconds] No significant change in IPv6 Routing Table 100.
+
+[228.86 seconds] No significant change in IPv6 Routing Table 255.
+
+[232.87 seconds] No significant change in IPv6 Routing Table 254.
+
+[233.60 seconds] No significant change in IPv6 Routing Table 200.
+
+[233.90 seconds] No significant change in IPv6 Routing Table 100.
+
+[233.97 seconds] No significant change in IPv6 Routing Table 255.
+
+[237.91 seconds] No significant change in IPv6 Routing Table 254.
+
+[238.63 seconds] No significant change in IPv6 Routing Table 200.
+
+[238.94 seconds] No significant change in IPv6 Routing Table 100.
+
+[239.02 seconds] No significant change in IPv6 Routing Table 255.
+
+[242.94 seconds] No significant change in IPv6 Routing Table 254.
+
+[243.66 seconds] No significant change in IPv6 Routing Table 200.
+
+[243.97 seconds] No significant change in IPv6 Routing Table 100.
+
+[244.05 seconds] No significant change in IPv6 Routing Table 255.
+
+[247.97 seconds] No significant change in IPv6 Routing Table 254.
+
+[248.69 seconds] No significant change in IPv6 Routing Table 200.
+
+[249.00 seconds] No significant change in IPv6 Routing Table 100.
+
+[249.08 seconds] No significant change in IPv6 Routing Table 255.
+
+[253.00 seconds] No significant change in IPv6 Routing Table 254.
+

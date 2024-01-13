@@ -1,0 +1,243 @@
+3.491737 [mod=ETHAGENT, lvl=INFO] [tid=1053] 
+After daemonize before signal
+3.492142 [mod=ETHAGENT, lvl=INFO] [tid=1053] 
+before cmd_dispatch command
+3.492355 [mod=ETHAGENT, lvl=INFO] [tid=1053] Connect to bus daemon...
+3.492519 [mod=ETHAGENT, lvl=WARN] [tid=1053] RBus is enabled
+3.492577 [mod=ETHAGENT, lvl=INFO] [tid=1053] rbuscore.c:2290 RBus Enabled
+
+3.492622 [mod=ETHAGENT, lvl=INFO] [tid=1053] rbuscore.c:643 Broker address: unix:///tmp/rtrouted
+
+3.492645 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:377 Performing init
+
+3.492691 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:2516 Entry of _rbuscore_directconnection_load_from_cache
+
+3.492729 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:2520 file doesn't exist
+
+3.492950 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rtConnection.c:305 ConnectAndRegister creating first connection
+
+3.492985 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rtConnection.c:353 connecting to router
+
+3.493057 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rtConnection.c:357 router connection up
+
+3.493088 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rtConnection.c:375 trying connect
+
+3.493145 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rtConnection.c:396 connection made
+
+3.493172 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rtConnection.c:410 connect unix://:0 -> unix:///tmp/rtrouted:0
+
+3.493755 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:656 Successfully created connection for eRT.com.cisco.spvtg.ccsp.ethagent
+
+3.493809 [mod=ETHAGENT, lvl=INFO] [tid=1053] connection opened for eRT.com.cisco.spvtg.ccsp.ethagent
+3.493908 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:821 Registered object eRT.com.cisco.spvtg.ccsp.ethagent
+
+3.493946 [mod=ETHAGENT, lvl=INFO] [tid=1053] INFO: bus_handle: 0x0x9f14fb0 
+3.494099 [mod=ETHAGENT, lvl=DEBUG] [tid=1055] rtConnection.c:1698 Callback thread started
+
+3.494198 [mod=ETHAGENT, lvl=DEBUG] [tid=1054] rtConnection.c:1801 Reader thread started
+
+4.494568 [mod=ETHAGENT, lvl=INFO] [tid=1053] CcspBaseIf_Register_Event_rbus : rbus_registerEvent called for event: currentSessionIDSignal
+4.494617 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1583 Starting event dispatching.
+
+4.494644 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1612 Added subscription for event _rbus_session_mgr::currentSessionIDSignal.
+
+4.495354 [mod=ETHAGENT, lvl=INFO] [tid=1053] rbuscore.c:738 Subscription for _rbus_session_mgr::currentSessionIDSignal is now active.
+
+4.495735 [mod=ETHAGENT, lvl=WARN] [tid=1053] Register empty object : com.
+4.495770 [mod=ETHAGENT, lvl=WARN] [tid=1053] Register empty object : com.cisco.
+4.495800 [mod=ETHAGENT, lvl=WARN] [tid=1053] Register empty object : com.cisco.spvtg.
+4.495834 [mod=ETHAGENT, lvl=WARN] [tid=1053] Register empty object : com.cisco.spvtg.ccsp.
+4.496136 [mod=ETHAGENT, lvl=WARN] [tid=1053] DM Library module name = CCSP Base Data Model
+4.497177 [mod=ETHAGENT, lvl=WARN] [tid=1053] CosaEthernetInitialize Ethernet_Logger_Thread Created
+4.498119 [mod=ETHAGENT, lvl=ERROR] [tid=1053] Failed to dynamically get dmsb.ethagent.ethifcount. using fallback hardcoded value instead
+4.498844 [mod=ETHAGENT, lvl=ERROR] [tid=1053] Failed to get dmsb.ethagent.if.1.Name
+4.499432 [mod=ETHAGENT, lvl=ERROR] [tid=1053] Failed to get dmsb.ethagent.if.2.Name
+4.500019 [mod=ETHAGENT, lvl=ERROR] [tid=1053] Failed to get dmsb.ethagent.if.3.Name
+4.500683 [mod=ETHAGENT, lvl=ERROR] [tid=1053] Failed to get dmsb.ethagent.if.4.Name
+4.501305 [mod=ETHAGENT, lvl=ERROR] [tid=1053] Failed to dynamically get dmsb.ethagent.if.1.Name. using hardcoded fallback option
+4.501850 [mod=ETHAGENT, lvl=ERROR] [tid=1053] Failed to dynamically get dmsb.ethagent.if.2.Name. using hardcoded fallback option
+4.502430 [mod=ETHAGENT, lvl=ERROR] [tid=1053] Failed to dynamically get dmsb.ethagent.if.3.Name. using hardcoded fallback option
+4.502960 [mod=ETHAGENT, lvl=ERROR] [tid=1053] Failed to dynamically get dmsb.ethagent.if.4.Name. using hardcoded fallback option
+4.503181 [mod=ETHAGENT, lvl=INFO] [tid=1053] CosaDmlEthTriggerEventHandlerThread 3759 - Event Handler Thread Started Successfully
+4.504387 [mod=ETHAGENT, lvl=WARN] [tid=1053] RDKB_SYSTEM_BOOT_UP_LOG : Entering CosaBackEndManagerCreate 128
+4.504452 [mod=ETHAGENT, lvl=NOTICE] [tid=1053] _getMac...
+4.504501 [mod=ETHAGENT, lvl=NOTICE] [tid=1053] _getMac...
+4.505459 [mod=ETHAGENT, lvl=INFO] [tid=1053]  lan-status = stopped
+4.505520 [mod=ETHAGENT, lvl=NOTICE] [tid=1053] _getMac...
+4.505569 [mod=ETHAGENT, lvl=NOTICE] [tid=1053] _getMac...
+4.509312 [mod=ETHAGENT, lvl=NOTICE] [tid=1053] _getMac...
+4.509388 [mod=ETHAGENT, lvl=NOTICE] [tid=1053] _getMac...
+4.519005 [mod=ETHAGENT, lvl=NOTICE] [tid=1053] getIfStatus...
+4.522816 [mod=ETHAGENT, lvl=NOTICE] [tid=1053] getIfStatus...
+4.527283 [mod=ETHAGENT, lvl=WARN] [tid=1053]   CosaEthInterfaceCreate done!
+4.527493 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] 'unsignedInt[1:7]' UINT range [1:7]
+4.527767 [mod=ETHAGENT, lvl=WARN] [tid=1053] DM Library module name = CcspEthAgent
+4.528137 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] 'int[-1:]' Integer range [-1:2147483647]
+4.528721 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] Before Synchronizing:Device.Ethernet.Interface.1.X_RDKCENTRAL-COM_AssociatedDevice.
+4.528858 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] After Synchronizing:Device.Ethernet.Interface.1.X_RDKCENTRAL-COM_AssociatedDevice.:0
+4.528904 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] Before Synchronizing:Device.Ethernet.Interface.2.X_RDKCENTRAL-COM_AssociatedDevice.
+4.528999 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] After Synchronizing:Device.Ethernet.Interface.2.X_RDKCENTRAL-COM_AssociatedDevice.:0
+4.529034 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] Before Synchronizing:Device.Ethernet.Interface.3.X_RDKCENTRAL-COM_AssociatedDevice.
+4.529133 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] After Synchronizing:Device.Ethernet.Interface.3.X_RDKCENTRAL-COM_AssociatedDevice.:0
+4.529167 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] Before Synchronizing:Device.Ethernet.Interface.4.X_RDKCENTRAL-COM_AssociatedDevice.
+4.529263 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] After Synchronizing:Device.Ethernet.Interface.4.X_RDKCENTRAL-COM_AssociatedDevice.:0
+4.529297 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] Before Synchronizing:Device.Ethernet.Interface.5.X_RDKCENTRAL-COM_AssociatedDevice.
+4.529388 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] After Synchronizing:Device.Ethernet.Interface.5.X_RDKCENTRAL-COM_AssociatedDevice.:0
+4.529514 [mod=ETHAGENT, lvl=WARN] [tid=1053] Search for empty object in 'dslhCpeCheckEmptyObject'
+4.530426 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias com.cisco.spvtg.ccsp.ethagent.Name for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.530762 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias com.cisco.spvtg.ccsp.ethagent.Version for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.532871 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias com.cisco.spvtg.ccsp.ethagent.Author for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.533146 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias com.cisco.spvtg.ccsp.ethagent.Health for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.533375 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias com.cisco.spvtg.ccsp.ethagent.State for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.533607 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias com.cisco.spvtg.ccsp.ethagent.DTXml for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.533867 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias com.cisco.spvtg.ccsp.ethagent.Register for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.534100 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias com.cisco.spvtg.ccsp.ethagent.Logging.Enable for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.534325 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias com.cisco.spvtg.ccsp.ethagent.Logging.LogLevel for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.534542 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias com.cisco.spvtg.ccsp.ethagent.Memory.MinUsage for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.534786 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias com.cisco.spvtg.ccsp.ethagent.Memory.MaxUsage for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.535015 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias com.cisco.spvtg.ccsp.ethagent.Memory.Consumed for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.535244 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.DeviceInfo.X_RDKCENTRAL-COM_AutowanFeatureSupport for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.535477 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.DeviceInfo.X_RDKCENTRAL-COM_xOpsDeviceMgmt.Logging.xOpsDMEthLogEnabled for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.535706 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.DeviceInfo.X_RDKCENTRAL-COM_xOpsDeviceMgmt.Logging.xOpsDMEthLogPeriod for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.535942 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.X_RDKCENTRAL-COM_EthHost_Sync for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.536182 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.X_RDKCENTRAL-COM_WAN.Enabled for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.536701 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.X_RDKCENTRAL-COM_WAN.Port for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.536949 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.InterfaceNumberOfEntries for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.537193 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.Interface.{i}.Enable for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.537422 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.Interface.{i}.Status for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.539982 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.Interface.{i}.Alias for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.540413 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.Interface.{i}.Name for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.540714 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.Interface.{i}.LastChange for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.540958 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.Interface.{i}.LowerLayers for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.541187 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.Interface.{i}.Upstream for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.541424 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.Interface.{i}.MACAddress for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.541630 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.Interface.{i}.MaxBitRate for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.541878 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.Interface.{i}.CurrentBitRate for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.542110 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.Interface.{i}.DuplexMode for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.542427 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.Interface.{i}.EEECapability for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.542725 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.Interface.{i}.EEEEnable for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.542976 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.Interface.{i}.X_CISCO_COM_AssociatedDevice for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.543217 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.Interface.{i}.X_RDKCENTRAL-COM_AssociatedDeviceNumberOfEntries for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.543465 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.Interface.{i}.X_RDKCENTRAL-COM_AssociatedDevice.{i}.MACAddress for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.543705 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.Interface.{i}.Stats.BytesSent for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.543934 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.Interface.{i}.Stats.BytesReceived for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.544174 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.Interface.{i}.Stats.PacketsSent for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.544785 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.Interface.{i}.Stats.PacketsReceived for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.545013 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.Interface.{i}.Stats.ErrorsSent for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.545238 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.Interface.{i}.Stats.ErrorsReceived for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.545467 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.Interface.{i}.Stats.UnicastPacketsSent for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.545712 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.Interface.{i}.Stats.UnicastPacketsReceived for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.545944 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.Interface.{i}.Stats.DiscardPacketsSent for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.546177 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.Interface.{i}.Stats.DiscardPacketsReceived for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.546413 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.Interface.{i}.Stats.MulticastPacketsSent for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.546642 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.Interface.{i}.Stats.MulticastPacketsReceived for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.546879 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.Interface.{i}.Stats.BroadcastPacketsSent for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.547100 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.Interface.{i}.Stats.BroadcastPacketsReceived for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.547329 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.Interface.{i}.Stats.UnknownProtoPacketsReceived for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.547573 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.X_RDK_InterfaceNumberOfEntries for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.547806 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.X_RDK_Interface.{i}.Upstream for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.548035 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.X_RDK_Interface.{i}.WanValidated for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.548687 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.X_RDK_Interface.{i}.Name for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.549011 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.X_RDK_Interface.{i}.Status for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.549263 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.X_RDK_Interface.{i}.WanStatus for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.549522 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.X_RDK_Interface.{i}.Enable for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.549786 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.X_RDK_Interface.{i}.LowerLayers for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.550049 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.X_RDK_Interface.{i}.WanConfigPort for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.550308 [mod=ETHAGENT, lvl=DEBUG] [tid=1053] rbuscore.c:1018 Added alias Device.Ethernet.X_RDK_Interface.{i}.AddToLanBridge for object eRT.com.cisco.spvtg.ccsp.ethagent.
+
+4.551067 [mod=ETHAGENT, lvl=WARN] [tid=1053] 
+Before Cdm_Init
+4.551109 [mod=ETHAGENT, lvl=WARN] [tid=1053] 
+After Cdm_Init
+5.016861 [mod=ETHAGENT, lvl=DEBUG] [tid=1055] thread_path_message_func_rbus Component ID: eRT.com.cisco.spvtg.ccsp.ethagent method: METHOD_GETPARAMETERVALUES reply_topic:rbus.wanmanager.INBOX.1018
+5.016922 [mod=ETHAGENT, lvl=DEBUG] [tid=1055] parameterNames[0]: com.cisco.spvtg.ccsp.ethagent.Health
+5.017044 [mod=ETHAGENT, lvl=DEBUG] [tid=1055] getParameterValues: size 1 result 100
+5.017071 [mod=ETHAGENT, lvl=DEBUG] [tid=1055] val[0]->parameterName com.cisco.spvtg.ccsp.ethagent.Health val[0]->parameterValue Green
+5.075439 [mod=ETHAGENT, lvl=DEBUG] [tid=1055] thread_path_message_func_rbus Component ID: eRT.com.cisco.spvtg.ccsp.ethagent method: METHOD_SETPARAMETERVALUES reply_topic:rbus.wanmanager.INBOX.1018
+5.075619 [mod=ETHAGENT, lvl=WARN] [tid=1055] DslhObjcoValidate: AddToLanBridge, bsUpdate = 3
+
+5.075653 [mod=ETHAGENT, lvl=WARN] [tid=1055] Before committing:Device.Ethernet.X_RDK_Interface.1.
+5.075676 [mod=ETHAGENT, lvl=WARN] [tid=1055] After committing:Device.Ethernet.X_RDK_Interface.1.:0
+5.075699 [mod=ETHAGENT, lvl=DEBUG] [tid=1055] setParameterValues result 100
+5.505985 [mod=ETHAGENT, lvl=INFO] [tid=1247] [EthWanLinkUp_callback][4645] WANOE [eth0] interface link up event received 
+5.506077 [mod=ETHAGENT, lvl=INFO] [tid=1247] CosaDmlEthPortSendLinkStatusToEventQueue 3739 - Successfully sent message to event queue
+5.506088 [mod=ETHAGENT, lvl=INFO] [tid=1246] CosaDmlEthEventHandlerThread 3810 - Event Msg Received
+5.506138 [mod=ETHAGENT, lvl=INFO] [tid=1246] ****** [eth0,1]
+5.506100 [mod=ETHAGENT, lvl=INFO] [tid=1247] [EthWanLinkUp_callback][4647] Successfully posted WANOE [eth0] interface link up event to message queue
+5.507145 [mod=ETHAGENT, lvl=WARN] [tid=1246] CosaDmlEthGetParamValues parameterValue[1]
+5.507210 [mod=ETHAGENT, lvl=INFO] [tid=1246] CosaDmlEthGetLowerLayersInstanceInOtherAgent 4239 - TotalNoofEntries:1
+5.507942 [mod=ETHAGENT, lvl=WARN] [tid=1246] CosaDmlEthGetParamValues parameterValue[eth0]
+5.507980 [mod=ETHAGENT, lvl=INFO] [tid=1246] CosaDmlEthSetPhyStatusForWanManager 4489 WAN Instance:1
+5.509041 [mod=ETHAGENT, lvl=INFO] [tid=1246] Value being set [100] 
+5.509781 [mod=ETHAGENT, lvl=INFO] [tid=1246] Value being set [100] 
+5.509819 [mod=ETHAGENT, lvl=INFO] [tid=1246] CosaDmlEthSetPhyStatusForWanManager 4525 Successfully notified Up event to WAN Manager for eth0 interface
+5.671036 [mod=ETHAGENT, lvl=DEBUG] [tid=1055] thread_path_message_func_rbus Component ID: eRT.com.cisco.spvtg.ccsp.ethagent method: METHOD_GETPARAMETERVALUES reply_topic:rbus.wanmanager.INBOX.1018
+5.671104 [mod=ETHAGENT, lvl=DEBUG] [tid=1055] parameterNames[0]: Device.Ethernet.Interface.1.Upstream
+5.671158 [mod=ETHAGENT, lvl=DEBUG] [tid=1055] getParameterValues: size 1 result 100
+5.671181 [mod=ETHAGENT, lvl=DEBUG] [tid=1055] val[0]->parameterName Device.Ethernet.Interface.1.Upstream val[0]->parameterValue false
+5.671925 [mod=ETHAGENT, lvl=DEBUG] [tid=1055] thread_path_message_func_rbus Component ID: eRT.com.cisco.spvtg.ccsp.ethagent method: METHOD_SETPARAMETERVALUES reply_topic:rbus.wanmanager.INBOX.1018
+5.672001 [mod=ETHAGENT, lvl=DEBUG] [tid=1055] setParameterValues result 9008
+9.065842 [mod=ETHAGENT, lvl=DEBUG] [tid=1055] thread_path_message_func_rbus Component ID: eRT.com.cisco.spvtg.ccsp.ethagent method: METHOD_SETPARAMETERVALUES reply_topic:rbus.CcspLMLite.INBOX.1146
+9.065918 [mod=ETHAGENT, lvl=WARN] [tid=1055] DslhObjcoValidate: X_RDKCENTRAL-COM_EthHost_Sync, bsUpdate = 3
+
+9.065945 [mod=ETHAGENT, lvl=INFO] [tid=1055] Ethernet_Hosts_Sync-739 Sync With LMLite
+9.065971 [mod=ETHAGENT, lvl=DEBUG] [tid=1055] setParameterValues result 100

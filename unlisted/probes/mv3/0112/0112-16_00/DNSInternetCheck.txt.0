@@ -1,0 +1,3 @@
+4.990284 [mod=WANCNCTVTYCHK, lvl=INFO] [tid=1136] RBUS enabled, Proceed with Wan Connectivity check
+4.991085 [mod=WANCNCTVTYCHK, lvl=INFO] [tid=1136] syscfg wanconnectivity_chk_enable not available,Taking Factory Default as FALSE
+4.991131 [mod=WANCNCTVTYCHK, lvl=INFO] [tid=1136] CosaWanCnctvtyChk_Init: Wan Connectivty Check Enable : false

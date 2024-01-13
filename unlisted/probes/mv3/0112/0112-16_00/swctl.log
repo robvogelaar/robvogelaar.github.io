@@ -1,0 +1,27 @@
+[Fri Jan 12 23:56:57 UTC 2024] swctl -c 20 -p 7
+[Fri Jan 12 23:56:57 UTC 2024] swctl -c 16 -p 7 -v 4090 -m 2 -q 1
+[Fri Jan 12 23:56:57 UTC 2024] swctl -c 20 -p 0
+[Fri Jan 12 23:56:57 UTC 2024] swctl -c 16 -p 0 -v 4090 -m 2 -q 1
+[Fri Jan 12 23:56:58 UTC 2024] swctl -c 16 -p 7 -v 1060 -m 2 -q 1
+[Fri Jan 12 23:56:58 UTC 2024] swctl -c 16 -p 0 -v 1060 -m 2 -q 1
+[Fri Jan 12 23:56:58 UTC 2024] swctl -c 11 -p 5 -r 4 -b 0x007b
+[Fri Jan 12 23:57:01 UTC 2024] swctl -c 4 -p 0
+[Fri Jan 12 23:57:01 UTC 2024] swctl -c 0 -p 0 -v 200 -m 1 -q 1
+[Fri Jan 12 23:57:01 UTC 2024] swctl -c 34 -p 0 -v 200
+[Fri Jan 12 23:57:01 UTC 2024] swctl -c 4 -p 1
+[Fri Jan 12 23:57:01 UTC 2024] swctl -c 0 -p 1 -v 200 -m 1 -q 1
+[Fri Jan 12 23:57:01 UTC 2024] swctl -c 34 -p 1 -v 200
+[Fri Jan 12 23:57:01 UTC 2024] swctl -c 4 -p 2
+[Fri Jan 12 23:57:01 UTC 2024] swctl -c 0 -p 2 -v 200 -m 1 -q 1
+[Fri Jan 12 23:57:01 UTC 2024] swctl -c 34 -p 2 -v 200
+[Fri Jan 12 23:57:01 UTC 2024] swctl -c 4 -p 3
+[Fri Jan 12 23:57:02 UTC 2024] swctl -c 0 -p 3 -v 200 -m 1 -q 1
+[Fri Jan 12 23:57:02 UTC 2024] swctl -c 34 -p 3 -v 200
+[Fri Jan 12 23:57:02 UTC 2024] swctl -c 16 -p 7 -v 200 -m 2 -q 1
+[Fri Jan 12 23:57:02 UTC 2024] swctl -c 20 -p 2
+[Fri Jan 12 23:57:02 UTC 2024] swctl -c 4 -p 5
+[Fri Jan 12 23:57:02 UTC 2024] swctl -c 16 -p 2 -v 200 -m 2 -q 1
+[Fri Jan 12 23:57:02 UTC 2024] swctl -c 0 -p 5 -v 200 -m 2 -q 1
+[Fri Jan 12 23:57:02 UTC 2024] swctl -c 16 -p 3 -v 100 -m 1 -q 1
+[Fri Jan 12 23:57:02 UTC 2024] swctl -c 16 -p 3 -m 0 -q 1 -v 100
+[Fri Jan 12 23:57:02 UTC 2024] swctl -c 16 -p 7 -v 100 -m 2 -q 1

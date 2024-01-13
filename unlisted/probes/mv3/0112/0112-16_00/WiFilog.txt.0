@@ -1,0 +1,413 @@
+3.310627 [mod=WIFI, lvl=WARN] [tid=1004] 
+Subsystem is eRT.
+3.321495 [mod=WIFI, lvl=WARN] [tid=1014] Core dump is NOT opened, backtrace if possible
+3.321678 [mod=WIFI, lvl=INFO] [tid=1014] Connect to bus daemon...
+3.321835 [mod=WIFI, lvl=WARN] [tid=1014] RBus is enabled
+3.321907 [mod=WIFI, lvl=INFO] [tid=1014] rbuscore.c:2290 RBus Enabled
+
+3.321953 [mod=WIFI, lvl=INFO] [tid=1014] rbuscore.c:643 Broker address: unix:///tmp/rtrouted
+
+3.322842 [mod=WIFI, lvl=INFO] [tid=1014] connection opened for eRT.com.cisco.spvtg.ccsp.wifi
+3.322994 [mod=WIFI, lvl=INFO] [tid=1014] rbuscore.c:919 Registering method table for object eRT.com.cisco.spvtg.ccsp.wifi
+
+3.323063 [mod=WIFI, lvl=INFO] [tid=1014] eRT.com.cisco.spvtg.ccsp.wifi start to check eRT.com.cisco.spvtg.ccsp.psm status
+3.332573 [mod=WIFI, lvl=INFO] [tid=1014] eRT.com.cisco.spvtg.ccsp.psm is ready, eRT.com.cisco.spvtg.ccsp.wifi continue
+3.332619 [mod=WIFI, lvl=INFO] [tid=1014] !!! Connected to message bus... bus_handle: 0x0x9d46500 !!!
+4.333988 [mod=WIFI, lvl=INFO] [tid=1014] CcspBaseIf_Register_Event_rbus : rbus_registerEvent called for event: currentSessionIDSignal
+4.334949 [mod=WIFI, lvl=INFO] [tid=1014] rbuscore.c:738 Subscription for _rbus_session_mgr::currentSessionIDSignal is now active.
+
+4.335358 [mod=WIFI, lvl=WARN] [tid=1014] Register empty object : com.
+4.335411 [mod=WIFI, lvl=WARN] [tid=1014] Register empty object : com.cisco.
+4.335442 [mod=WIFI, lvl=WARN] [tid=1014] Register empty object : com.cisco.spvtg.
+4.335487 [mod=WIFI, lvl=WARN] [tid=1014] Register empty object : com.cisco.spvtg.ccsp.
+4.335823 [mod=WIFI, lvl=WARN] [tid=1014] DM Library module name = CCSP Base Data Model
+4.338287 [mod=WIFI, lvl=WARN] [tid=1014] DM Library module name = COSA_TR181_WiFi_USGv2
+4.338333 [mod=WIFI, lvl=WARN] [tid=1014] Loading DM library libwifi.so...
+4.354290 [mod=WIFI, lvl=WARN] [tid=1014]  RDKB_SYSTEM_BOOT_UP_LOG : CosaWifiInitialize - WiFi initialize. 
+4.355682 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetFactoryResetPsmData 
+4.355717 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetFactoryResetPsmData :Calling PSM GET to get FactoryReset flag value
+4.356686 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetFactoryResetPsmData :PSM GET Success eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.FactoryReset = 0 
+4.356724 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetFactoryResetPsmData : Returning Success 
+4.567051 [mod=WIFI, lvl=INFO] [tid=1014] WIFI m_wifi_init : Notify Mesh of wifi_init
+4.568333 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetResetHotSpotRequired : found BssHotSpot value = 0 
+4.568958 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetResetHotSpotRequired : found BssHotSpot value = 0 
+4.569000 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetResetHotSpotRequired : Returning Success 
+4.569138 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetResetRequired : Calling PSM GET for eRT.com.cisco.spvtg.ccsp.Device.WiFi.VlanCfgVerion 
+4.569725 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetResetRequired : PSM GET Success eRT.com.cisco.spvtg.ccsp.Device.WiFi.VlanCfgVerion = 2
+4.569767 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetResetRequired : Returning Success 
+4.736950 [mod=WIFI, lvl=INFO] [tid=1014] WIFI m_wifi_init : Notify Mesh of wifi_init
+4.737392 [mod=WIFI, lvl=INFO] [tid=1014] CcspBaseIf_Register_Event_rbus : rbus_registerEvent called for event: WifiDbStatus
+4.737530 [mod=WIFI, lvl=INFO] [tid=1014] wifi_handle_sysevent_async...
+4.737888 [mod=WIFI, lvl=INFO] [tid=1356] wifi_sysevent_handler_th created
+4.737942 [mod=WIFI, lvl=INFO] [tid=1356] wifi_sysevent_init
+4.739754 [mod=WIFI, lvl=INFO] [tid=1356] wifi_sysevent_init - Exit
+4.739792 [mod=WIFI, lvl=INFO] [tid=1356] wifi_check_sysevent_status
+4.740440 [mod=WIFI, lvl=INFO] [tid=1356] wifi_sysvent_listener created
+4.907875 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFi_GetGoodRssiThresholdValue : Calling PSM Get
+4.918919 [mod=WIFI, lvl=ERROR] [tid=1014]  parodus url is not present in device.properties file, adding default parodus_url
+4.920086 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFi_GetGoodRssiThresholdValue : Calling PSM Get
+4.920731 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFi_GetAssocCountThresholdValue : Calling PSM Get
+4.921310 [mod=WIFI, lvl=INFO] [tid=1014] CosaDmlWiFi_GetAssocCountThresholdValue Failed to get PSM
+4.921349 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFi_GetAssocMonitorDurationValue : Calling PSM Get
+4.921913 [mod=WIFI, lvl=INFO] [tid=1014] CosaDmlWiFi_GetAssocMonitorDurationValue Failed to get PSM
+4.921955 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFi_GetAssocGateTimeValue : Calling PSM Get
+4.922489 [mod=WIFI, lvl=INFO] [tid=1014] CosaDmlWiFi_GetAssocGateTimeValue Failed to get PSM
+4.923649 [mod=WIFI, lvl=INFO] [tid=1014] CosaDmlWiFi_GetWiFiReservedSSIDNames Failed to get PSM
+4.924145 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFi_GetFeatureMFPConfigValue : Calling PSM Get
+4.925293 [mod=WIFI, lvl=INFO] [tid=1014] CosaDmlWiFi_GetFeatureMFPConfigValue Failed to get PSM
+4.925377 [mod=WIFI, lvl=WARN] [tid=1014] CosaDmlWiFi_GetRapidReconnectIndicationEnable : Calling PSM Get
+4.925983 [mod=WIFI, lvl=INFO] [tid=1014] CosaDmlWiFi_GetRapidReconnectIndicationEnable Failed to get PSM
+4.929916 [mod=WIFI, lvl=WARN] [tid=1014] CosaWiFiInitializeParmUpdateSource: WiFiRegionCode = USI
+4.929951 [mod=WIFI, lvl=WARN] [tid=1014] CosaWifiInitialize - Get Radio Info ...
+4.930130 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetRadioPsmData wlanInex = 0 
+4.930164 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetRadioPsmData Get Factory Reset Radio PsmData & Apply to WIFI 
+4.936745 [mod=WIFI, lvl=INFO] [tid=1448] MacFilterList count 0 for AP 5
+4.937412 [mod=WIFI, lvl=INFO] [tid=1448] MacFilterList count 0 for AP 6
+4.937939 [mod=WIFI, lvl=INFO] [tid=1448] MacFilterList count 0 for AP 9
+4.938473 [mod=WIFI, lvl=INFO] [tid=1448] MacFilterList count 0 for AP 10
+5.051945 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetRadioPsmData : Returning Success 
+5.052078 [mod=WIFI, lvl=WARN] [tid=1014] CosaDmlWiFiRadioGetCfg : LastChange 1705103823!!!!!! 
+5.074833 [mod=WIFI, lvl=WARN] [tid=1014] CosaDmlWiFiRadioGetCfg : setTransmitPowerPercent  wlanIndex:0 TransmitPower:100 
+5.335396 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetRadioPsmData wlanInex = 1 
+5.335442 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetRadioPsmData Get Factory Reset Radio PsmData & Apply to WIFI 
+5.425705 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetRadioPsmData : Returning Success 
+5.425762 [mod=WIFI, lvl=WARN] [tid=1014] CosaDmlWiFiRadioGetCfg : LastChange 1705103824!!!!!! 
+5.428879 [mod=WIFI, lvl=WARN] [tid=1014] CosaDmlWiFiRadioGetCfg : setTransmitPowerPercent  wlanIndex:1 TransmitPower:100 
+5.472687 [mod=WIFI, lvl=WARN] [tid=1014] CosaWifiInitialize - Initialize middle layer ...
+5.473984 [mod=WIFI, lvl=ERROR] [tid=1014] checkforbiddenSSIDpsm set failed for Reserved name
+5.495338 [mod=WIFI, lvl=ERROR] [tid=1014] checkforbiddenSSIDpsm set failed for Reserved name
+5.516396 [mod=WIFI, lvl=ERROR] [tid=1014] checkforbiddenSSIDpsm set failed for Reserved name
+5.537861 [mod=WIFI, lvl=ERROR] [tid=1014] checkforbiddenSSIDpsm set failed for Reserved name
+5.671448 [mod=WIFI, lvl=ERROR] [tid=1014] checkforbiddenSSIDpsm set failed for Reserved name
+5.704136 [mod=WIFI, lvl=ERROR] [tid=1014] checkforbiddenSSIDpsm set failed for Reserved name
+5.726814 [mod=WIFI, lvl=ERROR] [tid=1014] checkforbiddenSSIDpsm set failed for Reserved name
+5.746338 [mod=WIFI, lvl=ERROR] [tid=1014] checkforbiddenSSIDpsm set failed for Reserved name
+5.765770 [mod=WIFI, lvl=ERROR] [tid=1014] checkforbiddenSSIDpsm set failed for Reserved name
+5.797237 [mod=WIFI, lvl=ERROR] [tid=1014] checkforbiddenSSIDpsm set failed for Reserved name
+5.823151 [mod=WIFI, lvl=ERROR] [tid=1014] checkforbiddenSSIDpsm set failed for Reserved name
+5.866680 [mod=WIFI, lvl=ERROR] [tid=1014] checkforbiddenSSIDpsm set failed for Reserved name
+5.901051 [mod=WIFI, lvl=ERROR] [tid=1014] checkforbiddenSSIDpsm set failed for Reserved name
+5.936436 [mod=WIFI, lvl=ERROR] [tid=1014] checkforbiddenSSIDpsm set failed for Reserved name
+5.971210 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData wlanInex = 0 
+5.971245 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData Get Factory Reset AccessPoint PsmData & Apply to WIFI 
+5.972519 [mod=WIFI, lvl=WARN] [tid=1014] CosaDmlWiFiGetAccessPointPsmData: PSM_Get_Record_Value2 Faliled for BSSTransitionActivated on wlanIndex:0
+5.972603 [mod=WIFI, lvl=INFO] [tid=1014] rbuscore.c:2290 RBus Enabled
+
+5.972637 [mod=WIFI, lvl=INFO] [tid=1014] rbus.c:2588 rbus_open(t2_lib_ccsp-wifi-agent)
+
+5.972790 [mod=WIFI, lvl=INFO] [tid=1014] rbus.c:2652 rbus_open(t2_lib_ccsp-wifi-agent) success
+
+5.974297 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData : Returning Success 
+5.974335 [mod=WIFI, lvl=WARN] [tid=1014] X_RDKCENTRAL-COM_BSSTransitionActivated_Get:<0>
+5.974358 [mod=WIFI, lvl=WARN] [tid=1014] X_RDKCENTRAL-COM_ManagementFramePowerControl_Get:<0>
+5.975628 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFi_GetApMFPConfigValue : Calling PSM Get
+5.976242 [mod=WIFI, lvl=INFO] [tid=1014] CosaDmlWiFi_GetApMFPConfigValue Failed to get PSM
+5.976295 [mod=WIFI, lvl=INFO] [tid=1014]  OperatorName cfg get failed
+5.976318 [mod=WIFI, lvl=INFO] [tid=1014]  LocationData cfg get failed
+6.011860 [mod=WIFI, lvl=WARN] [tid=1014] CosaDmlWiFi_GetRapidReconnectCountEnable : Calling PSM Get
+6.012760 [mod=WIFI, lvl=INFO] [tid=1014] CosaDmlWiFi_GetRapidReconnectCountEnable PSM get success Value: 1
+6.015263 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData wlanInex = 1 
+6.015305 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData Get Factory Reset AccessPoint PsmData & Apply to WIFI 
+6.016609 [mod=WIFI, lvl=WARN] [tid=1014] CosaDmlWiFiGetAccessPointPsmData: PSM_Get_Record_Value2 Faliled for BSSTransitionActivated on wlanIndex:1
+6.017757 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData : Returning Success 
+6.017799 [mod=WIFI, lvl=WARN] [tid=1014] X_RDKCENTRAL-COM_BSSTransitionActivated_Get:<0>
+6.017822 [mod=WIFI, lvl=WARN] [tid=1014] X_RDKCENTRAL-COM_ManagementFramePowerControl_Get:<0>
+6.019089 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFi_GetApMFPConfigValue : Calling PSM Get
+6.019714 [mod=WIFI, lvl=INFO] [tid=1014] CosaDmlWiFi_GetApMFPConfigValue Failed to get PSM
+6.019768 [mod=WIFI, lvl=INFO] [tid=1014]  OperatorName cfg get failed
+6.019791 [mod=WIFI, lvl=INFO] [tid=1014]  LocationData cfg get failed
+6.042912 [mod=WIFI, lvl=WARN] [tid=1014] CosaDmlWiFi_GetRapidReconnectCountEnable : Calling PSM Get
+6.043556 [mod=WIFI, lvl=INFO] [tid=1014] CosaDmlWiFi_GetRapidReconnectCountEnable PSM get success Value: 1
+6.047779 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData wlanInex = 2 
+6.047821 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData Get Factory Reset AccessPoint PsmData & Apply to WIFI 
+6.049679 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData : Returning Success 
+6.049713 [mod=WIFI, lvl=WARN] [tid=1014] X_RDKCENTRAL-COM_BSSTransitionActivated_Get:<0>
+6.049740 [mod=WIFI, lvl=WARN] [tid=1014] X_RDKCENTRAL-COM_ManagementFramePowerControl_Get:<0>
+6.051140 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFi_GetApMFPConfigValue : Calling PSM Get
+6.051842 [mod=WIFI, lvl=INFO] [tid=1014] CosaDmlWiFi_GetApMFPConfigValue Failed to get PSM
+6.051895 [mod=WIFI, lvl=INFO] [tid=1014]  OperatorName cfg get failed
+6.051918 [mod=WIFI, lvl=INFO] [tid=1014]  LocationData cfg get failed
+6.072407 [mod=WIFI, lvl=WARN] [tid=1014] CosaDmlWiFi_GetRapidReconnectCountEnable : Calling PSM Get
+6.073055 [mod=WIFI, lvl=INFO] [tid=1014] CosaDmlWiFi_GetRapidReconnectCountEnable PSM get success Value: 0
+6.075352 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData wlanInex = 3 
+6.075390 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData Get Factory Reset AccessPoint PsmData & Apply to WIFI 
+6.076839 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData : Returning Success 
+6.076881 [mod=WIFI, lvl=WARN] [tid=1014] X_RDKCENTRAL-COM_BSSTransitionActivated_Get:<0>
+6.076904 [mod=WIFI, lvl=WARN] [tid=1014] X_RDKCENTRAL-COM_ManagementFramePowerControl_Get:<0>
+6.078323 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFi_GetApMFPConfigValue : Calling PSM Get
+6.078976 [mod=WIFI, lvl=INFO] [tid=1014] CosaDmlWiFi_GetApMFPConfigValue Failed to get PSM
+6.079033 [mod=WIFI, lvl=INFO] [tid=1014]  OperatorName cfg get failed
+6.079056 [mod=WIFI, lvl=INFO] [tid=1014]  LocationData cfg get failed
+6.095093 [mod=WIFI, lvl=WARN] [tid=1014] CosaDmlWiFi_GetRapidReconnectCountEnable : Calling PSM Get
+6.095810 [mod=WIFI, lvl=INFO] [tid=1014] CosaDmlWiFi_GetRapidReconnectCountEnable PSM get success Value: 0
+6.099060 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData wlanInex = 4 
+6.099110 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData Get Factory Reset AccessPoint PsmData & Apply to WIFI 
+6.100380 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData : Returning Success 
+6.100433 [mod=WIFI, lvl=WARN] [tid=1014] X_RDKCENTRAL-COM_BSSTransitionActivated_Get:<0>
+6.100460 [mod=WIFI, lvl=WARN] [tid=1014] X_RDKCENTRAL-COM_ManagementFramePowerControl_Get:<0>
+6.101917 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFi_GetApMFPConfigValue : Calling PSM Get
+6.102493 [mod=WIFI, lvl=INFO] [tid=1014] CosaDmlWiFi_GetApMFPConfigValue Failed to get PSM
+6.102551 [mod=WIFI, lvl=INFO] [tid=1014]  OperatorName cfg get failed
+6.102577 [mod=WIFI, lvl=INFO] [tid=1014]  LocationData cfg get failed
+6.114914 [mod=WIFI, lvl=WARN] [tid=1014] CosaDmlWiFi_GetRapidReconnectCountEnable : Calling PSM Get
+6.117016 [mod=WIFI, lvl=INFO] [tid=1014] CosaDmlWiFi_GetRapidReconnectCountEnable PSM get success Value: 0
+6.119537 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData wlanInex = 5 
+6.119579 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData Get Factory Reset AccessPoint PsmData & Apply to WIFI 
+6.120220 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData : Returning Success 
+6.120262 [mod=WIFI, lvl=WARN] [tid=1014] X_RDKCENTRAL-COM_BSSTransitionActivated_Get:<0>
+6.120296 [mod=WIFI, lvl=WARN] [tid=1014] X_RDKCENTRAL-COM_ManagementFramePowerControl_Get:<0>
+6.121788 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFi_GetApMFPConfigValue : Calling PSM Get
+6.122295 [mod=WIFI, lvl=INFO] [tid=1014] CosaDmlWiFi_GetApMFPConfigValue Failed to get PSM
+6.122341 [mod=WIFI, lvl=INFO] [tid=1014]  OperatorName cfg get failed
+6.122364 [mod=WIFI, lvl=INFO] [tid=1014]  LocationData cfg get failed
+6.132812 [mod=WIFI, lvl=WARN] [tid=1014] CosaDmlWiFi_GetRapidReconnectCountEnable : Calling PSM Get
+6.133499 [mod=WIFI, lvl=INFO] [tid=1014] CosaDmlWiFi_GetRapidReconnectCountEnable PSM get success Value: 0
+6.135448 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData wlanInex = 6 
+6.135487 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData Get Factory Reset AccessPoint PsmData & Apply to WIFI 
+6.136417 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData : Returning Success 
+6.136456 [mod=WIFI, lvl=WARN] [tid=1014] X_RDKCENTRAL-COM_BSSTransitionActivated_Get:<0>
+6.136482 [mod=WIFI, lvl=WARN] [tid=1014] X_RDKCENTRAL-COM_ManagementFramePowerControl_Get:<0>
+6.137524 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFi_GetApMFPConfigValue : Calling PSM Get
+6.137974 [mod=WIFI, lvl=INFO] [tid=1014] CosaDmlWiFi_GetApMFPConfigValue Failed to get PSM
+6.138111 [mod=WIFI, lvl=INFO] [tid=1014]  OperatorName cfg get failed
+6.138134 [mod=WIFI, lvl=INFO] [tid=1014]  LocationData cfg get failed
+6.148369 [mod=WIFI, lvl=WARN] [tid=1014] CosaDmlWiFi_GetRapidReconnectCountEnable : Calling PSM Get
+6.149303 [mod=WIFI, lvl=INFO] [tid=1014] CosaDmlWiFi_GetRapidReconnectCountEnable PSM get success Value: 0
+6.151398 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData wlanInex = 7 
+6.151443 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData Get Factory Reset AccessPoint PsmData & Apply to WIFI 
+6.152443 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData : Returning Success 
+6.152485 [mod=WIFI, lvl=WARN] [tid=1014] X_RDKCENTRAL-COM_BSSTransitionActivated_Get:<0>
+6.152512 [mod=WIFI, lvl=WARN] [tid=1014] X_RDKCENTRAL-COM_ManagementFramePowerControl_Get:<0>
+6.153816 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFi_GetApMFPConfigValue : Calling PSM Get
+6.154312 [mod=WIFI, lvl=INFO] [tid=1014] CosaDmlWiFi_GetApMFPConfigValue Failed to get PSM
+6.154354 [mod=WIFI, lvl=INFO] [tid=1014]  OperatorName cfg get failed
+6.154377 [mod=WIFI, lvl=INFO] [tid=1014]  LocationData cfg get failed
+6.164646 [mod=WIFI, lvl=WARN] [tid=1014] CosaDmlWiFi_GetRapidReconnectCountEnable : Calling PSM Get
+6.165371 [mod=WIFI, lvl=INFO] [tid=1014] CosaDmlWiFi_GetRapidReconnectCountEnable PSM get success Value: 0
+6.167717 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData wlanInex = 8 
+6.167751 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData Get Factory Reset AccessPoint PsmData & Apply to WIFI 
+6.169044 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData : Returning Success 
+6.169079 [mod=WIFI, lvl=WARN] [tid=1014] X_RDKCENTRAL-COM_BSSTransitionActivated_Get:<0>
+6.169102 [mod=WIFI, lvl=WARN] [tid=1014] X_RDKCENTRAL-COM_ManagementFramePowerControl_Get:<0>
+6.170116 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFi_GetApMFPConfigValue : Calling PSM Get
+6.170582 [mod=WIFI, lvl=INFO] [tid=1014] CosaDmlWiFi_GetApMFPConfigValue Failed to get PSM
+6.170616 [mod=WIFI, lvl=INFO] [tid=1014]  OperatorName cfg get failed
+6.170639 [mod=WIFI, lvl=INFO] [tid=1014]  LocationData cfg get failed
+6.181751 [mod=WIFI, lvl=WARN] [tid=1014] CosaDmlWiFi_GetRapidReconnectCountEnable : Calling PSM Get
+6.182503 [mod=WIFI, lvl=INFO] [tid=1014] CosaDmlWiFi_GetRapidReconnectCountEnable PSM get success Value: 0
+6.184994 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData wlanInex = 9 
+6.185036 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData Get Factory Reset AccessPoint PsmData & Apply to WIFI 
+6.188972 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData : Returning Success 
+6.189022 [mod=WIFI, lvl=WARN] [tid=1014] X_RDKCENTRAL-COM_BSSTransitionActivated_Get:<0>
+6.189045 [mod=WIFI, lvl=WARN] [tid=1014] X_RDKCENTRAL-COM_ManagementFramePowerControl_Get:<0>
+6.190323 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFi_GetApMFPConfigValue : Calling PSM Get
+6.190968 [mod=WIFI, lvl=INFO] [tid=1014] CosaDmlWiFi_GetApMFPConfigValue Failed to get PSM
+6.191010 [mod=WIFI, lvl=INFO] [tid=1014]  OperatorName cfg get failed
+6.191032 [mod=WIFI, lvl=INFO] [tid=1014]  LocationData cfg get failed
+6.203415 [mod=WIFI, lvl=WARN] [tid=1014] CosaDmlWiFi_GetRapidReconnectCountEnable : Calling PSM Get
+6.204067 [mod=WIFI, lvl=INFO] [tid=1014] CosaDmlWiFi_GetRapidReconnectCountEnable PSM get success Value: 0
+6.206524 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData wlanInex = 10 
+6.206562 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData Get Factory Reset AccessPoint PsmData & Apply to WIFI 
+6.207436 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData : Returning Success 
+6.207470 [mod=WIFI, lvl=WARN] [tid=1014] X_RDKCENTRAL-COM_BSSTransitionActivated_Get:<0>
+6.207493 [mod=WIFI, lvl=WARN] [tid=1014] X_RDKCENTRAL-COM_ManagementFramePowerControl_Get:<0>
+6.209343 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFi_GetApMFPConfigValue : Calling PSM Get
+6.209835 [mod=WIFI, lvl=INFO] [tid=1014] CosaDmlWiFi_GetApMFPConfigValue Failed to get PSM
+6.209869 [mod=WIFI, lvl=INFO] [tid=1014]  OperatorName cfg get failed
+6.209896 [mod=WIFI, lvl=INFO] [tid=1014]  LocationData cfg get failed
+6.220100 [mod=WIFI, lvl=WARN] [tid=1014] CosaDmlWiFi_GetRapidReconnectCountEnable : Calling PSM Get
+6.221092 [mod=WIFI, lvl=INFO] [tid=1014] CosaDmlWiFi_GetRapidReconnectCountEnable PSM get success Value: 0
+6.223091 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData wlanInex = 11 
+6.223129 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData Get Factory Reset AccessPoint PsmData & Apply to WIFI 
+6.223690 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData : Returning Success 
+6.223728 [mod=WIFI, lvl=WARN] [tid=1014] X_RDKCENTRAL-COM_BSSTransitionActivated_Get:<0>
+6.223755 [mod=WIFI, lvl=WARN] [tid=1014] X_RDKCENTRAL-COM_ManagementFramePowerControl_Get:<0>
+6.224937 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFi_GetApMFPConfigValue : Calling PSM Get
+6.225433 [mod=WIFI, lvl=INFO] [tid=1014] CosaDmlWiFi_GetApMFPConfigValue Failed to get PSM
+6.225471 [mod=WIFI, lvl=INFO] [tid=1014]  OperatorName cfg get failed
+6.225494 [mod=WIFI, lvl=INFO] [tid=1014]  LocationData cfg get failed
+6.235607 [mod=WIFI, lvl=WARN] [tid=1014] CosaDmlWiFi_GetRapidReconnectCountEnable : Calling PSM Get
+6.236366 [mod=WIFI, lvl=INFO] [tid=1014] CosaDmlWiFi_GetRapidReconnectCountEnable PSM get success Value: 0
+6.238373 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData wlanInex = 12 
+6.238411 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData Get Factory Reset AccessPoint PsmData & Apply to WIFI 
+6.239292 [mod=WIFI, lvl=WARN] [tid=1014] CosaDmlWiFiGetAccessPointPsmData: PSM_Get_Record_Value2 Faliled for BSSTransitionActivated on wlanIndex:12
+6.240311 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData : Returning Success 
+6.240353 [mod=WIFI, lvl=WARN] [tid=1014] X_RDKCENTRAL-COM_BSSTransitionActivated_Get:<0>
+6.240376 [mod=WIFI, lvl=WARN] [tid=1014] X_RDKCENTRAL-COM_ManagementFramePowerControl_Get:<0>
+6.241749 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFi_GetApMFPConfigValue : Calling PSM Get
+6.242222 [mod=WIFI, lvl=INFO] [tid=1014] CosaDmlWiFi_GetApMFPConfigValue Failed to get PSM
+6.242260 [mod=WIFI, lvl=INFO] [tid=1014]  OperatorName cfg get failed
+6.242283 [mod=WIFI, lvl=INFO] [tid=1014]  LocationData cfg get failed
+6.252342 [mod=WIFI, lvl=WARN] [tid=1014] CosaDmlWiFi_GetRapidReconnectCountEnable : Calling PSM Get
+6.253124 [mod=WIFI, lvl=INFO] [tid=1014] CosaDmlWiFi_GetRapidReconnectCountEnable PSM get success Value: 0
+6.255058 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData wlanInex = 13 
+6.255096 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData Get Factory Reset AccessPoint PsmData & Apply to WIFI 
+6.256165 [mod=WIFI, lvl=WARN] [tid=1014] CosaDmlWiFiGetAccessPointPsmData: PSM_Get_Record_Value2 Faliled for BSSTransitionActivated on wlanIndex:13
+6.256569 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData : Returning Success 
+6.256607 [mod=WIFI, lvl=WARN] [tid=1014] X_RDKCENTRAL-COM_BSSTransitionActivated_Get:<0>
+6.256634 [mod=WIFI, lvl=WARN] [tid=1014] X_RDKCENTRAL-COM_ManagementFramePowerControl_Get:<0>
+6.257816 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFi_GetApMFPConfigValue : Calling PSM Get
+6.258392 [mod=WIFI, lvl=INFO] [tid=1014] CosaDmlWiFi_GetApMFPConfigValue Failed to get PSM
+6.258430 [mod=WIFI, lvl=INFO] [tid=1014]  OperatorName cfg get failed
+6.258457 [mod=WIFI, lvl=INFO] [tid=1014]  LocationData cfg get failed
+6.268475 [mod=WIFI, lvl=WARN] [tid=1014] CosaDmlWiFi_GetRapidReconnectCountEnable : Calling PSM Get
+6.269188 [mod=WIFI, lvl=INFO] [tid=1014] CosaDmlWiFi_GetRapidReconnectCountEnable PSM get success Value: 0
+6.271076 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData wlanInex = 14 
+6.271114 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData Get Factory Reset AccessPoint PsmData & Apply to WIFI 
+6.272171 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData : Returning Success 
+6.272293 [mod=WIFI, lvl=WARN] [tid=1014] X_RDKCENTRAL-COM_BSSTransitionActivated_Get:<0>
+6.272320 [mod=WIFI, lvl=WARN] [tid=1014] X_RDKCENTRAL-COM_ManagementFramePowerControl_Get:<0>
+6.273350 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFi_GetApMFPConfigValue : Calling PSM Get
+6.273819 [mod=WIFI, lvl=INFO] [tid=1014] CosaDmlWiFi_GetApMFPConfigValue Failed to get PSM
+6.273853 [mod=WIFI, lvl=INFO] [tid=1014]  OperatorName cfg get failed
+6.273876 [mod=WIFI, lvl=INFO] [tid=1014]  LocationData cfg get failed
+6.284088 [mod=WIFI, lvl=WARN] [tid=1014] CosaDmlWiFi_GetRapidReconnectCountEnable : Calling PSM Get
+6.285091 [mod=WIFI, lvl=INFO] [tid=1014] CosaDmlWiFi_GetRapidReconnectCountEnable PSM get success Value: 0
+6.286934 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData wlanInex = 15 
+6.286972 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData Get Factory Reset AccessPoint PsmData & Apply to WIFI 
+6.287453 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFiGetAccessPointPsmData : Returning Success 
+6.287491 [mod=WIFI, lvl=WARN] [tid=1014] X_RDKCENTRAL-COM_BSSTransitionActivated_Get:<0>
+6.287525 [mod=WIFI, lvl=WARN] [tid=1014] X_RDKCENTRAL-COM_ManagementFramePowerControl_Get:<0>
+6.288662 [mod=WIFI, lvl=WARN] [tid=1014] WIFI CosaDmlWiFi_GetApMFPConfigValue : Calling PSM Get
+6.289139 [mod=WIFI, lvl=INFO] [tid=1014] CosaDmlWiFi_GetApMFPConfigValue Failed to get PSM
+6.289173 [mod=WIFI, lvl=INFO] [tid=1014]  OperatorName cfg get failed
+6.289200 [mod=WIFI, lvl=INFO] [tid=1014]  LocationData cfg get failed
+6.299267 [mod=WIFI, lvl=WARN] [tid=1014] CosaDmlWiFi_GetRapidReconnectCountEnable : Calling PSM Get
+6.300030 [mod=WIFI, lvl=INFO] [tid=1014] CosaDmlWiFi_GetRapidReconnectCountEnable PSM get success Value: 0
+6.304371 [mod=WIFI, lvl=WARN] [tid=1014] CosaDmlHarvesterInit : fetching the PSM db failed for ActiveMsmtEnabled
+6.304897 [mod=WIFI, lvl=WARN] [tid=1014] CosaDmlHarvesterInit : fetching the PSM db failed for ActiveMsmtSampleDuration
+6.305336 [mod=WIFI, lvl=WARN] [tid=1014] CosaDmlHarvesterInit : fetching the PSM db failed for ActiveMsmtPktSize
+6.305866 [mod=WIFI, lvl=WARN] [tid=1014] CosaDmlHarvesterInit : fetching the PSM db failed for ActiveMsmtNumberOfSamples
+6.306320 [mod=WIFI, lvl=WARN] [tid=1014] CosaWifiInitialize - CosaWifiRegGetSsidInfo ...
+6.309082 [mod=WIFI, lvl=WARN] [tid=1014] CosaWifiInitialize - CosaDmlWiFiNeighbouringGetEntry ...
+6.310017 [mod=WIFI, lvl=WARN] [tid=1952] RegisterWiFiConfigureCallBack CaptivePortal: PSM get of NotifyChanges value is true PSM get returned 100...
+6.316063 [mod=WIFI, lvl=WARN] [tid=1014]  RDKB_SYSTEM_BOOT_UP_LOG : CosaWifiInitialize - WiFi initialization complete. 
+6.316685 [mod=WIFI, lvl=WARN] [tid=1014] CosaWifiInitialize - returnStatus 0
+6.328953 [mod=WIFI, lvl=WARN] [tid=1014] Search for empty object in 'dslhCpeCheckEmptyObject'
+6.423122 [mod=WIFI, lvl=INFO] [tid=1014] Wifi Agent loaded successfully...
+6.425087 [mod=WIFI, lvl=WARN] [tid=1014] RDKB_SYSTEM_BOOT_UP_LOG : Entering Wifi loop 
+9.066589 [mod=WIFI, lvl=WARN] [tid=1016] DslhObjcoValidate: X_RDKCENTRAL-COM_WiFiHost_Sync, bsUpdate = 3
+
+9.067337 [mod=WIFI, lvl=WARN] [tid=2015] RDK_LOG_WARN, WiFi_HostSyncThread-885 
+9.067497 [mod=WIFI, lvl=INFO] [tid=2015]  Wifi_Hosts_Sync_Func-24971 
+9.071682 [mod=WIFI, lvl=WARN] [tid=1016] DslhObjcoValidate: X_RDKCENTRAL-COM_WiFiHost_Sync, bsUpdate = 3
+
+9.075066 [mod=WIFI, lvl=WARN] [tid=2021] RDK_LOG_WARN, WiFi_HostSyncThread-885 
+9.075142 [mod=WIFI, lvl=INFO] [tid=2021]  Wifi_Hosts_Sync_Func-24971 
+9.256367 [mod=WIFI, lvl=WARN] [tid=2021]  Total Hosts Count is 0
+9.256367 [mod=WIFI, lvl=WARN] [tid=2015]  Total Hosts Count is 0
+19.079685 [mod=WIFI, lvl=WARN] [tid=1016] DslhObjcoValidate: X_RDKCENTRAL-COM_WiFiHost_Sync, bsUpdate = 3
+
+19.080151 [mod=WIFI, lvl=WARN] [tid=3501] RDK_LOG_WARN, WiFi_HostSyncThread-885 
+19.080238 [mod=WIFI, lvl=INFO] [tid=3501]  Wifi_Hosts_Sync_Func-24971 
+19.198044 [mod=WIFI, lvl=WARN] [tid=3501]  Total Hosts Count is 0
+29.088467 [mod=WIFI, lvl=WARN] [tid=1016] DslhObjcoValidate: X_RDKCENTRAL-COM_WiFiHost_Sync, bsUpdate = 3
+
+29.088924 [mod=WIFI, lvl=WARN] [tid=3598] RDK_LOG_WARN, WiFi_HostSyncThread-885 
+29.088997 [mod=WIFI, lvl=INFO] [tid=3598]  Wifi_Hosts_Sync_Func-24971 
+29.237091 [mod=WIFI, lvl=WARN] [tid=3598]  Total Hosts Count is 0
+39.096043 [mod=WIFI, lvl=WARN] [tid=1016] DslhObjcoValidate: X_RDKCENTRAL-COM_WiFiHost_Sync, bsUpdate = 3
+
+39.096401 [mod=WIFI, lvl=WARN] [tid=3663] RDK_LOG_WARN, WiFi_HostSyncThread-885 
+39.096500 [mod=WIFI, lvl=INFO] [tid=3663]  Wifi_Hosts_Sync_Func-24971 
+39.196854 [mod=WIFI, lvl=WARN] [tid=3663]  Total Hosts Count is 0
+49.102982 [mod=WIFI, lvl=WARN] [tid=1016] DslhObjcoValidate: X_RDKCENTRAL-COM_WiFiHost_Sync, bsUpdate = 3
+
+49.103325 [mod=WIFI, lvl=WARN] [tid=3804] RDK_LOG_WARN, WiFi_HostSyncThread-885 
+49.103394 [mod=WIFI, lvl=INFO] [tid=3804]  Wifi_Hosts_Sync_Func-24971 
+49.203743 [mod=WIFI, lvl=WARN] [tid=3804]  Total Hosts Count is 0
+59.109509 [mod=WIFI, lvl=WARN] [tid=1016] DslhObjcoValidate: X_RDKCENTRAL-COM_WiFiHost_Sync, bsUpdate = 3
+
+59.109825 [mod=WIFI, lvl=WARN] [tid=3881] RDK_LOG_WARN, WiFi_HostSyncThread-885 
+59.109890 [mod=WIFI, lvl=INFO] [tid=3881]  Wifi_Hosts_Sync_Func-24971 
+59.208477 [mod=WIFI, lvl=WARN] [tid=3881]  Total Hosts Count is 0
+69.117355 [mod=WIFI, lvl=WARN] [tid=1016] DslhObjcoValidate: X_RDKCENTRAL-COM_WiFiHost_Sync, bsUpdate = 3
+
+69.117836 [mod=WIFI, lvl=WARN] [tid=4004] RDK_LOG_WARN, WiFi_HostSyncThread-885 
+69.117912 [mod=WIFI, lvl=INFO] [tid=4004]  Wifi_Hosts_Sync_Func-24971 
+69.232449 [mod=WIFI, lvl=WARN] [tid=4004]  Total Hosts Count is 0
+79.126106 [mod=WIFI, lvl=WARN] [tid=1016] DslhObjcoValidate: X_RDKCENTRAL-COM_WiFiHost_Sync, bsUpdate = 3
+
+79.126457 [mod=WIFI, lvl=WARN] [tid=4127] RDK_LOG_WARN, WiFi_HostSyncThread-885 
+79.126522 [mod=WIFI, lvl=INFO] [tid=4127]  Wifi_Hosts_Sync_Func-24971 
+79.224106 [mod=WIFI, lvl=WARN] [tid=4127]  Total Hosts Count is 0
+89.133919 [mod=WIFI, lvl=WARN] [tid=1016] DslhObjcoValidate: X_RDKCENTRAL-COM_WiFiHost_Sync, bsUpdate = 3
+
+89.134258 [mod=WIFI, lvl=WARN] [tid=4219] RDK_LOG_WARN, WiFi_HostSyncThread-885 
+89.134357 [mod=WIFI, lvl=INFO] [tid=4219]  Wifi_Hosts_Sync_Func-24971 
+89.232746 [mod=WIFI, lvl=WARN] [tid=4219]  Total Hosts Count is 0
+99.141731 [mod=WIFI, lvl=WARN] [tid=1016] DslhObjcoValidate: X_RDKCENTRAL-COM_WiFiHost_Sync, bsUpdate = 3
+
+99.142067 [mod=WIFI, lvl=WARN] [tid=4284] RDK_LOG_WARN, WiFi_HostSyncThread-885 
+99.142132 [mod=WIFI, lvl=INFO] [tid=4284]  Wifi_Hosts_Sync_Func-24971 
+99.249474 [mod=WIFI, lvl=WARN] [tid=4284]  Total Hosts Count is 0
+109.149387 [mod=WIFI, lvl=WARN] [tid=1016] DslhObjcoValidate: X_RDKCENTRAL-COM_WiFiHost_Sync, bsUpdate = 3
+
+109.149696 [mod=WIFI, lvl=WARN] [tid=4376] RDK_LOG_WARN, WiFi_HostSyncThread-885 
+109.149761 [mod=WIFI, lvl=INFO] [tid=4376]  Wifi_Hosts_Sync_Func-24971 
+109.247288 [mod=WIFI, lvl=WARN] [tid=4376]  Total Hosts Count is 0
+119.157875 [mod=WIFI, lvl=WARN] [tid=1016] DslhObjcoValidate: X_RDKCENTRAL-COM_WiFiHost_Sync, bsUpdate = 3
+
+119.158207 [mod=WIFI, lvl=WARN] [tid=4441] RDK_LOG_WARN, WiFi_HostSyncThread-885 
+119.158272 [mod=WIFI, lvl=INFO] [tid=4441]  Wifi_Hosts_Sync_Func-24971 
+119.255978 [mod=WIFI, lvl=WARN] [tid=4441]  Total Hosts Count is 0
+129.165794 [mod=WIFI, lvl=WARN] [tid=1016] DslhObjcoValidate: X_RDKCENTRAL-COM_WiFiHost_Sync, bsUpdate = 3
+
+129.166103 [mod=WIFI, lvl=WARN] [tid=4535] RDK_LOG_WARN, WiFi_HostSyncThread-885 
+129.166172 [mod=WIFI, lvl=INFO] [tid=4535]  Wifi_Hosts_Sync_Func-24971 
+129.262115 [mod=WIFI, lvl=WARN] [tid=4535]  Total Hosts Count is 0
+139.173302 [mod=WIFI, lvl=WARN] [tid=1016] DslhObjcoValidate: X_RDKCENTRAL-COM_WiFiHost_Sync, bsUpdate = 3
+
+139.173485 [mod=WIFI, lvl=WARN] [tid=4658] RDK_LOG_WARN, WiFi_HostSyncThread-885 
+139.173542 [mod=WIFI, lvl=INFO] [tid=4658]  Wifi_Hosts_Sync_Func-24971 
+139.279366 [mod=WIFI, lvl=WARN] [tid=4658]  Total Hosts Count is 0
+149.182232 [mod=WIFI, lvl=WARN] [tid=1016] DslhObjcoValidate: X_RDKCENTRAL-COM_WiFiHost_Sync, bsUpdate = 3
+
+149.182720 [mod=WIFI, lvl=WARN] [tid=4750] RDK_LOG_WARN, WiFi_HostSyncThread-885 
+149.182796 [mod=WIFI, lvl=INFO] [tid=4750]  Wifi_Hosts_Sync_Func-24971 
+149.283588 [mod=WIFI, lvl=WARN] [tid=4750]  Total Hosts Count is 0
+159.194859 [mod=WIFI, lvl=WARN] [tid=1016] DslhObjcoValidate: X_RDKCENTRAL-COM_WiFiHost_Sync, bsUpdate = 3
+
+159.195564 [mod=WIFI, lvl=WARN] [tid=4815] RDK_LOG_WARN, WiFi_HostSyncThread-885 
+159.195637 [mod=WIFI, lvl=INFO] [tid=4815]  Wifi_Hosts_Sync_Func-24971 
+159.303772 [mod=WIFI, lvl=WARN] [tid=4815]  Total Hosts Count is 0
+169.202835 [mod=WIFI, lvl=WARN] [tid=1016] DslhObjcoValidate: X_RDKCENTRAL-COM_WiFiHost_Sync, bsUpdate = 3
+
+169.203167 [mod=WIFI, lvl=WARN] [tid=4907] RDK_LOG_WARN, WiFi_HostSyncThread-885 
+169.203232 [mod=WIFI, lvl=INFO] [tid=4907]  Wifi_Hosts_Sync_Func-24971 
+169.298271 [mod=WIFI, lvl=WARN] [tid=4907]  Total Hosts Count is 0
+179.210567 [mod=WIFI, lvl=WARN] [tid=1016] DslhObjcoValidate: X_RDKCENTRAL-COM_WiFiHost_Sync, bsUpdate = 3
+
+179.210899 [mod=WIFI, lvl=WARN] [tid=4972] RDK_LOG_WARN, WiFi_HostSyncThread-885 
+179.210964 [mod=WIFI, lvl=INFO] [tid=4972]  Wifi_Hosts_Sync_Func-24971 
+179.314014 [mod=WIFI, lvl=WARN] [tid=4972]  Total Hosts Count is 0
+189.219090 [mod=WIFI, lvl=WARN] [tid=1016] DslhObjcoValidate: X_RDKCENTRAL-COM_WiFiHost_Sync, bsUpdate = 3
+
+189.219425 [mod=WIFI, lvl=WARN] [tid=5092] RDK_LOG_WARN, WiFi_HostSyncThread-885 
+189.219490 [mod=WIFI, lvl=INFO] [tid=5092]  Wifi_Hosts_Sync_Func-24971 
+189.312885 [mod=WIFI, lvl=WARN] [tid=5092]  Total Hosts Count is 0
+199.227318 [mod=WIFI, lvl=WARN] [tid=1016] DslhObjcoValidate: X_RDKCENTRAL-COM_WiFiHost_Sync, bsUpdate = 3
+
+199.227657 [mod=WIFI, lvl=WARN] [tid=5215] RDK_LOG_WARN, WiFi_HostSyncThread-885 
+199.227722 [mod=WIFI, lvl=INFO] [tid=5215]  Wifi_Hosts_Sync_Func-24971 
+199.335495 [mod=WIFI, lvl=WARN] [tid=5215]  Total Hosts Count is 0
+209.235226 [mod=WIFI, lvl=WARN] [tid=1016] DslhObjcoValidate: X_RDKCENTRAL-COM_WiFiHost_Sync, bsUpdate = 3
+
+209.235626 [mod=WIFI, lvl=WARN] [tid=5307] RDK_LOG_WARN, WiFi_HostSyncThread-885 
+209.235699 [mod=WIFI, lvl=INFO] [tid=5307]  Wifi_Hosts_Sync_Func-24971 
+209.331539 [mod=WIFI, lvl=WARN] [tid=5307]  Total Hosts Count is 0
+219.244583 [mod=WIFI, lvl=WARN] [tid=1016] DslhObjcoValidate: X_RDKCENTRAL-COM_WiFiHost_Sync, bsUpdate = 3
+
+219.245003 [mod=WIFI, lvl=WARN] [tid=5372] RDK_LOG_WARN, WiFi_HostSyncThread-885 
+219.245075 [mod=WIFI, lvl=INFO] [tid=5372]  Wifi_Hosts_Sync_Func-24971 
+219.343491 [mod=WIFI, lvl=WARN] [tid=5372]  Total Hosts Count is 0
+229.252460 [mod=WIFI, lvl=WARN] [tid=1016] DslhObjcoValidate: X_RDKCENTRAL-COM_WiFiHost_Sync, bsUpdate = 3
+
+229.253147 [mod=WIFI, lvl=WARN] [tid=5464] RDK_LOG_WARN, WiFi_HostSyncThread-885 
+229.253223 [mod=WIFI, lvl=INFO] [tid=5464]  Wifi_Hosts_Sync_Func-24971 
+229.404015 [mod=WIFI, lvl=WARN] [tid=5464]  Total Hosts Count is 0
+239.259037 [mod=WIFI, lvl=WARN] [tid=1016] DslhObjcoValidate: X_RDKCENTRAL-COM_WiFiHost_Sync, bsUpdate = 3
+
+239.259167 [mod=WIFI, lvl=WARN] [tid=5529] RDK_LOG_WARN, WiFi_HostSyncThread-885 
+239.259228 [mod=WIFI, lvl=INFO] [tid=5529]  Wifi_Hosts_Sync_Func-24971 
+239.391571 [mod=WIFI, lvl=WARN] [tid=5529]  Total Hosts Count is 0

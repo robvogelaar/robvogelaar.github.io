@@ -1,0 +1,191 @@
+3.369801 [mod=VLANMANAGER, lvl=INFO] [tid=1029] Connect to bus daemon...
+3.370144 [mod=VLANMANAGER, lvl=WARN] [tid=1029] RBus is enabled
+3.370228 [mod=VLANMANAGER, lvl=INFO] [tid=1029] rbuscore.c:2290 RBus Enabled
+
+3.370300 [mod=VLANMANAGER, lvl=INFO] [tid=1029] rbuscore.c:643 Broker address: unix:///tmp/rtrouted
+
+3.370323 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:377 Performing init
+
+3.370346 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:2516 Entry of _rbuscore_directconnection_load_from_cache
+
+3.370384 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:2520 file doesn't exist
+
+3.370449 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rtConnection.c:305 ConnectAndRegister creating first connection
+
+3.370472 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rtConnection.c:353 connecting to router
+
+3.370533 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rtConnection.c:357 router connection up
+
+3.370571 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rtConnection.c:375 trying connect
+
+3.370640 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rtConnection.c:396 connection made
+
+3.370674 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rtConnection.c:410 connect unix://:0 -> unix:///tmp/rtrouted:0
+
+3.371197 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:656 Successfully created connection for eRT.com.cisco.spvtg.ccsp.vlanmanager
+
+3.371254 [mod=VLANMANAGER, lvl=INFO] [tid=1029] connection opened for eRT.com.cisco.spvtg.ccsp.vlanmanager
+3.371380 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:821 Registered object eRT.com.cisco.spvtg.ccsp.vlanmanager
+
+3.371429 [mod=VLANMANAGER, lvl=INFO] [tid=1029] INFO: bus_handle: 0x 9b3d4f0 
+3.386307 [mod=VLANMANAGER, lvl=DEBUG] [tid=1031] rtConnection.c:1801 Reader thread started
+
+3.386429 [mod=VLANMANAGER, lvl=DEBUG] [tid=1032] rtConnection.c:1698 Callback thread started
+
+4.372349 [mod=VLANMANAGER, lvl=INFO] [tid=1029] CcspBaseIf_Register_Event_rbus : rbus_registerEvent called for event: currentSessionIDSignal
+4.372398 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:1583 Starting event dispatching.
+
+4.372429 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:1612 Added subscription for event _rbus_session_mgr::currentSessionIDSignal.
+
+4.373558 [mod=VLANMANAGER, lvl=INFO] [tid=1029] rbuscore.c:738 Subscription for _rbus_session_mgr::currentSessionIDSignal is now active.
+
+4.373936 [mod=VLANMANAGER, lvl=WARN] [tid=1029] Register empty object : com.
+4.373981 [mod=VLANMANAGER, lvl=WARN] [tid=1029] Register empty object : com.cisco.
+4.374008 [mod=VLANMANAGER, lvl=WARN] [tid=1029] Register empty object : com.cisco.spvtg.
+4.374039 [mod=VLANMANAGER, lvl=WARN] [tid=1029] Register empty object : com.cisco.spvtg.ccsp.
+4.374371 [mod=VLANMANAGER, lvl=WARN] [tid=1029] DM Library module name = CCSP Base Data Model
+4.374428 [mod=VLANMANAGER, lvl=WARN] [tid=1029] BackEndManagerInitialize...
+4.399445 [mod=VLANMANAGER, lvl=WARN] [tid=1029]   VlanCreate done!
+4.432278 [mod=VLANMANAGER, lvl=WARN] [tid=1029]   EthernetCreate done!
+4.432514 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] 'unsignedInt[1:7]' UINT range [1:7]
+4.432758 [mod=VLANMANAGER, lvl=WARN] [tid=1029] DM Library module name = COSA_TR181_RdkVlanManager
+4.433216 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] Before Synchronizing:Device.X_RDK_Ethernet.Link.1.X_RDK_Marking.
+4.433250 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] After Synchronizing:Device.X_RDK_Ethernet.Link.1.X_RDK_Marking.:0
+4.433281 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] Before Synchronizing:Device.X_RDK_Ethernet.Link.2.X_RDK_Marking.
+4.433304 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] After Synchronizing:Device.X_RDK_Ethernet.Link.2.X_RDK_Marking.:0
+4.433350 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] Before Synchronizing:Device.X_RDK_Ethernet.Link.3.X_RDK_Marking.
+4.433372 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] After Synchronizing:Device.X_RDK_Ethernet.Link.3.X_RDK_Marking.:0
+4.433449 [mod=VLANMANAGER, lvl=WARN] [tid=1029] Search for empty object in 'dslhCpeCheckEmptyObject'
+4.434261 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:1018 Added alias com.cisco.spvtg.ccsp.vlanmanager.Name for object eRT.com.cisco.spvtg.ccsp.vlanmanager.
+
+4.434753 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:1018 Added alias com.cisco.spvtg.ccsp.vlanmanager.Version for object eRT.com.cisco.spvtg.ccsp.vlanmanager.
+
+4.435898 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:1018 Added alias com.cisco.spvtg.ccsp.vlanmanager.Author for object eRT.com.cisco.spvtg.ccsp.vlanmanager.
+
+4.436462 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:1018 Added alias com.cisco.spvtg.ccsp.vlanmanager.Health for object eRT.com.cisco.spvtg.ccsp.vlanmanager.
+
+4.436913 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:1018 Added alias com.cisco.spvtg.ccsp.vlanmanager.State for object eRT.com.cisco.spvtg.ccsp.vlanmanager.
+
+4.437382 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:1018 Added alias com.cisco.spvtg.ccsp.vlanmanager.DTXml for object eRT.com.cisco.spvtg.ccsp.vlanmanager.
+
+4.437775 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:1018 Added alias com.cisco.spvtg.ccsp.vlanmanager.Register for object eRT.com.cisco.spvtg.ccsp.vlanmanager.
+
+4.438129 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:1018 Added alias com.cisco.spvtg.ccsp.vlanmanager.Logging.Enable for object eRT.com.cisco.spvtg.ccsp.vlanmanager.
+
+4.438553 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:1018 Added alias com.cisco.spvtg.ccsp.vlanmanager.Logging.LogLevel for object eRT.com.cisco.spvtg.ccsp.vlanmanager.
+
+4.439476 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:1018 Added alias com.cisco.spvtg.ccsp.vlanmanager.Memory.MinUsage for object eRT.com.cisco.spvtg.ccsp.vlanmanager.
+
+4.439953 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:1018 Added alias com.cisco.spvtg.ccsp.vlanmanager.Memory.MaxUsage for object eRT.com.cisco.spvtg.ccsp.vlanmanager.
+
+4.440533 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:1018 Added alias com.cisco.spvtg.ccsp.vlanmanager.Memory.Consumed for object eRT.com.cisco.spvtg.ccsp.vlanmanager.
+
+4.441025 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:1018 Added alias Device.X_RDK_Ethernet.LinkNumberOfEntries for object eRT.com.cisco.spvtg.ccsp.vlanmanager.
+
+4.441479 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:1018 Added alias Device.X_RDK_Ethernet.Link.{i}.Enable for object eRT.com.cisco.spvtg.ccsp.vlanmanager.
+
+4.441959 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:1018 Added alias Device.X_RDK_Ethernet.Link.{i}.Status for object eRT.com.cisco.spvtg.ccsp.vlanmanager.
+
+4.442425 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:1018 Added alias Device.X_RDK_Ethernet.Link.{i}.Alias for object eRT.com.cisco.spvtg.ccsp.vlanmanager.
+
+4.442875 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:1018 Added alias Device.X_RDK_Ethernet.Link.{i}.Name for object eRT.com.cisco.spvtg.ccsp.vlanmanager.
+
+4.443336 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:1018 Added alias Device.X_RDK_Ethernet.Link.{i}.LowerLayers for object eRT.com.cisco.spvtg.ccsp.vlanmanager.
+
+4.443806 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:1018 Added alias Device.X_RDK_Ethernet.Link.{i}.X_RDK_BaseInterface for object eRT.com.cisco.spvtg.ccsp.vlanmanager.
+
+4.444309 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:1018 Added alias Device.X_RDK_Ethernet.Link.{i}.MACAddress for object eRT.com.cisco.spvtg.ccsp.vlanmanager.
+
+4.444790 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:1018 Added alias Device.X_RDK_Ethernet.Link.{i}.MACAddrOffSet for object eRT.com.cisco.spvtg.ccsp.vlanmanager.
+
+4.445274 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:1018 Added alias Device.X_RDK_Ethernet.Link.{i}.PriorityTagging for object eRT.com.cisco.spvtg.ccsp.vlanmanager.
+
+4.445732 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:1018 Added alias Device.X_RDK_Ethernet.Link.{i}.X_RDK_Refresh for object eRT.com.cisco.spvtg.ccsp.vlanmanager.
+
+4.446201 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:1018 Added alias Device.X_RDK_Ethernet.Link.{i}.X_RDK_MarkingNumberOfEntries for object eRT.com.cisco.spvtg.ccsp.vlanmanager.
+
+4.446674 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:1018 Added alias Device.X_RDK_Ethernet.Link.{i}.X_RDK_Marking.{i}.SKBPort for object eRT.com.cisco.spvtg.ccsp.vlanmanager.
+
+4.447144 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:1018 Added alias Device.X_RDK_Ethernet.Link.{i}.X_RDK_Marking.{i}.EthernetPriorityMark for object eRT.com.cisco.spvtg.ccsp.vlanmanager.
+
+4.447639 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:1018 Added alias Device.X_RDK_Ethernet.VLANTerminationNumberOfEntries for object eRT.com.cisco.spvtg.ccsp.vlanmanager.
+
+4.448120 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:1018 Added alias Device.X_RDK_Ethernet.VLANTermination.{i}.Enable for object eRT.com.cisco.spvtg.ccsp.vlanmanager.
+
+4.448765 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:1018 Added alias Device.X_RDK_Ethernet.VLANTermination.{i}.Status for object eRT.com.cisco.spvtg.ccsp.vlanmanager.
+
+4.449245 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:1018 Added alias Device.X_RDK_Ethernet.VLANTermination.{i}.Alias for object eRT.com.cisco.spvtg.ccsp.vlanmanager.
+
+4.449718 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:1018 Added alias Device.X_RDK_Ethernet.VLANTermination.{i}.Name for object eRT.com.cisco.spvtg.ccsp.vlanmanager.
+
+4.450169 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:1018 Added alias Device.X_RDK_Ethernet.VLANTermination.{i}.LastChange for object eRT.com.cisco.spvtg.ccsp.vlanmanager.
+
+4.450638 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:1018 Added alias Device.X_RDK_Ethernet.VLANTermination.{i}.LowerLayers for object eRT.com.cisco.spvtg.ccsp.vlanmanager.
+
+4.451115 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:1018 Added alias Device.X_RDK_Ethernet.VLANTermination.{i}.VLANID for object eRT.com.cisco.spvtg.ccsp.vlanmanager.
+
+4.451584 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:1018 Added alias Device.X_RDK_Ethernet.VLANTermination.{i}.TPID for object eRT.com.cisco.spvtg.ccsp.vlanmanager.
+
+4.452053 [mod=VLANMANAGER, lvl=DEBUG] [tid=1029] rbuscore.c:1018 Added alias Device.X_RDK_Ethernet.VLANTermination.{i}.X_RDK_BaseInterface for object eRT.com.cisco.spvtg.ccsp.vlanmanager.
+
+5.532074 [mod=VLANMANAGER, lvl=DEBUG] [tid=1032] thread_path_message_func_rbus Component ID: eRT.com.cisco.spvtg.ccsp.vlanmanager method: METHOD_GETPARAMETERVALUES reply_topic:rbus.wanmanager.INBOX.1018
+5.532127 [mod=VLANMANAGER, lvl=DEBUG] [tid=1032] parameterNames[0]: Device.X_RDK_Ethernet.VLANTermination.2.Status
+5.536282 [mod=VLANMANAGER, lvl=DEBUG] [tid=1032] getParameterValues: size 1 result 100
+5.536354 [mod=VLANMANAGER, lvl=DEBUG] [tid=1032] val[0]->parameterName Device.X_RDK_Ethernet.VLANTermination.2.Status val[0]->parameterValue Down
+5.537365 [mod=VLANMANAGER, lvl=DEBUG] [tid=1032] thread_path_message_func_rbus Component ID: eRT.com.cisco.spvtg.ccsp.vlanmanager method: METHOD_SETPARAMETERVALUES reply_topic:rbus.wanmanager.INBOX.1018
+5.537472 [mod=VLANMANAGER, lvl=WARN] [tid=1032] DslhObjcoValidate: Enable, bsUpdate = 3
+
+5.537655 [mod=VLANMANAGER, lvl=WARN] [tid=1032] Before committing:Device.X_RDK_Ethernet.VLANTermination.2.
+5.537689 [mod=VLANMANAGER, lvl=WARN] [tid=1032] After committing:Device.X_RDK_Ethernet.VLANTermination.2.:0
+5.537712 [mod=VLANMANAGER, lvl=DEBUG] [tid=1032] setParameterValues result 100
+5.539253 [mod=VLANMANAGER, lvl=INFO] [tid=1680] Vlan_SetEthLink-264: iEthLinkInstance=2 
+5.540001 [mod=VLANMANAGER, lvl=ERROR] [tid=1680] EthLink_AddMarking 727 Eth instance not present
+5.540043 [mod=VLANMANAGER, lvl=ERROR] [tid=1680] [EthLink_Enable-279] Failed to Add Marking. Creating VLAN without Marking 
+5.540062 [mod=VLANMANAGER, lvl=INFO] [tid=1680] EthLink_Enable-339: setting ip route table for mg0 
+5.554119 [mod=VLANMANAGER, lvl=INFO] [tid=1680] Vlan_SetEthLink-314:Successfully Set EthLink mg0
+5.557182 [mod=VLANMANAGER, lvl=DEBUG] [tid=1032] thread_path_message_func_rbus Component ID: eRT.com.cisco.spvtg.ccsp.vlanmanager method: METHOD_GETPARAMETERVALUES reply_topic:rbus.wanmanager.INBOX.1018
+5.557247 [mod=VLANMANAGER, lvl=DEBUG] [tid=1032] parameterNames[0]: Device.X_RDK_Ethernet.VLANTermination.3.Status
+5.561146 [mod=VLANMANAGER, lvl=DEBUG] [tid=1032] getParameterValues: size 1 result 100
+5.561207 [mod=VLANMANAGER, lvl=DEBUG] [tid=1032] val[0]->parameterName Device.X_RDK_Ethernet.VLANTermination.3.Status val[0]->parameterValue Down
+5.561855 [mod=VLANMANAGER, lvl=DEBUG] [tid=1032] thread_path_message_func_rbus Component ID: eRT.com.cisco.spvtg.ccsp.vlanmanager method: METHOD_SETPARAMETERVALUES reply_topic:rbus.wanmanager.INBOX.1018
+5.561932 [mod=VLANMANAGER, lvl=WARN] [tid=1032] DslhObjcoValidate: Enable, bsUpdate = 3
+
+5.562099 [mod=VLANMANAGER, lvl=WARN] [tid=1032] Before committing:Device.X_RDK_Ethernet.VLANTermination.3.
+5.562130 [mod=VLANMANAGER, lvl=WARN] [tid=1032] After committing:Device.X_RDK_Ethernet.VLANTermination.3.:0
+5.562153 [mod=VLANMANAGER, lvl=DEBUG] [tid=1032] setParameterValues result 100
+5.566448 [mod=VLANMANAGER, lvl=INFO] [tid=1698] Vlan_SetEthLink-264: iEthLinkInstance=3 
+5.567146 [mod=VLANMANAGER, lvl=ERROR] [tid=1698] EthLink_AddMarking 727 Eth instance not present
+5.567196 [mod=VLANMANAGER, lvl=ERROR] [tid=1698] [EthLink_Enable-279] Failed to Add Marking. Creating VLAN without Marking 
+5.567219 [mod=VLANMANAGER, lvl=INFO] [tid=1698] EthLink_Enable-339: setting ip route table for voip0 
+5.574879 [mod=VLANMANAGER, lvl=INFO] [tid=1680] Vlan_CreateTaggedInterface-631: setting vrf for mg0 
+5.583801 [mod=VLANMANAGER, lvl=DEBUG] [tid=1032] thread_path_message_func_rbus Component ID: eRT.com.cisco.spvtg.ccsp.vlanmanager method: METHOD_GETPARAMETERVALUES reply_topic:rbus.wanmanager.INBOX.1018
+5.583855 [mod=VLANMANAGER, lvl=DEBUG] [tid=1032] parameterNames[0]: Device.X_RDK_Ethernet.VLANTermination.1.Status
+5.587631 [mod=VLANMANAGER, lvl=DEBUG] [tid=1032] getParameterValues: size 1 result 100
+5.587692 [mod=VLANMANAGER, lvl=DEBUG] [tid=1032] val[0]->parameterName Device.X_RDK_Ethernet.VLANTermination.1.Status val[0]->parameterValue Down
+5.588703 [mod=VLANMANAGER, lvl=DEBUG] [tid=1032] thread_path_message_func_rbus Component ID: eRT.com.cisco.spvtg.ccsp.vlanmanager method: METHOD_SETPARAMETERVALUES reply_topic:rbus.wanmanager.INBOX.1018
+5.588783 [mod=VLANMANAGER, lvl=WARN] [tid=1032] DslhObjcoValidate: Enable, bsUpdate = 3
+
+5.588966 [mod=VLANMANAGER, lvl=WARN] [tid=1032] Before committing:Device.X_RDK_Ethernet.VLANTermination.1.
+5.588997 [mod=VLANMANAGER, lvl=WARN] [tid=1032] After committing:Device.X_RDK_Ethernet.VLANTermination.1.:0
+5.589020 [mod=VLANMANAGER, lvl=DEBUG] [tid=1032] setParameterValues result 100
+5.591324 [mod=VLANMANAGER, lvl=INFO] [tid=1711] Vlan_SetEthLink-264: iEthLinkInstance=1 
+5.592228 [mod=VLANMANAGER, lvl=ERROR] [tid=1711] EthLink_AddMarking 727 Eth instance not present
+5.592281 [mod=VLANMANAGER, lvl=ERROR] [tid=1711] [EthLink_Enable-279] Failed to Add Marking. Creating VLAN without Marking 
+5.592304 [mod=VLANMANAGER, lvl=INFO] [tid=1711] Vlan_SetEthLink-314:Successfully Set EthLink erouter0
+5.606182 [mod=VLANMANAGER, lvl=INFO] [tid=1698] Vlan_SetEthLink-314:Successfully Set EthLink voip0
+5.607887 [mod=VLANMANAGER, lvl=INFO] [tid=1711] Vlan_SetMacAddr-521 valid mac=04:e3:1a:75:09:11, retry_count=0 
+5.607937 [mod=VLANMANAGER, lvl=INFO] [tid=1711] Vlan_GetEthLinkMacOffSet-465: iEthLinkInstance=1 
+5.607967 [mod=VLANMANAGER, lvl=INFO] [tid=1711] Vlan_SetMacAddr-547: macStr:04:e3:1a:75:09:11,pEntry->Name:erouter0 
+5.623932 [mod=VLANMANAGER, lvl=INFO] [tid=1680] Vlan_SetMacAddr-521 valid mac=04:e3:1a:75:09:11, retry_count=0 
+5.623985 [mod=VLANMANAGER, lvl=INFO] [tid=1680] Vlan_GetEthLinkMacOffSet-465: iEthLinkInstance=2 
+5.624012 [mod=VLANMANAGER, lvl=INFO] [tid=1680] Vlan_SetMacAddr-547: macStr:04:e3:1a:75:09:16,pEntry->Name:mg0 
+5.633377 [mod=VLANMANAGER, lvl=INFO] [tid=1698] Vlan_CreateTaggedInterface-631: setting vrf for voip0 
+5.644905 [mod=VLANMANAGER, lvl=INFO] [tid=1711] EthLink_SendVirtualIfaceVlanStatus-236:Successfully set the Virtual Interface(Device.X_RDK_WanManager.Interface.1.VirtualInterface.1) VLAN Status(Up) 
+5.644947 [mod=VLANMANAGER, lvl=INFO] [tid=1711] Vlan_Enable-712: Successfully Updated Vlan Status to WanManager for Interface(erouter0) 
+5.662132 [mod=VLANMANAGER, lvl=INFO] [tid=1680] EthLink_SendVirtualIfaceVlanStatus-236:Successfully set the Virtual Interface(Device.X_RDK_WanManager.Interface.1.VirtualInterface.2) VLAN Status(Up) 
+5.662170 [mod=VLANMANAGER, lvl=INFO] [tid=1680] Vlan_Enable-712: Successfully Updated Vlan Status to WanManager for Interface(mg0) 
+5.667328 [mod=VLANMANAGER, lvl=INFO] [tid=1698] Vlan_SetMacAddr-521 valid mac=04:e3:1a:75:09:11, retry_count=0 
+5.667377 [mod=VLANMANAGER, lvl=INFO] [tid=1698] Vlan_GetEthLinkMacOffSet-465: iEthLinkInstance=3 
+5.667400 [mod=VLANMANAGER, lvl=INFO] [tid=1698] Vlan_SetMacAddr-547: macStr:04:e3:1a:75:09:15,pEntry->Name:voip0 
+5.691925 [mod=VLANMANAGER, lvl=INFO] [tid=1698] EthLink_SendVirtualIfaceVlanStatus-236:Successfully set the Virtual Interface(Device.X_RDK_WanManager.Interface.1.VirtualInterface.3) VLAN Status(Up) 
+5.691975 [mod=VLANMANAGER, lvl=INFO] [tid=1698] Vlan_Enable-712: Successfully Updated Vlan Status to WanManager for Interface(voip0) 
