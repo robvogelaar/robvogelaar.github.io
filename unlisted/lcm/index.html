@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern File Browser</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: linear-gradient(45deg, #f3ec78, #af4261);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        #file-browser {
+            max-width: 800px;
+            margin: 20px auto;
+        }
+
+        .directory, .file {
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-bottom: 5px;
+            cursor: pointer;
+        }
+
+        .directory {
+            background-color: #f1f1f1;
+        }
+
+        .file {
+            background-color: #e6e6e6;
+        }
+
+        .directory:hover, .file:hover {
+            background-color: #d0d0d0;
+        }
+
+        .directory > span, .file > span {
+            margin-left: 10px;
+        }
+
+        .drawio-file {
+            background-color: #bde0ff;
+        }
+    </style>
+</head>
+<body>
+    <div id="file-browser"></div>
+    <script>
+        drawio_url = "https://app.diagrams.net/#Uhttps%3A%2F%2Frobvogelaar.github.io/unlisted"
+
+        const fileBrowser = document.getElementById('file-browser');
+
+        const directoryStructure = [{"type": "file", "name": "ipk-amx-size.html", "extension": "html", "path": "ipk-amx-size.html"}, {"type": "file", "name": "ipk-lcm-cloc.html", "extension": "html", "path": "ipk-lcm-cloc.html"}, {"type": "file", "name": "ipk-cloc.html", "extension": "html", "path": "ipk-cloc.html"}, {"type": "file", "name": "lcm-review.drawio", "extension": "drawio", "path": "lcm-review.drawio"}, {"type": "file", "name": "ipk-amx-cloc.html", "extension": "html", "path": "ipk-amx-cloc.html"}, {"type": "file", "name": "ipk-size.html", "extension": "html", "path": "ipk-size.html"}, {"type": "file", "name": "ipk-lcm-size.html", "extension": "html", "path": "ipk-lcm-size.html"}, {"type": "file", "name": "deps.html", "extension": "html", "path": "deps.html"}];
+
+        renderDirectory(directoryStructure, fileBrowser, '');
+
+        function renderDirectory(directory, container, currentPath) {
+            directory.forEach(item => {
+                if (item.type === 'directory') {
+                    const directoryElement = document.createElement('div');
+                    directoryElement.className = 'directory';
+                    directoryElement.innerHTML = `<span>${item.name}</span>`;
+                    container.appendChild(directoryElement);
+
+                    const subDirectoryContainer = document.createElement('div');
+                    subDirectoryContainer.style.marginLeft = '20px';
+                    subDirectoryContainer.style.display = 'none';
+                    container.appendChild(subDirectoryContainer);
+
+                    const newPath = currentPath + '/' + item.name;
+                    renderDirectory(item.children, subDirectoryContainer, newPath);
+
+                    directoryElement.addEventListener('click', () => {
+                        if (subDirectoryContainer.style.display === 'none') {
+                            subDirectoryContainer.style.display = 'block';
+                        } else {
+                            subDirectoryContainer.style.display = 'none';
+                        }
+                    });
+                } else if (item.type === 'file') {
+                    const fileElement = document.createElement('div');
+
+                    if (item.extension === 'drawio') {
+                        fileElement.className = 'file drawio-file';
+                        const filePath = encodeURIComponent(currentPath + '/' + item.name);
+                        const drawioUrl = drawio_url + filePath;
+                        fileElement.setAttribute('data-file-path', drawio_url + '/' + item.path);
+
+                    } else {
+                        fileElement.className = 'file';
+                        fileElement.setAttribute('data-file-path', item.path);
+                    }
+
+                    fileElement.innerHTML = `<span>${item.name}</span>`;
+                    fileElement.setAttribute('title', item.path);
+                    fileElement.addEventListener('click', () => {
+                        const filePath = fileElement.getAttribute('data-file-path');
+                        window.open(filePath, '_blank');
+                    });
+
+                    container.appendChild(fileElement);
+                }
+            });
+        }
+    </script>
+</body>
+</html>
