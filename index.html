@@ -50,7 +50,7 @@
 <body>
     <div id="file-browser"></div>
     <script>
-        drawio_url = "https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com/robvogelaar/robvogelaar.github.io/main"
+        const drawio_base = "https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com/robvogelaar/robvogelaar.github.io/main"
 
         const fileBrowser = document.getElementById('file-browser');
 
@@ -86,9 +86,9 @@
 
                     if (item.extension === 'drawio') {
                         fileElement.className = 'file drawio-file';
-                        const filePath = encodeURIComponent(currentPath + '/' + item.name);
-                        const drawioUrl = drawio_url + filePath;
-                        fileElement.setAttribute('data-file-path', drawioUrl + '/' + item.path);
+                        const filePath = item.path;
+                        const drawioUrl = drawio_base + '/' + filePath;
+                        fileElement.setAttribute('data-file-path', drawioUrl);
                     } else {
                         fileElement.className = 'file';
                         fileElement.setAttribute('data-file-path', item.path);
