@@ -1,0 +1,31 @@
+4.012611 [mod=ETHAGENT, lvl=INFO] [tid=694] 
+After daemonize before signal
+4.012688 [mod=ETHAGENT, lvl=INFO] [tid=694] 
+before cmd_dispatch command
+4.012695 [mod=ETHAGENT, lvl=INFO] [tid=694] Connect to bus daemon...
+4.012718 [mod=ETHAGENT, lvl=INFO] [tid=694] rbuscore.c:2340 RBus Enabled
+
+4.012745 [mod=ETHAGENT, lvl=INFO] [tid=694] rbuscore.c:656 Broker address: tcp://192.168.254.253:12368
+
+4.013027 [mod=ETHAGENT, lvl=INFO] [tid=694] connection opened for eRT.com.cisco.spvtg.ccsp.ethagent
+4.013096 [mod=ETHAGENT, lvl=INFO] [tid=694] INFO: bus_handle: 0x0x87bfd90 
+5.014164 [mod=ETHAGENT, lvl=INFO] [tid=694] CcspBaseIf_Register_Event_rbus : rbus_registerEvent called for event: currentSessionIDSignal
+5.015179 [mod=ETHAGENT, lvl=INFO] [tid=694] rbuscore.c:755 Subscription for _rbus_session_mgr::currentSessionIDSignal is now active.
+
+5.015583 [mod=ETHAGENT, lvl=WARN] [tid=694] Register empty object : com.
+5.015629 [mod=ETHAGENT, lvl=WARN] [tid=694] Register empty object : com.cisco.
+5.015667 [mod=ETHAGENT, lvl=WARN] [tid=694] Register empty object : com.cisco.spvtg.
+5.015705 [mod=ETHAGENT, lvl=WARN] [tid=694] Register empty object : com.cisco.spvtg.ccsp.
+5.016220 [mod=ETHAGENT, lvl=WARN] [tid=694] DM Library module name = CCSP Base Data Model
+5.017166 [mod=ETHAGENT, lvl=WARN] [tid=694] CosaEthernetInitialize Ethernet_Logger_Thread Created
+5.018284 [mod=ETHAGENT, lvl=DEBUG] [tid=694] 'unsignedInt[1:7]' UINT range [1:7]
+5.018551 [mod=ETHAGENT, lvl=WARN] [tid=694] DM Library module name = CcspEthAgent
+5.018906 [mod=ETHAGENT, lvl=WARN] [tid=694] Search for empty object in 'dslhCpeCheckEmptyObject'
+5.028900 [mod=ETHAGENT, lvl=WARN] [tid=694] 
+Before Cdm_Init
+5.028927 [mod=ETHAGENT, lvl=WARN] [tid=694] 
+After Cdm_Init
+5.034462 [mod=ETHAGENT, lvl=INFO] [tid=814] <EthMonThrd> - DeleteAllHosts due to count is 0
+9.035645 [mod=ETHAGENT, lvl=WARN] [tid=696] DslhObjcoValidate: X_RDKCENTRAL-COM_EthHost_Sync, bsUpdate = 3
+
+9.035713 [mod=ETHAGENT, lvl=INFO] [tid=696] Ethernet_Hosts_Sync-782 Sync With LMLite

@@ -1,0 +1,1407 @@
+0.000000 [mod=GWPROV, lvl=INFO] [tid=106]  Entry gw_prov_utopia
+0.000935 [mod=GWPROV, lvl=INFO] [tid=106]  Creating Event Handler
+0.001232 [mod=GWPROV, lvl=INFO] [tid=109] EventHandler:300: Entered 
+0.005745 [mod=GWPROV, lvl=INFO] [tid=106] Entry GWP_act_ProvEntry_callback 
+0.005760 [mod=GWPROV, lvl=INFO] [tid=106] Entry GWP_act_ProvEntry_callback registerDocsisIntiEvents 
+0.005821 [mod=GWPROV, lvl=INFO] [tid=106]  Calling /etc/utopia/utopia_init.sh 
+0.009281 Starting log module..
+0.019360 [utopia][init] Starting syscfg using file store (/nvram/syscfg.db)
+0.145741 [utopia][init] Cannot read the reset duration value from /proc/P-UNIT/status
+0.189198 [utopia][init] Starting sysevent subsystem
+1.194080 [utopia][init] Setting any unset system values to default
+1.286919 [utopia][init] lan_ipaddr = 192.168.0.1 lan_netmask = 255.255.255.0
+1.287472 [utopia][init] Value of unit_activated got is: 1
+1.287971 [utopia][init] Echoing network response during Reboot
+1.288475 [utopia][init] Applying iptables settings
+1.296360 [utopia][init] Processing registration
+1.310490 [utopia][init] X_RDKCENTRAL-COM_LastRebootReason (unknown)
+1.356915 [utopia][init] Starting rpcserver in arm
+1.359421 [utopia][init] setting Multicast MAC before any switch configs
+1.377689 [mod=GWPROV, lvl=INFO] [tid=106]  GWP_SysCfgGetInt : name = bridge_mode 
+1.377796 [mod=GWPROV, lvl=INFO] [tid=106]  value = 0 
+1.378220 [mod=GWPROV, lvl=INFO] [tid=106]  Creating Thread  GWP_sysevent_threadfunc 
+1.378330 [mod=GWPROV, lvl=INFO] [tid=106]  GWP_SysCfgGetInt : name = bridge_mode 
+1.378368 [mod=GWPROV, lvl=INFO] [tid=106]  value = 0 
+1.378372 [mod=GWPROV, lvl=INFO] [tid=106]  GWP_SysCfgGetInt : name = last_erouter_mode 
+1.378407 [mod=GWPROV, lvl=INFO] [tid=106]  value = 3 
+1.378414 [mod=GWPROV, lvl=INFO] [tid=106]  validate_mode : bridge_mode = 0 , eRouterMode = 3 
+1.378418 [mod=GWPROV, lvl=INFO] [tid=106]  active_mode 0 
+1.380737 [mod=GWPROV, lvl=INFO] [tid=281]  Entry GWP_sysevent_threadfunc 
+1.382084 [mod=GWPROV, lvl=INFO] [tid=281]  Set notifications done 
+1.406246 SERVICE_CROND : event crond-start
+1.406876 SERVICE_CROND : starting crond service
+1.464699 SERVICE_CROND : creating cron files
+1.494572 RFC WANLinkHeal Feature is Enabled
+1.496532 SERVICE_CROND : Starting cron daemon
+2.008629 [mod=CR, lvl=WARN] [tid=379] Semaphore initialization Done!!
+2.008804 [mod=CR, lvl=WARN] [tid=380] Demonizing Done!!
+2.008896 [mod=CR, lvl=WARN] [tid=380] CRRbusOpen
+2.008919 [mod=CR, lvl=INFO] [tid=380] CR  INFO rbus.c:2778 -- Thread-380: rbus open for component: com.cisco.spvtg.ccsp.CR
+2.008980 [mod=CR, lvl=INFO] [tid=380] CR  INFO rbuscore.c:2340 -- Thread-380: RBus Enabled
+2.009007 [mod=CR, lvl=INFO] [tid=380] CR  INFO rbuscore.c:656 -- Thread-380: Broker address: tcp://192.168.254.253:12368
+2.009274 [mod=CR, lvl=INFO] [tid=380] CR  INFO rbus.c:2854 -- Thread-380:  rbus open (com.cisco.spvtg.ccsp.CR) success
+2.010284 [mod=CR, lvl=WARN] [tid=380] parsed xml cr-deviceprofile.xml
+2.010300 [mod=CR, lvl=WARN] [tid=380] adding component com.cisco.spvtg.ccsp.CR 1 to registry
+2.010307 [mod=CR, lvl=WARN] [tid=380] adding component com.cisco.spvtg.ccsp.psm 1 to registry
+2.010315 [mod=CR, lvl=WARN] [tid=380] adding component com.cisco.spvtg.ccsp.mta 1 to registry
+2.010319 [mod=CR, lvl=WARN] [tid=380] adding component com.cisco.spvtg.ccsp.cm 1 to registry
+2.010323 [mod=CR, lvl=WARN] [tid=380] adding component com.cisco.spvtg.ccsp.pam 1 to registry
+2.010330 [mod=CR, lvl=WARN] [tid=380] adding component com.cisco.spvtg.ccsp.tdm 1 to registry
+2.010334 [mod=CR, lvl=WARN] [tid=380] adding component com.cisco.spvtg.ccsp.lmlite 1 to registry
+2.010490 [mod=CR, lvl=INFO] [tid=380] CR  INFO rbus_subscriptions.c:447 -- Thread-380: file /tmp/rbus_subs_com.cisco.spvtg.ccsp.CR
+2.010937 [mod=CR, lvl=WARN] [tid=380] No Dependency Component for com.cisco.spvtg.ccsp.CR
+2.010948 [mod=CR, lvl=WARN] [tid=380] ReadyCheck waiting on com.cisco.spvtg.ccsp.psm
+2.010952 [mod=CR, lvl=WARN] [tid=380] ReadyCheck waiting on com.cisco.spvtg.ccsp.mta
+2.010956 [mod=CR, lvl=WARN] [tid=380] ReadyCheck waiting on com.cisco.spvtg.ccsp.cm
+2.010960 [mod=CR, lvl=WARN] [tid=380] ReadyCheck waiting on com.cisco.spvtg.ccsp.pam
+2.010963 [mod=CR, lvl=WARN] [tid=380] ReadyCheck waiting on com.cisco.spvtg.ccsp.tdm
+2.010967 [mod=CR, lvl=WARN] [tid=380] ReadyCheck waiting on com.cisco.spvtg.ccsp.lmlite
+2.010971 [mod=CR, lvl=WARN] [tid=380] RegisterComponent: com.cisco.spvtg.ccsp.CR is Registered
+2.011013 [mod=CR, lvl=WARN] [tid=383] wait thread enter
+2.011021 [mod=CR, lvl=WARN] [tid=383] ReadyCheck waiting on com.cisco.spvtg.ccsp.psm
+2.011028 [mod=CR, lvl=WARN] [tid=383] ReadyCheck waiting on com.cisco.spvtg.ccsp.mta
+2.011032 [mod=CR, lvl=WARN] [tid=383] ReadyCheck waiting on com.cisco.spvtg.ccsp.cm
+2.011047 [mod=CR, lvl=WARN] [tid=383] ReadyCheck waiting on com.cisco.spvtg.ccsp.pam
+2.011055 [mod=CR, lvl=WARN] [tid=383] ReadyCheck waiting on com.cisco.spvtg.ccsp.tdm
+2.011059 [mod=CR, lvl=WARN] [tid=383] ReadyCheck waiting on com.cisco.spvtg.ccsp.lmlite
+2.014912 [mod=CR, lvl=WARN] [tid=380] NonRoot feature is enabled, dropping root privileges for CcspCr process
+2.021202 [mod=PSM, lvl=INFO] [tid=387] Dropping root privileges
+2.021248 [mod=PSM, lvl=WARN] [tid=387] Semaphore initialization Done!!
+2.021473 [mod=PSM, lvl=WARN] [tid=388] Core dump is opened, do not catch signal
+2.021488 [mod=PSM, lvl=WARN] [tid=388] 
+2.021496 [mod=PSM, lvl=WARN] [tid=388]         ***************************************************************
+2.021500 [mod=PSM, lvl=WARN] [tid=388]         ***                                                         ***
+2.021503 [mod=PSM, lvl=WARN] [tid=388]         ***            PSM Testing App - Simulation                 ***
+2.021507 [mod=PSM, lvl=WARN] [tid=388]         ***           Common Component Service Platform             ***
+2.021511 [mod=PSM, lvl=WARN] [tid=388]         ***                                                         ***
+2.021515 [mod=PSM, lvl=WARN] [tid=388]         ***          Copyright 2014 Cisco Systems, Inc.             ***
+2.021519 [mod=PSM, lvl=WARN] [tid=388]         ***       Licensed under the Apache License, Version 2.0    ***
+2.021523 [mod=PSM, lvl=WARN] [tid=388]         ***                                                         ***
+2.021526 [mod=PSM, lvl=WARN] [tid=388]         ***************************************************************
+2.021530 [mod=PSM, lvl=WARN] [tid=388] 
+2.021534 [mod=PSM, lvl=INFO] [tid=388]  inside cmd_dispatch
+2.021538 [mod=PSM, lvl=INFO] [tid=388]  inside case 'e' !bEngaged
+2.021553 [mod=PSM, lvl=INFO] [tid=388] 
+2.021564 [mod=PSM, lvl=INFO] [tid=388] PsmCreateFileLoader-New File LoaderObject is created 
+2.021687 [mod=PSM, lvl=INFO] [tid=388] PsmFloEnrollObjects, Enrolled objectes required by pMyObject'
+2.021690 [mod=PSM, lvl=INFO] [tid=388] PsmFloInitialize, initialization member function of the base class'
+2.021698 [mod=PSM, lvl=INFO] [tid=388] Object Property is Reset
+2.021702 [mod=PSM, lvl=INFO] [tid=388] PsmFloInitialize, initialization of member fields'
+2.021706 [mod=PSM, lvl=INFO] [tid=388] Initialized Common Variables'
+2.021915 [mod=PSM, lvl=INFO] [tid=388]  inside case 'e' !bEngaged-pPsmSysRegistry
+2.022003 [mod=PSM, lvl=INFO] [tid=388] Psm Cfm Interface is set
+2.022007 [mod=PSM, lvl=INFO] [tid=388] System Ira Interface is set
+2.022011 [mod=PSM, lvl=INFO] [tid=388]  Engage in PsmFloEngage 
+2.022022 [mod=PSM, lvl=INFO] [tid=388] ssp_CfmReadCurConfig begins
+2.022705 [mod=PSM, lvl=ERROR] [tid=388] ssp_CfmReadCurConfig: Fail to import custom params
+2.023399 [mod=PSM, lvl=INFO] [tid=388] -- Psm_GetCustomPartnersParams - Name :eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.X_RDKCENTRAL-COM_Syndication.WiFiRegion.Code Value:USI
+2.023407 [mod=PSM, lvl=INFO] [tid=388] -- Psm_GetCustomPartnersParams - Name :dmsb.device.deviceinfo.X_RDKCENTRAL-COM_Syndication.TR69CertLocation Value:/etc/cacert.pem
+2.023411 [mod=PSM, lvl=INFO] [tid=388] -- Psm_GetCustomPartnersParams - Name :Device.DeviceInfo.X_RDKCENTRAL-COM_Syndication.HomeSec.SSIDprefix Value:XHS
+2.023441 [mod=PSM, lvl=INFO] [tid=388] -- Psm_GetCustomPartnersParams - Name :dmsb.l3net.4.V4Addr Value:192.168.0.1
+2.023468 [mod=PSM, lvl=INFO] [tid=388] -- Psm_GetCustomPartnersParams - Name :dmsb.l3net.4.V4SubnetMask Value:255.255.255.0
+2.023476 [mod=PSM, lvl=INFO] [tid=388] -- Psm_GetCustomPartnersParams - Total Count:5
+2.023483 [mod=PSM, lvl=INFO] [tid=388] IsParameterMissed param present dmsb.device.deviceinfo.X_RDKCENTRAL-COM_Syndication.TR69CertLocation
+2.023487 [mod=PSM, lvl=INFO] [tid=388] IsParameterMissed param present eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.X_RDKCENTRAL-COM_Syndication.WiFiRegion.Code
+2.023491 [mod=PSM, lvl=INFO] [tid=388] IsParameterMissed param present Device.DeviceInfo.X_RDKCENTRAL-COM_Syndication.HomeSec.SSIDprefix
+2.023499 [mod=PSM, lvl=INFO] [tid=388] IsParameterMissed param need to merge Device.X_RDK_WebConfig.URL
+2.023502 [mod=PSM, lvl=INFO] [tid=388] IsParameterMissed param present Device.X_RDK_WebConfig.SupplementaryServiceUrls.Telemetry
+2.023506 [mod=PSM, lvl=INFO] [tid=388] IsParameterMissed param present dmsb.l3net.4.V4Addr
+2.023510 [mod=PSM, lvl=INFO] [tid=388] IsParameterMissed prev dmsb.l2net.5.InstanceNum rec dmsb.l3net.4.V4Addr
+2.023514 [mod=PSM, lvl=INFO] [tid=388] IsParameterMissed param present dmsb.l3net.4.V4SubnetMask
+2.023521 [mod=PSM, lvl=INFO] [tid=388] -- flush_records : Flushing all records in hash table to buffer
+2.023926 [mod=PSM, lvl=INFO] [tid=388] ssp_CfmSaveCurConfig: called
+2.204781 [mod=PSM, lvl=INFO] [tid=388] PsmFloLoadRegFile, pFileData is free
+2.204994 [mod=PSM, lvl=INFO] [tid=388] PsmFloLoadRegFile, pRootNode is free
+2.204998 [mod=PSM, lvl=INFO] [tid=388] PsmFloLoadRegFile, hSysRoot folder closed
+2.205006 [mod=PSM, lvl=WARN] [tid=388] RDKB_SYSTEM_BOOT_UP_LOG : PsmDBusInit Entry
+2.205044 [mod=PSM, lvl=INFO] [tid=388] rbuscore.c:2340 RBus Enabled
+2.205074 [mod=PSM, lvl=INFO] [tid=388] rbuscore.c:656 Broker address: tcp://192.168.254.253:12368
+2.205227 [mod=PSM, lvl=INFO] [tid=388] connection opened for eRT.com.cisco.spvtg.ccsp.psm
+2.205372 [mod=PSM, lvl=INFO] [tid=388] eRT.com.cisco.spvtg.ccsp.psm start to check eRT.com.cisco.spvtg.ccsp.CR status
+2.205997 [mod=CR, lvl=WARN] [tid=382] getCcspLegacyPropHandler com.cisco.spvtg.ccsp.CR.Health called
+2.206135 [mod=PSM, lvl=INFO] [tid=388] eRT.com.cisco.spvtg.ccsp.CR is ready, eRT.com.cisco.spvtg.ccsp.psm continue
+2.206146 [mod=PSM, lvl=WARN] [tid=388] PsmSsp register capabilities of eRT.com.cisco.spvtg.ccsp.psm to eRT.com.cisco.spvtg.ccsp.CR: 
+2.206150 [mod=PSM, lvl=WARN] [tid=388] PsmSsp registering 17 items like com.cisco.spvtg.ccsp.psm with prefix='eRT.' ... 
+2.207302 [mod=CR, lvl=INFO] [tid=382] CR  INFO rbus.c:2313 -- Thread-382: calling methodHandler method [Device.CR.RegisterComponent()]
+2.207314 [mod=CR, lvl=WARN] [tid=382] methodHandler Device.CR.RegisterComponent()
+2.207317 [mod=CR, lvl=WARN] [tid=382] No Dependency Component for eRT.com.cisco.spvtg.ccsp.psm
+2.207325 [mod=CR, lvl=WARN] [tid=382] ReadyCheck waiting on com.cisco.spvtg.ccsp.mta
+2.207329 [mod=CR, lvl=WARN] [tid=382] ReadyCheck waiting on com.cisco.spvtg.ccsp.cm
+2.207333 [mod=CR, lvl=WARN] [tid=382] ReadyCheck waiting on com.cisco.spvtg.ccsp.pam
+2.207336 [mod=CR, lvl=WARN] [tid=382] ReadyCheck waiting on com.cisco.spvtg.ccsp.tdm
+2.207344 [mod=CR, lvl=WARN] [tid=382] ReadyCheck waiting on com.cisco.spvtg.ccsp.lmlite
+2.207348 [mod=CR, lvl=WARN] [tid=382] RegisterComponent: eRT.com.cisco.spvtg.ccsp.psm is Registered
+2.207409 [mod=PSM, lvl=WARN] [tid=388]  RDKB_SYSTEM_BOOT_UP_LOG : PsmSsp register capabilities successful with ret=100.
+2.207550 [mod=PSM, lvl=WARN] [tid=388] Interface 'dslhMiniWebSvcIf' is added into CpeController.
+2.207558 [mod=PSM, lvl=WARN] [tid=388] Unable to retrieve interface 'CcspComponentCommonDatamodelIf' in DslhCpeController.
+2.207561 [mod=PSM, lvl=WARN] [tid=388] Unable to retrieve interface 'dslhLibCallbackSvcIf' in DslhCpeController.
+2.207668 [mod=PSM, lvl=WARN] [tid=388] Register empty object : com.
+2.207676 [mod=PSM, lvl=WARN] [tid=388] Register empty object : com.cisco.
+2.207684 [mod=PSM, lvl=WARN] [tid=388] Register empty object : com.cisco.spvtg.
+2.207691 [mod=PSM, lvl=WARN] [tid=388] Register empty object : com.cisco.spvtg.ccsp.
+2.207699 [mod=PSM, lvl=WARN] [tid=388] RDKB_SYSTEM_BOOT_UP_LOG : PSM Health set to Green
+2.207714 [mod=PSM, lvl=INFO] [tid=388] rbus.c:2778 rbus open for component: rbusPsmSsp
+2.207756 [mod=PSM, lvl=INFO] [tid=388] rbus.c:2854  rbus open (rbusPsmSsp) success
+2.207767 [mod=PSM, lvl=INFO] [tid=388] rbus_subscriptions.c:447 file /tmp/rbus_subs_rbusPsmSsp
+2.207966 [mod=PSM, lvl=WARN] [tid=388] RDKB_SYSTEM_BOOT_UP_LOG : PSM started ...
+2.209023 [mod=GWPROV, lvl=INFO] [tid=281]  GWP_sysevent_threadfunc : name = bring-lan, val = up 
+2.209038 [mod=GWPROV, lvl=INFO] [tid=281]  bring-lan/pnm-status received 
+2.209206 [mod=PSM, lvl=INFO] [tid=388]  cmd_dispatch exit
+2.213341 [mod=PSM, lvl=INFO] [tid=388] CAP_DAC_OVERRIDE removed
+2.215488 /usr/bin/CcspCMAgentSsp -subsys eRT. &
+2.219337 [mod=NOTIFY, lvl=INFO] [tid=404] 
+2.219376 [mod=NOTIFY, lvl=NOTICE] [tid=404] Connect to bus daemon...
+2.219418 [mod=NOTIFY, lvl=INFO] [tid=404] rbuscore.c:2340 RBus Enabled
+2.219444 [mod=NOTIFY, lvl=INFO] [tid=404] rbuscore.c:656 Broker address: tcp://192.168.254.253:12368
+2.219597 [mod=NOTIFY, lvl=INFO] [tid=404] connection opened for eRT.com.cisco.spvtg.ccsp.notifycomponent
+2.219627 [mod=NOTIFY, lvl=INFO] [tid=404] INFO: bus_handle: 0x0x818b4d0 
+2.220551 [mod=GWPROV, lvl=INFO] [tid=281]  GWP_sysevent_threadfunc : name = primary_lan_l3net, val = 4 
+2.220562 [mod=GWPROV, lvl=INFO] [tid=281]  primary_lan_l3net received 
+2.220619 [mod=GWPROV, lvl=INFO] [tid=281]  Entry LAN_start 
+2.220631 [mod=GWPROV, lvl=INFO] [tid=281] Setting dslite_enabled event
+2.220768 [mod=GWPROV, lvl=INFO] [tid=281]  Setting dhcp_server-resync event 
+2.226105 [mod=PAM, lvl=WARN] [tid=400] 
+2.226143 [mod=PAM, lvl=INFO] [tid=400] PAM_DBG:------- daemonize call hit -----------
+2.226177 [mod=PAM, lvl=INFO] [tid=400] PAM_DBG:---------------------daemonize calls fork------------------------
+2.226303 [mod=PAM, lvl=INFO] [tid=400] PAM_DBG:--------------waiting for child process to initialize------------
+2.226322 [mod=PAM, lvl=INFO] [tid=400] PAM_DBG:------------uptime before waiting for sem is 516908 seconds ---------------
+2.226326 [mod=PAM, lvl=INFO] [tid=400] PAM_DBG:----------------sem_getvalue returns value = 0 -------------
+2.233051 [mod=PAM, lvl=INFO] [tid=410] PAM_DBG:--------------child process begins---------------
+2.233433 [mod=PAM, lvl=WARN] [tid=410] Core dump is opened, do not catch signal
+2.233448 [mod=PAM, lvl=INFO] [tid=410] Connect to bus daemon...
+2.233475 [mod=PAM, lvl=INFO] [tid=410] rbuscore.c:2340 RBus Enabled
+2.233498 [mod=PAM, lvl=INFO] [tid=410] rbuscore.c:656 Broker address: tcp://192.168.254.253:12368
+2.233791 [mod=PAM, lvl=INFO] [tid=410] connection opened for eRT.com.cisco.spvtg.ccsp.pam
+2.233871 [mod=PAM, lvl=INFO] [tid=410] eRT.com.cisco.spvtg.ccsp.pam start to check eRT.com.cisco.spvtg.ccsp.psm status
+2.235378 [mod=PAM, lvl=INFO] [tid=410] eRT.com.cisco.spvtg.ccsp.psm is ready, eRT.com.cisco.spvtg.ccsp.pam continue
+2.235390 [mod=PAM, lvl=INFO] [tid=410] !!! Connected to message bus... bus_handle: 0x0x872fda0 !!!
+2.235798 [mod=CM, lvl=WARN] [tid=421] Core dump is opened, do not catch signal
+2.235832 [mod=CM, lvl=INFO] [tid=421] Connect to bus daemon...
+2.235855 [mod=CM, lvl=INFO] [tid=421] rbuscore.c:2340 RBus Enabled
+2.235874 [mod=CM, lvl=INFO] [tid=421] rbuscore.c:656 Broker address: tcp://192.168.254.253:12368
+2.236599 [mod=CM, lvl=INFO] [tid=421] connection opened for eRT.com.cisco.spvtg.ccsp.cm
+2.236664 [mod=CM, lvl=INFO] [tid=421] eRT.com.cisco.spvtg.ccsp.cm start to check eRT.com.cisco.spvtg.ccsp.psm status
+2.237400 [mod=CM, lvl=INFO] [tid=421] eRT.com.cisco.spvtg.ccsp.psm is ready, eRT.com.cisco.spvtg.ccsp.cm continue
+2.237415 [mod=CM, lvl=INFO] [tid=421] !!! Connected to message bus... bus_handle: 0x0x97e2da0 !!!
+2.241077 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.13.IPInterface , returnStatus 4294967280 +++
+2.241539 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.13.SubnetMask , returnStatus 4294967280 +++
+2.241692 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.13.LeaseTime , returnStatus 4294967280 +++
+2.243908 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.12.IPInterface , returnStatus 4294967280 +++
+2.244354 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.12.SubnetMask , returnStatus 4294967280 +++
+2.244587 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.12.LeaseTime , returnStatus 4294967280 +++
+2.245255 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.13.IPInterface , returnStatus 4294967280 +++
+2.246254 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.12.IPInterface , returnStatus 4294967280 +++
+2.429340 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.truestaticip.Enable , returnStatus 4294967280 +++
+2.429501 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.truestaticip.Ipaddress , returnStatus 4294967280 +++
+2.429642 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.truestaticip.Subnetmask , returnStatus 4294967280 +++
+2.429794 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.truestaticip.Gateway , returnStatus 4294967280 +++
+2.828480 [mod=GWPROV, lvl=INFO] [tid=281]  GWP_sysevent_threadfunc : name = lan-status, val = started 
+2.841557 [mod=GWPROV, lvl=INFO] [tid=281] GWP_sysevent_threadfunc Enable guest network interface brlan7 
+2.842342 [mod=GWPROV, lvl=INFO] [tid=281]  Entry check_lan_wan_ready 
+2.842537 [mod=GWPROV, lvl=INFO] [tid=281]  bridge-status = stopped
+2.842545 [mod=GWPROV, lvl=INFO] [tid=281]  lan-status = started
+2.842548 [mod=GWPROV, lvl=INFO] [tid=281]  wan-status = stopped
+2.842552 [mod=GWPROV, lvl=INFO] [tid=281]  ipv6_prefix = 
+2.842556 [mod=GWPROV, lvl=INFO] [tid=281]  eRouterMode = 3
+2.842560 [mod=GWPROV, lvl=INFO] [tid=281]  bridge_mode = 0
+2.853153 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+2.853439 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+2.854134 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.IP.Diagnostics.X_RDKCENTRAL-COM_SpeedTest.Server.Capability , returnStatus 4294967280 +++
+2.863960 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+2.864136 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+3.220661 [mod=NOTIFY, lvl=INFO] [tid=404] CcspBaseIf_Register_Event_rbus : rbus_registerEvent called for event: currentSessionIDSignal
+3.220890 [mod=NOTIFY, lvl=INFO] [tid=404] rbuscore.c:755 Subscription for _rbus_session_mgr::currentSessionIDSignal is now active.
+3.220982 [mod=NOTIFY, lvl=NOTICE] [tid=404] ssp_engage 
+3.221008 [mod=NOTIFY, lvl=WARN] [tid=404] Register empty object : com.
+3.221016 [mod=NOTIFY, lvl=WARN] [tid=404] Register empty object : com.cisco.
+3.221024 [mod=NOTIFY, lvl=WARN] [tid=404] Register empty object : com.cisco.spvtg.
+3.221031 [mod=NOTIFY, lvl=WARN] [tid=404] Register empty object : com.cisco.spvtg.ccsp.
+3.221138 [mod=NOTIFY, lvl=WARN] [tid=404] DM Library module name = CCSP Base Data Model
+3.221336 [mod=NOTIFY, lvl=WARN] [tid=404] DM Library module name = COSA_TR181_USGv2
+3.221390 [mod=NOTIFY, lvl=WARN] [tid=404] Search for empty object in 'dslhCpeCheckEmptyObject'
+3.222691 [mod=CR, lvl=INFO] [tid=382] CR  INFO rbus.c:2313 -- Thread-382: calling methodHandler method [Device.CR.RegisterComponent()]
+3.222702 [mod=CR, lvl=WARN] [tid=382] methodHandler Device.CR.RegisterComponent()
+3.222713 [mod=CR, lvl=WARN] [tid=382] RegisterComponent: eRT.com.cisco.spvtg.ccsp.notifycomponent not found in registry
+3.236343 [mod=PAM, lvl=INFO] [tid=410] CcspBaseIf_Register_Event_rbus : rbus_registerEvent called for event: currentSessionIDSignal
+3.236507 [mod=PAM, lvl=INFO] [tid=410] rbuscore.c:755 Subscription for _rbus_session_mgr::currentSessionIDSignal is now active.
+3.236595 [mod=PAM, lvl=WARN] [tid=410] Register empty object : com.
+3.236607 [mod=PAM, lvl=WARN] [tid=410] Register empty object : com.cisco.
+3.236614 [mod=PAM, lvl=WARN] [tid=410] Register empty object : com.cisco.spvtg.
+3.236618 [mod=PAM, lvl=WARN] [tid=410] Register empty object : com.cisco.spvtg.ccsp.
+3.236729 [mod=PAM, lvl=WARN] [tid=410] DM Library module name = CCSP Base Data Model
+3.238037 [mod=CM, lvl=INFO] [tid=421] CcspBaseIf_Register_Event_rbus : rbus_registerEvent called for event: currentSessionIDSignal
+3.238953 [mod=PAM, lvl=WARN] [tid=410] DM Library module name = COSA_TR181_USGv2
+3.238968 [mod=PAM, lvl=WARN] [tid=410] Loading DM library libtr181.so...
+3.243965 [mod=PAM, lvl=WARN] [tid=410] RDKB_SYSTEM_BOOT_UP_LOG : Entering CosaBackEndManagerCreate 288
+3.243977 [mod=PAM, lvl=WARN] [tid=410] CosaBackEndManagerInitialize...
+3.243984 [mod=PAM, lvl=WARN] [tid=410] RDKB_SYSTEM_BOOT_UP_LOG : PandM DM initialize...
+3.244526 [mod=PAM, lvl=WARN] [tid=410] CosaDmlNatInit Error get HS port forward enabled
+3.244698 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.PORTMAPPING.PORTTRIGGER.NextInstanceNumber , returnStatus 4294967280 +++
+3.244942 [mod=CM, lvl=INFO] [tid=421] rbuscore.c:755 Subscription for _rbus_session_mgr::currentSessionIDSignal is now active.
+3.245018 [mod=CM, lvl=WARN] [tid=421] Interface 'CcspCcMessageBusIf' is added into CpeController.
+3.245026 [mod=CM, lvl=WARN] [tid=421] Interface 'CcspComponentCommonDatamodelIf' is added into CpeController.
+3.245033 [mod=CM, lvl=WARN] [tid=421] Interface 'dslhMiniWebSvcIf' is added into CpeController.
+3.245037 [mod=CM, lvl=WARN] [tid=421] Unable to retrieve interface 'dslhLibCallbackSvcIf' in DslhCpeController.
+3.245056 [mod=CM, lvl=WARN] [tid=421] Register empty object : com.
+3.245064 [mod=CM, lvl=WARN] [tid=421] Register empty object : com.cisco.
+3.245071 [mod=CM, lvl=WARN] [tid=421] Register empty object : com.cisco.spvtg.
+3.245079 [mod=CM, lvl=WARN] [tid=421] Register empty object : com.cisco.spvtg.ccsp.
+3.245182 [mod=CM, lvl=WARN] [tid=421] DM Library module name = CCSP Base Data Model
+3.245193 [mod=CM, lvl=WARN] [tid=421] Looking for base object: com.cisco.spvtg.ccsp.
+3.245201 [mod=CM, lvl=WARN] [tid=421]  base object  com.cisco.spvtg.ccsp.cm. config context
+3.245247 [mod=CM, lvl=WARN] [tid=421]  com.cisco.spvtg.ccsp.cm.Logging. config context
+3.245270 [mod=CM, lvl=WARN] [tid=421]  com.cisco.spvtg.ccsp.cm.Memory. config context
+3.245499 [mod=CM, lvl=WARN] [tid=421] DM Library module name = COSA_TR181_USGv2
+3.245510 [mod=CM, lvl=WARN] [tid=421] Loading DM library libcm_tr181.so...
+3.246960 [mod=CM, lvl=WARN] [tid=421] CosaBackEndManagerInitialize...
+3.246983 [mod=PAM, lvl=INFO] [tid=410] !!! Ready to Utopia_GetDMZSettings !!!
+3.247032 [mod=PAM, lvl=INFO] [tid=410] !!! After Utopia_GetDMZSettings !!!
+3.247208 [mod=PAM, lvl=WARN] [tid=410] !!!!!!!! in CosaNatSyncPortTrigger !!!!!!!!
+3.247276 [mod=PAM, lvl=WARN] [tid=410] !!!!!! In CosaNatRegGetNatInfo !!!!!!
+3.247448 [mod=CM, lvl=WARN] [tid=421] cm_hal_InitDB  is called successfully   CosaDmlCMInit, 327
+3.247486 [mod=CM, lvl=WARN] [tid=421]   CosaCableModemCreate done!
+3.247509 [mod=CM, lvl=INFO] [tid=421]  Download_Control_Flag is 1 
+3.247540 [mod=CM, lvl=INFO] [tid=421]  Current FW Version is ofw-exm-qemux86-mv1-20241115002049 
+3.247955 [mod=CM, lvl=INFO] [tid=421] rbuscore.c:2340 RBus Enabled
+3.247967 [mod=CM, lvl=INFO] [tid=421] rbus.c:2778 rbus open for component: CMAgentLLDEnable
+3.248013 [mod=CM, lvl=INFO] [tid=421] rbus.c:2854  rbus open (CMAgentLLDEnable) success
+3.248020 [mod=CM, lvl=INFO] [tid=421] rbus_subscriptions.c:447 file /tmp/rbus_subs_CMAgentLLDEnable
+3.248322 [mod=PAM, lvl=WARN] [tid=410] !!!!!! ulEntryCount for PortTrigger: 0 !!!!!!
+3.248333 [mod=CM, lvl=INFO] [tid=421] Initialized LLD Enable with false values.
+3.248344 [mod=CM, lvl=INFO] [tid=421] registering subdocs webConfigFrameworkInit-271
+3.248360 [mod=CM, lvl=INFO] [tid=421] Inside FUNC register_sub_docs LINE 240
+3.248367 [mod=CM, lvl=INFO] [tid=421] Inside FUNC initMessageQueue LINE 1109 
+3.248440 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.NATPassthrough.NextInstanceNumber , returnStatus 4294967280 +++
+3.249043 [mod=PAM, lvl=WARN] [tid=410]   CosaNatCreate done!
+3.249054 [mod=PAM, lvl=WARN] [tid=410]   CosaProcStatusCreate done!
+3.249939 [mod=CM, lvl=WARN] [tid=421]   CosaDeviceInfoCreate done!
+3.249947 [mod=CM, lvl=WARN] [tid=421]   CosaRDKCentralComCableModemCreate done!
+3.250210 [mod=CM, lvl=INFO] [tid=556] Inside FUNC messageQueueProcessing LINE 899 
+3.250256 [mod=CM, lvl=INFO] [tid=557] Inside FUNC display_subDocs LINE 88
+3.250282 [mod=CM, lvl=INFO] [tid=558] subscribeSubdocForceReset: Discover component for event 'Device.X_RDK_WebConfig.webcfgSubdocForceReset' 
+3.250290 [mod=CM, lvl=INFO] [tid=558] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+3.250294 [mod=CM, lvl=ERROR] [tid=558] Failed to discover component. Error Code = 2
+3.251766 [mod=CM, lvl=WARN] [tid=421] docsis_GetNumOfActiveRxChannels  is called successfully : CosaDmlCmGetCMErrorCodewords, 1059
+3.252472 [mod=CM, lvl=WARN] [tid=421] docsis_GetNumOfActiveRxChannels  is called successfully   CosaDmlCmGetDownstreamChannel, 911
+3.252815 [mod=CM, lvl=WARN] [tid=421] docsis_getDsOFDMChannelCount is called successfully   CosaDmlCmGetDownstreamChannel, 920
+3.253155 [mod=CM, lvl=WARN] [tid=421] docsis_GetNumOfActiveTxChannels  is called  successfully: CosaDmlCmGetUpstreamChannel, 963
+3.253498 [mod=CM, lvl=WARN] [tid=421] docsis_getDsOFDMChannelCount is called successfully   CosaDmlCmGetUpstreamChannel, 972
+3.255859 [mod=CM, lvl=WARN] [tid=421] Status of InitDataModel = 0
+3.255871 [mod=CM, lvl=WARN] [tid=421] Search for empty object in 'dslhCpeCheckEmptyObject'
+3.255878 [mod=CM, lvl=WARN] [tid=421] !!! Ready to register capabilities of 'eRT.com.cisco.spvtg.ccsp.cm' to 'eRT.com.cisco.spvtg.ccsp.CR'...!!!
+3.265770 [mod=PAM, lvl=INFO] [tid=410] CosaDeriveSyndicationPartnerID 
+3.265999 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.device.deviceinfo.X_RDKCENTRAL-COM_WHIX.ChUtilityLogInterval , returnStatus 4294967280 +++
+3.266171 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.device.deviceinfo.X_RDKCENTRAL-COM_WHIX.LogInterval , returnStatus 4294967280 +++
+3.266312 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.device.deviceinfo.X_RDKCENTRAL-COM_WHIX.NormalizedRssiList , returnStatus 4294967280 +++
+3.266479 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.device.deviceinfo.X_RDKCENTRAL-COM_WHIX.CliStatList , returnStatus 4294967280 +++
+3.266628 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.device.deviceinfo.X_RDKCENTRAL-COM_WHIX.TxRxRateList , returnStatus 4294967280 +++
+3.266777 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.device.deviceinfo.X_RDKCENTRAL-COM_WIFI_TELEMETRY.SNRList , returnStatus 4294967280 +++
+3.267014 [mod=PAM, lvl=WARN] [tid=410]   CosaDeviceInfoCreate done!
+3.267700 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.UserInterfaceIPRange.NextInstanceNumber , returnStatus 4294967280 +++
+3.267784 [mod=PAM, lvl=WARN] [tid=410]   CosaUserinterfaceCreate done!
+3.274429 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.EthLink.NextInstanceNumber , returnStatus 4294967280 +++
+3.274620 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.EthVlanTermination.NextInstanceNumber , returnStatus 4294967280 +++
+3.275398 [mod=CR, lvl=INFO] [tid=382] CR  INFO rbus.c:2313 -- Thread-382: calling methodHandler method [Device.CR.RegisterComponent()]
+3.275410 [mod=CR, lvl=WARN] [tid=382] methodHandler Device.CR.RegisterComponent()
+3.275417 [mod=CR, lvl=WARN] [tid=382] No Dependency Component for eRT.com.cisco.spvtg.ccsp.cm
+3.275421 [mod=CR, lvl=WARN] [tid=382] ReadyCheck waiting on com.cisco.spvtg.ccsp.mta
+3.275425 [mod=CR, lvl=WARN] [tid=382] ReadyCheck waiting on com.cisco.spvtg.ccsp.pam
+3.275429 [mod=CR, lvl=WARN] [tid=382] ReadyCheck waiting on com.cisco.spvtg.ccsp.tdm
+3.275433 [mod=CR, lvl=WARN] [tid=382] ReadyCheck waiting on com.cisco.spvtg.ccsp.lmlite
+3.275440 [mod=CR, lvl=WARN] [tid=382] RegisterComponent: eRT.com.cisco.spvtg.ccsp.cm is Registered
+3.275509 [mod=CM, lvl=WARN] [tid=421] !!! com.cisco.spvtg.ccsp.cm registerCapabilities 201 items returns 100 !!!
+3.275520 [mod=CM, lvl=INFO] [tid=421] CM Agent Module loaded successfully...
+3.275578 [mod=CM, lvl=WARN] [tid=421] RDKB_SYSTEM_BOOT_UP_LOG : Entering CM loop
+3.275925 [mod=PAM, lvl=NOTICE] [tid=410] CosaUtilGetLinkTypePath: 1
+3.275936 [mod=PAM, lvl=NOTICE] [tid=410] CosaUtilGetLinkTypePath: return index 0
+3.275944 [mod=PAM, lvl=NOTICE] [tid=410] Device.Ethernet.Interface.5, size 27, buf len 256
+3.275963 [mod=PAM, lvl=WARN] [tid=410] CosaUtilGetLowerLayerName -- failure 4294967295, to retrieve Device.Ethernet.Interface.5.Name
+3.275967 [mod=PAM, lvl=WARN] [tid=410] CosaDmlEthLinkLoadPsm -- failed to retrieve LowerLayer name parameter, error code 4294967295
+3.276051 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.EthLink.3.Name , returnStatus 4294967280 +++
+3.276119 [mod=PAM, lvl=WARN] [tid=410] CosaDmlEthLinkLoadPsm -- failed to retrieve 'Name' parameter, error code 102, type 2
+3.276619 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.EthLink.1.LowerLayerType , returnStatus 4294967280 +++
+3.276703 [mod=PAM, lvl=WARN] [tid=410] CosaDmlEthLinkLoadPsm -- failed to retrieve 'LowerLayerType' parameter, error code 102, type 3
+3.277248 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.EthLink.1.Name , returnStatus 4294967280 +++
+3.277340 [mod=PAM, lvl=WARN] [tid=410] CosaDmlEthLinkLoadPsm -- failed to retrieve 'Name' parameter, error code 102, type 0
+3.277538 [mod=CM, lvl=WARN] [tid=554] docsis_GetNumOfActiveRxChannels  is called successfully   CosaDmlCmGetDownstreamChannel, 911
+3.277611 [mod=CM, lvl=WARN] [tid=554] docsis_getDsOFDMChannelCount is called successfully   CosaDmlCmGetDownstreamChannel, 920
+3.277618 [mod=CM, lvl=WARN] [tid=554] Number of Active Rxchannel is 0
+3.277672 [mod=CM, lvl=WARN] [tid=554] docsis_GetNumOfActiveTxChannels  is called  successfully: CosaDmlCmGetUpstreamChannel, 963
+3.277718 [mod=CM, lvl=WARN] [tid=554] docsis_getDsOFDMChannelCount is called successfully   CosaDmlCmGetUpstreamChannel, 972
+3.277725 [mod=CM, lvl=WARN] [tid=554] RDKB_DOCSIS_DIAG_INFO: Number of Active Txchannel is 0
+3.277729 [mod=CM, lvl=WARN] [tid=554] pollinterval to fetch Docsis diag is= 14400
+3.277931 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.EthLink.2.LowerLayerType , returnStatus 4294967280 +++
+3.278000 [mod=PAM, lvl=WARN] [tid=410] CosaDmlEthLinkLoadPsm -- failed to retrieve 'LowerLayerType' parameter, error code 102, type 3
+3.278538 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.EthLink.2.Name , returnStatus 4294967280 +++
+3.278603 [mod=PAM, lvl=WARN] [tid=410] CosaDmlEthLinkLoadPsm -- failed to retrieve 'Name' parameter, error code 102, type 0
+3.280106 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.EthLink.4.LowerLayerType , returnStatus 4294967280 +++
+3.280197 [mod=PAM, lvl=WARN] [tid=410] CosaDmlEthLinkLoadPsm -- failed to retrieve 'LowerLayerType' parameter, error code 102, type 3
+3.280704 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.EthLink.4.Name , returnStatus 4294967280 +++
+3.280773 [mod=PAM, lvl=WARN] [tid=410] CosaDmlEthLinkLoadPsm -- failed to retrieve 'Name' parameter, error code 102, type 0
+3.284008 [mod=PAM, lvl=WARN] [tid=410] CosaEthWanTelementryLogger EthWan_TelementryLogger_Thread Created
+3.284019 [mod=PAM, lvl=WARN] [tid=410]   CosaEthernetCreate done!
+3.284954 [mod=PAM, lvl=WARN] [tid=410] webui_login_password: PWD_Empty!
+3.284962 [mod=PAM, lvl=WARN] [tid=410]   CosaUsersCreate done!
+3.285107 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.DynamicDnsClient.DynamicDnsClientNextInstanceNumber , returnStatus 4294967280 +++
+3.285591 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.DynamicDnsHost.DynamicDnsHostNextInstanceNumber , returnStatus 4294967280 +++
+3.286285 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.DynamicDnsServer.DynamicDnsServerNextInstanceNumber , returnStatus 4294967280 +++
+3.287624 [mod=PAM, lvl=WARN] [tid=410]   CosaDynamicDnsCreate done!
+3.287766 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.IpFilterFirewall.IpFilterNextInstanceNumber , returnStatus 4294967280 +++
+3.288246 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.IpFilterFirewall_V6.IpFilterNextInstanceNumber_V6 , returnStatus 4294967280 +++
+3.288700 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.V4DayOfWeek.NextInstanceNumber , returnStatus 4294967280 +++
+3.289371 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.V6DayOfWeek.NextInstanceNumber , returnStatus 4294967280 +++
+3.290100 [mod=PAM, lvl=WARN] [tid=410]   CosaFirewallCreate done!
+3.290516 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.InternetAccess.NextAPInstanceNum0.NextAPInstanceNum , returnStatus 4294967280 +++
+3.290897 [mod=PAM, lvl=WARN] [tid=410]   CosaSecurityCreate done!
+3.290928 [mod=PAM, lvl=WARN] [tid=410] CosaDmlIpMlanInit...
+3.291039 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.IPInterface.NextInstanceNumber0.NextInstanceNumber , returnStatus 4294967280 +++
+3.295795 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.1.EthLink , returnStatus 4294967280 +++
+3.295952 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.IPInterface.NextIPv4InstanceNum1.NextIPv4InstanceNum , returnStatus 4294967280 +++
+3.296051 [mod=PAM, lvl=WARN] [tid=410] Cannot get ipv4 address of netdev:erouter0
+3.296360 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.IPInterface.NextIPv6PreInstanceNum1.NextIPv6PreInstanceNum , returnStatus 4294967280 +++
+3.296551 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.2.EthLink , returnStatus 4294967280 +++
+3.296700 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.IPInterface.NextIPv4InstanceNum2.NextIPv4InstanceNum , returnStatus 4294967280 +++
+3.297077 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.IPInterface.NextIPv6PreInstanceNum2.NextIPv6PreInstanceNum , returnStatus 4294967280 +++
+3.297272 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.IPInterface.NextIPv4InstanceNum3.NextIPv4InstanceNum , returnStatus 4294967280 +++
+3.297630 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.IPInterface.NextIPv6PreInstanceNum3.NextIPv6PreInstanceNum , returnStatus 4294967280 +++
+3.297787 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.IPInterface.NextIPv4InstanceNum4.NextIPv4InstanceNum , returnStatus 4294967280 +++
+3.298557 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.IPInterface.NextIPv6PreInstanceNum4.NextIPv6PreInstanceNum , returnStatus 4294967280 +++
+3.299595 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.IPInterface.NextIPv4InstanceNum5.NextIPv4InstanceNum , returnStatus 4294967280 +++
+3.300014 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.IPInterface.NextIPv6InstanceNum5.NextIPv6InstanceNum , returnStatus 4294967280 +++
+3.300159 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.IPInterface.NextIPv6PreInstanceNum5.NextIPv6PreInstanceNum , returnStatus 4294967280 +++
+3.301163 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.IPInterface.NextIPv4InstanceNum6.NextIPv4InstanceNum , returnStatus 4294967280 +++
+3.301579 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.IPInterface.NextIPv6InstanceNum6.NextIPv6InstanceNum , returnStatus 4294967280 +++
+3.301731 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.IPInterface.NextIPv6PreInstanceNum6.NextIPv6PreInstanceNum , returnStatus 4294967280 +++
+3.302155 [mod=PAM, lvl=WARN] [tid=410]   CosaIPCreate done!
+3.302639 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.13.AllowDelete , returnStatus 4294967280 +++
+3.302704 [mod=PAM, lvl=NOTICE] [tid=410] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.13.AllowDelete (null)
+3.302937 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.13.Alias , returnStatus 4294967280 +++
+3.303009 [mod=PAM, lvl=NOTICE] [tid=410] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.13.Alias (null)
+3.303093 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.13.IPInterface , returnStatus 4294967280 +++
+3.303158 [mod=PAM, lvl=NOTICE] [tid=410] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.13.IPInterface (null)
+3.303516 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.13.SubnetMask , returnStatus 4294967280 +++
+3.303581 [mod=PAM, lvl=NOTICE] [tid=410] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.13.SubnetMask (null)
+3.303673 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.13.DomainName , returnStatus 4294967280 +++
+3.303738 [mod=PAM, lvl=NOTICE] [tid=410] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.13.DomainName (null)
+3.303951 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.13.LeaseTime , returnStatus 4294967280 +++
+3.304016 [mod=PAM, lvl=NOTICE] [tid=410] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.13.LeaseTime (null)
+3.304104 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.13.Order , returnStatus 4294967280 +++
+3.304169 [mod=PAM, lvl=NOTICE] [tid=410] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.13.Order (null)
+3.304256 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.13.TimeOffset , returnStatus 4294967280 +++
+3.304321 [mod=PAM, lvl=NOTICE] [tid=410] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.13.TimeOffset (null)
+3.304630 [mod=PAM, lvl=NOTICE] [tid=410] readDHCPv4ServerPoolFromPSM: Can't find DHCPv4 Server Pool SADDR entry dmsb.dhcpv4.server.pool.13.StaticAddress.
+3.304939 [mod=PAM, lvl=NOTICE] [tid=410] readDHCPv4ServerPoolFromPSM: Can't find DHCPv4 Server Pool OPTION entry dmsb.dhcpv4.server.pool.13.Option.
+3.305305 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.3.Alias , returnStatus 4294967280 +++
+3.305370 [mod=PAM, lvl=NOTICE] [tid=410] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.3.Alias (null)
+3.306103 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.3.DomainName , returnStatus 4294967280 +++
+3.306179 [mod=PAM, lvl=NOTICE] [tid=410] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.3.DomainName (null)
+3.306530 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.3.Order , returnStatus 4294967280 +++
+3.306602 [mod=PAM, lvl=NOTICE] [tid=410] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.3.Order (null)
+3.306690 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.3.TimeOffset , returnStatus 4294967280 +++
+3.306763 [mod=PAM, lvl=NOTICE] [tid=410] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.3.TimeOffset (null)
+3.307083 [mod=PAM, lvl=NOTICE] [tid=410] readDHCPv4ServerPoolFromPSM: Can't find DHCPv4 Server Pool SADDR entry dmsb.dhcpv4.server.pool.3.StaticAddress.
+3.307404 [mod=PAM, lvl=NOTICE] [tid=410] readDHCPv4ServerPoolFromPSM: Can't find DHCPv4 Server Pool OPTION entry dmsb.dhcpv4.server.pool.3.Option.
+3.307487 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.12.AllowDelete , returnStatus 4294967280 +++
+3.307552 [mod=PAM, lvl=NOTICE] [tid=410] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.12.AllowDelete (null)
+3.307777 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.12.Alias , returnStatus 4294967280 +++
+3.307838 [mod=PAM, lvl=NOTICE] [tid=410] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.12.Alias (null)
+3.307922 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.12.IPInterface , returnStatus 4294967280 +++
+3.307991 [mod=PAM, lvl=NOTICE] [tid=410] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.12.IPInterface (null)
+3.308365 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.12.SubnetMask , returnStatus 4294967280 +++
+3.308430 [mod=PAM, lvl=NOTICE] [tid=410] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.12.SubnetMask (null)
+3.308510 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.12.DomainName , returnStatus 4294967280 +++
+3.308571 [mod=PAM, lvl=NOTICE] [tid=410] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.12.DomainName (null)
+3.308792 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.12.LeaseTime , returnStatus 4294967280 +++
+3.308853 [mod=PAM, lvl=NOTICE] [tid=410] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.12.LeaseTime (null)
+3.308933 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.12.Order , returnStatus 4294967280 +++
+3.308994 [mod=PAM, lvl=NOTICE] [tid=410] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.12.Order (null)
+3.309074 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.12.TimeOffset , returnStatus 4294967280 +++
+3.309143 [mod=PAM, lvl=NOTICE] [tid=410] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.12.TimeOffset (null)
+3.309475 [mod=PAM, lvl=NOTICE] [tid=410] readDHCPv4ServerPoolFromPSM: Can't find DHCPv4 Server Pool SADDR entry dmsb.dhcpv4.server.pool.12.StaticAddress.
+3.309799 [mod=PAM, lvl=NOTICE] [tid=410] readDHCPv4ServerPoolFromPSM: Can't find DHCPv4 Server Pool OPTION entry dmsb.dhcpv4.server.pool.12.Option.
+3.310444 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.Dhcpv4.X_CISCO_COM_SAddr.NextInstanceNumber , returnStatus 4294967280 +++
+3.312992 [mod=PSM, lvl=WARN] [tid=391] setParameterValues -- size:1, Provision.COSALibrary.Dhcpv4.Client.NextInstanceNumber: 1
+3.313145 [mod=PSM, lvl=WARN] [tid=391] setParameterValues -- size:1, Provision.COSALibrary.Dhcpv4.Pool.NextInstanceNumber: 13
+3.313343 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.LanAllowedSubnet.LanAllowedSubnetNextInstanceNumber , returnStatus 4294967280 +++
+3.314014 [mod=PAM, lvl=WARN] [tid=410]   CosaDhcpv4Create done!
+3.314022 [mod=PAM, lvl=WARN] [tid=410]   CosaHostsCreate done!
+3.314171 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.DNSServer.NextInsNum0.NextInsNum , returnStatus 4294967280 +++
+3.314476 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.DNSServer.NextForwardInsNum0.NextForwardInsNum , returnStatus 4294967280 +++
+3.314873 [mod=PAM, lvl=WARN] [tid=410]   CosaDNSCreate done!
+3.315456 [mod=PAM, lvl=WARN] [tid=410] CosaDmlGenerateRipdConfigFile -- starts.
+3.315483 [mod=PAM, lvl=WARN] [tid=410] CosaDmlGenerateRipdConfigFile -- exits.
+3.315571 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.Router.NextInsNum0.NextInsNum , returnStatus 4294967280 +++
+3.315674 [mod=PAM, lvl=WARN] [tid=410] CosaDmlRoutingRouterGetCfg Alias Router2
+3.315819 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.Router.NextForwardInsNum1.NextForwardInsNum , returnStatus 4294967280 +++
+3.316002 [mod=PAM, lvl=WARN] [tid=410] -CosaDmlRoutingGetNumberOfV4Entries 0 entry in syscfg-
+3.316013 [mod=PAM, lvl=WARN] [tid=410] -CosaDmlRoutingGetNumberOfV4Entries 0 entry in backend-
+3.316120 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.Router.NextIPv6ForwardInsNum1.NextIPv6ForwardInsNum , returnStatus 4294967280 +++
+3.325718 [mod=PAM, lvl=WARN] [tid=410]   CosaRoutingCreate done!
+3.349293 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.Bridging.NextPortInstanceNum4.NextPortInstanceNum , returnStatus 4294967280 +++
+3.350754 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.Bridging.NextVLANInstanceNum4.NextVLANInstanceNum , returnStatus 4294967280 +++
+3.350910 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.Bridging.NextPortInstanceNum8.NextPortInstanceNum , returnStatus 4294967280 +++
+3.352959 [mod=PAM, lvl=NOTICE] [tid=410] lanBrPCtlGetEnabled: ioctl(SIOCGIFFLAGS) failed (errno: 19): No such device
+3.353073 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.Bridging.NextVLANInstanceNum8.NextVLANInstanceNum , returnStatus 4294967280 +++
+3.353230 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.Bridging.NextPortInstanceNum1.NextPortInstanceNum , returnStatus 4294967280 +++
+3.354141 [mod=PAM, lvl=NOTICE] [tid=410] lanBrPCtlGetEnabled: ioctl(SIOCGIFFLAGS) failed (errno: 19): No such device
+3.356030 [mod=PAM, lvl=NOTICE] [tid=410] lanBrPCtlGetEnabled: ioctl(SIOCGIFFLAGS) failed (errno: 19): No such device
+3.356915 [mod=PAM, lvl=NOTICE] [tid=410] lanBrPCtlGetEnabled: ioctl(SIOCGIFFLAGS) failed (errno: 19): No such device
+3.357746 [mod=PAM, lvl=NOTICE] [tid=410] lanBrPCtlGetEnabled: ioctl(SIOCGIFFLAGS) failed (errno: 19): No such device
+3.358601 [mod=PAM, lvl=NOTICE] [tid=410] lanBrPCtlGetEnabled: ioctl(SIOCGIFFLAGS) failed (errno: 19): No such device
+3.359505 [mod=PAM, lvl=NOTICE] [tid=410] lanBrPCtlGetEnabled: ioctl(SIOCGIFFLAGS) failed (errno: 19): No such device
+3.360340 [mod=PAM, lvl=NOTICE] [tid=410] lanBrPCtlGetEnabled: ioctl(SIOCGIFFLAGS) failed (errno: 19): No such device
+3.361149 [mod=PAM, lvl=NOTICE] [tid=410] lanBrPCtlGetEnabled: ioctl(SIOCGIFFLAGS) failed (errno: 19): No such device
+3.361923 [mod=PAM, lvl=NOTICE] [tid=410] lanBrPCtlGetEnabled: ioctl(SIOCGIFFLAGS) failed (errno: 19): No such device
+3.362045 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.Bridging.NextVLANInstanceNum1.NextVLANInstanceNum , returnStatus 4294967280 +++
+3.362198 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.Bridging.NextPortInstanceNum7.NextPortInstanceNum , returnStatus 4294967280 +++
+3.364040 [mod=PAM, lvl=NOTICE] [tid=410] lanBrPCtlGetEnabled: ioctl(SIOCGIFFLAGS) failed (errno: 19): No such device
+3.364132 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.Bridging.NextVLANInstanceNum7.NextVLANInstanceNum , returnStatus 4294967280 +++
+3.364300 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.Bridging.NextPortInstanceNum6.NextPortInstanceNum , returnStatus 4294967280 +++
+3.365112 [mod=PAM, lvl=NOTICE] [tid=410] lanBrPCtlGetEnabled: ioctl(SIOCGIFFLAGS) failed (errno: 19): No such device
+3.365860 [mod=PAM, lvl=NOTICE] [tid=410] lanBrPCtlGetEnabled: ioctl(SIOCGIFFLAGS) failed (errno: 19): No such device
+3.366955 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.Bridging.NextVLANInstanceNum6.NextVLANInstanceNum , returnStatus 4294967280 +++
+3.367111 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.Bridging.NextPortInstanceNum5.NextPortInstanceNum , returnStatus 4294967280 +++
+3.368042 [mod=PAM, lvl=NOTICE] [tid=410] lanBrPCtlGetEnabled: ioctl(SIOCGIFFLAGS) failed (errno: 19): No such device
+3.369667 [mod=PAM, lvl=NOTICE] [tid=410] lanBrPCtlGetEnabled: ioctl(SIOCGIFFLAGS) failed (errno: 19): No such device
+3.369766 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.Bridging.NextVLANInstanceNum5.NextVLANInstanceNum , returnStatus 4294967280 +++
+3.369976 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.Bridging.NextPortInstanceNum3.NextPortInstanceNum , returnStatus 4294967280 +++
+3.371983 [mod=PAM, lvl=NOTICE] [tid=410] lanBrPCtlGetEnabled: ioctl(SIOCGIFFLAGS) failed (errno: 19): No such device
+3.372910 [mod=PAM, lvl=NOTICE] [tid=410] lanBrPCtlGetEnabled: ioctl(SIOCGIFFLAGS) failed (errno: 19): No such device
+3.373013 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.Bridging.NextVLANInstanceNum3.NextVLANInstanceNum , returnStatus 4294967280 +++
+3.373177 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.Bridging.NextPortInstanceNum9.NextPortInstanceNum , returnStatus 4294967280 +++
+3.374340 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.Bridging.NextVLANInstanceNum9.NextVLANInstanceNum , returnStatus 4294967280 +++
+3.374485 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.Bridging.NextPortInstanceNum2.NextPortInstanceNum , returnStatus 4294967280 +++
+3.375439 [mod=PAM, lvl=NOTICE] [tid=410] lanBrPCtlGetEnabled: ioctl(SIOCGIFFLAGS) failed (errno: 19): No such device
+3.376358 [mod=PAM, lvl=NOTICE] [tid=410] lanBrPCtlGetEnabled: ioctl(SIOCGIFFLAGS) failed (errno: 19): No such device
+3.377205 [mod=PAM, lvl=NOTICE] [tid=410] lanBrPCtlGetEnabled: ioctl(SIOCGIFFLAGS) failed (errno: 19): No such device
+3.378220 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.Bridging.NextVLANInstanceNum2.NextVLANInstanceNum , returnStatus 4294967280 +++
+3.378735 [mod=PAM, lvl=WARN] [tid=410]   CosaBridgingCreate done!
+3.378757 [mod=PAM, lvl=WARN] [tid=410]   CosaIFStackCreate done!
+3.378910 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.PPPIf.NextInstanceNumber , returnStatus 4294967280 +++
+3.379742 [mod=PAM, lvl=WARN] [tid=410]   CosaPPPCreate done!
+3.384670 [mod=PAM, lvl=WARN] [tid=410] CosaDmlDhcpv6Init -- 2158 register lan-status to event dispatcher 
+3.385586 [mod=PAM, lvl=WARN] [tid=410] CosaDhcpv6BackendGetDhcpv6Info -- CosaDmlDhcpv6cGetServerCfg() return error:4294967295.
+3.385601 [mod=PAM, lvl=WARN] [tid=410] CosaDhcpv6BackendGetDhcpv6Info -- CosaDmlDhcpv6cGetServerCfg() return error:4294967295.
+3.385609 [mod=PAM, lvl=WARN] [tid=410] CosaDhcpv6BackendGetDhcpv6Info -- CosaDmlDhcpv6cGetServerCfg() return error:4294967295.
+3.385620 [mod=PAM, lvl=WARN] [tid=410] CosaDhcpv6BackendGetDhcpv6Info -- CosaDmlDhcpv6cGetServerCfg() return error:4294967295.
+3.385628 [mod=PAM, lvl=WARN] [tid=410] CosaDhcpv6BackendGetDhcpv6Info -- CosaDmlDhcpv6cGetServerCfg() return error:4294967295.
+3.386440 [mod=PSM, lvl=WARN] [tid=391] setParameterValues -- size:1, Provision.COSALibrary.Dhcpv6.Client.NextInstanceNumber: 1
+3.386658 [mod=PSM, lvl=WARN] [tid=391] setParameterValues -- size:1, Provision.COSALibrary.Dhcpv6.Pool.NextInstanceNumber: 7
+3.386791 [mod=PAM, lvl=WARN] [tid=410]   CosaDhcpv6Create done!
+3.387917 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for EnableMonitorUserChangedParams , returnStatus 4294967280 +++
+3.388065 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for UserOpComponents , returnStatus 4294967280 +++
+3.388222 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.LanManagement.LMNextInstanceNumber , returnStatus 4294967280 +++
+3.389187 [mod=PAM, lvl=WARN] [tid=410]   CosaDeviceControlCreate done!
+3.389366 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.IPv6rdIF.NextInstanceNumber , returnStatus 4294967280 +++
+3.389771 [mod=PAM, lvl=WARN] [tid=410]   CosaIPv6rdCreate done!
+3.389900 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.RAInterface.NextInstanceNumber0.NextInstanceNumber , returnStatus 4294967280 +++
+3.390079 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.RAInterface.NextOptionInstanceNum1.NextOptionInstanceNum , returnStatus 4294967280 +++
+3.390266 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.RAInterface.NextOptionInstanceNum2.NextOptionInstanceNum , returnStatus 4294967280 +++
+3.390778 [mod=PAM, lvl=WARN] [tid=410]   CosaRACreate done!
+3.392544 [mod=PAM, lvl=WARN] [tid=410]   CosaDsliteCreate done!
+3.392612 [mod=PAM, lvl=WARN] [tid=410]   CosaLgiCloudUiCreate done !
+3.395947 [mod=PAM, lvl=WARN] [tid=410]   CosaArrisPlumeCreate done !
+3.397724 [mod=PAM, lvl=WARN] [tid=410]   CosaLgiGeneralCreate done !
+3.397755 [mod=PAM, lvl=WARN] [tid=410]   CosaLgiIperfCreate done !
+3.397873 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.NeighdiscInterface.NextInstanceNumber0.NextInstanceNumber , returnStatus 4294967280 +++
+3.398430 [mod=PAM, lvl=WARN] [tid=410]   CosaNeighdiscCreate done!
+3.398457 [mod=PAM, lvl=WARN] [tid=410]   CosaDmlMlanInit -- status 0!
+3.399338 [mod=PAM, lvl=WARN] [tid=410]   CosaDiagnosticsCreate done!
+3.399509 [mod=PAM, lvl=WARN] [tid=410]   CosaTimeCreate done!
+3.399517 [mod=PAM, lvl=WARN] [tid=410]   CosaLanManagementCreate done!
+3.399567 [mod=PAM, lvl=WARN] [tid=410]   CosaUpnpCreate done!
+3.399879 [mod=PAM, lvl=WARN] [tid=410] CosaParentalControlInitialize -- ulBlkUrlCnt = 0 ...
+3.399979 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.ParentalControl.PCNextInstanceNumber , returnStatus 4294967280 +++
+3.400509 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.ParentalControl.PCNextInstanceNumber , returnStatus 4294967280 +++
+3.401009 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.ParentalControl.PCNextInstanceNumber , returnStatus 4294967280 +++
+3.401497 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.ParentalControl.PCNextInstanceNumber , returnStatus 4294967280 +++
+3.401993 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.ParentalControl.PCNextInstanceNumber , returnStatus 4294967280 +++
+3.427719 [mod=PAM, lvl=WARN] [tid=410]   CosaParentalControlCreate done - hParentalControl = 0x0x8a9c520!
+3.429264 [mod=PAM, lvl=WARN] [tid=410]   CosaRLogCreate done!
+3.435310 [mod=PAM, lvl=WARN] [tid=410]   CosaGreTunnelCreate done!
+3.435341 [mod=PAM, lvl=INFO] [tid=410] HOTSPOT_LIB : Entering register_callbackHotspot....
+3.437786 [mod=PAM, lvl=WARN] [tid=410]   CosaCGreCreate done!
+3.438637 [mod=PAM, lvl=WARN] [tid=410]   CosaHotspotCreate done!
+3.438759 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.MacFilterFirewall.MacFilterNextInstanceNumber , returnStatus 4294967280 +++
+3.439224 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.MacDayOfWeek.NextInstanceNumber , returnStatus 4294967280 +++
+3.439816 [mod=PAM, lvl=WARN] [tid=410]   CosaMacFilterCreate done!
+3.442787 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.DNSWhitelistUrl.DNSWhitelistUrlNextInstanceNumber , returnStatus 4294967280 +++
+3.443180 [mod=PAM, lvl=WARN] [tid=410]   CosaLgiGatewayCreate done!
+3.443207 [mod=PAM, lvl=WARN] [tid=410] !!!!!! CosaDmlTSIPLoadMappingFile 1 !!!!!!
+3.443222 [mod=PAM, lvl=WARN] [tid=410] !!!!!!!!!! CosaDmlTSIPLoadMappingFile: mapping file open error!!!!!!!!!
+3.443680 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for Provision.COSALibrary.TrueStaticIPRule.NextInstanceNumber , returnStatus 4294967280 +++
+3.444138 [mod=PAM, lvl=INFO] [tid=410] Inside FUNC register_sub_docs LINE 240
+3.444157 [mod=PAM, lvl=INFO] [tid=410] Inside FUNC initMessageQueue LINE 1109 
+3.445187 [mod=PAM, lvl=WARN] [tid=619] CosaDmlDhcpv6sRestartOnLanStarted -- lan status is started. 
+3.445206 [mod=PAM, lvl=INFO] [tid=410] Inside FUNC initMessageQueueMaster LINE 2387 
+3.445229 [mod=PAM, lvl=INFO] [tid=410] eventRegisterMaster for process  CcspPandMSsp 
+3.445244 [mod=PAM, lvl=WARN] [tid=410] rbus.c:3094 handle is NULL
+3.445248 [mod=PAM, lvl=ERROR] [tid=410] Failed to register multiCompBroadCastSignal data elements with rbus. Error code : 2
+3.445587 [mod=PAM, lvl=INFO] [tid=621] Inside FUNC messageQueueProcessing LINE 899 
+3.445663 [mod=PAM, lvl=WARN] [tid=410] wbInitializeHotspot : WebConfig RFC value is false
+3.445663 [mod=PAM, lvl=INFO] [tid=622] Inside FUNC display_subDocs LINE 88
+3.445675 [mod=PAM, lvl=WARN] [tid=410] wbInitializeHotspot : WebConfig RFC is not enabled, returning
+3.445675 [mod=PAM, lvl=INFO] [tid=623] subscribeSubdocForceReset: Discover component for event 'Device.X_RDK_WebConfig.webcfgSubdocForceReset' 
+3.445683 [mod=PAM, lvl=WARN] [tid=410]   Initializing ssam !
+3.445702 [mod=PAM, lvl=INFO] [tid=624] Inside FUNC messageQueueProcessingMultiComp LINE 1764 
+3.445702 [mod=PAM, lvl=WARN] [tid=410] ssam_start,465: -E-
+3.445724 [mod=PAM, lvl=INFO] [tid=623] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+3.445732 [mod=PAM, lvl=ERROR] [tid=623] Failed to discover component. Error Code = 2
+3.445755 [mod=PAM, lvl=WARN] [tid=410] ssam_start,470: SAM is not enabled, exiting...
+3.445808 [mod=PAM, lvl=WARN] [tid=410]   CosaLgiWoLCreate done !
+3.445839 [mod=PAM, lvl=WARN] [tid=410]   CosaTemperatureStatusCreate done!
+3.446575 [mod=PAM, lvl=WARN] [tid=410]   CosaLgiApplicationsCreate done !
+3.447121 [mod=PAM, lvl=ERROR] [tid=625] Unable to read CPU temperature
+3.448841 [mod=PAM, lvl=WARN] [tid=410]  CosaLgiMulticastCreate done !
+3.448853 [mod=PAM, lvl=WARN] [tid=410]   CosaLgiEventLogCreate done !
+3.449070 [mod=PAM, lvl=WARN] [tid=410]   CosaLgiTunneledStaticIPCreate done !
+3.449100 [mod=PAM, lvl=WARN] [tid=410]   CosaLgiStaticIPCreate done !
+3.449108 [mod=PAM, lvl=WARN] [tid=410] RDKB_SYSTEM_BOOT_UP_LOG : PandM DM initialization done!
+3.449116 [mod=PAM, lvl=WARN] [tid=410]  /var/tmp/lastrebootreason File doesn't exist --Create new file
+3.502220 [mod=PAM, lvl=INFO] [tid=410] CheckAndSetRebootReason 967 - Last Reboot Reason is : unknown
+3.502304 [mod=PAM, lvl=WARN] [tid=410] No need to schedule as default value is set to false 
+3.509007 [mod=PAM, lvl=WARN] [tid=410] Empty object.
+3.511566 [mod=PAM, lvl=WARN] [tid=410] 
+3.511616 [mod=PAM, lvl=WARN] [tid=410] InterfaceStack_Synchronize()..... '
+3.511719 [mod=PAM, lvl=ERROR] [tid=634] parodus url is not present in device.properties file
+3.516151 [mod=PAM, lvl=INFO] [tid=410] CosaUtilGetIpv6AddrInfo,Interface scope is : 32
+3.516972 [mod=PAM, lvl=INFO] [tid=410] CosaUtilGetIpv6AddrInfo,Interface scope is : 32
+3.517159 [mod=PAM, lvl=INFO] [tid=410] CosaUtilGetIpv6AddrInfo,Interface scope is : 16
+3.517281 [mod=PAM, lvl=INFO] [tid=410] CosaUtilGetIpv6AddrInfo,Interface scope is : 16
+3.517330 [mod=PAM, lvl=INFO] [tid=410] CosaUtilGetIpv6AddrInfo,Interface scope is : 32
+3.535374 [mod=PAM, lvl=WARN] [tid=410] Client2_Synchronize: is_usg_in_bridge_mode call failed. 
+3.535912 [mod=PAM, lvl=NOTICE] [tid=410] Opening COSA_DML_DHCP_LEASES_FILE failed _cosa_get_dhcps_client
+3.535950 [mod=PAM, lvl=WARN] [tid=410] Client2_Synchronize: is_usg_in_bridge_mode call failed. 
+3.535961 [mod=PAM, lvl=WARN] [tid=410] CosaDmlDhcpsGetClient CosaGetParamValueString Failed
+3.535969 [mod=PAM, lvl=NOTICE] [tid=410] Opening COSA_DML_DHCP_LEASES_FILE failed _cosa_get_dhcps_client
+3.535995 [mod=PAM, lvl=WARN] [tid=410] Client2_Synchronize: is_usg_in_bridge_mode call failed. 
+3.536003 [mod=PAM, lvl=NOTICE] [tid=410] Opening COSA_DML_DHCP_LEASES_FILE failed _cosa_get_dhcps_client
+3.536034 [mod=PAM, lvl=WARN] [tid=410] Client2_Synchronize: is_usg_in_bridge_mode call failed. 
+3.536037 [mod=PAM, lvl=NOTICE] [tid=410] Opening COSA_DML_DHCP_LEASES_FILE failed _cosa_get_dhcps_client
+3.537613 [mod=PAM, lvl=WARN] [tid=410] CosaDmlRipCallback -- starts.
+3.537636 [mod=PAM, lvl=WARN] [tid=410] CosaDmlGenerateRipdConfigFile -- starts.
+3.537655 [mod=PAM, lvl=WARN] [tid=410] CosaDmlGenerateRipdConfigFile -- exits.
+3.537659 [mod=PAM, lvl=WARN] [tid=410] CosaDmlRipCallback -- exits.
+3.537819 [mod=PAM, lvl=WARN] [tid=410] Search for empty object in 'dslhCpeCheckEmptyObject'
+3.537834 [mod=PAM, lvl=WARN] [tid=410] Register a dummy param 'Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Control.CcspDummy'
+3.537842 [mod=PAM, lvl=WARN] [tid=410] Register a dummy param 'Device.DeviceInfo.X_RDKCENTRAL-COM_EthernetWAN.CcspDummy'
+3.537899 [mod=PAM, lvl=INFO] [tid=656] dhcpv6c_dbg_thrd globalIP2  
+3.538017 [mod=PAM, lvl=WARN] [tid=656] dhcpv6c_dbg_thrd sysevent_fd_global is 18
+3.658802 [mod=CR, lvl=INFO] [tid=382] CR  INFO rbus.c:2313 -- Thread-382: calling methodHandler method [Device.CR.RegisterComponent()]
+3.658817 [mod=CR, lvl=WARN] [tid=382] methodHandler Device.CR.RegisterComponent()
+3.658829 [mod=CR, lvl=WARN] [tid=382] No Dependency Component for eRT.com.cisco.spvtg.ccsp.pam
+3.658833 [mod=CR, lvl=WARN] [tid=382] ReadyCheck waiting on com.cisco.spvtg.ccsp.mta
+3.658836 [mod=CR, lvl=WARN] [tid=382] ReadyCheck waiting on com.cisco.spvtg.ccsp.tdm
+3.658840 [mod=CR, lvl=WARN] [tid=382] ReadyCheck waiting on com.cisco.spvtg.ccsp.lmlite
+3.658844 [mod=CR, lvl=WARN] [tid=382] RegisterComponent: eRT.com.cisco.spvtg.ccsp.pam is Registered
+3.658924 [mod=PAM, lvl=WARN] [tid=410] PandMInit:ssp_engage_pnm PandM registered with CR ,setting the health to Green...
+3.658939 [mod=PAM, lvl=INFO] [tid=410] Provision & Management Module loaded successfully...
+3.658947 [mod=PAM, lvl=INFO] [tid=410] Inside FUNC check_component_crash LINE 359, init file is /tmp/pam_initialized_bootup 
+3.658958 [mod=PAM, lvl=INFO] [tid=410] /tmp/pam_initialized_bootup file not present, need to send component init event to webconfig 
+3.658966 [mod=PAM, lvl=INFO] [tid=410] notifyVersion_to_Webconfig : doc name portforwarding , doc version 0
+3.658974 [mod=PAM, lvl=INFO] [tid=410] sendWebConfigSignal : rbus_publishEvent :: event_name : webconfigSignal :: 
+3.659027 [mod=PAM, lvl=ERROR] [tid=410] sendWebConfigSignal rbus_invokeRemoteMethod for webconfigSignal failed & returns with Err: 17
+3.659039 [mod=PAM, lvl=INFO] [tid=410] notifyVersion_to_Webconfig : doc name wan , doc version 0
+3.659046 [mod=PAM, lvl=INFO] [tid=410] sendWebConfigSignal : rbus_publishEvent :: event_name : webconfigSignal :: 
+3.659107 [mod=PAM, lvl=ERROR] [tid=410] sendWebConfigSignal rbus_invokeRemoteMethod for webconfigSignal failed & returns with Err: 17
+3.659115 [mod=PAM, lvl=INFO] [tid=410] notifyVersion_to_Webconfig : doc name macbinding , doc version 0
+3.659119 [mod=PAM, lvl=INFO] [tid=410] sendWebConfigSignal : rbus_publishEvent :: event_name : webconfigSignal :: 
+3.659176 [mod=PAM, lvl=ERROR] [tid=410] sendWebConfigSignal rbus_invokeRemoteMethod for webconfigSignal failed & returns with Err: 17
+3.659191 [mod=PAM, lvl=INFO] [tid=410] notifyVersion_to_Webconfig : doc name lan , doc version 0
+3.659195 [mod=PAM, lvl=INFO] [tid=410] sendWebConfigSignal : rbus_publishEvent :: event_name : webconfigSignal :: 
+3.659256 [mod=PAM, lvl=ERROR] [tid=410] sendWebConfigSignal rbus_invokeRemoteMethod for webconfigSignal failed & returns with Err: 17
+3.659264 [mod=PAM, lvl=INFO] [tid=410] notifyVersion_to_Webconfig : doc name hotspot , doc version 0
+3.659267 [mod=PAM, lvl=INFO] [tid=410] sendWebConfigSignal : rbus_publishEvent :: event_name : webconfigSignal :: 
+3.659325 [mod=PAM, lvl=ERROR] [tid=410] sendWebConfigSignal rbus_invokeRemoteMethod for webconfigSignal failed & returns with Err: 17
+3.659332 [mod=PAM, lvl=INFO] [tid=410] notifyVersion_to_Webconfig : doc name connectedbuilding , doc version 0
+3.659340 [mod=PAM, lvl=INFO] [tid=410] sendWebConfigSignal : rbus_publishEvent :: event_name : webconfigSignal :: 
+3.659397 [mod=PAM, lvl=ERROR] [tid=410] sendWebConfigSignal rbus_invokeRemoteMethod for webconfigSignal failed & returns with Err: 17
+3.659405 [mod=PAM, lvl=INFO] [tid=410] notifyVersion_to_Webconfig : doc name xmspeedboost , doc version 0
+3.659409 [mod=PAM, lvl=INFO] [tid=410] sendWebConfigSignal : rbus_publishEvent :: event_name : webconfigSignal :: 
+3.659470 [mod=PAM, lvl=ERROR] [tid=410] sendWebConfigSignal rbus_invokeRemoteMethod for webconfigSignal failed & returns with Err: 17
+3.659477 [mod=PAM, lvl=INFO] [tid=410] PAM_DBG:----------------------touch /tmp/pam_initialized-------------------
+3.660393 [mod=PAM, lvl=INFO] [tid=410] PAM_DEBUG:------------sem_getvalue returns value = 0 ------------
+3.660404 [mod=PAM, lvl=INFO] [tid=410] PAM_DBG:----------------Before calling sem_post--------------------
+3.660412 [mod=PAM, lvl=INFO] [tid=410] PAM_DBG:-----------------touch pam_initialized in atom ----------------
+3.660511 [mod=PAM, lvl=INFO] [tid=410] PAM_DBG:-----------------created pam_initialized in atom ----------------
+3.664238 [mod=PAM, lvl=WARN] [tid=410] RDKB_SYSTEM_BOOT_UP_LOG : Entering P&M loop... 
+3.996250 Triggered cosa_start_rem script and created tmp/cosa_start_rem_triggered file
+3.996826 Elected subsystem is eRT.
+3.997536 PWD is /usr/ccsp
+3.998142 /usr/bin/CcspMtaAgentSsp -subsys eRT. &
+3.998867 /usr/bin/CcspTandDSsp -subsys eRT. &
+3.999542 XCONF SCRIPT : Calling XCONF Client
+4.003048 [mod=MTA, lvl=WARN] [tid=677] 
+4.003399 [mod=MTA, lvl=WARN] [tid=684] Core dump is NOT opened, backtrace if possible
+4.003536 [mod=MTA, lvl=INFO] [tid=684] Box is in DOCSIS mode
+4.003544 [mod=MTA, lvl=INFO] [tid=684] Connect to bus daemon...
+4.003571 [mod=MTA, lvl=INFO] [tid=684] rbuscore.c:2340 RBus Enabled
+4.003593 [mod=MTA, lvl=INFO] [tid=684] rbuscore.c:656 Broker address: tcp://192.168.254.253:12368
+4.003773 [mod=MTA, lvl=INFO] [tid=684] connection opened for eRT.com.cisco.spvtg.ccsp.mta
+4.003807 [mod=MTA, lvl=INFO] [tid=684] eRT.com.cisco.spvtg.ccsp.mta start to check eRT.com.cisco.spvtg.ccsp.psm status
+4.003948 /usr/bin/CcspEthAgent -subsys eRT. &
+4.003983 [mod=MTA, lvl=INFO] [tid=684] eRT.com.cisco.spvtg.ccsp.psm is ready, eRT.com.cisco.spvtg.ccsp.mta continue
+4.003990 [mod=MTA, lvl=INFO] [tid=684] !!! Connected to message bus... bus_handle: 0x0x9acfda0 !!!
+4.004787 ***Starting CcspLMLite****
+4.005436 /usr/bin/CcspLMLite -subsys eRT. &
+4.012611 [mod=ETHAGENT, lvl=INFO] [tid=694] 
+4.012688 [mod=ETHAGENT, lvl=INFO] [tid=694] 
+4.012695 [mod=ETHAGENT, lvl=INFO] [tid=694] Connect to bus daemon...
+4.012718 [mod=ETHAGENT, lvl=INFO] [tid=694] rbuscore.c:2340 RBus Enabled
+4.012745 [mod=ETHAGENT, lvl=INFO] [tid=694] rbuscore.c:656 Broker address: tcp://192.168.254.253:12368
+4.013027 [mod=ETHAGENT, lvl=INFO] [tid=694] connection opened for eRT.com.cisco.spvtg.ccsp.ethagent
+4.013096 [mod=ETHAGENT, lvl=INFO] [tid=694] INFO: bus_handle: 0x0x87bfd90 
+4.027794 [mod=CR, lvl=INFO] [tid=382] CR  INFO rbus.c:2313 -- Thread-382: calling methodHandler method [Device.CR.RegisterComponent()]
+4.027805 [mod=CR, lvl=WARN] [tid=382] methodHandler Device.CR.RegisterComponent()
+4.027813 [mod=CR, lvl=WARN] [tid=382] No Dependency Component for eRT.com.cisco.spvtg.ccsp.lmlite
+4.027817 [mod=CR, lvl=WARN] [tid=382] ReadyCheck waiting on com.cisco.spvtg.ccsp.mta
+4.027821 [mod=CR, lvl=WARN] [tid=382] ReadyCheck waiting on com.cisco.spvtg.ccsp.tdm
+4.027828 [mod=CR, lvl=WARN] [tid=382] RegisterComponent: eRT.com.cisco.spvtg.ccsp.lmlite is Registered
+4.028248 [mod=LM, lvl=WARN] [tid=697] LMLite:rdk initialzed!
+4.029057 [mod=LM, lvl=WARN] [tid=703] ValidateHostRetry_Thread started
+4.030777 [mod=LM, lvl=WARN] [tid=697] Atom mac is 
+4.067383 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+4.067665 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+4.068359 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.IP.Diagnostics.X_RDKCENTRAL-COM_SpeedTest.Server.Capability , returnStatus 4294967280 +++
+4.080021 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+4.080208 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+4.474499 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.7.EthLink , returnStatus 4294967280 +++
+4.476105 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.7.EthLink , returnStatus 4294967280 +++
+4.477348 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.7.V4Addr , returnStatus 4294967280 +++
+4.478634 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.7.V4Addr , returnStatus 4294967280 +++
+4.479546 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.7.V4SubnetMask , returnStatus 4294967280 +++
+4.480736 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.7.V4SubnetMask , returnStatus 4294967280 +++
+4.481754 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.7.Enable , returnStatus 4294967280 +++
+4.482765 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.7.Enable , returnStatus 4294967280 +++
+4.675598 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.8.EthLink , returnStatus 4294967280 +++
+4.676876 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.8.EthLink , returnStatus 4294967280 +++
+4.678497 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.8.V4Addr , returnStatus 4294967280 +++
+4.679653 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.8.V4Addr , returnStatus 4294967280 +++
+4.680962 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.8.V4SubnetMask , returnStatus 4294967280 +++
+4.681946 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.8.V4SubnetMask , returnStatus 4294967280 +++
+4.682877 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.8.Enable , returnStatus 4294967280 +++
+4.683659 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.8.Enable , returnStatus 4294967280 +++
+4.875450 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.9.EthLink , returnStatus 4294967280 +++
+4.876637 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.9.EthLink , returnStatus 4294967280 +++
+4.877728 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.9.V4Addr , returnStatus 4294967280 +++
+4.878986 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.9.V4Addr , returnStatus 4294967280 +++
+4.880161 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.9.V4SubnetMask , returnStatus 4294967280 +++
+4.881104 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.9.V4SubnetMask , returnStatus 4294967280 +++
+4.882027 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.9.Enable , returnStatus 4294967280 +++
+4.882996 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.9.Enable , returnStatus 4294967280 +++
+5.005085 [mod=MTA, lvl=INFO] [tid=684] CcspBaseIf_Register_Event_rbus : rbus_registerEvent called for event: currentSessionIDSignal
+5.006233 [mod=MTA, lvl=INFO] [tid=684] rbuscore.c:755 Subscription for _rbus_session_mgr::currentSessionIDSignal is now active.
+5.006687 [mod=MTA, lvl=WARN] [tid=684] Register empty object : com.
+5.006733 [mod=MTA, lvl=WARN] [tid=684] Register empty object : com.cisco.
+5.006771 [mod=MTA, lvl=WARN] [tid=684] Register empty object : com.cisco.spvtg.
+5.006809 [mod=MTA, lvl=WARN] [tid=684] Register empty object : com.cisco.spvtg.ccsp.
+5.007553 [mod=MTA, lvl=WARN] [tid=684] DM Library module name = CCSP Base Data Model
+5.009205 [mod=MTA, lvl=WARN] [tid=684] DM Library module name = CCSP MTA Agent
+5.009262 [mod=MTA, lvl=WARN] [tid=684] Loading DM library libmta_tr181.so...
+5.014164 [mod=ETHAGENT, lvl=INFO] [tid=694] CcspBaseIf_Register_Event_rbus : rbus_registerEvent called for event: currentSessionIDSignal
+5.015179 [mod=ETHAGENT, lvl=INFO] [tid=694] rbuscore.c:755 Subscription for _rbus_session_mgr::currentSessionIDSignal is now active.
+5.015583 [mod=ETHAGENT, lvl=WARN] [tid=694] Register empty object : com.
+5.015629 [mod=ETHAGENT, lvl=WARN] [tid=694] Register empty object : com.cisco.
+5.015667 [mod=ETHAGENT, lvl=WARN] [tid=694] Register empty object : com.cisco.spvtg.
+5.015705 [mod=ETHAGENT, lvl=WARN] [tid=694] Register empty object : com.cisco.spvtg.ccsp.
+5.016220 [mod=ETHAGENT, lvl=WARN] [tid=694] DM Library module name = CCSP Base Data Model
+5.017166 [mod=ETHAGENT, lvl=WARN] [tid=694] CosaEthernetInitialize Ethernet_Logger_Thread Created
+5.018284 [mod=ETHAGENT, lvl=DEBUG] [tid=694] 'unsignedInt[1:7]' UINT range [1:7]
+5.018551 [mod=ETHAGENT, lvl=WARN] [tid=694] DM Library module name = CcspEthAgent
+5.018906 [mod=ETHAGENT, lvl=WARN] [tid=694] Search for empty object in 'dslhCpeCheckEmptyObject'
+5.022034 [mod=MTA, lvl=WARN] [tid=684] CosaBackEndManagerInitialize...
+5.022064 [mod=MTA, lvl=WARN] [tid=684] RDKB_SYSTEM_BOOT_UP_LOG : MTA DM initialize...
+5.022133 [mod=TDM, lvl=WARN] [tid=683] Register empty object : com.
+5.022236 [mod=TDM, lvl=WARN] [tid=683] Register empty object : com.cisco.
+5.022263 [mod=TDM, lvl=WARN] [tid=683] Register empty object : com.cisco.spvtg.
+5.022285 [mod=TDM, lvl=WARN] [tid=683] Register empty object : com.cisco.spvtg.ccsp.
+5.025204 [mod=TDM, lvl=WARN] [tid=683] DM Library module name = CCSP Base Data Model
+5.025867 [mod=MTA, lvl=WARN] [tid=684] CosaMTALineTableInitialize 1
+5.025928 [mod=MTA, lvl=WARN] [tid=684]   CosaMTACreate done!
+5.026466 Launching UI after all CCSP processes are up
+5.026802 [mod=MTA, lvl=WARN] [tid=684]   CosaLgiMTACreate done!
+5.026821 [mod=MTA, lvl=WARN] [tid=684] RDKB_SYSTEM_BOOT_UP_LOG : MTA DM initialization done!
+5.028221 [mod=TDM, lvl=WARN] [tid=683] DM Library module name = TestAndDiagnostic
+5.028252 [mod=TDM, lvl=WARN] [tid=683] Loading DM library libdmltad.so...
+5.028664 [mod=CR, lvl=INFO] [tid=382] CR  INFO rbus.c:2313 -- Thread-382: calling methodHandler method [Device.CR.RegisterComponent()]
+5.028687 [mod=CR, lvl=WARN] [tid=382] methodHandler Device.CR.RegisterComponent()
+5.028706 [mod=CR, lvl=WARN] [tid=382] RegisterComponent: eRT.com.cisco.spvtg.ccsp.ethagent not found in registry
+5.028900 [mod=ETHAGENT, lvl=WARN] [tid=694] 
+5.028927 [mod=ETHAGENT, lvl=WARN] [tid=694] 
+5.031319 [mod=TDM, lvl=NOTICE] [tid=683] Executing Speedtest to acquire version
+5.033573 /usr/bin/CcspTr069PaSsp -subsys eRT. &
+5.034462 [mod=ETHAGENT, lvl=INFO] [tid=814] <EthMonThrd> - DeleteAllHosts due to count is 0
+5.036312 [mod=MTA, lvl=WARN] [tid=684] Search for empty object in 'dslhCpeCheckEmptyObject'
+5.037464 [mod=TDM, lvl=WARN] [tid=683] RDK_LOG_WARN,TDM CosaDiagInitialize :Calling PSM GET to get Capability flag value
+5.037682 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.IP.Diagnostics.X_RDKCENTRAL-COM_SpeedTest.Server.Capability , returnStatus 4294967280 +++
+5.037827 [mod=TDM, lvl=WARN] [tid=683] RDK_LOG_WARN,TDM CosaDiagInitialize :Capability [0]
+5.037914 [mod=TDM, lvl=INFO] [tid=683] [CosaDmlInitializeRxTxStats] RxTx Stats Interfacelist:[ brlan0,brlan1,brlan2,brlan3,brlan4,brlan5,brebhaul,brlan112,brlan113 ]
+5.037991 [mod=TDM, lvl=INFO] [tid=683] [CosaDmlInitializeRxTxStats] RxTx Stats Portlist:[ wl0,wl1,wl2,moca0,eth0,eth1,eth2,eth3 ]
+5.046169 [mod=TR69, lvl=INFO] [tid=825] NonRoot feature is enabled, dropping root privileges for CcspTr069Pa process
+5.053059 [mod=TR69, lvl=WARN] [tid=831] Core dump is NOT opened, backtrace if possible
+5.053089 [mod=TR69, lvl=INFO] [tid=831] 
+5.053093 [mod=TR69, lvl=INFO] [tid=831]         ***************************************************************
+5.053101 [mod=TR69, lvl=INFO] [tid=831]         ***                                                         ***
+5.053104 [mod=TR69, lvl=INFO] [tid=831]         ***   CCSP TR-069 PA Program                                ***
+5.053108 [mod=TR69, lvl=INFO] [tid=831]         ***      Copyright 2014  Cisco Systems, Inc.                ***
+5.053112 [mod=TR69, lvl=INFO] [tid=831]         ***      Licensed under the Apache License, Version 2.0     ***
+5.053116 [mod=TR69, lvl=INFO] [tid=831]         ***                                                         ***
+5.053123 [mod=TR69, lvl=INFO] [tid=831]         ***************************************************************
+5.053127 [mod=TR69, lvl=INFO] [tid=831] 
+5.053131 [mod=TR69, lvl=INFO] [tid=831] 
+5.053135 [mod=TR69, lvl=INFO] [tid=831]         *** 'e' - engage PA SSP                                                        ***
+5.053139 [mod=TR69, lvl=INFO] [tid=831]         *** 'c' - cancel PA SSP                                                        ***
+5.053143 [mod=TR69, lvl=INFO] [tid=831]         *** 'l' - set log level                                                        ***
+5.053150 [mod=TR69, lvl=INFO] [tid=831]         *** 's' - simulate receiving systemReady signal from CR                        ***
+5.053154 [mod=TR69, lvl=INFO] [tid=831]         *** 'd' - dump PA parameter tree                                               ***
+5.053158 [mod=TR69, lvl=INFO] [tid=831]         *** 'g' - sending diagComplete event over D-Bus                                ***
+5.053162 [mod=TR69, lvl=INFO] [tid=831]         *** '1' - test PA parameter filter function                                    ***
+5.053169 [mod=TR69, lvl=INFO] [tid=831]         *** '2' - test GPN                                                             ***
+5.053173 [mod=TR69, lvl=INFO] [tid=831]         *** '3' - test GPV                                                             ***
+5.053177 [mod=TR69, lvl=INFO] [tid=831]         *** '4' - test SPV                                                             ***
+5.053181 [mod=TR69, lvl=INFO] [tid=831]         *** '5' - test GPA                                                             ***
+5.053185 [mod=TR69, lvl=INFO] [tid=831]         *** '6' - test SPA                                                             ***
+5.053188 [mod=TR69, lvl=INFO] [tid=831]         *** '7' - test CDS                                                             ***
+5.053196 [mod=TR69, lvl=INFO] [tid=831]         *** '8' - test firmware download                                               ***
+5.053200 [mod=TR69, lvl=INFO] [tid=831]         *** 'a' - test AddObject                                                       ***
+5.053204 [mod=TR69, lvl=INFO] [tid=831]         *** 'x' - test DeleteObject                                                    ***
+5.053207 [mod=TR69, lvl=INFO] [tid=831]         *** 'v' - simulate SPV through other means than ACS                            ***
+5.053211 [mod=TR69, lvl=INFO] [tid=831]         *** 'k' - check parameter notification in PA's cache                           ***
+5.053219 [mod=TR69, lvl=INFO] [tid=831]         *** 'f' - flip invisible namespace check flag                                  ***
+5.053223 [mod=TR69, lvl=INFO] [tid=831] 
+5.062542 [mod=CR, lvl=INFO] [tid=382] CR  INFO rbus.c:2313 -- Thread-382: calling methodHandler method [Device.CR.RegisterComponent()]
+5.062553 [mod=CR, lvl=WARN] [tid=382] methodHandler Device.CR.RegisterComponent()
+5.062561 [mod=CR, lvl=WARN] [tid=382] No Dependency Component for eRT.com.cisco.spvtg.ccsp.mta
+5.062565 [mod=CR, lvl=WARN] [tid=382] ReadyCheck waiting on com.cisco.spvtg.ccsp.tdm
+5.062569 [mod=CR, lvl=WARN] [tid=382] RegisterComponent: eRT.com.cisco.spvtg.ccsp.mta is Registered
+5.063408 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.10.EthLink , returnStatus 4294967280 +++
+5.063488 [mod=MTA, lvl=INFO] [tid=684] MTA Agent Module loaded successfully...
+5.068039 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.10.EthLink , returnStatus 4294967280 +++
+5.068203 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.10.V4Addr , returnStatus 4294967280 +++
+5.068352 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.10.V4Addr , returnStatus 4294967280 +++
+5.068520 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.10.V4SubnetMask , returnStatus 4294967280 +++
+5.068672 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.10.V4SubnetMask , returnStatus 4294967280 +++
+5.068829 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.10.Enable , returnStatus 4294967280 +++
+5.068981 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.10.Enable , returnStatus 4294967280 +++
+5.071747 [mod=MTA, lvl=WARN] [tid=684] RDKB_SYSTEM_BOOT_UP_LOG : Entering MTA loop
+5.072678 [mod=TR69, lvl=WARN] [tid=831] CcspTr069PaSsp_GetTr069CertificateLocationForSyndication 640 - Syndication TR69CertLocation /etc/cacert.pem
+5.073029 [mod=TR69, lvl=ERROR] [tid=831] Failed to SetPAMapperFile CCSP CWMP CPE Controller object!
+5.073040 [mod=TR69, lvl=ERROR] [tid=831] Failed to SetPACustomMapperFile CCSP CWMP CPE Controller object!
+5.088825 [mod=TR69, lvl=ERROR] [tid=831] TR-069 PA mapper file </usr/ccsp/tr069pa/ccsp_tr069_pa_mapper.xml> has been loaded!
+5.088860 [mod=TR69, lvl=INFO] [tid=831] Loading custom TR-069 PA mapper file
+5.099678 [mod=TR69, lvl=ERROR] [tid=831] TR-069 PA mapper file </usr/ccsp/custom_mapper.xml> has been loaded!
+5.099728 [mod=TR69, lvl=INFO] [tid=831] rbuscore.c:2340 RBus Enabled
+5.099762 [mod=TR69, lvl=INFO] [tid=831] rbuscore.c:656 Broker address: tcp://192.168.254.253:12368
+5.099915 [mod=TR69, lvl=INFO] [tid=831] connection opened for eRT.com.cisco.spvtg.ccsp.tr069pa
+5.100109 [mod=TR69, lvl=WARN] [tid=831] CcspManagementServer_InitDBus, Register Path failure !!!
+5.100117 [mod=TR69, lvl=INFO] [tid=831] CcspBaseIf_Register_Event_rbus : rbus_registerEvent called for event: systemReadySignal
+5.100269 [mod=CR, lvl=INFO] [tid=382] CR  INFO rbus.c:1018 -- Thread-382: Consumer=rbus.CcspTr069PaSsp.INBOX.831 SUBSCRIBED to event=Device.CR.SystemReady
+5.100395 [mod=TR69, lvl=INFO] [tid=831] rbuscore.c:755 Subscription for Device.CR.SystemReady::Device.CR.SystemReady is now active.
+5.100407 [mod=TR69, lvl=INFO] [tid=831] CcspBaseIf_Register_Event_rbus : rbus_registerEvent called for event: diagCompleteSignal
+5.100521 [mod=TDM, lvl=INFO] [tid=690] rbuscore.c:156 Listener rbus.CcspTr069PaSsp.INBOX.831 added for event diagCompleteSignal.
+5.100613 [mod=TR69, lvl=INFO] [tid=831] rbuscore.c:755 Subscription for eRT.com.cisco.spvtg.ccsp.tdm::diagCompleteSignal is now active.
+5.101040 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.EnableCWMP.Notification , returnStatus 4294967280 +++
+5.101357 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.URL.Notification , returnStatus 4294967280 +++
+5.101505 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.Username.Value , returnStatus 4294967280 +++
+5.101654 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.Username.Notification , returnStatus 4294967280 +++
+5.101795 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.Password.Value , returnStatus 4294967280 +++
+5.102295 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.Password.Notification , returnStatus 4294967280 +++
+5.102444 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.PeriodicInformEnable.Value , returnStatus 4294967280 +++
+5.102615 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.PeriodicInformEnable.Notification , returnStatus 4294967280 +++
+5.102917 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.PeriodicInformInterval.Notification , returnStatus 4294967280 +++
+5.103062 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.PeriodicInformTime.Value , returnStatus 4294967280 +++
+5.103207 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.PeriodicInformTime.Notification , returnStatus 4294967280 +++
+5.103645 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.ParameterKey.Notification , returnStatus 4294967280 +++
+5.105011 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.ConnectionRequestUsername.Notification , returnStatus 4294967280 +++
+5.105499 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.ConnectionRequestPassword.Notification , returnStatus 4294967280 +++
+5.105701 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.ACSOverride.Value , returnStatus 4294967280 +++
+5.106037 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.ACSOverride.Notification , returnStatus 4294967280 +++
+5.106197 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.UpgradesManaged.Value , returnStatus 4294967280 +++
+5.106365 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.UpgradesManaged.Notification , returnStatus 4294967280 +++
+5.106537 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_CISCO_COM_DiagComplete.Value , returnStatus 4294967280 +++
+5.106686 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_CISCO_COM_DiagComplete.Notification , returnStatus 4294967280 +++
+5.106838 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.KickURL.Value , returnStatus 4294967280 +++
+5.106998 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.KickURL.Notification , returnStatus 4294967280 +++
+5.107189 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.DownloadProgressURL.Value , returnStatus 4294967280 +++
+5.107346 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.DownloadProgressURL.Notification , returnStatus 4294967280 +++
+5.107513 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.DefaultActiveNotificationThrottle.Value , returnStatus 4294967280 +++
+5.107693 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.DefaultActiveNotificationThrottle.Notification , returnStatus 4294967280 +++
+5.107853 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.CWMPRetryMinimumWaitInterval.Value , returnStatus 4294967280 +++
+5.108025 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.CWMPRetryMinimumWaitInterval.Notification , returnStatus 4294967280 +++
+5.108173 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.CWMPRetryIntervalMultiplier.Value , returnStatus 4294967280 +++
+5.108322 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.CWMPRetryIntervalMultiplier.Notification , returnStatus 4294967280 +++
+5.108471 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.UDPConnectionRequestAddress.Value , returnStatus 4294967280 +++
+5.108616 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.UDPConnectionRequestAddress.Notification , returnStatus 4294967280 +++
+5.108768 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.UDPConnectionRequestAddressNotificationLimit.Value , returnStatus 4294967280 +++
+5.108921 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.UDPConnectionRequestAddressNotificationLimit.Notification , returnStatus 4294967280 +++
+5.109066 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.STUNEnable.Value , returnStatus 4294967280 +++
+5.109211 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.STUNEnable.Notification , returnStatus 4294967280 +++
+5.109356 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.STUNServerAddress.Value , returnStatus 4294967280 +++
+5.109505 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.STUNServerAddress.Notification , returnStatus 4294967280 +++
+5.109802 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.STUNServerPort.Notification , returnStatus 4294967280 +++
+5.109962 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.STUNUsername.Value , returnStatus 4294967280 +++
+5.110115 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.STUNUsername.Notification , returnStatus 4294967280 +++
+5.110264 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.STUNPassword.Value , returnStatus 4294967280 +++
+5.110409 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.STUNPassword.Notification , returnStatus 4294967280 +++
+5.110592 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.STUNMaximumKeepAlivePeriod.Value , returnStatus 4294967280 +++
+5.110783 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.STUNMaximumKeepAlivePeriod.Notification , returnStatus 4294967280 +++
+5.110947 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.STUNMinimumKeepAlivePeriod.Value , returnStatus 4294967280 +++
+5.111286 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.STUNMinimumKeepAlivePeriod.Notification , returnStatus 4294967280 +++
+5.111691 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.NATDetected.Value , returnStatus 4294967280 +++
+5.111866 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.NATDetected.Notification , returnStatus 4294967280 +++
+5.112038 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.AliasBasedAddressing.Value , returnStatus 4294967280 +++
+5.112209 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.AliasBasedAddressing.Notification , returnStatus 4294967280 +++
+5.112366 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+5.112545 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Notification , returnStatus 4294967280 +++
+5.112701 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_CISCO_COM_ConnectionRequestURLPath.Value , returnStatus 4294967280 +++
+5.112854 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_CISCO_COM_ConnectionRequestURLPath.Notification , returnStatus 4294967280 +++
+5.113003 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestIf.Value , returnStatus 4294967280 +++
+5.113152 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestIf.Notification , returnStatus 4294967280 +++
+5.113300 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.ScheduleReboot.Value , returnStatus 4294967280 +++
+5.113449 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.ScheduleReboot.Notification , returnStatus 4294967280 +++
+5.113594 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.DelayReboot.Value , returnStatus 4294967280 +++
+5.113743 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.DelayReboot.Notification , returnStatus 4294967280 +++
+5.113899 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI_COM_ValidateManagementServerCertificate.Value , returnStatus 4294967280 +++
+5.114059 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI_COM_ValidateManagementServerCertificate.Notification , returnStatus 4294967280 +++
+5.114216 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.HTTPConnectionRequestEnable.Value , returnStatus 4294967280 +++
+5.114368 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.HTTPConnectionRequestEnable.Notification , returnStatus 4294967280 +++
+5.114517 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.HTTPCompressionSupported.Value , returnStatus 4294967280 +++
+5.114674 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.HTTPCompressionSupported.Notification , returnStatus 4294967280 +++
+5.114826 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.ManageableDeviceNotificationLimit.Value , returnStatus 4294967280 +++
+5.114971 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.ManageableDeviceNotificationLimit.Notification , returnStatus 4294967280 +++
+5.115124 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementSSupportedDataModelNumberOfEntries.Value , returnStatus 4294967280 +++
+5.115273 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementSSupportedDataModelNumberOfEntries.Notification , returnStatus 4294967280 +++
+5.115417 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementSSupportedDataModelNumberOfEntries.NotifEnable.Value , returnStatus 4294967280 +++
+5.115570 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementSSupportedDataModelNumberOfEntries.NotifEnable.Notification , returnStatus 4294967280 +++
+5.115719 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementSSupportedDataModelNumberOfEntries.NotifTransferTypeFilter.Value , returnStatus 4294967280 +++
+5.115894 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementSSupportedDataModelNumberOfEntries.NotifTransferTypeFilter.Notification , returnStatus 4294967280 +++
+5.116051 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementSSupportedDataModelNumberOfEntries.NotifResultTypeFilter.Value , returnStatus 4294967280 +++
+5.116234 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementSSupportedDataModelNumberOfEntries.NotifResultTypeFilter.Notification , returnStatus 4294967280 +++
+5.116390 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementSSupportedDataModelNumberOfEntries.NotifFileTypeFilter.Value , returnStatus 4294967280 +++
+5.116550 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementSSupportedDataModelNumberOfEntries.NotifFileTypeFilter.Notification , returnStatus 4294967280 +++
+5.116722 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementSSupportedDataModelNumberOfEntriEnable.Value , returnStatus 4294967280 +++
+5.117050 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementSSupportedDataModelNumberOfEntriEnable.Notification , returnStatus 4294967280 +++
+5.117207 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementSSupportedDataModelNumberOfEntriOperationTypeFilter.Value , returnStatus 4294967280 +++
+5.117363 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementSSupportedDataModelNumberOfEntriOperationTypeFilter.Notification , returnStatus 4294967280 +++
+5.117607 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementSSupportedDataModelNumberOfEntriResultTypeFilter.Value , returnStatus 4294967280 +++
+5.117798 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementSSupportedDataModelNumberOfEntriResultTypeFilter.Notification , returnStatus 4294967280 +++
+5.118008 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementSSupportedDataModelNumberOfEntriFaultCodeFilter.Value , returnStatus 4294967280 +++
+5.118176 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementSSupportedDataModelNumberOfEntriFaultCodeFilter.Notification , returnStatus 4294967280 +++
+5.137749 [mod=CR, lvl=INFO] [tid=382] CR  INFO rbus.c:2313 -- Thread-382: calling methodHandler method [Device.CR.RegisterComponent()]
+5.137760 [mod=CR, lvl=WARN] [tid=382] methodHandler Device.CR.RegisterComponent()
+5.137768 [mod=CR, lvl=WARN] [tid=382] RegisterComponent: eRT.com.cisco.spvtg.ccsp.tr069pa not found in registry
+5.148865 self_heal_connectivity_test is going into sleep for 1046 sec
+5.162346 [mod=TDM, lvl=INFO] [tid=683] rbuscore.c:2340 RBus Enabled
+5.162365 [mod=WANCNCTVTYCHK, lvl=INFO] [tid=683] RBUS enabled, Proceed with Wan Connectivity check
+5.162392 [mod=TDM, lvl=INFO] [tid=683] rbus.c:2778 rbus open for component: WanCnctvtyChkEventConsumer
+5.162457 [mod=TDM, lvl=INFO] [tid=683] rbus.c:2854  rbus open (WanCnctvtyChkEventConsumer) success
+5.162476 [mod=TDM, lvl=INFO] [tid=683] rbus_subscriptions.c:447 file /tmp/rbus_subs_WanCnctvtyChkEventConsumer
+5.162586 [mod=WANCNCTVTYCHK, lvl=INFO] [tid=683] CosaWanCnctvtyChk_Init: Wan Connectivty Check Enable : true
+5.162598 [mod=TDM, lvl=INFO] [tid=683] rbus.c:2778 rbus open for component: WanCnctvtyChkTableConsumer
+5.162632 [mod=TDM, lvl=INFO] [tid=683] rbus.c:2854  rbus open (WanCnctvtyChkTableConsumer) success
+5.162640 [mod=TDM, lvl=INFO] [tid=683] rbus_subscriptions.c:447 file /tmp/rbus_subs_WanCnctvtyChkTableConsumer
+5.164646 [mod=TDM, lvl=INFO] [tid=683] rbus.c:1191 publishing ObjectCreated table=Device.Diagnostics.X_RDK_DNSInternet.TestURL. rowName=Device.Diagnostics.X_RDK_DNSInternet.TestURL.1
+5.164661 [mod=WANCNCTVTYCHK, lvl=INFO] [tid=683] 
+5.164742 [mod=TDM, lvl=WARN] [tid=683] Try to create empty object : Device.IP.
+5.164749 [mod=TDM, lvl=WARN] [tid=683] Register empty object : Device.IP.
+5.164772 [mod=TDM, lvl=WARN] [tid=683] Empty parameter name.
+5.167477 [mod=TDM, lvl=WARN] [tid=683] Search for empty object in 'dslhCpeCheckEmptyObject'
+5.181252 [mod=CR, lvl=INFO] [tid=382] CR  INFO rbus.c:2313 -- Thread-382: calling methodHandler method [Device.CR.RegisterComponent()]
+5.181267 [mod=CR, lvl=WARN] [tid=382] methodHandler Device.CR.RegisterComponent()
+5.181274 [mod=CR, lvl=WARN] [tid=382] No Dependency Component for eRT.com.cisco.spvtg.ccsp.tdm
+5.181278 [mod=CR, lvl=WARN] [tid=382] ReadyCheck yes
+5.181282 [mod=CR, lvl=WARN] [tid=382] RegisterComponent: eRT.com.cisco.spvtg.ccsp.tdm is Registered
+5.181309 [mod=CR, lvl=WARN] [tid=383] Received Signal to Post SystemReady
+5.181316 [mod=CR, lvl=WARN] [tid=383] System Ready
+5.181324 [mod=CR, lvl=WARN] [tid=383] Publishing ready event Device.CR.SystemReady
+5.181374 [mod=CR, lvl=WARN] [tid=383] wait thread exit
+5.181427 [mod=TDM, lvl=INFO] [tid=683] Test & Diagnostic Module loaded successfully...
+5.181435 [mod=TDM, lvl=INFO] [tid=683] rbuscore.c:2340 RBus Enabled
+5.181442 [mod=TDM, lvl=INFO] [tid=683] rbus.c:2778 rbus open for component: TestAndDiagnosticsRbus
+5.181480 [mod=TDM, lvl=INFO] [tid=683] rbus.c:2854  rbus open (TestAndDiagnosticsRbus) success
+5.181499 [mod=TDM, lvl=INFO] [tid=683] rbus_subscriptions.c:447 file /tmp/rbus_subs_TestAndDiagnosticsRbus
+5.181576 [mod=TR69, lvl=ERROR] [tid=875] rbuscore.c:1512 Received rbus event but no master callback registered yet.
+5.181595 [mod=TR69, lvl=INFO] [tid=875] System Ready Event Received
+5.181660 [mod=TR69, lvl=INFO] [tid=875] Received system ready signal, created /var/tmp/tr069paready file
+5.181671 [mod=TR69, lvl=INFO] [tid=875] CcspCwmppoSysReadySignalCB, user_data - 0x0x8a13ef0
+5.182171 [mod=TDM, lvl=INFO] [tid=683] syscfg_get success for the parameter 'LatencyMeasure_IPv4Enable'
+5.182205 [mod=TDM, lvl=INFO] [tid=683] syscfg_get success for the parameter 'LatencyMeasure_IPv6Enable'
+5.182213 [mod=TDM, lvl=ERROR] [tid=683] syscfg_get failed for the parameter 'LatencyMeasure_PercentileCalc_Enable'
+5.182243 [mod=TDM, lvl=INFO] [tid=683] syscfg_get success for the parameter 'LatencyMeasure_TCPReportInterval'
+5.182358 [mod=TDM, lvl=INFO] [tid=683] sysevent_open success.
+5.273605 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.11.EthLink , returnStatus 4294967280 +++
+5.274677 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.11.EthLink , returnStatus 4294967280 +++
+5.275738 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.11.V4Addr , returnStatus 4294967280 +++
+5.276775 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.11.V4Addr , returnStatus 4294967280 +++
+5.277676 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.11.V4SubnetMask , returnStatus 4294967280 +++
+5.278477 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.11.V4SubnetMask , returnStatus 4294967280 +++
+5.279514 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.11.Enable , returnStatus 4294967280 +++
+5.280235 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.11.Enable , returnStatus 4294967280 +++
+5.476418 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.12.EthLink , returnStatus 4294967280 +++
+5.477650 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.12.EthLink , returnStatus 4294967280 +++
+5.478703 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.12.V4Addr , returnStatus 4294967280 +++
+5.479885 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.12.V4Addr , returnStatus 4294967280 +++
+5.480907 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.12.V4SubnetMask , returnStatus 4294967280 +++
+5.481812 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.12.V4SubnetMask , returnStatus 4294967280 +++
+5.483089 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.12.Enable , returnStatus 4294967280 +++
+5.484222 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.12.Enable , returnStatus 4294967280 +++
+5.675278 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.13.EthLink , returnStatus 4294967280 +++
+5.676250 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.13.EthLink , returnStatus 4294967280 +++
+5.677246 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.13.V4Addr , returnStatus 4294967280 +++
+5.678158 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.13.V4Addr , returnStatus 4294967280 +++
+5.678993 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.13.V4SubnetMask , returnStatus 4294967280 +++
+5.680012 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.13.V4SubnetMask , returnStatus 4294967280 +++
+5.680832 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.13.Enable , returnStatus 4294967280 +++
+5.681698 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for dmsb.l3net.13.Enable , returnStatus 4294967280 +++
+5.927452 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+5.928356 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+5.931278 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.IP.Diagnostics.X_RDKCENTRAL-COM_SpeedTest.Server.Capability , returnStatus 4294967280 +++
+5.944180 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+5.944359 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+7.226398 [mod=PAM, lvl=INFO] [tid=400] PAM_DBG:---------------sem_trywait() returns 0 ---------------------
+7.226418 [mod=PAM, lvl=INFO] [tid=400] PAM_DBG:---------------uptime after waiting for sem is 516913 seconds ---------------------
+7.226437 [mod=PAM, lvl=INFO] [tid=400] PAM_DBG:------------diff time is 5 -------------
+8.002140 [mod=GWPROV, lvl=INFO] [tid=109] appCb.pGWP_act_DocsisInited()
+8.002235 [mod=GWPROV, lvl=INFO] [tid=109]  Entry GWP_act_DocsisInited_callback 
+8.002274 [mod=GWPROV, lvl=INFO] [tid=109]  Loading erouter0 network interface driver
+8.005989 [mod=GWPROV, lvl=INFO] [tid=109]  factory_mode 0 
+8.006042 [mod=GWPROV, lvl=INFO] [tid=109]  Entry GWP_DocsisInited 
+8.007698 [mod=GWPROV, lvl=INFO] [tid=109] getDecisionErouteOperMode: esafeErouterInitModeControl is 5, eRouterMode: 3
+8.007736 [mod=GWPROV, lvl=INFO] [tid=109]  active_mode 0 
+8.008453 [mod=GWPROV, lvl=INFO] [tid=109]  eRouterModeTmp = 3
+8.008694 [mod=GWPROV, lvl=INFO] [tid=109]  operMode = 4
+8.009090 [mod=GWPROV, lvl=INFO] [tid=109]  Disconnecting DOCSIS local bridge
+8.010639 [mod=GWPROV, lvl=INFO] [tid=109]  lan_wan_ready = 0
+8.018135 [mod=GWPROV, lvl=INFO] [tid=109] appCb.pDocsis_gotEnable()
+8.018192 [mod=GWPROV, lvl=INFO] [tid=109]  Entry docsis_gotEnable_callback , state = 3 
+8.433773 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+8.437004 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+9.034550 [mod=LM, lvl=WARN] [tid=697] Send_Eth_Host_Sync_Req : Get Ethernet Clients 
+9.035645 [mod=ETHAGENT, lvl=WARN] [tid=696] DslhObjcoValidate: X_RDKCENTRAL-COM_EthHost_Sync, bsUpdate = 3
+9.035713 [mod=ETHAGENT, lvl=INFO] [tid=696] Ethernet_Hosts_Sync-782 Sync With LMLite
+9.036331 [mod=LM, lvl=WARN] [tid=697] WIFI SyncWiFi : Get WiFi Clients 
+9.036751 [mod=LM, lvl=ERROR] [tid=697] SetParameterValues for param[0]=Device.WiFi.X_RDKCENTRAL-COM_WiFiHost_Sync failed with Err: 17
+9.036797 [mod=LM, lvl=WARN] [tid=697] WIFI SyncWiFi : Failed ret 102
+9.044125 [mod=LM, lvl=WARN] [tid=1018] Atom mac is 
+10.018688 [mod=GWPROV, lvl=INFO] [tid=109] appCb.pGWP_act_DocsisTftpOk()
+10.018837 [mod=GWPROV, lvl=INFO] [tid=109]  Entry GWP_act_DocsisTftpOk_callback 
+10.018871 [mod=GWPROV, lvl=INFO] [tid=109] appCb.pGWP_act_DocsisCfgfile()
+10.018898 [mod=GWPROV, lvl=INFO] [tid=109]  Entry GWP_act_DocsisCfgfile_callback 
+10.018925 [mod=GWPROV, lvl=INFO] [tid=109] GWP_act_DocsisCfgfile_callback : The Previous EROUTERMODE=3
+10.018948 [mod=GWPROV, lvl=INFO] [tid=109] GWP_act_DocsisCfgfile_callback : The Previous BRIDGE MODE=0
+10.018974 [mod=GWPROV, lvl=INFO] [tid=109]  GWP_SysCfgGetInt : name = bridge_mode 
+10.019306 [mod=GWPROV, lvl=INFO] [tid=109]  value = 0 
+10.019344 [mod=GWPROV, lvl=INFO] [tid=109]  GWP_SysCfgGetInt : name = last_erouter_mode 
+10.019539 [mod=GWPROV, lvl=INFO] [tid=109]  value = 3 
+10.019569 [mod=GWPROV, lvl=INFO] [tid=109] GWP_act_DocsisCfgfile_callback : The Refreshed EROUTERMODE=3
+10.019596 [mod=GWPROV, lvl=INFO] [tid=109] GWP_act_DocsisCfgfile_callback : The Refreshed BRIDGE MODE=0
+10.020653 [mod=GWPROV, lvl=INFO] [tid=109]  cfgFileName = /nvram/eroutercfg.bin
+10.021530 [mod=GWPROV, lvl=INFO] [tid=109]  eSafe Config file "/nvram/eroutercfg.bin", parsed completed, status 0
+10.021572 [mod=GWPROV, lvl=INFO] [tid=109] GWP_UpdateTr069CfgThread started
+10.022083 [mod=GWPROV, lvl=INFO] [tid=109]  GWP_UpdateERouterMode: 3->3
+10.023670 [mod=GWPROV, lvl=INFO] [tid=1034]  Entry GWP_UpdateTr069CfgThread 
+10.023869 [mod=GWPROV, lvl=INFO] [tid=1034]  /nvram/TLVData.bin file not present 
+10.023911 [mod=GWPROV, lvl=INFO] [tid=1034]  Exit GWP_UpdateTr069CfgThread 
+11.441803 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+11.445515 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+12.023300 [mod=GWPROV, lvl=INFO] [tid=109] appCb.pGWP_act_DocsisLinkUp()
+12.023369 [mod=GWPROV, lvl=INFO] [tid=109]  Entry GWP_act_DocsisLinkUp_callback 
+12.036095 [mod=GWPROV, lvl=INFO] [tid=109]  Starting wan service
+12.044712 [mod=PSM, lvl=INFO] [tid=389] AcqWriteAccess in 'PsmFloSaveRegFile'
+12.053181 ---------------------------------------------------------
+12.055485 -------------------- service_wan.sh ---------------------
+12.057331 ---------------------------------------------------------
+12.058231 [mod=PSM, lvl=INFO] [tid=389] ssp_CfmSaveCurConfig: called
+12.059071 RDKB_SYSTEM_BOOT_UP_LOG : service_wan.sh script called to bring up WAN INTERFACE
+12.061401 >>>>> wan-start
+12.314892 [mod=PSM, lvl=INFO] [tid=389] RelWriteAccess in 'PsmFloSaveRegFile'
+12.344719 [mod=GWPROV, lvl=INFO] [tid=281]  GWP_sysevent_threadfunc : name = wan-status, val = starting 
+12.344883 [mod=PAM, lvl=WARN] [tid=619] The received event status is not expected!
+12.425930 [mod=GWPROV, lvl=INFO] [tid=281]  GWP_sysevent_threadfunc : name = wan-status, val = starting 
+13.250340 [mod=CM, lvl=INFO] [tid=558] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+13.250355 [mod=CM, lvl=ERROR] [tid=558] Failed to discover component. Error Code = 2
+13.445763 [mod=PAM, lvl=INFO] [tid=623] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+13.445778 [mod=PAM, lvl=ERROR] [tid=623] Failed to discover component. Error Code = 2
+13.602745 [mod=GWPROV, lvl=INFO] [tid=281]  GWP_sysevent_threadfunc : name = current_wan_ipaddr, val = 10.107.200.156 
+13.613632 [mod=GWPROV, lvl=INFO] [tid=281]  GWP_sysevent_threadfunc : name = ipv4-status, val = up 
+13.613739 [mod=GWPROV, lvl=INFO] [tid=281]  operMode = 0 
+13.613792 [mod=GWPROV, lvl=INFO] [tid=281]  GWP_sysevent_threadfunc : name = wan-status, val = started 
+13.613800 [mod=GWPROV, lvl=INFO] [tid=281]  Entry check_lan_wan_ready 
+13.614082 [mod=GWPROV, lvl=INFO] [tid=281]  bridge-status = stopped
+13.614090 [mod=GWPROV, lvl=INFO] [tid=281]  lan-status = started
+13.614094 [mod=GWPROV, lvl=INFO] [tid=281]  wan-status = started
+13.614098 [mod=GWPROV, lvl=INFO] [tid=281]  ipv6_prefix = 
+13.614101 [mod=GWPROV, lvl=INFO] [tid=281]  eRouterMode = 3
+13.614109 [mod=GWPROV, lvl=INFO] [tid=281]  bridge_mode = 0
+13.700012 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+13.700321 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+13.701309 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.IP.Diagnostics.X_RDKCENTRAL-COM_SpeedTest.Server.Capability , returnStatus 4294967280 +++
+13.717236 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+13.717442 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+13.733738 Network Response : CaptivePortal enabled val is false
+13.734802 Network Response: Device:MV1, TRIGGER_STATE:
+13.735416 Network Response: Checking erouter0 ip address
+13.736740 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+13.737053 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+13.738029 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.IP.Diagnostics.X_RDKCENTRAL-COM_SpeedTest.Server.Capability , returnStatus 4294967280 +++
+13.750362 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+13.750546 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+13.925488 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+13.925777 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+13.926685 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.IP.Diagnostics.X_RDKCENTRAL-COM_SpeedTest.Server.Capability , returnStatus 4294967280 +++
+13.938782 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+13.938961 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+14.344971 [mod=PAM, lvl=WARN] [tid=619] The received event status is not expected!
+14.446724 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+14.447350 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+15.245613 [mod=TR69, lvl=INFO] [tid=831] ReadTr69TlvData /nvram/TLVData.bin File is available and processing by Tr069
+15.245625 [mod=TR69, lvl=INFO] [tid=831] **********************************************************
+15.245632 [mod=TR69, lvl=INFO] [tid=831] ReadTr69TlvData -#- FreshBootUp: 0
+15.245636 [mod=TR69, lvl=INFO] [tid=831] ReadTr69TlvData -#- , Tr69Enable: 0
+15.245640 [mod=TR69, lvl=INFO] [tid=831] ReadTr69TlvData -#- , AcsOverRide: 0
+15.245644 [mod=TR69, lvl=INFO] [tid=831] ReadTr69TlvData -#- , EnableCWMP: 0
+15.245651 [mod=TR69, lvl=INFO] [tid=831] ReadTr69TlvData -#- , URLchanged: 0
+15.245655 [mod=TR69, lvl=INFO] [tid=831] ReadTr69TlvData -#- , Username: 
+15.245659 [mod=TR69, lvl=INFO] [tid=831] ReadTr69TlvData -#- , Password: 
+15.245663 [mod=TR69, lvl=INFO] [tid=831] ReadTr69TlvData -#- , URL: NULL
+15.245667 [mod=TR69, lvl=INFO] [tid=831] **********************************************************
+15.245834 [mod=PSM, lvl=WARN] [tid=391] setParameterValues: +++ Add entry:  is already present-- size:1, eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.EnableCWMP.Value: 0 
+15.255596 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+15.255878 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+15.256851 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.IP.Diagnostics.X_RDKCENTRAL-COM_SpeedTest.Server.Capability , returnStatus 4294967280 +++
+15.268871 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+15.269051 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+15.275936 [mod=TR69, lvl=INFO] [tid=831] ReadTr69TlvData 573. ManagementServer URL is not defined in config file. Check if  ACS URL is available from DHCP options
+15.743870 REDIRECTION_FLAG got is : true
+15.745087 Network Response: Running ping to DNS server to check network access
+15.751942 Network Response: Response code received is 204
+15.752586 Network Response: Ping to the dns server is successful.
+15.753269 Network Response: Got 204. Move on..
+15.756954 Network Response: Updating device onboarding state
+15.757618 Network Response: Device is detected as onboarded
+15.758293 Network Response: /nvram/.device_onboarded is already present
+15.760151 Network Response : CaptivePortal enabled val is false
+17.448196 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+17.448780 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+17.460072 [mod=PAM, lvl=INFO] [tid=656] dhcpv6c_dbg_thrd: get message dibbler-client add 2001:dae:7:1::22d 1 1800 2880 3600 3600 3001:dae:0:f000:: 56 1 1800 2880 3600 3600
+17.460129 [mod=PAM, lvl=INFO] [tid=656] dhcpv6c_dbg_thrd: add
+17.460190 [mod=PAM, lvl=WARN] [tid=656] dhcpv6c_dbg_thrd multinet_1-status is ready, ret val is 0
+17.460201 [mod=PAM, lvl=INFO] [tid=656] dhcpv6c_dbg_thrd: v6addr is 2001:dae:7:1::22d ,pref_len is 56
+17.460308 [mod=PAM, lvl=INFO] [tid=656] dhcpv6c_dbg_thrd: Dropbear interface is NOT eRouter0
+17.460411 [mod=GWPROV, lvl=INFO] [tid=281]  GWP_sysevent_threadfunc : name = tr_erouter0_dhcpv6_client_v6addr, val = 2001:dae:7:1::22d 
+17.460995 [mod=PAM, lvl=INFO] [tid=656] CosaUtilGetIpv6AddrInfo,Interface scope is : 0
+17.461010 [mod=PAM, lvl=INFO] [tid=656] CosaUtilGetIpv6AddrInfo,Interface scope is : 32
+17.463940 [mod=PAM, lvl=INFO] [tid=656] CosaUtilGetIpv6AddrInfo,Interface scope is : 0
+17.463955 [mod=PAM, lvl=INFO] [tid=656] CosaUtilGetIpv6AddrInfo,Interface scope is : 32
+17.465240 [mod=PAM, lvl=INFO] [tid=656] dhcpv6c_dbg_thrd: v6pref is 3001:dae:0:f000::/56 ,pref_len is 56
+17.475094 [mod=GWPROV, lvl=INFO] [tid=281]  GWP_SysCfgGetInt : name = last_erouter_mode 
+17.506756 [mod=GWPROV, lvl=INFO] [tid=281]  value = 3 
+17.506790 [mod=GWPROV, lvl=INFO] [tid=281]  GWP_sysevent_threadfunc : name = ipv6-status, val = up 
+17.507046 [mod=GWPROV, lvl=INFO] [tid=281]  operMode = 1 
+17.507103 [mod=GWPROV, lvl=INFO] [tid=281]  GWP_sysevent_threadfunc : name = ipv6_prefix, val = 3001:dae:0:f000::/56 
+17.507111 [mod=GWPROV, lvl=INFO] [tid=281]  Entry check_lan_wan_ready 
+17.507957 [mod=GWPROV, lvl=INFO] [tid=281]  bridge-status = stopped
+17.507969 [mod=GWPROV, lvl=INFO] [tid=281]  lan-status = started
+17.507973 [mod=GWPROV, lvl=INFO] [tid=281]  wan-status = started
+17.507980 [mod=GWPROV, lvl=INFO] [tid=281]  ipv6_prefix = 3001:dae:0:f000::/56
+17.507984 [mod=GWPROV, lvl=INFO] [tid=281]  eRouterMode = 3
+17.507988 [mod=GWPROV, lvl=INFO] [tid=281]  bridge_mode = 0
+17.508205 [mod=GWPROV, lvl=INFO] [tid=281]  GWP_SysCfgGetInt : name = skenable 
+17.508251 [mod=GWPROV, lvl=INFO] [tid=281]  value = 0 
+17.519642 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+17.520226 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+17.521561 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.IP.Diagnostics.X_RDKCENTRAL-COM_SpeedTest.Server.Capability , returnStatus 4294967280 +++
+17.537624 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+17.537819 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+17.538250 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.IP.Diagnostics.X_RDKCENTRAL-COM_SpeedTest.Server.Capability , returnStatus 4294967280 +++
+17.710197 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+17.710545 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+17.711632 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.IP.Diagnostics.X_RDKCENTRAL-COM_SpeedTest.Server.Capability , returnStatus 4294967280 +++
+17.754929 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+17.755257 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+17.756172 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.IP.Diagnostics.X_RDKCENTRAL-COM_SpeedTest.Server.Capability , returnStatus 4294967280 +++
+17.802498 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+17.802811 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+17.803810 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.IP.Diagnostics.X_RDKCENTRAL-COM_SpeedTest.Server.Capability , returnStatus 4294967280 +++
+17.843616 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+17.843842 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+17.844246 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.IP.Diagnostics.X_RDKCENTRAL-COM_SpeedTest.Server.Capability , returnStatus 4294967280 +++
+18.345325 [mod=PAM, lvl=INFO] [tid=619] EvtDispterWanIpAddrsCallback Setting current_wan_ipaddr and restarting firewall 612 
+18.357861 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+18.358158 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+18.359051 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.IP.Diagnostics.X_RDKCENTRAL-COM_SpeedTest.Server.Capability , returnStatus 4294967280 +++
+18.371387 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+18.371582 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+18.371922 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.IP.Diagnostics.X_RDKCENTRAL-COM_SpeedTest.Server.Capability , returnStatus 4294967280 +++
+19.053349 [mod=LM, lvl=WARN] [tid=1018] Atom mac is 
+20.345482 [mod=PAM, lvl=WARN] [tid=619] Received msg that is not a SE_MSG_NOTIFICATION (15)
+20.348061 [mod=PAM, lvl=WARN] [tid=619] The received event status is not expected!
+20.450493 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+20.452236 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+23.250473 [mod=CM, lvl=INFO] [tid=558] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+23.250561 [mod=CM, lvl=ERROR] [tid=558] Failed to discover component. Error Code = 2
+23.446045 [mod=PAM, lvl=INFO] [tid=623] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+23.446133 [mod=PAM, lvl=ERROR] [tid=623] Failed to discover component. Error Code = 2
+23.456692 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+23.460712 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+26.461842 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+26.462414 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+29.056984 [mod=LM, lvl=WARN] [tid=1018] Atom mac is 
+29.463356 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+29.464230 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+32.465561 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+32.466106 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+33.250648 [mod=CM, lvl=INFO] [tid=558] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+33.250668 [mod=CM, lvl=ERROR] [tid=558] Failed to discover component. Error Code = 2
+33.446224 [mod=PAM, lvl=INFO] [tid=623] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+33.446243 [mod=PAM, lvl=ERROR] [tid=623] Failed to discover component. Error Code = 2
+35.467087 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+35.467743 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+38.469967 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+38.472126 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+39.066185 [mod=LM, lvl=WARN] [tid=1018] Atom mac is 
+41.475384 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+41.478798 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+43.250778 [mod=CM, lvl=INFO] [tid=558] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+43.250809 [mod=CM, lvl=ERROR] [tid=558] Failed to discover component. Error Code = 2
+43.446320 [mod=PAM, lvl=INFO] [tid=623] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+43.446339 [mod=PAM, lvl=ERROR] [tid=623] Failed to discover component. Error Code = 2
+44.479561 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+44.480087 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+45.307846 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.Username.Value , returnStatus 4294967280 +++
+45.308773 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.Password.Value , returnStatus 4294967280 +++
+45.312927 [mod=PSM, lvl=WARN] [tid=391] setParameterValues: +++ Add entry:  is already present-- size:1, eRT.cwmp.initialContact: 0 
+45.314095 [mod=TR69, lvl=INFO] [tid=831] /var/tmp/tr069paready file exists, hence can proceed with tr069pa start up
+45.314159 [mod=TR69, lvl=INFO] [tid=831] CcspCwmppoProcessSysReadySignal, cbContext - 0x0x8a13ef0
+45.314316 [mod=TR69, lvl=INFO] [tid=831] CcspBaseIf_Register_Event_rbus : rbus_registerEvent called for event: parameterValueChangeSignal
+45.318718 [mod=TR69, lvl=WARN] [tid=831] CcspManagementServer_GetURL -#- ManagementServerURLID_PSM: http://10.10.10.200:9675
+45.318848 [mod=TR69, lvl=INFO] [tid=831] rbuscore.c:2340 RBus Enabled
+45.318913 [mod=TR69, lvl=INFO] [tid=831] rbus.c:2778 rbus open for component: t2_lib_ccsp-tr069-pa
+45.319176 [mod=TR69, lvl=INFO] [tid=831] rbus.c:2854  rbus open (t2_lib_ccsp-tr069-pa) success
+45.321136 [mod=TR69, lvl=INFO] [tid=831] TCP server created successfully.
+45.321198 [mod=TR69, lvl=INFO] [tid=831] !!! Host Name: , Host Port: 7547 !!!
+45.322277 [mod=TR69, lvl=INFO] [tid=831] CCSP CWMP CPE Controller object has been engaged!
+45.331806 [mod=TR69, lvl=ERROR] [tid=2067] TR-069 PA received systemReady event!
+45.331879 [mod=TR69, lvl=ERROR] [tid=2067] Synchronizing namespaces with CR ...
+45.363495 [mod=CM, lvl=INFO] [tid=425] <<< DslhWmpdoMpaSetParameterAttributes pSetParameterAttribArray[0].RequesterID 4 >>>
+45.363514 [mod=CM, lvl=INFO] [tid=425] <<< DslhVarroSetNotification pMyObject->RequesterID 4 >>>
+45.363926 [mod=CM, lvl=INFO] [tid=425]  Download status is 0 
+45.363934 [mod=CM, lvl=INFO] [tid=425] <<<  pDslhVarRecord->RequesterID 4 >>>
+45.364182 [mod=NOTIFY, lvl=WARN] [tid=406] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+45.364197 [mod=NOTIFY, lvl=INFO] [tid=406]  
+45.364300 [mod=TR69, lvl=WARN] [tid=2067] VC signal on namespace <Device.DeviceInfo.X_RDKCENTRAL-COM_FirmwareDownloadStatus>, notif = 1 has pushed into backend during CPE reloading!
+45.364555 [mod=PSM, lvl=WARN] [tid=391] setParameterValues: +++ Add entry:  is already present-- size:1, eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.ConnectionRequestURL.Notification: 1 
+45.364792 [mod=NOTIFY, lvl=WARN] [tid=406] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+45.364803 [mod=NOTIFY, lvl=INFO] [tid=406]  
+45.364891 [mod=TR69, lvl=WARN] [tid=2067] VC signal on namespace <Device.ManagementServer.ConnectionRequestURL>, notif = 2 has pushed into backend during CPE reloading!
+45.365147 [mod=TR69, lvl=ERROR] [tid=2067] setting bRemoteCRsSyncDone to False
+45.365154 [mod=TR69, lvl=WARN] [tid=2067] CcspCwmppoSysReadySignalCB - no component registered for Name Space: <CCSP.COMMAND.PACKAGE.MANAGEMENT.>.
+45.365265 [mod=CM, lvl=INFO] [tid=425] <<< DslhWmpdoMpaSetParameterAttributes pSetParameterAttribArray[0].RequesterID 4 >>>
+45.365440 [mod=NOTIFY, lvl=WARN] [tid=406] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+45.365448 [mod=NOTIFY, lvl=INFO] [tid=406]  
+45.365818 [mod=PSM, lvl=WARN] [tid=391] setParameterValues -- size:1, eRT.com.cisco.spvtg.ccsp.tr069pa.PmNotif.Device.DeviceInfo.X_RDKCENTRAL-COM_FirmwareDownloadStatus: 1
+45.366199 [mod=PAM, lvl=INFO] [tid=420] [Pam_GetFirstIpInterfaceObjectName] -- Enter 
+45.366230 [mod=PAM, lvl=NOTICE] [tid=420] CosaUtilGetLinkTypePath: 2
+45.366238 [mod=PAM, lvl=NOTICE] [tid=420] CosaUtilGetLinkTypePath: return index 1
+45.366261 [mod=PAM, lvl=NOTICE] [tid=420] CosaUtilGetLinkTypePath: 1
+45.366268 [mod=PAM, lvl=NOTICE] [tid=420] CosaUtilGetLinkTypePath: return index 0
+45.366272 [mod=PAM, lvl=NOTICE] [tid=420] Device.Ethernet.Interface.5, size 27, buf len 256
+45.366283 [mod=PAM, lvl=NOTICE] [tid=420] CosaUtilGetLowerLayerName -- value erouter0
+45.366295 [mod=PAM, lvl=NOTICE] [tid=420] CosaUtilGetLinkTypePath: 1
+45.366299 [mod=PAM, lvl=NOTICE] [tid=420] CosaUtilGetLinkTypePath: return index 0
+45.366302 [mod=PAM, lvl=NOTICE] [tid=420] Device.Ethernet.Interface.5, size 27, buf len 256
+45.366314 [mod=PAM, lvl=INFO] [tid=420] [Pam_GetFirstIpInterfaceObjectName] -- Exit returnStatus: 0
+45.366627 [mod=PSM, lvl=WARN] [tid=391] setParameterValues: +++ Add entry:  is already present-- size:1, eRT.com.cisco.spvtg.ccsp.tr069pa.FirstUpstreamIpAddress.Value: Device.IP.Interface.1.IPv4Address.1.IPAddress 
+45.366791 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.SecondUpstreamIpAddress.Value , returnStatus 4294967280 +++
+45.366947 [mod=PAM, lvl=INFO] [tid=420] <<< DslhWmpdoMpaSetParameterAttributes pSetParameterAttribArray[0].RequesterID 4 >>>
+45.366955 [mod=PAM, lvl=INFO] [tid=420] <<< DslhVarroSetNotification pMyObject->RequesterID 4 >>>
+45.366974 [mod=PAM, lvl=INFO] [tid=420] <<<  pDslhVarRecord->RequesterID 4 >>>
+45.367126 [mod=NOTIFY, lvl=WARN] [tid=406] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+45.367138 [mod=NOTIFY, lvl=INFO] [tid=406]  
+45.367428 [mod=TR69, lvl=WARN] [tid=2067] CcspManagementServer_GetURL -#- ManagementServerURLID_PSM: http://10.10.10.200:9675
+45.368679 [mod=PSM, lvl=WARN] [tid=391] setParameterValues -- size:1, eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.ConnectionRequestURL.Value: http://10.107.200.156:7547/
+45.368752 [mod=TR69, lvl=INFO] [tid=2067] PA received parameterValueChangeSignal over message bus, size=1.
+45.368763 [mod=TR69, lvl=INFO] [tid=2067] parameterValueChangeSignal pushed into processing queue.
+45.368797 [mod=TR69, lvl=INFO] [tid=2088] Processing queued parameterValueChangeSignal over message bus, size=1.
+45.368809 [mod=TR69, lvl=INFO] [tid=2088]   processing VC on namespace=<Device.ManagementServer.ConnectionRequestURL>, new val=<http://10.107.200.156:7547/>, old val=<http://10.107.200.155:7547/>.
+45.368961 [mod=TR69, lvl=WARN] [tid=2067] CcspManagementServer_GetURL -#- ManagementServerURLID_PSM: http://10.10.10.200:9675
+45.369217 [mod=TR69, lvl=WARN] [tid=2067] CcspManagementServer_GetURL -#- ManagementServerURLID_PSM: http://10.10.10.200:9675
+45.369511 [mod=TR69, lvl=INFO] [tid=2088] CcspCwmppoSaveValueChanged - Entry with ins number 0 has been created in PSM.
+45.369522 [mod=TR69, lvl=INFO] [tid=2088] Value Changed event saved into PSM, Parameter Name - Device.ManagementServer.ConnectionRequestURL
+45.370331 [mod=TR69, lvl=INFO] [tid=2067] CcspCwmpCpecoStartCWMP() being called.
+45.370342 [mod=TR69, lvl=WARN] [tid=2067] TR-069 PA is disabled!
+47.484428 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+47.488152 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+48.296822 [mod=CM, lvl=INFO] [tid=553]  Download status is 0 
+49.082405 [mod=LM, lvl=WARN] [tid=1018] Atom mac is 
+50.492756 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+50.496513 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+52.155758 [mod=PSM, lvl=INFO] [tid=389] AcqWriteAccess in 'PsmFloSaveRegFile'
+52.163570 [mod=PSM, lvl=INFO] [tid=389] ssp_CfmSaveCurConfig: called
+52.185059 [mod=PSM, lvl=INFO] [tid=389] RelWriteAccess in 'PsmFloSaveRegFile'
+53.250961 [mod=CM, lvl=INFO] [tid=558] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+53.251041 [mod=CM, lvl=ERROR] [tid=558] Failed to discover component. Error Code = 2
+53.446484 [mod=PAM, lvl=INFO] [tid=623] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+53.446583 [mod=PAM, lvl=ERROR] [tid=623] Failed to discover component. Error Code = 2
+53.501812 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+53.506203 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+56.507542 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+56.508125 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+59.091644 [mod=LM, lvl=WARN] [tid=1018] Atom mac is 
+59.508865 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+59.509426 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+62.510254 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+62.510880 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+63.251137 [mod=CM, lvl=INFO] [tid=558] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+63.251156 [mod=CM, lvl=ERROR] [tid=558] Failed to discover component. Error Code = 2
+63.314449 [mod=CM, lvl=INFO] [tid=553]  Download status is 0 
+63.446671 [mod=PAM, lvl=INFO] [tid=623] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+63.446690 [mod=PAM, lvl=ERROR] [tid=623] Failed to discover component. Error Code = 2
+65.511639 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+65.512150 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+68.512978 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+68.513554 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+69.095242 [mod=LM, lvl=WARN] [tid=1018] Atom mac is 
+71.514935 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+71.515480 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+73.251266 [mod=CM, lvl=INFO] [tid=558] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+73.251289 [mod=CM, lvl=ERROR] [tid=558] Failed to discover component. Error Code = 2
+73.446762 [mod=PAM, lvl=INFO] [tid=623] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+73.446781 [mod=PAM, lvl=ERROR] [tid=623] Failed to discover component. Error Code = 2
+74.516388 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+74.517872 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+77.520874 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+77.522655 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+78.325535 [mod=CM, lvl=INFO] [tid=553]  Download status is 0 
+79.103951 [mod=LM, lvl=WARN] [tid=1018] Atom mac is 
+80.526382 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+80.530346 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+83.251408 [mod=CM, lvl=INFO] [tid=558] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+83.251461 [mod=CM, lvl=ERROR] [tid=558] Failed to discover component. Error Code = 2
+83.446861 [mod=PAM, lvl=INFO] [tid=623] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+83.446880 [mod=PAM, lvl=ERROR] [tid=623] Failed to discover component. Error Code = 2
+83.531624 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+83.532192 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+86.535206 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+86.537842 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+89.118355 [mod=LM, lvl=WARN] [tid=1018] Atom mac is 
+89.543026 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+89.546406 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+92.550552 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+92.554291 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+93.251621 [mod=CM, lvl=INFO] [tid=558] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+93.251736 [mod=CM, lvl=ERROR] [tid=558] Failed to discover component. Error Code = 2
+93.347404 [mod=CM, lvl=INFO] [tid=553]  Download status is 0 
+93.447048 [mod=PAM, lvl=INFO] [tid=623] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+93.447109 [mod=PAM, lvl=ERROR] [tid=623] Failed to discover component. Error Code = 2
+95.559052 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+95.562946 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+98.564102 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+98.564629 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+99.127377 [mod=LM, lvl=WARN] [tid=1018] Atom mac is 
+101.565350 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+101.565876 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+103.251820 [mod=CM, lvl=INFO] [tid=558] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+103.251839 [mod=CM, lvl=ERROR] [tid=558] Failed to discover component. Error Code = 2
+103.447189 [mod=PAM, lvl=INFO] [tid=623] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+103.447205 [mod=PAM, lvl=ERROR] [tid=623] Failed to discover component. Error Code = 2
+104.566628 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+104.567150 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+107.567879 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+107.568405 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+108.357773 [mod=CM, lvl=INFO] [tid=553]  Download status is 0 
+109.131123 [mod=LM, lvl=WARN] [tid=1018] Atom mac is 
+110.569241 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+110.569790 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+113.251911 [mod=CM, lvl=INFO] [tid=558] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+113.251930 [mod=CM, lvl=ERROR] [tid=558] Failed to discover component. Error Code = 2
+113.447273 [mod=PAM, lvl=INFO] [tid=623] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+113.447292 [mod=PAM, lvl=ERROR] [tid=623] Failed to discover component. Error Code = 2
+113.570518 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+113.571049 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+116.571774 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+116.572304 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+119.134563 [mod=LM, lvl=WARN] [tid=1018] Atom mac is 
+119.573090 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+119.573612 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+122.574440 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+122.574986 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+123.252003 [mod=CM, lvl=INFO] [tid=558] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+123.252022 [mod=CM, lvl=ERROR] [tid=558] Failed to discover component. Error Code = 2
+123.366520 [mod=CM, lvl=INFO] [tid=553]  Download status is 0 
+123.447361 [mod=PAM, lvl=INFO] [tid=623] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+123.447376 [mod=PAM, lvl=ERROR] [tid=623] Failed to discover component. Error Code = 2
+125.575737 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+125.576275 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+128.577015 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+128.577526 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+129.138123 [mod=LM, lvl=WARN] [tid=1018] Atom mac is 
+131.578251 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+131.578781 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+133.252064 [mod=CM, lvl=INFO] [tid=558] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+133.252083 [mod=CM, lvl=ERROR] [tid=558] Failed to discover component. Error Code = 2
+133.447449 [mod=PAM, lvl=INFO] [tid=623] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+133.447464 [mod=PAM, lvl=ERROR] [tid=623] Failed to discover component. Error Code = 2
+134.579521 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+134.580036 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+137.580765 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+137.581306 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+138.375088 [mod=CM, lvl=INFO] [tid=553]  Download status is 0 
+139.141609 [mod=LM, lvl=WARN] [tid=1018] Atom mac is 
+140.582050 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+140.582561 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+143.252155 [mod=CM, lvl=INFO] [tid=558] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+143.252171 [mod=CM, lvl=ERROR] [tid=558] Failed to discover component. Error Code = 2
+143.447533 [mod=PAM, lvl=INFO] [tid=623] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+143.447552 [mod=PAM, lvl=ERROR] [tid=623] Failed to discover component. Error Code = 2
+143.583313 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+143.583839 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+146.584614 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+146.585152 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+149.145081 [mod=LM, lvl=WARN] [tid=1018] Atom mac is 
+149.585926 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+149.586456 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+152.587208 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+152.587727 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+153.252243 [mod=CM, lvl=INFO] [tid=558] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+153.252262 [mod=CM, lvl=ERROR] [tid=558] Failed to discover component. Error Code = 2
+153.383839 [mod=CM, lvl=INFO] [tid=553]  Download status is 0 
+153.447617 [mod=PAM, lvl=INFO] [tid=623] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+153.447632 [mod=PAM, lvl=ERROR] [tid=623] Failed to discover component. Error Code = 2
+155.588444 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+155.588993 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+158.589729 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+158.590252 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+159.148518 [mod=LM, lvl=WARN] [tid=1018] Atom mac is 
+161.590950 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+161.591488 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+163.252365 [mod=CM, lvl=INFO] [tid=558] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+163.252384 [mod=CM, lvl=ERROR] [tid=558] Failed to discover component. Error Code = 2
+163.447701 [mod=PAM, lvl=INFO] [tid=623] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+163.447720 [mod=PAM, lvl=ERROR] [tid=623] Failed to discover component. Error Code = 2
+164.592209 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+164.592739 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+167.593555 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+167.594173 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+168.392849 [mod=CM, lvl=INFO] [tid=553]  Download status is 0 
+169.151985 [mod=LM, lvl=WARN] [tid=1018] Atom mac is 
+170.594959 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+170.595497 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+173.252426 [mod=CM, lvl=INFO] [tid=558] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+173.252445 [mod=CM, lvl=ERROR] [tid=558] Failed to discover component. Error Code = 2
+173.447788 [mod=PAM, lvl=INFO] [tid=623] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+173.447807 [mod=PAM, lvl=ERROR] [tid=623] Failed to discover component. Error Code = 2
+173.596233 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+173.596752 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+176.597527 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+176.598118 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+179.155537 [mod=LM, lvl=WARN] [tid=1018] Atom mac is 
+179.598850 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+179.599392 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+182.600163 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+182.600704 [mod=PSM, lvl=WARN] [tid=391] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+183.252502 [mod=CM, lvl=INFO] [tid=558] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+183.252522 [mod=CM, lvl=ERROR] [tid=558] Failed to discover component. Error Code = 2
+183.401707 [mod=CM, lvl=INFO] [tid=553]  Download status is 0 
+183.447872 [mod=PAM, lvl=INFO] [tid=623] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+183.447884 [mod=PAM, lvl=ERROR] [tid=623] Failed to discover component. Error Code = 2

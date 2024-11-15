@@ -1,0 +1,32 @@
+4.003048 [mod=MTA, lvl=WARN] [tid=677] 
+Subsystem is eRT.
+4.003399 [mod=MTA, lvl=WARN] [tid=684] Core dump is NOT opened, backtrace if possible
+4.003536 [mod=MTA, lvl=INFO] [tid=684] Box is in DOCSIS mode
+4.003544 [mod=MTA, lvl=INFO] [tid=684] Connect to bus daemon...
+4.003571 [mod=MTA, lvl=INFO] [tid=684] rbuscore.c:2340 RBus Enabled
+
+4.003593 [mod=MTA, lvl=INFO] [tid=684] rbuscore.c:656 Broker address: tcp://192.168.254.253:12368
+
+4.003773 [mod=MTA, lvl=INFO] [tid=684] connection opened for eRT.com.cisco.spvtg.ccsp.mta
+4.003807 [mod=MTA, lvl=INFO] [tid=684] eRT.com.cisco.spvtg.ccsp.mta start to check eRT.com.cisco.spvtg.ccsp.psm status
+4.003983 [mod=MTA, lvl=INFO] [tid=684] eRT.com.cisco.spvtg.ccsp.psm is ready, eRT.com.cisco.spvtg.ccsp.mta continue
+4.003990 [mod=MTA, lvl=INFO] [tid=684] !!! Connected to message bus... bus_handle: 0x0x9acfda0 !!!
+5.005085 [mod=MTA, lvl=INFO] [tid=684] CcspBaseIf_Register_Event_rbus : rbus_registerEvent called for event: currentSessionIDSignal
+5.006233 [mod=MTA, lvl=INFO] [tid=684] rbuscore.c:755 Subscription for _rbus_session_mgr::currentSessionIDSignal is now active.
+
+5.006687 [mod=MTA, lvl=WARN] [tid=684] Register empty object : com.
+5.006733 [mod=MTA, lvl=WARN] [tid=684] Register empty object : com.cisco.
+5.006771 [mod=MTA, lvl=WARN] [tid=684] Register empty object : com.cisco.spvtg.
+5.006809 [mod=MTA, lvl=WARN] [tid=684] Register empty object : com.cisco.spvtg.ccsp.
+5.007553 [mod=MTA, lvl=WARN] [tid=684] DM Library module name = CCSP Base Data Model
+5.009205 [mod=MTA, lvl=WARN] [tid=684] DM Library module name = CCSP MTA Agent
+5.009262 [mod=MTA, lvl=WARN] [tid=684] Loading DM library libmta_tr181.so...
+5.022034 [mod=MTA, lvl=WARN] [tid=684] CosaBackEndManagerInitialize...
+5.022064 [mod=MTA, lvl=WARN] [tid=684] RDKB_SYSTEM_BOOT_UP_LOG : MTA DM initialize...
+5.025867 [mod=MTA, lvl=WARN] [tid=684] CosaMTALineTableInitialize 1
+5.025928 [mod=MTA, lvl=WARN] [tid=684]   CosaMTACreate done!
+5.026802 [mod=MTA, lvl=WARN] [tid=684]   CosaLgiMTACreate done!
+5.026821 [mod=MTA, lvl=WARN] [tid=684] RDKB_SYSTEM_BOOT_UP_LOG : MTA DM initialization done!
+5.036312 [mod=MTA, lvl=WARN] [tid=684] Search for empty object in 'dslhCpeCheckEmptyObject'
+5.063488 [mod=MTA, lvl=INFO] [tid=684] MTA Agent Module loaded successfully...
+5.071747 [mod=MTA, lvl=WARN] [tid=684] RDKB_SYSTEM_BOOT_UP_LOG : Entering MTA loop

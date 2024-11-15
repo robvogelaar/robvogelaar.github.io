@@ -1,0 +1,21 @@
+2024.11.15 00:39:32 Server Notice    | Dibbler - a portable DHCPv6, version 1.0.2RC1 (SERVER, Linux port)
+2024.11.15 00:39:32 Server Notice    My pid (1795) is stored in /var/lib/dibbler/server.pid
+2024.11.15 00:39:32 Server Notice    Detected iface wan0/1772, MAC=00:16:3e:15:30:83.
+2024.11.15 00:39:32 Server Notice    Detected iface eth3/1770, MAC=00:16:3e:34:05:bb.
+2024.11.15 00:39:32 Server Notice    Detected iface eth2/1768, MAC=00:16:3e:44:b7:94.
+2024.11.15 00:39:32 Server Notice    Detected iface eth1/1766, MAC=00:16:3e:a1:8d:33.
+2024.11.15 00:39:32 Server Notice    Detected iface eth0/1764, MAC=00:16:3e:cf:28:1c.
+2024.11.15 00:39:32 Server Notice    Detected iface erouter0/1762, MAC=00:16:3e:ce:c7:a9.
+2024.11.15 00:39:32 Server Notice    Detected iface l2sd0.107/13, MAC=42:9e:9f:66:8e:7a.
+2024.11.15 00:39:32 Server Notice    Detected iface brlan7/12, MAC=42:9e:9f:66:8e:7a.
+2024.11.15 00:39:32 Server Notice    Detected iface brlan0/11, MAC=00:16:3e:34:05:bb.
+2024.11.15 00:39:32 Server Notice    Detected iface l2sd0.100/10, MAC=42:9e:9f:66:8e:7a.
+2024.11.15 00:39:32 Server Notice    Detected iface l2sd0.113/9, MAC=42:9e:9f:66:8e:7a.
+2024.11.15 00:39:32 Server Notice    Detected iface l2sd0.112/8, MAC=42:9e:9f:66:8e:7a.
+2024.11.15 00:39:32 Server Notice    Detected iface l2sd0.200/7, MAC=42:9e:9f:66:8e:7a.
+2024.11.15 00:39:32 Server Notice    Detected iface l2sd0.4093/6, MAC=42:9e:9f:66:8e:7a.
+2024.11.15 00:39:32 Server Notice    Detected iface l2sd0/5, MAC=42:9e:9f:66:8e:7a.
+2024.11.15 00:39:32 Server Notice    Detected iface erspan0/4, MAC=00:00:00:00:00:00.
+2024.11.15 00:39:32 Server Notice    Detected iface gretap0/3, MAC=00:00:00:00:00:00.
+2024.11.15 00:39:32 Server Notice    Detected iface lo/1, MAC=00:00:00:00:00:00.
+2024.11.15 00:39:32 Server Notice    Parsing /etc/dibbler/server.conf config file...

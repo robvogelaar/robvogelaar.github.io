@@ -1,0 +1,137 @@
+Nov 15 01:40:36 mv3-r21-9 daemon.notice ovs-vsctl: ovs|00001|vsctl|INFO|Called as ovs-vsctl set Bridge brlan0 other_config:mcast-snooping-max-bundle=64
+Nov 15 01:40:36 mv3-r21-9 daemon.err ovs-vsctl: ovs|00002|db_ctl_base|ERR|unix:/var/run/openvswitch/db.sock: database connection failed (No such file or directory)
+Nov 15 01:40:38 mv3-r21-9 daemon.notice wifidb-server: ovs|00001|vlog|INFO|opened log file /var/tmp/wifidb.log
+Nov 15 00:40:40 mv3-r21-9 daemon.info dnsmasq[1110]: started, version 2.87 cachesize 150
+Nov 15 00:40:40 mv3-r21-9 daemon.info dnsmasq[1110]: compile time options: IPv6 GNU-getopt no-DBus no-UBus no-i18n no-IDN DHCP DHCPv6 no-Lua no-TFTP no-conntrack ipset no-nftset auth no-cryptohash no-DNSSEC loop-detect inotify dumpfile
+Nov 15 00:40:40 mv3-r21-9 daemon.info dnsmasq-dhcp[1110]: DHCP, IP range 192.168.101.100 -- 192.168.101.254, lease time 2m
+Nov 15 00:40:40 mv3-r21-9 daemon.info dnsmasq-dhcp[1110]: DHCP, IP range 192.168.0.100 -- 192.168.0.254, lease time 2m
+Nov 15 00:40:40 mv3-r21-9 daemon.info dnsmasq[1110]: using only locally-known addresses for c.f.ip6.arpa
+Nov 15 00:40:40 mv3-r21-9 daemon.info dnsmasq[1110]: read /etc/hosts - 9 addresses
+Nov 15 00:40:40 mv3-r21-9 daemon.info dnsmasq-dhcp[1110]: read /etc/dhcp_static_hosts
+Nov 15 00:40:40 mv3-r21-9 daemon.info dnsmasq-dhcp[1110]: read /var/dhcp_options
+Nov 15 00:40:40 mv3-r21-9 daemon.info dnsmasq[1110]: read /etc/hosts - 9 addresses
+Nov 15 00:40:40 mv3-r21-9 daemon.info dnsmasq-dhcp[1110]: read /etc/dhcp_static_hosts
+Nov 15 00:40:40 mv3-r21-9 daemon.info dnsmasq-dhcp[1110]: read /var/dhcp_options
+Nov 15 00:40:45 mv3-r21-9 daemon.info dnsmasq[1110]: reading /etc/resolv.conf
+Nov 15 00:40:45 mv3-r21-9 daemon.info dnsmasq[1110]: using nameserver 2001:dbe:0:1::129#53
+Nov 15 00:40:45 mv3-r21-9 daemon.info dnsmasq[1110]: using only locally-known addresses for c.f.ip6.arpa
+Nov 15 01:40:45 mv3-r21-9 daemon.info udhcpc[1887]: started, v1.32.1
+Nov 15 01:40:45 mv3-r21-9 daemon.info udhcpc[1887]: executing /usr/bin/service_udhcpc deconfig
+Nov 15 01:40:45 mv3-r21-9 daemon.info udhcpc[1887]: entering listen mode: raw
+Nov 15 01:40:45 mv3-r21-9 daemon.info udhcpc[1887]: created raw socket
+Nov 15 01:40:45 mv3-r21-9 daemon.info udhcpc[1887]: sending discover
+Nov 15 01:40:45 mv3-r21-9 daemon.info udhcpc[1887]: waiting 3 seconds
+Nov 15 01:40:46 mv3-r21-9 daemon.info udhcpc[1887]: received a packet
+Nov 15 01:40:46 mv3-r21-9 daemon.info udhcpc[1887]: sending select for 10.178.200.117
+Nov 15 01:40:46 mv3-r21-9 daemon.info udhcpc[1887]: waiting 3 seconds
+Nov 15 01:40:46 mv3-r21-9 daemon.info udhcpc[1887]: received a packet
+Nov 15 01:40:46 mv3-r21-9 daemon.info udhcpc[1887]: lease of 10.178.200.117 obtained, lease time 3600
+Nov 15 01:40:46 mv3-r21-9 daemon.info udhcpc[1887]: executing /usr/bin/service_udhcpc bound
+Nov 15 01:40:46 mv3-r21-9 daemon.info udhcpc[1887]: entering listen mode: none
+Nov 15 01:40:46 mv3-r21-9 daemon.info udhcpc[1937]: waiting 1800 seconds
+Nov 15 01:40:47 mv3-r21-9 daemon.info udhcpc[2166]: started, v1.32.1
+Nov 15 01:40:47 mv3-r21-9 daemon.info udhcpc[2166]: executing /usr/bin/service_udhcpc deconfig
+Nov 15 01:40:47 mv3-r21-9 daemon.info udhcpc[2166]: entering listen mode: raw
+Nov 15 01:40:47 mv3-r21-9 daemon.info udhcpc[2166]: created raw socket
+Nov 15 01:40:47 mv3-r21-9 daemon.info udhcpc[2166]: sending discover
+Nov 15 01:40:47 mv3-r21-9 daemon.info udhcpc[2166]: waiting 3 seconds
+Nov 15 01:40:48 mv3-r21-9 daemon.info udhcpc[2166]: received a packet
+Nov 15 01:40:48 mv3-r21-9 daemon.info udhcpc[2166]: sending select for 10.177.200.118
+Nov 15 01:40:48 mv3-r21-9 daemon.info udhcpc[2166]: waiting 3 seconds
+Nov 15 01:40:48 mv3-r21-9 daemon.info udhcpc[2166]: received a packet
+Nov 15 01:40:48 mv3-r21-9 daemon.info udhcpc[2166]: lease of 10.177.200.118 obtained, lease time 3600
+Nov 15 01:40:48 mv3-r21-9 daemon.info udhcpc[2166]: executing /usr/bin/service_udhcpc bound
+Nov 15 01:40:48 mv3-r21-9 daemon.info udhcpc[2166]: entering listen mode: none
+Nov 15 01:40:48 mv3-r21-9 daemon.info udhcpc[2177]: waiting 1800 seconds
+Nov 15 01:40:49 mv3-r21-9 daemon.info udhcpc[2360]: started, v1.32.1
+Nov 15 01:40:49 mv3-r21-9 daemon.info udhcpc[2360]: executing /usr/bin/service_udhcpc deconfig
+Nov 15 01:40:49 mv3-r21-9 daemon.info udhcpc[2360]: entering listen mode: raw
+Nov 15 01:40:49 mv3-r21-9 daemon.info udhcpc[2360]: created raw socket
+Nov 15 01:40:49 mv3-r21-9 daemon.info udhcpc[2360]: sending discover
+Nov 15 01:40:49 mv3-r21-9 daemon.info udhcpc[2360]: waiting 3 seconds
+Nov 15 01:40:50 mv3-r21-9 daemon.info udhcpc[2360]: received a packet
+Nov 15 01:40:50 mv3-r21-9 daemon.info udhcpc[2360]: sending select for 10.179.200.118
+Nov 15 01:40:50 mv3-r21-9 daemon.info udhcpc[2360]: waiting 3 seconds
+Nov 15 01:40:50 mv3-r21-9 daemon.info udhcpc[2360]: received a packet
+Nov 15 01:40:50 mv3-r21-9 daemon.info udhcpc[2360]: lease of 10.179.200.118 obtained, lease time 3600
+Nov 15 01:40:50 mv3-r21-9 daemon.info udhcpc[2360]: executing /usr/bin/service_udhcpc bound
+Nov 15 01:40:50 mv3-r21-9 daemon.info udhcpc[2360]: entering listen mode: none
+Nov 15 01:40:50 mv3-r21-9 daemon.info udhcpc[2371]: waiting 1800 seconds
+Nov 15 00:40:50 mv3-r21-9 daemon.info dnsmasq[1110]: exiting on receipt of SIGTERM
+Nov 15 00:40:51 mv3-r21-9 daemon.info dnsmasq[2901]: started, version 2.87 cachesize 150
+Nov 15 00:40:51 mv3-r21-9 daemon.info dnsmasq[2901]: compile time options: IPv6 GNU-getopt no-DBus no-UBus no-i18n no-IDN DHCP DHCPv6 no-Lua no-TFTP no-conntrack ipset no-nftset auth no-cryptohash no-DNSSEC loop-detect inotify dumpfile
+Nov 15 00:40:51 mv3-r21-9 daemon.info dnsmasq-dhcp[2901]: DHCP, IP range 192.168.101.100 -- 192.168.101.254, lease time 1h
+Nov 15 00:40:51 mv3-r21-9 daemon.info dnsmasq-dhcp[2901]: DHCP, sockets bound exclusively to interface brlan7
+Nov 15 00:40:51 mv3-r21-9 daemon.info dnsmasq[2901]: using only locally-known addresses for c.f.ip6.arpa
+Nov 15 00:40:51 mv3-r21-9 daemon.info dnsmasq[2901]: reading /etc/resolv.conf
+Nov 15 00:40:51 mv3-r21-9 daemon.info dnsmasq[2901]: using nameserver 2001:dbe:0:1::129#53
+Nov 15 00:40:51 mv3-r21-9 daemon.info dnsmasq[2901]: using nameserver 8.8.8.8#53
+Nov 15 00:40:51 mv3-r21-9 daemon.info dnsmasq[2901]: using only locally-known addresses for c.f.ip6.arpa
+Nov 15 00:40:51 mv3-r21-9 daemon.info dnsmasq[2901]: read /etc/hosts - 9 addresses
+Nov 15 00:40:51 mv3-r21-9 daemon.info dnsmasq-dhcp[2901]: read /etc/dhcp_static_hosts
+Nov 15 00:40:51 mv3-r21-9 daemon.info dnsmasq-dhcp[2901]: read /var/dhcp_options
+Nov 15 00:40:51 mv3-r21-9 daemon.info dnsmasq[2901]: exiting on receipt of SIGTERM
+Nov 15 00:40:52 mv3-r21-9 daemon.info dnsmasq[2977]: started, version 2.87 cachesize 150
+Nov 15 00:40:52 mv3-r21-9 daemon.info dnsmasq[2977]: compile time options: IPv6 GNU-getopt no-DBus no-UBus no-i18n no-IDN DHCP DHCPv6 no-Lua no-TFTP no-conntrack ipset no-nftset auth no-cryptohash no-DNSSEC loop-detect inotify dumpfile
+Nov 15 00:40:52 mv3-r21-9 daemon.info dnsmasq-dhcp[2977]: DHCP, IP range 192.168.101.100 -- 192.168.101.254, lease time 1h
+Nov 15 00:40:52 mv3-r21-9 daemon.info dnsmasq-dhcp[2977]: DHCP, IP range 192.168.0.100 -- 192.168.0.254, lease time 1d
+Nov 15 00:40:52 mv3-r21-9 daemon.info dnsmasq[2977]: using only locally-known addresses for c.f.ip6.arpa
+Nov 15 00:40:52 mv3-r21-9 daemon.info dnsmasq[2977]: reading /etc/resolv.conf
+Nov 15 00:40:52 mv3-r21-9 daemon.info dnsmasq[2977]: using nameserver 2001:dbe:0:1::129#53
+Nov 15 00:40:52 mv3-r21-9 daemon.info dnsmasq[2977]: using nameserver 8.8.8.8#53
+Nov 15 00:40:52 mv3-r21-9 daemon.info dnsmasq[2977]: using only locally-known addresses for c.f.ip6.arpa
+Nov 15 00:40:52 mv3-r21-9 daemon.info dnsmasq[2977]: read /etc/hosts - 9 addresses
+Nov 15 00:40:52 mv3-r21-9 daemon.info dnsmasq-dhcp[2977]: read /etc/dhcp_static_hosts
+Nov 15 00:40:52 mv3-r21-9 daemon.info dnsmasq-dhcp[2977]: read /var/dhcp_options
+Nov 15 00:40:52 mv3-r21-9 daemon.info dnsmasq[2977]: exiting on receipt of SIGTERM
+Nov 15 00:40:53 mv3-r21-9 daemon.info dnsmasq[3014]: started, version 2.87 cachesize 150
+Nov 15 00:40:53 mv3-r21-9 daemon.info dnsmasq[3014]: compile time options: IPv6 GNU-getopt no-DBus no-UBus no-i18n no-IDN DHCP DHCPv6 no-Lua no-TFTP no-conntrack ipset no-nftset auth no-cryptohash no-DNSSEC loop-detect inotify dumpfile
+Nov 15 00:40:53 mv3-r21-9 daemon.info dnsmasq-dhcp[3014]: DHCP, IP range 192.168.101.100 -- 192.168.101.254, lease time 1h
+Nov 15 00:40:53 mv3-r21-9 daemon.info dnsmasq-dhcp[3014]: DHCP, sockets bound exclusively to interface brlan7
+Nov 15 00:40:53 mv3-r21-9 daemon.info dnsmasq[3014]: using only locally-known addresses for c.f.ip6.arpa
+Nov 15 00:40:53 mv3-r21-9 daemon.info dnsmasq[3014]: reading /etc/resolv.conf
+Nov 15 00:40:53 mv3-r21-9 daemon.info dnsmasq[3014]: using nameserver 2001:dbe:0:1::129#53
+Nov 15 00:40:53 mv3-r21-9 daemon.info dnsmasq[3014]: using nameserver 8.8.8.8#53
+Nov 15 00:40:53 mv3-r21-9 daemon.info dnsmasq[3014]: using only locally-known addresses for c.f.ip6.arpa
+Nov 15 00:40:53 mv3-r21-9 daemon.info dnsmasq[3014]: read /etc/hosts - 9 addresses
+Nov 15 00:40:53 mv3-r21-9 daemon.info dnsmasq-dhcp[3014]: read /etc/dhcp_static_hosts
+Nov 15 00:40:53 mv3-r21-9 daemon.info dnsmasq-dhcp[3014]: read /var/dhcp_options
+Nov 15 00:40:54 mv3-r21-9 daemon.info dnsmasq[3014]: exiting on receipt of SIGTERM
+Nov 15 00:40:55 mv3-r21-9 daemon.info dnsmasq[3056]: started, version 2.87 cachesize 150
+Nov 15 00:40:55 mv3-r21-9 daemon.info dnsmasq[3056]: compile time options: IPv6 GNU-getopt no-DBus no-UBus no-i18n no-IDN DHCP DHCPv6 no-Lua no-TFTP no-conntrack ipset no-nftset auth no-cryptohash no-DNSSEC loop-detect inotify dumpfile
+Nov 15 00:40:55 mv3-r21-9 daemon.info dnsmasq-dhcp[3056]: DHCP, IP range 192.168.101.100 -- 192.168.101.254, lease time 1h
+Nov 15 00:40:55 mv3-r21-9 daemon.info dnsmasq-dhcp[3056]: DHCP, IP range 192.168.0.100 -- 192.168.0.254, lease time 1d
+Nov 15 00:40:55 mv3-r21-9 daemon.info dnsmasq[3056]: using only locally-known addresses for c.f.ip6.arpa
+Nov 15 00:40:55 mv3-r21-9 daemon.info dnsmasq[3056]: reading /etc/resolv.conf
+Nov 15 00:40:55 mv3-r21-9 daemon.info dnsmasq[3056]: using nameserver 2001:dbe:0:1::129#53
+Nov 15 00:40:55 mv3-r21-9 daemon.info dnsmasq[3056]: using nameserver 8.8.8.8#53
+Nov 15 00:40:55 mv3-r21-9 daemon.info dnsmasq[3056]: using only locally-known addresses for c.f.ip6.arpa
+Nov 15 00:40:55 mv3-r21-9 daemon.info dnsmasq[3056]: read /etc/hosts - 9 addresses
+Nov 15 00:40:55 mv3-r21-9 daemon.info dnsmasq-dhcp[3056]: read /etc/dhcp_static_hosts
+Nov 15 00:40:55 mv3-r21-9 daemon.info dnsmasq-dhcp[3056]: read /var/dhcp_options
+Nov 15 00:40:55 mv3-r21-9 daemon.info dnsmasq[3056]: exiting on receipt of SIGTERM
+Nov 15 00:40:56 mv3-r21-9 daemon.info dnsmasq[3073]: started, version 2.87 cachesize 150
+Nov 15 00:40:56 mv3-r21-9 daemon.info dnsmasq[3073]: compile time options: IPv6 GNU-getopt no-DBus no-UBus no-i18n no-IDN DHCP DHCPv6 no-Lua no-TFTP no-conntrack ipset no-nftset auth no-cryptohash no-DNSSEC loop-detect inotify dumpfile
+Nov 15 00:40:56 mv3-r21-9 daemon.info dnsmasq-dhcp[3073]: DHCP, IP range 192.168.101.100 -- 192.168.101.254, lease time 1h
+Nov 15 00:40:56 mv3-r21-9 daemon.info dnsmasq-dhcp[3073]: DHCP, sockets bound exclusively to interface brlan7
+Nov 15 00:40:56 mv3-r21-9 daemon.info dnsmasq[3073]: using only locally-known addresses for c.f.ip6.arpa
+Nov 15 00:40:56 mv3-r21-9 daemon.info dnsmasq[3073]: reading /etc/resolv.conf
+Nov 15 00:40:56 mv3-r21-9 daemon.info dnsmasq[3073]: using nameserver 2001:dbe:0:1::129#53
+Nov 15 00:40:56 mv3-r21-9 daemon.info dnsmasq[3073]: using nameserver 8.8.8.8#53
+Nov 15 00:40:56 mv3-r21-9 daemon.info dnsmasq[3073]: using only locally-known addresses for c.f.ip6.arpa
+Nov 15 00:40:56 mv3-r21-9 daemon.info dnsmasq[3073]: read /etc/hosts - 9 addresses
+Nov 15 00:40:56 mv3-r21-9 daemon.info dnsmasq-dhcp[3073]: read /etc/dhcp_static_hosts
+Nov 15 00:40:56 mv3-r21-9 daemon.info dnsmasq-dhcp[3073]: read /var/dhcp_options
+Nov 15 00:40:56 mv3-r21-9 daemon.info dnsmasq[3073]: exiting on receipt of SIGTERM
+Nov 15 00:40:57 mv3-r21-9 daemon.info dnsmasq[3087]: started, version 2.87 cachesize 150
+Nov 15 00:40:57 mv3-r21-9 daemon.info dnsmasq[3087]: compile time options: IPv6 GNU-getopt no-DBus no-UBus no-i18n no-IDN DHCP DHCPv6 no-Lua no-TFTP no-conntrack ipset no-nftset auth no-cryptohash no-DNSSEC loop-detect inotify dumpfile
+Nov 15 00:40:57 mv3-r21-9 daemon.info dnsmasq-dhcp[3087]: DHCP, IP range 192.168.101.100 -- 192.168.101.254, lease time 1h
+Nov 15 00:40:57 mv3-r21-9 daemon.info dnsmasq-dhcp[3087]: DHCP, IP range 192.168.0.100 -- 192.168.0.254, lease time 1d
+Nov 15 00:40:57 mv3-r21-9 daemon.info dnsmasq[3087]: using only locally-known addresses for c.f.ip6.arpa
+Nov 15 00:40:57 mv3-r21-9 daemon.info dnsmasq[3087]: reading /etc/resolv.conf
+Nov 15 00:40:57 mv3-r21-9 daemon.info dnsmasq[3087]: using nameserver 2001:dbe:0:1::129#53
+Nov 15 00:40:57 mv3-r21-9 daemon.info dnsmasq[3087]: using nameserver 8.8.8.8#53
+Nov 15 00:40:57 mv3-r21-9 daemon.info dnsmasq[3087]: using only locally-known addresses for c.f.ip6.arpa
+Nov 15 00:40:57 mv3-r21-9 daemon.info dnsmasq[3087]: read /etc/hosts - 9 addresses
+Nov 15 00:40:57 mv3-r21-9 daemon.info dnsmasq-dhcp[3087]: read /etc/dhcp_static_hosts
+Nov 15 00:40:57 mv3-r21-9 daemon.info dnsmasq-dhcp[3087]: read /var/dhcp_options

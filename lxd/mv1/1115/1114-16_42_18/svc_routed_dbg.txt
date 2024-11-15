@@ -1,0 +1,10 @@
+serv_routed_start: IPv4-WAN is not ready !
+[SERVICE-ROUTED]: fail to exec `start'
+rip_force_restart: RIP not enabled
+rip_force_restart: RIP not enabled
+rip_start: RIP not enabled
+rip_force_restart: RIP not enabled
+rip_force_restart: RIP not enabled
+rip_force_restart: RIP not enabled
+rip_force_restart: RIP not enabled
+rip_force_restart: RIP not enabled

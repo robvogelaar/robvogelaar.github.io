@@ -1,0 +1,665 @@
+
+Console log:
+
+init started: BusyBox v1.32.1 (2024-11-05 01:28:33 UTC)
+starting pid 21, tty '': '/bin/mount -a'
+starting pid 22, tty '': '/bin/ln -s /run /var/run'
+starting pid 23, tty '': '/bin/mkdir -p /var/lib/misc /var/lock /var/log /var/tmp /var/run/dbus'
+starting pid 24, tty '': '/bin/hostname -F /etc/hostname'
+starting pid 25, tty '': '/etc/init.d/rcS'
+Starting /etc/rcS.d/S04mdev
+/etc/rcS.d/S04mdev: line 5: /proc/sys/kernel/hotplug: Read-only file system
+Starting /etc/rcS.d/S41ebtables
+Starting /etc/rc5.d/S50lxdinit
+Starting /etc/rc5.d/S51lxdinit_mv3
+Starting /etc/rc5.d/S55utopiainit
+ls: cannot access /tmp/pam_initialized*: No such file or directory
+ Last Reboot Reason is unknown
+SipAlg not supported
+Starting /etc/rc5.d/S56cosastart
+check 1
+File /tmp/utopia_inited exists.
+pnm-status case
+RDKB_SYSTEM_BOOT_UP_LOG : key[dmsb.MultiLAN.GuestLAN_l3net]:value[6] 
+RDKB_SYSTEM_BOOT_UP_LOG : key[dmsb.MultiLAN.GuestLAN_l2net]:value[5] 
+Inside ipv4_up called with arg l3_inst 6
+Lower is empty Calling resync instance with input:6
+Inside resync_instance called with arg l3_inst 6
+RDKB_SYSTEM_BOOT_UP_LOG : In resync_instance to bring up an instance
+RDKB_SYSTEM_BOOT_UP_LOG : NV_ETHLOWER is:4
+RDKB_SYSTEM_BOOT_UP_LOG : NV_IP is:192.168.101.1
+RDKB_SYSTEM_BOOT_UP_LOG : NV_SUBNET is:255.255.255.0
+RDKB_SYSTEM_BOOT_UP_LOG : NV_ENABLED is:true
+RDKB_SYSTEM_BOOT_UP_LOG : NV_LOWER is:5
+RDKB_SYSTEM_BOOT_UP_LOG : Syncing l3 instance (6), NV_ETHLOWER:4, NV_LOWER:5, NV_ENABLED:true, NV_IP:192.168.101.1, NV_SUBNET:255.255.255.0, LOWER:, CUR_IPV4_ADDR:, CUR_IPV4_SUBNET:
+resync_instance setting callback for multinet_5-statusIPv4 instances is:6
+Inside handle_l2_status called with arg l3_inst 6, l2_inst 5, net_status  and input 1
+Multinet status: is neither partial nor ready
+Setting multinet-up event for brlan0 and brlan1
+RDKB_SYSTEM_BOOT_UP_LOG: Bring up Guest LAN  L3INS[6] L2INS[5]
+Inside bring_lan_up
+BootUpTime info for Lan_init_start is already present not adding it again 
+RDKB_SYSTEM_BOOT_UP_LOG : L3INST is:4
+RDKB_SYSTEM_BOOT_UP_LOG : L2INST is:1
+RDKB_SYSTEM_BOOT_UP_LOG : BRPORT is:9
+RDKB_SYSTEM_BOOT_UP_LOG : HSINST is:5
+setting sysevent callback for ipv4_4-status
+Inside ipv4_up called with arg l3_inst 4
+Lower is empty Calling resync instance with input:4
+Inside resync_instance called with arg l3_inst 4
+RDKB_SYSTEM_BOOT_UP_LOG : In resync_instance to bring up an instance
+RDKB_SYSTEM_BOOT_UP_LOG : NV_ETHLOWER is:1
+RDKB_SYSTEM_BOOT_UP_LOG : NV_IP is:192.168.0.1
+RDKB_SYSTEM_BOOT_UP_LOG : NV_SUBNET is:255.255.255.0
+RDKB_SYSTEM_BOOT_UP_LOG : NV_ENABLED is:true
+RDKB_SYSTEM_BOOT_UP_LOG : NV_LOWER is:1
+RDKB_SYSTEM_BOOT_UP_LOG : Syncing l3 instance (4), NV_ETHLOWER:1, NV_LOWER:1, NV_ENABLED:true, NV_IP:192.168.0.1, NV_SUBNET:255.255.255.0, LOWER:, CUR_IPV4_ADDR:, CUR_IPV4_SUBNET:
+resync_instance setting callback for multinet_1-statusIPv4 instances is:6 4
+Inside handle_l2_status called with arg l3_inst 4, l2_inst 1, net_status  and input 1
+Multinet status: is neither partial nor ready
+Setting multinet-up event for brlan0 and brlan1
+dhcp_server-resync case
+
+Inside resync_to_nonvol function with arg (null)
+
+Inside get_Pool_cnt - 
+
+get_Pool_cnt ENDS ..... with Pool_Count=0
+
+Inside get_Pool_cnt - 
+
+get_Pool_cnt - Value=13
+
+get_Pool_cnt - Value=3
+
+get_Pool_cnt - Value=12
+
+get_Pool_cnt ENDS ..... with Pool_Count=3
+
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.13.Enable - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=100 - 
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.13.IPInterface - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=102 - 
+Error:102 while getting parameter:dmsb.dhcpv4.server.pool.13.IPInterface
+
+Failed to copy values if dmsb.dhcpv4.server.pool.13.IPInterface
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.13.MinAddress - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=100 - 
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.13.MaxAddress - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=100 - 
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.13.SubnetMask - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=102 - 
+Error:102 while getting parameter:dmsb.dhcpv4.server.pool.13.SubnetMask
+
+Failed to copy values if dmsb.dhcpv4.server.pool.13.SubnetMask
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.13.LeaseTime - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=102 - 
+Error:102 while getting parameter:dmsb.dhcpv4.server.pool.13.LeaseTime
+
+Failed to copy values if dmsb.dhcpv4.server.pool.13.LeaseTime
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.3.Enable - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=100 - 
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.3.IPInterface - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=100 - 
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.3.MinAddress - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=100 - 
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.3.MaxAddress - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=100 - 
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.3.SubnetMask - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=100 - 
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.3.LeaseTime - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=100 - 
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.12.Enable - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=100 - 
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.12.IPInterface - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=102 - 
+Error:102 while getting parameter:dmsb.dhcpv4.server.pool.12.IPInterface
+
+Failed to copy values if dmsb.dhcpv4.server.pool.12.IPInterface
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.12.MinAddress - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=100 - 
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.12.MaxAddress - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=100 - 
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.12.SubnetMask - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=102 - 
+Error:102 while getting parameter:dmsb.dhcpv4.server.pool.12.SubnetMask
+
+Failed to copy values if dmsb.dhcpv4.server.pool.12.SubnetMask
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.12.LeaseTime - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=102 - 
+Error:102 while getting parameter:dmsb.dhcpv4.server.pool.12.LeaseTime
+
+Failed to copy values if dmsb.dhcpv4.server.pool.12.LeaseTime
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.13.IPInterface - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=102 - 
+Error:102 while getting parameter:dmsb.dhcpv4.server.pool.13.IPInterface
+
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.3.IPInterface - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=100 - 
+ Failed to copy values for dmsb.dhcpv4.server.pool.3.IPInterface
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.12.IPInterface - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=102 - 
+Error:102 while getting parameter:dmsb.dhcpv4.server.pool.12.IPInterface
+
+resync_to_nonvol function ENDS 
+NULL PORT
+NULL PORT
+NULL PORT
+
+ipv4_6-status case
+
+
+
+
+
+NULL PORT
+NULL PORT
+
+NULL PORT
+NULL PORT
+
+
+vconfig: ioctl error for add: No such device
+interface l2sd0.200 does not exist!
+ifconfig: SIOCGIFFLAGS: No such device
+ifconfig: SIOCGIFFLAGS: No such device
+
+
+
+
+
+NULL PORT
+NULL PORT
+
+
+NULL PORT
+NULL PORT
+
+interface lbr0 does not exist!
+ifconfig: SIOCGIFFLAGS: No such device
+vconfig: ioctl error for add: No such device
+interface l2sd0.100 does not exist!
+ifconfig: SIOCGIFFLAGS: No such device
+ifconfig: SIOCGIFFLAGS: No such device
+ipv4_4-status case
+Inside ipv4_status called with arg l3_inst 4 and status pending
+multinet_5-status case
+Inside handle_l2_status called with arg l3_inst 6, l2_inst 5, net_status partial and input 0
+Inside load_static_l3 called with arg l3_inst 6
+service_ipv4 : Triggering apply_config
+Inside apply_config called with args l3_inst 6, staticIpv4Addr 192.168.101.1 and staticIpv4Subnet 255.255.255.0
+Static IPv4 Address is not empty treating:192.168.101.1 as current IP
+Static IPv4 Subnet is not empty treating:255.255.255.0 as current IP
+multinet_5-status case
+Inside handle_l2_status called with arg l3_inst 6, l2_inst 5, net_status ready and input 0
+IPv4 is already prepared so nothing needs to be done
+dhcp_server-start case
+
+Inside  dhcp_server_start function with arg (null)
+
+Inside service_dhcp_init function
+service_dhcp_server.c adjust dhcp_lease_time to 120 because wan-status is stopped!!!!!!!!!!!!!
+lan_status-dhcp is not started return without starting DHCP server
+remove of /var/tmp/lan_not_restart file is not successful error is:2
+multinet_1-status case
+Inside handle_l2_status called with arg l3_inst 4, l2_inst 1, net_status partial and input 0
+Inside load_static_l3 called with arg l3_inst 4
+service_ipv4 : Triggering apply_config
+Inside apply_config called with args l3_inst 4, staticIpv4Addr 192.168.0.1 and staticIpv4Subnet 255.255.255.0
+Static IPv4 Address is not empty treating:192.168.0.1 as current IP
+Static IPv4 Subnet is not empty treating:255.255.255.0 as current IP
+apply_config Fetching primary lan IPv6 prefixes
+Inside sync_tsip
+Error:102 while getting parameter:dmsb.truestaticip.Enable
+sync_tsip syncing TSIP for instance
+Error:102 while getting parameter:dmsb.truestaticip.Ipaddress
+Error:102 while getting parameter:dmsb.truestaticip.Subnetmask
+Error:102 while getting parameter:dmsb.truestaticip.Gateway
+Syncing from PSM True Static IP Enable:, IP:, SUBNET:, GATEWAY:
+Inside sync_tsip_asn
+psmcli get of :dmsb.truestaticip.Asn. is empty
+Starting UPNP service
+sh: systemctl: command not found
+sh: systemctl: command not found
+multinet_1-status case
+Inside handle_l2_status called with arg l3_inst 4, l2_inst 1, net_status ready and input 0
+IPv4 is already prepared so nothing needs to be done
+ipv4_6-status case
+ipv4_6-status case
+ipv4_4-status case
+Inside ipv4_status called with arg l3_inst 4 and status up
+LAN HANDLER : DHCP configuration status got is:
+LAN HANDLER : Triggering dhcp start based on last erouter mode
+Failed to open file: No such file or directory
+dhcp_server-start case
+
+Inside  dhcp_server_start function with arg (null)
+
+Inside service_dhcp_init function
+service_dhcp_server.c adjust dhcp_lease_time to 120 because wan-status is stopped!!!!!!!!!!!!!
+lan_status-dhcp is not started return without starting DHCP server
+remove of /var/tmp/lan_not_restart file is not successful error is:2
+dhcp_server-start case
+
+Inside  dhcp_server_start function with arg (null)
+
+Inside service_dhcp_init function
+service_dhcp_server.c adjust dhcp_lease_time to 120 because wan-status is stopped!!!!!!!!!!!!!
+lan_status-dhcp is not started return without starting DHCP server
+remove of /var/tmp/lan_not_restart file is not successful error is:2
+lan-status case
+
+Inside lan_status_change function with arg=lan-status
+SERVICE DHCP : Inside lan status change with lan-status:started
+SERVICE DHCP : Current lan status is:started
+SERVICE DHCP :  Call start DHCP server from lan status change with input:lan-status
+
+Inside  dhcp_server_start function with arg lan-status
+
+Inside service_dhcp_init function
+service_dhcp_server.c adjust dhcp_lease_time to 120 because wan-status is stopped!!!!!!!!!!!!!
+SERVICE DHCP : dhcp_server-progress is set to inProgress from dhcp_server_start 
+DHCP SERVER : Prepare DHCP configuration
+DHCP SERVER : wan_dhcp_dns:
+DHCP SERVER : After conversion wan_dhcp_dns: 
+DHCP SERVER : NotifyWiFiChanges is true
+DHCP SERVER : CaptivePortal_Enabled is false
+Migration checks are not needed
+not dns_only case calling other prepare functions
+dhcp_server_functions.c Adjust dns-server to lan_ipaddr 192.168.0.1 because wan-status is stopped or Relay is enabled!!!!!!!!!!!!!
+dhcp_server_functions.c Adjust dns-server to lan_ipaddr 192.168.101.1 because wan-status is stopped or Relay is enabled!!!!!!!!!!!!!
+dhcp_start:192.168.0.100
+DHCP_SERVER: Start address from syscfg_db :192.168.0.100
+dhcp_end:192.168.0.254
+DHCP_SERVER: End address from syscfg_db :192.168.0.254
+ is not up go to next pool
+DHCP_SERVER : [BRLAN1] dhcp-range=set:3,192.168.101.100,192.168.101.254,255.255.255.0,120
+DHCP server configuring for Mesh network
+FirstInstall: Revert Redirection
+DHCP SERVER : Completed preparing DHCP configuration
+Can't open /tmp/dnsmasq.conf.orig for reading
+files are not identical restart dnsmasq
+Error:2 while opening file:/var/run/dnsmasq.pid
+dnsmasq: no process found
+
+interface search res : interface=brlan0
+
+RDKB_SYSTEM_BOOT_UP_LOG : starting dhcp-server_from_dhcp_server_start:00:40:39up05days:23hours:36min:30sec
+DNSMASQ getRFC_Value true true 16
+Starting dnsmasq with additional dns strict order option: true
+
+dnsmasq_server_start Adding DNSMASQ Option:  -o 
+dnsmasq process started successfully
+dhcp_server_start is called for the first time private LAN initization is complete00:40:40up05days:23hours:36min:31sec
+LAN initization is complete notify SSID broadcast00:40:40up05days:23hours:36min:31sec
+DHCP SERVICE :dhcp_server-progress_is_set_to_completed:00:40:40up05days:23hours:36min:31sec
+RDKB_DNS_INFO is : -------  resolv_conf_dump  -------
+
+ dhcp_server_start function ENDS
+[lan_status_change] Restarting post.d from lan_status_change to started
+Failed to Create lanhosts directory.
+LAN HANDLER : Triggering RDKB_FIREWALL_RESTART after once dhcp server is up
+dhcp_server-start case
+
+Inside  dhcp_server_start function with arg (null)
+
+Inside service_dhcp_init function
+service_dhcp_server.c adjust dhcp_lease_time to 120 because wan-status is stopped!!!!!!!!!!!!!
+SERVICE DHCP : dhcp_server-progress is set to inProgress from dhcp_server_start 
+DHCP SERVER : Prepare DHCP configuration
+DHCP SERVER : wan_dhcp_dns:
+DHCP SERVER : After conversion wan_dhcp_dns: 
+DHCP SERVER : NotifyWiFiChanges is true
+DHCP SERVER : CaptivePortal_Enabled is false
+Migration checks are not needed
+not dns_only case calling other prepare functions
+dhcp_server_functions.c Adjust dns-server to lan_ipaddr 192.168.0.1 because wan-status is stopped or Relay is enabled!!!!!!!!!!!!!
+dhcp_server_functions.c Adjust dns-server to lan_ipaddr 192.168.101.1 because wan-status is stopped or Relay is enabled!!!!!!!!!!!!!
+dhcp_start:192.168.0.100
+DHCP_SERVER: Start address from syscfg_db :192.168.0.100
+dhcp_end:192.168.0.254
+DHCP_SERVER: End address from syscfg_db :192.168.0.254
+ is not up go to next pool
+DHCP_SERVER : [BRLAN1] dhcp-range=set:3,192.168.101.100,192.168.101.254,255.255.255.0,120
+DHCP server configuring for Mesh network
+FirstInstall: Revert Redirection
+DHCP SERVER : Completed preparing DHCP configuration
+files are identical not restarting dnsmasq
+PID:1110 is part of PIDS of dnsmasq
+
+interface search res : interface=brlan0
+
+-- prepare_enabled_ipv4_firewall isWanServiceReady=0
+DHCP SERVICE :dhcp_server-progress_is_set_to_completed:00:40:40up05days:23hours:36min:31sec
+RDKB_DNS_INFO is : -------  resolv_conf_dump  -------
+
+ dhcp_server_start function ENDS
+conntrack v1.4.6 (conntrack-tools): connection tracking table has been emptied.
+Starting /etc/rc5.d/S99reset_info_update
+/etc/rc5.d/S99reset_info_update: CCSP PAM is ready at 0 secs
+/etc/rc5.d/S99reset_info_update: Prev boot cycle image name: 
+/etc/rc5.d/S99reset_info_update: This boot cycle image name: imagename="ofw-exm-qemux86-mv3-20241115003355"
+/etc/rc5.d/S99reset_info_update: Updating /rdklogs/logs/reset_info.txt ... completed
+starting pid 1341, tty '/dev/console': '/sbin/getty 38400 console'
+
+Mercury Next Generation 2.1 mv3-r21-9 /dev/console
+
+mv3-r21-9 login: serv_ddns_init: FAILED because either dslite is enabled or one of ddns param is disabled
+Usage: ipv6 [ ipv6-start | ipv6-stop | ipv6-restart]
+mso_prefix.value 3001:dbe:0:f000:: 
+mso_prefix.len 56 
+si6->tpmod 2 
+mcproxy_v6: no process found
+-- prepare_enabled_ipv4_firewall isWanServiceReady=0
+vsystem: killall zebra
+zebra: no process found
+gen_dibbler_conf Fixed prefix_value: 3001:dbe:0:f000:
+vsystem: zebra -d -f /var/zebra.conf -A 127.0.0.1 -i /var/zebra.pid
+conntrack v1.4.6 (conntrack-tools): connection tracking table has been emptied.
+| Dibbler - a portable DHCPv6, version 1.0.2RC1 (SERVER, Linux port)
+| Authors : Tomasz Mrugalski<thomson(at)klub.com.pl>,Marek Senderski<msend(at)o2.pl>
+| Licence : GNU GPL v2 only. Developed at Gdansk University of Technology.
+| Homepage: http://klub.com.pl/dhcpv6/
+Starting daemon...
+vsystem: killall zebra
+-- prepare_enabled_ipv4_firewall isWanServiceReady=0
+vsystem: zebra -d -f /var/zebra.conf -A 127.0.0.1 -i /var/zebra.pid
+vsystem: killall zebra
+conntrack v1.4.6 (conntrack-tools): connection tracking table has been emptied.
+vsystem: zebra -d -f /var/zebra.conf -A 127.0.0.1 -i /var/zebra.pid
+vsystem: killall zebra
+vsystem: zebra -d -f /var/zebra.conf -A 127.0.0.1 -i /var/zebra.pid
+lan-restart case
+Inside lan_restart
+addr_add: -6 3001:dbe:0:f000:0216:3EFF:FE3A:1223/64 dev brlan0 valid_lft forever preferred_lft forever: Unable to add addr
+dhcp_server-restart case
+
+dhcp_server_stop Waiting for dhcp server end state
+
+dhcp_server_stop dhcp server ended
+DHCP SERVER : Prepare DHCP configuration
+dns_only case prefix is #
+DHCP SERVER : wan_dhcp_dns:
+DHCP SERVER : After conversion wan_dhcp_dns: 
+DHCP SERVER : NotifyWiFiChanges is true
+DHCP SERVER : CaptivePortal_Enabled is false
+Migration checks are not needed
+dhcp_start:192.168.0.100
+DHCP_SERVER: Start address from syscfg_db :192.168.0.100
+dhcp_end:192.168.0.254
+DHCP_SERVER: End address from syscfg_db :192.168.0.254
+ is not up go to next pool
+DHCP_SERVER : [BRLAN1] dhcp-range=set:3,192.168.101.100,192.168.101.254,255.255.255.0,3600
+ is not up go to next pool
+DHCP server configuring for Mesh network
+FirstInstall: Revert Redirection
+DHCP SERVER : Completed preparing DHCP configuration
+/etc/utopia/service.d/pmon.sh unsetproc dhcp_server: No such file or directory
+/etc/utopia/service.d/pmon.sh unsetproc dhcp_server command didnt execute successfully
+DNSMASQ getRFC_Value true true 16
+Starting dnsmasq with additional dns strict order option: true
+
+dnsmasq_server_start Adding DNSMASQ Option:  -o 
+*******************************************************************
+*                                                                  
+* Copyright 2014 Cisco Systems, Inc. 				 
+* Licensed under the Apache License, Version 2.0                   
+*                                                                  
+*******************************************************************
+Usage: ipv6 [ ipv6-start | ipv6-stop | ipv6-restart]
+serv_ddns_init FAILED because wan ipv4 addr is empty and wan-status is started  
+cosa_misc.sh is not found
+vsystem: killall zebra
+-- prepare_enabled_ipv4_firewall isWanServiceReady=1
+vsystem: zebra -d -f /var/zebra.conf -A 127.0.0.1 -i /var/zebra.pid
+serv_ddns_init: FAILED because either dslite is enabled or one of ddns param is disabled
+ERROR: failed to set MRT flag! Error: Address already in use errno: 98
+RTNETLINK answers: No such file or directory
+failed to initialize mroute socket
+RTNETLINK answers: No such file or directory
+RTNETLINK answers: No such file or directory
+RTNETLINK answers: No such file or directory
+ERROR: failed to set MRT flag! Error: Address already in use errno: 98
+failed to initialize mroute socket
+vsystem: ((nfq_handler 4  &)&)
+vsystem: ((nfq_handler 6  &)&)
+conntrack v1.4.6 (conntrack-tools): connection tracking table has been emptied.
+fw_restart Triggering RDKB_FIREWALL_RESTART
+-- prepare_enabled_ipv4_firewall isWanServiceReady=1
+conntrack v1.4.6 (conntrack-tools): connection tracking table has been emptied.
+-- prepare_enabled_ipv4_firewall isWanServiceReady=1
+conntrack v1.4.6 (conntrack-tools): connection tracking table has been emptied.
+dns-server started successfully
+
+Inside  dhcp_server_start function with arg (null)
+
+Inside service_dhcp_init function
+SERVICE DHCP : dhcp_server-progress is set to inProgress from dhcp_server_start 
+DHCP SERVER : Prepare DHCP configuration
+DHCP SERVER : wan_dhcp_dns:
+DHCP SERVER : After conversion wan_dhcp_dns: 
+DHCP SERVER : NotifyWiFiChanges is true
+DHCP SERVER : CaptivePortal_Enabled is false
+Migration checks are not needed
+not dns_only case calling other prepare functions
+l_cNs is:192.168.0.1
+l_cNs is:192.168.101.1
+dhcp_start:192.168.0.100
+DHCP_SERVER: Start address from syscfg_db :192.168.0.100
+dhcp_end:192.168.0.254
+DHCP_SERVER: End address from syscfg_db :192.168.0.254
+ is not up go to next pool
+DHCP_SERVER : [BRLAN1] dhcp-range=set:3,192.168.101.100,192.168.101.254,255.255.255.0,3600
+ is not up go to next pool
+DHCP server configuring for Mesh network
+FirstInstall: Revert Redirection
+DHCP SERVER : Completed preparing DHCP configuration
+files are not identical restart dnsmasq
+PID:2901 is part of PIDS of dnsmasq
+
+interface search res : interface=brlan0
+
+RDKB_SYSTEM_BOOT_UP_LOG : starting dhcp-server_from_dhcp_server_start:00:40:51up05days:23hours:36min:43sec
+DNSMASQ getRFC_Value true true 16
+Starting dnsmasq with additional dns strict order option: true
+
+dnsmasq_server_start Adding DNSMASQ Option:  -o 
+dnsmasq process started successfully
+RDKB_SYSTEM_BOOT_UP_LOG : Call gw_lan_refresh_from_dhcpscript:00:40:52up05days:23hours:36min:44sec
+DHCP SERVICE :dhcp_server-progress_is_set_to_completed:00:40:52up05days:23hours:36min:44sec
+RDKB_DNS_INFO is : -------  resolv_conf_dump  -------
+# Dynamic resolv.conf(5) file for glibc resolver(3) generated by resolvconf(8)
+#     DO NOT EDIT THIS FILE BY HAND -- YOUR CHANGES WILL BE OVERWRITTEN
+# 127.0.0.53 is the systemd-resolved stub resolver.
+# run "resolvectl status" to see details about the actual nameservers.
+
+nameserver 2001:dbe:0:1::129
+nameserver 8.8.8.8
+options timeout:2
+
+ dhcp_server_start function ENDS
+-- prepare_enabled_ipv4_firewall isWanServiceReady=1
+dhcp_server-restart case
+
+dhcp_server_stop Waiting for dhcp server end state
+
+dhcp_server_stop dhcp server ended
+DHCP SERVER : Prepare DHCP configuration
+dns_only case prefix is #
+DHCP SERVER : wan_dhcp_dns:
+DHCP SERVER : After conversion wan_dhcp_dns: 
+DHCP SERVER : NotifyWiFiChanges is true
+DHCP SERVER : CaptivePortal_Enabled is false
+Migration checks are not needed
+dhcp_start:192.168.0.100
+DHCP_SERVER: Start address from syscfg_db :192.168.0.100
+dhcp_end:192.168.0.254
+DHCP_SERVER: End address from syscfg_db :192.168.0.254
+ is not up go to next pool
+DHCP_SERVER : [BRLAN1] dhcp-range=set:3,192.168.101.100,192.168.101.254,255.255.255.0,3600
+ is not up go to next pool
+DHCP server configuring for Mesh network
+FirstInstall: Revert Redirection
+DHCP SERVER : Completed preparing DHCP configuration
+/etc/utopia/service.d/pmon.sh unsetproc dhcp_server: No such file or directory
+/etc/utopia/service.d/pmon.sh unsetproc dhcp_server command didnt execute successfully
+DNSMASQ getRFC_Value true true 16
+Starting dnsmasq with additional dns strict order option: true
+
+dnsmasq_server_start Adding DNSMASQ Option:  -o 
+conntrack v1.4.6 (conntrack-tools): connection tracking table has been emptied.
+dns-server started successfully
+
+Inside  dhcp_server_start function with arg (null)
+
+Inside service_dhcp_init function
+SERVICE DHCP : dhcp_server-progress is set to inProgress from dhcp_server_start 
+DHCP SERVER : Prepare DHCP configuration
+vsystem: killall zebra
+gen_dibbler_conf Fixed prefix_value: 3001:dbe:0:f000:
+DHCP SERVER : wan_dhcp_dns:
+DHCP SERVER : After conversion wan_dhcp_dns: 
+DHCP SERVER : NotifyWiFiChanges is true
+DHCP SERVER : CaptivePortal_Enabled is false
+Migration checks are not needed
+not dns_only case calling other prepare functions
+l_cNs is:192.168.0.1
+l_cNs is:192.168.101.1
+dhcp_start:192.168.0.100
+DHCP_SERVER: Start address from syscfg_db :192.168.0.100
+dhcp_end:192.168.0.254
+DHCP_SERVER: End address from syscfg_db :192.168.0.254
+ is not up go to next pool
+DHCP_SERVER : [BRLAN1] dhcp-range=set:3,192.168.101.100,192.168.101.254,255.255.255.0,3600
+ is not up go to next pool
+DHCP server configuring for Mesh network
+vsystem: zebra -d -f /var/zebra.conf -A 127.0.0.1 -i /var/zebra.pid
+FirstInstall: Revert Redirection
+DHCP SERVER : Completed preparing DHCP configuration
+files are not identical restart dnsmasq
+PID:3014 is part of PIDS of dnsmasq
+
+interface search res : interface=brlan0
+
+RDKB_SYSTEM_BOOT_UP_LOG : starting dhcp-server_from_dhcp_server_start:00:40:54up05days:23hours:36min:45sec
+DNSMASQ getRFC_Value true true 16
+Starting dnsmasq with additional dns strict order option: true
+
+dnsmasq_server_start Adding DNSMASQ Option:  -o 
+dnsmasq process started successfully
+RDKB_SYSTEM_BOOT_UP_LOG : Call gw_lan_refresh_from_dhcpscript:00:40:55up05days:23hours:36min:46sec
+DHCP SERVICE :dhcp_server-progress_is_set_to_completed:00:40:55up05days:23hours:36min:46sec
+RDKB_DNS_INFO is : -------  resolv_conf_dump  -------
+# Dynamic resolv.conf(5) file for glibc resolver(3) generated by resolvconf(8)
+#     DO NOT EDIT THIS FILE BY HAND -- YOUR CHANGES WILL BE OVERWRITTEN
+# 127.0.0.53 is the systemd-resolved stub resolver.
+# run "resolvectl status" to see details about the actual nameservers.
+
+nameserver 2001:dbe:0:1::129
+nameserver 8.8.8.8
+options timeout:2
+
+ dhcp_server_start function ENDS
+dhcp_server-restart case
+
+dhcp_server_stop Waiting for dhcp server end state
+
+dhcp_server_stop dhcp server ended
+DHCP SERVER : Prepare DHCP configuration
+dns_only case prefix is #
+DHCP SERVER : wan_dhcp_dns:
+DHCP SERVER : After conversion wan_dhcp_dns: 
+DHCP SERVER : NotifyWiFiChanges is true
+DHCP SERVER : CaptivePortal_Enabled is false
+Migration checks are not needed
+dhcp_start:192.168.0.100
+DHCP_SERVER: Start address from syscfg_db :192.168.0.100
+dhcp_end:192.168.0.254
+DHCP_SERVER: End address from syscfg_db :192.168.0.254
+ is not up go to next pool
+DHCP_SERVER : [BRLAN1] dhcp-range=set:3,192.168.101.100,192.168.101.254,255.255.255.0,3600
+ is not up go to next pool
+DHCP server configuring for Mesh network
+FirstInstall: Revert Redirection
+DHCP SERVER : Completed preparing DHCP configuration
+/etc/utopia/service.d/pmon.sh unsetproc dhcp_server: No such file or directory
+/etc/utopia/service.d/pmon.sh unsetproc dhcp_server command didnt execute successfully
+DNSMASQ getRFC_Value true true 16
+Starting dnsmasq with additional dns strict order option: true
+
+dnsmasq_server_start Adding DNSMASQ Option:  -o 
+dns-server started successfully
+
+Inside  dhcp_server_start function with arg (null)
+
+Inside service_dhcp_init function
+SERVICE DHCP : dhcp_server-progress is set to inProgress from dhcp_server_start 
+DHCP SERVER : Prepare DHCP configuration
+DHCP SERVER : wan_dhcp_dns:
+DHCP SERVER : After conversion wan_dhcp_dns: 
+DHCP SERVER : NotifyWiFiChanges is true
+DHCP SERVER : CaptivePortal_Enabled is false
+Migration checks are not needed
+not dns_only case calling other prepare functions
+l_cNs is:192.168.0.1
+l_cNs is:192.168.101.1
+dhcp_start:192.168.0.100
+DHCP_SERVER: Start address from syscfg_db :192.168.0.100
+dhcp_end:192.168.0.254
+DHCP_SERVER: End address from syscfg_db :192.168.0.254
+ is not up go to next pool
+DHCP_SERVER : [BRLAN1] dhcp-range=set:3,192.168.101.100,192.168.101.254,255.255.255.0,3600
+ is not up go to next pool
+DHCP server configuring for Mesh network
+FirstInstall: Revert Redirection
+DHCP SERVER : Completed preparing DHCP configuration
+files are not identical restart dnsmasq
+PID:3073 is part of PIDS of dnsmasq
+
+interface search res : interface=brlan0
+
+RDKB_SYSTEM_BOOT_UP_LOG : starting dhcp-server_from_dhcp_server_start:00:40:56up05days:23hours:36min:47sec
+DNSMASQ getRFC_Value true true 16
+Starting dnsmasq with additional dns strict order option: true
+
+dnsmasq_server_start Adding DNSMASQ Option:  -o 
+unbinding existing nf_queue handler for AF_INET (if any)
+binding nfnetlink_queue as nf_queue handler for AF_INET
+binding this socket to queue 5 in dns_query mode
+setting copy_packet mode
+binding this socket to queue 6 in dns_response mode
+setting copy_packet mode
+binding this socket to queue 7 in dns_response mode
+setting copy_packet mode
+binding this socket to queue 8 in dns_response mode
+setting copy_packet mode
+binding this socket to queue 11 in http_get mode
+setting copy_packet mode
+binding this socket to queue 12 in http_get mode
+setting copy_packet mode
+binding this socket to queue 15 in rfc5508_3a mode
+setting copy_packet mode
+unbinding existing nf_queue handler for AF_INET6 (if any)
+binding nfnetlink_queue as nf_queue handler for AF_INET6
+binding this socket to queue 16 in ra_lifetime mode
+setting copy_packet mode
+dnsmasq process started successfully
+RDKB_SYSTEM_BOOT_UP_LOG : Call gw_lan_refresh_from_dhcpscript:00:40:57up05days:23hours:36min:48sec
+DHCP SERVICE :dhcp_server-progress_is_set_to_completed:00:40:57up05days:23hours:36min:48sec
+RDKB_DNS_INFO is : -------  resolv_conf_dump  -------
+# Dynamic resolv.conf(5) file for glibc resolver(3) generated by resolvconf(8)
+#     DO NOT EDIT THIS FILE BY HAND -- YOUR CHANGES WILL BE OVERWRITTEN
+# 127.0.0.53 is the systemd-resolved stub resolver.
+# run "resolvectl status" to see details about the actual nameservers.
+
+nameserver 2001:dbe:0:1::129
+nameserver 8.8.8.8
+options timeout:2
+
+ dhcp_server_start function ENDS
+| Dibbler - a portable DHCPv6, version 1.0.2RC1 (SERVER, Linux port)
+| Authors : Tomasz Mrugalski<thomson(at)klub.com.pl>,Marek Senderski<msend(at)o2.pl>
+| Licence : GNU GPL v2 only. Developed at Gdansk University of Technology.
+| Homepage: http://klub.com.pl/dhcpv6/
+Starting daemon...
+

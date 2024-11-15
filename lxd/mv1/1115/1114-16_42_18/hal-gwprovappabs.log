@@ -1,0 +1,264 @@
+
+@@@findProcessId(processName)
+    /usr/lib/libgwprovappabs.so.1(findProcessId+0x76) [0xf7f2b7c8]
+    /usr/bin/gw_prov_utopia() [0x804a7c4]
+    /lib/libc.so.6(__libc_start_main+0xf1) [0xf7b19eb1]
+    /usr/bin/gw_prov_utopia() [0x804a8e1]
+
+@@@PCD_api_find_process_id(name)
+    /usr/lib/libgwprovappabs.so.1(PCD_api_find_process_id+0x7c) [0xf7f2b5c6]
+    /usr/lib/libgwprovappabs.so.1(findProcessId+0xe5) [0xf7f2b837]
+    /usr/bin/gw_prov_utopia() [0x804a7c4]
+    /lib/libc.so.6(__libc_start_main+0xf1) [0xf7b19eb1]
+    /usr/bin/gw_prov_utopia() [0x804a8e1]
+
+@@@registerProcessExceptionHandlers(name)
+    /usr/lib/libgwprovappabs.so.1(registerProcessExceptionHandlers+0x70) [0xf7f2d100]
+    /usr/bin/gw_prov_utopia() [0x804a806]
+    /lib/libc.so.6(__libc_start_main+0xf1) [0xf7b19eb1]
+    /usr/bin/gw_prov_utopia() [0x804a8e1]
+
+@@@GWP_InitDB()
+    /usr/lib/libgwprovappabs.so.1(GWP_InitDB+0x70) [0xf7f2b9b6]
+    /usr/bin/gw_prov_utopia() [0x804a80b]
+    /lib/libc.so.6(__libc_start_main+0xf1) [0xf7b19eb1]
+    /usr/bin/gw_prov_utopia() [0x804a8e1]
+
+@@@SME_CreateEventHandler(pAppCallBack)
+    /usr/lib/libgwprovappabs.so.1(SME_CreateEventHandler+0x76) [0xf7f2cadf]
+    /usr/bin/gw_prov_utopia() [0x804a88e]
+    /lib/libc.so.6(__libc_start_main+0xf1) [0xf7b19eb1]
+    /usr/bin/gw_prov_utopia() [0x804a8e1]
+
+@@@EventHandler(arg)
+    /usr/lib/libgwprovappabs.so.1(+0x13f6) [0xf7f2b3f6]
+    /lib/libpthread.so.0(+0x7fc1) [0xf7f38fc1]
+    /lib/libc.so.6(clone+0x66) [0xf7bf9ee6]
+
+@@@registerDocsisInitEvents()
+    /usr/lib/libgwprovappabs.so.1(registerDocsisInitEvents+0x70) [0xf7f2c824]
+    /usr/bin/gw_prov_utopia() [0x804c420]
+    /usr/lib/libgwprovappabs.so.1(SME_CreateEventHandler+0x118) [0xf7f2cb81]
+    /usr/bin/gw_prov_utopia() [0x804a88e]
+    /lib/libc.so.6(__libc_start_main+0xf1) [0xf7b19eb1]
+    /usr/bin/gw_prov_utopia() [0x804a8e1]
+
+@@@sendProcessReadySignal()
+    /usr/lib/libgwprovappabs.so.1(sendProcessReadySignal+0x73) [0xf7f2cfbb]
+    /usr/bin/gw_prov_utopia() [0x804c5ff]
+    /usr/lib/libgwprovappabs.so.1(SME_CreateEventHandler+0x118) [0xf7f2cb81]
+    /usr/bin/gw_prov_utopia() [0x804a88e]
+    /lib/libc.so.6(__libc_start_main+0xf1) [0xf7b19eb1]
+    /usr/bin/gw_prov_utopia() [0x804a8e1]
+
+@@@getNetworkDeviceMacAddress(macAddr)
+    /usr/lib/libgwprovappabs.so.1(getNetworkDeviceMacAddress+0x70) [0xf7f2c2c0]
+    /usr/bin/gw_prov_utopia() [0x804c60b]
+    /usr/lib/libgwprovappabs.so.1(SME_CreateEventHandler+0x118) [0xf7f2cb81]
+    /usr/bin/gw_prov_utopia() [0x804a88e]
+    /lib/libc.so.6(__libc_start_main+0xf1) [0xf7b19eb1]
+    /usr/bin/gw_prov_utopia() [0x804a8e1]
+
+@@@getWanMacAddress(macAddr)
+    /usr/lib/libgwprovappabs.so.1(getWanMacAddress+0x70) [0xf7f2cdea]
+    /usr/bin/gw_prov_utopia() [0x804b8d3]
+    /usr/lib/libgwprovappabs.so.1(+0x149f) [0xf7f2b49f]
+    /lib/libpthread.so.0(+0x7fc1) [0xf7f38fc1]
+    /lib/libc.so.6(clone+0x66) [0xf7bf9ee6]
+
+@@@setNetworkDeviceMacAddress(devName, macAddr)
+    /usr/lib/libgwprovappabs.so.1(setNetworkDeviceMacAddress+0x70) [0xf7f2c48e]
+    /usr/bin/gw_prov_utopia() [0x804b8e0]
+    /usr/lib/libgwprovappabs.so.1(+0x149f) [0xf7f2b49f]
+    /lib/libpthread.so.0(+0x7fc1) [0xf7f38fc1]
+    /lib/libc.so.6(clone+0x66) [0xf7bf9ee6]
+
+@@@getDocsisDbFactoryMode(factoryMode)
+    /usr/lib/libgwprovappabs.so.1(getDocsisDbFactoryMode+0x70) [0xf7f2cd03]
+    /usr/bin/gw_prov_utopia() [0x804b8ec]
+    /usr/lib/libgwprovappabs.so.1(+0x149f) [0xf7f2b49f]
+    /lib/libpthread.so.0(+0x7fc1) [0xf7f38fc1]
+    /lib/libc.so.6(clone+0x66) [0xf7bf9ee6]
+
+@@@initializeDocsisInterface()
+    /usr/lib/libgwprovappabs.so.1(initializeDocsisInterface+0x70) [0xf7f2c90b]
+    /usr/bin/gw_prov_utopia() [0x804b948]
+    /usr/lib/libgwprovappabs.so.1(+0x149f) [0xf7f2b49f]
+    /lib/libpthread.so.0(+0x7fc1) [0xf7f38fc1]
+    /lib/libc.so.6(clone+0x66) [0xf7bf9ee6]
+
+@@@getNetworkDeviceMacAddress(macAddr)
+    /usr/lib/libgwprovappabs.so.1(getNetworkDeviceMacAddress+0x70) [0xf7f2c2c0]
+    /usr/bin/gw_prov_utopia() [0x804b950]
+    /usr/lib/libgwprovappabs.so.1(+0x149f) [0xf7f2b49f]
+    /lib/libpthread.so.0(+0x7fc1) [0xf7f38fc1]
+    /lib/libc.so.6(clone+0x66) [0xf7bf9ee6]
+
+@@@eSafeDevice_Initialize(macAddr)
+    /usr/lib/libgwprovappabs.so.1(eSafeDevice_Initialize+0x70) [0xf7f2bc6f]
+    /usr/bin/gw_prov_utopia() [0x804b958]
+    /usr/lib/libgwprovappabs.so.1(+0x149f) [0xf7f2b49f]
+    /lib/libpthread.so.0(+0x7fc1) [0xf7f38fc1]
+    /lib/libc.so.6(clone+0x66) [0xf7bf9ee6]
+
+@@@eSafeDevice_SetProvisioningStatusProgress(StatusProgress)
+    /usr/lib/libgwprovappabs.so.1(eSafeDevice_SetProvisioningStatusProgress+0x70) [0xf7f2bf24]
+    /usr/bin/gw_prov_utopia() [0x804b964]
+    /usr/lib/libgwprovappabs.so.1(+0x149f) [0xf7f2b49f]
+    /lib/libpthread.so.0(+0x7fc1) [0xf7f38fc1]
+    /lib/libc.so.6(clone+0x66) [0xf7bf9ee6]
+
+@@@eSafeDevice_AddeRouterPhysicalNetworkInterface(devName, addDel)
+    /usr/lib/libgwprovappabs.so.1(eSafeDevice_AddeRouterPhysicalNetworkInterface+0x70) [0xf7f2bd56]
+    /usr/bin/gw_prov_utopia() [0x804b972]
+    /usr/lib/libgwprovappabs.so.1(+0x149f) [0xf7f2b49f]
+    /lib/libpthread.so.0(+0x7fc1) [0xf7f38fc1]
+    /lib/libc.so.6(clone+0x66) [0xf7bf9ee6]
+
+@@@eSafeDevice_AddeRouterPhysicalNetworkInterface(devName, addDel)
+    /usr/lib/libgwprovappabs.so.1(eSafeDevice_AddeRouterPhysicalNetworkInterface+0x70) [0xf7f2bd56]
+    /usr/bin/gw_prov_utopia() [0x804b980]
+    /usr/lib/libgwprovappabs.so.1(+0x149f) [0xf7f2b49f]
+    /lib/libpthread.so.0(+0x7fc1) [0xf7f38fc1]
+    /lib/libc.so.6(clone+0x66) [0xf7bf9ee6]
+
+@@@registerDocsisEvents()
+    /usr/lib/libgwprovappabs.so.1(registerDocsisEvents+0x70) [0xf7f2c9f2]
+    /usr/bin/gw_prov_utopia() [0x804b985]
+    /usr/lib/libgwprovappabs.so.1(+0x149f) [0xf7f2b49f]
+    /lib/libpthread.so.0(+0x7fc1) [0xf7f38fc1]
+    /lib/libc.so.6(clone+0x66) [0xf7bf9ee6]
+
+@@@eSafeDevice_Enable(enableMode)
+    /usr/lib/libgwprovappabs.so.1(eSafeDevice_Enable+0x70) [0xf7f2bb88]
+    /usr/bin/gw_prov_utopia() [0x804b9ee]
+    /usr/lib/libgwprovappabs.so.1(+0x149f) [0xf7f2b49f]
+    /lib/libpthread.so.0(+0x7fc1) [0xf7f38fc1]
+    /lib/libc.so.6(clone+0x66) [0xf7bf9ee6]
+
+@@@eSafeDevice_SetErouterOperStatus(operStatus)
+    /usr/lib/libgwprovappabs.so.1(eSafeDevice_SetErouterOperStatus+0x70) [0xf7f2c1d9]
+    /usr/bin/gw_prov_utopia() [0x804ba20]
+    /usr/lib/libgwprovappabs.so.1(+0x149f) [0xf7f2b49f]
+    /lib/libpthread.so.0(+0x7fc1) [0xf7f38fc1]
+    /lib/libc.so.6(clone+0x66) [0xf7bf9ee6]
+
+@@@eSafeDevice_SetErouterOperationMode(operMode)
+    /usr/lib/libgwprovappabs.so.1(eSafeDevice_SetErouterOperationMode+0x70) [0xf7f2be3d]
+    /usr/bin/gw_prov_utopia() [0x804ba38]
+    /usr/lib/libgwprovappabs.so.1(+0x149f) [0xf7f2b49f]
+    /lib/libpthread.so.0(+0x7fc1) [0xf7f38fc1]
+    /lib/libc.so.6(clone+0x66) [0xf7bf9ee6]
+
+@@@eSafeDevice_SetServiceIntImpact()
+    /usr/lib/libgwprovappabs.so.1(eSafeDevice_SetServiceIntImpact+0x70) [0xf7f2c0f2]
+    /usr/bin/gw_prov_utopia() [0x804ba3d]
+    /usr/lib/libgwprovappabs.so.1(+0x149f) [0xf7f2b49f]
+    /lib/libpthread.so.0(+0x7fc1) [0xf7f38fc1]
+    /lib/libc.so.6(clone+0x66) [0xf7bf9ee6]
+
+@@@connectLocalBridge(a)
+    /usr/lib/libgwprovappabs.so.1(connectLocalBridge+0x6a) [0xf7f2c656]
+    /usr/bin/gw_prov_utopia() [0x804ba84]
+    /usr/lib/libgwprovappabs.so.1(+0x149f) [0xf7f2b49f]
+    /lib/libpthread.so.0(+0x7fc1) [0xf7f38fc1]
+    /lib/libc.so.6(clone+0x66) [0xf7bf9ee6]
+
+@@@notifyDocsisInitializedResponse()
+    /usr/lib/libgwprovappabs.so.1(notifyDocsisInitializedResponse+0x70) [0xf7f2c73d]
+    /usr/bin/gw_prov_utopia() [0x804ba9f]
+    /usr/lib/libgwprovappabs.so.1(+0x149f) [0xf7f2b49f]
+    /lib/libpthread.so.0(+0x7fc1) [0xf7f38fc1]
+    /lib/libc.so.6(clone+0x66) [0xf7bf9ee6]
+
+@@@getInterfaceLinkLocalAddress(ifname, linkLocalAddr)
+    /usr/lib/libgwprovappabs.so.1(getInterfaceLinkLocalAddress+0x70) [0xf7f2c575]
+    /usr/bin/gw_prov_utopia() [0x804bab2]
+    /usr/lib/libgwprovappabs.so.1(+0x149f) [0xf7f2b49f]
+    /lib/libpthread.so.0(+0x7fc1) [0xf7f38fc1]
+    /lib/libc.so.6(clone+0x66) [0xf7bf9ee6]
+
+@@@getMultiCastGroupAddress(inetAddr, inetMcgrpAddr)
+    /usr/lib/libgwprovappabs.so.1(getMultiCastGroupAddress+0x70) [0xf7f2c3a7]
+    /usr/bin/gw_prov_utopia() [0x804babb]
+    /usr/lib/libgwprovappabs.so.1(+0x149f) [0xf7f2b49f]
+    /lib/libpthread.so.0(+0x7fc1) [0xf7f38fc1]
+    /lib/libc.so.6(clone+0x66) [0xf7bf9ee6]
+
+@@@getInterfaceLinkLocalAddress(ifname, linkLocalAddr)
+    /usr/lib/libgwprovappabs.so.1(getInterfaceLinkLocalAddress+0x70) [0xf7f2c575]
+    /usr/bin/gw_prov_utopia() [0x804bb88]
+    /usr/lib/libgwprovappabs.so.1(+0x149f) [0xf7f2b49f]
+    /lib/libpthread.so.0(+0x7fc1) [0xf7f38fc1]
+    /lib/libc.so.6(clone+0x66) [0xf7bf9ee6]
+
+@@@getMultiCastGroupAddress(inetAddr, inetMcgrpAddr)
+    /usr/lib/libgwprovappabs.so.1(getMultiCastGroupAddress+0x70) [0xf7f2c3a7]
+    /usr/bin/gw_prov_utopia() [0x804bb97]
+    /usr/lib/libgwprovappabs.so.1(+0x149f) [0xf7f2b49f]
+    /lib/libpthread.so.0(+0x7fc1) [0xf7f38fc1]
+    /lib/libc.so.6(clone+0x66) [0xf7bf9ee6]
+
+@@@parseTlv(confFileBuff, confFileBuffLen)
+    /usr/lib/libgwprovappabs.so.1(parseTlv+0x70) [0xf7f2d1e7]
+    /usr/bin/gw_prov_utopia() [0x804ca19]
+    /usr/lib/libgwprovappabs.so.1(+0x1509) [0xf7f2b509]
+    /lib/libpthread.so.0(+0x7fc1) [0xf7f38fc1]
+    /lib/libc.so.6(clone+0x66) [0xf7bf9ee6]
+
+@@@eSafeDevice_SetErouterOperationMode(operMode)
+    /usr/lib/libgwprovappabs.so.1(eSafeDevice_SetErouterOperationMode+0x70) [0xf7f2be3d]
+    /usr/bin/gw_prov_utopia() [0x804f98a]
+    /usr/bin/gw_prov_utopia() [0x804caa0]
+    /usr/lib/libgwprovappabs.so.1(+0x1509) [0xf7f2b509]
+    /lib/libpthread.so.0(+0x7fc1) [0xf7f38fc1]
+    /lib/libc.so.6(clone+0x66) [0xf7bf9ee6]
+
+@@@notificationReply_CfgFileForEsafe()
+    /usr/lib/libgwprovappabs.so.1(notificationReply_CfgFileForEsafe+0x70) [0xf7f2cc1c]
+    /usr/bin/gw_prov_utopia() [0x804cae0]
+    /usr/lib/libgwprovappabs.so.1(+0x1509) [0xf7f2b509]
+    /lib/libpthread.so.0(+0x7fc1) [0xf7f38fc1]
+    /lib/libc.so.6(clone+0x66) [0xf7bf9ee6]
+
+@@@eSafeDevice_SetProvisioningStatusProgress(StatusProgress)
+    /usr/lib/libgwprovappabs.so.1(eSafeDevice_SetProvisioningStatusProgress+0x70) [0xf7f2bf24]
+    /usr/bin/gw_prov_utopia() [0x804d1fe]
+    /lib/libpthread.so.0(+0x7fc1) [0xf7f38fc1]
+    /lib/libc.so.6(clone+0x66) [0xf7bf9ee6]
+
+@@@eSafeDevice_GetErouterOperationMode(operMode)
+    /usr/lib/libgwprovappabs.so.1(eSafeDevice_GetErouterOperationMode+0x70) [0xf7f2c00b]
+    /usr/bin/gw_prov_utopia() [0x804d20c]
+    /lib/libpthread.so.0(+0x7fc1) [0xf7f38fc1]
+    /lib/libc.so.6(clone+0x66) [0xf7bf9ee6]
+
+@@@eSafeDevice_SetErouterOperationMode(operMode)
+    /usr/lib/libgwprovappabs.so.1(eSafeDevice_SetErouterOperationMode+0x70) [0xf7f2be3d]
+    /usr/bin/gw_prov_utopia() [0x804d23b]
+    /lib/libpthread.so.0(+0x7fc1) [0xf7f38fc1]
+    /lib/libc.so.6(clone+0x66) [0xf7bf9ee6]
+
+@@@getMultiCastGroupAddress(inetAddr, inetMcgrpAddr)
+    /usr/lib/libgwprovappabs.so.1(getMultiCastGroupAddress+0x70) [0xf7f2c3a7]
+    /usr/bin/gw_prov_utopia() [0x804d8b6]
+    /lib/libpthread.so.0(+0x7fc1) [0xf7f38fc1]
+    /lib/libc.so.6(clone+0x66) [0xf7bf9ee6]
+
+@@@eSafeDevice_SetProvisioningStatusProgress(StatusProgress)
+    /usr/lib/libgwprovappabs.so.1(eSafeDevice_SetProvisioningStatusProgress+0x70) [0xf7f2bf24]
+    /usr/bin/gw_prov_utopia() [0x804d2c8]
+    /lib/libpthread.so.0(+0x7fc1) [0xf7f38fc1]
+    /lib/libc.so.6(clone+0x66) [0xf7bf9ee6]
+
+@@@eSafeDevice_GetErouterOperationMode(operMode)
+    /usr/lib/libgwprovappabs.so.1(eSafeDevice_GetErouterOperationMode+0x70) [0xf7f2c00b]
+    /usr/bin/gw_prov_utopia() [0x804d2d6]
+    /lib/libpthread.so.0(+0x7fc1) [0xf7f38fc1]
+    /lib/libc.so.6(clone+0x66) [0xf7bf9ee6]
+
+@@@eSafeDevice_SetErouterOperationMode(operMode)
+    /usr/lib/libgwprovappabs.so.1(eSafeDevice_SetErouterOperationMode+0x70) [0xf7f2be3d]
+    /usr/bin/gw_prov_utopia() [0x804d305]
+    /lib/libpthread.so.0(+0x7fc1) [0xf7f38fc1]
+    /lib/libc.so.6(clone+0x66) [0xf7bf9ee6]

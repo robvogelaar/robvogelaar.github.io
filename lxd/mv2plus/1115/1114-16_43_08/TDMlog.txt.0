@@ -1,0 +1,50 @@
+3.122623 [mod=TDM, lvl=WARN] [tid=767] Register empty object : com.
+3.122654 [mod=TDM, lvl=WARN] [tid=767] Register empty object : com.cisco.
+3.122665 [mod=TDM, lvl=WARN] [tid=767] Register empty object : com.cisco.spvtg.
+3.122673 [mod=TDM, lvl=WARN] [tid=767] Register empty object : com.cisco.spvtg.ccsp.
+3.123672 [mod=TDM, lvl=WARN] [tid=767] DM Library module name = CCSP Base Data Model
+3.128975 [mod=TDM, lvl=WARN] [tid=767] DM Library module name = TestAndDiagnostic
+3.128994 [mod=TDM, lvl=WARN] [tid=767] Loading DM library libdmltad.so...
+3.164661 [mod=TDM, lvl=INFO] [tid=769] rbuscore.c:156 Listener rbus.CcspTr069PaSsp.INBOX.1364 added for event diagCompleteSignal.
+
+3.203144 [mod=TDM, lvl=NOTICE] [tid=767] Executing Speedtest to acquire version
+3.204559 [mod=TDM, lvl=WARN] [tid=767] RDK_LOG_WARN,TDM CosaDiagInitialize :Calling PSM GET to get Capability flag value
+3.205528 [mod=TDM, lvl=WARN] [tid=767] RDK_LOG_WARN,TDM CosaDiagInitialize :Capability [0]
+3.234970 [mod=TDM, lvl=INFO] [tid=767] [CosaDmlInitializeRxTxStats] RxTx Stats Interfacelist:[ brlan0,brlan1,brlan2,brlan3,brlan4,brlan5,brebhaul,brlan112,brlan113 ]
+3.235115 [mod=TDM, lvl=INFO] [tid=767] [CosaDmlInitializeRxTxStats] RxTx Stats Portlist:[ wl0,wl1,wl2,moca0,eth0,eth1,eth2,eth3 ]
+3.417236 [mod=TDM, lvl=INFO] [tid=767] rbuscore.c:2340 RBus Enabled
+
+3.417286 [mod=TDM, lvl=INFO] [tid=767] rbus.c:2778 rbus open for component: WanCnctvtyChkEventConsumer
+
+3.417339 [mod=TDM, lvl=INFO] [tid=767] rbus.c:2854  rbus open (WanCnctvtyChkEventConsumer) success
+
+3.417358 [mod=TDM, lvl=INFO] [tid=767] rbus_subscriptions.c:447 file /tmp/rbus_subs_WanCnctvtyChkEventConsumer
+
+3.420612 [mod=TDM, lvl=INFO] [tid=767] rbus.c:2778 rbus open for component: WanCnctvtyChkTableConsumer
+
+3.420647 [mod=TDM, lvl=INFO] [tid=767] rbus.c:2854  rbus open (WanCnctvtyChkTableConsumer) success
+
+3.420658 [mod=TDM, lvl=INFO] [tid=767] rbus_subscriptions.c:447 file /tmp/rbus_subs_WanCnctvtyChkTableConsumer
+
+3.423779 [mod=TDM, lvl=INFO] [tid=767] rbus.c:1191 publishing ObjectCreated table=Device.Diagnostics.X_RDK_DNSInternet.TestURL. rowName=Device.Diagnostics.X_RDK_DNSInternet.TestURL.1
+
+3.423912 [mod=TDM, lvl=WARN] [tid=767] Try to create empty object : Device.IP.
+3.423920 [mod=TDM, lvl=WARN] [tid=767] Register empty object : Device.IP.
+3.423939 [mod=TDM, lvl=WARN] [tid=767] Empty parameter name.
+3.426346 [mod=TDM, lvl=WARN] [tid=767] Search for empty object in 'dslhCpeCheckEmptyObject'
+3.438648 [mod=TDM, lvl=INFO] [tid=767] Test & Diagnostic Module loaded successfully...
+3.438660 [mod=TDM, lvl=INFO] [tid=767] rbuscore.c:2340 RBus Enabled
+
+3.438663 [mod=TDM, lvl=INFO] [tid=767] rbus.c:2778 rbus open for component: TestAndDiagnosticsRbus
+
+3.438694 [mod=TDM, lvl=INFO] [tid=767] rbus.c:2854  rbus open (TestAndDiagnosticsRbus) success
+
+3.438717 [mod=TDM, lvl=INFO] [tid=767] rbus_subscriptions.c:447 file /tmp/rbus_subs_TestAndDiagnosticsRbus
+
+3.439087 [mod=TDM, lvl=INFO] [tid=767] syscfg_get success for the parameter 'LatencyMeasure_IPv4Enable'
+3.439125 [mod=TDM, lvl=INFO] [tid=767] syscfg_get success for the parameter 'LatencyMeasure_IPv6Enable'
+3.439133 [mod=TDM, lvl=ERROR] [tid=767] syscfg_get failed for the parameter 'LatencyMeasure_PercentileCalc_Enable'
+3.439159 [mod=TDM, lvl=INFO] [tid=767] syscfg_get success for the parameter 'LatencyMeasure_TCPReportInterval'
+3.439255 [mod=TDM, lvl=INFO] [tid=767] sysevent_open success.
+13.251728 [mod=TDM, lvl=ERROR] [tid=769] rbuscore.c:248 Object eRT.com.cisco.spvtg.ccsp.tdm doesn't support event Device.IP.Diagnostics.X_RDKCENTRAL-COM_SpeedTest.Status. Cannot add listener.
+

@@ -1,0 +1,96 @@
+0.000000 [mod=GWPROV, lvl=INFO] [tid=106]  Entry gw_prov_utopia
+0.000935 [mod=GWPROV, lvl=INFO] [tid=106]  Creating Event Handler
+0.001232 [mod=GWPROV, lvl=INFO] [tid=109] EventHandler:300: Entered 
+0.005745 [mod=GWPROV, lvl=INFO] [tid=106] Entry GWP_act_ProvEntry_callback 
+0.005760 [mod=GWPROV, lvl=INFO] [tid=106] Entry GWP_act_ProvEntry_callback registerDocsisIntiEvents 
+0.005821 [mod=GWPROV, lvl=INFO] [tid=106]  Calling /etc/utopia/utopia_init.sh 
+1.377689 [mod=GWPROV, lvl=INFO] [tid=106]  GWP_SysCfgGetInt : name = bridge_mode 
+1.377796 [mod=GWPROV, lvl=INFO] [tid=106]  value = 0 
+1.378220 [mod=GWPROV, lvl=INFO] [tid=106]  Creating Thread  GWP_sysevent_threadfunc 
+1.378330 [mod=GWPROV, lvl=INFO] [tid=106]  GWP_SysCfgGetInt : name = bridge_mode 
+1.378368 [mod=GWPROV, lvl=INFO] [tid=106]  value = 0 
+1.378372 [mod=GWPROV, lvl=INFO] [tid=106]  GWP_SysCfgGetInt : name = last_erouter_mode 
+1.378407 [mod=GWPROV, lvl=INFO] [tid=106]  value = 3 
+1.378414 [mod=GWPROV, lvl=INFO] [tid=106]  validate_mode : bridge_mode = 0 , eRouterMode = 3 
+1.378418 [mod=GWPROV, lvl=INFO] [tid=106]  active_mode 0 
+1.380737 [mod=GWPROV, lvl=INFO] [tid=281]  Entry GWP_sysevent_threadfunc 
+1.382084 [mod=GWPROV, lvl=INFO] [tid=281]  Set notifications done 
+2.209023 [mod=GWPROV, lvl=INFO] [tid=281]  GWP_sysevent_threadfunc : name = bring-lan, val = up 
+2.209038 [mod=GWPROV, lvl=INFO] [tid=281]  bring-lan/pnm-status received 
+2.220551 [mod=GWPROV, lvl=INFO] [tid=281]  GWP_sysevent_threadfunc : name = primary_lan_l3net, val = 4 
+2.220562 [mod=GWPROV, lvl=INFO] [tid=281]  primary_lan_l3net received 
+2.220619 [mod=GWPROV, lvl=INFO] [tid=281]  Entry LAN_start 
+2.220631 [mod=GWPROV, lvl=INFO] [tid=281] Setting dslite_enabled event
+2.220768 [mod=GWPROV, lvl=INFO] [tid=281]  Setting dhcp_server-resync event 
+2.828480 [mod=GWPROV, lvl=INFO] [tid=281]  GWP_sysevent_threadfunc : name = lan-status, val = started 
+2.841557 [mod=GWPROV, lvl=INFO] [tid=281] GWP_sysevent_threadfunc Enable guest network interface brlan7 
+2.842342 [mod=GWPROV, lvl=INFO] [tid=281]  Entry check_lan_wan_ready 
+2.842537 [mod=GWPROV, lvl=INFO] [tid=281]  bridge-status = stopped
+2.842545 [mod=GWPROV, lvl=INFO] [tid=281]  lan-status = started
+2.842548 [mod=GWPROV, lvl=INFO] [tid=281]  wan-status = stopped
+2.842552 [mod=GWPROV, lvl=INFO] [tid=281]  ipv6_prefix = 
+2.842556 [mod=GWPROV, lvl=INFO] [tid=281]  eRouterMode = 3
+2.842560 [mod=GWPROV, lvl=INFO] [tid=281]  bridge_mode = 0
+8.002140 [mod=GWPROV, lvl=INFO] [tid=109] appCb.pGWP_act_DocsisInited()
+8.002235 [mod=GWPROV, lvl=INFO] [tid=109]  Entry GWP_act_DocsisInited_callback 
+8.002274 [mod=GWPROV, lvl=INFO] [tid=109]  Loading erouter0 network interface driver
+8.005989 [mod=GWPROV, lvl=INFO] [tid=109]  factory_mode 0 
+8.006042 [mod=GWPROV, lvl=INFO] [tid=109]  Entry GWP_DocsisInited 
+8.007698 [mod=GWPROV, lvl=INFO] [tid=109] getDecisionErouteOperMode: esafeErouterInitModeControl is 5, eRouterMode: 3
+8.007736 [mod=GWPROV, lvl=INFO] [tid=109]  active_mode 0 
+8.008453 [mod=GWPROV, lvl=INFO] [tid=109]  eRouterModeTmp = 3
+8.008694 [mod=GWPROV, lvl=INFO] [tid=109]  operMode = 4
+8.009090 [mod=GWPROV, lvl=INFO] [tid=109]  Disconnecting DOCSIS local bridge
+8.010639 [mod=GWPROV, lvl=INFO] [tid=109]  lan_wan_ready = 0
+8.018135 [mod=GWPROV, lvl=INFO] [tid=109] appCb.pDocsis_gotEnable()
+8.018192 [mod=GWPROV, lvl=INFO] [tid=109]  Entry docsis_gotEnable_callback , state = 3 
+10.018688 [mod=GWPROV, lvl=INFO] [tid=109] appCb.pGWP_act_DocsisTftpOk()
+10.018837 [mod=GWPROV, lvl=INFO] [tid=109]  Entry GWP_act_DocsisTftpOk_callback 
+10.018871 [mod=GWPROV, lvl=INFO] [tid=109] appCb.pGWP_act_DocsisCfgfile()
+10.018898 [mod=GWPROV, lvl=INFO] [tid=109]  Entry GWP_act_DocsisCfgfile_callback 
+10.018925 [mod=GWPROV, lvl=INFO] [tid=109] GWP_act_DocsisCfgfile_callback : The Previous EROUTERMODE=3
+10.018948 [mod=GWPROV, lvl=INFO] [tid=109] GWP_act_DocsisCfgfile_callback : The Previous BRIDGE MODE=0
+10.018974 [mod=GWPROV, lvl=INFO] [tid=109]  GWP_SysCfgGetInt : name = bridge_mode 
+10.019306 [mod=GWPROV, lvl=INFO] [tid=109]  value = 0 
+10.019344 [mod=GWPROV, lvl=INFO] [tid=109]  GWP_SysCfgGetInt : name = last_erouter_mode 
+10.019539 [mod=GWPROV, lvl=INFO] [tid=109]  value = 3 
+10.019569 [mod=GWPROV, lvl=INFO] [tid=109] GWP_act_DocsisCfgfile_callback : The Refreshed EROUTERMODE=3
+10.019596 [mod=GWPROV, lvl=INFO] [tid=109] GWP_act_DocsisCfgfile_callback : The Refreshed BRIDGE MODE=0
+10.020653 [mod=GWPROV, lvl=INFO] [tid=109]  cfgFileName = /nvram/eroutercfg.bin
+10.021530 [mod=GWPROV, lvl=INFO] [tid=109]  eSafe Config file "/nvram/eroutercfg.bin", parsed completed, status 0
+10.021572 [mod=GWPROV, lvl=INFO] [tid=109] GWP_UpdateTr069CfgThread started
+10.022083 [mod=GWPROV, lvl=INFO] [tid=109]  GWP_UpdateERouterMode: 3->3
+10.023670 [mod=GWPROV, lvl=INFO] [tid=1034]  Entry GWP_UpdateTr069CfgThread 
+10.023869 [mod=GWPROV, lvl=INFO] [tid=1034]  /nvram/TLVData.bin file not present 
+10.023911 [mod=GWPROV, lvl=INFO] [tid=1034]  Exit GWP_UpdateTr069CfgThread 
+12.023300 [mod=GWPROV, lvl=INFO] [tid=109] appCb.pGWP_act_DocsisLinkUp()
+12.023369 [mod=GWPROV, lvl=INFO] [tid=109]  Entry GWP_act_DocsisLinkUp_callback 
+12.036095 [mod=GWPROV, lvl=INFO] [tid=109]  Starting wan service
+12.344719 [mod=GWPROV, lvl=INFO] [tid=281]  GWP_sysevent_threadfunc : name = wan-status, val = starting 
+12.425930 [mod=GWPROV, lvl=INFO] [tid=281]  GWP_sysevent_threadfunc : name = wan-status, val = starting 
+13.602745 [mod=GWPROV, lvl=INFO] [tid=281]  GWP_sysevent_threadfunc : name = current_wan_ipaddr, val = 10.107.200.156 
+13.613632 [mod=GWPROV, lvl=INFO] [tid=281]  GWP_sysevent_threadfunc : name = ipv4-status, val = up 
+13.613739 [mod=GWPROV, lvl=INFO] [tid=281]  operMode = 0 
+13.613792 [mod=GWPROV, lvl=INFO] [tid=281]  GWP_sysevent_threadfunc : name = wan-status, val = started 
+13.613800 [mod=GWPROV, lvl=INFO] [tid=281]  Entry check_lan_wan_ready 
+13.614082 [mod=GWPROV, lvl=INFO] [tid=281]  bridge-status = stopped
+13.614090 [mod=GWPROV, lvl=INFO] [tid=281]  lan-status = started
+13.614094 [mod=GWPROV, lvl=INFO] [tid=281]  wan-status = started
+13.614098 [mod=GWPROV, lvl=INFO] [tid=281]  ipv6_prefix = 
+13.614101 [mod=GWPROV, lvl=INFO] [tid=281]  eRouterMode = 3
+13.614109 [mod=GWPROV, lvl=INFO] [tid=281]  bridge_mode = 0
+17.460411 [mod=GWPROV, lvl=INFO] [tid=281]  GWP_sysevent_threadfunc : name = tr_erouter0_dhcpv6_client_v6addr, val = 2001:dae:7:1::22d 
+17.475094 [mod=GWPROV, lvl=INFO] [tid=281]  GWP_SysCfgGetInt : name = last_erouter_mode 
+17.506756 [mod=GWPROV, lvl=INFO] [tid=281]  value = 3 
+17.506790 [mod=GWPROV, lvl=INFO] [tid=281]  GWP_sysevent_threadfunc : name = ipv6-status, val = up 
+17.507046 [mod=GWPROV, lvl=INFO] [tid=281]  operMode = 1 
+17.507103 [mod=GWPROV, lvl=INFO] [tid=281]  GWP_sysevent_threadfunc : name = ipv6_prefix, val = 3001:dae:0:f000::/56 
+17.507111 [mod=GWPROV, lvl=INFO] [tid=281]  Entry check_lan_wan_ready 
+17.507957 [mod=GWPROV, lvl=INFO] [tid=281]  bridge-status = stopped
+17.507969 [mod=GWPROV, lvl=INFO] [tid=281]  lan-status = started
+17.507973 [mod=GWPROV, lvl=INFO] [tid=281]  wan-status = started
+17.507980 [mod=GWPROV, lvl=INFO] [tid=281]  ipv6_prefix = 3001:dae:0:f000::/56
+17.507984 [mod=GWPROV, lvl=INFO] [tid=281]  eRouterMode = 3
+17.507988 [mod=GWPROV, lvl=INFO] [tid=281]  bridge_mode = 0
+17.508205 [mod=GWPROV, lvl=INFO] [tid=281]  GWP_SysCfgGetInt : name = skenable 
+17.508251 [mod=GWPROV, lvl=INFO] [tid=281]  value = 0 

@@ -1,0 +1,5 @@
+Friday, Nov 15 00:39:57 2024:[non-root]: Failed to set default capabilities
+Friday, Nov 15 00:39:57 2024:[non-root]: Failed to set default capabilities
+Friday, Nov 15 00:39:57 2024:[non-root]: Failed to set process specific capabilities
+Friday, Nov 15 00:39:57 2024:[non-root]: unprivilege user name: non-root 
+Friday, Nov 15 00:39:57 2024:[non-root]: Dumping current caps of the process: =ep cap_sys_module,cap_sys_rawio,cap_sys_time-ep

@@ -1,0 +1,10 @@
+[Fri Nov 15 01:40:38 CET 2024] wifi_api wifi_setApMacAddressControlMode 2 2
+[Fri Nov 15 01:40:38 CET 2024] wifi_api wifi_setApMacAddressControlMode 3 2
+[Fri Nov 15 01:40:38 CET 2024] wifi_api wifi_getApBridgeInfo 2   
+[Fri Nov 15 01:40:38 CET 2024] wifi_api wifi_getApBridgeInfo 3   
+[Fri Nov 15 01:40:41 CET 2024] wifi_api wifi_setApSecurityKeyPassphrase 6
+[Fri Nov 15 01:40:41 CET 2024] wifi_api wifi_setApSecurityKeyPassphrase 7
+[Fri Nov 15 01:40:41 CET 2024] wifi_api wifi_setApMacAddressControlMode 2 2
+[Fri Nov 15 01:40:41 CET 2024] wifi_api wifi_setApMacAddressControlMode 3 2
+[Fri Nov 15 01:40:41 CET 2024] wifi_api wifi_getApBridgeInfo 2   
+[Fri Nov 15 01:40:41 CET 2024] wifi_api wifi_getApBridgeInfo 3   

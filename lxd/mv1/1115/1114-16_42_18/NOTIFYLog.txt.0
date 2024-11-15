@@ -1,0 +1,36 @@
+2.219337 [mod=NOTIFY, lvl=INFO] [tid=404] 
+ File ReloadNotifyParam not present. Nothing to load
+2.219376 [mod=NOTIFY, lvl=NOTICE] [tid=404] Connect to bus daemon...
+2.219418 [mod=NOTIFY, lvl=INFO] [tid=404] rbuscore.c:2340 RBus Enabled
+
+2.219444 [mod=NOTIFY, lvl=INFO] [tid=404] rbuscore.c:656 Broker address: tcp://192.168.254.253:12368
+
+2.219597 [mod=NOTIFY, lvl=INFO] [tid=404] connection opened for eRT.com.cisco.spvtg.ccsp.notifycomponent
+2.219627 [mod=NOTIFY, lvl=INFO] [tid=404] INFO: bus_handle: 0x0x818b4d0 
+3.220661 [mod=NOTIFY, lvl=INFO] [tid=404] CcspBaseIf_Register_Event_rbus : rbus_registerEvent called for event: currentSessionIDSignal
+3.220890 [mod=NOTIFY, lvl=INFO] [tid=404] rbuscore.c:755 Subscription for _rbus_session_mgr::currentSessionIDSignal is now active.
+
+3.220982 [mod=NOTIFY, lvl=NOTICE] [tid=404] ssp_engage 
+3.221008 [mod=NOTIFY, lvl=WARN] [tid=404] Register empty object : com.
+3.221016 [mod=NOTIFY, lvl=WARN] [tid=404] Register empty object : com.cisco.
+3.221024 [mod=NOTIFY, lvl=WARN] [tid=404] Register empty object : com.cisco.spvtg.
+3.221031 [mod=NOTIFY, lvl=WARN] [tid=404] Register empty object : com.cisco.spvtg.ccsp.
+3.221138 [mod=NOTIFY, lvl=WARN] [tid=404] DM Library module name = CCSP Base Data Model
+3.221336 [mod=NOTIFY, lvl=WARN] [tid=404] DM Library module name = COSA_TR181_USGv2
+3.221390 [mod=NOTIFY, lvl=WARN] [tid=404] Search for empty object in 'dslhCpeCheckEmptyObject'
+45.364182 [mod=NOTIFY, lvl=WARN] [tid=406] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+45.364197 [mod=NOTIFY, lvl=INFO] [tid=406]  
+ Notification : Parameter Device.DeviceInfo.X_RDKCENTRAL-COM_FirmwareDownloadStatus is added in the list by eRT.com.cisco.spvtg.ccsp.tr069pa 
+45.364792 [mod=NOTIFY, lvl=WARN] [tid=406] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+45.364803 [mod=NOTIFY, lvl=INFO] [tid=406]  
+ Notification : Parameter Device.ManagementServer.ConnectionRequestURL is added in the list by eRT.com.cisco.spvtg.ccsp.tr069pa 
+45.365440 [mod=NOTIFY, lvl=WARN] [tid=406] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+45.365448 [mod=NOTIFY, lvl=INFO] [tid=406]  
+ Notification : Parameter Device.DeviceInfo.X_RDKCENTRAL-COM_FirmwareDownloadStatus is added in the list by eRT.com.cisco.spvtg.ccsp.tr069pa 
+45.367126 [mod=NOTIFY, lvl=WARN] [tid=406] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+45.367138 [mod=NOTIFY, lvl=INFO] [tid=406]  
+ Notification : Parameter Device.IP.Interface.1.IPv4Address.1.IPAddress is added in the list by eRT.com.cisco.spvtg.ccsp.tr069pa 

@@ -1,0 +1,13 @@
+01:40:34 [BootUpTime] cosa_service_start=516986
+01:40:34 [BootUpTime] boot_to_cr_uptime=516986
+01:40:34 [BootUpTime] boot_to_psm_uptime=516986
+00:40:36 [BootUpTime] Guest Lan_init_start=516987
+Received reboot_reason as:unknown
+01:40:36 [BootUpTime] boot_to_PnM_uptime=516987
+01:40:37 [BootUpTime] wifi_hal-init_sequence-started=516989
+01:40:39 [BootUpTime] Waninit_start=516991
+00:40:40 [BootUpTime] boot_to_ETH_uptime=516991
+00:40:40 [BootUpTime] Laninit_complete=516991
+01:40:42 [BootUpTime] boot_to_WIFI_uptime=516993
+01:40:50 [BootUpTime] Waninit_complete=517002
+01:40:50 [BootUpTime] boot_to_wan_uptime=517002

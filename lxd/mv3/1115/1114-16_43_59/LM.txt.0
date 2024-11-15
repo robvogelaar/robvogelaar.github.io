@@ -1,0 +1,22 @@
+2.209572 [mod=LM, lvl=WARN] [tid=749] LMLite:rdk initialzed!
+2.210011 [mod=LM, lvl=WARN] [tid=760] ValidateHostRetry_Thread started
+7.212517 [mod=LM, lvl=WARN] [tid=749] Send_Eth_Host_Sync_Req : Get Ethernet Clients 
+7.212776 [mod=LM, lvl=ERROR] [tid=749] SetParameterValues for param[0]=Device.WiFi.X_RDKCENTRAL-COM_WiFiHost_Sync failed with Err: 17
+7.224503 [mod=LM, lvl=ERROR] [tid=1307] SetParameterValues for param[0]=Device.WiFi.X_RDKCENTRAL-COM_WiFiHost_Sync failed with Err: 17
+186.265381 [mod=LM, lvl=WARN] [tid=1308] ------------------------AssociatedClientsInfo-----------------------
+186.265469 [mod=LM, lvl=WARN] [tid=1308] RDKB_CONNECTED_CLIENTS:Total_Clients_Connected=0
+186.265499 [mod=LM, lvl=WARN] [tid=1308] RDKB_CONNECTED_CLIENTS:Total_Online_Clients=0
+186.265526 [mod=LM, lvl=WARN] [tid=1308] RDKB_CONNECTED_CLIENTS:Total_Offline_Clients=0
+186.265549 [mod=LM, lvl=WARN] [tid=1308] RDKB_CONNECTED_CLIENTS:Total_WiFi_Clients=0
+186.265575 [mod=LM, lvl=WARN] [tid=1308] RDKB_CONNECTED_CLIENTS:Total_WiFi-2.4G_Clients=0
+186.265598 [mod=LM, lvl=WARN] [tid=1308] RDKB_CONNECTED_CLIENTS:Total_WiFi-5.0G_Clients=0
+186.265621 [mod=LM, lvl=WARN] [tid=1308] RDKB_CONNECTED_CLIENTS:Total_WiFi-6.0G_Clients=0
+186.265644 [mod=LM, lvl=WARN] [tid=1308] RDKB_CONNECTED_CLIENTS:Total_Ethernet_Clients=0
+186.265667 [mod=LM, lvl=WARN] [tid=1308] RDKB_CONNECTED_CLIENTS:Total_MoCA_Clients=0
+186.265690 [mod=LM, lvl=WARN] [tid=1308] -------------------------------------------------------------------
+186.265881 [mod=LM, lvl=INFO] [tid=1308] rbuscore.c:2340 RBus Enabled
+
+186.265945 [mod=LM, lvl=INFO] [tid=1308] rbus.c:2778 rbus open for component: t2_lib_ccsp-lm-lite
+
+186.266205 [mod=LM, lvl=INFO] [tid=1308] rbus.c:2854  rbus open (t2_lib_ccsp-lm-lite) success
+

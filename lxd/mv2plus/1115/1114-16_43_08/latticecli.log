@@ -1,0 +1,19 @@
+[Fri Nov 15 00:39:59 UTC 2024] latticecli -n get Cm.Provisioning.IPv4.IPAddress
+[Fri Nov 15 00:39:59 UTC 2024] latticecli -n get Mta.Provisioning.IPv4.IPAddress
+[Fri Nov 15 00:39:59 UTC 2024] latticecli -n get Cm.Provisioning.IPv4.IPAddress
+[Fri Nov 15 00:39:59 UTC 2024] latticecli -n get Mta.Provisioning.IPv4.IPAddress
+[Fri Nov 15 00:40:11 Universal 2024] latticecli -n set AltWan.EthWanInterface disable
+[Fri Nov 15 00:40:12 UTC 2024] latticecli -n get Cm.Provisioning.IPv4.IPAddress
+[Fri Nov 15 00:40:12 UTC 2024] latticecli -n get Mta.Provisioning.IPv4.IPAddress
+[Fri Nov 15 00:40:12 UTC 2024] latticecli -n get Cm.Provisioning.IPv4.IPAddress
+[Fri Nov 15 00:40:12 UTC 2024] latticecli -n get Mta.Provisioning.IPv4.IPAddress
+[Fri Nov 15 00:40:12 UTC 2024] latticecli -n get Cm.Provisioning.IPv4.IPAddress
+[Fri Nov 15 00:40:12 UTC 2024] latticecli -n get Cm.Provisioning.IPv6.IPAddress
+[Fri Nov 15 00:40:12 UTC 2024] latticecli -n get Cm.Provisioning.IPv6.IPAddress
+[Fri Nov 15 00:40:12 UTC 2024] latticecli -n get Cm.Provisioning.IPv4.IPAddress
+[Fri Nov 15 00:40:12 UTC 2024] latticecli -n get Mta.Provisioning.IPv4.IPAddress
+[Fri Nov 15 00:40:12 UTC 2024] latticecli -n get Cm.Provisioning.IPv4.IPAddress
+[Fri Nov 15 00:40:12 UTC 2024] latticecli -n get Mta.Provisioning.IPv4.IPAddress
+[Fri Nov 15 00:40:12 UTC 2024] latticecli -n get Cm.Provisioning.IPv4.IPAddress
+[Fri Nov 15 00:40:12 UTC 2024] latticecli -n get Cm.Provisioning.IPv6.IPAddress
+[Fri Nov 15 00:40:12 UTC 2024] latticecli -n get Cm.Provisioning.IPv6.IPAddress

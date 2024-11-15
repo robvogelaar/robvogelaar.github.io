@@ -1,0 +1,8 @@
+[SERVICE-WAN] exec: start
+Starting DHCPv6 Client now
+[SERVICE-WAN] start waiting for protocol ...
+[SERVICE-WAN] wait for protocol SUCCESS !
+wan_addr_set: start-misc:  current_lan_ipaddr 192.168.0.1
+[SERVICE-WAN] start firewall partially
+[SERVICE-WAN] Synching DNS to ATOM...
+[SERVICE-WAN] start firewall fully

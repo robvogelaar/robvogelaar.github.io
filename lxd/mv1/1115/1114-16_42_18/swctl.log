@@ -1,0 +1,350 @@
+[2024-11-15 00:39:16] swctl() called with parameters:
+    command   = 16
+    port      = 6
+    vid       = 112
+    membertag = 2
+    vlanmode  = 1
+    efm       = -1
+    mac       = null
+    magic     = null
+
+[2024-11-15 00:39:16] swctl() called with parameters:
+    command   = 16
+    port      = 7
+    vid       = 112
+    membertag = 2
+    vlanmode  = 1
+    efm       = -1
+    mac       = null
+    magic     = null
+
+[2024-11-15 00:39:16] swctl() called with parameters:
+    command   = 16
+    port      = 6
+    vid       = 113
+    membertag = 2
+    vlanmode  = 1
+    efm       = -1
+    mac       = null
+    magic     = null
+
+[2024-11-15 00:39:16] swctl() called with parameters:
+    command   = 16
+    port      = 7
+    vid       = 113
+    membertag = 2
+    vlanmode  = 1
+    efm       = -1
+    mac       = null
+    magic     = null
+
+[2024-11-15 00:39:16] swctl() called with parameters:
+    command   = 23
+    port      = 2
+    vid       = -1
+    membertag = -1
+    vlanmode  = -1
+    efm       = -1
+    mac       = 01:00:5E:7F:FF:FA
+    magic     = null
+
+[2024-11-15 00:39:16] swctl() called with parameters:
+    command   = 23
+    port      = 3
+    vid       = -1
+    membertag = -1
+    vlanmode  = -1
+    efm       = -1
+    mac       = 01:00:5E:7F:FF:FA
+    magic     = null
+
+[2024-11-15 00:39:16] swctl() called with parameters:
+    command   = 23
+    port      = 7
+    vid       = -1
+    membertag = -1
+    vlanmode  = -1
+    efm       = -1
+    mac       = 01:00:5E:7F:FF:FA
+    magic     = null
+
+[2024-11-15 00:39:17] swctl() called with parameters:
+    command   = 20
+    port      = 7
+    vid       = -1
+    membertag = -1
+    vlanmode  = -1
+    efm       = -1
+    mac       = null
+    magic     = null
+
+[2024-11-15 00:39:17] swctl() called with parameters:
+    command   = 16
+    port      = 7
+    vid       = 200
+    membertag = 2
+    vlanmode  = 1
+    efm       = -1
+    mac       = null
+    magic     = null
+
+[2024-11-15 00:39:17] swctl() called with parameters:
+    command   = 4
+    port      = 0
+    vid       = -1
+    membertag = -1
+    vlanmode  = -1
+    efm       = -1
+    mac       = null
+    magic     = null
+
+[2024-11-15 00:39:17] swctl() called with parameters:
+    command   = 0
+    port      = 0
+    vid       = 200
+    membertag = 1
+    vlanmode  = 1
+    efm       = -1
+    mac       = null
+    magic     = null
+
+[2024-11-15 00:39:17] swctl() called with parameters:
+    command   = 34
+    port      = 0
+    vid       = 200
+    membertag = -1
+    vlanmode  = -1
+    efm       = -1
+    mac       = null
+    magic     = null
+
+[2024-11-15 00:39:17] swctl() called with parameters:
+    command   = 4
+    port      = 1
+    vid       = -1
+    membertag = -1
+    vlanmode  = -1
+    efm       = -1
+    mac       = null
+    magic     = null
+
+[2024-11-15 00:39:17] swctl() called with parameters:
+    command   = 0
+    port      = 1
+    vid       = 200
+    membertag = 1
+    vlanmode  = 1
+    efm       = -1
+    mac       = null
+    magic     = null
+
+[2024-11-15 00:39:17] swctl() called with parameters:
+    command   = 34
+    port      = 1
+    vid       = 200
+    membertag = -1
+    vlanmode  = -1
+    efm       = -1
+    mac       = null
+    magic     = null
+
+[2024-11-15 00:39:17] swctl() called with parameters:
+    command   = 4
+    port      = 2
+    vid       = -1
+    membertag = -1
+    vlanmode  = -1
+    efm       = -1
+    mac       = null
+    magic     = null
+
+[2024-11-15 00:39:17] swctl() called with parameters:
+    command   = 0
+    port      = 2
+    vid       = 200
+    membertag = 1
+    vlanmode  = 1
+    efm       = -1
+    mac       = null
+    magic     = null
+
+[2024-11-15 00:39:17] swctl() called with parameters:
+    command   = 34
+    port      = 2
+    vid       = 200
+    membertag = -1
+    vlanmode  = -1
+    efm       = -1
+    mac       = null
+    magic     = null
+
+[2024-11-15 00:39:17] swctl() called with parameters:
+    command   = 4
+    port      = 3
+    vid       = -1
+    membertag = -1
+    vlanmode  = -1
+    efm       = -1
+    mac       = null
+    magic     = null
+
+[2024-11-15 00:39:17] swctl() called with parameters:
+    command   = 0
+    port      = 3
+    vid       = 200
+    membertag = 1
+    vlanmode  = 1
+    efm       = -1
+    mac       = null
+    magic     = null
+
+[2024-11-15 00:39:17] swctl() called with parameters:
+    command   = 34
+    port      = 3
+    vid       = 200
+    membertag = -1
+    vlanmode  = -1
+    efm       = -1
+    mac       = null
+    magic     = null
+
+[2024-11-15 00:39:17] swctl() called with parameters:
+    command   = 20
+    port      = 2
+    vid       = -1
+    membertag = -1
+    vlanmode  = -1
+    efm       = -1
+    mac       = null
+    magic     = null
+
+[2024-11-15 00:39:17] swctl() called with parameters:
+    command   = 4
+    port      = 5
+    vid       = -1
+    membertag = -1
+    vlanmode  = -1
+    efm       = -1
+    mac       = null
+    magic     = null
+
+[2024-11-15 00:39:17] swctl() called with parameters:
+    command   = 16
+    port      = 2
+    vid       = 200
+    membertag = 2
+    vlanmode  = 1
+    efm       = -1
+    mac       = null
+    magic     = null
+
+[2024-11-15 00:39:17] swctl() called with parameters:
+    command   = 0
+    port      = 5
+    vid       = 200
+    membertag = 2
+    vlanmode  = 1
+    efm       = -1
+    mac       = null
+    magic     = null
+
+[2024-11-15 00:39:17] swctl() called with parameters:
+    command   = 20
+    port      = 0
+    vid       = -1
+    membertag = -1
+    vlanmode  = -1
+    efm       = -1
+    mac       = null
+    magic     = null
+
+[2024-11-15 00:39:17] swctl() called with parameters:
+    command   = 16
+    port      = 0
+    vid       = 200
+    membertag = 2
+    vlanmode  = 1
+    efm       = -1
+    mac       = null
+    magic     = null
+
+[2024-11-15 00:39:17] swctl() called with parameters:
+    command   = 16
+    port      = 7
+    vid       = 100
+    membertag = 2
+    vlanmode  = 1
+    efm       = -1
+    mac       = null
+    magic     = null
+
+[2024-11-15 00:39:17] swctl() called with parameters:
+    command   = 16
+    port      = 3
+    vid       = 100
+    membertag = 0
+    vlanmode  = 1
+    efm       = -1
+    mac       = null
+    magic     = null
+
+[2024-11-15 00:39:17] swctl() called with parameters:
+    command   = 16
+    port      = 3
+    vid       = 100
+    membertag = 1
+    vlanmode  = 1
+    efm       = -1
+    mac       = null
+    magic     = null
+
+[2024-11-15 00:39:17] swctl() called with parameters:
+    command   = 16
+    port      = 6
+    vid       = 100
+    membertag = 2
+    vlanmode  = 1
+    efm       = -1
+    mac       = null
+    magic     = null
+
+[2024-11-15 00:39:19] swctl() called with parameters:
+    command   = 16
+    port      = 7
+    vid       = 107
+    membertag = 2
+    vlanmode  = 1
+    efm       = -1
+    mac       = null
+    magic     = null
+
+[2024-11-15 00:39:19] swctl() called with parameters:
+    command   = 16
+    port      = 5
+    vid       = 107
+    membertag = 2
+    vlanmode  = 1
+    efm       = -1
+    mac       = null
+    magic     = null
+
+[2024-11-15 00:39:19] swctl() called with parameters:
+    command   = 16
+    port      = 6
+    vid       = 107
+    membertag = 2
+    vlanmode  = 1
+    efm       = -1
+    mac       = null
+    magic     = null
+
+[2024-11-15 00:39:19] swctl() called with parameters:
+    command   = 16
+    port      = 0
+    vid       = 107
+    membertag = 2
+    vlanmode  = 1
+    efm       = -1
+    mac       = null
+    magic     = null
+

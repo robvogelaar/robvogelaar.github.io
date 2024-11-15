@@ -1,0 +1,15 @@
+Friday, Nov 15 00:39:17 2024:[non-root]: Dropping root privilege of CcspCrSsp: runs as unprivilege mode
+Friday, Nov 15 00:39:17 2024:[non-root]: unprivilege user name: non-root 
+Friday, Nov 15 00:39:17 2024:[non-root]: Dumping current caps of the process: = cap_chown,cap_dac_override,cap_dac_read_search,cap_fowner,cap_fsetid,cap_kill,cap_setpcap,cap_ipc_lock,cap_ipc_owner,cap_sys_chroot,cap_sys_ptrace,cap_sys_boot,cap_sys_nice,cap_sys_resource+eip
+Friday, Nov 15 00:39:17 2024:[non-root]: Dropping root privilege of PsmSsp: runs as unprivilege mode
+Friday, Nov 15 00:39:17 2024:[non-root]: unprivilege user name: non-root 
+Friday, Nov 15 00:39:17 2024:[non-root]: Dumping current caps of the process: = cap_chown,cap_dac_read_search,cap_fowner,cap_fsetid,cap_kill,cap_setpcap,cap_ipc_lock,cap_ipc_owner,cap_sys_chroot,cap_sys_ptrace,cap_sys_nice+eip
+Friday, Nov 15 00:39:19 2024:[non-root]: Failed to set default capabilities
+Friday, Nov 15 00:39:19 2024:[non-root]: Failed to set process specific capabilities
+Friday, Nov 15 00:39:19 2024:[non-root]: unprivilege user name: non-root 
+Friday, Nov 15 00:39:19 2024:[non-root]: Dumping current caps of the process: =ep cap_sys_module,cap_sys_rawio,cap_sys_time-ep
+Friday, Nov 15 00:39:19 2024:[non-root]: Failed to set default capabilities
+Friday, Nov 15 00:39:20 2024:[non-root]: Failed to set default capabilities
+Friday, Nov 15 00:39:20 2024:[non-root]: Failed to set process specific capabilities
+Friday, Nov 15 00:39:20 2024:[non-root]: unprivilege user name: non-root 
+Friday, Nov 15 00:39:20 2024:[non-root]: Dumping current caps of the process: =ep cap_sys_module,cap_sys_rawio,cap_sys_time-ep

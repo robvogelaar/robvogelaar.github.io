@@ -1,0 +1,55 @@
+3.187958 [mod=TDM, lvl=WARN] [tid=738] Register empty object : com.
+3.187996 [mod=TDM, lvl=WARN] [tid=738] Register empty object : com.cisco.
+3.188007 [mod=TDM, lvl=WARN] [tid=738] Register empty object : com.cisco.spvtg.
+3.188015 [mod=TDM, lvl=WARN] [tid=738] Register empty object : com.cisco.spvtg.ccsp.
+3.189079 [mod=TDM, lvl=WARN] [tid=738] DM Library module name = CCSP Base Data Model
+3.189472 [mod=TDM, lvl=WARN] [tid=738] DM Library module name = TestAndDiagnostic
+3.189484 [mod=TDM, lvl=WARN] [tid=738] Loading DM library libdmltad.so...
+3.551369 [mod=TDM, lvl=NOTICE] [tid=738] Executing Speedtest to acquire version
+3.556797 [mod=TDM, lvl=WARN] [tid=738] RDK_LOG_WARN,TDM CosaDiagInitialize :Calling PSM GET to get Capability flag value
+3.556980 [mod=TDM, lvl=WARN] [tid=738] RDK_LOG_WARN,TDM CosaDiagInitialize :Capability [0]
+3.557041 [mod=TDM, lvl=INFO] [tid=738] [CosaDmlInitializeRxTxStats] RxTx Stats Interfacelist:[ brlan0,brlan1,brlan2,brlan3,brlan4,brlan5,brebhaul,brlan112,brlan113 ]
+3.557076 [mod=TDM, lvl=INFO] [tid=738] [CosaDmlInitializeRxTxStats] RxTx Stats Portlist:[ wl0,wl1,wl2,moca0,eth0,eth1,eth2,eth3 ]
+4.050888 [mod=TDM, lvl=INFO] [tid=738] rbuscore.c:2340 RBus Enabled
+
+4.050938 [mod=TDM, lvl=INFO] [tid=738] rbus.c:2778 rbus open for component: WanCnctvtyChkEventConsumer
+
+4.050980 [mod=TDM, lvl=INFO] [tid=738] rbus.c:2854  rbus open (WanCnctvtyChkEventConsumer) success
+
+4.050995 [mod=TDM, lvl=INFO] [tid=738] rbus_subscriptions.c:447 file /tmp/rbus_subs_WanCnctvtyChkEventConsumer
+
+4.051323 [mod=TDM, lvl=INFO] [tid=738] rbus.c:2778 rbus open for component: WanCnctvtyChkTableConsumer
+
+4.051350 [mod=TDM, lvl=INFO] [tid=738] rbus.c:2854  rbus open (WanCnctvtyChkTableConsumer) success
+
+4.051361 [mod=TDM, lvl=INFO] [tid=738] rbus_subscriptions.c:447 file /tmp/rbus_subs_WanCnctvtyChkTableConsumer
+
+4.054569 [mod=TDM, lvl=INFO] [tid=738] rbus.c:1191 publishing ObjectCreated table=Device.Diagnostics.X_RDK_DNSInternet.TestURL. rowName=Device.Diagnostics.X_RDK_DNSInternet.TestURL.1
+
+4.054676 [mod=TDM, lvl=WARN] [tid=738] Try to create empty object : Device.IP.
+4.054684 [mod=TDM, lvl=WARN] [tid=738] Register empty object : Device.IP.
+4.054707 [mod=TDM, lvl=WARN] [tid=738] Empty parameter name.
+4.057076 [mod=TDM, lvl=WARN] [tid=738] Search for empty object in 'dslhCpeCheckEmptyObject'
+4.071712 [mod=TDM, lvl=INFO] [tid=738] Test & Diagnostic Module loaded successfully...
+4.071724 [mod=TDM, lvl=INFO] [tid=738] rbuscore.c:2340 RBus Enabled
+
+4.071728 [mod=TDM, lvl=INFO] [tid=738] rbus.c:2778 rbus open for component: TestAndDiagnosticsRbus
+
+4.071758 [mod=TDM, lvl=INFO] [tid=738] rbus.c:2854  rbus open (TestAndDiagnosticsRbus) success
+
+4.071781 [mod=TDM, lvl=INFO] [tid=738] rbus_subscriptions.c:447 file /tmp/rbus_subs_TestAndDiagnosticsRbus
+
+4.072170 [mod=TDM, lvl=INFO] [tid=738] syscfg_get success for the parameter 'LatencyMeasure_IPv4Enable'
+4.072205 [mod=TDM, lvl=INFO] [tid=738] syscfg_get success for the parameter 'LatencyMeasure_IPv6Enable'
+4.072212 [mod=TDM, lvl=ERROR] [tid=738] syscfg_get failed for the parameter 'LatencyMeasure_PercentileCalc_Enable'
+4.072243 [mod=TDM, lvl=INFO] [tid=738] syscfg_get success for the parameter 'LatencyMeasure_TCPReportInterval'
+4.072338 [mod=TDM, lvl=INFO] [tid=738] sysevent_open success.
+4.072784 [mod=TDM, lvl=INFO] [tid=1015] updateTimeThread_create thread created successfully
+4.072815 [mod=TDM, lvl=INFO] [tid=1015] Build Time (Epoch): 1731627235
+4.072853 [mod=TDM, lvl=INFO] [tid=1015] stored_time value for get is 1731631152
+4.072857 [mod=TDM, lvl=INFO] [tid=1015] Syscfg.db updating after reboot
+4.072865 [mod=TDM, lvl=INFO] [tid=1015] Current Epoch Time: 1731631238, Build Epoch Time: 1731627235
+4.099274 [mod=TDM, lvl=INFO] [tid=1015] stored_time value after set is 1731631238
+4.099289 [mod=TDM, lvl=INFO] [tid=1015] Set value is 1731631238
+4.099354 [mod=TDM, lvl=INFO] [tid=1015] The timeoffset_sleep_time value from syscfg is 3600.
+4.099361 [mod=TDM, lvl=INFO] [tid=1015] Sleeping for 3600 seconds
