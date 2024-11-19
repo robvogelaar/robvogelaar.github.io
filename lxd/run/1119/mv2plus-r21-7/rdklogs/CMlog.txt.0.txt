@@ -1,0 +1,268 @@
+0.082874 [mod=CM, lvl=WARN] [tid=528] Core dump is opened, do not catch signal
+0.082932 [mod=CM, lvl=INFO] [tid=528] pthread create docsis registration
+0.082966 [mod=CM, lvl=INFO] [tid=528] Connect to bus daemon...
+0.082993 [mod=CM, lvl=INFO] [tid=528] rbuscore.c:2340 RBus Enabled
+
+0.083004 [mod=CM, lvl=INFO] [tid=528] rbuscore.c:656 Broker address: unix:///tmp/rtrouted
+
+0.083096 [mod=CM, lvl=INFO] [tid=528] connection opened for eRT.com.cisco.spvtg.ccsp.cm
+0.083111 [mod=CM, lvl=INFO] [tid=528] !!! Connected to message bus... bus_handle: 0x0x9523520 !!!
+0.083160 [mod=CM, lvl=ERROR] [tid=531] GWP_docsisregistration_threadfunc
+0.083168 [mod=CM, lvl=INFO] [tid=531] Entry docsis clbk register!!
+0.083557 [mod=CM, lvl=INFO] [tid=531]  create Gwp callback event handler
+0.083584 [mod=CM, lvl=INFO] [tid=531] Creating Event Handler
+0.083981 [mod=CM, lvl=INFO] [tid=535] GWPROVAPPABS: EventHandler
+0.084446 [mod=CM, lvl=INFO] [tid=534] GWP_EventHandler:4167: Entered 
+0.084476 [mod=CM, lvl=INFO] [tid=534] GWP_EventHandler:4170: after open 
+ 0.084484 [mod=CM, lvl=INFO] [tid=534] GWP_EventHandler:4183: check wanmanger is ready 
+0.084492 [mod=CM, lvl=INFO] [tid=534] GWP_EventHandler:4186: waiting till component comes up 
+0.087078 [mod=CM, lvl=INFO] [tid=531] Entry GWP_act_ProvEntry_callback 
+0.087086 [mod=CM, lvl=INFO] [tid=531] Entry GWP_act_ProvEntry_callback registerDocsisIntiEvents 
+0.087147 [mod=CM, lvl=INFO] [tid=531]  GWP_SysCfgGetInt : name = bridge_mode 
+0.087261 [mod=CM, lvl=INFO] [tid=531]  value = 0 
+0.087479 [mod=CM, lvl=INFO] [tid=531]  GWP_act_ProvEntry_callback sysevent open fd 10 fd_gs 11  
+0.088570 [mod=CM, lvl=INFO] [tid=531]  Creating Thread  GWP_sysevent_threadfunc 
+0.088600 [mod=CM, lvl=INFO] [tid=531]  GWP_SysCfgGetInt : name = bridge_mode 
+0.088642 [mod=CM, lvl=INFO] [tid=531]  value = 0 
+0.088646 [mod=CM, lvl=INFO] [tid=531]  GWP_SysCfgGetInt : name = last_erouter_mode 
+0.088680 [mod=CM, lvl=INFO] [tid=531]  value = 3 
+0.088688 [mod=CM, lvl=INFO] [tid=531]  validate_mode : bridge_mode = 0 , eRouterMode = 3 
+0.088692 [mod=CM, lvl=INFO] [tid=531]  active_mode 0 
+0.088734 [mod=CM, lvl=INFO] [tid=545]  Entry GWP_sysevent_threadfunc 
+0.089924 [mod=CM, lvl=INFO] [tid=545]  Set notifications done 
+1.084129 [mod=CM, lvl=INFO] [tid=528] CcspBaseIf_Register_Event_rbus : rbus_registerEvent called for event: currentSessionIDSignal
+1.084343 [mod=CM, lvl=INFO] [tid=528] rbuscore.c:755 Subscription for _rbus_session_mgr::currentSessionIDSignal is now active.
+
+1.084446 [mod=CM, lvl=WARN] [tid=528] Interface 'CcspCcMessageBusIf' is added into CpeController.
+1.084457 [mod=CM, lvl=WARN] [tid=528] Interface 'CcspComponentCommonDatamodelIf' is added into CpeController.
+1.084465 [mod=CM, lvl=WARN] [tid=528] Interface 'dslhMiniWebSvcIf' is added into CpeController.
+1.084469 [mod=CM, lvl=WARN] [tid=528] Unable to retrieve interface 'dslhLibCallbackSvcIf' in DslhCpeController.
+1.084488 [mod=CM, lvl=WARN] [tid=528] Register empty object : com.
+1.084499 [mod=CM, lvl=WARN] [tid=528] Register empty object : com.cisco.
+1.084507 [mod=CM, lvl=WARN] [tid=528] Register empty object : com.cisco.spvtg.
+1.084515 [mod=CM, lvl=WARN] [tid=528] Register empty object : com.cisco.spvtg.ccsp.
+1.084648 [mod=CM, lvl=WARN] [tid=528] DM Library module name = CCSP Base Data Model
+1.084660 [mod=CM, lvl=WARN] [tid=528] Looking for base object: com.cisco.spvtg.ccsp.
+1.084671 [mod=CM, lvl=WARN] [tid=528]  base object  com.cisco.spvtg.ccsp.cm. config context
+1.084721 [mod=CM, lvl=WARN] [tid=528]  com.cisco.spvtg.ccsp.cm.Logging. config context
+1.084751 [mod=CM, lvl=WARN] [tid=528]  com.cisco.spvtg.ccsp.cm.Memory. config context
+1.085041 [mod=CM, lvl=WARN] [tid=528] DM Library module name = COSA_TR181_USGv2
+1.085052 [mod=CM, lvl=WARN] [tid=528] Loading DM library libcm_tr181.so...
+1.086685 [mod=CM, lvl=WARN] [tid=528] CosaBackEndManagerInitialize...
+1.087257 [mod=CM, lvl=INFO] [tid=534] GWP_EventHandler:4186: waiting till component comes up 
+1.089493 [mod=CM, lvl=WARN] [tid=528] cm_hal_InitDB  is called successfully   CosaDmlCMInit, 327
+1.089527 [mod=CM, lvl=WARN] [tid=528]   CosaCableModemCreate done!
+1.089565 [mod=CM, lvl=INFO] [tid=528]  Download_Control_Flag is 1 
+1.089615 [mod=CM, lvl=INFO] [tid=528]  Current FW Version is ofw-exm-qemux86-mv2plus-20241119224432 
+1.089691 [mod=CM, lvl=INFO] [tid=528] rbuscore.c:2340 RBus Enabled
+
+1.089703 [mod=CM, lvl=INFO] [tid=528] rbus.c:2778 rbus open for component: CMAgentLLDEnable
+
+1.089741 [mod=CM, lvl=INFO] [tid=528] rbus.c:2854  rbus open (CMAgentLLDEnable) success
+
+1.089752 [mod=CM, lvl=INFO] [tid=528] rbus_subscriptions.c:447 file /tmp/rbus_subs_CMAgentLLDEnable
+
+1.089916 [mod=CM, lvl=INFO] [tid=528] Initialized LLD Enable with false values.
+1.089931 [mod=CM, lvl=INFO] [tid=528] registering subdocs webConfigFrameworkInit-271
+1.089951 [mod=CM, lvl=INFO] [tid=528] Inside FUNC register_sub_docs LINE 240
+1.089958 [mod=CM, lvl=INFO] [tid=528] Inside FUNC initMessageQueue LINE 1109 
+1.091125 [mod=CM, lvl=WARN] [tid=528]   CosaDeviceInfoCreate done!
+1.092075 [mod=CM, lvl=WARN] [tid=528]   CosaRDKCentralComCableModemCreate done!
+1.093929 [mod=CM, lvl=WARN] [tid=528] docsis_GetNumOfActiveRxChannels  is called successfully : CosaDmlCmGetCMErrorCodewords, 1059
+1.095749 [mod=CM, lvl=WARN] [tid=528] docsis_GetNumOfActiveRxChannels  is called successfully   CosaDmlCmGetDownstreamChannel, 911
+1.096222 [mod=CM, lvl=WARN] [tid=528] docsis_getDsOFDMChannelCount is called successfully   CosaDmlCmGetDownstreamChannel, 920
+1.097786 [mod=CM, lvl=WARN] [tid=528] docsis_GetNumOfActiveTxChannels  is called  successfully: CosaDmlCmGetUpstreamChannel, 963
+1.098160 [mod=CM, lvl=WARN] [tid=528] docsis_getDsOFDMChannelCount is called successfully   CosaDmlCmGetUpstreamChannel, 972
+1.102345 [mod=CM, lvl=WARN] [tid=528] Status of InitDataModel = 0
+1.102360 [mod=CM, lvl=WARN] [tid=528] Search for empty object in 'dslhCpeCheckEmptyObject'
+1.102364 [mod=CM, lvl=WARN] [tid=528] !!! Ready to register capabilities of 'eRT.com.cisco.spvtg.ccsp.cm' to 'eRT.com.cisco.spvtg.ccsp.CR'...!!!
+1.102566 [mod=CM, lvl=INFO] [tid=575] subscribeSubdocForceReset: Discover component for event 'Device.X_RDK_WebConfig.webcfgSubdocForceReset' 
+1.102577 [mod=CM, lvl=INFO] [tid=575] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+1.102581 [mod=CM, lvl=ERROR] [tid=575] Failed to discover component. Error Code = 2
+1.102612 [mod=CM, lvl=INFO] [tid=574] Inside FUNC display_subDocs LINE 88
+1.102634 [mod=CM, lvl=INFO] [tid=573] Inside FUNC messageQueueProcessing LINE 899 
+1.115135 [mod=CM, lvl=WARN] [tid=571] docsis_GetNumOfActiveRxChannels  is called successfully   CosaDmlCmGetDownstreamChannel, 911
+1.115196 [mod=CM, lvl=WARN] [tid=571] docsis_getDsOFDMChannelCount is called successfully   CosaDmlCmGetDownstreamChannel, 920
+1.115353 [mod=CM, lvl=WARN] [tid=571] Number of Active Rxchannel is 1
+1.115356 [mod=CM, lvl=WARN] [tid=571] RDKB_DOCSIS_DIAG_INFO: CM Downstream frequency is 6440 and Downstream is Locked on channel 0
+1.115406 [mod=CM, lvl=WARN] [tid=571] docsis_GetNumOfActiveTxChannels  is called  successfully: CosaDmlCmGetUpstreamChannel, 963
+1.115456 [mod=CM, lvl=WARN] [tid=571] docsis_getDsOFDMChannelCount is called successfully   CosaDmlCmGetUpstreamChannel, 972
+1.115623 [mod=CM, lvl=WARN] [tid=571] RDKB_DOCSIS_DIAG_INFO: Number of Active Txchannel is 1
+1.115627 [mod=CM, lvl=WARN] [tid=571] RDKB_DOCSIS_DIAG_INFO: CM Upstream frequency is 12750 and Upstream is Locked on channel 0
+1.115635 [mod=CM, lvl=WARN] [tid=571] pollinterval to fetch Docsis diag is= 14400
+1.118710 [mod=CM, lvl=WARN] [tid=528] !!! com.cisco.spvtg.ccsp.cm registerCapabilities 206 items returns 100 !!!
+1.118721 [mod=CM, lvl=INFO] [tid=528] CM Agent Module loaded successfully...
+1.118744 [mod=CM, lvl=WARN] [tid=528] RDKB_SYSTEM_BOOT_UP_LOG : Entering CM loop
+1.280045 [mod=CM, lvl=INFO] [tid=545]  GWP_sysevent_threadfunc : name = pnm-status, val = up 
+1.280075 [mod=CM, lvl=INFO] [tid=545]  bring-lan/pnm-status received 
+1.287918 [mod=CM, lvl=INFO] [tid=545]  GWP_sysevent_threadfunc : name = primary_lan_l3net, val = 4 
+1.287937 [mod=CM, lvl=INFO] [tid=545]  primary_lan_l3net received 
+1.288021 [mod=CM, lvl=INFO] [tid=545]  Entry LAN_start 
+1.288033 [mod=CM, lvl=INFO] [tid=545] The Previous EROUTERMODE=3
+1.288036 [mod=CM, lvl=INFO] [tid=545] The Previous BRIDGE MODE=0
+1.288040 [mod=CM, lvl=INFO] [tid=545]  GWP_SysCfgGetInt : name = bridge_mode 
+1.288170 [mod=CM, lvl=INFO] [tid=545]  value = 0 
+1.288177 [mod=CM, lvl=INFO] [tid=545]  GWP_SysCfgGetInt : name = last_erouter_mode 
+1.288208 [mod=CM, lvl=INFO] [tid=545]  value = 3 
+1.288216 [mod=CM, lvl=INFO] [tid=545] The Refreshed EROUTERMODE=3
+1.288219 [mod=CM, lvl=INFO] [tid=545] The Refreshed BRIDGE MODE=0
+1.288223 [mod=CM, lvl=INFO] [tid=545] 
+***********************************return sysevent value -1
+1.288227 [mod=CM, lvl=INFO] [tid=545]  Setting dslite_enabled event 
+1.288288 [mod=CM, lvl=INFO] [tid=545]  Setting dhcp_server-resync event 
+2.087341 [mod=CM, lvl=INFO] [tid=534] GWP_EventHandler:4186: waiting till component comes up 
+2.542362 [mod=CM, lvl=INFO] [tid=545]  GWP_sysevent_threadfunc : name = lan-status, val = started 
+2.568817 [mod=CM, lvl=INFO] [tid=545] GWP_sysevent_threadfunc Skip enabling guest network interface brlan7 during bootup 
+2.569027 [mod=CM, lvl=INFO] [tid=545]  Entry check_lan_wan_ready 
+2.569256 [mod=CM, lvl=INFO] [tid=545]  bridge-status = stopped
+2.569263 [mod=CM, lvl=INFO] [tid=545]  lan-status = started
+2.569267 [mod=CM, lvl=INFO] [tid=545]  wan-status = stopped
+2.569271 [mod=CM, lvl=INFO] [tid=545]  ipv6_prefix = 
+2.569275 [mod=CM, lvl=INFO] [tid=545]  eRouterMode = 3
+2.569279 [mod=CM, lvl=INFO] [tid=545]  bridge_mode = 0
+3.087391 [mod=CM, lvl=INFO] [tid=534] GWP_EventHandler:4186: waiting till component comes up 
+4.087479 [mod=CM, lvl=INFO] [tid=534] GWP_EventHandler:4193: Waiting for ccsp-cm-agent to parse TLV config file
+5.087563 [mod=CM, lvl=INFO] [tid=534] GWP_EventHandler:4193: Waiting for ccsp-cm-agent to parse TLV config file
+6.087799 [mod=CM, lvl=INFO] [tid=534] GWP_EventHandler:4193: Waiting for ccsp-cm-agent to parse TLV config file
+7.087963 [mod=CM, lvl=INFO] [tid=534] GWP_EventHandler:4193: Waiting for ccsp-cm-agent to parse TLV config file
+8.084816 [mod=CM, lvl=INFO] [tid=535] GWPROVAPPABS: appCb.pGWP_act_DocsisInited()
+8.084888 [mod=CM, lvl=INFO] [tid=535] Entry GWP_act_DocsisInited_callback 
+8.084915 [mod=CM, lvl=INFO] [tid=535]  factory_mode 0 
+8.084938 [mod=CM, lvl=INFO] [tid=535]  GWP_SysCfgGetInt : name = bridge_mode 
+8.085224 [mod=CM, lvl=INFO] [tid=535]  value = 0 
+8.085258 [mod=CM, lvl=INFO] [tid=535]  GWP_SysCfgGetInt : name = last_erouter_mode 
+8.085419 [mod=CM, lvl=INFO] [tid=535]  value = 3 
+8.085445 [mod=CM, lvl=INFO] [tid=535]  GWP_SysCfgGetInt : name = bridge_mode 
+8.085590 [mod=CM, lvl=INFO] [tid=535]  value = 0 
+8.085617 [mod=CM, lvl=INFO] [tid=535]  GWP_SysCfgGetInt : name = last_erouter_mode 
+8.085758 [mod=CM, lvl=INFO] [tid=535]  value = 3 
+8.085785 [mod=CM, lvl=INFO] [tid=535]  validate_mode : bridge_mode = 0 , eRouterMode = 3 
+8.085808 [mod=CM, lvl=INFO] [tid=535]  active_mode 0 
+8.088146 [mod=CM, lvl=INFO] [tid=534] GWP_EventHandler:4193: Waiting for ccsp-cm-agent to parse TLV config file
+8.093361 [mod=CM, lvl=INFO] [tid=535]  Entry GWP_DocsisInited 
+8.098793 [mod=CM, lvl=INFO] [tid=535] getDecisionErouteOperMode: esafeErouterInitModeControl is 5, eRouterMode: 3
+8.099941 [mod=CM, lvl=INFO] [tid=535]  active_mode 0 
+8.124855 [mod=CM, lvl=INFO] [tid=535]  eRouterModeTmp = 3
+8.124874 [mod=CM, lvl=INFO] [tid=535]  GWP_SysCfgGetInt : name = last_erouter_mode 
+8.124973 [mod=CM, lvl=INFO] [tid=535]  value = 3 
+8.124989 [mod=CM, lvl=INFO] [tid=535]  eRouterMode = 3
+8.125107 [mod=CM, lvl=INFO] [tid=535]  operMode = 3
+8.125309 [mod=CM, lvl=INFO] [tid=535]  Disconnecting DOCSIS local bridge
+8.125412 [mod=CM, lvl=INFO] [tid=535]  Disconnecting DOCSIS local bridge
+8.126026 [mod=CM, lvl=INFO] [tid=535]  lan_wan_ready = 0
+8.130402 [mod=CM, lvl=INFO] [tid=535] GWPROVAPPABS: appCb.pDocsis_gotEnable()
+8.130424 [mod=CM, lvl=INFO] [tid=535]  Entry docsis_gotEnable_callback , state = 3 
+9.088348 [mod=CM, lvl=INFO] [tid=534] GWP_EventHandler:4193: Waiting for ccsp-cm-agent to parse TLV config file
+10.088436 [mod=CM, lvl=INFO] [tid=534] GWP_EventHandler:4193: Waiting for ccsp-cm-agent to parse TLV config file
+10.130718 [mod=CM, lvl=INFO] [tid=535] GWPROVAPPABS: appCb.pGWP_act_DocsisTftpOk()
+10.130737 [mod=CM, lvl=INFO] [tid=535] Entry GWP_act_DocsisTftpOk_callback 
+10.130741 [mod=CM, lvl=INFO] [tid=535] GWPROVAPPABS: appCb.pGWP_act_DocsisCfgfile()
+10.130749 [mod=CM, lvl=INFO] [tid=535] Entry GWP_act_DocsisCfgfile_callback 
+10.130951 [mod=CM, lvl=INFO] [tid=535]  cfgFileName = /nvram/eroutercfg.bin
+10.132584 [mod=CM, lvl=INFO] [tid=535]  Entry docsis_gotEnable_callback , state = 3 
+10.132683 [mod=CM, lvl=INFO] [tid=535] Entry GW_Tr069PaSubTLVParse 
+10.132687 [mod=CM, lvl=INFO] [tid=535]  GW_Tr069PaSubTLVParse : type 1, length 1 , value 1
+10.132690 [mod=CM, lvl=INFO] [tid=535]  Entry WriteTr69TlvData : typeOfTLV 1 
+10.132744 [mod=CM, lvl=INFO] [tid=535]  Normal Bootup 
+10.494308 [mod=CM, lvl=INFO] [tid=535] Entry GW_Tr069PaSubTLVParse 
+10.494328 [mod=CM, lvl=INFO] [tid=535]  GW_Tr069PaSubTLVParse : type 7, length 1 , value 1
+10.494331 [mod=CM, lvl=INFO] [tid=535]  Entry WriteTr69TlvData : typeOfTLV 7 
+10.500229 [mod=CM, lvl=INFO] [tid=535]  Normal Bootup 
+10.872005 [mod=CM, lvl=INFO] [tid=535] Entry GW_Tr069PaSubTLVParse 
+10.872013 [mod=CM, lvl=INFO] [tid=535]  GW_Tr069PaSubTLVParse : type 2, length 50 , value 104
+10.872017 [mod=CM, lvl=INFO] [tid=535]  Entry WriteTr69TlvData : typeOfTLV 2 
+10.877117 [mod=CM, lvl=INFO] [tid=535]  Normal Bootup 
+10.902721 [mod=CM, lvl=INFO] [tid=535] Entry GW_Tr069PaSubTLVParse 
+10.902729 [mod=CM, lvl=INFO] [tid=535]  GW_Tr069PaSubTLVParse : type 3, length 5 , value 116
+10.902737 [mod=CM, lvl=INFO] [tid=535]  Entry WriteTr69TlvData : typeOfTLV 3 
+10.907448 [mod=CM, lvl=INFO] [tid=535]  Normal Bootup 
+10.924747 [mod=CM, lvl=INFO] [tid=535] Entry GW_Tr069PaSubTLVParse 
+10.924755 [mod=CM, lvl=INFO] [tid=535]  GW_Tr069PaSubTLVParse : type 4, length 5 , value 116
+10.924759 [mod=CM, lvl=INFO] [tid=535]  Entry WriteTr69TlvData : typeOfTLV 4 
+10.946327 [mod=CM, lvl=INFO] [tid=535]  Normal Bootup 
+10.961742 [mod=CM, lvl=INFO] [tid=535]  eSafe Config file "/nvram/eroutercfg.bin", parsed completed, status 0
+10.961761 [mod=CM, lvl=INFO] [tid=535]  Entry GW_UpdateTr069Cfg 
+10.961765 [mod=CM, lvl=INFO] [tid=535]  Entry GW_SetTr069PaDataInTLV11Buffer 
+10.961769 [mod=CM, lvl=INFO] [tid=535]  Entry GW_SetTr069PaMibBoolean 
+10.961773 [mod=CM, lvl=INFO] [tid=535]  Entry GW_SetTr069PaMibString 
+10.961781 [mod=CM, lvl=INFO] [tid=535]  Entry GW_SetTr069PaMibString 
+10.961784 [mod=CM, lvl=INFO] [tid=535]  Entry GW_SetTr069PaMibString 
+10.961788 [mod=CM, lvl=INFO] [tid=535]  Entry GW_SetTr069PaMibBoolean 
+10.961872 [mod=CM, lvl=INFO] [tid=535] GWP_UpdateTr069CfgThread started
+10.961922 [mod=CM, lvl=INFO] [tid=2207]  Entry GWP_UpdateTr069CfgThread 
+10.962002 [mod=CM, lvl=INFO] [tid=535]  GWP_UpdateERouterMode: 3->3
+10.962254 [mod=CM, lvl=INFO] [tid=535]  GWP_UpdateERouterMode: 3->3
+10.963654 [mod=CM, lvl=INFO] [tid=545]  GWP_sysevent_threadfunc : name = cfgfile_apply, val =  
+10.964783 [mod=CM, lvl=INFO] [tid=2207] GWP_UpdateTr069CfgThread CcspTr069PaSsp is running PID:1389
+10.964798 [mod=CM, lvl=INFO] [tid=2207] GWP_UpdateTr069CfgThread CcspTr069PaSsp might be parsed /nvram/TLVData.bin file
+10.964806 [mod=CM, lvl=INFO] [tid=2207]  Exit GWP_UpdateTr069CfgThread 
+11.088528 [mod=CM, lvl=INFO] [tid=534] GWP_EventHandler:4199: eRouterMode value before setting IP Mode : 3 
+11.094955 [mod=CM, lvl=INFO] [tid=534] GWP_EventHandler:4203: going to wait in mq receive 
+11.102604 [mod=CM, lvl=INFO] [tid=575] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+11.102612 [mod=CM, lvl=ERROR] [tid=575] Failed to discover component. Error Code = 2
+12.962769 [mod=CM, lvl=INFO] [tid=535] GWPROVAPPABS: appCb.pGWP_act_DocsisLinkUp()
+12.962852 [mod=CM, lvl=INFO] [tid=535] Entry GWP_act_DocsisLinkUp_callback 
+12.962860 [mod=CM, lvl=INFO] [tid=535] GWP_PushEventInMsgq:4123: before open 
+12.962872 [mod=CM, lvl=INFO] [tid=535] GWP_PushEventInMsgq:4136: before send 
+12.962883 [mod=CM, lvl=INFO] [tid=535] GWP_PushEventInMsgq:4144: mq close failed 
+12.962887 [mod=CM, lvl=INFO] [tid=535] GWP_PushEventInMsgq:4146: exited 
+12.962917 [mod=CM, lvl=INFO] [tid=534] GWP_EventHandler:4216: EventTpype 0 
+12.962940 [mod=CM, lvl=INFO] [tid=534] GWP_EventHandler 4236 - UpdateOperStatusThread Successfully
+12.962948 [mod=CM, lvl=INFO] [tid=534] GWP_EventHandler:4183: check wanmanger is ready 
+12.962955 [mod=CM, lvl=INFO] [tid=534] GWP_EventHandler:4199: eRouterMode value before setting IP Mode : 3 
+12.962990 [mod=CM, lvl=INFO] [tid=2224] UpdateOperStatusThread 2947 -  Started
+12.963062 [mod=CM, lvl=INFO] [tid=2224] UpdateOperStatusThread 2959 getCMStatus OPERATIONAL 
+12.963070 [mod=CM, lvl=INFO] [tid=2224] UpdateOperStatusThread 2974 - Device.X_RDK_WanManager.Interface.1.BaseInterfaceStatus updated to Up
+12.975590 [mod=CM, lvl=INFO] [tid=534] GWP_EventHandler:4203: going to wait in mq receive 
+12.976810 [mod=CM, lvl=INFO] [tid=2224] UpdateOperStatusThread 2976 -  Exit
+15.214886 [mod=CM, lvl=INFO] [tid=545]  GWP_sysevent_threadfunc : name = wan-status, val = starting 
+16.585056 [mod=CM, lvl=INFO] [tid=545]  GWP_sysevent_threadfunc : name = current_wan_ipaddr, val = 10.107.200.138 
+16.624863 [mod=CM, lvl=INFO] [tid=545]  GWP_sysevent_threadfunc : name = ipv4-status, val = up 
+16.625069 [mod=CM, lvl=INFO] [tid=545]  operMode = 3 
+16.625084 [mod=CM, lvl=INFO] [tid=545]  Retaining DOCESAFE_EROUTER_OPER_IPV4_IPV6_extIf mode
+16.625179 [mod=CM, lvl=INFO] [tid=545]  GWP_sysevent_threadfunc : name = wan-status, val = started 
+16.625198 [mod=CM, lvl=INFO] [tid=545]  Entry check_lan_wan_ready 
+16.625957 [mod=CM, lvl=INFO] [tid=545]  bridge-status = stopped
+16.625973 [mod=CM, lvl=INFO] [tid=545]  lan-status = started
+16.625980 [mod=CM, lvl=INFO] [tid=545]  wan-status = started
+16.625988 [mod=CM, lvl=INFO] [tid=545]  ipv6_prefix = 
+16.626011 [mod=CM, lvl=INFO] [tid=545]  eRouterMode = 3
+16.626015 [mod=CM, lvl=INFO] [tid=545]  bridge_mode = 0
+16.626022 [mod=CM, lvl=INFO] [tid=545]  GWP_SysCfgGetInt : name = last_erouter_mode 
+16.719574 [mod=CM, lvl=INFO] [tid=545]  value = 3 
+17.351662 [mod=CM, lvl=INFO] [tid=545]  GWP_sysevent_threadfunc : name = ipv6-status, val = up 
+17.351784 [mod=CM, lvl=INFO] [tid=545]  operMode = 3 
+17.351791 [mod=CM, lvl=INFO] [tid=545]  Retaining DOCESAFE_EROUTER_OPER_IPV4_IPV6_extIf mode
+17.353264 [mod=CM, lvl=INFO] [tid=545]  GWP_sysevent_threadfunc : name = ipv6_prefix, val = 3001:dae:0:e700::/56 
+17.353279 [mod=CM, lvl=INFO] [tid=545]  Entry check_lan_wan_ready 
+17.353573 [mod=CM, lvl=INFO] [tid=545]  bridge-status = stopped
+17.353580 [mod=CM, lvl=INFO] [tid=545]  lan-status = started
+17.353584 [mod=CM, lvl=INFO] [tid=545]  wan-status = started
+17.353588 [mod=CM, lvl=INFO] [tid=545]  ipv6_prefix = 3001:dae:0:e700::/56
+17.353596 [mod=CM, lvl=INFO] [tid=545]  eRouterMode = 3
+17.353600 [mod=CM, lvl=INFO] [tid=545]  bridge_mode = 0
+17.353680 [mod=CM, lvl=INFO] [tid=545]  GWP_SysCfgGetInt : name = skenable 
+17.353737 [mod=CM, lvl=INFO] [tid=545]  value = 0 
+17.485859 [mod=CM, lvl=INFO] [tid=545]  GWP_sysevent_threadfunc : name = tr_erouter0_dhcpv6_client_v6addr, val = 2001:dae:7:1::214 
+17.486401 [mod=CM, lvl=INFO] [tid=545]  GWP_SysCfgGetInt : name = last_erouter_mode 
+17.486454 [mod=CM, lvl=INFO] [tid=545]  value = 3 
+19.647808 [mod=CM, lvl=INFO] [tid=533] <<< DslhWmpdoMpaSetParameterAttributes pSetParameterAttribArray[0].RequesterID 4 >>>
+19.647827 [mod=CM, lvl=INFO] [tid=533] <<< DslhVarroSetNotification pMyObject->RequesterID 4 >>>
+19.648296 [mod=CM, lvl=INFO] [tid=533]  Download status is 0 
+19.648308 [mod=CM, lvl=INFO] [tid=533] <<<  pDslhVarRecord->RequesterID 4 >>>
+19.649597 [mod=CM, lvl=INFO] [tid=533] <<< DslhWmpdoMpaSetParameterAttributes pSetParameterAttribArray[0].RequesterID 4 >>>
+21.102661 [mod=CM, lvl=INFO] [tid=575] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+21.102680 [mod=CM, lvl=ERROR] [tid=575] Failed to discover component. Error Code = 2
+23.044861 [mod=CM, lvl=INFO] [tid=535]  GWP_SysCfgGetInt : name = bridge_mode 
+23.044937 [mod=CM, lvl=INFO] [tid=535]  value = 0 
+31.102749 [mod=CM, lvl=INFO] [tid=575] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+31.102772 [mod=CM, lvl=ERROR] [tid=575] Failed to discover component. Error Code = 2
+31.145237 [mod=CM, lvl=INFO] [tid=568]  Download status is 0 
+41.102840 [mod=CM, lvl=INFO] [tid=575] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+41.102859 [mod=CM, lvl=ERROR] [tid=575] Failed to discover component. Error Code = 2
+46.154778 [mod=CM, lvl=INFO] [tid=568]  Download status is 0 
+51.102917 [mod=CM, lvl=INFO] [tid=575] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+51.102936 [mod=CM, lvl=ERROR] [tid=575] Failed to discover component. Error Code = 2
+61.103001 [mod=CM, lvl=INFO] [tid=575] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+61.103016 [mod=CM, lvl=ERROR] [tid=575] Failed to discover component. Error Code = 2
+61.162621 [mod=CM, lvl=INFO] [tid=568]  Download status is 0 

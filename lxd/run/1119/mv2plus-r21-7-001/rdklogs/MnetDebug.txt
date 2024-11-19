@@ -1,0 +1,7 @@
+2024-11-19 23:09:24 ENTERED MULTINET APP, argc = 2 
+2024-11-19 23:09:24 Sysevent open
+2024-11-19 23:09:24 Setting executableName: /etc/utopia/service.d/service_multinet_exec
+2024-11-19 23:09:24 Setting Multicast MACs early
+2024-11-19 23:09:27 ENTERED MULTINET APP, argc = 2 
+2024-11-19 23:09:27 Sysevent open
+2024-11-19 23:09:27 Setting executableName: /etc/utopia/service.d/service_multinet_exec

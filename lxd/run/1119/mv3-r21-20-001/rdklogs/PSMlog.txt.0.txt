@@ -1,0 +1,559 @@
+0.026051 [mod=PSM, lvl=INFO] [tid=421] Dropping root privileges
+0.026131 [mod=PSM, lvl=WARN] [tid=421] Semaphore initialization Done!!
+0.026520 [mod=PSM, lvl=WARN] [tid=422] Core dump is opened, do not catch signal
+0.026539 [mod=PSM, lvl=WARN] [tid=422] 
+
+0.026543 [mod=PSM, lvl=WARN] [tid=422]         ***************************************************************
+0.026550 [mod=PSM, lvl=WARN] [tid=422]         ***                                                         ***
+0.026577 [mod=PSM, lvl=WARN] [tid=422]         ***            PSM Testing App - Simulation                 ***
+0.026581 [mod=PSM, lvl=WARN] [tid=422]         ***           Common Component Service Platform             ***
+0.026588 [mod=PSM, lvl=WARN] [tid=422]         ***                                                         ***
+0.026592 [mod=PSM, lvl=WARN] [tid=422]         ***          Copyright 2014 Cisco Systems, Inc.             ***
+0.026596 [mod=PSM, lvl=WARN] [tid=422]         ***       Licensed under the Apache License, Version 2.0    ***
+0.026600 [mod=PSM, lvl=WARN] [tid=422]         ***                                                         ***
+0.026604 [mod=PSM, lvl=WARN] [tid=422]         ***************************************************************
+0.026611 [mod=PSM, lvl=WARN] [tid=422] 
+
+0.026615 [mod=PSM, lvl=INFO] [tid=422]  inside cmd_dispatch
+0.026619 [mod=PSM, lvl=INFO] [tid=422]  inside case 'e' !bEngaged
+0.026634 [mod=PSM, lvl=INFO] [tid=422] 
+PsmSysReg Object mem alloc
+0.026646 [mod=PSM, lvl=INFO] [tid=422] PsmCreateFileLoader-New File LoaderObject is created 
+0.026974 [mod=PSM, lvl=INFO] [tid=422] PsmFloEnrollObjects, Enrolled objectes required by pMyObject'
+0.026981 [mod=PSM, lvl=INFO] [tid=422] PsmFloInitialize, initialization member function of the base class'
+0.026989 [mod=PSM, lvl=INFO] [tid=422] Object Property is Reset
+0.026993 [mod=PSM, lvl=INFO] [tid=422] PsmFloInitialize, initialization of member fields'
+0.026997 [mod=PSM, lvl=INFO] [tid=422] Initialized Common Variables'
+0.027233 [mod=PSM, lvl=INFO] [tid=422]  inside case 'e' !bEngaged-pPsmSysRegistry
+0.027302 [mod=PSM, lvl=INFO] [tid=422] Psm Cfm Interface is set
+0.027313 [mod=PSM, lvl=INFO] [tid=422] System Ira Interface is set
+0.027317 [mod=PSM, lvl=INFO] [tid=422]  Engage in PsmFloEngage 
+0.027328 [mod=PSM, lvl=INFO] [tid=422] ssp_CfmReadCurConfig begins
+0.028606 [mod=PSM, lvl=ERROR] [tid=422] ssp_CfmReadCurConfig: Fail to import custom params
+0.029709 [mod=PSM, lvl=INFO] [tid=422] -- Psm_GetCustomPartnersParams - Name :eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.X_RDKCENTRAL-COM_Syndication.WiFiRegion.Code Value:USI
+0.029716 [mod=PSM, lvl=INFO] [tid=422] -- Psm_GetCustomPartnersParams - Name :dmsb.device.deviceinfo.X_RDKCENTRAL-COM_Syndication.TR69CertLocation Value:/etc/cacert.pem
+0.029724 [mod=PSM, lvl=INFO] [tid=422] -- Psm_GetCustomPartnersParams - Name :Device.DeviceInfo.X_RDKCENTRAL-COM_Syndication.HomeSec.SSIDprefix Value:XHS
+0.029755 [mod=PSM, lvl=INFO] [tid=422] -- Psm_GetCustomPartnersParams - Name :dmsb.l3net.4.V4Addr Value:192.168.178.1
+0.029785 [mod=PSM, lvl=INFO] [tid=422] -- Psm_GetCustomPartnersParams - Name :dmsb.l3net.4.V4SubnetMask Value:255.255.255.0
+0.029793 [mod=PSM, lvl=INFO] [tid=422] -- Psm_GetCustomPartnersParams - Total Count:5
+0.029800 [mod=PSM, lvl=INFO] [tid=422] IsParameterMissed param present dmsb.device.deviceinfo.X_RDKCENTRAL-COM_Syndication.TR69CertLocation
+0.029804 [mod=PSM, lvl=INFO] [tid=422] IsParameterMissed param present eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.X_RDKCENTRAL-COM_Syndication.WiFiRegion.Code
+0.029995 [mod=PSM, lvl=INFO] [tid=422] IsParameterMissed param present Device.DeviceInfo.X_RDKCENTRAL-COM_Syndication.HomeSec.SSIDprefix
+0.030003 [mod=PSM, lvl=INFO] [tid=422] IsParameterMissed param present Device.X_RDK_WebConfig.URL
+0.030010 [mod=PSM, lvl=INFO] [tid=422] IsParameterMissed param present Device.X_RDK_WebConfig.SupplementaryServiceUrls.Telemetry
+0.030014 [mod=PSM, lvl=INFO] [tid=422] IsParameterMissed param present dmsb.l3net.4.V4Addr
+0.030018 [mod=PSM, lvl=INFO] [tid=422] IsParameterMissed prev dmsb.l2net.5.InstanceNum rec dmsb.l3net.4.V4Addr
+0.030022 [mod=PSM, lvl=INFO] [tid=422] IsParameterMissed param present dmsb.l3net.4.V4SubnetMask
+0.030029 [mod=PSM, lvl=INFO] [tid=422] -- flush_records : Flushing all records in hash table to buffer
+0.030548 [mod=PSM, lvl=INFO] [tid=422] ssp_CfmSaveCurConfig: called
+0.089985 [mod=PSM, lvl=INFO] [tid=422] PsmFloLoadRegFile, pFileData is free
+0.090263 [mod=PSM, lvl=INFO] [tid=422] PsmFloLoadRegFile, pRootNode is free
+0.090275 [mod=PSM, lvl=INFO] [tid=422] PsmFloLoadRegFile, hSysRoot folder closed
+0.090279 [mod=PSM, lvl=WARN] [tid=422] RDKB_SYSTEM_BOOT_UP_LOG : PsmDBusInit Entry
+0.090313 [mod=PSM, lvl=INFO] [tid=422] rbuscore.c:2340 RBus Enabled
+
+0.090324 [mod=PSM, lvl=INFO] [tid=422] rbuscore.c:656 Broker address: unix:///tmp/rtrouted
+
+0.090557 [mod=PSM, lvl=INFO] [tid=422] connection opened for eRT.com.cisco.spvtg.ccsp.psm
+0.090755 [mod=PSM, lvl=INFO] [tid=422] eRT.com.cisco.spvtg.ccsp.psm start to check eRT.com.cisco.spvtg.ccsp.CR status
+0.091465 [mod=PSM, lvl=INFO] [tid=422] eRT.com.cisco.spvtg.ccsp.CR is ready, eRT.com.cisco.spvtg.ccsp.psm continue
+0.091476 [mod=PSM, lvl=WARN] [tid=422] PsmSsp register capabilities of eRT.com.cisco.spvtg.ccsp.psm to eRT.com.cisco.spvtg.ccsp.CR: 
+0.091484 [mod=PSM, lvl=WARN] [tid=422] PsmSsp registering 17 items like com.cisco.spvtg.ccsp.psm with prefix='eRT.' ... 
+0.092762 [mod=PSM, lvl=WARN] [tid=422]  RDKB_SYSTEM_BOOT_UP_LOG : PsmSsp register capabilities successful with ret=100.
+0.092918 [mod=PSM, lvl=WARN] [tid=422] Interface 'dslhMiniWebSvcIf' is added into CpeController.
+0.092926 [mod=PSM, lvl=WARN] [tid=422] Unable to retrieve interface 'CcspComponentCommonDatamodelIf' in DslhCpeController.
+0.092934 [mod=PSM, lvl=WARN] [tid=422] Unable to retrieve interface 'dslhLibCallbackSvcIf' in DslhCpeController.
+0.093060 [mod=PSM, lvl=WARN] [tid=422] Register empty object : com.
+0.093071 [mod=PSM, lvl=WARN] [tid=422] Register empty object : com.cisco.
+0.093079 [mod=PSM, lvl=WARN] [tid=422] Register empty object : com.cisco.spvtg.
+0.093090 [mod=PSM, lvl=WARN] [tid=422] Register empty object : com.cisco.spvtg.ccsp.
+0.093094 [mod=PSM, lvl=WARN] [tid=422] RDKB_SYSTEM_BOOT_UP_LOG : PSM Health set to Green
+0.093113 [mod=PSM, lvl=INFO] [tid=422] rbus.c:2778 rbus open for component: rbusPsmSsp
+
+0.093151 [mod=PSM, lvl=INFO] [tid=422] rbus.c:2854  rbus open (rbusPsmSsp) success
+
+0.093163 [mod=PSM, lvl=INFO] [tid=422] rbus_subscriptions.c:447 file /tmp/rbus_subs_rbusPsmSsp
+
+0.093456 [mod=PSM, lvl=WARN] [tid=422] RDKB_SYSTEM_BOOT_UP_LOG : PSM started ...
+0.093468 [mod=PSM, lvl=INFO] [tid=422]  cmd_dispatch exit
+0.097805 [mod=PSM, lvl=INFO] [tid=422] CAP_DAC_OVERRIDE removed
+1.016251 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+1.016415 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+1.016823 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+1.029999 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+1.030205 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+1.030567 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+1.120613 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.PORTMAPPING.PORTTRIGGER.NextInstanceNumber , returnStatus 4294967280 +++
+1.122169 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.NATPassthrough.NextInstanceNumber , returnStatus 4294967280 +++
+1.133118 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.device.deviceinfo.X_RDKCENTRAL-COM_WHIX.ChUtilityLogInterval , returnStatus 4294967280 +++
+1.133244 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.device.deviceinfo.X_RDKCENTRAL-COM_WHIX.LogInterval , returnStatus 4294967280 +++
+1.133366 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.device.deviceinfo.X_RDKCENTRAL-COM_WHIX.NormalizedRssiList , returnStatus 4294967280 +++
+1.133484 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.device.deviceinfo.X_RDKCENTRAL-COM_WHIX.CliStatList , returnStatus 4294967280 +++
+1.133614 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.device.deviceinfo.X_RDKCENTRAL-COM_WHIX.TxRxRateList , returnStatus 4294967280 +++
+1.133755 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.device.deviceinfo.X_RDKCENTRAL-COM_WIFI_TELEMETRY.SNRList , returnStatus 4294967280 +++
+1.134697 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.UserInterfaceIPRange.NextInstanceNumber , returnStatus 4294967280 +++
+1.147682 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.EthLink.NextInstanceNumber , returnStatus 4294967280 +++
+1.147911 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.EthVlanTermination.NextInstanceNumber , returnStatus 4294967280 +++
+1.149155 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.EthLink.3.Name , returnStatus 4294967280 +++
+1.149620 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.EthLink.1.LowerLayerType , returnStatus 4294967280 +++
+1.150085 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.EthLink.1.Name , returnStatus 4294967280 +++
+1.150570 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.EthLink.2.LowerLayerType , returnStatus 4294967280 +++
+1.151051 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.EthLink.2.Name , returnStatus 4294967280 +++
+1.152493 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.EthLink.4.LowerLayerType , returnStatus 4294967280 +++
+1.152962 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.EthLink.4.Name , returnStatus 4294967280 +++
+1.157597 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.DynamicDnsClient.DynamicDnsClientNextInstanceNumber , returnStatus 4294967280 +++
+1.158173 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.DynamicDnsHost.DynamicDnsHostNextInstanceNumber , returnStatus 4294967280 +++
+1.158882 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.DynamicDnsServer.DynamicDnsServerNextInstanceNumber , returnStatus 4294967280 +++
+1.160595 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.IpFilterFirewall.IpFilterNextInstanceNumber , returnStatus 4294967280 +++
+1.161156 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.IpFilterFirewall_V6.IpFilterNextInstanceNumber_V6 , returnStatus 4294967280 +++
+1.161610 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.V4DayOfWeek.NextInstanceNumber , returnStatus 4294967280 +++
+1.162373 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.V6DayOfWeek.NextInstanceNumber , returnStatus 4294967280 +++
+1.163441 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.InternetAccess.NextAPInstanceNum0.NextAPInstanceNum , returnStatus 4294967280 +++
+1.163967 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.IPInterface.NextInstanceNumber0.NextInstanceNumber , returnStatus 4294967280 +++
+1.169506 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.l3net.1.EthLink , returnStatus 4294967280 +++
+1.169632 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.IPInterface.NextIPv4InstanceNum1.NextIPv4InstanceNum , returnStatus 4294967280 +++
+1.171722 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.IPInterface.NextIPv6PreInstanceNum1.NextIPv6PreInstanceNum , returnStatus 4294967280 +++
+1.173534 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.l3net.2.EthLink , returnStatus 4294967280 +++
+1.173664 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.IPInterface.NextIPv4InstanceNum2.NextIPv4InstanceNum , returnStatus 4294967280 +++
+1.175579 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.IPInterface.NextIPv6InstanceNum2.NextIPv6InstanceNum , returnStatus 4294967280 +++
+1.175709 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.IPInterface.NextIPv6PreInstanceNum2.NextIPv6PreInstanceNum , returnStatus 4294967280 +++
+1.177586 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.l3net.3.EthLink , returnStatus 4294967280 +++
+1.177708 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.IPInterface.NextIPv4InstanceNum3.NextIPv4InstanceNum , returnStatus 4294967280 +++
+1.179565 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.IPInterface.NextIPv6InstanceNum3.NextIPv6InstanceNum , returnStatus 4294967280 +++
+1.179699 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.IPInterface.NextIPv6PreInstanceNum3.NextIPv6PreInstanceNum , returnStatus 4294967280 +++
+1.179836 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.IPInterface.NextIPv4InstanceNum4.NextIPv4InstanceNum , returnStatus 4294967280 +++
+1.180256 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.IPInterface.NextIPv6InstanceNum4.NextIPv6InstanceNum , returnStatus 4294967280 +++
+1.180378 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.IPInterface.NextIPv6PreInstanceNum4.NextIPv6PreInstanceNum , returnStatus 4294967280 +++
+1.181374 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.IPInterface.NextIPv4InstanceNum5.NextIPv4InstanceNum , returnStatus 4294967280 +++
+1.181778 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.IPInterface.NextIPv6InstanceNum5.NextIPv6InstanceNum , returnStatus 4294967280 +++
+1.181904 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.IPInterface.NextIPv6PreInstanceNum5.NextIPv6PreInstanceNum , returnStatus 4294967280 +++
+1.182907 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.IPInterface.NextIPv4InstanceNum6.NextIPv4InstanceNum , returnStatus 4294967280 +++
+1.183319 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.IPInterface.NextIPv6InstanceNum6.NextIPv6InstanceNum , returnStatus 4294967280 +++
+1.183453 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.IPInterface.NextIPv6PreInstanceNum6.NextIPv6PreInstanceNum , returnStatus 4294967280 +++
+1.183670 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.IPInterface.NextIPv4InstanceNum7.NextIPv4InstanceNum , returnStatus 4294967280 +++
+1.183815 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.IPInterface.NextIPv6InstanceNum7.NextIPv6InstanceNum , returnStatus 4294967280 +++
+1.183937 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.IPInterface.NextIPv6PreInstanceNum7.NextIPv6PreInstanceNum , returnStatus 4294967280 +++
+1.184887 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.13.AllowDelete , returnStatus 4294967280 +++
+1.185162 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.13.Alias , returnStatus 4294967280 +++
+1.185295 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.13.IPInterface , returnStatus 4294967280 +++
+1.185669 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.13.SubnetMask , returnStatus 4294967280 +++
+1.185795 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.13.DomainName , returnStatus 4294967280 +++
+1.186047 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.13.LeaseTime , returnStatus 4294967280 +++
+1.186195 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.13.Order , returnStatus 4294967280 +++
+1.186317 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.13.TimeOffset , returnStatus 4294967280 +++
+1.187504 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.3.Alias , returnStatus 4294967280 +++
+1.188152 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.3.DomainName , returnStatus 4294967280 +++
+1.188534 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.3.Order , returnStatus 4294967280 +++
+1.188660 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.3.TimeOffset , returnStatus 4294967280 +++
+1.189526 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.12.AllowDelete , returnStatus 4294967280 +++
+1.189785 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.12.Alias , returnStatus 4294967280 +++
+1.189926 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.12.IPInterface , returnStatus 4294967280 +++
+1.190289 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.12.SubnetMask , returnStatus 4294967280 +++
+1.190418 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.12.DomainName , returnStatus 4294967280 +++
+1.190674 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.12.LeaseTime , returnStatus 4294967280 +++
+1.190804 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.12.Order , returnStatus 4294967280 +++
+1.190948 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.12.TimeOffset , returnStatus 4294967280 +++
+1.191917 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.Dhcpv4.X_CISCO_COM_SAddr.NextInstanceNumber , returnStatus 4294967280 +++
+1.193974 [mod=PSM, lvl=WARN] [tid=425] setParameterValues -- size:1, Provision.COSALibrary.Dhcpv4.Pool.NextInstanceNumber: 13
+1.194149 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.LanAllowedSubnet.LanAllowedSubnetNextInstanceNumber , returnStatus 4294967280 +++
+1.195045 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.DNSServer.NextInsNum0.NextInsNum , returnStatus 4294967280 +++
+1.195316 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.DNSServer.NextForwardInsNum0.NextForwardInsNum , returnStatus 4294967280 +++
+1.196510 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.Router.NextInsNum0.NextInsNum , returnStatus 4294967280 +++
+1.196770 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.Router.NextForwardInsNum1.NextForwardInsNum , returnStatus 4294967280 +++
+1.197048 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.Router.NextIPv6ForwardInsNum1.NextIPv6ForwardInsNum , returnStatus 4294967280 +++
+1.231503 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.Bridging.NextPortInstanceNum4.NextPortInstanceNum , returnStatus 4294967280 +++
+1.232941 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.Bridging.NextVLANInstanceNum4.NextVLANInstanceNum , returnStatus 4294967280 +++
+1.233078 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.Bridging.NextPortInstanceNum8.NextPortInstanceNum , returnStatus 4294967280 +++
+1.234314 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.Bridging.NextVLANInstanceNum8.NextVLANInstanceNum , returnStatus 4294967280 +++
+1.234455 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.Bridging.NextPortInstanceNum1.NextPortInstanceNum , returnStatus 4294967280 +++
+1.241791 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.Bridging.NextVLANInstanceNum1.NextVLANInstanceNum , returnStatus 4294967280 +++
+1.241940 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.Bridging.NextPortInstanceNum7.NextPortInstanceNum , returnStatus 4294967280 +++
+1.243053 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.Bridging.NextVLANInstanceNum7.NextVLANInstanceNum , returnStatus 4294967280 +++
+1.243187 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.Bridging.NextPortInstanceNum6.NextPortInstanceNum , returnStatus 4294967280 +++
+1.245201 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.Bridging.NextVLANInstanceNum6.NextVLANInstanceNum , returnStatus 4294967280 +++
+1.245358 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.Bridging.NextPortInstanceNum5.NextPortInstanceNum , returnStatus 4294967280 +++
+1.247322 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.Bridging.NextVLANInstanceNum5.NextVLANInstanceNum , returnStatus 4294967280 +++
+1.247459 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.Bridging.NextPortInstanceNum3.NextPortInstanceNum , returnStatus 4294967280 +++
+1.248592 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.Bridging.NextVLANInstanceNum3.NextVLANInstanceNum , returnStatus 4294967280 +++
+1.248749 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.Bridging.NextPortInstanceNum9.NextPortInstanceNum , returnStatus 4294967280 +++
+1.248997 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.Bridging.NextVLANInstanceNum9.NextVLANInstanceNum , returnStatus 4294967280 +++
+1.249119 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.Bridging.NextPortInstanceNum2.NextPortInstanceNum , returnStatus 4294967280 +++
+1.251980 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.Bridging.NextVLANInstanceNum2.NextVLANInstanceNum , returnStatus 4294967280 +++
+1.252678 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.PPPIf.NextInstanceNumber , returnStatus 4294967280 +++
+1.258957 [mod=PSM, lvl=WARN] [tid=425] setParameterValues -- size:1, Provision.COSALibrary.Dhcpv6.Pool.NextInstanceNumber: 5
+1.259792 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for EnableMonitorUserChangedParams , returnStatus 4294967280 +++
+1.259914 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for UserOpComponents , returnStatus 4294967280 +++
+1.260063 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.LanManagement.LMNextInstanceNumber , returnStatus 4294967280 +++
+1.261116 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.IPv6rdIF.NextInstanceNumber , returnStatus 4294967280 +++
+1.261600 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.RAInterface.NextInstanceNumber0.NextInstanceNumber , returnStatus 4294967280 +++
+1.261742 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.RAInterface.NextOptionInstanceNum1.NextOptionInstanceNum , returnStatus 4294967280 +++
+1.261890 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.RAInterface.NextOptionInstanceNum2.NextOptionInstanceNum , returnStatus 4294967280 +++
+1.266247 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.NeighdiscInterface.NextInstanceNumber0.NextInstanceNumber , returnStatus 4294967280 +++
+1.271656 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.ParentalControl.PCNextInstanceNumber , returnStatus 4294967280 +++
+1.272320 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.ParentalControl.PCNextInstanceNumber , returnStatus 4294967280 +++
+1.272934 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.ParentalControl.PCNextInstanceNumber , returnStatus 4294967280 +++
+1.273518 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.ParentalControl.PCNextInstanceNumber , returnStatus 4294967280 +++
+1.274101 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.ParentalControl.PCNextInstanceNumber , returnStatus 4294967280 +++
+1.287060 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.13.IPInterface , returnStatus 4294967280 +++
+1.287468 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.13.SubnetMask , returnStatus 4294967280 +++
+1.287685 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.13.LeaseTime , returnStatus 4294967280 +++
+1.289410 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.12.IPInterface , returnStatus 4294967280 +++
+1.289814 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.12.SubnetMask , returnStatus 4294967280 +++
+1.289940 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.12.LeaseTime , returnStatus 4294967280 +++
+1.290428 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.13.IPInterface , returnStatus 4294967280 +++
+1.290981 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.dhcpv4.server.pool.12.IPInterface , returnStatus 4294967280 +++
+1.456169 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.MacFilterFirewall.MacFilterNextInstanceNumber , returnStatus 4294967280 +++
+1.456623 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.MacDayOfWeek.NextInstanceNumber , returnStatus 4294967280 +++
+1.461723 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.DNSWhitelistUrl.DNSWhitelistUrlNextInstanceNumber , returnStatus 4294967280 +++
+1.462711 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.TrueStaticIPRule.NextInstanceNumber , returnStatus 4294967280 +++
+2.228577 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.EnableCWMP.Notification , returnStatus 4294967280 +++
+2.228706 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.URL.Value , returnStatus 4294967280 +++
+2.228859 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.URL.Notification , returnStatus 4294967280 +++
+2.229000 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.Username.Value , returnStatus 4294967280 +++
+2.229141 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.Username.Notification , returnStatus 4294967280 +++
+2.229282 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.Password.Value , returnStatus 4294967280 +++
+2.229408 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.Password.Notification , returnStatus 4294967280 +++
+2.229538 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.PeriodicInformEnable.Value , returnStatus 4294967280 +++
+2.229679 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.PeriodicInformEnable.Notification , returnStatus 4294967280 +++
+2.229813 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.PeriodicInformInterval.Value , returnStatus 4294967280 +++
+2.229946 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.PeriodicInformInterval.Notification , returnStatus 4294967280 +++
+2.230087 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.PeriodicInformTime.Value , returnStatus 4294967280 +++
+2.230225 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.PeriodicInformTime.Notification , returnStatus 4294967280 +++
+2.230507 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.ParameterKey.Notification , returnStatus 4294967280 +++
+2.231083 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.ConnectionRequestUsername.Notification , returnStatus 4294967280 +++
+2.231373 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.ConnectionRequestPassword.Notification , returnStatus 4294967280 +++
+2.231510 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.ACSOverride.Value , returnStatus 4294967280 +++
+2.231651 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.ACSOverride.Notification , returnStatus 4294967280 +++
+2.231781 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.UpgradesManaged.Value , returnStatus 4294967280 +++
+2.231918 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.UpgradesManaged.Notification , returnStatus 4294967280 +++
+2.232090 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_CISCO_COM_DiagComplete.Value , returnStatus 4294967280 +++
+2.232246 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_CISCO_COM_DiagComplete.Notification , returnStatus 4294967280 +++
+2.232388 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.KickURL.Value , returnStatus 4294967280 +++
+2.232525 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.KickURL.Notification , returnStatus 4294967280 +++
+2.232658 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.DownloadProgressURL.Value , returnStatus 4294967280 +++
+2.232788 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.DownloadProgressURL.Notification , returnStatus 4294967280 +++
+2.232956 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.DefaultActiveNotificationThrottle.Value , returnStatus 4294967280 +++
+2.233101 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.DefaultActiveNotificationThrottle.Notification , returnStatus 4294967280 +++
+2.233234 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.CWMPRetryMinimumWaitInterval.Value , returnStatus 4294967280 +++
+2.233368 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.CWMPRetryMinimumWaitInterval.Notification , returnStatus 4294967280 +++
+2.233513 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.CWMPRetryIntervalMultiplier.Value , returnStatus 4294967280 +++
+2.233643 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.CWMPRetryIntervalMultiplier.Notification , returnStatus 4294967280 +++
+2.233849 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.UDPConnectionRequestAddress.Value , returnStatus 4294967280 +++
+2.233990 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.UDPConnectionRequestAddress.Notification , returnStatus 4294967280 +++
+2.234123 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.UDPConnectionRequestAddressNotificationLimit.Value , returnStatus 4294967280 +++
+2.234257 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.UDPConnectionRequestAddressNotificationLimit.Notification , returnStatus 4294967280 +++
+2.234386 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.STUNEnable.Value , returnStatus 4294967280 +++
+2.234512 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.STUNEnable.Notification , returnStatus 4294967280 +++
+2.234638 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.STUNServerAddress.Value , returnStatus 4294967280 +++
+2.234776 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.STUNServerAddress.Notification , returnStatus 4294967280 +++
+2.235050 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.STUNServerPort.Notification , returnStatus 4294967280 +++
+2.235188 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.STUNUsername.Value , returnStatus 4294967280 +++
+2.235332 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.STUNUsername.Notification , returnStatus 4294967280 +++
+2.235466 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.STUNPassword.Value , returnStatus 4294967280 +++
+2.235592 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.STUNPassword.Notification , returnStatus 4294967280 +++
+2.235741 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.STUNMaximumKeepAlivePeriod.Value , returnStatus 4294967280 +++
+2.235878 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.STUNMaximumKeepAlivePeriod.Notification , returnStatus 4294967280 +++
+2.236031 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.STUNMinimumKeepAlivePeriod.Value , returnStatus 4294967280 +++
+2.236172 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.STUNMinimumKeepAlivePeriod.Notification , returnStatus 4294967280 +++
+2.236298 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.NATDetected.Value , returnStatus 4294967280 +++
+2.236454 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.NATDetected.Notification , returnStatus 4294967280 +++
+2.236595 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.AliasBasedAddressing.Value , returnStatus 4294967280 +++
+2.236736 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.AliasBasedAddressing.Notification , returnStatus 4294967280 +++
+2.236870 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+2.237000 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Notification , returnStatus 4294967280 +++
+2.237148 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_CISCO_COM_ConnectionRequestURLPath.Value , returnStatus 4294967280 +++
+2.237289 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_CISCO_COM_ConnectionRequestURLPath.Notification , returnStatus 4294967280 +++
+2.237495 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestIf.Value , returnStatus 4294967280 +++
+2.237629 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestIf.Notification , returnStatus 4294967280 +++
+2.237774 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.ScheduleReboot.Value , returnStatus 4294967280 +++
+2.237911 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.ScheduleReboot.Notification , returnStatus 4294967280 +++
+2.238045 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.DelayReboot.Value , returnStatus 4294967280 +++
+2.238174 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.DelayReboot.Notification , returnStatus 4294967280 +++
+2.238316 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI_COM_ValidateManagementServerCertificate.Value , returnStatus 4294967280 +++
+2.238457 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI_COM_ValidateManagementServerCertificate.Notification , returnStatus 4294967280 +++
+2.238590 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.HTTPConnectionRequestEnable.Value , returnStatus 4294967280 +++
+2.238720 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.HTTPConnectionRequestEnable.Notification , returnStatus 4294967280 +++
+2.238857 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.HTTPCompressionSupported.Value , returnStatus 4294967280 +++
+2.238983 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.HTTPCompressionSupported.Notification , returnStatus 4294967280 +++
+2.239109 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.ManageableDeviceNotificationLimit.Value , returnStatus 4294967280 +++
+2.239246 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.ManageableDeviceNotificationLimit.Notification , returnStatus 4294967280 +++
+2.239380 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.DSCP.Value , returnStatus 4294967280 +++
+2.239502 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.DSCP.Notification , returnStatus 4294967280 +++
+2.239780 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.SocketPriority.Notification , returnStatus 4294967280 +++
+2.239914 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementSSupportedDataModelNumberOfEntries.Value , returnStatus 4294967280 +++
+2.240055 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementSSupportedDataModelNumberOfEntries.Notification , returnStatus 4294967280 +++
+2.240181 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementSSupportedDataModelNumberOfEntries.NotifEnable.Value , returnStatus 4294967280 +++
+2.240314 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementSSupportedDataModelNumberOfEntries.NotifEnable.Notification , returnStatus 4294967280 +++
+2.240444 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementSSupportedDataModelNumberOfEntries.NotifTransferTypeFilter.Value , returnStatus 4294967280 +++
+2.240578 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementSSupportedDataModelNumberOfEntries.NotifTransferTypeFilter.Notification , returnStatus 4294967280 +++
+2.240711 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementSSupportedDataModelNumberOfEntries.NotifResultTypeFilter.Value , returnStatus 4294967280 +++
+2.240845 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementSSupportedDataModelNumberOfEntries.NotifResultTypeFilter.Notification , returnStatus 4294967280 +++
+2.240990 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementSSupportedDataModelNumberOfEntries.NotifFileTypeFilter.Value , returnStatus 4294967280 +++
+2.241127 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementSSupportedDataModelNumberOfEntries.NotifFileTypeFilter.Notification , returnStatus 4294967280 +++
+2.241253 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementSSupportedDataModelNumberOfEntriEnable.Value , returnStatus 4294967280 +++
+2.241383 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementSSupportedDataModelNumberOfEntriEnable.Notification , returnStatus 4294967280 +++
+2.241516 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementSSupportedDataModelNumberOfEntriOperationTypeFilter.Value , returnStatus 4294967280 +++
+2.241650 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementSSupportedDataModelNumberOfEntriOperationTypeFilter.Notification , returnStatus 4294967280 +++
+2.241787 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementSSupportedDataModelNumberOfEntriResultTypeFilter.Value , returnStatus 4294967280 +++
+2.241940 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementSSupportedDataModelNumberOfEntriResultTypeFilter.Notification , returnStatus 4294967280 +++
+2.242081 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementSSupportedDataModelNumberOfEntriFaultCodeFilter.Value , returnStatus 4294967280 +++
+2.242226 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementSSupportedDataModelNumberOfEntriFaultCodeFilter.Notification , returnStatus 4294967280 +++
+2.247528 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.URL.Value , returnStatus 4294967280 +++
+2.247654 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.Username.Value , returnStatus 4294967280 +++
+2.247784 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.Password.Value , returnStatus 4294967280 +++
+2.248447 [mod=PSM, lvl=WARN] [tid=425] setParameterValues: +++ Add entry:  is already present-- size:1, eRT.cwmp.initialContact: 0 
+3.123569 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.DFSatBootUp.Enable , returnStatus 4294967280 +++
+3.135220 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.vlanmanager.1.VlanEnable , returnStatus 4294967280 +++
+3.136189 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.wanmanager.allowremoteinterfaces , returnStatus 4294967280 +++
+3.136406 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.vlanmanager.1.tpid , returnStatus 4294967280 +++
+3.136436 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.wanmanager.RestorationDelay , returnStatus 4294967280 +++
+3.136791 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.vlanmanager.1.baseinterface , returnStatus 4294967280 +++
+3.137131 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.vlanmanager.2.VlanEnable , returnStatus 4294967280 +++
+3.137718 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.vlanmanager.2.vlanid , returnStatus 4294967280 +++
+3.137741 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.wanmanager.group.1.PersistSelectedInterface , returnStatus 4294967280 +++
+3.138103 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.vlanmanager.2.tpid , returnStatus 4294967280 +++
+3.139126 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.vlanmanager.2.baseinterface , returnStatus 4294967280 +++
+3.140160 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.ethagent.ethifcount , returnStatus 4294967280 +++
+3.140480 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.vlanmanager.3.VlanEnable , returnStatus 4294967280 +++
+3.140522 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.ethagent.if.1.Name , returnStatus 4294967280 +++
+3.140858 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.wanmanager.if.1.DisplayName , returnStatus 4294967280 +++
+3.140884 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.ethagent.if.2.Name , returnStatus 4294967280 +++
+3.141178 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.ethagent.if.3.Name , returnStatus 4294967280 +++
+3.141331 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.vlanmanager.3.vlanid , returnStatus 4294967280 +++
+3.141537 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.wanmanager.if.1.AliasName , returnStatus 4294967280 +++
+3.141567 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.ethagent.if.4.Name , returnStatus 4294967280 +++
+3.141586 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.vlanmanager.3.tpid , returnStatus 4294967280 +++
+3.141853 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.vlanmanager.3.baseinterface , returnStatus 4294967280 +++
+3.141888 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.ethagent.if.1.Name , returnStatus 4294967280 +++
+3.142300 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.wanmanager.if.1.Type , returnStatus 4294967280 +++
+3.142326 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.ethagent.if.2.Name , returnStatus 4294967280 +++
+3.142624 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.ethagent.if.3.Name , returnStatus 4294967280 +++
+3.142986 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.wanmanager.if.1.Selection.Timeout , returnStatus 4294967280 +++
+3.143009 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.ethagent.if.4.Name , returnStatus 4294967280 +++
+3.147797 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.wanmanager.if.1.Selection.RequiresReboot , returnStatus 4294967280 +++
+3.149071 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.ethlink.1.macoffset , returnStatus 4294967280 +++
+3.149303 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.wanmanager.if.1.VirtualInterface.1.EnableMAPT , returnStatus 4294967280 +++
+3.149326 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.ethlink.1.path , returnStatus 4294967280 +++
+3.149731 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.wanmanager.if.1.VirtualInterface.1.EnableDSLite , returnStatus 4294967280 +++
+3.150143 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.wanmanager.if.1.VirtualInterface.1.EnableIPoE , returnStatus 4294967280 +++
+3.150791 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.ethlink.2.path , returnStatus 4294967280 +++
+3.151604 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.wanmanager.if.1.VirtualInterface.1.PPPInterface , returnStatus 4294967280 +++
+3.153667 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.wanmanager.if.1.VirtualInterface.1.Timeout , returnStatus 4294967280 +++
+3.155144 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.ethlink.3.path , returnStatus 4294967280 +++
+3.155170 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.wanmanager.if.1.VirtualInterface.1.IPInterface , returnStatus 4294967280 +++
+3.160767 [mod=PSM, lvl=WARN] [tid=425] setParameterValues: +++ Add entry:  is already present-- size:1, eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.13.MacFilterMode: 2 
+3.167263 [mod=PSM, lvl=WARN] [tid=425] setParameterValues: +++ Add entry:  is already present-- size:1, eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.14.MacFilterMode: 2 
+3.206017 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.profilehunter.profile.1.data_skb2vlan_priority_map , returnStatus 4294967280 +++
+3.206223 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.profilehunter.profile.1.management_if_enable , returnStatus 4294967280 +++
+3.206554 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.profilehunter.profile.1.management_dscp , returnStatus 4294967280 +++
+3.206745 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.profilehunter.profile.1.voip_if_enable , returnStatus 4294967280 +++
+3.206963 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.profilehunter.profile.1.voip_skb_priority , returnStatus 4294967280 +++
+3.216652 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.IP.Diagnostics.X_RDKCENTRAL-COM_SpeedTest.Server.Capability , returnStatus 4294967280 +++
+3.217388 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.wanmanager.if.1.VirtualInterface.1.IP.IPv4Source , returnStatus 4294967280 +++
+3.217690 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.wanmanager.if.1.VirtualInterface.1.IP.IPv6Source , returnStatus 4294967280 +++
+3.218174 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.wanmanager.if.1.VirtualInterface.1.IP.PreferredMode , returnStatus 4294967280 +++
+3.218464 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.wanmanager.if.1.VirtualInterface.1.IP.ModeForceEnable , returnStatus 4294967280 +++
+3.218998 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.wanmanager.if.1.VirtualInterface.1.IP.RTable , returnStatus 4294967280 +++
+3.219223 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.wanmanager.if.1.VirtualInterface.1.IP.DNSCfgPath , returnStatus 4294967280 +++
+3.280907 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.Dhcpv6.Client.NextInstanceNumber , returnStatus 4294967280 +++
+4.280647 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.wanmanager.FailOverType , returnStatus 4294967280 +++
+4.783642 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.IPModeEnable , returnStatus 4294967280 +++
+4.783821 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.wanmanager.wanifcount , returnStatus 4294967280 +++
+6.220200 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.WiFi-PSM-DB.Enable , returnStatus 4294967280 +++
+6.225899 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.Radio.3.BeaconInterval , returnStatus 4294967280 +++
+6.226051 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.Radio.3.DTIMInterval , returnStatus 4294967280 +++
+6.226189 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.Radio.3.FragThreshold , returnStatus 4294967280 +++
+6.226322 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.Radio.3.GuardInterval , returnStatus 4294967280 +++
+6.226463 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.Radio.3.TransmitPower , returnStatus 4294967280 +++
+6.226597 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.Radio.3.RTSThreshold , returnStatus 4294967280 +++
+6.253860 [mod=PSM, lvl=WARN] [tid=425] setParameterValues: +++ Add entry:  is already present-- size:1, eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.13.MacFilterMode: 2 
+6.257256 [mod=PSM, lvl=WARN] [tid=425] setParameterValues: +++ Add entry:  is already present-- size:1, eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.14.MacFilterMode: 2 
+6.275780 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.device.deviceinfo.X_RDKCENTRAL-COM_WHIX.LogInterval , returnStatus 4294967280 +++
+6.276009 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.device.deviceinfo.X_RDKCENTRAL-COM_WHIX.ChUtilityLogInterval , returnStatus 4294967280 +++
+6.278748 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.17.RapidReconnThreshold , returnStatus 4294967280 +++
+6.278904 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.18.RapidReconnThreshold , returnStatus 4294967280 +++
+6.279064 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.19.RapidReconnThreshold , returnStatus 4294967280 +++
+6.279221 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.20.RapidReconnThreshold , returnStatus 4294967280 +++
+6.279377 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.21.RapidReconnThreshold , returnStatus 4294967280 +++
+6.279533 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.22.RapidReconnThreshold , returnStatus 4294967280 +++
+6.279686 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.23.RapidReconnThreshold , returnStatus 4294967280 +++
+6.279839 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.24.RapidReconnThreshold , returnStatus 4294967280 +++
+6.280014 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.device.deviceinfo.X_RDKCENTRAL-COM_WHIX.ChUtilityLogInterval , returnStatus 4294967280 +++
+6.280170 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for dmsb.device.deviceinfo.X_RDKCENTRAL-COM_WHIX.ChUtilityLogInterval , returnStatus 4294967280 +++
+6.282211 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.X_RDKCENTRAL-COM_AssocCountThreshold , returnStatus 4294967280 +++
+6.282421 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.X_RDKCENTRAL-COM_AssocMonitorDuration , returnStatus 4294967280 +++
+6.282608 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.X_RDKCENTRAL-COM_AssocGateTime , returnStatus 4294967280 +++
+6.282745 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.ReservedSSIDNames , returnStatus 4294967280 +++
+6.282948 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.FeatureMFPConfig , returnStatus 4294967280 +++
+6.283115 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.X_RDKCENTRAL-COM_RapidReconnectIndicationEnable , returnStatus 4294967280 +++
+6.283455 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.TxOverflowSelfheal , returnStatus 4294967280 +++
+6.283756 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Feature.DFS.Enable , returnStatus 4294967280 +++
+6.287598 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.WIFI.SSID.SsidNextInstance , returnStatus 4294967280 +++
+6.287819 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.WIFI.AccessPoint.APNextInstance , returnStatus 4294967280 +++
+6.295841 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.WIFI.AccessPoint.MacFilterTable.MacFilterTableNextInstance , returnStatus 4294967280 +++
+6.300392 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.WIFI.AccessPoint.MacFilterTable.MacFilterTableNextInstance , returnStatus 4294967280 +++
+6.306370 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.WIFI.AccessPoint.MacFilterTable.MacFilterTableNextInstance , returnStatus 4294967280 +++
+6.310360 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.WIFI.AccessPoint.MacFilterTable.MacFilterTableNextInstance , returnStatus 4294967280 +++
+6.314510 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.WIFI.AccessPoint.MacFilterTable.MacFilterTableNextInstance , returnStatus 4294967280 +++
+6.318031 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.WIFI.AccessPoint.MacFilterTable.MacFilterTableNextInstance , returnStatus 4294967280 +++
+6.322208 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.WIFI.AccessPoint.MacFilterTable.MacFilterTableNextInstance , returnStatus 4294967280 +++
+6.325745 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.WIFI.AccessPoint.MacFilterTable.MacFilterTableNextInstance , returnStatus 4294967280 +++
+6.329132 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.WIFI.AccessPoint.MacFilterTable.MacFilterTableNextInstance , returnStatus 4294967280 +++
+6.333420 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.WIFI.AccessPoint.MacFilterTable.MacFilterTableNextInstance , returnStatus 4294967280 +++
+6.336708 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.WIFI.AccessPoint.MacFilterTable.MacFilterTableNextInstance , returnStatus 4294967280 +++
+6.340126 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.WIFI.AccessPoint.MacFilterTable.MacFilterTableNextInstance , returnStatus 4294967280 +++
+6.343437 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.WIFI.AccessPoint.MacFilterTable.MacFilterTableNextInstance , returnStatus 4294967280 +++
+6.346745 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.WIFI.AccessPoint.MacFilterTable.MacFilterTableNextInstance , returnStatus 4294967280 +++
+6.350136 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.WIFI.AccessPoint.MacFilterTable.MacFilterTableNextInstance , returnStatus 4294967280 +++
+6.353416 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.WIFI.AccessPoint.MacFilterTable.MacFilterTableNextInstance , returnStatus 4294967280 +++
+6.356140 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.17.RapidReconnCountEnable , returnStatus 4294967280 +++
+6.356289 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.17.RapidReconnThreshold , returnStatus 4294967280 +++
+6.356434 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.17.vAPStatsEnable , returnStatus 4294967280 +++
+6.356934 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.WIFI.AccessPoint.MacFilterTable.MacFilterTableNextInstance , returnStatus 4294967280 +++
+6.357082 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.17.MacFilterList , returnStatus 4294967280 +++
+6.359230 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.18.RapidReconnCountEnable , returnStatus 4294967280 +++
+6.359413 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.18.RapidReconnThreshold , returnStatus 4294967280 +++
+6.359566 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.18.vAPStatsEnable , returnStatus 4294967280 +++
+6.360146 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.WIFI.AccessPoint.MacFilterTable.MacFilterTableNextInstance , returnStatus 4294967280 +++
+6.360321 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.18.MacFilterList , returnStatus 4294967280 +++
+6.362415 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.19.RapidReconnCountEnable , returnStatus 4294967280 +++
+6.362564 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.19.RapidReconnThreshold , returnStatus 4294967280 +++
+6.362709 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.19.vAPStatsEnable , returnStatus 4294967280 +++
+6.363342 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.WIFI.AccessPoint.MacFilterTable.MacFilterTableNextInstance , returnStatus 4294967280 +++
+6.363541 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.19.MacFilterList , returnStatus 4294967280 +++
+6.366402 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.20.RapidReconnCountEnable , returnStatus 4294967280 +++
+6.366596 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.20.RapidReconnThreshold , returnStatus 4294967280 +++
+6.366776 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.20.vAPStatsEnable , returnStatus 4294967280 +++
+6.367393 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.WIFI.AccessPoint.MacFilterTable.MacFilterTableNextInstance , returnStatus 4294967280 +++
+6.367569 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.20.MacFilterList , returnStatus 4294967280 +++
+6.370289 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.21.RapidReconnCountEnable , returnStatus 4294967280 +++
+6.370483 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.21.RapidReconnThreshold , returnStatus 4294967280 +++
+6.370670 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.21.vAPStatsEnable , returnStatus 4294967280 +++
+6.371262 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.WIFI.AccessPoint.MacFilterTable.MacFilterTableNextInstance , returnStatus 4294967280 +++
+6.371441 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.21.MacFilterList , returnStatus 4294967280 +++
+6.374237 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.22.RapidReconnCountEnable , returnStatus 4294967280 +++
+6.374397 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.22.RapidReconnThreshold , returnStatus 4294967280 +++
+6.374561 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.22.vAPStatsEnable , returnStatus 4294967280 +++
+6.375156 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.WIFI.AccessPoint.MacFilterTable.MacFilterTableNextInstance , returnStatus 4294967280 +++
+6.375336 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.22.MacFilterList , returnStatus 4294967280 +++
+6.378235 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.23.RapidReconnCountEnable , returnStatus 4294967280 +++
+6.378433 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.23.RapidReconnThreshold , returnStatus 4294967280 +++
+6.378643 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.23.vAPStatsEnable , returnStatus 4294967280 +++
+6.379261 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.WIFI.AccessPoint.MacFilterTable.MacFilterTableNextInstance , returnStatus 4294967280 +++
+6.379429 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.23.MacFilterList , returnStatus 4294967280 +++
+6.382523 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.24.RapidReconnCountEnable , returnStatus 4294967280 +++
+6.382725 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.24.RapidReconnThreshold , returnStatus 4294967280 +++
+6.382950 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.24.vAPStatsEnable , returnStatus 4294967280 +++
+6.383671 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for Provision.COSALibrary.WIFI.AccessPoint.MacFilterTable.MacFilterTableNextInstance , returnStatus 4294967280 +++
+6.383839 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.AccessPoint.24.MacFilterList , returnStatus 4294967280 +++
+6.391628 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.InstWifiClientReportingPeriod , returnStatus 4294967280 +++
+6.391808 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.InstWifiClientDefReportingPeriod , returnStatus 4294967280 +++
+6.392376 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.InstWifiClientMacAddress , returnStatus 4294967280 +++
+6.392555 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.WiFiActiveMsmtEnabled , returnStatus 4294967280 +++
+6.392754 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.WiFiActiveMsmtSampleDuration , returnStatus 4294967280 +++
+6.392929 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.WiFiActiveMsmtPktSize , returnStatus 4294967280 +++
+6.393101 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.WiFiActiveMsmtNumberOfSample , returnStatus 4294967280 +++
+6.393272 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.InstWifiClientEnabled , returnStatus 4294967280 +++
+6.448418 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+6.449497 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+9.450306 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+9.450855 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+10.036827 [mod=PSM, lvl=INFO] [tid=423] AcqWriteAccess in 'PsmFloSaveRegFile'
+10.039749 [mod=PSM, lvl=INFO] [tid=423] ssp_CfmSaveCurConfig: called
+10.052254 [mod=PSM, lvl=INFO] [tid=423] RelWriteAccess in 'PsmFloSaveRegFile'
+10.054970 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.URL.Value , returnStatus 4294967280 +++
+10.055172 [mod=PSM, lvl=WARN] [tid=425] setParameterValues -- size:1, eRT.cwmp.dhcpacsurl: http://acs2.revdomain.com:9675
+10.056007 [mod=PSM, lvl=WARN] [tid=425] setParameterValues -- size:1, eRT.com.cisco.spvtg.ccsp.tr069pa.Undelivered_VC.1.ValueChanged: Device.ManagementServer.URL
+10.056244 [mod=PSM, lvl=WARN] [tid=425] setParameterValues -- size:1, eRT.cwmp.initialContact: 1
+10.057777 [mod=PSM, lvl=WARN] [tid=425] setParameterValues: +++ Add entry:  is already present-- size:1, eRT.com.cisco.spvtg.ccsp.tr069pa.FirstUpstreamIpAddress.Value: Device.IP.Interface.1.IPv4Address.1.IPAddress 
+10.058094 [mod=PSM, lvl=WARN] [tid=425] setParameterValues: +++ Add entry:  is already present-- size:1, dmsb.ManagementServer.Ifname: erouter0 
+10.058292 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.SecondUpstreamIpAddress.Value , returnStatus 4294967280 +++
+10.070457 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+10.070648 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+10.071114 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+10.076492 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+10.076706 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+10.077236 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+10.120399 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+10.120560 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+10.120972 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+10.126518 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+10.126690 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+10.127113 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+11.638077 [mod=PSM, lvl=WARN] [tid=425] setParameterValues: +++ Add entry:  is already present-- size:1, lgi.com.ManagementInterface: Device.IP.Interface.1. 
+11.687298 [mod=PSM, lvl=WARN] [tid=425] setParameterValues: +++ Add entry:  is already present-- size:1, dmsb.wanmanager.if.1.VirtualInterface.1.VlanInUse: Device.X_RDK_Ethernet.VLANTermination.1 
+12.173512 [mod=PSM, lvl=WARN] [tid=425] setParameterValues: +++ Add entry:  is already present-- size:1, dmsb.wanmanager.if.1.VirtualInterface.1.VlanInUse: Device.X_RDK_Ethernet.VLANTermination.1 
+12.241467 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+12.241676 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+12.242104 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+12.249180 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+12.249371 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+12.249836 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+12.351192 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+12.351376 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+12.351849 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+12.435280 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+12.435482 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+12.435917 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+12.451721 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+12.452335 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+12.680130 [mod=PSM, lvl=WARN] [tid=425] setParameterValues: +++ Add entry:  is already present-- size:1, eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.ConnectionRequestURL.Notification: 1 
+12.681305 [mod=PSM, lvl=WARN] [tid=425] setParameterValues -- size:1, eRT.com.cisco.spvtg.ccsp.tr069pa.PmNotif.Device.DeviceInfo.X_RDKCENTRAL-COM_FirmwareDownloadStatus: 1
+12.781765 [mod=PSM, lvl=WARN] [tid=425] setParameterValues: +++ Add entry:  is already present-- size:1, dmsb.profilehunter.configured: TRUE 
+12.886272 [mod=PSM, lvl=WARN] [tid=425] setParameterValues -- size:1, eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.ConnectionRequestURL.Value: http://10.120.200.105:7547/
+12.887127 [mod=PSM, lvl=WARN] [tid=425] setParameterValues -- size:1, eRT.com.cisco.spvtg.ccsp.tr069pa.Undelivered_VC.2.ValueChanged: Device.ManagementServer.ConnectionRequestURL
+12.941360 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.cwmp.triggerCommand , returnStatus 4294967280 +++
+12.941536 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.cwmp.triggerCommandKey , returnStatus 4294967280 +++
+12.941669 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.cwmp.savedEvents , returnStatus 4294967280 +++
+13.042763 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.cwmp.triggerCommand , returnStatus 4294967280 +++
+13.042896 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.cwmp.triggerCommandKey , returnStatus 4294967280 +++
+13.043022 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.cwmp.savedEvents , returnStatus 4294967280 +++
+14.157177 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+14.157333 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+14.157730 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+14.162289 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+14.162441 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+14.162796 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.tr069pa.Device.ManagementServer.X_LGI-COM_ConnectionRequestPort.Value , returnStatus 4294967280 +++
+15.453087 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+15.453659 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+16.963554 [mod=PSM, lvl=WARN] [tid=425] setParameterValues -- size:1, eRT.com.cisco.spvtg.ccsp.tr069pa.Undelivered_VC.3.ValueChanged: Device.IP.Interface.1.IPv4Address.1.IPAddress
+18.454418 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+18.454952 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+20.059868 [mod=PSM, lvl=INFO] [tid=423] AcqWriteAccess in 'PsmFloSaveRegFile'
+20.062206 [mod=PSM, lvl=INFO] [tid=423] ssp_CfmSaveCurConfig: called
+20.076588 [mod=PSM, lvl=INFO] [tid=423] RelWriteAccess in 'PsmFloSaveRegFile'
+21.455677 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+21.456242 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+24.457005 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+24.457542 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+27.458271 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+27.458805 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+28.403431 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+28.403961 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+30.081276 [mod=PSM, lvl=INFO] [tid=423] AcqWriteAccess in 'PsmFloSaveRegFile'
+30.083569 [mod=PSM, lvl=INFO] [tid=423] ssp_CfmSaveCurConfig: called
+30.097511 [mod=PSM, lvl=INFO] [tid=423] RelWriteAccess in 'PsmFloSaveRegFile'
+30.459583 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+30.460171 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+33.460884 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+33.461414 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+36.462173 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+36.462742 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+39.463543 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+39.464100 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+42.464825 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+42.465340 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+45.466118 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+45.466660 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+48.467449 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+48.468048 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+51.468769 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+51.469299 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+54.470100 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+54.470638 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+57.471478 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+57.472221 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+60.472992 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+60.473515 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++
+63.474339 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.5.SSID , returnStatus 4294967280 +++
+63.474888 [mod=PSM, lvl=WARN] [tid=425] ++++ getParameterValues Failed for eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.6.SSID , returnStatus 4294967280 +++

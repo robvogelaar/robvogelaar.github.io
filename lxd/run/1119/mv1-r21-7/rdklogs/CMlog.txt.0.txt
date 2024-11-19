@@ -1,0 +1,91 @@
+2.208778 [mod=CM, lvl=WARN] [tid=419] Core dump is opened, do not catch signal
+2.208851 [mod=CM, lvl=INFO] [tid=419] Connect to bus daemon...
+2.208878 [mod=CM, lvl=INFO] [tid=419] rbuscore.c:2340 RBus Enabled
+
+2.208900 [mod=CM, lvl=INFO] [tid=419] rbuscore.c:656 Broker address: tcp://192.168.254.253:12368
+
+2.209141 [mod=CM, lvl=INFO] [tid=419] connection opened for eRT.com.cisco.spvtg.ccsp.cm
+2.209187 [mod=CM, lvl=INFO] [tid=419] eRT.com.cisco.spvtg.ccsp.cm start to check eRT.com.cisco.spvtg.ccsp.psm status
+2.209400 [mod=CM, lvl=INFO] [tid=419] eRT.com.cisco.spvtg.ccsp.psm is ready, eRT.com.cisco.spvtg.ccsp.cm continue
+2.209415 [mod=CM, lvl=INFO] [tid=419] !!! Connected to message bus... bus_handle: 0x0x93deda0 !!!
+3.210445 [mod=CM, lvl=INFO] [tid=419] CcspBaseIf_Register_Event_rbus : rbus_registerEvent called for event: currentSessionIDSignal
+3.214676 [mod=CM, lvl=INFO] [tid=419] rbuscore.c:755 Subscription for _rbus_session_mgr::currentSessionIDSignal is now active.
+
+3.214756 [mod=CM, lvl=WARN] [tid=419] Interface 'CcspCcMessageBusIf' is added into CpeController.
+3.214764 [mod=CM, lvl=WARN] [tid=419] Interface 'CcspComponentCommonDatamodelIf' is added into CpeController.
+3.214771 [mod=CM, lvl=WARN] [tid=419] Interface 'dslhMiniWebSvcIf' is added into CpeController.
+3.214775 [mod=CM, lvl=WARN] [tid=419] Unable to retrieve interface 'dslhLibCallbackSvcIf' in DslhCpeController.
+3.214794 [mod=CM, lvl=WARN] [tid=419] Register empty object : com.
+3.214802 [mod=CM, lvl=WARN] [tid=419] Register empty object : com.cisco.
+3.214809 [mod=CM, lvl=WARN] [tid=419] Register empty object : com.cisco.spvtg.
+3.214817 [mod=CM, lvl=WARN] [tid=419] Register empty object : com.cisco.spvtg.ccsp.
+3.214924 [mod=CM, lvl=WARN] [tid=419] DM Library module name = CCSP Base Data Model
+3.214935 [mod=CM, lvl=WARN] [tid=419] Looking for base object: com.cisco.spvtg.ccsp.
+3.214943 [mod=CM, lvl=WARN] [tid=419]  base object  com.cisco.spvtg.ccsp.cm. config context
+3.214985 [mod=CM, lvl=WARN] [tid=419]  com.cisco.spvtg.ccsp.cm.Logging. config context
+3.215008 [mod=CM, lvl=WARN] [tid=419]  com.cisco.spvtg.ccsp.cm.Memory. config context
+3.215244 [mod=CM, lvl=WARN] [tid=419] DM Library module name = COSA_TR181_USGv2
+3.215252 [mod=CM, lvl=WARN] [tid=419] Loading DM library libcm_tr181.so...
+3.216541 [mod=CM, lvl=WARN] [tid=419] CosaBackEndManagerInitialize...
+3.217361 [mod=CM, lvl=WARN] [tid=419] cm_hal_InitDB  is called successfully   CosaDmlCMInit, 327
+3.217400 [mod=CM, lvl=WARN] [tid=419]   CosaCableModemCreate done!
+3.217422 [mod=CM, lvl=INFO] [tid=419]  Download_Control_Flag is 1 
+3.217449 [mod=CM, lvl=INFO] [tid=419]  Current FW Version is ofw-exm-qemux86-mv1-20241119224228 
+3.217552 [mod=CM, lvl=INFO] [tid=419] rbuscore.c:2340 RBus Enabled
+
+3.217564 [mod=CM, lvl=INFO] [tid=419] rbus.c:2778 rbus open for component: CMAgentLLDEnable
+
+3.217613 [mod=CM, lvl=INFO] [tid=419] rbus.c:2854  rbus open (CMAgentLLDEnable) success
+
+3.217625 [mod=CM, lvl=INFO] [tid=419] rbus_subscriptions.c:447 file /tmp/rbus_subs_CMAgentLLDEnable
+
+3.217983 [mod=CM, lvl=INFO] [tid=419] Initialized LLD Enable with false values.
+3.217995 [mod=CM, lvl=INFO] [tid=419] registering subdocs webConfigFrameworkInit-271
+3.218010 [mod=CM, lvl=INFO] [tid=419] Inside FUNC register_sub_docs LINE 240
+3.218018 [mod=CM, lvl=INFO] [tid=419] Inside FUNC initMessageQueue LINE 1109 
+3.221230 [mod=CM, lvl=WARN] [tid=419]   CosaDeviceInfoCreate done!
+3.221245 [mod=CM, lvl=WARN] [tid=419]   CosaRDKCentralComCableModemCreate done!
+3.223072 [mod=CM, lvl=WARN] [tid=419] docsis_GetNumOfActiveRxChannels  is called successfully : CosaDmlCmGetCMErrorCodewords, 1059
+3.224018 [mod=CM, lvl=WARN] [tid=419] docsis_GetNumOfActiveRxChannels  is called successfully   CosaDmlCmGetDownstreamChannel, 911
+3.224369 [mod=CM, lvl=WARN] [tid=419] docsis_getDsOFDMChannelCount is called successfully   CosaDmlCmGetDownstreamChannel, 920
+3.224766 [mod=CM, lvl=WARN] [tid=419] docsis_GetNumOfActiveTxChannels  is called  successfully: CosaDmlCmGetUpstreamChannel, 963
+3.225128 [mod=CM, lvl=WARN] [tid=419] docsis_getDsOFDMChannelCount is called successfully   CosaDmlCmGetUpstreamChannel, 972
+3.227665 [mod=CM, lvl=WARN] [tid=419] Status of InitDataModel = 0
+3.227676 [mod=CM, lvl=WARN] [tid=419] Search for empty object in 'dslhCpeCheckEmptyObject'
+3.227684 [mod=CM, lvl=WARN] [tid=419] !!! Ready to register capabilities of 'eRT.com.cisco.spvtg.ccsp.cm' to 'eRT.com.cisco.spvtg.ccsp.CR'...!!!
+3.230885 [mod=CM, lvl=INFO] [tid=564] Inside FUNC messageQueueProcessing LINE 899 
+3.231636 [mod=CM, lvl=INFO] [tid=565] Inside FUNC display_subDocs LINE 88
+3.232655 [mod=CM, lvl=INFO] [tid=566] subscribeSubdocForceReset: Discover component for event 'Device.X_RDK_WebConfig.webcfgSubdocForceReset' 
+3.232704 [mod=CM, lvl=INFO] [tid=566] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+3.232716 [mod=CM, lvl=ERROR] [tid=566] Failed to discover component. Error Code = 2
+3.250320 [mod=CM, lvl=WARN] [tid=419] !!! com.cisco.spvtg.ccsp.cm registerCapabilities 201 items returns 100 !!!
+3.250332 [mod=CM, lvl=INFO] [tid=419] CM Agent Module loaded successfully...
+3.250351 [mod=CM, lvl=WARN] [tid=419] RDKB_SYSTEM_BOOT_UP_LOG : Entering CM loop
+3.288464 [mod=CM, lvl=WARN] [tid=562] docsis_GetNumOfActiveRxChannels  is called successfully   CosaDmlCmGetDownstreamChannel, 911
+3.288536 [mod=CM, lvl=WARN] [tid=562] docsis_getDsOFDMChannelCount is called successfully   CosaDmlCmGetDownstreamChannel, 920
+3.288544 [mod=CM, lvl=WARN] [tid=562] Number of Active Rxchannel is 0
+3.288605 [mod=CM, lvl=WARN] [tid=562] docsis_GetNumOfActiveTxChannels  is called  successfully: CosaDmlCmGetUpstreamChannel, 963
+3.288765 [mod=CM, lvl=WARN] [tid=562] docsis_getDsOFDMChannelCount is called successfully   CosaDmlCmGetUpstreamChannel, 972
+3.288773 [mod=CM, lvl=WARN] [tid=562] RDKB_DOCSIS_DIAG_INFO: Number of Active Txchannel is 0
+3.288776 [mod=CM, lvl=WARN] [tid=562] pollinterval to fetch Docsis diag is= 14400
+13.232788 [mod=CM, lvl=INFO] [tid=566] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+13.232807 [mod=CM, lvl=ERROR] [tid=566] Failed to discover component. Error Code = 2
+23.233021 [mod=CM, lvl=INFO] [tid=566] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+23.233097 [mod=CM, lvl=ERROR] [tid=566] Failed to discover component. Error Code = 2
+33.233185 [mod=CM, lvl=INFO] [tid=566] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+33.233204 [mod=CM, lvl=ERROR] [tid=566] Failed to discover component. Error Code = 2
+43.233242 [mod=CM, lvl=INFO] [tid=566] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+43.233265 [mod=CM, lvl=ERROR] [tid=566] Failed to discover component. Error Code = 2
+44.331493 [mod=CM, lvl=INFO] [tid=421] <<< DslhWmpdoMpaSetParameterAttributes pSetParameterAttribArray[0].RequesterID 4 >>>
+44.331509 [mod=CM, lvl=INFO] [tid=421] <<< DslhVarroSetNotification pMyObject->RequesterID 4 >>>
+44.331886 [mod=CM, lvl=INFO] [tid=421]  Download status is 0 
+44.331894 [mod=CM, lvl=INFO] [tid=421] <<<  pDslhVarRecord->RequesterID 4 >>>
+44.336479 [mod=CM, lvl=INFO] [tid=421] <<< DslhWmpdoMpaSetParameterAttributes pSetParameterAttribArray[0].RequesterID 4 >>>
+48.272087 [mod=CM, lvl=INFO] [tid=561]  Download status is 0 
+53.233307 [mod=CM, lvl=INFO] [tid=566] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+53.233326 [mod=CM, lvl=ERROR] [tid=566] Failed to discover component. Error Code = 2
+63.233395 [mod=CM, lvl=INFO] [tid=566] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+63.233414 [mod=CM, lvl=ERROR] [tid=566] Failed to discover component. Error Code = 2
+63.280323 [mod=CM, lvl=INFO] [tid=561]  Download status is 0 
+73.233486 [mod=CM, lvl=INFO] [tid=566] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+73.233505 [mod=CM, lvl=ERROR] [tid=566] Failed to discover component. Error Code = 2

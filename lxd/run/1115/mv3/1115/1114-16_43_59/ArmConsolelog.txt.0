@@ -1,0 +1,60 @@
+[utopia] [init] apply_system_defaults set <@wan_ifname, erouter0, 0x0>
+[utopia] [init] apply_system_defaults set <@model_name, USGv2, 0x4>
+[utopia] [init] apply_system_defaults set <@firmware_version, 0.0, 0x4>
+[utopia] [init] apply_system_defaults set <@current_wan_ipaddr, 0.0.0.0, 0x0>
+[utopia] [init] apply_system_defaults set <@lan-status, stopped, 0x0>
+[utopia] [init] apply_system_defaults set <@wan-status, stopped, 0x0>
+[utopia] [init] apply_system_defaults set <@bridge-status, stopped, 0x0>
+[utopia] [init] apply_system_defaults set <@forwarding-status, stopped, 0x0>
+[utopia] [init] apply_system_defaults set <@wan_service-status, stopped, 0x0>
+[utopia] [init] apply_system_defaults set <@current_wan_state, down, 0x0>
+[utopia] [init] apply_system_defaults set <@desired_wan_state, down, 0x0>
+[utopia] [init] apply_system_defaults set <@phylink_wan_state, up, 0x0>
+[utopia] [init] apply_system_defaults set <@current_ipv4_wan_state, down, 0x0>
+[utopia] [init] apply_system_defaults set <@current_ipv4_link_state, down, 0x0>
+[utopia] [init] apply_system_defaults set <@desired_ipv4_wan_state, down, 0x0>
+[utopia] [init] apply_system_defaults set <@desired_ipv4_link_state, down, 0x0>
+[utopia] [init] apply_system_defaults set <@MeshWANInterface_UlaAddr, fd01:1010:b066:798e:5528:ef02:7af4:e28/64, 0x0>
+[utopia] [init] apply_system_defaults set <@MeshRemoteWANInterface_UlaAddr, fd01:1010:b066:798e:3465:bfff:fe1a:8f46/64, 0x0>
+[utopia] [init] apply_system_defaults set <@MeshWanInterface_UlaPref, fd01:1010:b066:798e::/64, 0x0>
+[utopia] [init] apply_system_defaults set <@cm_diplexer_mode, mid_split, 0x0>
+[utopia] [init] apply_system_defaults set <@ipv6_prefix_ula, fd01:646:8a00:bee0::/64, 0x0>
+[utopia] [init] apply_system_defaults set <@brlan1_ipaddr_v6_ula, fd01:646:8a00:bee4::/64, 0x0>
+[utopia] [init] apply_system_defaults set <@br106_ipaddr_v6_ula, fd01:646:8a00:bee5::/64, 0x0>
+[utopia] [init] apply_system_defaults set <@br403_ipaddr_v6_ula, fd01:646:8a00:bee6::/64, 0x0>
+[utopia] [init] apply_system_defaults set <@brlan10_ipaddr_v6_ula, fd01:646:8a00:bee7::/64, 0x0>
+[utopia] [init] apply_system_defaults set <@br1an15_ipaddr_v6_ula, fd01:646:8a00:bee8::/64, 0x0>
+[utopia] [init] apply_system_defaults set <@parcon_dnsr_start, 6, 0x0>
+[utopia] [init] apply_system_defaults set <@parcon_dnsr_end, 8, 0x0>
+[utopia] [init] apply_system_defaults set <@parcon_httpget_start, 11, 0x0>
+[utopia] [init] apply_system_defaults set <@parcon_httpget_end, 12, 0x0>
+[utopia] [init] apply_system_defaults set <@parcon_dnsv6r_start, 9, 0x0>
+[utopia] [init] apply_system_defaults set <@parcon_dnsv6r_end, 10, 0x0>
+[utopia] [init] apply_system_defaults set <@parcon_httpv6get_start, 13, 0x0>
+[utopia] [init] apply_system_defaults set <@parcon_httpv6get_end, 14, 0x0>
+[utopia] [init] apply_system_defaults set <@ntp_time_sync, 0, 0x0>
+Number_Of_Entries_Commited_to_Sysconfig_Database=2
+15_hotspot : srv_register Entry
+15_hotspot : srv_register Exit
+20_routing : main Entry
+20_routing : srv_register Entry
+20_routing : srv_register Exit
+20_routing : main Exit
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found
+rpcserver - main, ARPING_IP NOT found, starting udp rpcserver on RPC_ANYSOCK
+unable to register (RPC_TOOL1, RPC_TOOL1_V1, udp).

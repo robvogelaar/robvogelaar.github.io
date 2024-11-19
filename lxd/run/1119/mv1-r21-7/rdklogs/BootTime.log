@@ -1,0 +1,13 @@
+23:09:09 [BootUpTime] utopia_init_start=943500
+23:09:11 [BootUpTime] cosa_service_start=943502
+23:09:11 [BootUpTime] boot_to_cr_uptime=943502
+23:09:11 [BootUpTime] boot_to_psm_uptime=943502
+23:09:11 [BootUpTime] Lan_init_start=943502
+Received reboot_reason as:unknown
+23:09:12 [BootUpTime] boot_to_PnM_uptime=943504
+23:09:12 [BootUpTime] boot_to_ETH_uptime=943504
+23:09:12 [BootUpTime] Laninit_complete=943504
+23:09:14 [BootUpTime] boot_to_tr069_uptime=943505
+23:09:21 [BootUpTime] Wan_init_start=943512
+23:09:21 [BootUpTime] wan_ipv4_up=943512
+23:09:21 [BootUpTime] boot_to_wan_uptime=943513

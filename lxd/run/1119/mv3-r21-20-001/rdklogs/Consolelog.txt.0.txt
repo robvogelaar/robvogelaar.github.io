@@ -1,0 +1,1679 @@
+ln: creating symbolic link `/crontabs': File exists
+241119-23:09:52.033310 Starting log module..
+ln: creating symbolic link `/etc/syslog.conf': File exists
+241119-23:09:52.045124 [utopia][init] Starting migration manager
+mv: cannot stat `/opt/secure/telcovoice_config_current.json': No such file or directory
+241119-23:09:52.157634 [utopia][init] Starting syscfg using file store (/nvram/syscfg.db)
+cat: /proc/P-UNIT/status: No such file or directory
+cat: /proc/P-UNIT/status: No such file or directory
+241119-23:09:52.231621 [utopia][init] Cannot read the reset duration value from /proc/P-UNIT/status
+mq msg_max :0
+/etc/utopia/utopia_init.sh: line 342: /proc/sys/fs/mqueue/msg_max: Read-only file system
+241119-23:09:52.318659 [utopia][init] Starting sysevent subsystem
+241119-23:09:53.321067 [utopia][init] Setting any unset system values to default
+[utopia] [init] syscfg_get <$Version, 18>
+[utopia] [init] syscfg_get <$last_erouter_mode, 0>
+[utopia] [init] syscfg_get <$wan_physical_ifname, erouter0>
+[utopia] [init] syscfg_get <$wan_bridge_ifname, lbr0>
+[utopia] [init] syscfg_get <$wan_mtu, 0>
+[utopia] [init] syscfg_get <$wan_proto, dhcp>
+[utopia] [init] syscfg_get <$wan_proto_username, >
+[utopia] [init] syscfg_get <$wan_proto_password, >
+[utopia] [init] syscfg_get <$wan_proto_remote_name, >
+[utopia] [init] syscfg_get <$pppoe_service_name, >
+[utopia] [init] syscfg_get <$pppoe_access_concentrator_name, >
+[utopia] [init] syscfg_get <$wan_proto_server_address, >
+[utopia] [init] syscfg_get <$wan_domain, >
+[utopia] [init] syscfg_get <$pptp_address_static, 0>
+[utopia] [init] syscfg_get <$IHC_Mode, Monitor>
+[utopia] [init] syscfg_get <$IHC_ssid_change_spublic, >
+[utopia] [init] syscfg_get <$IHC_5G_MAC_POD, >
+[utopia] [init] syscfg_get <$IHC_ETH_MAC_POD, >
+[utopia] [init] syscfg_get <$IHC_pass_change, >
+[utopia] [init] syscfg_get <$IHC_Mode, Monitor>
+[utopia] [init] syscfg_get <$IHC_2G_MAC_POD, >
+[utopia] [init] syscfg_get <$IHC_ssid_change_private, >
+[utopia] [init] syscfg_get <$IHC_ssid_change_public, >
+[utopia] [init] syscfg_get <$IHC_Clients_count, >
+[utopia] [init] syscfg_get <$l2tp_address_static, 0>
+[utopia] [init] syscfg_get <$lan_ifname, brlan0>
+[utopia] [init] syscfg_get <$lan_ethernet_physical_ifnames, eth1 eth2 eth3 eth4>
+[utopia] [init] syscfg_get <$lan_ipaddr, 192.168.178.1>
+[utopia] [init] syscfg_get <$lan_netmask, 255.255.255.0>
+[utopia] [init] syscfg_get <$lan_domain, >
+[utopia] [init] syscfg_get <$StaticRouteCount, 0>
+[utopia] [init] syscfg_get <$dhcp_nameserver_enabled, 0>
+[utopia] [init] syscfg_get <$dhcp_server_enabled, 1>
+[utopia] [init] syscfg_get <$dhcp_start, 192.168.178.10>
+[utopia] [init] syscfg_get <$dhcp_end, 192.168.178.254>
+[utopia] [init] syscfg_get <$dhcp_num, 245>
+[utopia] [init] syscfg_get <$dhcp_lease_time, 1d>
+[utopia] [init] syscfg_get <$dhcp_server_propagate_wan_domain, 1>
+[utopia] [init] syscfg_get <$dhcp_server_propagate_wan_nameserver, 1>
+[utopia] [init] syscfg_get <$dhcp_server_slow_start, 1>
+[utopia] [init] syscfg_get <$dibbler_log_level, 4>
+[utopia] [init] syscfg_get <$XDNS_RefacCodeEnable, 1>
+[utopia] [init] syscfg_get <$dhcp_num_static_hosts, 0>
+[utopia] [init] syscfg_get <$ddns_service, dyndns>
+[utopia] [init] syscfg_get <$ddns_enable, 0>
+[utopia] [init] syscfg_get <$ddns_update_days, 28>
+[utopia] [init] syscfg_get <$ddns_last_update, 0>
+[utopia] [init] syscfg_get <$ddns_hostname, none>
+[utopia] [init] syscfg_get <$ddns_username, none>
+[utopia] [init] syscfg_get <$ddns_password, none>
+[utopia] [init] syscfg_get <$ntp_enabled, 1>
+[utopia] [init] syscfg_get <$TZ, CET-1CEST-2,M3.5.0/02:00:00,M10.5.0/03:00:00>
+[utopia] [init] syscfg_get <$ntp_cityindex, 0>
+[utopia] [init] syscfg_get <$auto_dst, 1>
+[utopia] [init] syscfg_get <$4_to_6_enabled, 1>
+[utopia] [init] syscfg_get <$igmpproxy_enabled, 1>
+[utopia] [init] syscfg_get <$mldproxy_enabled, 1>
+[utopia] [init] syscfg_get <$igmp_mld_throttle_rate, 32>
+[utopia] [init] syscfg_get <$igmp_mld_throttle_holdtime, 10>
+[utopia] [init] syscfg_get <$igmp_mld_proxy_fastleave, 1>
+[utopia] [init] syscfg_get <$upnp_igd_enabled, 0>
+[utopia] [init] syscfg_get <$igd_allow_userconfig, 1>
+[utopia] [init] syscfg_get <$igd_allow_wandisable, 0>
+[utopia] [init] syscfg_get <$upnp_igd_advr_expire, 1800>
+[utopia] [init] syscfg_get <$upnp_igd_advr_ttl, 5>
+[utopia] [init] syscfg_get <$http_admin_user, admin>
+[utopia] [init] syscfg_get <$http_admin_password, TSLIIHauhEfGE>
+[utopia] [init] syscfg_get <$http_admin_port, 80>
+[utopia] [init] syscfg_get <$http_admin_is_default, 1>
+[utopia] [init] syscfg_get <$user_count, 3>
+[utopia] [init] syscfg_get <$user_name_1, upccsr>
+[utopia] [init] syscfg_get <$user_name_2, cusadmin>
+[utopia] [init] syscfg_get <$user_name_3, admin>
+[utopia] [init] syscfg_get <$user_password_1, >
+[utopia] [init] syscfg_get <$user_password_2, >
+[utopia] [init] syscfg_get <$user_password_3, >
+[utopia] [init] syscfg_get <$hash_password_1, >
+[utopia] [init] syscfg_get <$hash_password_2, >
+[utopia] [init] syscfg_get <$hash_password_3, >
+[utopia] [init] syscfg_get <$user_insNum_1, 1>
+[utopia] [init] syscfg_get <$user_insNum_2, 2>
+[utopia] [init] syscfg_get <$user_insNum_3, 3>
+[utopia] [init] syscfg_get <$mgmt_http_enable, 1>
+[utopia] [init] syscfg_get <$mgmt_https_enable, 0>
+[utopia] [init] syscfg_get <$mgmt_wifi_access, 1>
+[utopia] [init] syscfg_get <$wan_password_set, 0>
+[utopia] [init] syscfg_get <$mgmt_wan_access, 0>
+[utopia] [init] syscfg_get <$mgmt_wan_httpaccess, 0>
+[utopia] [init] syscfg_get <$mgmt_wan_httpsaccess, 0>
+[utopia] [init] syscfg_get <$mgmt_wan_sshaccess, 0>
+[utopia] [init] syscfg_get <$mgmt_wan_telnetaccess, 0>
+[utopia] [init] syscfg_get <$mgmt_wan_httpport, 80>
+[utopia] [init] syscfg_get <$mgmt_wan_httpsport, 443>
+[utopia] [init] syscfg_get <$mgmt_wan_sshport, 22>
+[utopia] [init] syscfg_get <$mgmt_wan_telnetport, 23>
+[utopia] [init] syscfg_get <$mgmt_wan_srcany, 1>
+[utopia] [init] syscfg_get <$mgmt_wan_srcstart_ip, 255.255.255.255>
+[utopia] [init] syscfg_get <$mgmt_wan_srcend_ip, 255.255.255.255>
+[utopia] [init] syscfg_get <$mgmt_wan_fwupgrade, 0>
+[utopia] [init] syscfg_get <$mgmt_lan_telnetaccess, 0>
+[utopia] [init] syscfg_get <$mgmt_lan_sshaccess, 0>
+[utopia] [init] syscfg_get <$mgmt_mta_telnetaccess, 0>
+[utopia] [init] syscfg_get <$mgmt_mta_sshaccess, 0>
+[utopia] [init] syscfg_get <$session_ssh_timer, 1800>
+[utopia] [init] syscfg_get <$nat_enabled, 1>
+[utopia] [init] syscfg_get <$natPassthrough_enable, 0>
+[utopia] [init] syscfg_get <$NatAlgSupported, 582>
+[utopia] [init] syscfg_get <$nat_udp_timeout, 300>
+[utopia] [init] syscfg_get <$nat_tcp_timeout, 300>
+[utopia] [init] syscfg_get <$nat_icmp_timeout, 4>
+[utopia] [init] syscfg_get <$firewall_enabled, 1>
+[utopia] [init] syscfg_get <$firewall_level, Low>
+[utopia] [init] syscfg_get <$firewall_levelv6, High>
+[utopia] [init] syscfg_get <$block_rfc1918, 0>
+[utopia] [init] syscfg_get <$block_ping, 0>
+[utopia] [init] syscfg_get <$block_multicast, 0>
+[utopia] [init] syscfg_get <$block_nat_redirection, 1>
+[utopia] [init] syscfg_get <$nat_hairping_enable, 1>
+[utopia] [init] syscfg_get <$block_ident, 0>
+[utopia] [init] syscfg_get <$firewall_development_override, 0>
+[utopia] [init] syscfg_get <$dmz_enabled, 0>
+[utopia] [init] syscfg_get <$portscan_enabled, 0>
+[utopia] [init] syscfg_get <$block_pingv6, 0>
+[utopia] [init] syscfg_get <$firewall_disable_wan_ping, 0>
+[utopia] [init] syscfg_get <$firewall_disable_wan_pingv6, 0>
+[utopia] [init] syscfg_get <$IPSecPassthrough, 1>
+[utopia] [init] syscfg_get <$PPTPPassthrough, 1>
+[utopia] [init] syscfg_get <$SinglePortForwardCount, 0>
+[utopia] [init] syscfg_get <$PortRangeForwardCount, 0>
+[utopia] [init] syscfg_get <$PortRangeTriggerCount, 0>
+[utopia] [init] syscfg_get <$lgFwV4IpFilterCount, 0>
+[utopia] [init] syscfg_get <$InternetAccessPolicyCount, 0>
+[utopia] [init] syscfg_get <$W2LWellKnownFirewallRuleCount, 0>
+[utopia] [init] syscfg_get <$v4_BlockFragIPPkts, 0>
+[utopia] [init] syscfg_get <$v4_PortScanProtect, 0>
+[utopia] [init] syscfg_get <$v4_IPFloodDetect, 1>
+[utopia] [init] syscfg_get <$v4_ICMPFloodDetect, 1>
+[utopia] [init] syscfg_get <$v4_ICMPFloodDetectRate, 15>
+[utopia] [init] syscfg_get <$v4_TCPFloodDetectRate, 100>
+[utopia] [init] syscfg_get <$v4_UDPFloodDetectRate, 100>
+[utopia] [init] syscfg_get <$v6_BlockFragIPPkts, 0>
+[utopia] [init] syscfg_get <$v6_PortScanProtect, 0>
+[utopia] [init] syscfg_get <$v6_IPFloodDetect, 1>
+[utopia] [init] syscfg_get <$v6_ICMPFloodDetect, 1>
+[utopia] [init] syscfg_get <$v6_ICMPFloodDetectRate, 15>
+[utopia] [init] syscfg_get <$v6_TCPFloodDetectRate, 100>
+[utopia] [init] syscfg_get <$v6_UDPFloodDetectRate, 100>
+[utopia] [init] syscfg_get <$6to4_enable, 0>
+[utopia] [init] syscfg_get <$aiccu_enable, 0>
+[utopia] [init] syscfg_get <$he_enable, 0>
+[utopia] [init] syscfg_get <$ipv6_bridging_enable, 0>
+[utopia] [init] syscfg_get <$ipv6_ndp_proxy_enable, 0>
+[utopia] [init] syscfg_get <$dhcpv6c_enable, 0>
+[utopia] [init] syscfg_get <$dhcpv6s_enable, 0>
+[utopia] [init] syscfg_get <$6rd_enable, 0>
+[utopia] [init] syscfg_get <$ipv6_static_enable, 0>
+[utopia] [init] syscfg_get <$router_adv_enable, 1>
+[utopia] [init] syscfg_get <$router_managed_flag, 0>
+[utopia] [init] syscfg_get <$router_other_flag, 1>
+[utopia] [init] syscfg_get <$router_managed_flag_2, 0>
+[utopia] [init] syscfg_get <$router_other_flag_2, 1>
+[utopia] [init] syscfg_get <$router_autonomous_flag, 1>
+[utopia] [init] syscfg_get <$router_adv_provisioning_enable, 1>
+[utopia] [init] syscfg_get <$ra_interval, 180>
+[utopia] [init] syscfg_get <$ra_lifetime, 1800>
+[utopia] [init] syscfg_get <$last_router_reboot_time, 0>
+[utopia] [init] syscfg_get <$router_reboot_Interval, 28800>
+[utopia] [init] syscfg_get <$rdkbReinitMacThreshold, 5>
+[utopia] [init] syscfg_get <$locale, en-us>
+[utopia] [init] syscfg_get <$rip_enabled, 0>
+[utopia] [init] syscfg_get <$cosa_usgv2_rip00::Version, 2>
+[utopia] [init] syscfg_get <$cosa_usgv2_rip00::UpdateTime, 30>
+[utopia] [init] syscfg_get <$cosa_usgv2_rip00::TimoutTime, 180>
+[utopia] [init] syscfg_get <$cosa_usgv2_rip00::CollectionTime, 120>
+[utopia] [init] syscfg_get <$cosa_usgv2_rip00::ConnectedMetric, 1>
+[utopia] [init] syscfg_get <$cosa_usgv2_rip00::DefaultMetric, 1>
+[utopia] [init] syscfg_get <$cosa_usgv2_rip00::If1Enable, 1>
+[utopia] [init] syscfg_get <$cosa_usgv2_rip00::If1Name, Device.IP.Interface.1.>
+[utopia] [init] syscfg_get <$cosa_usgv2_rip00::If1Alias, cpe-rip-interface>
+[utopia] [init] syscfg_get <$cosa_usgv2_rip00::If1Neighbor, 0>
+[utopia] [init] syscfg_get <$cosa_usgv2_rip00::If1SendEnable, 1>
+[utopia] [init] syscfg_get <$cosa_usgv2_rip00::If1ReceiveEnable, 1>
+[utopia] [init] syscfg_get <$cosa_usgv2_rip00::If1SendVersion, 2>
+[utopia] [init] syscfg_get <$cosa_usgv2_rip00::If1ReceiveVersion, 2>
+[utopia] [init] syscfg_get <$cosa_usgv2_rip00::If1AuthenticateType, 1>
+[utopia] [init] syscfg_get <$cosa_usgv2_rip00::If1KeyChainName, keychain1>
+[utopia] [init] syscfg_get <$cosa_usgv2_rip00::If1KeyID, 1>
+[utopia] [init] syscfg_get <$cosa_usgv2_rip00::If1Md5KeyValue, rdkb>
+[utopia] [init] syscfg_get <$cosa_usgv2_rip00::If1SimplePassword, rdkb>
+[utopia] [init] syscfg_get <$log_level, 2>
+[utopia] [init] syscfg_get <$log_remote, 0>
+[utopia] [init] syscfg_get <$qos_enable, 1>
+[utopia] [init] syscfg_get <$WMMdownstreamMap_enable, false>
+[utopia] [init] syscfg_get <$bridge_mode, 2>
+[utopia] [init] syscfg_get <$wifi_bridge_mode, 0>
+[utopia] [init] syscfg_get <$moca_lof_channel, 0>
+[utopia] [init] syscfg_get <$moca_freq_mode, auto>
+[utopia] [init] syscfg_get <$moca_freq_plan, 1150>
+[utopia] [init] syscfg_get <$moca_constant_tx_power, auto>
+[utopia] [init] syscfg_get <$moca_dig_offset, 0>
+[utopia] [init] syscfg_get <$moca_preferred_nc, 1>
+[utopia] [init] syscfg_get <$moca_enable_privacy, 0>
+[utopia] [init] syscfg_get <$moca_password_seed, 99999999988888888>
+[utopia] [init] syscfg_get <$moca_enabled, 0>
+[utopia] [init] syscfg_get <$moca_scan_enabled, 0>
+[utopia] [init] syscfg_get <$moca_node_taboo_enabled, 1>
+[utopia] [init] syscfg_get <$moca_node_taboo_mask, eaaefe00>
+[utopia] [init] syscfg_get <$moca_mixed_mode, 1>
+[utopia] [init] syscfg_get <$moca_log_enabled, false>
+[utopia] [init] syscfg_get <$moca_log_period, 3600>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_ForceEnable, false>
+[utopia] [init] syscfg_get <$moca_pwr_apc_enable, 1>
+[utopia] [init] syscfg_get <$moca_maximum_tx_power, 10>
+[utopia] [init] syscfg_get <$moca_phy_rate, 235>
+[utopia] [init] syscfg_get <$moca_beacon_pwr_level, 9>
+[utopia] [init] syscfg_get <$ipv6_moca_bridge, true>
+[utopia] [init] syscfg_get <$dhcpv6s00::serverenable, 1>
+[utopia] [init] syscfg_get <$dhcpv6s00::servertype, 2>
+[utopia] [init] syscfg_get <$dhcpv6s00::poolnumber, 5>
+[utopia] [init] syscfg_get <$dhcpv6spool00::instancenumber, 1>
+[utopia] [init] syscfg_get <$dhcpv6spool00::bEnabled, 1>
+[utopia] [init] syscfg_get <$dhcpv6spool00::Interface, Device.IP.Interface.4.>
+[utopia] [init] syscfg_get <$dhcpv6spool00::InterfaceName, brlan0>
+[utopia] [init] syscfg_get <$dhcpv6spool00::IANAEnable, 1>
+[utopia] [init] syscfg_get <$dhcpv6spool00::IAPDEnable, 1>
+[utopia] [init] syscfg_get <$dhcpv6spool00::IANAPrefixes, Device.IP.Interface.4.IPv6Prefix.1.>
+[utopia] [init] syscfg_get <$dhcpv6spool00::LeaseTime, 3600>
+[utopia] [init] syscfg_get <$dhcpv6spool00::PrefixRangeBegin, 0:0:0:0001>
+[utopia] [init] syscfg_get <$dhcpv6spool00::PrefixRangeEnd, 0:0:0:00f5>
+[utopia] [init] syscfg_get <$dhcpv6spool00::EUI64Enable, 0>
+[utopia] [init] syscfg_get <$dhcpv6spool00::RapidEnable, 1>
+[utopia] [init] syscfg_get <$dhcpv6spool00::UnicastEnable, 0>
+[utopia] [init] syscfg_get <$dhcpv6spool00::IANAAmount, 255>
+[utopia] [init] syscfg_get <$dhcpv6spool00::optionnumber, 2>
+[utopia] [init] syscfg_get <$dhcpv6spool0option0::bEnabled, 1>
+[utopia] [init] syscfg_get <$dhcpv6spool0option0::Tag, 23>
+[utopia] [init] syscfg_get <$dhcpv6spool0option0::PassthroughClient, Device.DHCPv6.Client.1.>
+[utopia] [init] syscfg_get <$dhcpv6spool0option1::bEnabled, 1>
+[utopia] [init] syscfg_get <$dhcpv6spool0option1::Tag, 24>
+[utopia] [init] syscfg_get <$dhcpv6spool0option1::PassthroughClient, Device.DHCPv6.Client.1.>
+[utopia] [init] syscfg_get <$dhcpv6spool10::instancenumber, 2>
+[utopia] [init] syscfg_get <$dhcpv6spool10::bEnabled, 1>
+[utopia] [init] syscfg_get <$dhcpv6spool10::Interface, Device.IP.Interface.5.>
+[utopia] [init] syscfg_get <$dhcpv6spool10::IANAEnable, 1>
+[utopia] [init] syscfg_get <$dhcpv6spool10::IANAPrefixes, Device.IP.Interface.5.IPv6Prefix.1.>
+[utopia] [init] syscfg_get <$dhcpv6spool10::LeaseTime, 3600>
+[utopia] [init] syscfg_get <$dhcpv6spool10::PrefixRangeBegin, 0:0:0:0001>
+[utopia] [init] syscfg_get <$dhcpv6spool10::PrefixRangeEnd, 0:0:0:00f5>
+[utopia] [init] syscfg_get <$dhcpv6spool10::EUI64Enable, 0>
+[utopia] [init] syscfg_get <$dhcpv6spool10::RapidEnable, 1>
+[utopia] [init] syscfg_get <$dhcpv6spool10::UnicastEnable, 0>
+[utopia] [init] syscfg_get <$dhcpv6spool10::IANAAmount, 255>
+[utopia] [init] syscfg_get <$dhcpv6spool10::optionnumber, 2>
+[utopia] [init] syscfg_get <$dhcpv6spool1option0::bEnabled, 1>
+[utopia] [init] syscfg_get <$dhcpv6spool1option0::Tag, 23>
+[utopia] [init] syscfg_get <$dhcpv6spool1option0::PassthroughClient, Device.DHCPv6.Client.1.>
+[utopia] [init] syscfg_get <$dhcpv6spool1option1::bEnabled, 1>
+[utopia] [init] syscfg_get <$dhcpv6spool1option1::Tag, 24>
+[utopia] [init] syscfg_get <$dhcpv6spool1option1::PassthroughClient, Device.DHCPv6.Client.1.>
+[utopia] [init] syscfg_get <$dhcpv6spool40::instancenumber, 5>
+[utopia] [init] syscfg_get <$dhcpv6spool40::bEnabled, 1>
+[utopia] [init] syscfg_get <$dhcpv6spool40::InterfaceName, brlan7>
+[utopia] [init] syscfg_get <$dhcpv6spool40::Interface, Device.IP.Interface.6.>
+[utopia] [init] syscfg_get <$dhcpv6spool40::IANAEnable, 1>
+[utopia] [init] syscfg_get <$dhcpv6spool40::IANAPrefixes, Device.IP.Interface.6.IPv6Prefix.1.>
+[utopia] [init] syscfg_get <$dhcpv6spool40::LeaseTime, 3600>
+[utopia] [init] syscfg_get <$dhcpv6spool40::PrefixRangeBegin, 0:0:0:0002>
+[utopia] [init] syscfg_get <$dhcpv6spool40::PrefixRangeEnd, 0:0:0:00f5>
+[utopia] [init] syscfg_get <$dhcpv6spool40::RapidEnable, 1>
+[utopia] [init] syscfg_get <$dhcpv6spool40::IANAAmount, 255>
+[utopia] [init] syscfg_get <$dhcpv6spool40::optionnumber, 2>
+[utopia] [init] syscfg_get <$dhcpv6spool4option0::bEnabled, 1>
+[utopia] [init] syscfg_get <$dhcpv6spool4option0::Tag, 23>
+[utopia] [init] syscfg_get <$dhcpv6spool4option0::PassthroughClient, Device.DHCPv6.Client.1.>
+[utopia] [init] syscfg_get <$dhcpv6spool4option1::bEnabled, 1>
+[utopia] [init] syscfg_get <$dhcpv6spool4option1::Tag, 24>
+[utopia] [init] syscfg_get <$dhcpv6spool4option1::PassthroughClient, Device.DHCPv6.Client.1.>
+[utopia] [init] syscfg_get <$ccsp_recovery_enable, 1>
+[utopia] [init] syscfg_get <$cmdiag_ifname, lan0>
+[utopia] [init] syscfg_get <$cmdiag_enabled, 1>
+[utopia] [init] syscfg_get <$ecm_wan_ifname, wan0>
+[utopia] [init] syscfg_get <$emta_wan_ifname, mta0>
+[utopia] [init] syscfg_get <$managedsites_enabled, 0>
+[utopia] [init] syscfg_get <$managedservices_enabled, 0>
+[utopia] [init] syscfg_get <$manageddevices_enabled, 0>
+[utopia] [init] syscfg_get <$manageddevices_allow_all, 1>
+[utopia] [init] syscfg_get <$ManagedSiteBlockCount, 0>
+[utopia] [init] syscfg_get <$ManagedSiteTrustCount, 0>
+[utopia] [init] syscfg_get <$ManagedServiceBlockCount, 0>
+[utopia] [init] syscfg_get <$ManagedServiceTrustCount, 0>
+[utopia] [init] syscfg_get <$ManagedDeviceCount, 0>
+[utopia] [init] syscfg_get <$CosaNAT::port_trigger_enabled, 1>
+[utopia] [init] syscfg_get <$CosaNAT::port_forward_enabled, 1>
+[utopia] [init] syscfg_get <$CosaNAT::port_hs_forward_enabled, 1>
+[utopia] [init] syscfg_get <$rlog_enable, 0>
+[utopia] [init] syscfg_get <$rlog_host, 10.0.0.120>
+[utopia] [init] syscfg_get <$rlog_port, 514>
+[utopia] [init] syscfg_get <$FW_LOG_COMPRESSED_FILE_SIZE, 10>
+[utopia] [init] syscfg_get <$SYS_LOG_COMMPRESSED_FILE_SIZE, 10>
+[utopia] [init] syscfg_get <$EVT_LOG_COMMPRESSED_FILE_SIZE, 10>
+[utopia] [init] syscfg_get <$mta_dsx_log_enable, true>
+[utopia] [init] syscfg_get <$MoCAExtRadioInstanceNumber0, 1>
+[utopia] [init] syscfg_get <$MoCAExtRadioID0, RADIO_2.4GHz>
+[utopia] [init] syscfg_get <$MoCAExtRadioEnable0, 1>
+[utopia] [init] syscfg_get <$MoCAExtRadioMode0, 14>
+[utopia] [init] syscfg_get <$MoCAExtRadioChannelWidth0, 1>
+[utopia] [init] syscfg_get <$MoCAExtRadioChannel0, 6>
+[utopia] [init] syscfg_get <$MoCAExtRadioSecChannel0, 3>
+[utopia] [init] syscfg_get <$MoCAExtRadioBeaconInterval0, 100>
+[utopia] [init] syscfg_get <$MoCAExtRadioDTIMInterval0, 2>
+[utopia] [init] syscfg_get <$MoCAExtRadioGuardInterval0, 400>
+[utopia] [init] syscfg_get <$MoCAExtRadioCoexistance0, 1>
+[utopia] [init] syscfg_get <$MoCAExtRadioInstanceNumber1, 2>
+[utopia] [init] syscfg_get <$MoCAExtRadioID1, RADIO_5GHz>
+[utopia] [init] syscfg_get <$MoCAExtRadioEnable1, 1>
+[utopia] [init] syscfg_get <$MoCAExtRadioMode1, 9>
+[utopia] [init] syscfg_get <$MoCAExtRadioChannelWidth1, 2>
+[utopia] [init] syscfg_get <$MoCAExtRadioChannel1, 40>
+[utopia] [init] syscfg_get <$MoCAExtRadioSecChannel1, 3>
+[utopia] [init] syscfg_get <$MoCAExtRadioBeaconInterval1, 100>
+[utopia] [init] syscfg_get <$MoCAExtRadioDTIMInterval1, 2>
+[utopia] [init] syscfg_get <$MoCAExtRadioGuardInterval1, 400>
+[utopia] [init] syscfg_get <$MoCAExtRadioCoexistance1, 1>
+[utopia] [init] syscfg_get <$MoCAExtSsidWpsEnabled, 1>
+[utopia] [init] syscfg_get <$MoCAExtSsidWpsPinCode, 12345678>
+[utopia] [init] syscfg_get <$MoCAExtSsidWpsSsidIndex, 10001000>
+[utopia] [init] syscfg_get <$MoCAExtSsidNum, 0>
+[utopia] [init] syscfg_get <$MoCAExtWiFiDisconnectClients, >
+[utopia] [init] syscfg_get <$staticdns_enable, 0>
+[utopia] [init] syscfg_get <$wan_ipaddr, 0.0.0.0>
+[utopia] [init] syscfg_get <$wan_netmask, 0.0.0.0>
+[utopia] [init] syscfg_get <$wan_default_gateway, 0.0.0.0>
+[utopia] [init] syscfg_get <$nameserver1, 0.0.0.0>
+[utopia] [init] syscfg_get <$nameserver2, 0.0.0.0>
+[utopia] [init] syscfg_get <$hostname, sc_F5685>
+[utopia] [init] syscfg_get <$redirection_flag, true>
+[utopia] [init] syscfg_get <$redirection_url, >
+[utopia] [init] syscfg_get <$cloud_capable_flag, 1>
+[utopia] [init] syscfg_get <$cloud_enable_flag, 0>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_LogLevel, 4>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_TR69_LogLevel, 4>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_PAM_LogLevel, 4>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_PSM_LogLevel, 4>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_MTA_LogLevel, 4>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_CM_LogLevel, 4>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_WiFi_LogLevel, 4>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_CR_LogLevel, 4>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_Harvester_LogLevel, 4>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_NotifyComp_LogLevel, 4>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_Wecb_LogLevel, 4>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_PowerMgr_LogLevel, 4>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_EthAgent_LogLevel, 4>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_LoggerEnable, 1>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_TR69_LoggerEnable, 1>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_PAM_LoggerEnable, 1>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_PSM_LoggerEnable, 1>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_MTA_LoggerEnable, 1>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_CM_LoggerEnable, 1>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_WiFi_LoggerEnable, 1>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_CR_LoggerEnable, 1>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_Harvester_LoggerEnable, 1>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_NotifyComp_LoggerEnable, 1>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_Wecb_LoggerEnable, 1>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_PowerMgr_LoggerEnable, 1>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_EthAgent_LoggerEnable, 1>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_EnableMoCAforXi5, false>
+[utopia] [init] syscfg_get <$reboot_count, 1>
+[utopia] [init] syscfg_get <$latest_reboot_time, Tue Nov 19 01:15:12 CET 2024>
+[utopia] [init] syscfg_get <$wifi_reset_count, 0>
+[utopia] [init] syscfg_get <$latest_wifi_reset_time, >
+[utopia] [init] syscfg_get <$DhcpServDetectEnable, false>
+[utopia] [init] syscfg_get <$X_COMCAST-COM_CMC, 0>
+[utopia] [init] syscfg_get <$X_COMCAST-COM_CID, 0>
+[utopia] [init] syscfg_get <$X_COMCAST-COM_SyncProtocolVersion, 0>
+[utopia] [init] syscfg_get <$CaptivePortal_Enable, false>
+[utopia] [init] syscfg_get <$ConnTest_PingInterval, 60>
+[utopia] [init] syscfg_get <$ConnTest_NumPingsPerServer, 3>
+[utopia] [init] syscfg_get <$ConnTest_MinNumPingServer, 1>
+[utopia] [init] syscfg_get <$ConnTest_PingRespWaitTime, 1000>
+[utopia] [init] syscfg_get <$ConnTest_CorrectiveAction, false>
+[utopia] [init] syscfg_get <$Ipv4PingServer_Count, 0>
+[utopia] [init] syscfg_get <$Ipv6PingServer_Count, 0>
+[utopia] [init] syscfg_get <$resource_monitor_interval, 15>
+[utopia] [init] syscfg_get <$process_monitor_interval, 5>
+[utopia] [init] syscfg_get <$avg_cpu_threshold, 100>
+[utopia] [init] syscfg_get <$avg_memory_threshold, 100>
+[utopia] [init] syscfg_get <$selfheal_enable, true>
+[utopia] [init] syscfg_get <$max_reboot_count, 3>
+[utopia] [init] syscfg_get <$max_reset_count, 3>
+[utopia] [init] syscfg_get <$todays_reboot_count, 0>
+[utopia] [init] syscfg_get <$todays_reset_count, 0>
+[utopia] [init] syscfg_get <$lastActiontakentime, 0>
+[utopia] [init] syscfg_get <$process_memory_log_count, 6>
+[utopia] [init] syscfg_get <$lastActiontakentimeforAtomHang, 0>
+[utopia] [init] syscfg_get <$todays_atom_reboot_count, 0>
+[utopia] [init] syscfg_get <$selfheal_dns_pingtest_enable, false>
+[utopia] [init] syscfg_get <$selfheal_dns_pingtest_url, >
+[utopia] [init] syscfg_get <$highloadavg_reboot_count, 0>
+[utopia] [init] syscfg_get <$selfheal_ping_DataBlockSize, 64>
+[utopia] [init] syscfg_get <$IPPingNumberOfRepetitions, 3>
+[utopia] [init] syscfg_get <$IPPingTimeout, 10>
+[utopia] [init] syscfg_get <$Selfheal_DiagnosticMode, false>
+[utopia] [init] syscfg_get <$diagMode_LogUploadFrequency, 1440>
+[utopia] [init] syscfg_get <$iot_ifname, l2sd0.106>
+[utopia] [init] syscfg_get <$iot_ipaddr, 192.168.106.1>
+[utopia] [init] syscfg_get <$iot_netmask, 255.255.255.0>
+[utopia] [init] syscfg_get <$iot_dhcp_start, 192.168.106.100>
+[utopia] [init] syscfg_get <$iot_dhcp_end, 192.168.106.150>
+[utopia] [init] syscfg_get <$lost_and_found_enable, false>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_LastRebootReason, unknown>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_LastRebootCounter, 0>
+[utopia] [init] syscfg_get <$PeriodicFWCheck_Enable, false>
+[utopia] [init] syscfg_get <$logbackup_enable, true>
+[utopia] [init] syscfg_get <$logbackup_interval, 30>
+[utopia] [init] syscfg_get <$MinMemoryThreshold_Value, 10>
+[utopia] [init] syscfg_get <$HTTP_Server_IP, 192.168.178.1>
+[utopia] [init] syscfg_get <$HTTPS_Server_IP, 192.168.178.1>
+[utopia] [init] syscfg_get <$Default_Server_IP, 192.168.178.1>
+[utopia] [init] syscfg_get <$HTTP_Server_IPv6, ::1>
+[utopia] [init] syscfg_get <$HTTPS_Server_IPv6, ::1>
+[utopia] [init] syscfg_get <$Default_Server_IPv6, ::1>
+[utopia] [init] syscfg_get <$CloudPersonalizationURL, http://internet.xfinity.com>
+[utopia] [init] syscfg_get <$unit_activated, 1>
+[utopia] [init] syscfg_get <$MoCA_previous_status, 0>
+[utopia] [init] syscfg_get <$MoCA_current_status, 0>
+[utopia] [init] syscfg_get <$enable_speedtest, false>
+[utopia] [init] syscfg_get <$PasswordLockoutEnable, true>
+[utopia] [init] syscfg_get <$PasswordLockoutAttempts, 3>
+[utopia] [init] syscfg_get <$PasswordLockoutTime, 300000>
+[utopia] [init] syscfg_get <$PasswordLoginCounts_1, 0>
+[utopia] [init] syscfg_get <$NumOfFailedAttempts_1, 0>
+[utopia] [init] syscfg_get <$PasswordLoginCounts_2, 0>
+[utopia] [init] syscfg_get <$NumOfFailedAttempts_2, 0>
+[utopia] [init] syscfg_get <$PasswordLoginCounts_3, 0>
+[utopia] [init] syscfg_get <$NumOfFailedAttempts_3, 0>
+[utopia] [init] syscfg_get <$HTTPSecurityHeaderEnable, true>
+[utopia] [init] syscfg_get <$Speedtest_SubUnPauseTimeOut, 45>
+[utopia] [init] syscfg_get <$local_ui_enable, true>
+[utopia] [init] syscfg_get <$static_ui_enable, true>
+[utopia] [init] syscfg_get <$SNMPPSWDCTRLFLAG, false>
+[utopia] [init] syscfg_get <$TR069PSWDCTRLFLAG, false>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_AkerEnable, false>
+[utopia] [init] syscfg_get <$ManageableNotificationEnabled, true>
+[utopia] [init] syscfg_get <$unique_telemetry_enable, false>
+[utopia] [init] syscfg_get <$unique_telemetry_tag, >
+[utopia] [init] syscfg_get <$unique_telemetry_interval, 0>
+[utopia] [init] syscfg_get <$mTlsLogUpload_Enable, false>
+[utopia] [init] syscfg_get <$WebUIEnable, 1>
+[utopia] [init] syscfg_get <$DSCP_InitialForwardedMark, cs0>
+[utopia] [init] syscfg_get <$DSCP_InitialOutputMark, af22>
+[utopia] [init] syscfg_get <$dmesglogsync_interval, 900>
+[utopia] [init] syscfg_get <$eth_wan_enabled, true>
+[utopia] [init] syscfg_get <$DeferFWDownloadReboot, 290>
+[utopia] [init] syscfg_get <$log_backup_enable, false>
+[utopia] [init] syscfg_get <$log_backup_threshold, 0>
+[utopia] [init] syscfg_get <$eth_log_enabled, false>
+[utopia] [init] syscfg_get <$eth_log_period, 3600>
+[utopia] [init] syscfg_get <$MessageBusSource, true>
+[utopia] [init] syscfg_get <$UpdateNvram, true>
+[utopia] [init] syscfg_get <$gw_health, 0>
+[utopia] [init] syscfg_get <$wanlinkheal, true>
+[utopia] [init] syscfg_get <$CpuMemFrag_Interval, 4>
+[utopia] [init] syscfg_get <$new_ntp_enabled, false>
+[utopia] [init] syscfg_get <$PresenceDetectEnabled, false>
+[utopia] [init] syscfg_get <$notify_presence_webpa, false>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_PresenceLeaveIPv4CheckInterval, 37>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_PresenceLeaveIPv6CheckInterval, 43>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_PresenceLeaveIPv4Retries, 3>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_PresenceLeaveIPv6Retries, 3>
+[utopia] [init] syscfg_get <$X_RDKCENTRAL-COM_BackgroundPresenceJoinInterval, 67>
+[utopia] [init] syscfg_get <$start_upnp_service, true>
+[utopia] [init] syscfg_get <$Free_Mem_Threshold, 0>
+[utopia] [init] syscfg_get <$Mem_Frag_Threshold, 0>
+[utopia] [init] syscfg_get <$T2Enable, false>
+[utopia] [init] syscfg_get <$T2Version, 2.0.1>
+[utopia] [init] syscfg_get <$T2ConfigURL, "">
+[utopia] [init] syscfg_get <$T2mTLSEnable, false>
+[utopia] [init] syscfg_get <$dcm_retry_attemptInterval, 60>
+[utopia] [init] syscfg_get <$dcm_retry_maxAttempts, 3>
+[utopia] [init] syscfg_get <$low_queue_reboot_threshold, 0>
+[utopia] [init] syscfg_get <$DNSStrictOrder, true>
+[utopia] [init] syscfg_get <$iot_brname, br106>
+[utopia] [init] syscfg_get <$enableRFCaptivePortal, false>
+[utopia] [init] syscfg_get <$BlockLostandFoundInternet, false>
+[utopia] [init] syscfg_get <$SecureWebUI_Enable, false>
+[utopia] [init] syscfg_get <$SecureWebUI_LocalFqdn, myrouter.io>
+[utopia] [init] syscfg_get <$dhcpv6spool00::X_RDKCENTRAL_COM_DNSServersEnabled, 0>
+[utopia] [init] syscfg_get <$AggressiveInterval, 5>
+[utopia] [init] syscfg_get <$dslite_enable, 0>
+[utopia] [init] syscfg_get <$dslite_count, 1>
+[utopia] [init] syscfg_get <$dslite_InsNum_1, 1>
+[utopia] [init] syscfg_get <$dslite_active_1, 0>
+[utopia] [init] syscfg_get <$dslite_alias_1, Dslite.Tunnel.1>
+[utopia] [init] syscfg_get <$dslite_mode_1, 1>
+[utopia] [init] syscfg_get <$dslite_addr_type_1, 2>
+[utopia] [init] syscfg_get <$dslite_addr_fqdn_1, none>
+[utopia] [init] syscfg_get <$dslite_addr_ipv6_1, ::>
+[utopia] [init] syscfg_get <$dslite_mss_clamping_enable_1, 1>
+[utopia] [init] syscfg_get <$dslite_tcpmss_1, 1420>
+[utopia] [init] syscfg_get <$wol_interval, 500>
+[utopia] [init] syscfg_get <$wol_retries, 3>
+[utopia] [init] syscfg_get <$StartupIPMode, 0>
+[utopia] [init] syscfg_get <$IPv4PrimaryDhcpServerOptions, FFFFFFFF>
+[utopia] [init] syscfg_get <$IPv4SecondaryDhcpServerOptions, FFFFFFFF>
+[utopia] [init] syscfg_get <$WANsideSSH_Enable, false>
+[utopia] [init] syscfg_get <$TR104Enable, false>
+[utopia] [init] syscfg_get <$WiFiRegionCode, USI>
+[utopia] [init] syscfg_get <$XHS_SSIDprefix, XHS>
+[utopia] [init] syscfg_get <$mta_rf_loss_detection, 0>
+[utopia] [init] syscfg_get <$dhcp_server_lan_blocked_subnet, 0.0.0.0:0.0.0.0,0.0.0.0:0.0.0.0,0.0.0.0:0.0.0.0,0.0.0.0:0.0.0.0,192.168.254.254:255.255.255.252,192.168.34.1:255.255.255.0,192.168.253.254:255.255.255.248,192.168.100.1:255.255.255.0,192.168.253.253:255.255.255.248,192.168.254.253:255.255.255.252,169.254.0.2:255.255.255.0,169.254.1.2:255.255.255.0>
+[utopia] [init] syscfg_get <$v4_dayofweek_block_time_bitmask_type, 0>
+[utopia] [init] syscfg_get <$v6_dayofweek_block_time_bitmask_type, 0>
+[utopia] [init] syscfg_get <$mac_dayofweek_block_time_bitmask_type, 0>
+[utopia] [init] syscfg_get <$lgfwv4dayofweek_1::v4_dayofweek_block_time_bitmask, 111111111111111111111111>
+[utopia] [init] syscfg_get <$lgfwv4dayofweek_2::v4_dayofweek_block_time_bitmask, 111111111111111111111111>
+[utopia] [init] syscfg_get <$lgfwv4dayofweek_3::v4_dayofweek_block_time_bitmask, 111111111111111111111111>
+[utopia] [init] syscfg_get <$lgfwv4dayofweek_4::v4_dayofweek_block_time_bitmask, 111111111111111111111111>
+[utopia] [init] syscfg_get <$lgfwv4dayofweek_5::v4_dayofweek_block_time_bitmask, 111111111111111111111111>
+[utopia] [init] syscfg_get <$lgfwv4dayofweek_6::v4_dayofweek_block_time_bitmask, 111111111111111111111111>
+[utopia] [init] syscfg_get <$lgfwv4dayofweek_7::v4_dayofweek_block_time_bitmask, 111111111111111111111111>
+[utopia] [init] syscfg_get <$lgfwv6dayofweek_1::v6_dayofweek_block_time_bitmask, 111111111111111111111111>
+[utopia] [init] syscfg_get <$lgfwv6dayofweek_2::v6_dayofweek_block_time_bitmask, 111111111111111111111111>
+[utopia] [init] syscfg_get <$lgfwv6dayofweek_3::v6_dayofweek_block_time_bitmask, 111111111111111111111111>
+[utopia] [init] syscfg_get <$lgfwv6dayofweek_4::v6_dayofweek_block_time_bitmask, 111111111111111111111111>
+[utopia] [init] syscfg_get <$lgfwv6dayofweek_5::v6_dayofweek_block_time_bitmask, 111111111111111111111111>
+[utopia] [init] syscfg_get <$lgfwv6dayofweek_6::v6_dayofweek_block_time_bitmask, 111111111111111111111111>
+[utopia] [init] syscfg_get <$lgfwv6dayofweek_7::v6_dayofweek_block_time_bitmask, 111111111111111111111111>
+[utopia] [init] syscfg_get <$lgfwmacdayofweek_1::mac_dayofweek_block_time_bitmask, 111111111111111111111111>
+[utopia] [init] syscfg_get <$lgfwmacdayofweek_2::mac_dayofweek_block_time_bitmask, 111111111111111111111111>
+[utopia] [init] syscfg_get <$lgfwmacdayofweek_3::mac_dayofweek_block_time_bitmask, 111111111111111111111111>
+[utopia] [init] syscfg_get <$lgfwmacdayofweek_4::mac_dayofweek_block_time_bitmask, 111111111111111111111111>
+[utopia] [init] syscfg_get <$lgfwmacdayofweek_5::mac_dayofweek_block_time_bitmask, 111111111111111111111111>
+[utopia] [init] syscfg_get <$lgfwmacdayofweek_6::mac_dayofweek_block_time_bitmask, 111111111111111111111111>
+[utopia] [init] syscfg_get <$lgfwmacdayofweek_7::mac_dayofweek_block_time_bitmask, 111111111111111111111111>
+[utopia] [init] syscfg_get <$dns_relay_enable, 0>
+[utopia] [init] syscfg_get <$dns_rebind_protection_enable, 1>
+[utopia] [init] syscfg_get <$tr_routing_enabled, 1>
+[utopia] [init] syscfg_get <$dns_config_page_show, false>
+[utopia] [init] syscfg_get <$dns_override, false>
+[utopia] [init] syscfg_get <$EnableOCSPStapling, false>
+[utopia] [init] syscfg_get <$EnableOCSPCA, false>
+[utopia] [init] syscfg_get <$IPoE_enable, 0>
+[utopia] [init] syscfg_get <$IPoE_regular_interval, 30>
+[utopia] [init] syscfg_get <$IPoE_retry_limit, 3>
+[utopia] [init] syscfg_get <$IPoE_retry_interval, 10>
+[utopia] [init] syscfg_get <$XHFW_Enable, true>
+[utopia] [init] syscfg_get <$XHFW_Status, "not activated">
+[utopia] [init] syscfg_get <$UseXPKI_Enable, false>
+[utopia] [init] syscfg_get <$LnFUseXPKI_Enable, false>
+[utopia] [init] syscfg_get <$dynamic_dns_enable, 0>
+[utopia] [init] syscfg_get <$ddns_service_providers_list, no-ip,dyndns,duckdns,afraid,changeip>
+[utopia] [init] syscfg_get <$ddns_server_checkinterval_1, 0>
+[utopia] [init] syscfg_get <$ddns_server_maxretries_1, 10>
+[utopia] [init] syscfg_get <$ddns_server_retryinterval_1, 60>
+[utopia] [init] syscfg_get <$ddns_server_checkinterval_2, 0>
+[utopia] [init] syscfg_get <$ddns_server_maxretries_2, 10>
+[utopia] [init] syscfg_get <$ddns_server_retryinterval_2, 60>
+[utopia] [init] syscfg_get <$ddns_server_checkinterval_3, 0>
+[utopia] [init] syscfg_get <$ddns_server_maxretries_3, 10>
+[utopia] [init] syscfg_get <$ddns_server_retryinterval_3, 60>
+[utopia] [init] syscfg_get <$ddns_server_checkinterval_4, 0>
+[utopia] [init] syscfg_get <$ddns_server_maxretries_4, 10>
+[utopia] [init] syscfg_get <$ddns_server_retryinterval_4, 60>
+[utopia] [init] syscfg_get <$ddns_server_checkinterval_5, 0>
+[utopia] [init] syscfg_get <$ddns_server_maxretries_5, 10>
+[utopia] [init] syscfg_get <$ddns_server_retryinterval_5, 60>
+[utopia] [init] syscfg_get <$hwHealthTest, false>
+[utopia] [init] syscfg_get <$bridge_util_enable, false>
+[utopia] [init] syscfg_get <$CMRouteIsolation_Enable, true>
+[utopia] [init] syscfg_get <$CollectdEnable, false>
+[utopia] [init] syscfg_get <$ntp_status, 3>
+[utopia] [init] syscfg_get <$mTlsCrashdumpUpload_Enable, false>
+[utopia] [init] syscfg_get <$AutoReboot, false>
+[utopia] [init] syscfg_get <$WebUIRemoteMgtOptionEnable, true>
+[utopia] [init] syscfg_get <$rxtxstats_interface_list, brlan0,brlan1,brlan2,brlan3,brlan4,brlan5,brebhaul,brlan112,brlan113>
+[utopia] [init] syscfg_get <$rxtxstats_port_list, wl0,wl1,wl2,moca0,eth0,eth1,eth2,eth3>
+[utopia] [init] syscfg_get <$CrashUpload_S3SigningUrl, https://secure.ssr.coast.xcal.tv/cgi-bin/upload_dump.cgi>
+[utopia] [init] syscfg_get <$DscpEnabledList_1, >
+[utopia] [init] syscfg_get <$DscpSleepInterval_1, 0>
+[utopia] [init] syscfg_get <$DscpEnabledList_2, >
+[utopia] [init] syscfg_get <$DscpSleepInterval_2, 0>
+[utopia] [init] syscfg_get <$DocsisLinkDownTimeOut, 900>
+[utopia] [init] syscfg_get <$LldEnable, false>
+[utopia] [init] syscfg_get <$ConfigSyncEnableOnChange, true>
+[utopia] [init] syscfg_get <$ConfigSyncInterval, 300>
+[utopia] [init] syscfg_get <$DNSControl, 2>
+[utopia] [init] syscfg_get <$ReqFailoverCloudAckEnable, false>
+[utopia] [init] syscfg_get <$ClearDeviceList, false>
+[utopia] [init] syscfg_get <$StationModeTimeOut, 30>
+[utopia] [init] syscfg_get <$HealthCheckTimeout, 60>
+[utopia] [init] syscfg_get <$GatewayRestoreAttemptCount, 0>
+[utopia] [init] syscfg_get <$RemDeviceDetectionTimeout, 60>
+[utopia] [init] syscfg_get <$FailoverEnable, -1>
+[utopia] [init] syscfg_get <$SWDLDirectEnable, false>
+[utopia] [init] syscfg_get <$LatencyMeasure_IPv4Enable, false>
+[utopia] [init] syscfg_get <$LatencyMeasure_IPv6Enable, false>
+[utopia] [init] syscfg_get <$LatencyMeasure_TCPReportInterval, 15>
+[utopia] [init] syscfg_get <$DeviceType, TEST>
+[utopia] [init] syscfg_get <$timeoffset_sleep_time, 3600>
+[utopia] [init] syscfg_get <$Advertisement_pvd_hflag, 1>
+[utopia] [init] syscfg_get <$Advertisement_pvd_delay, 1>
+[utopia] [init] syscfg_get <$Advertisement_pvd_seqNum, 1>
+[utopia] [init] syscfg_get <$SpeedBoost_Port_StartV4, 40001>
+[utopia] [init] syscfg_get <$SpeedBoost_Port_EndV4, 41000>
+[utopia] [init] syscfg_get <$SpeedBoost_ProtoV4, BOTH>
+[utopia] [init] syscfg_get <$SpeedBoost_Port_StartV6, 40001>
+[utopia] [init] syscfg_get <$SpeedBoost_Port_EndV6, 41000>
+[utopia] [init] syscfg_get <$SpeedBoost_ProtoV6, BOTH>
+[utopia] [init] syscfg_get <$NoSpeedBoost_Port_StartV4, 50000>
+[utopia] [init] syscfg_get <$NoSpeedBoost_Port_EndV4, 65000>
+[utopia] [init] syscfg_get <$NoSpeedBoost_Port_StartV6, 50000>
+[utopia] [init] syscfg_get <$NoSpeedBoost_Port_EndV6, 65000>
+[utopia] [init] apply_system_defaults set <$led_brightness, 50> force=0
+[utopia] [init] syscfg_get <$led_auto_brightness, true>
+[utopia] [init] syscfg_get <$LedUSErrorTimer, 30>
+[utopia] [init] syscfg_get <$LedDSErrorTimer, 120>
+[utopia] [init] syscfg_get <$LedRegistrationErrorTimer, 30>
+[utopia] [init] syscfg_get <$lglanAllowedSubnetCount, 1>
+[utopia] [init] syscfg_get <$arLanAllowedSubnet_1::ins_num, 1>
+[utopia] [init] syscfg_get <$arLanAllowedSubnet_1::SubnetIP, 192.168.178.1>
+[utopia] [init] syscfg_get <$arLanAllowedSubnet_1::SubnetMask, 255.255.255.0>
+[utopia] [init] syscfg_get <$arLanAllowedSubnet_1::alias, LanAllowedSubnet-1>
+[utopia] [init] syscfg_get <$lglanAllowedSubnet_1, arLanAllowedSubnet_1>
+[utopia] [init] syscfg_get <$default_LanAllowedSubnet, 192.168.178.0>
+[utopia] [init] syscfg_get <$TraceRouteMaxHopCount, 30>
+[utopia] [init] syscfg_get <$ShortsDL, false>
+[utopia] [init] syscfg_get <$RFCAllowOpenPorts, false>
+[utopia] [init] syscfg_get <$BLEDiscovery, false>
+[utopia] [init] syscfg_get <$IPv6_Interface, true>
+[utopia] [init] syscfg_get <$TelemetryEndpointURL, "">
+[utopia] [init] syscfg_get <$EnableTR69Binary, true>
+[utopia] [init] syscfg_get <$son_url, "">
+[utopia] [init] syscfg_get <$son_admin_status, 0>
+[utopia] [init] syscfg_get <$son_operational_status, 1>
+[utopia] [init] syscfg_get <$son_dfs_enable, 1>
+[utopia] [init] syscfg_get <$son_native_atm_bs_disable, 0>
+[utopia] [init] syscfg_get <$smart_wifi_hide, 0>
+[utopia] [init] syscfg_get <$ssam_enable, 0>
+[utopia] [init] syscfg_get <$ssam_maxstartdelay, 30>
+[utopia] [init] syscfg_get <$ssam_provisionedenv, >
+[utopia] [init] syscfg_get <$ssam_provisioningmodel, 1>
+[utopia] [init] syscfg_get <$ssam_signingkeyid, 0>
+[utopia] [init] syscfg_get <$ssam_updaterenable, 0>
+[utopia] [init] syscfg_get <$Available_Languages, en,nl,fr,de,it,pl,sk>
+[utopia] [init] syscfg_get <$Current_Language, nl>
+[utopia] [init] syscfg_get <$default_erouter_mode, 3>
+[utopia] [init] syscfg_get <$dhcp_offline_lease_time, 120>
+[utopia] [init] syscfg_get <$dhcp_server_relay_acs_discovery, both>
+[utopia] [init] syscfg_get <$dhcp_lan_change_hide, 1>
+[utopia] [init] syscfg_get <$nat_loopback_enable, 0>
+[utopia] [init] syscfg_get <$user_password_timeout_1, 900>
+[utopia] [init] syscfg_get <$admin_wifi_password_login_enable, false>
+[utopia] [init] syscfg_get <$firewall_enabledv6, 1>
+[utopia] [init] syscfg_get <$mso_allow_ping, 1>
+[utopia] [init] syscfg_get <$dns_1::ip, 0.0.0.0>
+[utopia] [init] syscfg_get <$dns_1::ins_num, 7>
+[utopia] [init] syscfg_get <$dns_1::type, Static>
+[utopia] [init] syscfg_get <$dns_1::alias, Server7>
+[utopia] [init] syscfg_get <$dns_1::enable, 0>
+[utopia] [init] syscfg_get <$dns_1::if, Device.IP.Interface.1>
+[utopia] [init] syscfg_get <$dns_static_server_2, dns_2>
+[utopia] [init] syscfg_get <$dns_2::ip, 0.0.0.0>
+[utopia] [init] syscfg_get <$dns_2::ins_num, 8>
+[utopia] [init] syscfg_get <$dns_2::type, Static>
+[utopia] [init] syscfg_get <$dns_2::alias, Server8>
+[utopia] [init] syscfg_get <$dns_2::enable, 0>
+[utopia] [init] syscfg_get <$dns_2::if, Device.IP.Interface.1>
+[utopia] [init] syscfg_get <$dns_static_server_3, dns_3>
+[utopia] [init] syscfg_get <$dns_3::ip, 0.0.0.0>
+[utopia] [init] syscfg_get <$dns_3::ins_num, 9>
+[utopia] [init] syscfg_get <$dns_3::type, Static>
+[utopia] [init] syscfg_get <$dns_3::alias, Server9>
+[utopia] [init] syscfg_get <$dns_3::enable, 0>
+[utopia] [init] syscfg_get <$dns_3::if, Device.IP.Interface.1>
+[utopia] [init] syscfg_get <$dns_static_server_4, dns_4>
+[utopia] [init] syscfg_get <$dns_4::ip, ::>
+[utopia] [init] syscfg_get <$dns_4::ins_num, 10>
+[utopia] [init] syscfg_get <$dns_4::type, Static>
+[utopia] [init] syscfg_get <$dns_4::alias, Server10>
+[utopia] [init] syscfg_get <$dns_4::enable, 0>
+[utopia] [init] syscfg_get <$dns_4::if, Device.IP.Interface.1>
+[utopia] [init] syscfg_get <$dns_static_server_5, dns_5>
+[utopia] [init] syscfg_get <$dns_5::ip, ::>
+[utopia] [init] syscfg_get <$dns_5::ins_num, 11>
+[utopia] [init] syscfg_get <$dns_5::type, Static>
+[utopia] [init] syscfg_get <$dns_5::alias, Server11>
+[utopia] [init] syscfg_get <$dns_5::enable, 0>
+[utopia] [init] syscfg_get <$dns_5::if, Device.IP.Interface.1>
+[utopia] [init] syscfg_get <$dns_static_server_6, dns_6>
+[utopia] [init] syscfg_get <$dns_6::ip, ::>
+[utopia] [init] syscfg_get <$dns_6::ins_num, 12>
+[utopia] [init] syscfg_get <$dns_6::type, Static>
+[utopia] [init] syscfg_get <$dns_6::alias, Server12>
+[utopia] [init] syscfg_get <$dns_6::enable, 0>
+[utopia] [init] syscfg_get <$dns_6::if, Device.IP.Interface.1>
+[utopia] [init] syscfg_get <$FirstInstallWizard_Enable, true>
+[utopia] [init] syscfg_get <$FirstInstall_State, true>
+[utopia] [init] syscfg_get <$multicast_enable, 1>
+[utopia] [init] syscfg_get <$multicast_snooping_enable, 1>
+[utopia] [init] syscfg_get <$multicast_ssm_fwd_enable, 1>
+[utopia] [init] syscfg_get <$multicast_max_ssm_sessions, 64>
+[utopia] [init] syscfg_get <$multicast_m2u_max_sessions, 64>
+[utopia] [init] syscfg_get <$tunneled_static_ip_enable, 0>
+[utopia] [init] syscfg_get <$tunneled_static_ip_auth_port, 1812>
+[utopia] [init] syscfg_get <$tunneled_static_ip_acct_port, 1813>
+[utopia] [init] syscfg_get <$tunneled_static_ip_interface, 1>
+[utopia] [init] syscfg_get <$tunneled_static_ip_hc_enable, 1>
+[utopia] [init] syscfg_get <$tunneled_static_ip_hc_ping_count, 3>
+[utopia] [init] syscfg_get <$tunneled_static_ip_hc_ping_interval, 10>
+[utopia] [init] syscfg_get <$tunneled_static_ip_hc_trigger_interval, 30>
+[utopia] [init] syscfg_get <$staticipadminstatus, 1>
+[utopia] [init] syscfg_get <$dslite_dhcpv6_opt64_enable_dslite, 0>
+[utopia] [init] syscfg_get <$troubleshoot_wizard_enable, 0>
+[utopia] [init] syscfg_get <$router_mobile_app_enable, 0>
+[utopia] [init] syscfg_get <$custom_lan_https_enabled, 1>
+[utopia] [init] syscfg_get <$user_bridge_mode_allowed, false>
+[utopia] [init] syscfg_get <$skenable, 0>
+[utopia] [init] syscfg_get <$skproperty, none>
+[utopia] [init] syscfg_get <$prov_code_source, 0>
+[utopia] [init] syscfg_get <$dns_forcestatic, false>
+[utopia] [init] syscfg_get <$iperf_connection_timeout, 10>
+[utopia] [init] syscfg_get <$internet_service_enable, 1>
+[utopia] [init] syscfg_get <$stp_enable, false>
+[utopia] [init] syscfg_get <$rssh_idle_timeout, 900>
+[utopia] [init] syscfg_get <$ntp_minpoll, 10>
+[utopia] [init] syscfg_get <$ntp_maxpoll, 16>
+[utopia] [init] syscfg_get <$bridge_mode_lan_ipaddr, 192.168.100.1>
+[utopia] [init] syscfg_get <$dns_override, false>
+[utopia] [init] apply_system_defaults set <@wan_ifname, erouter0, 0x0>
+[utopia] [init] apply_system_defaults set <@model_name, USGv2, 0x4>
+[utopia] [init] apply_system_defaults set <@firmware_version, 0.0, 0x4>
+[utopia] [init] apply_system_defaults set <@current_wan_ipaddr, 0.0.0.0, 0x0>
+[utopia] [init] apply_system_defaults set <@lan-status, stopped, 0x0>
+[utopia] [init] apply_system_defaults set <@wan-status, stopped, 0x0>
+[utopia] [init] apply_system_defaults set <@bridge-status, stopped, 0x0>
+[utopia] [init] apply_system_defaults set <@forwarding-status, stopped, 0x0>
+[utopia] [init] apply_system_defaults set <@wan_service-status, stopped, 0x0>
+[utopia] [init] apply_system_defaults set <@current_wan_state, down, 0x0>
+[utopia] [init] apply_system_defaults set <@desired_wan_state, down, 0x0>
+[utopia] [init] apply_system_defaults set <@phylink_wan_state, up, 0x0>
+[utopia] [init] apply_system_defaults set <@current_ipv4_wan_state, down, 0x0>
+[utopia] [init] apply_system_defaults set <@current_ipv4_link_state, down, 0x0>
+[utopia] [init] apply_system_defaults set <@desired_ipv4_wan_state, down, 0x0>
+[utopia] [init] apply_system_defaults set <@desired_ipv4_link_state, down, 0x0>
+[utopia] [init] apply_system_defaults set <@MeshWANInterface_UlaAddr, fd01:1010:b066:798e:5528:ef02:7af4:e28/64, 0x0>
+[utopia] [init] apply_system_defaults set <@MeshRemoteWANInterface_UlaAddr, fd01:1010:b066:798e:3465:bfff:fe1a:8f46/64, 0x0>
+[utopia] [init] apply_system_defaults set <@MeshWanInterface_UlaPref, fd01:1010:b066:798e::/64, 0x0>
+[utopia] [init] apply_system_defaults set <@cm_diplexer_mode, mid_split, 0x0>
+[utopia] [init] apply_system_defaults set <@ipv6_prefix_ula, fd01:646:8a00:bee0::/64, 0x0>
+[utopia] [init] apply_system_defaults set <@brlan1_ipaddr_v6_ula, fd01:646:8a00:bee4::/64, 0x0>
+[utopia] [init] apply_system_defaults set <@br106_ipaddr_v6_ula, fd01:646:8a00:bee5::/64, 0x0>
+[utopia] [init] apply_system_defaults set <@br403_ipaddr_v6_ula, fd01:646:8a00:bee6::/64, 0x0>
+[utopia] [init] apply_system_defaults set <@brlan10_ipaddr_v6_ula, fd01:646:8a00:bee7::/64, 0x0>
+[utopia] [init] apply_system_defaults set <@br1an15_ipaddr_v6_ula, fd01:646:8a00:bee8::/64, 0x0>
+[utopia] [init] apply_system_defaults set <@parcon_dnsr_start, 6, 0x0>
+[utopia] [init] apply_system_defaults set <@parcon_dnsr_end, 8, 0x0>
+[utopia] [init] apply_system_defaults set <@parcon_httpget_start, 11, 0x0>
+[utopia] [init] apply_system_defaults set <@parcon_httpget_end, 12, 0x0>
+[utopia] [init] apply_system_defaults set <@parcon_dnsv6r_start, 9, 0x0>
+[utopia] [init] apply_system_defaults set <@parcon_dnsv6r_end, 10, 0x0>
+[utopia] [init] apply_system_defaults set <@parcon_httpv6get_start, 13, 0x0>
+[utopia] [init] apply_system_defaults set <@parcon_httpv6get_end, 14, 0x0>
+[utopia] [init] apply_system_defaults set <@ntp_time_sync, 0, 0x0>
+[utopia] [init] committing default syscfg values
+[utopia][init] Modified File Permission to 400 for file - /nvram/syscfg.db
+[utopia][init] SEC: Syscfg stored in /nvram/syscfg.db
+241119-23:09:53.382203 [utopia][init] lan_ipaddr = 192.168.178.1 lan_netmask = 255.255.255.0
+241119-23:09:53.382701 [utopia][init] Value of unit_activated got is: 1
+241119-23:09:53.383151 [utopia][init] Echoing network response during Reboot
+241119-23:09:53.383613 [utopia][init] Applying iptables settings
+ip6tables v1.8.4 (legacy): Empty interface is likely to be undesired
+Try `ip6tables -h' or 'ip6tables --help' for more information.
+/etc/utopia/utopia_init.sh: line 399: /proc/sys/net/netfilter/nf_conntrack_expect_max: Permission denied
+/etc/utopia/utopia_init.sh: line 404: /proc/sys/net/netfilter/nf_conntrack_max: Permission denied
+241119-23:09:53.392069 [utopia][init] Processing registration
+vconfig: ioctl error for add: No such device
+--SW handler, adding vlan 4090 on net 0 for  sw_6
+--SW handler, swctl -c 20 -p 7
+/etc/utopia/service.d/service_multinet/handle_sw.sh: line 302: swctl: command not found
+--SW handler, swctl -c 16 -p 7 -v 4090 -m 2 -q 1
+/etc/utopia/service.d/service_multinet/handle_sw.sh: line 317: swctl: command not found
+--SW handler, swctl -c 20 -p 0
+/etc/utopia/service.d/service_multinet/handle_sw.sh: line 373: swctl: command not found
+--SW handler, swctl -c 16 -p 0 -v 4090 -m 2 -q 1
+/etc/utopia/service.d/service_multinet/handle_sw.sh: line 381: swctl: command not found
+ifconfig: SIOCSIFADDR: No such device
+vconfig: ioctl error for add: No such device
+--SW handler, adding vlan 1060 on net 0 for  sw_6
+--SW handler, swctl -c 16 -p 7 -v 1060 -m 2 -q 1
+/etc/utopia/service.d/service_multinet/handle_sw.sh: line 317: swctl: command not found
+--SW handler, swctl -c 16 -p 0 -v 1060 -m 2 -q 1
+/etc/utopia/service.d/service_multinet/handle_sw.sh: line 381: swctl: command not found
+ifconfig: SIOCGIFFLAGS: No such device
+interface l2sd0.1060 does not exist!
+241119-23:09:53.434962 88E6172: Do not egress flood unicast with unknown DA
+/etc/utopia/utopia_init.sh: line 476: swctl: command not found
+SW Init
+trigger: no process found
+--SW handler, adding vlan 4090 on net 0 for  sw_6
+241119-23:09:53.472301 [utopia][init] X_RDKCENTRAL-COM_LastRebootReason (unknown)
+cat: /proc/bootstate/reset_status: No such file or directory
+cat: /proc/bootstate/reset_status: No such file or directory
+sh: /etc/utopia/registration.d/15_dhcpv6_client: No such file or directory
+cat: /proc/P-UNIT/status: No such file or directory
+modprobe: can't change directory to '/lib/modules': No such file or directory
+cat: /proc/P-UNIT/status: No such file or directory
+cat: /proc/environment/kpanic_counter: No such file or directory
+/etc/utopia/utopia_init.sh: line 664: [: : integer expression expected
+241119-23:09:53.572807 SERVICE_CROND : event crond-start
+241119-23:09:53.574402 SERVICE_CROND : starting crond service
+241119-23:09:53.576976 [utopia][init] Starting rpcserver in arm
+crond: no process found
+Cannot register service: RPC: Unable to receive; errno = 2Еь€€€јуч`nЭ€$^сч
+241119-23:09:53.585867 [utopia][init] setting Multicast MAC before any switch configs
+241120-00:09:53.598296 SERVICE_CROND : creating cron files
+Device "wan0" does not exist.
+/etc/utopia/utopia_init.sh: line 772: fcctl: command not found
+/etc/utopia/utopia_init.sh: line 773: fcctl: command not found
+/etc/utopia/utopia_init.sh: line 885: /proc/driver/tcpspdtest/cmd: No such file or directory
+241120-00:09:53.677399 This Device should not enabled ETHWAN mode
+241120-00:09:53.677886 SERVICE_CROND : Starting cron daemon
+/usr/ccsp/cosa_start.sh: line 98: /proc/sys/kernel/core_pattern: Read-only file system
+rdk_dyn_log_initg_dl_socket = 6 __progname = rtrouted 
+Elected subsystem is eRT.
+/usr/bin/CcspCrSsp -subsys eRT.
+Conf file /etc/debug.ini open success
+rdk_dyn_log_initg_dl_socket = 5 __progname = CcspCrSsp 
+rdk_logger_init /etc/debug.ini Already Stack Level Logging processed... not processing again.
+CcspCrSsp is ready ... 0 elapsed
+/usr/bin/PsmSsp -subsys eRT.
+Conf file /etc/debug.ini open success
+rdk_dyn_log_initg_dl_socket = 5 __progname = PsmSsp 
+rdk_logger_init /etc/debug.ini Already Stack Level Logging processed... not processing again.
+eRT.com.cisco.spvtg.ccsp.psm start to check eRT.com.cisco.spvtg.ccsp.CR status
+eRT.com.cisco.spvtg.ccsp.CR is ready, eRT.com.cisco.spvtg.ccsp.psm continue
+PsmSsp is ready ... 0 elapsed
+/usr/bin/notify_comp -subsys eRT. &
+/usr/bin/CcspPandMSsp -subsys eRT. &
+Conf file /etc/debug.ini open success
+rdk_dyn_log_initg_dl_socket = 5 __progname = CcspPandMSsp 
+rdk_logger_init /etc/debug.ini Already Stack Level Logging processed... not processing again.
+eRT.com.cisco.spvtg.ccsp.pam start to check eRT.com.cisco.spvtg.ccsp.psm status
+Conf file /etc/debug.ini open success
+rdk_dyn_log_initg_dl_socket = 5 __progname = notify_comp 
+rdk_logger_init /etc/debug.ini Already Stack Level Logging processed... not processing again.
+eRT.com.cisco.spvtg.ccsp.psm is ready, eRT.com.cisco.spvtg.ccsp.pam continue
+241119-23:09:54.660918 [utopia] sshd bridge-status received
+241119-23:09:54.711108 [utopia] sshd bridge-status received
+241119-23:09:54.712907 [utopia] stopping sshd service
+241119-23:09:54.717935 [utopia] starting sshd service
+ifconfig: wan0: error fetching interface information: Device not found
+ifconfig: wan0: error fetching interface information: Device not found
+[585] Nov 19 23:09:54 Failed loading /etc/dropbear/dropbear_dss_host_key
+[587] Nov 19 23:09:54 Running in background
+****LOADING DM LIBRARY***************
+THE LIB NAME =libtr181.so
+****LOADING DM LIBRARY***************
+PLUGIN libtr181.so LOADED SUCCESSFULLY
+-- CosaBackEndManagerCreate 290
+PandM DM initialize...
+CosaDeviceInfoInitialize : bxfinitywifiEnable value is : 0
+CosaUtilGetIfAddr IOCTL failure.: No such device
+CosaUtilGetIfAddr IOCTL failure.: No such device
+CosaUtilGetIfAddr IOCTL failure.: No such device
+Failed to open file: No such file or directory
+Cannot find device "erouter0"
+Dump terminated
+Dump terminated
+Cannot find device "wan0"
+Dump terminated
+Dump terminated
+[DM-Bridge] CosaDmlBrgInit -- in: 1732057794.928272
+4
+8
+1
+7
+6
+5
+3
+9
+2
+[DM-Bridge] CosaDmlBrgInit -- OUT: 1732057794.952128
+CosaDmlRaIfSetOptionValues: NOT SUPPORTED FOR NOW!!
+CosaDmlRaIfSetOptionValues: NOT SUPPORTED FOR NOW!!
+Failed to open file: No such file or directory
+Failed to open file: No such file or directory
+Failed to open file: No such file or directory
+Failed to open file: No such file or directory
+**************** sysevent set pnm-status up 
+CosaDmlRLog_Init: Nothing need to do !
+CosaDmlRLog_GetConf: get config success !
+-- CosaBackEndManagerInitialize 491 CosaGreTunnelCreate
+-- CosaGreTunnelCreate CosaGreTunnelInitialize >>
+CosaDml_GreTunnelInit:463> sysevent_open success
+CosaDml_GreTunnelInit:483> Init Hotspot GRE Done
+-- CosaGreTunnelCreate CosaGreTunnelInitialize <<
+CosaDml_HotspotInit:340> Init Hotspot Done
+Failed to open file: No such file or directory
+sh: wl: command not found
+sh: wl: command not found
+ovs-vsctl: unix:/var/run/openvswitch/db.sock: database connection failed (No such file or directory)
+PandM DM initialization done!
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+Calling PARODUS!
+Init for PARODUS success!!
+
+ COSADmlGetProcessInfo 1852  ProcessNumberOfEntries:23Cannot find device "erouter0"
+Dump terminated
+ COSADmlGetProcessInfo 1852  ProcessNumberOfEntries:23Dump terminated
+ COSADmlGetProcessInfo 1852  ProcessNumberOfEntries:23Cannot find device "wan0"
+Dump terminated
+ COSADmlGetProcessInfo 1852  ProcessNumberOfEntries:23Dump terminated
+Entering P&M loop
+241119-23:09:55.730599 [utopia] /var/run/dropbear.pid file is created. PID : 587
+CcspPandMSsp is ready ... 2 elapsed
+241120-00:09:55.831926 /usr/bin/CcspWifiSsp -subsys eRT. &
+/ /usr/ccsp
+/usr/ccsp
+/ /usr/ccsp
+/usr/ccsp
+Conf file /etc/debug.ini open success
+rdk_dyn_log_initg_dl_socket = 5 __progname = CcspWifiSsp 
+rdk_logger_init /etc/debug.ini Already Stack Level Logging processed... not processing again.
+eRT.com.cisco.spvtg.ccsp.wifi start to check eRT.com.cisco.spvtg.ccsp.psm status
+eRT.com.cisco.spvtg.ccsp.psm is ready, eRT.com.cisco.spvtg.ccsp.wifi continue
+241120-00:09:55.841529 /usr/bin/CcspEthAgent -subsys eRT. &
+rdk_dyn_log_initg_dl_socket = 5 __progname = VlanManager 
+rdk_dyn_log_initg_dl_socket = 5 __progname = wanmanager 
+Conf file /etc/debug.ini open success
+rdk_dyn_log_initg_dl_socket = 5 __progname = CcspEthAgent 
+rdk_logger_init /etc/debug.ini Already Stack Level Logging processed... not processing again.
+rdk_dyn_log_initg_dl_socket = 5 __progname = GponManager 
+Conf file /etc/debug.ini open success
+rdk_logger_init /etc/debug.ini Already Stack Level Logging processed... not processing again.
+241120-00:09:55.867397 Triggered cosa_start_rem script and created tmp/cosa_start_rem_triggered file
+Creating MESH vlans
+241120-00:09:55.868123 Elected subsystem is eRT.
+rdk_dyn_log_initg_dl_socket = 5 __progname = fwupgrademanager 
+241120-00:09:55.872475 PWD is /usr/ccsp
+241120-00:09:55.878797 /usr/bin/CcspMtaAgentSsp -subsys eRT. &
+/usr/ccsp/cosa_start_rem.sh: line 112: /usr/bin/CcspMtaAgentSsp: No such file or directory
+241120-00:09:55.884822 /usr/bin/CcspTandDSsp -subsys eRT. &
+241120-00:09:55.885457 XCONF SCRIPT : Calling XCONF Client
+/usr/ccsp/cosa_start_rem.sh: line 141: /etc/firmwareSched.sh: No such file or directory
+241120-00:09:55.892541 ***Starting CcspLMLite****
+241120-00:09:55.893070 /usr/bin/CcspLMLite -subsys eRT. &
+241120-00:09:55.893768 Launching UI after all CCSP processes are up
+/tmp/lmlite_initialized does not exist. Waiting...
+241120-00:09:55.902496 /usr/bin/CcspTr069PaSsp -subsys eRT. &
+eRT.com.cisco.spvtg.ccsp.lmlite start to check eRT.com.cisco.spvtg.ccsp.psm status
+eRT.com.cisco.spvtg.ccsp.psm is ready, eRT.com.cisco.spvtg.ccsp.lmlite continue
+PSM module done.
+Conf file /etc/debug.ini open success
+241120-00:09:55.903172 Launching ProfileHunter
+rdk_dyn_log_initg_dl_socket = 5 __progname = CcspLMLite 
+rdk_logger_init /etc/debug.ini Already Stack Level Logging processed... not processing again.
+Conf file /etc/debug.ini open success
+rdk_dyn_log_initg_dl_socket = 5 __progname = CcspTr069PaSsp 
+rdk_logger_init /etc/debug.ini Already Stack Level Logging processed... not processing again.
+****LOADING DM LIBRARY***************
+THE LIB NAME =libwifi.so
+****LOADING DM LIBRARY***************
+PLUGIN libwifi.so LOADED SUCCESSFULLY
+CosaDmlWiFiInit 
+-- CosaBackEndManagerCreate 127
+100
+100
+Conf file /etc/debug.ini open success
+cat: /var/lib/misc/dnsmasq.leases: No such file or directory
+rdk_dyn_log_initg_dl_socket = 5 __progname = CcspTandDSsp 
+rdk_logger_init /etc/debug.ini Already Stack Level Logging processed... not processing again.
+****LOADING DM LIBRARY***************
+THE LIB NAME =libdmltad.so
+****LOADING DM LIBRARY***************
+PLUGIN libdmltad.so LOADED SUCCESSFULLY
+cat: /var/lib/misc/dnsmasq.leases: No such file or directory
+Executing - [/etc/start_lighttpd.sh start]
+cat: /var/lib/misc/dnsmasq.leases: No such file or directory
+rdk_dyn_log_initg_dl_socket = 6 __progname = profileHunter 
+CosaDmlWiFiGetFactoryResetPsmData g_Subsytem = eRT.
+CosaDmlWiFiGetFactoryResetPsmData eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.FactoryReset = 0 
+ovsdb-tool: failed to read schema: "/usr/ccsp/wifi/rdkb-wifi.ovsschema" could not be read as JSON (error opening "/usr/ccsp/wifi/rdkb-wifi.ovsschema": No such file or directory)
+2024-11-19T23:09:56Z|00001|vlog|INFO|opened log file /var/tmp/wifidb.log
+wifidb-server: I/O error: /nvram/wifi/rdkb-wifi.db: open failed (No such file or directory)
+CosaEthInferface initialization done!
+2024-11-20 00:09:56: (../../lighttpd-1.4.63/src/configfile.c.426) Warning: mod_auth should be listed in server.modules before dynamic backends such as mod_fastcgi
+Pattern: 0 0,4,8,12,16,20 * * *
+241120-00:09:58.504221 [tid=1010] Wan_init_start:943549
+bs: No such file or directory
+RTNETLINK answers: Operation not supported
+RTNETLINK answers: Operation not supported
+Conf file /etc/debug.ini open success
+rdk_logger_init /etc/debug.ini Already Stack Level Logging processed... not processing again.
+Sending ICMPv6 packet: Cannot assign requested address
+Soliciting ff02::2 (ff02::2) on erouter0...
+Sending ICMPv6 packet: Cannot assign requested address
+Soliciting ff02::2 (ff02::2) on erouter0...
+OVSDB connect, connection error::error=No such file or directoryOVSDB connect, connection error::error=No such file or directoryOVSDB connect, connection error::error=No such file or directoryCosaDmlWiFiGetResetHotSpotRequired g_Subsytem = eRT.
+CosaDmlWiFiInit: radioActive wifi0 = FALSE 
+CosaDmlWiFiInit: radioActive wifi1 = FALSE 
+CosaDmlWiFiInit: radioActive wifi2 = FALSE 
+CosaDmlWiFiInit: noEnableVaps = TRUE 
+CosaDmlWiFiGetResetRequired g_Subsytem = eRT.
+CosaDmlWiFiGetResetRequired eRT.com.cisco.spvtg.ccsp.Device.WiFi.VlanCfgVerion = 2 
+-- wifi_setLED off
+/usr/ccsp/wifi/lfp.sh: line 23: GetServiceUrl: command not found
+/usr/ccsp/wifi/lfp.sh: line 24: configparammod: command not found
+cat: /tmp/tmp5.mod: No such file or directory
+BootUpTime info for wifi_hal-init_sequence-started is already present not adding it again 
+100
+100
+CosaDmlWiFiInit: Cosa_Init returned True 
+CosaDmlWiFiRadioGetEntry
+CosaDmlWiFiRadioGetEntry
+CosaDmlWiFiRadioGetEntry
+CosaDmlWiFiSsidGetEntry ulIndex = 0 
+CosaDmlWiFiSsidGetSupRate ulIndex = 0 
+CosaDmlWiFiSsidGetEntry ulIndex = 1 
+CosaDmlWiFiSsidGetSupRate ulIndex = 1 
+CosaDmlWiFiSsidGetEntry ulIndex = 2 
+CosaDmlWiFiSsidGetSupRate ulIndex = 2 
+CosaDmlWiFiSsidGetEntry ulIndex = 3 
+CosaDmlWiFiSsidGetSupRate ulIndex = 3 
+CosaDmlWiFiSsidGetEntry ulIndex = 4 
+CosaDmlWiFiSsidGetSupRate ulIndex = 4 
+CosaDmlWiFiSsidGetEntry ulIndex = 5 
+CosaDmlWiFiSsidGetSupRate ulIndex = 5 
+CosaDmlWiFiSsidGetEntry ulIndex = 6 
+CosaDmlWiFiSsidGetSupRate ulIndex = 6 
+CosaDmlWiFiSsidGetEntry ulIndex = 7 
+CosaDmlWiFiSsidGetSupRate ulIndex = 7 
+CosaDmlWiFiSsidGetEntry ulIndex = 8 
+CosaDmlWiFiSsidGetSupRate ulIndex = 8 
+CosaDmlWiFiSsidGetEntry ulIndex = 9 
+CosaDmlWiFiSsidGetSupRate ulIndex = 9 
+CosaDmlWiFiSsidGetEntry ulIndex = 10 
+CosaDmlWiFiSsidGetSupRate ulIndex = 10 
+CosaDmlWiFiSsidGetEntry ulIndex = 11 
+CosaDmlWiFiSsidGetSupRate ulIndex = 11 
+CosaDmlWiFiSsidGetEntry ulIndex = 12 
+CosaDmlWiFiSsidGetSupRate ulIndex = 12 
+CosaDmlWiFiSsidGetEntry ulIndex = 13 
+CosaDmlWiFiSsidGetSupRate ulIndex = 13 
+CosaDmlWiFiSsidGetEntry ulIndex = 14 
+CosaDmlWiFiSsidGetSupRate ulIndex = 14 
+CosaDmlWiFiSsidGetEntry ulIndex = 15 
+CosaDmlWiFiSsidGetSupRate ulIndex = 15 
+CosaDmlWiFiSsidGetEntry ulIndex = 16 
+CosaDmlWiFiSsidGetSupRate ulIndex = 16 
+CosaDmlWiFiSsidGetEntry ulIndex = 17 
+CosaDmlWiFiSsidGetSupRate ulIndex = 17 
+CosaDmlWiFiSsidGetEntry ulIndex = 18 
+CosaDmlWiFiSsidGetSupRate ulIndex = 18 
+CosaDmlWiFiSsidGetEntry ulIndex = 19 
+CosaDmlWiFiSsidGetSupRate ulIndex = 19 
+CosaDmlWiFiSsidGetEntry ulIndex = 20 
+CosaDmlWiFiSsidGetSupRate ulIndex = 20 
+CosaDmlWiFiSsidGetEntry ulIndex = 21 
+CosaDmlWiFiSsidGetSupRate ulIndex = 21 
+CosaDmlWiFiSsidGetEntry ulIndex = 22 
+CosaDmlWiFiSsidGetSupRate ulIndex = 22 
+CosaDmlWiFiSsidGetEntry ulIndex = 23 
+CosaDmlWiFiSsidGetSupRate ulIndex = 23 
+CosaDmlWiFiApGetEntry pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlGetApRadiusSettings pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApSecGetEntry pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApAcctGetEntry pSsid = 
+CosaDmlWiFiApAcctGetCfg pSsid = 
+CosaDmlWiFiApSetValues
+CosaDmlWiFiApSetMFQueue apIns = 1 
+CosaDmlMacFilt_GetNumberOfEntries apIns = 1
+CosaDmlMacFilt_GetNumberOfEntries apIns = 1 count = 0
+CosaDmlWiFiApGetEntry pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlGetApRadiusSettings pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApSecGetEntry pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApAcctGetEntry pSsid = 
+CosaDmlWiFiApAcctGetCfg pSsid = 
+CosaDmlWiFiApSetValues
+CosaDmlWiFiApSetMFQueue apIns = 2 
+CosaDmlMacFilt_GetNumberOfEntries apIns = 2
+CosaDmlMacFilt_GetNumberOfEntries apIns = 2 count = 0
+CosaDmlWiFiApGetEntry pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlGetApRadiusSettings pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApSecGetEntry pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApAcctGetEntry pSsid = 
+CosaDmlWiFiApAcctGetCfg pSsid = 
+CosaDmlWiFiApSetValues
+CosaDmlWiFiApSetMFQueue apIns = 3 
+CosaDmlMacFilt_GetNumberOfEntries apIns = 3
+CosaDmlMacFilt_GetNumberOfEntries apIns = 3 count = 0
+CosaDmlWiFiApGetEntry pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlGetApRadiusSettings pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApSecGetEntry pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApAcctGetEntry pSsid = 
+CosaDmlWiFiApAcctGetCfg pSsid = 
+CosaDmlWiFiApSetValues
+CosaDmlWiFiApSetMFQueue apIns = 4 
+CosaDmlMacFilt_GetNumberOfEntries apIns = 4
+CosaDmlMacFilt_GetNumberOfEntries apIns = 4 count = 0
+CosaDmlWiFiApGetEntry pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlGetApRadiusSettings pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApSecGetEntry pSsid = 
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApAcctGetEntry pSsid = 
+CosaDmlWiFiApAcctGetCfg pSsid = 
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+CosaDmlWiFiApSetValues
+CosaDmlWiFiApSetMFQueue apIns = 5 
+CosaDmlMacFilt_GetNumberOfEntries apIns = 5
+CosaDmlMacFilt_GetNumberOfEntries apIns = 5 count = 0
+CosaDmlWiFiApGetEntry pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlGetApRadiusSettings pSsid = 
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApSecGetEntry pSsid = 
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApAcctGetEntry pSsid = 
+CosaDmlWiFiApAcctGetCfg pSsid = 
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+CosaDmlWiFiApSetValues
+CosaDmlWiFiApSetMFQueue apIns = 6 
+CosaDmlMacFilt_GetNumberOfEntries apIns = 6
+CosaDmlMacFilt_GetNumberOfEntries apIns = 6 count = 0
+CosaDmlWiFiApGetEntry pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlGetApRadiusSettings pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApSecGetEntry pSsid = 
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApAcctGetEntry pSsid = 
+CosaDmlWiFiApAcctGetCfg pSsid = 
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+CosaDmlWiFiApSetValues
+CosaDmlWiFiApSetMFQueue apIns = 7 
+CosaDmlMacFilt_GetNumberOfEntries apIns = 7
+CosaDmlMacFilt_GetNumberOfEntries apIns = 7 count = 0
+CosaDmlWiFiApGetEntry pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlGetApRadiusSettings pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApSecGetEntry pSsid = 
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApAcctGetEntry pSsid = 
+CosaDmlWiFiApAcctGetCfg pSsid = 
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+CosaDmlWiFiApSetValues
+CosaDmlWiFiApSetMFQueue apIns = 8 
+CosaDmlMacFilt_GetNumberOfEntries apIns = 8
+CosaDmlMacFilt_GetNumberOfEntries apIns = 8 count = 0
+CosaDmlWiFiApGetEntry pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+CosaDmlGetApRadiusSettings pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+CosaDmlWiFiApSecGetEntry pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApAcctGetEntry pSsid = 
+CosaDmlWiFiApAcctGetCfg pSsid = 
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+CosaDmlWiFiApSetValues
+CosaDmlWiFiApSetMFQueue apIns = 9 
+CosaDmlMacFilt_GetNumberOfEntries apIns = 9
+CosaDmlMacFilt_GetNumberOfEntries apIns = 9 count = 0
+CosaDmlWiFiApGetEntry pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlGetApRadiusSettings pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApSecGetEntry pSsid = 
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApAcctGetEntry pSsid = 
+CosaDmlWiFiApAcctGetCfg pSsid = 
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+CosaDmlWiFiApSetValues
+CosaDmlWiFiApSetMFQueue apIns = 10 
+CosaDmlMacFilt_GetNumberOfEntries apIns = 10
+CosaDmlMacFilt_GetNumberOfEntries apIns = 10 count = 0
+CosaDmlWiFiApGetEntry pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlGetApRadiusSettings pSsid = 
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApSecGetEntry pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApAcctGetEntry pSsid = 
+CosaDmlWiFiApAcctGetCfg pSsid = 
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+CosaDmlWiFiApSetValues
+CosaDmlWiFiApSetMFQueue apIns = 11 
+CosaDmlMacFilt_GetNumberOfEntries apIns = 11
+CosaDmlMacFilt_GetNumberOfEntries apIns = 11 count = 0
+CosaDmlWiFiApGetEntry pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlGetApRadiusSettings pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApSecGetEntry pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApAcctGetEntry pSsid = 
+CosaDmlWiFiApAcctGetCfg pSsid = 
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+CosaDmlWiFiApSetValues
+CosaDmlWiFiApSetMFQueue apIns = 12 
+CosaDmlMacFilt_GetNumberOfEntries apIns = 12
+CosaDmlMacFilt_GetNumberOfEntries apIns = 12 count = 0
+CosaDmlWiFiApGetEntry pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlGetApRadiusSettings pSsid = 
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApSecGetEntry pSsid = 
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApAcctGetEntry pSsid = 
+CosaDmlWiFiApAcctGetCfg pSsid = 
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+CosaDmlWiFiApSetValues
+CosaDmlWiFiApSetMFQueue apIns = 13 
+CosaDmlMacFilt_GetNumberOfEntries apIns = 13
+CosaDmlMacFilt_GetNumberOfEntries apIns = 13 count = 0
+CosaDmlWiFiApGetEntry pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlGetApRadiusSettings pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApSecGetEntry pSsid = 
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApAcctGetEntry pSsid = 
+CosaDmlWiFiApAcctGetCfg pSsid = 
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+CosaDmlWiFiApSetValues
+CosaDmlWiFiApSetMFQueue apIns = 14 
+CosaDmlMacFilt_GetNumberOfEntries apIns = 14
+CosaDmlMacFilt_GetNumberOfEntries apIns = 14 count = 0
+CosaDmlWiFiApGetEntry pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+CosaDmlGetApRadiusSettings pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApSecGetEntry pSsid = 
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApAcctGetEntry pSsid = 
+CosaDmlWiFiApAcctGetCfg pSsid = 
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+CosaDmlWiFiApSetValues
+CosaDmlWiFiApSetMFQueue apIns = 15 
+CosaDmlMacFilt_GetNumberOfEntries apIns = 15
+CosaDmlMacFilt_GetNumberOfEntries apIns = 15 count = 0
+CosaDmlWiFiApGetEntry pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlGetApRadiusSettings pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApSecGetEntry pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApAcctGetEntry pSsid = 
+CosaDmlWiFiApAcctGetCfg pSsid = 
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+CosaDmlWiFiApSetValues
+CosaDmlWiFiApSetMFQueue apIns = 16 
+CosaDmlMacFilt_GetNumberOfEntries apIns = 16
+CosaDmlMacFilt_GetNumberOfEntries apIns = 16 count = 0
+CosaDmlWiFiApGetEntry pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlGetApRadiusSettings pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApSecGetEntry pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApAcctGetEntry pSsid = 
+CosaDmlWiFiApAcctGetCfg pSsid = 
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+CosaDmlWiFiApSetValues
+CosaDmlWiFiApSetMFQueue apIns = 17 
+CosaDmlMacFilt_GetNumberOfEntries apIns = 17
+CosaDmlMacFilt_GetNumberOfEntries apIns = 17 count = 0
+CosaDmlWiFiApGetEntry pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+CosaDmlGetApRadiusSettings pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApSecGetEntry pSsid = 
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApAcctGetEntry pSsid = 
+CosaDmlWiFiApAcctGetCfg pSsid = 
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+CosaDmlWiFiApSetValues
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+CosaDmlWiFiApSetMFQueue apIns = 18 
+CosaDmlMacFilt_GetNumberOfEntries apIns = 18
+CosaDmlMacFilt_GetNumberOfEntries apIns = 18 count = 0
+CosaDmlWiFiApGetEntry pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlGetApRadiusSettings pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApSecGetEntry pSsid = 
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApAcctGetEntry pSsid = 
+CosaDmlWiFiApAcctGetCfg pSsid = 
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+CosaDmlWiFiApSetValues
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+CosaDmlWiFiApSetMFQueue apIns = 19 
+CosaDmlMacFilt_GetNumberOfEntries apIns = 19
+CosaDmlMacFilt_GetNumberOfEntries apIns = 19 count = 0
+CosaDmlWiFiApGetEntry pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlGetApRadiusSettings pSsid = 
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApSecGetEntry pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApAcctGetEntry pSsid = 
+CosaDmlWiFiApAcctGetCfg pSsid = 
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+CosaDmlWiFiApSetValues
+CosaDmlWiFiApSetMFQueue apIns = 20 
+CosaDmlMacFilt_GetNumberOfEntries apIns = 20
+CosaDmlMacFilt_GetNumberOfEntries apIns = 20 count = 0
+CosaDmlWiFiApGetEntry pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlGetApRadiusSettings pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApSecGetEntry pSsid = 
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApAcctGetEntry pSsid = 
+CosaDmlWiFiApAcctGetCfg pSsid = 
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+CosaDmlWiFiApSetValues
+CosaDmlWiFiApSetMFQueue apIns = 21 
+CosaDmlMacFilt_GetNumberOfEntries apIns = 21
+CosaDmlMacFilt_GetNumberOfEntries apIns = 21 count = 0
+CosaDmlWiFiApGetEntry pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlGetApRadiusSettings pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApSecGetEntry pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApAcctGetEntry pSsid = 
+CosaDmlWiFiApAcctGetCfg pSsid = 
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+CosaDmlWiFiApSetValues
+CosaDmlWiFiApSetMFQueue apIns = 22 
+CosaDmlMacFilt_GetNumberOfEntries apIns = 22
+CosaDmlMacFilt_GetNumberOfEntries apIns = 22 count = 0
+CosaDmlWiFiApGetEntry pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlGetApRadiusSettings pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApSecGetEntry pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApAcctGetEntry pSsid = 
+CosaDmlWiFiApAcctGetCfg pSsid = 
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+CosaDmlWiFiApSetValues
+CosaDmlWiFiApSetMFQueue apIns = 23 
+CosaDmlMacFilt_GetNumberOfEntries apIns = 23
+CosaDmlMacFilt_GetNumberOfEntries apIns = 23 count = 0
+CosaDmlWiFiApGetEntry pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlGetApRadiusSettings pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApSecGetEntry pSsid = 
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+CosaDmlWiFiApAcctGetEntry pSsid = 
+CosaDmlWiFiApAcctGetCfg pSsid = 
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+CosaDmlWiFiApSetValues
+CosaDmlWiFiApSetMFQueue apIns = 24 
+CosaDmlMacFilt_GetNumberOfEntries apIns = 24
+CosaDmlMacFilt_GetNumberOfEntries apIns = 24 count = 0
+---- CosaWifiRegGetATMInfo ???load from PSM
+CosaDmlWiFiNeighbouringGetEntry
+CosaDmlGetNeighbouringDiagnosticEnable
+T2ERROR:isCachingRequired ../../../git/source/commonlib/telemetry_busmessage_sender.c:582: initRFC failed - cache the events
+
+T2ERROR:cacheEventToFile ../../../git/source/commonlib/telemetry_busmessage_sender.c:290: cacheEventToFile:290, Caching the event to File
+
+<CosaLoggingInitialize> Entry
+<CosaDmlLogging_GetConfiguration> Entry 0
+<CosaLoggingInitialize> Exit
+WifiRadioChannelStats_Synchronize: wifi_getRadioChannelStats failed
+WifiRadioChannelStats_Synchronize: wifi_getRadioChannelStats failed
+WifiRadioChannelStats_Synchronize: wifi_getRadioChannelStats failed
+Entering Wifi loop
+2024-11-20:00:10:00:695232 [RDKB_PLATFORM_ERROR] Didn't get WiFi 2.4 GHz SSID from agent
+2024-11-20:00:10:00:697013 [RDKB_PLATFORM_ERROR] Didn't get WiFi 5 GHz SSID from agent
+Starting Mesh agent from cosa_start.sh !!!
+rdk_dyn_log_initg_dl_socket = 5 __progname = meshAgent 
+/usr/sbin/deviceinfo.sh: No such file or directory
+Conf file /etc/debug.ini open success
+rdk_logger_init /etc/debug.ini Already Stack Level Logging processed... not processing again.
+****LOADING DM LIBRARY***************
+THE LIB NAME =libMeshAgentSsp.so
+****LOADING DM LIBRARY***************
+PLUGIN libMeshAgentSsp.so LOADED SUCCESSFULLY
+Soliciting ff02::2 (ff02::2) on erouter0...
+
+Hop limit                 :           64 (      0x40)
+Stateful address conf.    :          Yes
+Stateful other conf.      :           No
+Mobile home agent         :           No
+Router preference         :       medium
+Neighbor discovery proxy  :           No
+Router lifetime           :          240 (0x000000f0) seconds
+Reachable time            :  unspecified (0x00000000)
+Retransmit time           :  unspecified (0x00000000)
+ Source link-layer address: 00:16:3E:12:2D:8A
+ from fe80::216:3eff:fe12:2d8a
+TLV_IP_MODE: IPv6 Mode..!
+suboption  is vendor
+ suboption_data  is 3561
+suboption  is 1
+ suboption_data  is 68:74:74:70:3a:2f:2f:61:63:73:32:2e:72:65:76:64:6f:6d:61:69:6e:2e:63:6f:6d:3a:39:36:37:35
+OPT17 for CL_V6OPTION_ACS_SERVER is received: 68:74:74:70:3a:2f:2f:61:63:73:32:2e:72:65:76:64:6f:6d:61:69:6e:2e:63:6f:6d:3a:39:36:37:35
+suboption_data is 687474703a2f2f616373322e726576646f6d61696e2e636f6d3a39363735
+setsockopt-SOL_SOCKET-SO_BINDTODEVICE: No such device
+sysevent set of ascii_url::http://acs2.revdomain.com:9675 from DHCP OPT17
+ COSADmlGetProcessInfo 1852  ProcessNumberOfEntries:23CosaUtilGetIfAddr IOCTL failure.: Cannot assign requested address
+suboption  is 2
+ suboption_data  is 54:45:58:54
+comapring old and new dns IPV6 configuration 
+old and new IPV6 dns config are same no resolv_conf file override required 
+dhcpv6c_dbg_thrd -- 9681 !!! get event from v6 client: add erouter0 2001:dae:20:1::251 1 1800 2880 3600 3600 3001:dae:0:e800:: 56 1 1800 2880 3600 3600 
+Sorry, rule does not exist.
+conntrack v1.4.6 (conntrack-tools): connection tracking table has been emptied.
+CosaUtilGetIfAddr IOCTL failure.: Cannot assign requested address
+/etc/utopia/service.d/service_ntpd.sh: line 707: systemctl: command not found
+ntpd: no process found
+<< DslhWmpdoMpaSetParameterValues sending Notification ulArraySize 1 >>
+ Send_Notification_Thread_Func paramCount 0 
+type name found - dmsb.ManagementServer.PeriodicInformEnabletype name found - dmsb.ManagementServer.PeriodicInformIntervaltype name found - dmsb.ManagementServer.DefaultActiveNotificationThrottletype name found - dmsb.ManagementServer.CWMPRetryMinimumWaitIntervaltype name found - dmsb.ManagementServer.CWMPRetryIntervalMultiplierTR69 PA: Waiting for Setup env...
+TR69 PA: Setup env completed
+ ***************** Ccsp Tr69 process is up  Creatting PID file **** 
+Conf file /etc/debug.ini open success
+rdk_logger_init /etc/debug.ini Already Stack Level Logging processed... not processing again.
+241120-00:10:05.859267 [tid=1010] v6: Wan_init_complete for interface index 0 at 943557
+vsystem: killall zebra
+vsystem: zebra -d -f /var/zebra.conf -A 127.0.0.1 -i /var/zebra.pid
+Conf file /etc/debug.ini open success
+rdk_logger_init /etc/debug.ini Already Stack Level Logging processed... not processing again.
+Conf file /etc/debug.ini open success
+rdk_logger_init /etc/debug.ini Already Stack Level Logging processed... not processing again.
+****LOADING DM LIBRARY***************
+THE LIB NAME =libMeshAgentSsp.so
+****LOADING DM LIBRARY***************
+PLUGIN libMeshAgentSsp.so LOADED SUCCESSFULLY
+getDefaultSSID fetching eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.1.SSID
+getDefaultPassphrase fetching eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.1.Passphrase
+getDefaultSSID fetching eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.1.SSID
+getDefaultPassphrase fetching eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.1.Passphrase
+getDefaultSSID fetching eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.1.SSID
+getDefaultPassphrase fetching eRT.com.cisco.spvtg.ccsp.Device.WiFi.Radio.SSID.1.Passphrase
+cat: /var/lib/misc/dnsmasq.leases: No such file or directory
+cat: /var/lib/misc/dnsmasq.leases: No such file or directory
+cat: /var/lib/misc/dnsmasq.leases: No such file or directory
+/etc/utopia/service.d/service_ntpd.sh: line 592: systemctl: command not found
+ntpd: no process found
+cat: /var/lib/misc/dnsmasq.leases: No such file or directory
+cat: /var/lib/misc/dnsmasq.leases: No such file or directory
+cat: /var/lib/misc/dnsmasq.leases: No such file or directory
+restrict default: KOD does nothing without LIMITED.
+restrict ::: KOD does nothing without LIMITED.
+ntpd: time slew +0.006992s
+ntpd: no process found
+/etc/utopia/service.d/service_ntpd.sh: line 707: systemctl: command not found
+cat: /var/lib/misc/dnsmasq.leases: No such file or directory
+cat: /var/lib/misc/dnsmasq.leases: No such file or directory
+cat: /var/lib/misc/dnsmasq.leases: No such file or directory

@@ -1,0 +1,303 @@
+0.078506 [mod=PAM, lvl=WARN] [tid=513] 
+Subsystem is eRT.
+0.078545 [mod=PAM, lvl=INFO] [tid=513] PAM_DBG:------- daemonize call hit -----------
+0.078575 [mod=PAM, lvl=INFO] [tid=513] PAM_DBG:---------------------daemonize calls fork------------------------
+0.078682 [mod=PAM, lvl=INFO] [tid=513] PAM_DBG:--------------waiting for child process to initialize------------
+0.078697 [mod=PAM, lvl=INFO] [tid=513] PAM_DBG:------------uptime before waiting for sem is 943509 seconds ---------------
+0.078701 [mod=PAM, lvl=INFO] [tid=513] PAM_DBG:----------------sem_getvalue returns value = 0 -------------
+0.080475 [mod=PAM, lvl=INFO] [tid=518] PAM_DBG:--------------child process begins---------------
+0.080666 [mod=PAM, lvl=WARN] [tid=518] Core dump is opened, do not catch signal
+0.080681 [mod=PAM, lvl=INFO] [tid=518] Connect to bus daemon...
+0.080704 [mod=PAM, lvl=INFO] [tid=518] rbuscore.c:2340 RBus Enabled
+
+0.080719 [mod=PAM, lvl=INFO] [tid=518] rbuscore.c:656 Broker address: unix:///tmp/rtrouted
+
+0.081207 [mod=PAM, lvl=INFO] [tid=518] connection opened for eRT.com.cisco.spvtg.ccsp.pam
+0.081264 [mod=PAM, lvl=INFO] [tid=518] eRT.com.cisco.spvtg.ccsp.pam start to check eRT.com.cisco.spvtg.ccsp.psm status
+0.084515 [mod=PAM, lvl=INFO] [tid=518] eRT.com.cisco.spvtg.ccsp.psm is ready, eRT.com.cisco.spvtg.ccsp.pam continue
+0.084526 [mod=PAM, lvl=INFO] [tid=518] !!! Connected to message bus... bus_handle: 0x0x84fe520 !!!
+1.085548 [mod=PAM, lvl=INFO] [tid=518] CcspBaseIf_Register_Event_rbus : rbus_registerEvent called for event: currentSessionIDSignal
+1.085728 [mod=PAM, lvl=INFO] [tid=518] rbuscore.c:755 Subscription for _rbus_session_mgr::currentSessionIDSignal is now active.
+
+1.085819 [mod=PAM, lvl=WARN] [tid=518] Register empty object : com.
+1.085831 [mod=PAM, lvl=WARN] [tid=518] Register empty object : com.cisco.
+1.085842 [mod=PAM, lvl=WARN] [tid=518] Register empty object : com.cisco.spvtg.
+1.085850 [mod=PAM, lvl=WARN] [tid=518] Register empty object : com.cisco.spvtg.ccsp.
+1.085976 [mod=PAM, lvl=WARN] [tid=518] DM Library module name = CCSP Base Data Model
+1.088333 [mod=PAM, lvl=WARN] [tid=518] DM Library module name = COSA_TR181_USGv2
+1.088345 [mod=PAM, lvl=WARN] [tid=518] Loading DM library libtr181.so...
+1.094055 [mod=PAM, lvl=WARN] [tid=518] RDKB_SYSTEM_BOOT_UP_LOG : Entering CosaBackEndManagerCreate 291
+1.094322 [mod=PAM, lvl=WARN] [tid=518] CosaBackEndManagerInitialize...
+1.094337 [mod=PAM, lvl=WARN] [tid=518] RDKB_SYSTEM_BOOT_UP_LOG : PandM DM initialize...
+1.094967 [mod=PAM, lvl=WARN] [tid=518] CosaDmlNatInit Error get HS port forward enabled
+1.097218 [mod=PAM, lvl=INFO] [tid=518] !!! Ready to Utopia_GetDMZSettings !!!
+1.097294 [mod=PAM, lvl=INFO] [tid=518] !!! After Utopia_GetDMZSettings !!!
+1.098595 [mod=PAM, lvl=WARN] [tid=518] !!!!!!!! in CosaNatSyncPortTrigger !!!!!!!!
+1.098682 [mod=PAM, lvl=WARN] [tid=518] !!!!!! In CosaNatRegGetNatInfo !!!!!!
+1.099667 [mod=PAM, lvl=WARN] [tid=518] !!!!!! ulEntryCount for PortTrigger: 0 !!!!!!
+1.100563 [mod=PAM, lvl=WARN] [tid=518]   CosaNatCreate done!
+1.100574 [mod=PAM, lvl=WARN] [tid=518]   CosaProcStatusCreate done!
+1.115173 [mod=PAM, lvl=INFO] [tid=518] CosaDeriveSyndicationPartnerID 
+1.116589 [mod=PAM, lvl=WARN] [tid=518]   CosaDeviceInfoCreate done!
+1.117378 [mod=PAM, lvl=WARN] [tid=518]   CosaUserinterfaceCreate done!
+1.124657 [mod=PAM, lvl=INFO] [tid=518] Ignoring saveID for ifName: eth0, pAlias: Interface1, ulInstanceNumber: 1
+1.127216 [mod=PAM, lvl=INFO] [tid=518] Ignoring saveID for ifName: eth1, pAlias: Interface2, ulInstanceNumber: 2
+1.129314 [mod=PAM, lvl=INFO] [tid=518] Ignoring saveID for ifName: eth2, pAlias: Interface3, ulInstanceNumber: 3
+1.131390 [mod=PAM, lvl=INFO] [tid=518] Ignoring saveID for ifName: eth3, pAlias: Interface4, ulInstanceNumber: 4
+1.132748 [mod=PAM, lvl=NOTICE] [tid=518] CosaUtilGetLinkTypePath: 1
+1.132759 [mod=PAM, lvl=NOTICE] [tid=518] CosaUtilGetLinkTypePath: return index 0
+1.132774 [mod=PAM, lvl=NOTICE] [tid=518] Device.Ethernet.Interface.5, size 27, buf len 256
+1.132828 [mod=PAM, lvl=ERROR] [tid=518] GetParameterValues for param[0]=Device.Ethernet.Interface.5.Name failed with Error: 17
+1.132839 [mod=PAM, lvl=WARN] [tid=518] CosaUtilGetLowerLayerName -- failure 4294967295, to retrieve Device.Ethernet.Interface.5.Name
+1.132843 [mod=PAM, lvl=WARN] [tid=518] CosaDmlEthLinkLoadPsm -- failed to retrieve LowerLayer name parameter, error code 4294967295
+1.132973 [mod=PAM, lvl=WARN] [tid=518] CosaDmlEthLinkLoadPsm -- failed to retrieve 'Name' parameter, error code 102, type 2
+1.133430 [mod=PAM, lvl=WARN] [tid=518] CosaDmlEthLinkLoadPsm -- failed to retrieve 'LowerLayerType' parameter, error code 102, type 3
+1.135170 [mod=PAM, lvl=WARN] [tid=518] CosaDmlEthLinkLoadPsm -- failed to retrieve 'Name' parameter, error code 102, type 0
+1.136879 [mod=PAM, lvl=WARN] [tid=518] CosaDmlEthLinkLoadPsm -- failed to retrieve 'LowerLayerType' parameter, error code 102, type 3
+1.137466 [mod=PAM, lvl=WARN] [tid=518] CosaDmlEthLinkLoadPsm -- failed to retrieve 'Name' parameter, error code 102, type 0
+1.138958 [mod=PAM, lvl=WARN] [tid=518] CosaDmlEthLinkLoadPsm -- failed to retrieve 'LowerLayerType' parameter, error code 102, type 3
+1.139427 [mod=PAM, lvl=WARN] [tid=518] CosaDmlEthLinkLoadPsm -- failed to retrieve 'Name' parameter, error code 102, type 0
+1.143463 [mod=PAM, lvl=WARN] [tid=518] CosaEthWanTelementryLogger EthWan_TelementryLogger_Thread Created
+1.143475 [mod=PAM, lvl=WARN] [tid=518]   CosaEthernetCreate done!
+1.144421 [mod=PAM, lvl=WARN] [tid=518] webui_login_password: PWD_Empty!
+1.144444 [mod=PAM, lvl=WARN] [tid=518]   CosaUsersCreate done!
+1.147156 [mod=PAM, lvl=WARN] [tid=518]   CosaDynamicDnsCreate done!
+1.149574 [mod=PAM, lvl=WARN] [tid=518]   CosaFirewallCreate done!
+1.150352 [mod=PAM, lvl=WARN] [tid=518]   CosaSecurityCreate done!
+1.150379 [mod=PAM, lvl=WARN] [tid=518] CosaDmlIpMlanInit...
+1.154816 [mod=PAM, lvl=WARN] [tid=518] Cannot get ipv4 address of netdev:erouter0
+1.158226 [mod=PAM, lvl=WARN] [tid=518] Cannot get ipv4 address of netdev:wan0
+1.165127 [mod=PAM, lvl=WARN] [tid=518]   CosaIPCreate done!
+1.165684 [mod=PAM, lvl=NOTICE] [tid=518] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.13.AllowDelete (null)
+1.165943 [mod=PAM, lvl=NOTICE] [tid=518] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.13.Alias (null)
+1.166077 [mod=PAM, lvl=NOTICE] [tid=518] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.13.IPInterface (null)
+1.166431 [mod=PAM, lvl=NOTICE] [tid=518] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.13.SubnetMask (null)
+1.166561 [mod=PAM, lvl=NOTICE] [tid=518] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.13.DomainName (null)
+1.166798 [mod=PAM, lvl=NOTICE] [tid=518] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.13.LeaseTime (null)
+1.166935 [mod=PAM, lvl=NOTICE] [tid=518] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.13.Order (null)
+1.167068 [mod=PAM, lvl=NOTICE] [tid=518] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.13.TimeOffset (null)
+1.167393 [mod=PAM, lvl=NOTICE] [tid=518] readDHCPv4ServerPoolFromPSM: Can't find DHCPv4 Server Pool SADDR entry dmsb.dhcpv4.server.pool.13.StaticAddress.
+1.167725 [mod=PAM, lvl=NOTICE] [tid=518] readDHCPv4ServerPoolFromPSM: Can't find DHCPv4 Server Pool OPTION entry dmsb.dhcpv4.server.pool.13.Option.
+1.168106 [mod=PAM, lvl=NOTICE] [tid=518] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.3.Alias (null)
+1.168777 [mod=PAM, lvl=NOTICE] [tid=518] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.3.DomainName (null)
+1.169128 [mod=PAM, lvl=NOTICE] [tid=518] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.3.Order (null)
+1.169308 [mod=PAM, lvl=NOTICE] [tid=518] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.3.TimeOffset (null)
+1.169628 [mod=PAM, lvl=NOTICE] [tid=518] readDHCPv4ServerPoolFromPSM: Can't find DHCPv4 Server Pool SADDR entry dmsb.dhcpv4.server.pool.3.StaticAddress.
+1.169952 [mod=PAM, lvl=NOTICE] [tid=518] readDHCPv4ServerPoolFromPSM: Can't find DHCPv4 Server Pool OPTION entry dmsb.dhcpv4.server.pool.3.Option.
+1.170086 [mod=PAM, lvl=NOTICE] [tid=518] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.12.AllowDelete (null)
+1.172493 [mod=PAM, lvl=NOTICE] [tid=518] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.12.Alias (null)
+1.173096 [mod=PAM, lvl=NOTICE] [tid=518] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.12.IPInterface (null)
+1.173477 [mod=PAM, lvl=NOTICE] [tid=518] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.12.SubnetMask (null)
+1.173603 [mod=PAM, lvl=NOTICE] [tid=518] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.12.DomainName (null)
+1.173847 [mod=PAM, lvl=NOTICE] [tid=518] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.12.LeaseTime (null)
+1.173965 [mod=PAM, lvl=NOTICE] [tid=518] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.12.Order (null)
+1.174091 [mod=PAM, lvl=NOTICE] [tid=518] getDHCPv4ServerPoolParametersFromPSM Error 102 reading dmsb.dhcpv4.server.pool.12.TimeOffset (null)
+1.174397 [mod=PAM, lvl=NOTICE] [tid=518] readDHCPv4ServerPoolFromPSM: Can't find DHCPv4 Server Pool SADDR entry dmsb.dhcpv4.server.pool.12.StaticAddress.
+1.174706 [mod=PAM, lvl=NOTICE] [tid=518] readDHCPv4ServerPoolFromPSM: Can't find DHCPv4 Server Pool OPTION entry dmsb.dhcpv4.server.pool.12.Option.
+1.178505 [mod=PAM, lvl=WARN] [tid=518]   CosaDhcpv4Create done!
+1.178513 [mod=PAM, lvl=WARN] [tid=518]   CosaHostsCreate done!
+1.179256 [mod=PAM, lvl=WARN] [tid=518]   CosaDNSCreate done!
+1.179871 [mod=PAM, lvl=WARN] [tid=518] CosaDmlGenerateRipdConfigFile -- starts.
+1.179901 [mod=PAM, lvl=WARN] [tid=518] CosaDmlGenerateRipdConfigFile -- exits.
+1.180069 [mod=PAM, lvl=WARN] [tid=518] CosaDmlRoutingRouterGetCfg Alias Router2
+1.180367 [mod=PAM, lvl=WARN] [tid=518] -CosaDmlRoutingGetNumberOfV4Entries 0 entry in syscfg-
+1.180374 [mod=PAM, lvl=WARN] [tid=518] -CosaDmlRoutingGetNumberOfV4Entries 0 entry in backend-
+1.218933 [mod=PAM, lvl=WARN] [tid=518]   CosaRoutingCreate done!
+1.243538 [mod=PAM, lvl=NOTICE] [tid=518] lanBrPCtlGetEnabled: ioctl(SIOCGIFFLAGS) failed (errno: 19): No such device
+1.244629 [mod=PAM, lvl=NOTICE] [tid=518] lanBrPCtlGetEnabled: ioctl(SIOCGIFFLAGS) failed (errno: 19): No such device
+1.245598 [mod=PAM, lvl=NOTICE] [tid=518] lanBrPCtlGetEnabled: ioctl(SIOCGIFFLAGS) failed (errno: 19): No such device
+1.246502 [mod=PAM, lvl=NOTICE] [tid=518] lanBrPCtlGetEnabled: ioctl(SIOCGIFFLAGS) failed (errno: 19): No such device
+1.247414 [mod=PAM, lvl=NOTICE] [tid=518] lanBrPCtlGetEnabled: ioctl(SIOCGIFFLAGS) failed (errno: 19): No such device
+1.248219 [mod=PAM, lvl=NOTICE] [tid=518] lanBrPCtlGetEnabled: ioctl(SIOCGIFFLAGS) failed (errno: 19): No such device
+1.249027 [mod=PAM, lvl=NOTICE] [tid=518] lanBrPCtlGetEnabled: ioctl(SIOCGIFFLAGS) failed (errno: 19): No such device
+1.249939 [mod=PAM, lvl=NOTICE] [tid=518] lanBrPCtlGetEnabled: ioctl(SIOCGIFFLAGS) failed (errno: 19): No such device
+1.250832 [mod=PAM, lvl=NOTICE] [tid=518] lanBrPCtlGetEnabled: ioctl(SIOCGIFFLAGS) failed (errno: 19): No such device
+1.251591 [mod=PAM, lvl=NOTICE] [tid=518] lanBrPCtlGetEnabled: ioctl(SIOCGIFFLAGS) failed (errno: 19): No such device
+1.252823 [mod=PAM, lvl=NOTICE] [tid=518] lanBrPCtlGetEnabled: ioctl(SIOCGIFFLAGS) failed (errno: 19): No such device
+1.254105 [mod=PAM, lvl=NOTICE] [tid=518] lanBrPCtlGetEnabled: ioctl(SIOCGIFFLAGS) failed (errno: 19): No such device
+1.255524 [mod=PAM, lvl=NOTICE] [tid=518] lanBrPCtlGetEnabled: ioctl(SIOCGIFFLAGS) failed (errno: 19): No such device
+1.256310 [mod=PAM, lvl=NOTICE] [tid=518] lanBrPCtlGetEnabled: ioctl(SIOCGIFFLAGS) failed (errno: 19): No such device
+1.257538 [mod=PAM, lvl=NOTICE] [tid=518] lanBrPCtlGetEnabled: ioctl(SIOCGIFFLAGS) failed (errno: 19): No such device
+1.258553 [mod=PAM, lvl=NOTICE] [tid=518] lanBrPCtlGetEnabled: ioctl(SIOCGIFFLAGS) failed (errno: 19): No such device
+1.259735 [mod=PAM, lvl=NOTICE] [tid=518] lanBrPCtlGetEnabled: ioctl(SIOCGIFFLAGS) failed (errno: 19): No such device
+1.260620 [mod=PAM, lvl=NOTICE] [tid=518] lanBrPCtlGetEnabled: ioctl(SIOCGIFFLAGS) failed (errno: 19): No such device
+1.262135 [mod=PAM, lvl=NOTICE] [tid=518] lanBrPCtlGetEnabled: ioctl(SIOCGIFFLAGS) failed (errno: 19): No such device
+1.262791 [mod=PAM, lvl=WARN] [tid=518]   CosaBridgingCreate done!
+1.262817 [mod=PAM, lvl=WARN] [tid=518]   CosaIFStackCreate done!
+1.263752 [mod=PAM, lvl=WARN] [tid=518]   CosaPPPCreate done!
+1.268661 [mod=PAM, lvl=WARN] [tid=518] CosaDmlDhcpv6Init -- 2158 register lan-status to event dispatcher 
+1.268833 [mod=PAM, lvl=WARN] [tid=518] CosaDhcpv6BackendGetDhcpv6Info -- CosaDmlDhcpv6cGetServerCfg() return error:4294967295.
+1.268848 [mod=PAM, lvl=WARN] [tid=518] CosaDhcpv6BackendGetDhcpv6Info -- CosaDmlDhcpv6cGetServerCfg() return error:4294967295.
+1.268856 [mod=PAM, lvl=WARN] [tid=518] CosaDhcpv6BackendGetDhcpv6Info -- CosaDmlDhcpv6cGetServerCfg() return error:4294967295.
+1.268864 [mod=PAM, lvl=WARN] [tid=518] CosaDhcpv6BackendGetDhcpv6Info -- CosaDmlDhcpv6cGetServerCfg() return error:4294967295.
+1.268871 [mod=PAM, lvl=WARN] [tid=518] CosaDhcpv6BackendGetDhcpv6Info -- CosaDmlDhcpv6cGetServerCfg() return error:4294967295.
+1.269428 [mod=PAM, lvl=WARN] [tid=518]   CosaDhcpv6Create done!
+1.272240 [mod=PAM, lvl=WARN] [tid=518]   CosaDeviceControlCreate done!
+1.272800 [mod=PAM, lvl=WARN] [tid=518]   CosaIPv6rdCreate done!
+1.273590 [mod=PAM, lvl=WARN] [tid=518]   CosaRACreate done!
+1.275173 [mod=PAM, lvl=WARN] [tid=518]   CosaDsliteCreate done!
+1.275242 [mod=PAM, lvl=WARN] [tid=518]   CosaLgiCloudUiCreate done !
+1.275379 [mod=PAM, lvl=WARN] [tid=518]   CosaArrisPlumeCreate done !
+1.277267 [mod=PAM, lvl=WARN] [tid=518]   CosaLgiGeneralCreate done !
+1.277302 [mod=PAM, lvl=WARN] [tid=518]   CosaLgiIperfCreate done !
+1.277935 [mod=PAM, lvl=WARN] [tid=518]   CosaNeighdiscCreate done!
+1.277962 [mod=PAM, lvl=WARN] [tid=518]   CosaDmlMlanInit -- status 0!
+1.286060 [mod=PAM, lvl=WARN] [tid=518]   CosaDiagnosticsCreate done!
+1.286251 [mod=PAM, lvl=WARN] [tid=518]   CosaTimeCreate done!
+1.286259 [mod=PAM, lvl=WARN] [tid=518]   CosaLanManagementCreate done!
+1.286308 [mod=PAM, lvl=WARN] [tid=518]   CosaUpnpCreate done!
+1.286621 [mod=PAM, lvl=WARN] [tid=518] CosaParentalControlInitialize -- ulBlkUrlCnt = 0 ...
+1.300392 [mod=PAM, lvl=WARN] [tid=518]   CosaParentalControlCreate done - hParentalControl = 0x0x8841d50!
+1.311008 [mod=PAM, lvl=WARN] [tid=518]   CosaRLogCreate done!
+1.316208 [mod=PAM, lvl=WARN] [tid=518]   CosaGreTunnelCreate done!
+1.316246 [mod=PAM, lvl=INFO] [tid=518] HOTSPOT_LIB : Entering register_callbackHotspot....
+1.321960 [mod=PAM, lvl=WARN] [tid=518]   CosaCGreCreate done!
+1.322792 [mod=PAM, lvl=WARN] [tid=518]   CosaHotspotCreate done!
+1.322872 [mod=PAM, lvl=WARN] [tid=518]  CosaNatAlgCreate done!
+1.324406 [mod=PAM, lvl=WARN] [tid=518]   CosaMacFilterCreate done!
+1.330311 [mod=PAM, lvl=WARN] [tid=518]   CosaLgiGatewayCreate done!
+1.330338 [mod=PAM, lvl=WARN] [tid=518] !!!!!! CosaDmlTSIPLoadMappingFile 1 !!!!!!
+1.330353 [mod=PAM, lvl=WARN] [tid=518] !!!!!!!!!! CosaDmlTSIPLoadMappingFile: mapping file open error!!!!!!!!!
+1.331360 [mod=PAM, lvl=INFO] [tid=518] Inside FUNC register_sub_docs LINE 240
+1.331375 [mod=PAM, lvl=INFO] [tid=518] Inside FUNC initMessageQueue LINE 1109 
+1.332432 [mod=PAM, lvl=INFO] [tid=518] Inside FUNC initMessageQueueMaster LINE 2387 
+1.332458 [mod=PAM, lvl=INFO] [tid=518] eventRegisterMaster for process  CcspPandMSsp 
+1.332470 [mod=PAM, lvl=WARN] [tid=518] rbus.c:3094 handle is NULL
+
+1.332474 [mod=PAM, lvl=ERROR] [tid=518] Failed to register multiCompBroadCastSignal data elements with rbus. Error code : 2
+1.332634 [mod=PAM, lvl=WARN] [tid=518] wbInitializeHotspot : WebConfig RFC value is false
+1.332642 [mod=PAM, lvl=WARN] [tid=518] wbInitializeHotspot : WebConfig RFC is not enabled, returning
+1.332645 [mod=PAM, lvl=WARN] [tid=518]   Initializing ssam !
+1.332664 [mod=PAM, lvl=WARN] [tid=518] ssam_start,465: -E-
+1.332706 [mod=PAM, lvl=WARN] [tid=518] ssam_start,470: SAM is not enabled, exiting...
+1.332890 [mod=PAM, lvl=INFO] [tid=670] Inside FUNC display_subDocs LINE 88
+1.332905 [mod=PAM, lvl=INFO] [tid=671] subscribeSubdocForceReset: Discover component for event 'Device.X_RDK_WebConfig.webcfgSubdocForceReset' 
+1.332912 [mod=PAM, lvl=INFO] [tid=671] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+1.332916 [mod=PAM, lvl=ERROR] [tid=671] Failed to discover component. Error Code = 2
+1.332916 [mod=PAM, lvl=WARN] [tid=518]   CosaLgiWoLCreate done !
+1.332870 [mod=PAM, lvl=INFO] [tid=669] Inside FUNC messageQueueProcessing LINE 899 
+1.332989 [mod=PAM, lvl=WARN] [tid=518]   CosaTemperatureStatusCreate done!
+1.333057 [mod=PAM, lvl=WARN] [tid=518]   CosaLgiApplicationsCreate done !
+1.334930 [mod=PAM, lvl=INFO] [tid=672] Inside FUNC messageQueueProcessingMultiComp LINE 1764 
+1.335438 [mod=PAM, lvl=WARN] [tid=518]  CosaLgiMulticastCreate done !
+1.335457 [mod=PAM, lvl=WARN] [tid=518]   CosaLgiEventLogCreate done !
+1.335461 [mod=PAM, lvl=WARN] [tid=518]  CosaNetworkLogsCreate done !
+1.335510 [mod=PAM, lvl=ERROR] [tid=674] Unable to read CPU temperature
+1.335789 [mod=PAM, lvl=WARN] [tid=518]   CosaLgiTunneledStaticIPCreate done !
+1.335819 [mod=PAM, lvl=WARN] [tid=518]   CosaLgiStaticIPCreate done !
+1.335827 [mod=PAM, lvl=WARN] [tid=518] RDKB_SYSTEM_BOOT_UP_LOG : PandM DM initialization done!
+1.335835 [mod=PAM, lvl=WARN] [tid=518]  /var/tmp/lastrebootreason File doesn't exist --Create new file
+1.336132 [mod=PAM, lvl=ERROR] [tid=675] Unable to read CPU temperature
+1.385403 [mod=PAM, lvl=INFO] [tid=518] CheckAndSetRebootReason 973 - Last Reboot Reason is : unknown
+1.385490 [mod=PAM, lvl=WARN] [tid=518] No need to schedule as default value is set to false 
+1.392029 [mod=PAM, lvl=WARN] [tid=518] Empty object.
+1.394760 [mod=PAM, lvl=WARN] [tid=518] 
+ COSADmlGetProcessInfo 1900  ProcessNumberOfEntries:32
+1.394821 [mod=PAM, lvl=WARN] [tid=518] InterfaceStack_Synchronize()..... '
+1.395508 [mod=PAM, lvl=INFO] [tid=518] CosaUtilGetIpv6AddrInfo,Interface scope is : 32
+1.395809 [mod=PAM, lvl=INFO] [tid=518] CosaUtilGetIpv6AddrInfo,Interface scope is : 32
+1.396023 [mod=PAM, lvl=INFO] [tid=518] CosaUtilGetIpv6AddrInfo,Interface scope is : 16
+1.396152 [mod=PAM, lvl=INFO] [tid=518] CosaUtilGetIpv6AddrInfo,Interface scope is : 16
+1.396202 [mod=PAM, lvl=INFO] [tid=518] CosaUtilGetIpv6AddrInfo,Interface scope is : 32
+1.422695 [mod=PAM, lvl=WARN] [tid=518] Client2_Synchronize: is_usg_in_bridge_mode call failed. 
+1.423149 [mod=PAM, lvl=NOTICE] [tid=518] Opening COSA_DML_DHCP_LEASES_FILE failed _cosa_get_dhcps_client
+1.423183 [mod=PAM, lvl=WARN] [tid=518] Client2_Synchronize: is_usg_in_bridge_mode call failed. 
+1.423195 [mod=PAM, lvl=WARN] [tid=518] CosaDmlDhcpsGetClient CosaGetParamValueString Failed
+1.423203 [mod=PAM, lvl=NOTICE] [tid=518] Opening COSA_DML_DHCP_LEASES_FILE failed _cosa_get_dhcps_client
+1.423233 [mod=PAM, lvl=WARN] [tid=518] Client2_Synchronize: is_usg_in_bridge_mode call failed. 
+1.423241 [mod=PAM, lvl=NOTICE] [tid=518] Opening COSA_DML_DHCP_LEASES_FILE failed _cosa_get_dhcps_client
+1.423267 [mod=PAM, lvl=WARN] [tid=518] Client2_Synchronize: is_usg_in_bridge_mode call failed. 
+1.423275 [mod=PAM, lvl=NOTICE] [tid=518] Opening COSA_DML_DHCP_LEASES_FILE failed _cosa_get_dhcps_client
+1.424831 [mod=PAM, lvl=WARN] [tid=518] CosaDmlRipCallback -- starts.
+1.424850 [mod=PAM, lvl=WARN] [tid=518] CosaDmlGenerateRipdConfigFile -- starts.
+1.424873 [mod=PAM, lvl=WARN] [tid=518] CosaDmlGenerateRipdConfigFile -- exits.
+1.424877 [mod=PAM, lvl=WARN] [tid=518] CosaDmlRipCallback -- exits.
+1.425041 [mod=PAM, lvl=WARN] [tid=518] Search for empty object in 'dslhCpeCheckEmptyObject'
+1.425053 [mod=PAM, lvl=WARN] [tid=518] Register a dummy param 'Device.DeviceInfo.X_RDKCENTRAL-COM_RFC.Control.CcspDummy'
+1.425060 [mod=PAM, lvl=WARN] [tid=518] Register a dummy param 'Device.DeviceInfo.X_RDKCENTRAL-COM_EthernetWAN.CcspDummy'
+1.425110 [mod=PAM, lvl=INFO] [tid=717] dhcpv6c_dbg_thrd globalIP2  
+1.425293 [mod=PAM, lvl=WARN] [tid=717] dhcpv6c_dbg_thrd sysevent_fd_global is 18
+1.508553 [mod=PAM, lvl=WARN] [tid=518] PandMInit:ssp_engage_pnm PandM registered with CR ,setting the health to Green...
+1.508568 [mod=PAM, lvl=INFO] [tid=518] Provision & Management Module loaded successfully...
+1.508579 [mod=PAM, lvl=INFO] [tid=518] Inside FUNC check_component_crash LINE 359, init file is /tmp/pam_initialized_bootup 
+1.508591 [mod=PAM, lvl=INFO] [tid=518] /tmp/pam_initialized_bootup file not present, need to send component init event to webconfig 
+1.508598 [mod=PAM, lvl=INFO] [tid=518] notifyVersion_to_Webconfig : doc name portforwarding , doc version 0
+1.508602 [mod=PAM, lvl=INFO] [tid=518] sendWebConfigSignal : rbus_publishEvent :: event_name : webconfigSignal :: 
+1.508694 [mod=PAM, lvl=ERROR] [tid=518] sendWebConfigSignal rbus_invokeRemoteMethod for webconfigSignal failed & returns with Err: 17
+1.508705 [mod=PAM, lvl=INFO] [tid=518] notifyVersion_to_Webconfig : doc name wan , doc version 0
+1.508709 [mod=PAM, lvl=INFO] [tid=518] sendWebConfigSignal : rbus_publishEvent :: event_name : webconfigSignal :: 
+1.508759 [mod=PAM, lvl=ERROR] [tid=518] sendWebConfigSignal rbus_invokeRemoteMethod for webconfigSignal failed & returns with Err: 17
+1.508766 [mod=PAM, lvl=INFO] [tid=518] notifyVersion_to_Webconfig : doc name macbinding , doc version 0
+1.508774 [mod=PAM, lvl=INFO] [tid=518] sendWebConfigSignal : rbus_publishEvent :: event_name : webconfigSignal :: 
+1.508831 [mod=PAM, lvl=ERROR] [tid=518] sendWebConfigSignal rbus_invokeRemoteMethod for webconfigSignal failed & returns with Err: 17
+1.508839 [mod=PAM, lvl=INFO] [tid=518] notifyVersion_to_Webconfig : doc name lan , doc version 0
+1.508842 [mod=PAM, lvl=INFO] [tid=518] sendWebConfigSignal : rbus_publishEvent :: event_name : webconfigSignal :: 
+1.508884 [mod=PAM, lvl=ERROR] [tid=518] sendWebConfigSignal rbus_invokeRemoteMethod for webconfigSignal failed & returns with Err: 17
+1.508896 [mod=PAM, lvl=INFO] [tid=518] notifyVersion_to_Webconfig : doc name hotspot , doc version 0
+1.508900 [mod=PAM, lvl=INFO] [tid=518] sendWebConfigSignal : rbus_publishEvent :: event_name : webconfigSignal :: 
+1.508942 [mod=PAM, lvl=ERROR] [tid=518] sendWebConfigSignal rbus_invokeRemoteMethod for webconfigSignal failed & returns with Err: 17
+1.508953 [mod=PAM, lvl=INFO] [tid=518] notifyVersion_to_Webconfig : doc name connectedbuilding , doc version 0
+1.508957 [mod=PAM, lvl=INFO] [tid=518] sendWebConfigSignal : rbus_publishEvent :: event_name : webconfigSignal :: 
+1.509010 [mod=PAM, lvl=ERROR] [tid=518] sendWebConfigSignal rbus_invokeRemoteMethod for webconfigSignal failed & returns with Err: 17
+1.509018 [mod=PAM, lvl=INFO] [tid=518] notifyVersion_to_Webconfig : doc name xmspeedboost , doc version 0
+1.509026 [mod=PAM, lvl=INFO] [tid=518] sendWebConfigSignal : rbus_publishEvent :: event_name : webconfigSignal :: 
+1.509068 [mod=PAM, lvl=ERROR] [tid=518] sendWebConfigSignal rbus_invokeRemoteMethod for webconfigSignal failed & returns with Err: 17
+1.509075 [mod=PAM, lvl=INFO] [tid=518] PAM_DBG:----------------------touch /tmp/pam_initialized-------------------
+1.509800 [mod=PAM, lvl=INFO] [tid=518] PAM_DEBUG:------------sem_getvalue returns value = 0 ------------
+1.509808 [mod=PAM, lvl=INFO] [tid=518] PAM_DBG:----------------Before calling sem_post--------------------
+1.513885 [mod=PAM, lvl=WARN] [tid=518] RDKB_SYSTEM_BOOT_UP_LOG : Entering P&M loop... 
+2.078846 [mod=PAM, lvl=INFO] [tid=513] PAM_DBG:---------------sem_trywait() returns 0 ---------------------
+2.078869 [mod=PAM, lvl=INFO] [tid=513] PAM_DBG:---------------uptime after waiting for sem is 943511 seconds ---------------------
+2.078896 [mod=PAM, lvl=INFO] [tid=513] PAM_DBG:------------diff time is 2 -------------
+2.542446 [mod=PAM, lvl=WARN] [tid=667] CosaDmlDhcpv6sRestartOnLanStarted -- lan status is started. 
+5.542797 [mod=PAM, lvl=INFO] [tid=718] dhcpv6s_dbg_thrd 9349 check IPv6subPrefix  
+5.546574 [mod=PAM, lvl=WARN] [tid=1708] InterfaceEventHandler_thrd started
+5.547161 [mod=PAM, lvl=WARN] [tid=1708] InterfaceEventHandler_thrd multinet_9-status is 
+5.547623 [mod=PAM, lvl=WARN] [tid=1708] InterfaceEventHandler_thrd multinet_10-status is 
+5.547688 [mod=PAM, lvl=WARN] [tid=1708] InterfaceEventHandler_thrd multinet_2-status is 
+5.547749 [mod=PAM, lvl=WARN] [tid=1708] InterfaceEventHandler_thrd multinet_6-status is 
+11.332993 [mod=PAM, lvl=INFO] [tid=671] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+11.333008 [mod=PAM, lvl=ERROR] [tid=671] Failed to discover component. Error Code = 2
+15.214966 [mod=PAM, lvl=WARN] [tid=667] The received event status is not expected!
+17.215061 [mod=PAM, lvl=INFO] [tid=667] EvtDispterWanIpAddrsCallback vsystem 605 
+17.215076 [mod=PAM, lvl=INFO] [tid=667] EvtDispterWanIpAddrsCallback - erouter0 IP = 10.107.200.138
+17.215847 [mod=PAM, lvl=INFO] [tid=667] EvtDispterWanIpAddrsCallback Setting current_wan_ipaddr and restarting firewall 612 
+17.347492 [mod=PAM, lvl=INFO] [tid=717] dhcpv6c_dbg_thrd: get message dibbler-client add erouter0 2001:dae:7:1::214 1 1800 2880 3600 3600 3001:dae:0:e700:: 56 1 1800 2880 3600 3600
+17.347542 [mod=PAM, lvl=INFO] [tid=717] dhcpv6c_dbg_thrd: add
+17.347630 [mod=PAM, lvl=WARN] [tid=717] dhcpv6c_dbg_thrd multinet_1-status is ready, ret val is 0
+17.347851 [mod=PAM, lvl=INFO] [tid=717] [send_dhcp_data_to_wanmanager 10713]  Setting NN_SNDTIMEO, NN_RCVTIMEO to 5000 ms 
+17.347931 [mod=PAM, lvl=INFO] [tid=717] [send_dhcp_data_to_wanmanager-10725] Established connection to wanmanager 
+17.347939 [mod=PAM, lvl=INFO] [tid=717] [send_dhcp_data_to_wanmanager 10742]  Sending message to wanmanager .... 
+17.348091 [mod=PAM, lvl=INFO] [tid=717] [send_dhcp_data_to_wanmanager-10751] Successfully send 972 bytes over nano msg  
+19.216015 [mod=PAM, lvl=WARN] [tid=667] Received msg that is not a SE_MSG_NOTIFICATION (15)
+19.218784 [mod=PAM, lvl=WARN] [tid=667] The received event status is not expected!
+19.650257 [mod=PAM, lvl=INFO] [tid=522] [Pam_GetFirstIpInterfaceObjectName] -- Enter 
+19.650284 [mod=PAM, lvl=NOTICE] [tid=522] CosaUtilGetLinkTypePath: 2
+19.650291 [mod=PAM, lvl=NOTICE] [tid=522] CosaUtilGetLinkTypePath: return index 1
+19.650314 [mod=PAM, lvl=NOTICE] [tid=522] CosaUtilGetLinkTypePath: 1
+19.650322 [mod=PAM, lvl=NOTICE] [tid=522] CosaUtilGetLinkTypePath: return index 0
+19.650326 [mod=PAM, lvl=NOTICE] [tid=522] Device.Ethernet.Interface.5, size 27, buf len 256
+19.650517 [mod=PAM, lvl=WARN] [tid=522] EthAgent_getParams parameterValue[erouter0]
+19.650528 [mod=PAM, lvl=NOTICE] [tid=522] CosaUtilGetLowerLayerName -- value erouter0
+19.650547 [mod=PAM, lvl=NOTICE] [tid=522] CosaUtilGetLinkTypePath: 1
+19.650555 [mod=PAM, lvl=NOTICE] [tid=522] CosaUtilGetLinkTypePath: return index 0
+19.650562 [mod=PAM, lvl=NOTICE] [tid=522] Device.Ethernet.Interface.5, size 27, buf len 256
+19.650875 [mod=PAM, lvl=INFO] [tid=522] [Pam_GetFirstIpInterfaceObjectName] -- Exit returnStatus: 0
+19.651699 [mod=PAM, lvl=INFO] [tid=522] <<< DslhWmpdoMpaSetParameterAttributes pSetParameterAttribArray[0].RequesterID 4 >>>
+19.651711 [mod=PAM, lvl=INFO] [tid=522] <<< DslhVarroSetNotification pMyObject->RequesterID 4 >>>
+19.651810 [mod=PAM, lvl=INFO] [tid=522] <<<  pDslhVarRecord->RequesterID 4 >>>
+20.397472 [mod=PAM, lvl=INFO] [tid=718] dhcpv6s_dbg_thrd 9349 check IPv6subPrefix  
+20.401402 [mod=PAM, lvl=INFO] [tid=718] GenIPv6Prefix: pref 3001:dae:0:e704::/64
+20.401470 [mod=PAM, lvl=INFO] [tid=718] enable_IPv6 : Enabling ipv6 on iface true
+20.405407 [mod=PAM, lvl=WARN] [tid=718] CosaDmlDhcpv6sRebootServer: DBG calling  gw_lan_refresh
+21.333084 [mod=PAM, lvl=INFO] [tid=671] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+21.333103 [mod=PAM, lvl=ERROR] [tid=671] Failed to discover component. Error Code = 2
+28.451324 [mod=PAM, lvl=WARN] [tid=3643] hotspot_thread:GreTunnel_hotspot_update_circuit_ids starting
+31.333176 [mod=PAM, lvl=INFO] [tid=671] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+31.333195 [mod=PAM, lvl=ERROR] [tid=671] Failed to discover component. Error Code = 2
+41.333267 [mod=PAM, lvl=INFO] [tid=671] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+41.333282 [mod=PAM, lvl=ERROR] [tid=671] Failed to discover component. Error Code = 2
+51.333355 [mod=PAM, lvl=INFO] [tid=671] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+51.333370 [mod=PAM, lvl=ERROR] [tid=671] Failed to discover component. Error Code = 2
+61.333443 [mod=PAM, lvl=INFO] [tid=671] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+61.333458 [mod=PAM, lvl=ERROR] [tid=671] Failed to discover component. Error Code = 2

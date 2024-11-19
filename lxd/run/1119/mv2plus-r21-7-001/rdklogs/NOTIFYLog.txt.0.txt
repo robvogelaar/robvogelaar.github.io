@@ -1,0 +1,24 @@
+0.076736 [mod=NOTIFY, lvl=INFO] [tid=516] 
+ File ReloadNotifyParam not present. Nothing to load
+0.076775 [mod=NOTIFY, lvl=NOTICE] [tid=516] Connect to bus daemon...
+0.076801 [mod=NOTIFY, lvl=INFO] [tid=516] rbuscore.c:2340 RBus Enabled
+
+0.076813 [mod=NOTIFY, lvl=INFO] [tid=516] rbuscore.c:656 Broker address: unix:///tmp/rtrouted
+
+0.077034 [mod=NOTIFY, lvl=INFO] [tid=516] connection opened for eRT.com.cisco.spvtg.ccsp.notifycomponent
+0.077087 [mod=NOTIFY, lvl=INFO] [tid=516] INFO: bus_handle: 0x0x88ac6b0 
+1.078297 [mod=NOTIFY, lvl=INFO] [tid=516] CcspBaseIf_Register_Event_rbus : rbus_registerEvent called for event: currentSessionIDSignal
+1.079330 [mod=NOTIFY, lvl=INFO] [tid=516] rbuscore.c:755 Subscription for _rbus_session_mgr::currentSessionIDSignal is now active.
+
+1.079754 [mod=NOTIFY, lvl=NOTICE] [tid=516] ssp_engage 
+1.079884 [mod=NOTIFY, lvl=WARN] [tid=516] Register empty object : com.
+1.079922 [mod=NOTIFY, lvl=WARN] [tid=516] Register empty object : com.cisco.
+1.079960 [mod=NOTIFY, lvl=WARN] [tid=516] Register empty object : com.cisco.spvtg.
+1.079994 [mod=NOTIFY, lvl=WARN] [tid=516] Register empty object : com.cisco.spvtg.ccsp.
+1.080566 [mod=NOTIFY, lvl=WARN] [tid=516] DM Library module name = CCSP Base Data Model
+1.081261 [mod=NOTIFY, lvl=WARN] [tid=516] DM Library module name = COSA_TR181_USGv2
+1.081543 [mod=NOTIFY, lvl=WARN] [tid=516] Search for empty object in 'dslhCpeCheckEmptyObject'
+13.263264 [mod=NOTIFY, lvl=WARN] [tid=518] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+13.263279 [mod=NOTIFY, lvl=INFO] [tid=518]  
+ Notification : Parameter Device.NotifyComponent.X_RDKCENTRAL-COM_Connected-Client is added in the list by eRT.com.cisco.spvtg.ccsp.meshagent 

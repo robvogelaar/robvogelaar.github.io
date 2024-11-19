@@ -1,0 +1,235 @@
+
+Console log:
+
+init started: BusyBox v1.32.1 (2024-11-06 21:39:55 UTC)
+starting pid 21, tty '': '/bin/mount -a'
+starting pid 22, tty '': '/bin/ln -s /run /var/run'
+starting pid 23, tty '': '/bin/mkdir -p /var/lib/misc /var/lock /var/log /var/tmp /var/run/dbus'
+starting pid 24, tty '': '/bin/hostname -F /etc/hostname'
+starting pid 25, tty '': '/etc/init.d/rcS'
+Starting /etc/rcS.d/S04mdev
+/etc/rcS.d/S04mdev: line 5: /proc/sys/kernel/hotplug: Read-only file system
+Starting /etc/rcS.d/S25watchdog
+Starting watchdog daemon
+Starting /etc/rcS.d/S41ebtables
+Starting /etc/rc5.d/S50lxdinit
+Starting /etc/rc5.d/S51lxdinit_mv2plus
+/etc/rc5.d/S51lxdinit_mv2plus: line 148: /proc/sys/net/netfilter/nf_conntrack_max: Permission denied
+/etc/rc5.d/S51lxdinit_mv2plus: line 199: init_tlvdata: command not found
+Starting /etc/rc5.d/S55utopiainit
+ls: cannot access /tmp/pam_initialized*: No such file or directory
+ Last Reboot Reason is unknown
+SipAlg not supported
+Starting /etc/rc5.d/S56cosastart
+check 1
+File /tmp/utopia_inited exists.
+pnm-status case
+Inside bring_lan_up
+RDKB_SYSTEM_BOOT_UP_LOG : L3INST is:4
+RDKB_SYSTEM_BOOT_UP_LOG : L2INST is:1
+RDKB_SYSTEM_BOOT_UP_LOG : BRPORT is:9
+RDKB_SYSTEM_BOOT_UP_LOG : HSINST is:5
+setting sysevent callback for ipv4_4-status
+service_bridge_brcm93390.sh called with bridge-start NULL
+Inside ipv4_up called with arg l3_inst 4
+Lower is empty Calling resync instance with input:4
+Inside resync_instance called with arg l3_inst 4
+RDKB_SYSTEM_BOOT_UP_LOG : In resync_instance to bring up an instance
+RDKB_SYSTEM_BOOT_UP_LOG : NV_ETHLOWER is:1
+RDKB_SYSTEM_BOOT_UP_LOG : NV_IP is:192.168.0.1
+RDKB_SYSTEM_BOOT_UP_LOG : NV_SUBNET is:255.255.255.0
+RDKB_SYSTEM_BOOT_UP_LOG : NV_ENABLED is:true
+RDKB_SYSTEM_BOOT_UP_LOG : NV_LOWER is:1
+RDKB_SYSTEM_BOOT_UP_LOG : Syncing l3 instance (4), NV_ETHLOWER:1, NV_LOWER:1, NV_ENABLED:true, NV_IP:192.168.0.1, NV_SUBNET:255.255.255.0, LOWER:, CUR_IPV4_ADDR:, CUR_IPV4_SUBNET:
+resync_instance setting callback for multinet_1-statusIPv4 instances is:4
+Inside handle_l2_status called with arg l3_inst 4, l2_inst 1, net_status  and input 1
+Setting multinet-up event for brlan0 and brlan1
+/etc/utopia/service.d/service_bridge_brcm93390.sh: eval: line 255: unexpected EOF while looking for matching `''
+/etc/utopia/service.d/service_bridge_brcm93390.sh: eval: line 256: syntax error: unexpected end of file
+dhcp_server-resync case
+
+Inside resync_to_nonvol function with arg (null)
+
+Inside get_Pool_cnt - 
+cat: /sys/class/net/lan0/address: No such file or directory
+
+get_Pool_cnt ENDS ..... with Pool_Count=0
+
+Inside get_Pool_cnt - 
+
+get_Pool_cnt - Value=3
+
+get_Pool_cnt ENDS ..... with Pool_Count=1
+
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.3.Enable - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=100 - 
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.3.IPInterface - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=100 - 
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.3.MinAddress - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=100 - 
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.3.MaxAddress - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=100 - 
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.3.SubnetMask - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=100 - 
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.3.LeaseTime - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=100 - 
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.3.IPInterface - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=100 - 
+ Failed to copy values for dmsb.dhcpv4.server.pool.3.IPInterface
+resync_to_nonvol function ENDS 
+ifconfig: brlan0: error fetching interface information: Device not found
+Group brlan0 doesn't exist, creating it
+Bringing up brlan0
+ovs-vsctl: unix:/var/run/openvswitch/db.sock: database connection failed (No such file or directory)
+/etc/utopia/service.d/service_bridge_brcm93390.sh: line 149: /proc/sys/net/ipv6/conf/adp0/disable_ipv6: No such file or directory
+/etc/utopia/service.d/service_bridge_brcm93390.sh: line 150: /proc/sys/net/ipv6/conf/a-mux/disable_ipv6: No such file or directory
+BusyBox v1.32.1 (2024-11-06 21:39:55 UTC) multi-call binary.
+
+Usage: ifconfig [-a] interface [address]
+100
+cat: /sys/class/net/adp0/address: No such file or directory
+Waiting for dmcli port 2 configuration to be available...
+Problem with specified source mac '-o'.
+Problem with specified source mac '-o'.
+Bad argument : 'ipv4'.
+Bad argument : 'ipv4'.
+Waiting for parallel instance of /etc/utopia/service.d/vlan_util_brcm93390.sh to finish...
+Group brlan0 vlan 100 should include:	eth0 eth2 eth3 eth1 llan0 erouter0 wl0 wl1 
+Group brlan0 vlan 100 now includes:	
+Group brlan0 vlan 100 now includes:	
+Waiting for parallel instance of /etc/utopia/service.d/vlan_util_brcm93390.sh to finish...
+Adding eth0 to group brlan0
+ Bringing eth0 is up 
+Adding eth2 to group brlan0
+ Bringing eth2 is up 
+Adding eth3 to group brlan0
+ Bringing eth3 is up 
+Adding eth1 to group brlan0
+ Bringing eth1 is up 
+Adding llan0 to group brlan0
+ Bringing llan0 is up 
+Adding erouter0 to group brlan0
+ Bringing erouter0 is up 
+device erouter0 is a bridge device itself; can't add a bridge device to a bridge device.
+Not add the wl0 interface to Group brlan0 vlan 100 when GW is in Bridge mode
+Not add the wl1 interface to Group brlan0 vlan 100 when GW is in Bridge mode
+Flush CPE table
+Group brlan0 exist, bringing it UP
+multinet_1-status case
+Group brlan0 vlan 100 should include:	eth0 eth2 eth3 eth1 llan0 erouter0 wl0 wl1 
+Group brlan0 vlan 100 now includes:	eth0 eth1 eth2 eth3 llan0
+Group brlan0 vlan 100 now includes:	eth0 eth1 eth2 eth3 llan0
+Adding erouter0 to group brlan0
+ Bringing erouter0 is up 
+device erouter0 is a bridge device itself; can't add a bridge device to a bridge device.
+Not add the wl0 interface to Group brlan0 vlan 100 when GW is in Bridge mode
+Not add the wl1 interface to Group brlan0 vlan 100 when GW is in Bridge mode
+Flush CPE table
+got instances 
+/etc/utopia/service.d/vlan_util_brcm93390.sh: line 734: ushd: command not found
+Waiting for parallel instance of /etc/utopia/service.d/vlan_util_brcm93390.sh to finish...
+/etc/utopia/service.d/vlan_util_brcm93390.sh: line 766: /proc/driver/flowmgr/cmd: No such file or directory
+/etc/utopia/service.d/vlan_util_brcm93390.sh: line 766: /proc/driver/flowmgr/cmd: No such file or directory
+multinet_1-status case
+Group brlan0 vlan 100 should include:	eth0 eth2 eth3 eth1 llan0 erouter0 wl0 wl1 
+Group brlan0 vlan 100 now includes:	eth0 eth1 eth2 eth3 llan0
+Group brlan0 vlan 100 now includes:	eth0 eth1 eth2 eth3 llan0
+Adding erouter0 to group brlan0
+ Bringing erouter0 is up 
+device erouter0 is a bridge device itself; can't add a bridge device to a bridge device.
+Not add the wl0 interface to Group brlan0 vlan 100 when GW is in Bridge mode
+Not add the wl1 interface to Group brlan0 vlan 100 when GW is in Bridge mode
+Flush CPE table
+/etc/utopia/service.d/vlan_util_brcm93390.sh: line 734: ushd: command not found
+/etc/utopia/service.d/vlan_util_brcm93390.sh: line 766: /proc/driver/flowmgr/cmd: No such file or directory
+/etc/utopia/service.d/vlan_util_brcm93390.sh: line 766: /proc/driver/flowmgr/cmd: No such file or directory
+Bad argument : 'DROP'.
+TEST: flush conntrack (OK)
+Flush CPE  tables  commented out
+Bypass MAX CPE commented out
+Failed to Create lanhosts directory.
+/etc/utopia/service.d/service_bridge_brcm93390.sh: line 291: gw_lan_refresh: command not found
+Sorry, rule does not exist.
+Sorry, rule does not exist.
+emta_standalone is 
+route: SIOCDELRT: No such process
+conntrack v1.4.6 (conntrack-tools): connection tracking table has been emptied.
+*******************************************************************
+*                                                                  
+* Copyright 2014 Cisco Systems, Inc. 				 
+* Licensed under the Apache License, Version 2.0                   
+*                                                                  
+*******************************************************************
+cosa_misc.sh is not found
+emta_standalone is 
+conntrack v1.4.6 (conntrack-tools): connection tracking table has been emptied.
+starting pid 2384, tty '/dev/console': '/sbin/getty 38400 console'
+
+Mercury Next Generation 2.1 mv2plus-r21-7-001 /dev/console
+
+mv2plus-r21-7-001 login: lan-stop case
+Inside lan_stop
+Calling ipv4_down with L3 Instance:4
+Command line is not complete. Try option "help"
+ip -6 addr flush dev  command didnt execute successfully
+| Dibbler - a portable DHCPv6, version 1.0.2RC1 (SERVER, Linux port)
+| Authors : Tomasz Mrugalski<thomson(at)klub.com.pl>,Marek Senderski<msend(at)o2.pl>
+| Licence : GNU GPL v2 only. Developed at Gdansk University of Technology.
+| Homepage: http://klub.com.pl/dhcpv6/
+Process is not running.
+dibbler-server stop command didnt execute successfully
+ipv4-down case
+ipv4 teardown instance, instance is 4
+Inside ipv4_resync called with arg lan_inst 4
+Successful in setting:dmsb.atom.l3net.4.V4Addr
+Successful in setting:dmsb.atom.l3net.4.V4SubnetMask
+[0;32mCR component name is: eRT.com.cisco.spvtg.ccsp.CR
+[0;32msubsystem_prefix eRT.
+[0;32msetv from/to component(eRT.com.cisco.spvtg.ccsp.wifi): Device.WiFi.Radio.1.X_CISCO_COM_ApplySetting
+[0;32mExecution succeed.
+
+[0m[0mdmcli eRT setv Device.WiFi.Radio.1.X_CISCO_COM_ApplySetting bool 'true' 'true' command didnt execute successfully
+ipv4 remove_config called with arg 4
+Invalid subnet byte:-3321587
+Invalid subnet byte:4
+Invalid subnet byte:-3321683
+Invalid subnet byte:-3321304
+Failed to parse addressaddr_delete: /0 dev : Unable to parse local field
+Failed to parse addressrule_delete: Unable to parse rule src addr
+Failed to parse addressroute_delete: table 14 8921088.-137608/0 dev : Unable to parse dst field
+Unknown table name all_lansroute_delete: table all_lans 8921088.-137608/0 dev : Unable to parse table field
+ipv4 remove_config complete
+ipv4_4-status case
+Inside ipv4_status called with arg l3_inst 4 and status down
+service_bridge_brcm93390.sh called with bridge-start NULL
+/etc/utopia/service.d/service_bridge_brcm93390.sh: eval: line 255: unexpected EOF while looking for matching `''
+/etc/utopia/service.d/service_bridge_brcm93390.sh: eval: line 256: syntax error: unexpected end of file
+Failed to Create lanhosts directory.
+emta_standalone is 
+/etc/utopia/service.d/service_bridge_brcm93390.sh: line 291: gw_lan_refresh: command not found
+conntrack v1.4.6 (conntrack-tools): connection tracking table has been emptied.
+emta_standalone is 
+conntrack v1.4.6 (conntrack-tools): connection tracking table has been emptied.
+lan-stop case
+Inside lan_stop
+Calling ipv4_down with L3 Instance:4
+Command line is not complete. Try option "help"
+ip -6 addr flush dev  command didnt execute successfully
+| Dibbler - a portable DHCPv6, version 1.0.2RC1 (SERVER, Linux port)
+| Authors : Tomasz Mrugalski<thomson(at)klub.com.pl>,Marek Senderski<msend(at)o2.pl>
+| Licence : GNU GPL v2 only. Developed at Gdansk University of Technology.
+| Homepage: http://klub.com.pl/dhcpv6/
+Process is not running.
+dibbler-server stop command didnt execute successfully
+ipv4-down case
+ipv4 teardown instance, instance is 4
+service_bridge_brcm93390.sh called with bridge-start NULL
+/etc/utopia/service.d/service_bridge_brcm93390.sh: eval: line 255: unexpected EOF while looking for matching `''
+/etc/utopia/service.d/service_bridge_brcm93390.sh: eval: line 256: syntax error: unexpected end of file
+emta_standalone is 
+conntrack v1.4.6 (conntrack-tools): connection tracking table has been emptied.
+Failed to Create lanhosts directory.
+/etc/utopia/service.d/service_bridge_brcm93390.sh: line 291: gw_lan_refresh: command not found
+emta_standalone is 
+conntrack v1.4.6 (conntrack-tools): connection tracking table has been emptied.
+

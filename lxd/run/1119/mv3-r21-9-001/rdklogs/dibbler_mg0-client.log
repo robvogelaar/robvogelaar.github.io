@@ -1,0 +1,27 @@
+2024.11.20 00:09:50 Client Notice    | Dibbler - a portable DHCPv6, version 1.0.2RC1 (CLIENT, Linux port)
+2024.11.20 00:09:50 Client Notice    My pid (1699) is stored in /tmp/dibbler_mg0/client.pid
+2024.11.20 00:09:50 Client Notice    Detected iface wl1/4059, MAC=00:16:3e:1b:c0:86.
+2024.11.20 00:09:50 Client Notice    Detected iface wl0/4057, MAC=00:16:3e:d3:78:b1.
+2024.11.20 00:09:50 Client Notice    Detected iface eth4/4055, MAC=00:16:3e:5b:53:94.
+2024.11.20 00:09:50 Client Notice    Detected iface eth3/4053, MAC=00:16:3e:a1:2a:9a.
+2024.11.20 00:09:50 Client Notice    Detected iface eth2/4051, MAC=00:16:3e:65:11:bb.
+2024.11.20 00:09:50 Client Notice    Detected iface eth1/4049, MAC=00:16:3e:17:11:55.
+2024.11.20 00:09:50 Client Notice    Detected iface eth0/4047, MAC=00:60:2f:16:53:e1.
+2024.11.20 00:09:50 Client Notice    Detected iface vrf-voip0/18, MAC=c6:75:b0:77:72:00.
+2024.11.20 00:09:50 Client Notice    Detected iface voip0/17, MAC=00:16:3e:63:f6:c7.
+2024.11.20 00:09:50 Client Notice    Detected iface erouter0_pipe/16, MAC=5a:d9:cb:9d:85:8d.
+2024.11.20 00:09:50 Client Notice    Detected iface erouter0/15, MAC=00:16:3e:63:f6:c3.
+2024.11.20 00:09:50 Client Notice    Detected iface vrf-mg0/14, MAC=9a:0d:fb:27:83:0a.
+2024.11.20 00:09:50 Client Notice    Detected iface mg0/13, MAC=00:16:3e:63:f6:c8.
+2024.11.20 00:09:50 Client Notice    Detected iface wan_upper/12, MAC=00:60:2f:16:53:e1.
+2024.11.20 00:09:50 Client Notice    Detected iface brlan0/11, MAC=00:16:3e:17:11:55.
+2024.11.20 00:09:50 Client Notice    Detected iface lan0/10, MAC=66:8c:bf:0a:22:48.
+2024.11.20 00:09:50 Client Notice    Detected iface llan0/9, MAC=62:5a:44:dd:81:8e.
+2024.11.20 00:09:50 Client Notice    Detected iface brebhaul/8, MAC=ae:4c:78:aa:f9:0c.
+2024.11.20 00:09:50 Client Notice    Detected iface br403/7, MAC=3a:a7:c5:37:0a:fa.
+2024.11.20 00:09:50 Client Notice    Detected iface wl1.1/6, MAC=e6:0b:52:f1:c8:e2.
+2024.11.20 00:09:50 Client Notice    Detected iface wl0.1/5, MAC=2e:73:35:a0:41:2c.
+2024.11.20 00:09:50 Client Notice    Detected iface erspan0/4, MAC=00:00:00:00:00:00.
+2024.11.20 00:09:50 Client Notice    Detected iface gretap0/3, MAC=00:00:00:00:00:00.
+2024.11.20 00:09:50 Client Notice    Detected iface lo/1, MAC=00:00:00:00:00:00.
+2024.11.20 00:09:50 Client Notice    Parsing /tmp/dibbler_mg0/client.conf config file...

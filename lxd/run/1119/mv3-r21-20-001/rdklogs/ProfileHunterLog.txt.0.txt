@@ -1,0 +1,36 @@
+3.200413 [mod=PROFILEHUNTER, lvl=WARN] [tid=796] Register empty object : com.
+3.200466 [mod=PROFILEHUNTER, lvl=WARN] [tid=796] Register empty object : com.cisco.
+3.200508 [mod=PROFILEHUNTER, lvl=WARN] [tid=796] Register empty object : com.cisco.spvtg.
+3.200527 [mod=PROFILEHUNTER, lvl=WARN] [tid=796] Register empty object : com.cisco.spvtg.ccsp.
+3.200718 [mod=PROFILEHUNTER, lvl=WARN] [tid=796] DM Library module name = CCSP Base Data Model
+3.200737 [mod=PROFILEHUNTER, lvl=WARN] [tid=796] BackEndManagerInitialize...
+3.206120 [mod=PROFILEHUNTER, lvl=ERROR] [tid=796] ProfileHunter_RdkBus_GetParamValuesFromDB Error 102 reading dmsb.profilehunter.profile.1.data_skb2vlan_priority_map
+3.206306 [mod=PROFILEHUNTER, lvl=ERROR] [tid=796] ProfileHunter_RdkBus_GetParamValuesFromDB Error 102 reading dmsb.profilehunter.profile.1.management_if_enable
+3.206619 [mod=PROFILEHUNTER, lvl=ERROR] [tid=796] ProfileHunter_RdkBus_GetParamValuesFromDB Error 102 reading dmsb.profilehunter.profile.1.management_dscp
+3.206821 [mod=PROFILEHUNTER, lvl=ERROR] [tid=796] ProfileHunter_RdkBus_GetParamValuesFromDB Error 102 reading dmsb.profilehunter.profile.1.voip_if_enable
+3.207043 [mod=PROFILEHUNTER, lvl=ERROR] [tid=796] ProfileHunter_RdkBus_GetParamValuesFromDB Error 102 reading dmsb.profilehunter.profile.1.voip_skb_priority
+3.207462 [mod=PROFILEHUNTER, lvl=INFO] [tid=796] ProfileHunter_SM_Start 584 - Profile Hunter State Machine Thread Started Successfully
+3.207584 [mod=PROFILEHUNTER, lvl=DEBUG] [tid=796] 'unsignedInt[1:7]' UINT range [1:7]
+3.207657 [mod=PROFILEHUNTER, lvl=WARN] [tid=796] DM Library module name = CcspProfileHunter
+3.207798 [mod=PROFILEHUNTER, lvl=WARN] [tid=796] Search for empty object in 'dslhCpeCheckEmptyObject'
+3.207939 [mod=PROFILEHUNTER, lvl=INFO] [tid=907] ProfileHunter_SM_Thread 504 
+4.208702 [mod=PROFILEHUNTER, lvl=INFO] [tid=907] ProfileHunter_RdkBus_GetActiveWanInstance 244 - TotalNoofEntries:1
+4.208866 [mod=PROFILEHUNTER, lvl=INFO] [tid=907] ph_state_obtaining_active_wan 327 - WAN instance number: 1
+11.637440 [mod=PROFILEHUNTER, lvl=INFO] [tid=907] IPv4[Down] IPv6[Down]
+11.637459 [mod=PROFILEHUNTER, lvl=INFO] [tid=907] is_ip_exist(False)
+11.637478 [mod=PROFILEHUNTER, lvl=WARN] [tid=798] DslhObjcoValidate: Reset, bsUpdate = 3
+
+11.637493 [mod=PROFILEHUNTER, lvl=INFO] [tid=798] ProfileHunter_RdkBus_SetTR069Component
+11.662010 [mod=PROFILEHUNTER, lvl=WARN] [tid=798] Before committing:Device.X_LGI-COM_ProfileHunting.
+11.662064 [mod=PROFILEHUNTER, lvl=WARN] [tid=798] ProfileHunter_SM_Start 589 - Profile Hunter State Machine had already started
+11.662071 [mod=PROFILEHUNTER, lvl=WARN] [tid=798] After committing:Device.X_LGI-COM_ProfileHunting.:0
+12.281509 [mod=PROFILEHUNTER, lvl=INFO] [tid=907] IPv4[Up] IPv6[Up]
+12.281521 [mod=PROFILEHUNTER, lvl=INFO] [tid=907] is_ip_exist(True)
+12.781563 [mod=PROFILEHUNTER, lvl=INFO] [tid=907] ph_state_wan_configured 446 
+12.781849 [mod=PROFILEHUNTER, lvl=INFO] [tid=907] ph_state_wan_configured 450 Profile NL (A) accepted 
+12.781891 [mod=PROFILEHUNTER, lvl=INFO] [tid=907] rbuscore.c:2340 RBus Enabled
+
+12.781902 [mod=PROFILEHUNTER, lvl=INFO] [tid=907] rbus.c:2778 rbus open for component: t2_lib_com.cisco.spvtg.ccsp.profilehunter
+
+12.781948 [mod=PROFILEHUNTER, lvl=INFO] [tid=907] rbus.c:2854  rbus open (t2_lib_com.cisco.spvtg.ccsp.profilehunter) success
+

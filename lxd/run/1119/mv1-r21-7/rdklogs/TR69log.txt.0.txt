@@ -1,0 +1,93 @@
+5.084400 [mod=TR69, lvl=INFO] [tid=814] NonRoot feature is enabled, dropping root privileges for CcspTr069Pa process
+5.110279 [mod=TR69, lvl=WARN] [tid=850] Core dump is NOT opened, backtrace if possible
+5.110321 [mod=TR69, lvl=INFO] [tid=850] 
+
+5.110348 [mod=TR69, lvl=INFO] [tid=850]         ***************************************************************
+5.110363 [mod=TR69, lvl=INFO] [tid=850]         ***                                                         ***
+5.110371 [mod=TR69, lvl=INFO] [tid=850]         ***   CCSP TR-069 PA Program                                ***
+5.110374 [mod=TR69, lvl=INFO] [tid=850]         ***      Copyright 2014  Cisco Systems, Inc.                ***
+5.110378 [mod=TR69, lvl=INFO] [tid=850]         ***      Licensed under the Apache License, Version 2.0     ***
+5.110382 [mod=TR69, lvl=INFO] [tid=850]         ***                                                         ***
+5.110386 [mod=TR69, lvl=INFO] [tid=850]         ***************************************************************
+5.110390 [mod=TR69, lvl=INFO] [tid=850] 
+
+5.110394 [mod=TR69, lvl=INFO] [tid=850] 
+
+5.110397 [mod=TR69, lvl=INFO] [tid=850]         *** 'e' - engage PA SSP                                                        ***
+5.110405 [mod=TR69, lvl=INFO] [tid=850]         *** 'c' - cancel PA SSP                                                        ***
+5.110409 [mod=TR69, lvl=INFO] [tid=850]         *** 'l' - set log level                                                        ***
+5.110413 [mod=TR69, lvl=INFO] [tid=850]         *** 's' - simulate receiving systemReady signal from CR                        ***
+5.110416 [mod=TR69, lvl=INFO] [tid=850]         *** 'd' - dump PA parameter tree                                               ***
+5.110420 [mod=TR69, lvl=INFO] [tid=850]         *** 'g' - sending diagComplete event over D-Bus                                ***
+5.110424 [mod=TR69, lvl=INFO] [tid=850]         *** '1' - test PA parameter filter function                                    ***
+5.110428 [mod=TR69, lvl=INFO] [tid=850]         *** '2' - test GPN                                                             ***
+5.110435 [mod=TR69, lvl=INFO] [tid=850]         *** '3' - test GPV                                                             ***
+5.110439 [mod=TR69, lvl=INFO] [tid=850]         *** '4' - test SPV                                                             ***
+5.110443 [mod=TR69, lvl=INFO] [tid=850]         *** '5' - test GPA                                                             ***
+5.110447 [mod=TR69, lvl=INFO] [tid=850]         *** '6' - test SPA                                                             ***
+5.110451 [mod=TR69, lvl=INFO] [tid=850]         *** '7' - test CDS                                                             ***
+5.110455 [mod=TR69, lvl=INFO] [tid=850]         *** '8' - test firmware download                                               ***
+5.110458 [mod=TR69, lvl=INFO] [tid=850]         *** 'a' - test AddObject                                                       ***
+5.110466 [mod=TR69, lvl=INFO] [tid=850]         *** 'x' - test DeleteObject                                                    ***
+5.110470 [mod=TR69, lvl=INFO] [tid=850]         *** 'v' - simulate SPV through other means than ACS                            ***
+5.110474 [mod=TR69, lvl=INFO] [tid=850]         *** 'k' - check parameter notification in PA's cache                           ***
+5.110477 [mod=TR69, lvl=INFO] [tid=850]         *** 'f' - flip invisible namespace check flag                                  ***
+5.110481 [mod=TR69, lvl=INFO] [tid=850] 
+
+5.116673 [mod=TR69, lvl=WARN] [tid=850] CcspTr069PaSsp_GetTr069CertificateLocationForSyndication 640 - Syndication TR69CertLocation /etc/cacert.pem
+5.117085 [mod=TR69, lvl=ERROR] [tid=850] Failed to SetPAMapperFile CCSP CWMP CPE Controller object!
+5.117092 [mod=TR69, lvl=ERROR] [tid=850] Failed to SetPACustomMapperFile CCSP CWMP CPE Controller object!
+5.133316 [mod=TR69, lvl=ERROR] [tid=850] TR-069 PA mapper file </usr/ccsp/tr069pa/ccsp_tr069_pa_mapper.xml> has been loaded!
+5.133362 [mod=TR69, lvl=INFO] [tid=850] Loading custom TR-069 PA mapper file
+5.144997 [mod=TR69, lvl=ERROR] [tid=850] TR-069 PA mapper file </usr/ccsp/custom_mapper.xml> has been loaded!
+5.145058 [mod=TR69, lvl=INFO] [tid=850] rbuscore.c:2340 RBus Enabled
+
+5.145092 [mod=TR69, lvl=INFO] [tid=850] rbuscore.c:656 Broker address: tcp://192.168.254.253:12368
+
+5.145229 [mod=TR69, lvl=INFO] [tid=850] connection opened for eRT.com.cisco.spvtg.ccsp.tr069pa
+5.145702 [mod=TR69, lvl=WARN] [tid=850] CcspManagementServer_InitDBus, Register Path failure !!!
+5.145714 [mod=TR69, lvl=INFO] [tid=850] CcspBaseIf_Register_Event_rbus : rbus_registerEvent called for event: systemReadySignal
+5.146011 [mod=TR69, lvl=INFO] [tid=850] rbuscore.c:755 Subscription for Device.CR.SystemReady::Device.CR.SystemReady is now active.
+
+5.146023 [mod=TR69, lvl=INFO] [tid=850] CcspBaseIf_Register_Event_rbus : rbus_registerEvent called for event: diagCompleteSignal
+5.146229 [mod=TR69, lvl=INFO] [tid=850] rbuscore.c:755 Subscription for eRT.com.cisco.spvtg.ccsp.tdm::diagCompleteSignal is now active.
+
+5.236095 [mod=TR69, lvl=ERROR] [tid=879] rbuscore.c:1512 Received rbus event but no master callback registered yet.
+
+5.236115 [mod=TR69, lvl=INFO] [tid=879] System Ready Event Received
+5.236179 [mod=TR69, lvl=INFO] [tid=879] Received system ready signal, created /var/tmp/tr069paready file
+5.236195 [mod=TR69, lvl=INFO] [tid=879] CcspCwmppoSysReadySignalCB, user_data - 0x0x86e6ef0
+14.240372 [mod=TR69, lvl=INFO] [tid=850] ReadTr69TlvData /nvram/TLVData.bin File is available and processing by Tr069
+14.240387 [mod=TR69, lvl=INFO] [tid=850] **********************************************************
+14.240395 [mod=TR69, lvl=INFO] [tid=850] ReadTr69TlvData -#- FreshBootUp: 0
+14.240398 [mod=TR69, lvl=INFO] [tid=850] ReadTr69TlvData -#- , Tr69Enable: 0
+14.240402 [mod=TR69, lvl=INFO] [tid=850] ReadTr69TlvData -#- , AcsOverRide: 0
+14.240406 [mod=TR69, lvl=INFO] [tid=850] ReadTr69TlvData -#- , EnableCWMP: 0
+14.240410 [mod=TR69, lvl=INFO] [tid=850] ReadTr69TlvData -#- , URLchanged: 0
+14.240417 [mod=TR69, lvl=INFO] [tid=850] ReadTr69TlvData -#- , Username: 
+14.240421 [mod=TR69, lvl=INFO] [tid=850] ReadTr69TlvData -#- , Password: 
+14.240425 [mod=TR69, lvl=INFO] [tid=850] ReadTr69TlvData -#- , URL: NULL
+14.240429 [mod=TR69, lvl=INFO] [tid=850] **********************************************************
+14.276871 [mod=TR69, lvl=INFO] [tid=850] ReadTr69TlvData 573. ManagementServer URL is not defined in config file. Check if  ACS URL is available from DHCP options
+44.309109 [mod=TR69, lvl=INFO] [tid=850] /var/tmp/tr069paready file exists, hence can proceed with tr069pa start up
+44.309124 [mod=TR69, lvl=INFO] [tid=850] CcspCwmppoProcessSysReadySignal, cbContext - 0x0x86e6ef0
+44.309162 [mod=TR69, lvl=INFO] [tid=850] CcspBaseIf_Register_Event_rbus : rbus_registerEvent called for event: parameterValueChangeSignal
+44.310059 [mod=TR69, lvl=WARN] [tid=850] CcspManagementServer_GetURL -#- ManagementServerURLID_PSM: http://10.10.10.200:9675
+44.310089 [mod=TR69, lvl=INFO] [tid=850] rbuscore.c:2340 RBus Enabled
+
+44.310097 [mod=TR69, lvl=INFO] [tid=850] rbus.c:2778 rbus open for component: t2_lib_ccsp-tr069-pa
+
+44.310162 [mod=TR69, lvl=INFO] [tid=850] rbus.c:2854  rbus open (t2_lib_ccsp-tr069-pa) success
+
+44.310574 [mod=TR69, lvl=INFO] [tid=850] TCP server created successfully.
+44.310585 [mod=TR69, lvl=INFO] [tid=850] !!! Host Name: , Host Port: 7547 !!!
+44.310810 [mod=TR69, lvl=INFO] [tid=850] CCSP CWMP CPE Controller object has been engaged!
+44.312969 [mod=TR69, lvl=ERROR] [tid=2058] TR-069 PA received systemReady event!
+44.312984 [mod=TR69, lvl=ERROR] [tid=2058] Synchronizing namespaces with CR ...
+44.333614 [mod=TR69, lvl=WARN] [tid=2058] VC signal on namespace <Device.DeviceInfo.X_RDKCENTRAL-COM_FirmwareDownloadStatus>, notif = 1 has pushed into backend during CPE reloading!
+44.336044 [mod=TR69, lvl=WARN] [tid=2058] VC signal on namespace <Device.ManagementServer.ConnectionRequestURL>, notif = 2 has pushed into backend during CPE reloading!
+44.336311 [mod=TR69, lvl=ERROR] [tid=2058] setting bRemoteCRsSyncDone to False
+44.336338 [mod=TR69, lvl=WARN] [tid=2058] CcspCwmppoSysReadySignalCB - no component registered for Name Space: <CCSP.COMMAND.PACKAGE.MANAGEMENT.>.
+44.342052 [mod=TR69, lvl=WARN] [tid=2058] CcspManagementServer_GetURL -#- ManagementServerURLID_PSM: http://10.10.10.200:9675
+44.343193 [mod=TR69, lvl=INFO] [tid=2058] CcspCwmpCpecoStartCWMP() being called.
+44.343204 [mod=TR69, lvl=WARN] [tid=2058] TR-069 PA is disabled!

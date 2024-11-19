@@ -1,0 +1,7 @@
+2.134483 [mod=LM, lvl=WARN] [tid=766] LMLite:rdk initialzed!
+2.134785 [mod=LM, lvl=WARN] [tid=772] ValidateHostRetry_Thread started
+7.136929 [mod=LM, lvl=WARN] [tid=766] Send_Eth_Host_Sync_Req : Get Ethernet Clients 
+7.137783 [mod=LM, lvl=WARN] [tid=766] Send_MoCA_Host_Sync_Req : Get MoCA Clients 
+7.138054 [mod=LM, lvl=ERROR] [tid=766] SetParameterValues for param[0]=Device.MoCA.X_RDKCENTRAL-COM_MoCAHost_Sync failed with Err: 17
+7.138088 [mod=LM, lvl=WARN] [tid=766] MoCA Send_MoCA_Host_Sync_Req : Failed ret 102
+7.138107 [mod=LM, lvl=WARN] [tid=766] WIFI SyncWiFi : Get WiFi Clients 

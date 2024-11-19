@@ -1,0 +1,29 @@
+serv_ipv6_init: unknown erouter topology mode, settinf default mode to FAVOR_WIDTH 
+[SERVICE-IPV6] EXEC: restart
+Get the IA_NA and IA_PD info: IA_NA:2001:dae:7:1::237 1 1800 2880 3600 3600, IA_PD:3001:dae:0:e400:: 56 1800 2880 3600 3600
+erouter0 ipv6 prefix: 3001:dae:0:e400::/56
+sub-prefix:3001:dae:0:e400::/59
+sub-prefix:3001:dae:0:e420::/59
+sub-prefix:3001:dae:0:e440::/59
+sub-prefix:3001:dae:0:e460::/59
+sub-prefix:3001:dae:0:e480::/59
+sub-prefix:3001:dae:0:e4a0::/59
+sub-prefix:3001:dae:0:e4c0::/59
+sub-prefix:3001:dae:0:e4e0::/59
+interface-prefix brlan0:3001:dae:0:e400::/64
+interface-prefix brlan7:3001:dae:0:e401::/64
+the global ipv6 address is:3001:dae:0:e400:0216:3eFF:FE0e:b5ae
+the global ipv6 address is:3001:dae:0:e401:488e:70FF:FEf5:c088
+dhcpv6s_start:2261 call gen_dibbler_conf 
+deviceManufacturerOUI: 5C353B
+deviceSerialNumber: mv1-r21-7
+deviceProductClass: CH7465LG
+Get the IA_NA and IA_PD info: IA_NA:2001:dae:7:1::237 1 1800 2880 3600 3600, IA_PD:3001:dae:0:e400:: 56 1800 2880 3600 3600
+erouter0 ipv6 prefix: 3001:dae:0:e400::/56
+gen_dibbler_conf:1823 dhcpv6s_cfg.pool_num:5
+gen_dibbler_conf:1979 HwAddr:00:16:3e:0e:b5:ae
+ 
+gen_dibbler_conf:1998 colon_count:5 
+dhcpv6s_start:2266 gen_dibbler_conf done 
+dhcpv6s_start:2307 calling dibbler-server start 
+Closing DBUS connection 

@@ -1,0 +1,80 @@
+7.129765 [mod=MESH, lvl=INFO] [tid=1466] Registering MeshAgent component 'MeshAgent' with CR ..
+7.130020 [mod=MESH, lvl=INFO] [tid=1466] [MeshAgent] msgBusInit called with com.cisco.spvtg.ccsp.meshagent
+7.130596 [mod=MESH, lvl=INFO] [tid=1467] Connect to bus daemon...
+7.130699 [mod=MESH, lvl=INFO] [tid=1467] ssp_Mbi_MessageBusEngage() called
+8.131756 [mod=MESH, lvl=ERROR] [tid=1467]  !!! CCSP_Message_Bus_Register_Event: CurrentSessionIDSignal ERROR returnStatus: 102!!!
+8.131771 [mod=MESH, lvl=INFO] [tid=1467] ssp_create - ComponentCommonDmInit called 
+8.132355 [mod=MESH, lvl=INFO] [tid=1467] Registering the back-end apis for the data model
+8.132366 [mod=MESH, lvl=INFO] [tid=1467] Initializing CosaMeshAgent
+8.132378 [mod=MESH, lvl=INFO] [tid=1467] Initialize MeshAgent
+8.132385 [mod=MESH, lvl=INFO] [tid=1467] oneWifi is disabled 
+8.132397 [mod=MESH, lvl=INFO] [tid=1467] wanFailOver is disabled 
+8.132423 [mod=MESH, lvl=INFO] [tid=1467] msgQServer thread created successfully
+8.132446 [mod=MESH, lvl=INFO] [tid=1467] msgQServer thread name Mesh_msgQServer set successfully
+8.132515 [mod=MESH, lvl=INFO] [tid=1512] Waiting for connections ...
+8.132637 [mod=MESH, lvl=INFO] [tid=1467] meshAgent registered with sysevent daemon successfully
+8.132721 [mod=MESH, lvl=INFO] [tid=1467] meshAgent-gs registered with sysevent daemon successfully
+8.132847 [mod=MESH, lvl=INFO] [tid=1467] Mesh url is ssl:wildfire.plume.tech:443
+8.132999 [mod=MESH, lvl=INFO] [tid=1467] Setting initial mesh state to Full
+8.133011 [mod=MESH, lvl=INFO] [tid=1467] Meshwifi state is set to Full
+8.133163 [mod=MESH, lvl=INFO] [tid=1467] Setting initial mesh wifi default to disabled
+8.133183 [mod=MESH, lvl=INFO] [tid=1467] meshSetSyscfg Commitsyscfg:0 Setting mesh enable in syscfg to 0
+8.133190 [mod=MESH, lvl=INFO] [tid=1467] mesh enable set in the syscfg successfully
+8.133198 [mod=MESH, lvl=ERROR] [tid=1467] Failed to remove Mesh Flag from persistent memory
+8.133255 [mod=MESH, lvl=INFO] [tid=1467] Setting initial ethbhaul mode to false
+8.133259 [mod=MESH, lvl=INFO] [tid=1467] Mesh_SetMeshEthBhaul: Ethbhaul Commit:0, Enable:0
+8.133266 [mod=MESH, lvl=INFO] [tid=1467] RFC_UPDATE: param: PodEthernetGreBackhaul.Enable val:false type=3
+8.133270 [mod=MESH, lvl=INFO] [tid=1467] RFC_UPDATE: Failed param: PodEthernetGreBackhaul.Enable val:false type=3
+8.134586 [mod=MESH, lvl=INFO] [tid=1467] Socket bind to localhost
+8.134598 [mod=MESH, lvl=INFO] [tid=1467] Created dnsmasq socket for Eth Bhaul mac update
+8.135674 [mod=MESH, lvl=INFO] [tid=1467] Pod mac address sent to dnsmasq MAC: 00:00:00:00:00:00
+8.135693 [mod=MESH, lvl=INFO] [tid=1467] syscfg_get failed
+8.135696 [mod=MESH, lvl=INFO] [tid=1467] Syscfg get, MESH_WIFI_OPT_MODE : 0
+8.135704 [mod=MESH, lvl=INFO] [tid=1467] Syscfg, Setting MESH_WIFI_OPT_MODE to default OFF
+8.135754 [mod=MESH, lvl=INFO] [tid=1467] syscfg_get failed
+8.135826 [mod=MESH, lvl=INFO] [tid=1467] Syscfg get, MESH_WIFI_REINIT_PERIOD : 2
+8.135830 [mod=MESH, lvl=INFO] [tid=1467] Mesh_SetReinitPeriod: meshReinitPeriod: 2
+8.135860 [mod=MESH, lvl=INFO] [tid=1467] Setting initial Opensync mode to false
+8.135864 [mod=MESH, lvl=INFO] [tid=1467] OpensyncSetSyscfg Setting Opensync enable in syscfg to 0
+8.156174 [mod=MESH, lvl=INFO] [tid=1467] opensync enable set in the syscfg successfully
+8.181080 [mod=MESH, lvl=INFO] [tid=1467] legacy opensync enable disabled in the syscfg successfully
+8.181095 [mod=MESH, lvl=INFO] [tid=1467] Opensync_RFC_changed_to_disabled
+8.181099 [mod=MESH, lvl=INFO] [tid=1467] RFC_UPDATE: param: Opensync.Enable val:false type=3
+8.181110 [mod=MESH, lvl=INFO] [tid=1467] RFC_UPDATE: Failed param: Opensync.Enable val:false type=3
+8.181194 [mod=MESH, lvl=INFO] [tid=1467] Setting initial OVS mode to false
+8.181202 [mod=MESH, lvl=INFO] [tid=1467] Mesh_SetOVS: OVS Enable Commit:0, Enable:0, XB3 Platform:0
+8.181206 [mod=MESH, lvl=INFO] [tid=1467] Disabling opensync since OVS is disabled
+8.181236 [mod=MESH, lvl=INFO] [tid=1467] OVS_RFC_changed_to_disabled
+8.181240 [mod=MESH, lvl=INFO] [tid=1467] RFC_UPDATE: param: OVS.Enable val:false type=3
+8.181244 [mod=MESH, lvl=INFO] [tid=1467] RFC_UPDATE: Failed param: OVS.Enable val:false type=3
+8.181274 [mod=MESH, lvl=INFO] [tid=1467] Setting initial mesh_security_legacy to true
+8.181278 [mod=MESH, lvl=INFO] [tid=1467] Mesh_SetSecuritySchemaLegacy: Enable:1, Init:1, Commit:0.
+8.181286 [mod=MESH, lvl=INFO] [tid=1467] RFC_UPDATE: param: MeshSecuritySchemaLegacy.Enable val:true type=3
+8.181290 [mod=MESH, lvl=INFO] [tid=1467] RFC_UPDATE: Failed param: MeshSecuritySchemaLegacy.Enable val:true type=3
+8.181316 [mod=MESH, lvl=INFO] [tid=1467] Setting initial Cache Status to false
+8.181324 [mod=MESH, lvl=INFO] [tid=1467] Mesh_SetCacheStatus: Enable:0, Init:1, Commit:0.
+8.181328 [mod=MESH, lvl=INFO] [tid=1467] RFC_UPDATE: param: MeshGREBackhaulCache.Enable val:false type=3
+8.181332 [mod=MESH, lvl=INFO] [tid=1467] RFC_UPDATE: Failed param: MeshGREBackhaulCache.Enable val:false type=3
+8.181362 [mod=MESH, lvl=INFO] [tid=1467] Setting initial optimized mesh retry mode to true
+8.181366 [mod=MESH, lvl=INFO] [tid=1467] Mesh_SetMeshRetryOptimized: mesh_conn_opt_retry Commit:0, Enable:1
+8.181400 [mod=MESH, lvl=INFO] [tid=1467] meshSet_sm_app_Syscfg Setting SMAPP disable in syscfg to 1
+8.208038 [mod=MESH, lvl=INFO] [tid=1467] SMAPP disable set in the syscfg successfully
+8.208057 [mod=MESH, lvl=INFO] [tid=1467] Mesh_Register_sysevent Successful
+8.208099 [mod=MESH, lvl=INFO] [tid=1467] Mesh_sysevent_handler thread created successfully
+8.208214 [mod=MESH, lvl=INFO] [tid=1467] Mesh_sysevent_handler thread name Mesh_sysevent set successfully
+13.208553 [mod=MESH, lvl=INFO] [tid=1467] leaseServer thread created successfully
+13.208588 [mod=MESH, lvl=INFO] [tid=1467] leaseServer thread name MeshLeaseServer set successfully
+13.208633 [mod=MESH, lvl=ERROR] [tid=1467] parodus url is not present in device.properties file
+13.208641 [mod=MESH, lvl=INFO] [tid=1467] parodus url formed is (null)
+13.209343 [mod=MESH, lvl=INFO] [tid=1467] Rbus events subscription start Device.IP.Diagnostics.X_RDKCENTRAL-COM_SpeedTest.Status
+13.209553 [mod=MESH, lvl=ERROR] [tid=1467] Rbus events subscribe failed:Device.IP.Diagnostics.X_RDKCENTRAL-COM_SpeedTest.Status
+13.209560 [mod=MESH, lvl=INFO] [tid=1467] Mesh_Init: OvsAgentApi is not integrated in this platform yet
+13.209572 [mod=MESH, lvl=INFO] [tid=1467] MeshAgent initialized
+13.209576 [mod=MESH, lvl=INFO] [tid=1467]   Initializing WebConfig Framework!
+13.209648 [mod=MESH, lvl=INFO] [tid=1513] last_set= 0, enable = 0
+13.209656 [mod=MESH, lvl=INFO] [tid=1513] Skipping mesh redundant set
+13.211105 [mod=MESH, lvl=INFO] [tid=1467]   Initializing WebConfig Framework done!
+13.213806 [mod=MESH, lvl=INFO] [tid=1467]  ssp_engage - RegisterCcspDataModel success.  System is fully initialized.
+13.216530 [mod=MESH, lvl=INFO] [tid=2010] leaseServer Socket bind to localhost
+13.216881 [mod=MESH, lvl=INFO] [tid=1467] msgBusInit - /tmp/meshagent_initialized created
+13.216908 [mod=MESH, lvl=INFO] [tid=1467] Registered MeshAgent component 'MeshAgent' with CR ..

@@ -1,0 +1,19 @@
+Nov 20 00:09:55 mv3-r21-20-001 daemon.notice ovs-vsctl: ovs|00001|vsctl|INFO|Called as ovs-vsctl set Bridge brlan0 other_config:mcast-snooping-max-bundle=64
+Nov 20 00:09:55 mv3-r21-20-001 daemon.err ovs-vsctl: ovs|00002|db_ctl_base|ERR|unix:/var/run/openvswitch/db.sock: database connection failed (No such file or directory)
+Nov 20 00:09:56 mv3-r21-20-001 daemon.notice wifidb-server: ovs|00001|vlog|INFO|opened log file /var/tmp/wifidb.log
+Nov 20 00:10:04 mv3-r21-20-001 daemon.info udhcpc[1774]: started, v1.32.1
+Nov 20 00:10:04 mv3-r21-20-001 daemon.info udhcpc[1774]: executing /usr/bin/service_udhcpc deconfig
+Nov 20 00:10:04 mv3-r21-20-001 daemon.info udhcpc[1774]: entering listen mode: raw
+Nov 20 00:10:04 mv3-r21-20-001 daemon.info udhcpc[1774]: created raw socket
+Nov 20 00:10:04 mv3-r21-20-001 daemon.info udhcpc[1774]: sending discover
+Nov 20 00:10:04 mv3-r21-20-001 daemon.info udhcpc[1774]: waiting 3 seconds
+Nov 20 00:10:04 mv3-r21-20-001 daemon.info udhcpc[1774]: unrelated/bogus packet, ignoring
+Nov 20 00:10:04 mv3-r21-20-001 daemon.info udhcpc[1774]: waiting 3 seconds
+Nov 20 00:10:05 mv3-r21-20-001 daemon.info udhcpc[1774]: received a packet
+Nov 20 00:10:05 mv3-r21-20-001 daemon.info udhcpc[1774]: sending select for 10.120.200.105
+Nov 20 00:10:05 mv3-r21-20-001 daemon.info udhcpc[1774]: waiting 3 seconds
+Nov 20 00:10:05 mv3-r21-20-001 daemon.info udhcpc[1774]: received a packet
+Nov 20 00:10:05 mv3-r21-20-001 daemon.info udhcpc[1774]: lease of 10.120.200.105 obtained, lease time 3600
+Nov 20 00:10:05 mv3-r21-20-001 daemon.info udhcpc[1774]: executing /usr/bin/service_udhcpc bound
+Nov 20 00:10:05 mv3-r21-20-001 daemon.info udhcpc[1774]: entering listen mode: none
+Nov 20 00:10:05 mv3-r21-20-001 daemon.info udhcpc[1785]: waiting 1800 seconds

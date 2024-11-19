@@ -1,0 +1,1838 @@
+[INFO] [241119-23:09:45]: Starting to handle migration
+[INFO] [241119-23:09:45]: Getting prev and curr version of SW
+[INFO] [241119-23:09:45]: Retrieving prev version
+[INFO] [241119-23:09:45]: Reading the file - /data/rdkb_nvram/version_prev.txt
+[ERROR] [241119-23:09:45]: Can't open file - /data/rdkb_nvram/version_prev.txt!
+[INFO] [241119-23:09:45]: Retrieving curr version
+[INFO] [241119-23:09:45]: Reading the file - /version.txt
+[INFO] [241119-23:09:45]: Getting size of the file - /version.txt
+[DEBUG] [241119-23:09:45]: Size of /version.txt is 144
+[INFO] [241119-23:09:45]: File has been read successfuly
+[INFO] [241119-23:09:45]: Trying to get version from file - /version.txt
+[INFO] [241119-23:09:45]: Version has been retrieved successfuly
+[DEBUG] [241119-23:09:45]: Version - [6.9.0]
+[DEBUG] [241119-23:09:45]: Current ver: 6.9.0 | Prev ver: 0.0.0
+[INFO] [241119-23:09:45]: Checking if migration is needed
+[INFO] [241119-23:09:45]: Comparing versions
+[DEBUG] [241119-23:09:45]: V1 - 000.000.000 | V2 - 006.009.000
+[NOTICE] [241119-23:09:45]: Migration handling is NEEDED
+[INFO] [241119-23:09:45]: Trying to parse cfg
+[INFO] [241119-23:09:45]: Parsing cfg from the file - /etc/migration_cfg.json
+[INFO] [241119-23:09:45]: Parsing json from file - /etc/migration_cfg.json
+[INFO] [241119-23:09:45]: Reading the file - /etc/migration_cfg.json
+[INFO] [241119-23:09:45]: Getting size of the file - /etc/migration_cfg.json
+[DEBUG] [241119-23:09:45]: Size of /etc/migration_cfg.json is 30724
+[INFO] [241119-23:09:45]: File has been read successfuly
+[INFO] [241119-23:09:45]: JSON has been parced successfuly
+[DEBUG] [241119-23:09:45]: Trying to parse-th 0 migration item
+[INFO] [241119-23:09:45]: Parsing version obj of migration from cfg
+[DEBUG] [241119-23:09:45]: Version[2.37.0] has been parced successfully
+[INFO] [241119-23:09:45]: Parsing storage array of migration from cfg
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:led_brightness - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object - success
+[DEBUG] [241119-23:09:45]: Parcing 1-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.VoIPProfile.1.RTP.SRTP - Value: - CID:51 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.SIP.Network.1.UserAgentTransport - Value: - CID:51 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[2]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.VoIPProfile.1.RTP.SRTP - Value: - CID:50 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[2] - success
+[DEBUG] [241119-23:09:45]: Parsing params[3]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.SIP.Network.1.UserAgentTransport - Value: - CID:50 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[3] - success
+[DEBUG] [241119-23:09:45]: Parsing params[4]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.X_RDK_IpAddressFamily - Value: - CID:41 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[4] - success
+[DEBUG] [241119-23:09:45]: Parsing params[5]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.SIP.Network.1.UserAgentPort - Value: - CID:41 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[5] - success
+[DEBUG] [241119-23:09:45]: Parsing params[6]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.SIP.Network.1.OutboundProxyPort - Value: - CID:41 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[6] - success
+[DEBUG] [241119-23:09:45]: Parsing params[7]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.SIP.Network.1.UserAgentTransport - Value: - CID:41 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[7] - success
+[DEBUG] [241119-23:09:45]: Parsing params[8]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.SIP.Network.1.X_RDK_DNSQuery - Value: - CID:41 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[8] - success
+[DEBUG] [241119-23:09:45]: Parsing params[9]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.VoIPProfile.1.RTP.SRTP - Value: - CID:41 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[9] - success
+[DEBUG] [241119-23:09:45]: Parsing params[10]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.X_RDK_IpAddressFamily - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[10] - success
+[DEBUG] [241119-23:09:45]: Parsing params[11]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.SIP.Network.1.UserAgentTransport - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[11] - success
+[DEBUG] [241119-23:09:45]: Parsing params[12]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.SIP.Network.1.X_RDK_DNSQuery - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[12] - success
+[DEBUG] [241119-23:09:45]: Parsing params[13]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.VoIPProfile.1.RTP.SRTP - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[13] - success
+[DEBUG] [241119-23:09:45]: Parsing params[14]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.CallControl.Extension.1.Provider - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[14] - success
+[DEBUG] [241119-23:09:45]: Parsing params[15]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.CallControl.Extension.1.NumberingPlan - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[15] - success
+[DEBUG] [241119-23:09:45]: Parsing params[16]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.CallControl.Extension.2.Provider - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[16] - success
+[DEBUG] [241119-23:09:45]: Parsing params[17]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.CallControl.Extension.2.NumberingPlan - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[17] - success
+[DEBUG] [241119-23:09:45]: Parsing params[18]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.SIP.Network.1.X_RDK_CertAuthFilePath - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[18] - success
+[DEBUG] [241119-23:09:45]: Parsing params[19]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.CallControl.NumberingPlan - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[19] - success
+[DEBUG] [241119-23:09:45]: Parsing params[20]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.X_RDK_DisableLoopCurrentUntilRegistered - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[20] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 1-th storage object - success
+[INFO] [241119-23:09:45]: Parsing storage array has been done successfuly
+[INFO] [241119-23:09:45]: Parsing script array from cfg
+[DEBUG] [241119-23:09:45]: Parsing scripts[0]
+[DEBUG] [241119-23:09:45]: Parsing script[0]=mv /opt/secure/telcovoice_config_current.json /opt/secure/telcovoice_config_current_v2.json  - success
+[INFO] [241119-23:09:45]: Parsing scripts array has been done successfuly
+[DEBUG] [241119-23:09:45]: Trying to parse 0-th migration item - success
+[DEBUG] [241119-23:09:45]: Trying to parse-th 1 migration item
+[INFO] [241119-23:09:45]: Parsing version obj of migration from cfg
+[DEBUG] [241119-23:09:45]: Version[2.40.0] has been parced successfully
+[INFO] [241119-23:09:45]: Parsing storage array of migration from cfg
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.VoIPProfile.1.X_RDK-Central_COM_DigitMap - Value: - CID:41 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object - success
+[INFO] [241119-23:09:45]: Parsing storage array has been done successfuly
+[DEBUG] [241119-23:09:45]: Trying to parse 1-th migration item - success
+[DEBUG] [241119-23:09:45]: Trying to parse-th 2 migration item
+[INFO] [241119-23:09:45]: Parsing version obj of migration from cfg
+[DEBUG] [241119-23:09:45]: Version[3.2.0] has been parced successfully
+[INFO] [241119-23:09:45]: Parsing storage array of migration from cfg
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.SIP.Network.1.X_RDK_KeepAliveInterval - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.SIP.Network.1.RegisterExpires - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object - success
+[INFO] [241119-23:09:45]: Parsing storage array has been done successfuly
+[DEBUG] [241119-23:09:45]: Trying to parse 2-th migration item - success
+[DEBUG] [241119-23:09:45]: Trying to parse-th 3 migration item
+[INFO] [241119-23:09:45]: Parsing version obj of migration from cfg
+[DEBUG] [241119-23:09:45]: Version[3.3.0] has been parced successfully
+[INFO] [241119-23:09:45]: Parsing storage array of migration from cfg
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.VoIPProfile.1.X_RDK-Central_COM_EmergencyDigitMap - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.VoIPProfile.1.X_RDK-Central_COM_DigitMap - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[2]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.VoIPProfile.1.RTP.DSCPMark - Value: - CID:41 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[2] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object - success
+[INFO] [241119-23:09:45]: Parsing storage array has been done successfuly
+[INFO] [241119-23:09:45]: Parsing script array from cfg
+[DEBUG] [241119-23:09:45]: Parsing scripts[0]
+[DEBUG] [241119-23:09:45]: Parsing script[0]=/etc/reset_unsupported_voip_config.sh  - success
+[INFO] [241119-23:09:45]: Parsing scripts array has been done successfuly
+[DEBUG] [241119-23:09:45]: Trying to parse 3-th migration item - success
+[DEBUG] [241119-23:09:45]: Trying to parse-th 4 migration item
+[INFO] [241119-23:09:45]: Parsing version obj of migration from cfg
+[DEBUG] [241119-23:09:45]: Version[3.4.0] has been parced successfully
+[INFO] [241119-23:09:45]: Parsing storage array of migration from cfg
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.VoIPProfile.1.X_RDK-Central_COM_DigitMap - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object - success
+[INFO] [241119-23:09:45]: Parsing storage array has been done successfuly
+[DEBUG] [241119-23:09:45]: Trying to parse 4-th migration item - success
+[DEBUG] [241119-23:09:45]: Trying to parse-th 5 migration item
+[INFO] [241119-23:09:45]: Parsing version obj of migration from cfg
+[DEBUG] [241119-23:09:45]: Version[3.5.0] has been parced successfully
+[INFO] [241119-23:09:45]: Parsing storage array of migration from cfg
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.wanmanager.wanpolicy - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object - success
+[DEBUG] [241119-23:09:45]: Parcing 1-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.VoIPProfile.1.X_RDK-Central_COM_DigitMap - Value: - CID:9 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.X_RDK_IpAddressFamily - Value: - CID:9 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[2]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.SIP.Network.1.X_RDK_DNSQuery - Value: - CID:9 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[2] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 1-th storage object - success
+[INFO] [241119-23:09:45]: Parsing storage array has been done successfuly
+[DEBUG] [241119-23:09:45]: Trying to parse 5-th migration item - success
+[DEBUG] [241119-23:09:45]: Trying to parse-th 6 migration item
+[INFO] [241119-23:09:45]: Parsing version obj of migration from cfg
+[DEBUG] [241119-23:09:45]: Version[3.6.0] has been parced successfully
+[INFO] [241119-23:09:45]: Parsing storage array of migration from cfg
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.VoIPProfile.1.X_RDK-Central_COM_DigitMap - Value: - CID:9 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.VoIPProfile.1.X_RDK-Central_COM_EmergencyDigitMap - Value: - CID:9 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[2]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.SIP.Client.1.MaxSessions - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[2] - success
+[DEBUG] [241119-23:09:45]: Parsing params[3]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.SIP.Client.2.MaxSessions - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[3] - success
+[DEBUG] [241119-23:09:45]: Parsing params[4]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.CallControl.IncomingMap.2.Enable - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[4] - success
+[DEBUG] [241119-23:09:45]: Parsing params[5]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.CallControl.IncomingMap.3.Enable - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[5] - success
+[DEBUG] [241119-23:09:45]: Parsing params[6]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.CallControl.OutgoingMap.2.Enable - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[6] - success
+[DEBUG] [241119-23:09:45]: Parsing params[7]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.CallControl.OutgoingMap.4.Enable - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[7] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object - success
+[INFO] [241119-23:09:45]: Parsing storage array has been done successfuly
+[DEBUG] [241119-23:09:45]: Trying to parse 6-th migration item - success
+[DEBUG] [241119-23:09:45]: Trying to parse-th 7 migration item
+[INFO] [241119-23:09:45]: Parsing version obj of migration from cfg
+[DEBUG] [241119-23:09:45]: Version[3.7.0] has been parced successfully
+[INFO] [241119-23:09:45]: Parsing storage array of migration from cfg
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.wanmanager.wanpolicy - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object - success
+[INFO] [241119-23:09:45]: Parsing storage array has been done successfuly
+[DEBUG] [241119-23:09:45]: Trying to parse 7-th migration item - success
+[DEBUG] [241119-23:09:45]: Trying to parse-th 8 migration item
+[INFO] [241119-23:09:45]: Parsing version obj of migration from cfg
+[DEBUG] [241119-23:09:45]: Version[3.8.0] has been parced successfully
+[INFO] [241119-23:09:45]: Parsing storage array of migration from cfg
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.wanmanager.wanpolicy - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.profilehunter.profilecount - Value: - CID:9 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[2]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.wanmanager.wanenable - Value: - CID:9 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[2] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object - success
+[DEBUG] [241119-23:09:45]: Parcing 1-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.SIP.Network.1.X_RDK_DNSQuery - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.SIP.Network.1.DSCPMark - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 1-th storage object - success
+[DEBUG] [241119-23:09:45]: Parcing 2-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:TZ - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 2-th storage object - success
+[INFO] [241119-23:09:45]: Parsing storage array has been done successfuly
+[INFO] [241119-23:09:45]: Parsing script array from cfg
+[DEBUG] [241119-23:09:45]: Parsing scripts[0]
+[DEBUG] [241119-23:09:45]: Parsing script[0]=test "$(getpp show CUSTOMER_ID 2>/dev/null)" == "9" && sed -i "/dmsb.profilehunter.profile\./d" /nvram/bbhm_bak_cfg.xml  - success
+[INFO] [241119-23:09:45]: Parsing scripts array has been done successfuly
+[DEBUG] [241119-23:09:45]: Trying to parse 8-th migration item - success
+[DEBUG] [241119-23:09:45]: Trying to parse-th 9 migration item
+[INFO] [241119-23:09:45]: Parsing version obj of migration from cfg
+[DEBUG] [241119-23:09:45]: Version[4.0.0] has been parced successfully
+[INFO] [241119-23:09:45]: Parsing storage array of migration from cfg
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.vlanmanager.cfg.1.vlanid - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.vlanmanager.cfg.2.vlanid - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[2]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.wanmanager.if.1.Name - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[2] - success
+[DEBUG] [241119-23:09:45]: Parsing params[3]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.wanmanager.if.2.Name - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[3] - success
+[DEBUG] [241119-23:09:45]: Parsing params[4]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.profilehunter.enable - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[4] - success
+[DEBUG] [241119-23:09:45]: Parsing params[5]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.wanmanager.if.1.DisplayName - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[5] - success
+[DEBUG] [241119-23:09:45]: Parsing params[6]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.wanmanager.if.2.DisplayName - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[6] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object - success
+[INFO] [241119-23:09:45]: Parsing storage array has been done successfuly
+[DEBUG] [241119-23:09:45]: Trying to parse 9-th migration item - success
+[DEBUG] [241119-23:09:45]: Trying to parse-th 10 migration item
+[INFO] [241119-23:09:45]: Parsing version obj of migration from cfg
+[DEBUG] [241119-23:09:45]: Version[4.1.0] has been parced successfully
+[INFO] [241119-23:09:45]: Parsing storage array of migration from cfg
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.VoIPProfile.1.RTP.SRTP.Enable - Value: - CID:9 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.CallControl.CallingFeatures.Set.1.CallWaitingEnable - Value: - CID:50 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[2]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.CallControl.CallingFeatures.Set.2.CallWaitingEnable - Value: - CID:50 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[2] - success
+[DEBUG] [241119-23:09:45]: Parsing params[3]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.CallControl.CallingFeatures.Set.1.CallWaitingEnable - Value: - CID:51 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[3] - success
+[DEBUG] [241119-23:09:45]: Parsing params[4]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.CallControl.CallingFeatures.Set.2.CallWaitingEnable - Value: - CID:51 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[4] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object - success
+[DEBUG] [241119-23:09:45]: Parcing 1-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.profilehunter.profile.1.management_skb2vlan_priority_map - Value: - CID:50 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.profilehunter.profile.1.management_skb2vlan_priority_map - Value: - CID:51 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 1-th storage object - success
+[INFO] [241119-23:09:45]: Parsing storage array has been done successfuly
+[INFO] [241119-23:09:45]: Parsing script array from cfg
+[DEBUG] [241119-23:09:45]: Parsing scripts[0]
+[DEBUG] [241119-23:09:45]: Parsing script[0]=sed -e '/dmsb\.vlanmanager\./d' -e '/dmsb\.ethlink\./d' -e '/dmsb\.wanmanager\./d' -i /nvram/bbhm_bak_cfg.xml  - success
+[INFO] [241119-23:09:45]: Parsing scripts array has been done successfuly
+[DEBUG] [241119-23:09:45]: Trying to parse 10-th migration item - success
+[DEBUG] [241119-23:09:45]: Trying to parse-th 11 migration item
+[INFO] [241119-23:09:45]: Parsing version obj of migration from cfg
+[DEBUG] [241119-23:09:45]: Version[4.2.0] has been parced successfully
+[INFO] [241119-23:09:45]: Parsing storage array of migration from cfg
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.wanmanager.wanenable - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.profilehunter.profilecount - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object - success
+[DEBUG] [241119-23:09:45]: Parcing 1-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:TZ - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 1-th storage object - success
+[DEBUG] [241119-23:09:45]: Parcing 2-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.VoIPProfile.1.X_RDK-Central_COM_DigitMap - Value: - CID:9 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.CallControl.NumberingPlan.1.InterDigitTimerStd - Value: - CID:9 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[2]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.CallControl.NumberingPlan.1.InterDigitTimerOpen - Value: - CID:9 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[2] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 2-th storage object - success
+[INFO] [241119-23:09:45]: Parsing storage array has been done successfuly
+[DEBUG] [241119-23:09:45]: Trying to parse 11-th migration item - success
+[DEBUG] [241119-23:09:45]: Trying to parse-th 12 migration item
+[INFO] [241119-23:09:45]: Parsing version obj of migration from cfg
+[DEBUG] [241119-23:09:45]: Version[4.3.0] has been parced successfully
+[INFO] [241119-23:09:45]: Parsing storage array of migration from cfg
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:voip_skb2vlan_priority_map - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:management_skb2vlan_priority_map - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object - success
+[INFO] [241119-23:09:45]: Parsing storage array has been done successfuly
+[DEBUG] [241119-23:09:45]: Trying to parse 12-th migration item - success
+[DEBUG] [241119-23:09:45]: Trying to parse-th 13 migration item
+[INFO] [241119-23:09:45]: Parsing version obj of migration from cfg
+[DEBUG] [241119-23:09:45]: Version[4.3.2] has been parced successfully
+[INFO] [241119-23:09:45]: Parsing storage array of migration from cfg
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.profilehunter.configured - Value:FALSE - CID:9 - Restore Def:0] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.wanmanager.wanenable - Value: - CID:9 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object - success
+[INFO] [241119-23:09:45]: Parsing storage array has been done successfuly
+[DEBUG] [241119-23:09:45]: Trying to parse 13-th migration item - success
+[DEBUG] [241119-23:09:45]: Trying to parse-th 14 migration item
+[INFO] [241119-23:09:45]: Parsing version obj of migration from cfg
+[DEBUG] [241119-23:09:45]: Version[4.4.0] has been parced successfully
+[INFO] [241119-23:09:45]: Parsing storage array of migration from cfg
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.profilehunter.configured - Value:FALSE - CID:0 - Restore Def:0] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.wanmanager.wanenable - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object - success
+[DEBUG] [241119-23:09:45]: Parcing 1-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.SIP.Network.1.CodecList - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.SIP.Network.1.RegistrationPeriod - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[2]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.SIP.Network.1.TimerT1 - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[2] - success
+[DEBUG] [241119-23:09:45]: Parsing params[3]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.SIP.Network.1.TimerT2 - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[3] - success
+[DEBUG] [241119-23:09:45]: Parsing params[4]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.SIP.Network.1.TimerT4 - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[4] - success
+[DEBUG] [241119-23:09:45]: Parsing params[5]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.SIP.Network.1.TimerA - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[5] - success
+[DEBUG] [241119-23:09:45]: Parsing params[6]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.SIP.Network.1.TimerB - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[6] - success
+[DEBUG] [241119-23:09:45]: Parsing params[7]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.SIP.Network.1.TimerC - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[7] - success
+[DEBUG] [241119-23:09:45]: Parsing params[8]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.SIP.Network.1.TimerD - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[8] - success
+[DEBUG] [241119-23:09:45]: Parsing params[9]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.SIP.Network.1.TimerE - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[9] - success
+[DEBUG] [241119-23:09:45]: Parsing params[10]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.SIP.Network.1.TimerF - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[10] - success
+[DEBUG] [241119-23:09:45]: Parsing params[11]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.SIP.Network.1.TimerG - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[11] - success
+[DEBUG] [241119-23:09:45]: Parsing params[12]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.SIP.Network.1.TimerH - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[12] - success
+[DEBUG] [241119-23:09:45]: Parsing params[13]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.SIP.Network.1.TimerI - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[13] - success
+[DEBUG] [241119-23:09:45]: Parsing params[14]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.SIP.Network.1.TimerJ - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[14] - success
+[DEBUG] [241119-23:09:45]: Parsing params[15]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.SIP.Network.1.TimerK - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[15] - success
+[DEBUG] [241119-23:09:45]: Parsing params[16]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.SIP.Network.1.InviteExpires - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[16] - success
+[DEBUG] [241119-23:09:45]: Parsing params[17]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.SIP.Network.1.ReInviteExpires - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[17] - success
+[DEBUG] [241119-23:09:45]: Parsing params[18]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.VoIPProfile.1.X_RDK-Central_COM_ZDigitTimer - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[18] - success
+[DEBUG] [241119-23:09:45]: Parsing params[19]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.CallControl.NumberingPlan.1.PrefixInfo. - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[19] - success
+[DEBUG] [241119-23:09:45]: Parsing params[20]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.CodecProfile.2. - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[20] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 1-th storage object - success
+[INFO] [241119-23:09:45]: Parsing storage array has been done successfuly
+[DEBUG] [241119-23:09:45]: Trying to parse 14-th migration item - success
+[DEBUG] [241119-23:09:45]: Trying to parse-th 15 migration item
+[INFO] [241119-23:09:45]: Parsing version obj of migration from cfg
+[DEBUG] [241119-23:09:45]: Version[4.5.0] has been parced successfully
+[INFO] [241119-23:09:45]: Parsing storage array of migration from cfg
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.profilehunter.profile.1.management_skb2vlan_priority_map - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.profilehunter.profile.1.voip_skb2vlan_priority_map - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[2]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.profilehunter.profile.1.management_skb2vlan_priority_map - Value: - CID:9 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[2] - success
+[DEBUG] [241119-23:09:45]: Parsing params[3]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.profilehunter.profile.1.voip_skb2vlan_priority_map - Value: - CID:9 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[3] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object - success
+[DEBUG] [241119-23:09:45]: Parcing 1-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:management_skb2vlan_priority_map - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:voip_skb2vlan_priority_map - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[2]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:management_skb2vlan_priority_map - Value: - CID:9 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[2] - success
+[DEBUG] [241119-23:09:45]: Parsing params[3]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:voip_skb2vlan_priority_map - Value: - CID:9 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[3] - success
+[DEBUG] [241119-23:09:45]: Parsing params[4]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:management_wan_enabled - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[4] - success
+[DEBUG] [241119-23:09:45]: Parsing params[5]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:management_wan_enabled - Value: - CID:9 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[5] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 1-th storage object - success
+[DEBUG] [241119-23:09:45]: Parcing 2-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.VoIPProfile.1.X_RDK-Central_COM_DigitMap - Value: - CID:9 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 2-th storage object - success
+[INFO] [241119-23:09:45]: Parsing storage array has been done successfuly
+[INFO] [241119-23:09:45]: Parsing script array from cfg
+[DEBUG] [241119-23:09:45]: Parsing scripts[0]
+[DEBUG] [241119-23:09:45]: Parsing script[0]=/etc/enable_dslite_check.sh  - success
+[INFO] [241119-23:09:45]: Parsing scripts array has been done successfuly
+[DEBUG] [241119-23:09:45]: Trying to parse 15-th migration item - success
+[DEBUG] [241119-23:09:45]: Trying to parse-th 16 migration item
+[INFO] [241119-23:09:45]: Parsing version obj of migration from cfg
+[DEBUG] [241119-23:09:45]: Version[4.6.0] has been parced successfully
+[INFO] [241119-23:09:45]: Parsing storage array of migration from cfg
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.VoIPProfile.1.X_RDK-Central_COM_EmergencyDigitMap - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.VoIPProfile.1.X_RDK-Central_COM_DigitMap - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object - success
+[DEBUG] [241119-23:09:45]: Parcing 1-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:data_skb2vlan_priority_map - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 1-th storage object - success
+[INFO] [241119-23:09:45]: Parsing storage array has been done successfuly
+[DEBUG] [241119-23:09:45]: Trying to parse 16-th migration item - success
+[DEBUG] [241119-23:09:45]: Trying to parse-th 17 migration item
+[INFO] [241119-23:09:45]: Parsing version obj of migration from cfg
+[DEBUG] [241119-23:09:45]: Version[4.9.0] has been parced successfully
+[INFO] [241119-23:09:45]: Parsing storage array of migration from cfg
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.VoIPProfile.1.X_RDK-Central_COM_DigitMap - Value: - CID:20 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.VoIPProfile.1.X_RDK-Central_COM_EmergencyDigitMap - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[2]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.VoIPProfile.1.X_RDK-Central_COM_DigitMap - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[2] - success
+[DEBUG] [241119-23:09:45]: Parsing params[3]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.CallControl.NumberingPlan.1.PrefixInfo. - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[3] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object - success
+[INFO] [241119-23:09:45]: Parsing storage array has been done successfuly
+[DEBUG] [241119-23:09:45]: Trying to parse 17-th migration item - success
+[DEBUG] [241119-23:09:45]: Trying to parse-th 18 migration item
+[INFO] [241119-23:09:45]: Parsing version obj of migration from cfg
+[DEBUG] [241119-23:09:45]: Version[5.0.0] has been parced successfully
+[INFO] [241119-23:09:45]: Parsing storage array of migration from cfg
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:last_erouter_mode - Value: - CID:50 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:last_erouter_mode - Value: - CID:51 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[2]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:default_erouter_mode - Value: - CID:50 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[2] - success
+[DEBUG] [241119-23:09:45]: Parsing params[3]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:default_erouter_mode - Value: - CID:51 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[3] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object - success
+[DEBUG] [241119-23:09:45]: Parcing 1-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.SIP.Network.1.EventSubscribe - Value: - CID:9 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.SIP.Client.1.EventSubscribe - Value: - CID:9 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[2]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.SIP.Client.2.EventSubscribe - Value: - CID:9 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[2] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 1-th storage object - success
+[INFO] [241119-23:09:45]: Parsing storage array has been done successfuly
+[DEBUG] [241119-23:09:45]: Trying to parse 18-th migration item - success
+[DEBUG] [241119-23:09:45]: Trying to parse-th 19 migration item
+[INFO] [241119-23:09:45]: Parsing version obj of migration from cfg
+[DEBUG] [241119-23:09:45]: Version[5.1.0] has been parced successfully
+[INFO] [241119-23:09:45]: Parsing storage array of migration from cfg
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.SIP.Network.1.DSCPMark - Value: - CID:20 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object - success
+[DEBUG] [241119-23:09:45]: Parcing 1-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:data_skb2vlan_priority_map - Value: - CID:20 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 1-th storage object - success
+[DEBUG] [241119-23:09:45]: Parcing 2-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.profilehunter.profile.1.voip_signalling_skb_priority - Value: - CID:20 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.profilehunter.profile.1.data_skb2vlan_priority_map - Value: - CID:20 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[2]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.profilehunter.configured - Value:FALSE - CID:20 - Restore Def:0] - success
+[DEBUG] [241119-23:09:45]: Parsing params[2] - success
+[DEBUG] [241119-23:09:45]: Parsing params[3]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.wanmanager.wanenable - Value: - CID:20 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[3] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 2-th storage object - success
+[INFO] [241119-23:09:45]: Parsing storage array has been done successfuly
+[DEBUG] [241119-23:09:45]: Trying to parse 19-th migration item - success
+[DEBUG] [241119-23:09:45]: Trying to parse-th 20 migration item
+[INFO] [241119-23:09:45]: Parsing version obj of migration from cfg
+[DEBUG] [241119-23:09:45]: Version[5.2.0] has been parced successfully
+[INFO] [241119-23:09:45]: Parsing storage array of migration from cfg
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:user_bridge_mode_allowed - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object - success
+[DEBUG] [241119-23:09:45]: Parcing 1-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.VoIPProfile.1.X_RDK-Central_COM_DigitMap - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.VoIPProfile.1.X_RDK-Central_COM_DigitMap - Value: - CID:20 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[2]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.VoIPProfile.1.X_RDK-Central_COM_EmergencyDigitMap - Value: - CID:20 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[2] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 1-th storage object - success
+[INFO] [241119-23:09:45]: Parsing storage array has been done successfuly
+[DEBUG] [241119-23:09:45]: Trying to parse 20-th migration item - success
+[DEBUG] [241119-23:09:45]: Trying to parse-th 21 migration item
+[INFO] [241119-23:09:45]: Parsing version obj of migration from cfg
+[DEBUG] [241119-23:09:45]: Version[5.4.0] has been parced successfully
+[INFO] [241119-23:09:45]: Parsing storage array of migration from cfg
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.X_RDK_IpAddressFamily - Value: - CID:20 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.VoIPProfile.1.X_RDK-Central_COM_DigitMap - Value: - CID:9 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[2]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.CallControl.NumberingPlan.1.PrefixInfo. - Value: - CID:9 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[2] - success
+[DEBUG] [241119-23:09:45]: Parsing params[3]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.CallControl.CallingFeatures.Set.1.CallWaitingEnable - Value: - CID:20 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[3] - success
+[DEBUG] [241119-23:09:45]: Parsing params[4]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.CallControl.CallingFeatures.Set.2.CallWaitingEnable - Value: - CID:20 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[4] - success
+[DEBUG] [241119-23:09:45]: Parsing params[5]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.CallControl.CallingFeatures.Set.1.X_RDK_CallWaitingTimeout - Value: - CID:9 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[5] - success
+[DEBUG] [241119-23:09:45]: Parsing params[6]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.CallControl.CallingFeatures.Set.2.X_RDK_CallWaitingTimeout - Value: - CID:9 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[6] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object - success
+[INFO] [241119-23:09:45]: Parsing storage array has been done successfuly
+[DEBUG] [241119-23:09:45]: Trying to parse 21-th migration item - success
+[DEBUG] [241119-23:09:45]: Trying to parse-th 22 migration item
+[INFO] [241119-23:09:45]: Parsing version obj of migration from cfg
+[DEBUG] [241119-23:09:45]: Version[5.6.0] has been parced successfully
+[INFO] [241119-23:09:45]: Parsing storage array of migration from cfg
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.wanmanager.if.1.VirtualInterface.1.Marking.1.Entry - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.wanmanager.if.1.VirtualInterface.1.Marking.2.Entry - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[2]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.wanmanager.if.1.VirtualInterface.1.MarkingCount - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[2] - success
+[DEBUG] [241119-23:09:45]: Parsing params[3]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.wanmanager.if.1.VirtualInterface.2.Marking.1.Entry - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[3] - success
+[DEBUG] [241119-23:09:45]: Parsing params[4]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.wanmanager.if.1.VirtualInterface.2.Marking.2.Entry - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[4] - success
+[DEBUG] [241119-23:09:45]: Parsing params[5]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.wanmanager.if.1.VirtualInterface.2.MarkingCount - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[5] - success
+[DEBUG] [241119-23:09:45]: Parsing params[6]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.wanmanager.if.1.VirtualInterface.3.Marking.1.Entry - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[6] - success
+[DEBUG] [241119-23:09:45]: Parsing params[7]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.wanmanager.if.1.VirtualInterface.3.Marking.2.Entry - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[7] - success
+[DEBUG] [241119-23:09:45]: Parsing params[8]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.wanmanager.if.1.VirtualInterface.3.Marking.3.Entry - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[8] - success
+[DEBUG] [241119-23:09:45]: Parsing params[9]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.wanmanager.if.1.VirtualInterface.3.MarkingCount - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[9] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object - success
+[DEBUG] [241119-23:09:45]: Parcing 1-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.CallControl.NumberingPlan.1.PrefixInfo.1.PrefixRange - Value: - CID:20 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 1-th storage object - success
+[INFO] [241119-23:09:45]: Parsing storage array has been done successfuly
+[DEBUG] [241119-23:09:45]: Trying to parse 22-th migration item - success
+[DEBUG] [241119-23:09:45]: Trying to parse-th 23 migration item
+[INFO] [241119-23:09:45]: Parsing version obj of migration from cfg
+[DEBUG] [241119-23:09:45]: Version[5.7.0] has been parced successfully
+[INFO] [241119-23:09:45]: Parsing storage array of migration from cfg
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.SIP.Network.1.DSCPMark - Value: - CID:41 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object - success
+[INFO] [241119-23:09:45]: Parsing storage array has been done successfuly
+[DEBUG] [241119-23:09:45]: Trying to parse 23-th migration item - success
+[DEBUG] [241119-23:09:45]: Trying to parse-th 24 migration item
+[INFO] [241119-23:09:45]: Parsing version obj of migration from cfg
+[DEBUG] [241119-23:09:45]: Version[6.2.0] has been parced successfully
+[INFO] [241119-23:09:45]: Parsing storage array of migration from cfg
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.profilehunter.profile.1.voip_media_skb_priority - Value: - CID:41 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.profilehunter.profile.1.voip_signalling_skb_priority - Value: - CID:41 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object - success
+[INFO] [241119-23:09:45]: Parsing storage array has been done successfuly
+[DEBUG] [241119-23:09:45]: Trying to parse 24-th migration item - success
+[DEBUG] [241119-23:09:45]: Trying to parse-th 25 migration item
+[INFO] [241119-23:09:45]: Parsing version obj of migration from cfg
+[DEBUG] [241119-23:09:45]: Version[6.6.0] has been parced successfully
+[INFO] [241119-23:09:45]: Parsing storage array of migration from cfg
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.VoIPProfile.1.X_RDK-Central_COM_DigitMap - Value: - CID:9 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object - success
+[INFO] [241119-23:09:45]: Parsing storage array has been done successfuly
+[DEBUG] [241119-23:09:45]: Trying to parse 25-th migration item - success
+[DEBUG] [241119-23:09:45]: Trying to parse-th 26 migration item
+[INFO] [241119-23:09:45]: Parsing version obj of migration from cfg
+[DEBUG] [241119-23:09:45]: Version[6.7.0] has been parced successfully
+[INFO] [241119-23:09:45]: Parsing storage array of migration from cfg
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.profilehunter.profile.1.management_vlanid - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.profilehunter.profile.1.management_skb2vlan_priority_map - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[2]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.profilehunter.profile.1.voip_vlanid - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[2] - success
+[DEBUG] [241119-23:09:45]: Parsing params[3]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.profilehunter.profile.1.voip_skb2vlan_priority_map - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[3] - success
+[DEBUG] [241119-23:09:45]: Parsing params[4]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Ethernet.Interface.4.EEEEnable - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[4] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object - success
+[DEBUG] [241119-23:09:45]: Parcing 1-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:voip_vlan - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:voip_skb2vlan_priority_map - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[2]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:management_vlan - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[2] - success
+[DEBUG] [241119-23:09:45]: Parsing params[3]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:management_skb2vlan_priority_map - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[3] - success
+[DEBUG] [241119-23:09:45]: Parsing params[4]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:management_mode - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[4] - success
+[DEBUG] [241119-23:09:45]: Parsing params[5]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:voip_mode - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[5] - success
+[DEBUG] [241119-23:09:45]: Parsing params[6]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:management_skb_priority - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[6] - success
+[DEBUG] [241119-23:09:45]: Parsing params[7]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:voip_media_skb_priority - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[7] - success
+[DEBUG] [241119-23:09:45]: Parsing params[8]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:voip_signalling_skb_priority - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[8] - success
+[DEBUG] [241119-23:09:45]: Parsing params[9]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:voip_skb_priority - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[9] - success
+[DEBUG] [241119-23:09:45]: Parsing params[10]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:voip_wan_enabled - Value: - CID:0 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[10] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 1-th storage object - success
+[INFO] [241119-23:09:45]: Parsing storage array has been done successfuly
+[DEBUG] [241119-23:09:45]: Trying to parse 26-th migration item - success
+[DEBUG] [241119-23:09:45]: Trying to parse-th 27 migration item
+[INFO] [241119-23:09:45]: Parsing version obj of migration from cfg
+[DEBUG] [241119-23:09:45]: Version[6.8.0] has been parced successfully
+[INFO] [241119-23:09:45]: Parsing storage array of migration from cfg
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.CallControl.CallingFeatures.Set.1.X_RDK_CallWaitingTimeout - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:Device.Services.VoiceService.1.CallControl.CallingFeatures.Set.2.X_RDK_CallWaitingTimeout - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object - success
+[INFO] [241119-23:09:45]: Parsing storage array has been done successfuly
+[DEBUG] [241119-23:09:45]: Trying to parse 27-th migration item - success
+[DEBUG] [241119-23:09:45]: Trying to parse-th 28 migration item
+[INFO] [241119-23:09:45]: Parsing version obj of migration from cfg
+[DEBUG] [241119-23:09:45]: Version[6.9.0] has been parced successfully
+[INFO] [241119-23:09:45]: Parsing storage array of migration from cfg
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.profilehunter.profile.1.voip_signalling_skb_priority - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.profilehunter.configured - Value:FALSE - CID:8 - Restore Def:0] - success
+[DEBUG] [241119-23:09:45]: Parsing params[1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[2]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.wanmanager.wanenable - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[2] - success
+[DEBUG] [241119-23:09:45]: Parsing params[3]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.profilehunter.profile.1.management_if_enable - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[3] - success
+[DEBUG] [241119-23:09:45]: Parsing params[4]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.profilehunter.profile.1.management_mode - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[4] - success
+[DEBUG] [241119-23:09:45]: Parsing params[5]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.profilehunter.profile.1.voip_if_enable - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[5] - success
+[DEBUG] [241119-23:09:45]: Parsing params[6]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.profilehunter.profile.1.voip_mode - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[6] - success
+[DEBUG] [241119-23:09:45]: Parsing params[7]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.vlanmanager.2.vlanid - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[7] - success
+[DEBUG] [241119-23:09:45]: Parsing params[8]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.vlanmanager.3.vlanid - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[8] - success
+[DEBUG] [241119-23:09:45]: Parsing params[9]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.wanmanager.if.1.VirtualInterface.2.Enable - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[9] - success
+[DEBUG] [241119-23:09:45]: Parsing params[10]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.wanmanager.if.1.VirtualInterface.2.Marking.1.Entry - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[10] - success
+[DEBUG] [241119-23:09:45]: Parsing params[11]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.wanmanager.if.1.VirtualInterface.2.Marking.2.Entry - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[11] - success
+[DEBUG] [241119-23:09:45]: Parsing params[12]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.wanmanager.if.1.VirtualInterface.2.MarkingCount - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[12] - success
+[DEBUG] [241119-23:09:45]: Parsing params[13]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.wanmanager.if.1.VirtualInterface.3.Enable - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[13] - success
+[DEBUG] [241119-23:09:45]: Parsing params[14]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.wanmanager.if.1.VirtualInterface.3.Marking.1.Entry - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[14] - success
+[DEBUG] [241119-23:09:45]: Parsing params[15]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.wanmanager.if.1.VirtualInterface.3.Marking.2.Entry - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[15] - success
+[DEBUG] [241119-23:09:45]: Parsing params[16]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.wanmanager.if.1.VirtualInterface.3.Marking.3.Entry - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[16] - success
+[DEBUG] [241119-23:09:45]: Parsing params[17]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.wanmanager.if.1.VirtualInterface.3.MarkingCount - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[17] - success
+[DEBUG] [241119-23:09:45]: Parsing params[18]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:dmsb.profilehunter.profile.1.data_skb2vlan_priority_map - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[18] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 0-th storage object - success
+[DEBUG] [241119-23:09:45]: Parcing 1-th storage object
+[INFO] [241119-23:09:45]: Parsing storage obj from cfg
+[INFO] [241119-23:09:45]: Parsing type of storage obj
+[INFO] [241119-23:09:45]: Parsing params array of storage obj
+[DEBUG] [241119-23:09:45]: Parsing params[0]
+[INFO] [241119-23:09:45]: Parsing param obj from cfg
+[INFO] [241119-23:09:45]: Parsing param name from obj
+[INFO] [241119-23:09:45]: Parsing param value from obj
+[INFO] [241119-23:09:45]: Parsing param cid from obj
+[DEBUG] [241119-23:09:45]: Parsing param obj[Name:voip_wan_enabled - Value: - CID:8 - Restore Def:1] - success
+[DEBUG] [241119-23:09:45]: Parsing params[0] - success
+[INFO] [241119-23:09:45]: Storage obj has been parced successfuly
+[DEBUG] [241119-23:09:45]: Parcing 1-th storage object - success
+[INFO] [241119-23:09:45]: Parsing storage array has been done successfuly
+[DEBUG] [241119-23:09:45]: Trying to parse 28-th migration item - success
+[INFO] [241119-23:09:45]: Parsing has been completed
+[DEBUG] [241119-23:09:45]: Number of migrations - 29
+[DEBUG] [241119-23:09:45]: Processin migration[0] of version - 2.37.0
+[INFO] [241119-23:09:45]: Checking version validity
+[INFO] [241119-23:09:45]: Comparing versions
+[DEBUG] [241119-23:09:45]: V1 - 002.037.000 | V2 - 000.000.000

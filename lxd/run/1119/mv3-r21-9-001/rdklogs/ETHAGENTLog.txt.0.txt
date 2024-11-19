@@ -1,0 +1,74 @@
+2.118034 [mod=ETHAGENT, lvl=INFO] [tid=741] 
+After daemonize before signal
+2.118107 [mod=ETHAGENT, lvl=WARN] [tid=741] Core dump is opened, do not catch signal
+2.118118 [mod=ETHAGENT, lvl=INFO] [tid=741] 
+before cmd_dispatch command
+2.118122 [mod=ETHAGENT, lvl=INFO] [tid=741] Connect to bus daemon...
+2.118149 [mod=ETHAGENT, lvl=INFO] [tid=741] rbuscore.c:2340 RBus Enabled
+
+2.118160 [mod=ETHAGENT, lvl=INFO] [tid=741] rbuscore.c:656 Broker address: unix:///tmp/rtrouted
+
+2.118282 [mod=ETHAGENT, lvl=INFO] [tid=741] connection opened for eRT.com.cisco.spvtg.ccsp.ethagent
+2.118301 [mod=ETHAGENT, lvl=INFO] [tid=741] INFO: bus_handle: 0x0x8263d90 
+3.119274 [mod=ETHAGENT, lvl=INFO] [tid=741] CcspBaseIf_Register_Event_rbus : rbus_registerEvent called for event: currentSessionIDSignal
+3.119560 [mod=ETHAGENT, lvl=INFO] [tid=741] rbuscore.c:755 Subscription for _rbus_session_mgr::currentSessionIDSignal is now active.
+
+3.119869 [mod=ETHAGENT, lvl=WARN] [tid=741] Register empty object : com.
+3.119884 [mod=ETHAGENT, lvl=WARN] [tid=741] Register empty object : com.cisco.
+3.119892 [mod=ETHAGENT, lvl=WARN] [tid=741] Register empty object : com.cisco.spvtg.
+3.119900 [mod=ETHAGENT, lvl=WARN] [tid=741] Register empty object : com.cisco.spvtg.ccsp.
+3.120258 [mod=ETHAGENT, lvl=WARN] [tid=741] DM Library module name = CCSP Base Data Model
+3.120804 [mod=ETHAGENT, lvl=WARN] [tid=741] CosaEthernetInitialize Ethernet_Logger_Thread Created
+3.123280 [mod=ETHAGENT, lvl=ERROR] [tid=741] Failed to dynamically get dmsb.ethagent.ethifcount. using fallback hardcoded value instead
+3.124340 [mod=ETHAGENT, lvl=ERROR] [tid=741] Failed to get dmsb.ethagent.if.1.Name
+3.126606 [mod=ETHAGENT, lvl=ERROR] [tid=741] Failed to get dmsb.ethagent.if.2.Name
+3.126984 [mod=ETHAGENT, lvl=ERROR] [tid=741] Failed to get dmsb.ethagent.if.3.Name
+3.128632 [mod=ETHAGENT, lvl=ERROR] [tid=741] Failed to get dmsb.ethagent.if.4.Name
+3.136139 [mod=ETHAGENT, lvl=ERROR] [tid=741] Failed to dynamically get dmsb.ethagent.if.1.Name. using hardcoded fallback option
+3.141819 [mod=ETHAGENT, lvl=ERROR] [tid=741] Failed to dynamically get dmsb.ethagent.if.2.Name. using hardcoded fallback option
+3.142254 [mod=ETHAGENT, lvl=ERROR] [tid=741] Failed to dynamically get dmsb.ethagent.if.3.Name. using hardcoded fallback option
+3.142708 [mod=ETHAGENT, lvl=ERROR] [tid=741] Failed to dynamically get dmsb.ethagent.if.4.Name. using hardcoded fallback option
+3.143055 [mod=ETHAGENT, lvl=ERROR] [tid=741] CosaDmlEthSetPhyPathForWanManager:4604 ifname[eth0]
+3.143063 [mod=ETHAGENT, lvl=ERROR] [tid=741] CosaDmlEthSetPhyPathForWanManager:4608 stGlobalInfo.Name[eth0]
+3.143917 [mod=ETHAGENT, lvl=ERROR] [tid=741] GetParameterValues for param[0]=Device.X_RDK_WanManager.InterfaceNumberOfEntries failed with Error: 17
+3.143925 [mod=ETHAGENT, lvl=ERROR] [tid=741] CosaDmlEthGetLowerLayersInstanceInOtherAgent 4419 Failed to get param value
+3.143932 [mod=ETHAGENT, lvl=ERROR] [tid=741] CosaDmlEthSetPhyPathForWanManager 4616 WAN instance not present
+3.143936 [mod=ETHAGENT, lvl=INFO] [tid=741] CosaDmlEthInit:2750 Initialize eth0 PhyPath for Manager[Failed]
+3.144047 [mod=ETHAGENT, lvl=INFO] [tid=741] CosaDmlEthTriggerEventHandlerThread 3945 - Event Handler Thread Started Successfully
+3.232899 [mod=ETHAGENT, lvl=WARN] [tid=741] RDKB_SYSTEM_BOOT_UP_LOG : Entering CosaBackEndManagerCreate 128
+3.232914 [mod=ETHAGENT, lvl=NOTICE] [tid=741] _getMac...
+3.232922 [mod=ETHAGENT, lvl=NOTICE] [tid=741] _getMac...
+3.233261 [mod=ETHAGENT, lvl=INFO] [tid=741]  lan-status = stopped
+3.233280 [mod=ETHAGENT, lvl=NOTICE] [tid=741] _getMac...
+3.233292 [mod=ETHAGENT, lvl=NOTICE] [tid=741] _getMac...
+3.234360 [mod=ETHAGENT, lvl=NOTICE] [tid=741] _getMac...
+3.234375 [mod=ETHAGENT, lvl=NOTICE] [tid=741] _getMac...
+3.235332 [mod=ETHAGENT, lvl=NOTICE] [tid=741] _getMac...
+3.235344 [mod=ETHAGENT, lvl=NOTICE] [tid=741] _getMac...
+3.255852 [mod=ETHAGENT, lvl=NOTICE] [tid=741] getIfStatus...
+3.257286 [mod=ETHAGENT, lvl=NOTICE] [tid=741] getIfStatus...
+3.258438 [mod=ETHAGENT, lvl=WARN] [tid=741]   CosaEthInterfaceCreate done!
+3.258553 [mod=ETHAGENT, lvl=DEBUG] [tid=741] 'unsignedInt[1:7]' UINT range [1:7]
+3.258667 [mod=ETHAGENT, lvl=WARN] [tid=741] DM Library module name = CcspEthAgent
+3.258801 [mod=ETHAGENT, lvl=DEBUG] [tid=741] 'int[-1:]' Integer range [-1:2147483647]
+3.262039 [mod=ETHAGENT, lvl=WARN] [tid=741] Search for empty object in 'dslhCpeCheckEmptyObject'
+3.290325 [mod=ETHAGENT, lvl=WARN] [tid=741] 
+Before Cdm_Init
+3.290337 [mod=ETHAGENT, lvl=WARN] [tid=741] 
+After Cdm_Init
+4.144726 [mod=ETHAGENT, lvl=INFO] [tid=839] [EthWanLinkUp_callback][4890] WANOE [eth0] interface link up event received 
+4.144756 [mod=ETHAGENT, lvl=INFO] [tid=839] CosaDmlEthPortSendLinkStatusToEventQueue 3925 - Successfully sent message to event queue
+4.144764 [mod=ETHAGENT, lvl=INFO] [tid=839] [EthWanLinkUp_callback][4892] Successfully posted WANOE [eth0] interface link up event to message queue
+4.144764 [mod=ETHAGENT, lvl=INFO] [tid=838] CosaDmlEthEventHandlerThread 3996 - Event Msg Received
+4.144779 [mod=ETHAGENT, lvl=INFO] [tid=838] ****** [eth0,1]
+4.144993 [mod=ETHAGENT, lvl=WARN] [tid=838] CosaDmlEthGetParamValues parameterValue[1]
+4.145004 [mod=ETHAGENT, lvl=INFO] [tid=838] CosaDmlEthGetLowerLayersInstanceInOtherAgent 4425 - TotalNoofEntries:1
+4.145138 [mod=ETHAGENT, lvl=WARN] [tid=838] CosaDmlEthGetParamValues parameterValue[eth0]
+4.145145 [mod=ETHAGENT, lvl=INFO] [tid=838] CosaDmlEthSetPhyStatusForWanManager 4675 WAN Instance:1
+4.145321 [mod=ETHAGENT, lvl=INFO] [tid=838] Value being set [100] 
+4.145493 [mod=ETHAGENT, lvl=INFO] [tid=838] Value being set [100] 
+4.145500 [mod=ETHAGENT, lvl=INFO] [tid=838] CosaDmlEthSetPhyStatusForWanManager 4711 Successfully notified Up event to WAN Manager for eth0 interface
+4.205311 [mod=ETHAGENT, lvl=WARN] [tid=746] DslhObjcoValidate: AddToLanBridge, bsUpdate = 3
+
+4.205334 [mod=ETHAGENT, lvl=WARN] [tid=746] Before committing:Device.Ethernet.X_RDK_Interface.1.
+4.205338 [mod=ETHAGENT, lvl=WARN] [tid=746] After committing:Device.Ethernet.X_RDK_Interface.1.:0

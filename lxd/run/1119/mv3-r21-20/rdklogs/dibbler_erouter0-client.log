@@ -1,0 +1,20 @@
+2024.11.20 00:09:56 Client Notice    | Dibbler - a portable DHCPv6, version 1.0.2RC1 (CLIENT, Linux port)
+2024.11.20 00:09:56 Client Notice    My pid (1669) is stored in /tmp/dibbler_erouter0/client.pid
+2024.11.20 00:09:56 Client Notice    Detected iface wl1/4073, MAC=00:16:3e:0d:de:67.
+2024.11.20 00:09:56 Client Notice    Detected iface wl0/4071, MAC=00:16:3e:d8:68:ea.
+2024.11.20 00:09:56 Client Notice    Detected iface eth4/4069, MAC=00:16:3e:ae:b2:fa.
+2024.11.20 00:09:56 Client Notice    Detected iface eth3/4067, MAC=00:16:3e:cf:97:e1.
+2024.11.20 00:09:56 Client Notice    Detected iface eth2/4065, MAC=00:16:3e:7d:1c:3a.
+2024.11.20 00:09:56 Client Notice    Detected iface eth1/4063, MAC=00:16:3e:86:ae:fb.
+2024.11.20 00:09:56 Client Notice    Detected iface eth0/4061, MAC=00:60:2f:64:46:e0.
+2024.11.20 00:09:56 Client Notice    Detected iface erouter0/11, MAC=00:16:3e:f8:98:39.
+2024.11.20 00:09:56 Client Notice    Detected iface brlan0/10, MAC=00:16:3e:7d:1c:3a.
+2024.11.20 00:09:56 Client Notice    Detected iface brlan7/9, MAC=b6:23:65:e0:65:f5.
+2024.11.20 00:09:56 Client Notice    Detected iface brebhaul/8, MAC=12:56:c7:da:af:98.
+2024.11.20 00:09:56 Client Notice    Detected iface br403/7, MAC=3e:df:b7:39:72:d4.
+2024.11.20 00:09:56 Client Notice    Detected iface wl1.1/6, MAC=3e:fb:78:cb:04:e5.
+2024.11.20 00:09:56 Client Notice    Detected iface wl0.1/5, MAC=5a:f2:b5:d0:a4:d5.
+2024.11.20 00:09:56 Client Notice    Detected iface erspan0/4, MAC=00:00:00:00:00:00.
+2024.11.20 00:09:56 Client Notice    Detected iface gretap0/3, MAC=00:00:00:00:00:00.
+2024.11.20 00:09:56 Client Notice    Detected iface lo/1, MAC=00:00:00:00:00:00.
+2024.11.20 00:09:56 Client Notice    Parsing /tmp/dibbler_erouter0/client.conf config file...

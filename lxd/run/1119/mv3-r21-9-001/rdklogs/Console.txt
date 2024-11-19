@@ -1,0 +1,167 @@
+
+Console log:
+
+init started: BusyBox v1.32.1 (2024-11-05 01:28:33 UTC)
+starting pid 21, tty '': '/bin/mount -a'
+starting pid 22, tty '': '/bin/ln -s /run /var/run'
+starting pid 23, tty '': '/bin/mkdir -p /var/lib/misc /var/lock /var/log /var/tmp /var/run/dbus'
+starting pid 24, tty '': '/bin/hostname -F /etc/hostname'
+starting pid 25, tty '': '/etc/init.d/rcS'
+Starting /etc/rcS.d/S04mdev
+/etc/rcS.d/S04mdev: line 5: /proc/sys/kernel/hotplug: Read-only file system
+Starting /etc/rcS.d/S41ebtables
+Starting /etc/rc5.d/S50lxdinit
+Starting /etc/rc5.d/S51lxdinit_mv3
+Starting /etc/rc5.d/S55utopiainit
+ls: cannot access /tmp/pam_initialized*: No such file or directory
+ Last Reboot Reason is unknown
+SipAlg not supported
+service_bridge.sh called with bridge-start NULL
+Starting /etc/rc5.d/S56cosastart
+check 1
+File /tmp/utopia_inited exists.
+ifconfig: erouter0: error fetching interface information: Device not found
+sysevent get bridge-status stopped
+Inside virtual_interface
+ip link add lan0 type veth peer name llan0
+ifconfig lan0 hw ether 00::6:0::2F::a:d::98::d:0
+ifconfig: invalid hw-addr 00::6:0::2F::a:d::98::d:0
+ebtables -A BRIDGE_FORWARD_FILTER -s 66:8c:bf:0a:22:48 -o erouter0 -j DROP
+ebtables -A BRIDGE_FORWARD_FILTER -j RETURN
+ebtables -t nat -A BRIDGE_REDIRECT --logical-in brlan0 -p ipv4 --ip-dst 192.168.100.1 
+              -j dnat --to-destination 66:8c:bf:0a:22:48
+ebtables -t nat -A BRIDGE_REDIRECT -j RETURN
+ifconfig llan0 promisc up
+ifconfig lan0 192.168.100.1 netmask 255.255.255.0 up
+ip rule add from 192.168.100.1 lookup 69
+ip route add table 69 default dev lan0
+brctl addbr brlan0
+brctl addif brlan0 llan0
+brctl addif brlan0 erouter0
+interface erouter0 does not exist!
+ebtables -N BRIDGE_OUTPUT_FILTER
+ebtables -A BRIDGE_OUTPUT_FILTER --logical-out brlan0 -j DROP
+ebtables -A BRIDGE_OUTPUT_FILTER -o erouter0 -j DROP
+ebtables -A BRIDGE_OUTPUT_FILTER -j RETURN
+Failed to Create lanhosts directory.
+ifconfig: erouter0: error fetching interface information: Device not found
+Illegal target name 'forward_from_lan_client'.
+Chain 'forward_from_lan_client' doesn't exist.
+conntrack v1.4.6 (conntrack-tools): connection tracking table has been emptied.
+pnm-status case
+RDKB_SYSTEM_BOOT_UP_LOG : key[dmsb.MultiLAN.GuestLAN_l3net]:value[6] 
+RDKB_SYSTEM_BOOT_UP_LOG : key[dmsb.MultiLAN.GuestLAN_l2net]:value[5] 
+Inside bring_lan_up
+BootUpTime info for Lan_init_start is already present not adding it again 
+RDKB_SYSTEM_BOOT_UP_LOG : L3INST is:4
+RDKB_SYSTEM_BOOT_UP_LOG : L2INST is:1
+RDKB_SYSTEM_BOOT_UP_LOG : BRPORT is:9
+RDKB_SYSTEM_BOOT_UP_LOG : HSINST is:5
+setting sysevent callback for ipv4_4-status
+dhcp_server-resync case
+
+Inside resync_to_nonvol function with arg (null)
+
+Inside get_Pool_cnt - 
+
+get_Pool_cnt ENDS ..... with Pool_Count=0
+
+Inside get_Pool_cnt - 
+
+get_Pool_cnt - Value=13
+
+get_Pool_cnt - Value=3
+
+get_Pool_cnt - Value=12
+
+get_Pool_cnt ENDS ..... with Pool_Count=3
+
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.13.Enable - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=100 - 
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.13.IPInterface - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=102 - 
+Error:102 while getting parameter:dmsb.dhcpv4.server.pool.13.IPInterface
+
+Failed to copy values if dmsb.dhcpv4.server.pool.13.IPInterface
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.13.MinAddress - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=100 - 
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.13.MaxAddress - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=100 - 
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.13.SubnetMask - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=102 - 
+Error:102 while getting parameter:dmsb.dhcpv4.server.pool.13.SubnetMask
+
+Failed to copy values if dmsb.dhcpv4.server.pool.13.SubnetMask
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.13.LeaseTime - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=102 - 
+Error:102 while getting parameter:dmsb.dhcpv4.server.pool.13.LeaseTime
+
+Failed to copy values if dmsb.dhcpv4.server.pool.13.LeaseTime
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.3.Enable - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=100 - 
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.3.IPInterface - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=100 - 
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.3.MinAddress - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=100 - 
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.3.MaxAddress - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=100 - 
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.3.SubnetMask - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=100 - 
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.3.LeaseTime - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=100 - 
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.12.Enable - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=100 - 
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.12.IPInterface - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=102 - 
+Error:102 while getting parameter:dmsb.dhcpv4.server.pool.12.IPInterface
+
+Failed to copy values if dmsb.dhcpv4.server.pool.12.IPInterface
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.12.MinAddress - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=100 - 
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.12.MaxAddress - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=100 - 
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.12.SubnetMask - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=102 - 
+Error:102 while getting parameter:dmsb.dhcpv4.server.pool.12.SubnetMask
+
+Failed to copy values if dmsb.dhcpv4.server.pool.12.SubnetMask
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.12.LeaseTime - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=102 - 
+Error:102 while getting parameter:dmsb.dhcpv4.server.pool.12.LeaseTime
+
+Failed to copy values if dmsb.dhcpv4.server.pool.12.LeaseTime
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.13.IPInterface - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=102 - 
+Error:102 while getting parameter:dmsb.dhcpv4.server.pool.13.IPInterface
+
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.3.IPInterface - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=100 - 
+ Failed to copy values for dmsb.dhcpv4.server.pool.3.IPInterface
+get_PSM_VALUES_FOR_POOL - cmd=dmsb.dhcpv4.server.pool.12.IPInterface - 
+get_PSM_VALUES_FOR_POOL - l_iRet_Val=102 - 
+Error:102 while getting parameter:dmsb.dhcpv4.server.pool.12.IPInterface
+
+resync_to_nonvol function ENDS 
+Starting /etc/rc5.d/S99reset_info_update
+/etc/rc5.d/S99reset_info_update: CCSP PAM is ready at 0 secs
+/etc/rc5.d/S99reset_info_update: Prev boot cycle image name: 
+/etc/rc5.d/S99reset_info_update: This boot cycle image name: imagename="ofw-exm-qemux86-mv3-20241119224750"
+/etc/rc5.d/S99reset_info_update: Updating /rdklogs/logs/reset_info.txt ... completed
+starting pid 1499, tty '/dev/console': '/sbin/getty 38400 console'
+
+Mercury Next Generation 2.1 mv3-r21-9-001 /dev/console
+
+mv3-r21-9-001 login: Usage: ipv6 [ ipv6-start | ipv6-stop | ipv6-restart]
+serv_ddns_init: FAILED because either dslite is enabled or one of ddns param is disabled
+mcproxy_v6: no process found
+mcproxy_v4: no process found
+Illegal target name 'forward_from_lan_client'.
+Chain 'forward_from_lan_client' doesn't exist.
+conntrack v1.4.6 (conntrack-tools): connection tracking table has been emptied.
+Illegal target name 'forward_from_lan_client'.
+Chain 'forward_from_lan_client' doesn't exist.
+conntrack v1.4.6 (conntrack-tools): connection tracking table has been emptied.
+Illegal target name 'forward_from_lan_client'.
+Chain 'forward_from_lan_client' doesn't exist.
+conntrack v1.4.6 (conntrack-tools): connection tracking table has been emptied.
+

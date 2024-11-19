@@ -1,0 +1,40 @@
+2.142494 [mod=VLANMANAGER, lvl=INFO] [tid=698] Connect to bus daemon...
+2.142551 [mod=VLANMANAGER, lvl=INFO] [tid=698] rbuscore.c:2340 RBus Enabled
+
+2.142563 [mod=VLANMANAGER, lvl=INFO] [tid=698] rbuscore.c:656 Broker address: unix:///tmp/rtrouted
+
+2.144035 [mod=VLANMANAGER, lvl=INFO] [tid=698] connection opened for eRT.com.cisco.spvtg.ccsp.vlanmanager
+2.144176 [mod=VLANMANAGER, lvl=INFO] [tid=698] INFO: bus_handle: 0x 8f457c0 
+3.145008 [mod=VLANMANAGER, lvl=INFO] [tid=698] CcspBaseIf_Register_Event_rbus : rbus_registerEvent called for event: currentSessionIDSignal
+3.148365 [mod=VLANMANAGER, lvl=INFO] [tid=698] rbuscore.c:755 Subscription for _rbus_session_mgr::currentSessionIDSignal is now active.
+
+3.148464 [mod=VLANMANAGER, lvl=WARN] [tid=698] Register empty object : com.
+3.148476 [mod=VLANMANAGER, lvl=WARN] [tid=698] Register empty object : com.cisco.
+3.148487 [mod=VLANMANAGER, lvl=WARN] [tid=698] Register empty object : com.cisco.spvtg.
+3.148491 [mod=VLANMANAGER, lvl=WARN] [tid=698] Register empty object : com.cisco.spvtg.ccsp.
+3.148598 [mod=VLANMANAGER, lvl=WARN] [tid=698] DM Library module name = CCSP Base Data Model
+3.148617 [mod=VLANMANAGER, lvl=WARN] [tid=698] BackEndManagerInitialize...
+3.158348 [mod=VLANMANAGER, lvl=WARN] [tid=698]   VlanCreate done!
+3.167320 [mod=VLANMANAGER, lvl=WARN] [tid=698]   EthernetCreate done!
+3.167423 [mod=VLANMANAGER, lvl=DEBUG] [tid=698] 'unsignedInt[1:7]' UINT range [1:7]
+3.167503 [mod=VLANMANAGER, lvl=WARN] [tid=698] DM Library module name = COSA_TR181_RdkVlanManager
+3.167721 [mod=VLANMANAGER, lvl=WARN] [tid=698] Search for empty object in 'dslhCpeCheckEmptyObject'
+5.307728 [mod=VLANMANAGER, lvl=WARN] [tid=707] DslhObjcoValidate: Enable, bsUpdate = 3
+
+5.307766 [mod=VLANMANAGER, lvl=WARN] [tid=707] Before committing:Device.X_RDK_Ethernet.VLANTermination.1.
+5.307774 [mod=VLANMANAGER, lvl=WARN] [tid=707] After committing:Device.X_RDK_Ethernet.VLANTermination.1.:0
+5.308147 [mod=VLANMANAGER, lvl=INFO] [tid=1088] Vlan_SetEthLink-259: iEthLinkInstance=1 
+5.308338 [mod=VLANMANAGER, lvl=ERROR] [tid=1088] EthLink_AddMarking 736 Eth instance not present
+5.308350 [mod=VLANMANAGER, lvl=ERROR] [tid=1088] [EthLink_Enable-321] Failed to Add Marking. Creating VLAN without Marking 
+5.308353 [mod=VLANMANAGER, lvl=INFO] [tid=1088] Vlan_SetEthLink-309:Successfully Set EthLink erouter0
+5.309387 [mod=VLANMANAGER, lvl=INFO] [tid=1088] create_upper_interface
+5.309395 [mod=VLANMANAGER, lvl=INFO] [tid=1088] is_interface_in_bridge_mode
+5.309513 [mod=VLANMANAGER, lvl=INFO] [tid=1088] create_upper_interface: ip link add link eth0 name erouter0 type vlan id 100
+5.310394 [mod=VLANMANAGER, lvl=INFO] [tid=1088] create_vrf_structure
+5.311203 [mod=VLANMANAGER, lvl=INFO] [tid=1088] DmlEthGetParamValues 487: GET : Device.DeviceInfo.X_CISCO_COM_BaseMacAddress = 00:16:3e:f8:98:39 
+5.311214 [mod=VLANMANAGER, lvl=INFO] [tid=1088] Vlan_SetMacAddr-522 valid mac=00:16:3e:f8:98:39, retry_count=0 
+5.311222 [mod=VLANMANAGER, lvl=INFO] [tid=1088] Vlan_GetEthLinkMacOffSet-466: iEthLinkInstance=1 
+5.311226 [mod=VLANMANAGER, lvl=INFO] [tid=1088] Vlan_SetMacAddr-548: macStr:00:16:3e:f8:98:39,pEntry->Name:erouter0
+5.313450 [mod=VLANMANAGER, lvl=INFO] [tid=1088] is_interface_in_bridge_mode
+5.314152 [mod=VLANMANAGER, lvl=INFO] [tid=1088] EthLink_SendVirtualIfaceVlanStatus-278:Successfully set the Virtual Interface(Device.X_RDK_WanManager.Interface.1.VirtualInterface.1) VLAN Status(Up) 
+5.314163 [mod=VLANMANAGER, lvl=INFO] [tid=1088] Vlan_Enable-741: Successfully Updated Vlan Status to WanManager for Interface(erouter0) 

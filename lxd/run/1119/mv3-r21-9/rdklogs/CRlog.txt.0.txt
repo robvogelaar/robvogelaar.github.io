@@ -1,0 +1,172 @@
+0.000000 [mod=CR, lvl=WARN] [tid=404] Semaphore initialization Done!!
+0.000229 [mod=CR, lvl=WARN] [tid=405] Demonizing Done!!
+0.000332 [mod=CR, lvl=WARN] [tid=405] CRRbusOpen
+0.000351 [mod=CR, lvl=INFO] [tid=405] CR  INFO rbus.c:2778 -- Thread-405: rbus open for component: com.cisco.spvtg.ccsp.CR
+
+0.000416 [mod=CR, lvl=INFO] [tid=405] CR  INFO rbuscore.c:2340 -- Thread-405: RBus Enabled
+
+0.000423 [mod=CR, lvl=INFO] [tid=405] CR  INFO rbuscore.c:656 -- Thread-405: Broker address: unix:///tmp/rtrouted
+
+0.000607 [mod=CR, lvl=INFO] [tid=405] CR  INFO rbus.c:2854 -- Thread-405:  rbus open (com.cisco.spvtg.ccsp.CR) success
+
+0.001530 [mod=CR, lvl=WARN] [tid=405] parsed xml cr-ethwan-deviceprofile.xml
+0.001545 [mod=CR, lvl=WARN] [tid=405] adding component com.cisco.spvtg.ccsp.CR 1 to registry
+0.001553 [mod=CR, lvl=WARN] [tid=405] adding component com.cisco.spvtg.ccsp.psm 1 to registry
+0.001556 [mod=CR, lvl=WARN] [tid=405] adding component com.cisco.spvtg.ccsp.pam 1 to registry
+0.001564 [mod=CR, lvl=WARN] [tid=405] adding component com.cisco.spvtg.ccsp.tdm 1 to registry
+0.001568 [mod=CR, lvl=WARN] [tid=405] adding component com.cisco.spvtg.ccsp.psm to dependency component registry
+0.001572 [mod=CR, lvl=WARN] [tid=405] adding component com.cisco.spvtg.ccsp.pam to dependency component registry
+0.001602 [mod=CR, lvl=INFO] [tid=405] CR  INFO rbus_subscriptions.c:447 -- Thread-405: file /tmp/rbus_subs_com.cisco.spvtg.ccsp.CR
+
+0.001717 [mod=CR, lvl=WARN] [tid=405] adding component com.cisco.spvtg.ccsp.wifi 1 to registry
+0.001728 [mod=CR, lvl=WARN] [tid=405] adding component com.cisco.spvtg.ccsp.lmlite 1 to registry
+0.001736 [mod=CR, lvl=WARN] [tid=405] adding component com.cisco.spvtg.ccsp.ethagent 1 to registry
+0.001743 [mod=CR, lvl=WARN] [tid=405] adding component com.cisco.spvtg.ccsp.vlanmanager 1 to registry
+0.001747 [mod=CR, lvl=WARN] [tid=405] adding component com.cisco.spvtg.ccsp.psm to dependency component registry
+0.001751 [mod=CR, lvl=WARN] [tid=405] adding component com.cisco.spvtg.ccsp.pam to dependency component registry
+0.001759 [mod=CR, lvl=WARN] [tid=405] adding component com.cisco.spvtg.ccsp.ethagent to dependency component registry
+0.001762 [mod=CR, lvl=WARN] [tid=405] adding component com.cisco.spvtg.ccsp.vlanmanager to dependency component registry
+0.001842 [mod=CR, lvl=WARN] [tid=405] adding component com.cisco.spvtg.ccsp.wanmanager 1 to registry
+0.002380 [mod=CR, lvl=WARN] [tid=405] No Dependency Component for com.cisco.spvtg.ccsp.CR
+0.002388 [mod=CR, lvl=WARN] [tid=405] ReadyCheck waiting on com.cisco.spvtg.ccsp.psm
+0.002396 [mod=CR, lvl=WARN] [tid=405] ReadyCheck waiting on com.cisco.spvtg.ccsp.pam
+0.002399 [mod=CR, lvl=WARN] [tid=405] ReadyCheck waiting on com.cisco.spvtg.ccsp.tdm
+0.002403 [mod=CR, lvl=WARN] [tid=405] ReadyCheck waiting on com.cisco.spvtg.ccsp.wifi
+0.002407 [mod=CR, lvl=WARN] [tid=405] ReadyCheck waiting on com.cisco.spvtg.ccsp.lmlite
+0.002411 [mod=CR, lvl=WARN] [tid=405] ReadyCheck waiting on com.cisco.spvtg.ccsp.ethagent
+0.002415 [mod=CR, lvl=WARN] [tid=405] ReadyCheck waiting on com.cisco.spvtg.ccsp.vlanmanager
+0.002419 [mod=CR, lvl=WARN] [tid=405] ReadyCheck waiting on com.cisco.spvtg.ccsp.wanmanager
+0.002426 [mod=CR, lvl=WARN] [tid=405] RegisterComponent: com.cisco.spvtg.ccsp.CR is Registered
+0.002464 [mod=CR, lvl=WARN] [tid=408] wait thread enter
+0.002476 [mod=CR, lvl=WARN] [tid=408] ReadyCheck waiting on com.cisco.spvtg.ccsp.psm
+0.002480 [mod=CR, lvl=WARN] [tid=408] ReadyCheck waiting on com.cisco.spvtg.ccsp.pam
+0.002483 [mod=CR, lvl=WARN] [tid=408] ReadyCheck waiting on com.cisco.spvtg.ccsp.tdm
+0.002491 [mod=CR, lvl=WARN] [tid=408] ReadyCheck waiting on com.cisco.spvtg.ccsp.wifi
+0.002495 [mod=CR, lvl=WARN] [tid=408] ReadyCheck waiting on com.cisco.spvtg.ccsp.lmlite
+0.002502 [mod=CR, lvl=WARN] [tid=408] ReadyCheck waiting on com.cisco.spvtg.ccsp.ethagent
+0.002506 [mod=CR, lvl=WARN] [tid=408] ReadyCheck waiting on com.cisco.spvtg.ccsp.vlanmanager
+0.002510 [mod=CR, lvl=WARN] [tid=408] ReadyCheck waiting on com.cisco.spvtg.ccsp.wanmanager
+0.006466 [mod=CR, lvl=WARN] [tid=405] NonRoot feature is enabled, dropping root privileges for CcspCr process
+0.074707 [mod=CR, lvl=WARN] [tid=407] getCcspLegacyPropHandler com.cisco.spvtg.ccsp.CR.Health called
+0.075916 [mod=CR, lvl=INFO] [tid=407] CR  INFO rbus.c:2313 -- Thread-407: calling methodHandler method [Device.CR.RegisterComponent()]
+
+0.075928 [mod=CR, lvl=WARN] [tid=407] methodHandler Device.CR.RegisterComponent()
+0.075932 [mod=CR, lvl=WARN] [tid=407] No Dependency Component for eRT.com.cisco.spvtg.ccsp.psm
+0.075939 [mod=CR, lvl=WARN] [tid=407] ReadyCheck waiting on com.cisco.spvtg.ccsp.pam
+0.075943 [mod=CR, lvl=WARN] [tid=407] ReadyCheck waiting on com.cisco.spvtg.ccsp.tdm
+0.075947 [mod=CR, lvl=WARN] [tid=407] ReadyCheck waiting on com.cisco.spvtg.ccsp.wifi
+0.075951 [mod=CR, lvl=WARN] [tid=407] ReadyCheck waiting on com.cisco.spvtg.ccsp.lmlite
+0.075954 [mod=CR, lvl=WARN] [tid=407] ReadyCheck waiting on com.cisco.spvtg.ccsp.ethagent
+0.075958 [mod=CR, lvl=WARN] [tid=407] ReadyCheck waiting on com.cisco.spvtg.ccsp.vlanmanager
+0.075966 [mod=CR, lvl=WARN] [tid=407] ReadyCheck waiting on com.cisco.spvtg.ccsp.wanmanager
+0.075970 [mod=CR, lvl=WARN] [tid=407] RegisterComponent: eRT.com.cisco.spvtg.ccsp.psm is Registered
+1.088970 [mod=CR, lvl=INFO] [tid=407] CR  INFO rbus.c:2313 -- Thread-407: calling methodHandler method [Device.CR.RegisterComponent()]
+
+1.088982 [mod=CR, lvl=WARN] [tid=407] methodHandler Device.CR.RegisterComponent()
+1.088989 [mod=CR, lvl=WARN] [tid=407] RegisterComponent: eRT.com.cisco.spvtg.ccsp.notifycomponent not found in registry
+1.709011 [mod=CR, lvl=INFO] [tid=407] CR  INFO rbus.c:2313 -- Thread-407: calling methodHandler method [Device.CR.RegisterComponent()]
+
+1.709026 [mod=CR, lvl=WARN] [tid=407] methodHandler Device.CR.RegisterComponent()
+1.709034 [mod=CR, lvl=WARN] [tid=407] No Dependency Component for eRT.com.cisco.spvtg.ccsp.pam
+1.709042 [mod=CR, lvl=WARN] [tid=407] ReadyCheck waiting on com.cisco.spvtg.ccsp.tdm
+1.709045 [mod=CR, lvl=WARN] [tid=407] ReadyCheck waiting on com.cisco.spvtg.ccsp.wifi
+1.709049 [mod=CR, lvl=WARN] [tid=407] ReadyCheck waiting on com.cisco.spvtg.ccsp.lmlite
+1.709053 [mod=CR, lvl=WARN] [tid=407] ReadyCheck waiting on com.cisco.spvtg.ccsp.ethagent
+1.709061 [mod=CR, lvl=WARN] [tid=407] ReadyCheck waiting on com.cisco.spvtg.ccsp.vlanmanager
+1.709064 [mod=CR, lvl=WARN] [tid=407] ReadyCheck waiting on com.cisco.spvtg.ccsp.wanmanager
+1.709068 [mod=CR, lvl=WARN] [tid=407] RegisterComponent: eRT.com.cisco.spvtg.ccsp.pam is Registered
+2.220383 [mod=CR, lvl=INFO] [tid=407] CR  INFO rbus.c:2313 -- Thread-407: calling methodHandler method [Device.CR.RegisterComponent()]
+
+2.220398 [mod=CR, lvl=WARN] [tid=407] methodHandler Device.CR.RegisterComponent()
+2.220406 [mod=CR, lvl=WARN] [tid=407] No Dependency Component for eRT.com.cisco.spvtg.ccsp.lmlite
+2.220409 [mod=CR, lvl=WARN] [tid=407] ReadyCheck waiting on com.cisco.spvtg.ccsp.tdm
+2.220413 [mod=CR, lvl=WARN] [tid=407] ReadyCheck waiting on com.cisco.spvtg.ccsp.wifi
+2.220417 [mod=CR, lvl=WARN] [tid=407] ReadyCheck waiting on com.cisco.spvtg.ccsp.ethagent
+2.220428 [mod=CR, lvl=WARN] [tid=407] ReadyCheck waiting on com.cisco.spvtg.ccsp.vlanmanager
+2.220432 [mod=CR, lvl=WARN] [tid=407] ReadyCheck waiting on com.cisco.spvtg.ccsp.wanmanager
+2.220436 [mod=CR, lvl=WARN] [tid=407] RegisterComponent: eRT.com.cisco.spvtg.ccsp.lmlite is Registered
+2.276974 [mod=CR, lvl=INFO] [tid=407] CR  INFO rbus.c:1018 -- Thread-407: Consumer=rbus.CcspTr069PaSsp.INBOX.764 SUBSCRIBED to event=Device.CR.SystemReady
+
+2.304966 [mod=CR, lvl=INFO] [tid=407] CR  INFO rbus.c:2313 -- Thread-407: calling methodHandler method [Device.CR.RegisterComponent()]
+
+2.304981 [mod=CR, lvl=WARN] [tid=407] methodHandler Device.CR.RegisterComponent()
+2.304989 [mod=CR, lvl=WARN] [tid=407] RegisterComponent: eRT.com.cisco.spvtg.ccsp.tr069pa not found in registry
+2.308853 [mod=CR, lvl=WARN] [tid=407] getHandler Device.CR.SystemReady called when systemReady=false
+3.165241 [mod=CR, lvl=INFO] [tid=407] CR  INFO rbus.c:2313 -- Thread-407: calling methodHandler method [Device.CR.RegisterComponent()]
+
+3.165253 [mod=CR, lvl=WARN] [tid=407] methodHandler Device.CR.RegisterComponent()
+3.165260 [mod=CR, lvl=WARN] [tid=407] No Dependency Component for eRT.com.cisco.spvtg.ccsp.vlanmanager
+3.165268 [mod=CR, lvl=WARN] [tid=407] ReadyCheck waiting on com.cisco.spvtg.ccsp.tdm
+3.165272 [mod=CR, lvl=WARN] [tid=407] ReadyCheck waiting on com.cisco.spvtg.ccsp.wifi
+3.165291 [mod=CR, lvl=WARN] [tid=407] ReadyCheck waiting on com.cisco.spvtg.ccsp.ethagent
+3.165329 [mod=CR, lvl=WARN] [tid=407] ReadyCheck waiting on com.cisco.spvtg.ccsp.wanmanager
+3.165333 [mod=CR, lvl=WARN] [tid=407] RegisterComponent: eRT.com.cisco.spvtg.ccsp.vlanmanager is Registered
+3.181244 [mod=CR, lvl=INFO] [tid=407] CR  INFO rbus.c:2313 -- Thread-407: calling methodHandler method [Device.CR.RegisterComponent()]
+
+3.181259 [mod=CR, lvl=WARN] [tid=407] methodHandler Device.CR.RegisterComponent()
+3.181267 [mod=CR, lvl=WARN] [tid=407] No Dependency Component for eRT.com.cisco.spvtg.ccsp.ethagent
+3.181271 [mod=CR, lvl=WARN] [tid=407] ReadyCheck waiting on com.cisco.spvtg.ccsp.tdm
+3.181274 [mod=CR, lvl=WARN] [tid=407] ReadyCheck waiting on com.cisco.spvtg.ccsp.wifi
+3.181282 [mod=CR, lvl=WARN] [tid=407] ReadyCheck waiting on com.cisco.spvtg.ccsp.wanmanager
+3.181286 [mod=CR, lvl=WARN] [tid=407] RegisterComponent: eRT.com.cisco.spvtg.ccsp.ethagent is Registered
+3.193893 [mod=CR, lvl=INFO] [tid=407] CR  INFO rbus.c:2313 -- Thread-407: calling methodHandler method [Device.CR.RegisterComponent()]
+
+3.193909 [mod=CR, lvl=WARN] [tid=407] methodHandler Device.CR.RegisterComponent()
+3.193916 [mod=CR, lvl=WARN] [tid=407] RegisterComponent: eRT.com.cisco.spvtg.ccsp.gponmanager not found in registry
+3.241245 [mod=CR, lvl=INFO] [tid=407] CR  INFO rbus.c:2313 -- Thread-407: calling methodHandler method [Device.CR.RegisterComponent()]
+
+3.241261 [mod=CR, lvl=WARN] [tid=407] methodHandler Device.CR.RegisterComponent()
+3.241268 [mod=CR, lvl=WARN] [tid=407] RegisterComponent: eRT.com.cisco.spvtg.ccsp.fwupgrademanager not found in registry
+3.251263 [mod=CR, lvl=INFO] [tid=407] CR  INFO rbus.c:2313 -- Thread-407: calling methodHandler method [Device.CR.RegisterComponent()]
+
+3.251274 [mod=CR, lvl=WARN] [tid=407] methodHandler Device.CR.RegisterComponent()
+3.251282 [mod=CR, lvl=WARN] [tid=407] RegisterComponent: eRT.com.cisco.spvtg.ccsp.profilehunter not found in registry
+3.270435 [mod=CR, lvl=INFO] [tid=407] CR  INFO rbus.c:2313 -- Thread-407: calling methodHandler method [Device.CR.RegisterComponent()]
+
+3.270451 [mod=CR, lvl=WARN] [tid=407] methodHandler Device.CR.RegisterComponent()
+3.270458 [mod=CR, lvl=WARN] [tid=407] ReadyCheck waiting on com.cisco.spvtg.ccsp.tdm
+3.270466 [mod=CR, lvl=WARN] [tid=407] ReadyCheck waiting on com.cisco.spvtg.ccsp.wifi
+3.270496 [mod=CR, lvl=WARN] [tid=407] RegisterComponent: eRT.com.cisco.spvtg.ccsp.wanmanager is Registered
+3.272408 [mod=CR, lvl=WARN] [tid=923] Dependency Component wait thread enter
+3.272419 [mod=CR, lvl=WARN] [tid=923] Component Name: com.cisco.spvtg.ccsp.psm found in registry
+3.272427 [mod=CR, lvl=WARN] [tid=923] Component Name: com.cisco.spvtg.ccsp.pam found in registry
+3.272430 [mod=CR, lvl=WARN] [tid=923] Component Name: com.cisco.spvtg.ccsp.ethagent found in registry
+3.272438 [mod=CR, lvl=WARN] [tid=923] Component Name: com.cisco.spvtg.ccsp.vlanmanager found in registry
+3.272442 [mod=CR, lvl=WARN] [tid=923] All Dependency Componets are ready
+3.272449 [mod=CR, lvl=WARN] [tid=923] Publishing ready event wan_ready_to_go
+3.272472 [mod=CR, lvl=WARN] [tid=923] rbusEvent_Publish wan_ready_to_go failed with result=23
+3.272476 [mod=CR, lvl=WARN] [tid=923] Dependency component wait thread exit
+3.301605 [mod=CR, lvl=INFO] [tid=407] CR  INFO rbus.c:1018 -- Thread-407: Consumer=rbus.wanmanager.INBOX.700 SUBSCRIBED to event=wan_ready_to_go
+
+3.310493 [mod=CR, lvl=WARN] [tid=407] getHandler Device.CR.SystemReady called when systemReady=false
+3.403240 [mod=CR, lvl=INFO] [tid=407] CR  INFO rbus.c:2313 -- Thread-407: calling methodHandler method [Device.CR.RegisterComponent()]
+
+3.403255 [mod=CR, lvl=WARN] [tid=407] methodHandler Device.CR.RegisterComponent()
+3.403263 [mod=CR, lvl=WARN] [tid=407] No Dependency Component for eRT.com.cisco.spvtg.ccsp.tdm
+3.403267 [mod=CR, lvl=WARN] [tid=407] ReadyCheck waiting on com.cisco.spvtg.ccsp.wifi
+3.403271 [mod=CR, lvl=WARN] [tid=407] RegisterComponent: eRT.com.cisco.spvtg.ccsp.tdm is Registered
+4.311470 [mod=CR, lvl=WARN] [tid=407] getHandler Device.CR.SystemReady called when systemReady=false
+5.311802 [mod=CR, lvl=WARN] [tid=407] getHandler Device.CR.SystemReady called when systemReady=false
+6.312275 [mod=CR, lvl=WARN] [tid=407] getHandler Device.CR.SystemReady called when systemReady=false
+6.545547 [mod=CR, lvl=INFO] [tid=407] CR  INFO rbus.c:2313 -- Thread-407: calling methodHandler method [Device.CR.RegisterComponent()]
+
+6.545563 [mod=CR, lvl=WARN] [tid=407] methodHandler Device.CR.RegisterComponent()
+6.545574 [mod=CR, lvl=WARN] [tid=407] ReadyCheck yes
+6.545597 [mod=CR, lvl=WARN] [tid=407] RegisterComponent: eRT.com.cisco.spvtg.ccsp.wifi is Registered
+6.545620 [mod=CR, lvl=WARN] [tid=408] Received Signal to Post SystemReady
+6.545628 [mod=CR, lvl=WARN] [tid=408] System Ready
+6.545631 [mod=CR, lvl=WARN] [tid=408] Publishing ready event Device.CR.SystemReady
+6.545673 [mod=CR, lvl=WARN] [tid=408] wait thread exit
+6.545696 [mod=CR, lvl=WARN] [tid=1394] Dependency Component wait thread enter
+6.545704 [mod=CR, lvl=WARN] [tid=1394] Component Name: com.cisco.spvtg.ccsp.psm found in registry
+6.545712 [mod=CR, lvl=WARN] [tid=1394] Component Name: com.cisco.spvtg.ccsp.pam found in registry
+6.545715 [mod=CR, lvl=WARN] [tid=1394] All Dependency Componets are ready
+6.545723 [mod=CR, lvl=WARN] [tid=1394] Publishing ready event wifi_ready_to_go
+6.545738 [mod=CR, lvl=WARN] [tid=1394] rbusEvent_Publish wifi_ready_to_go failed with result=23
+6.545864 [mod=CR, lvl=WARN] [tid=1394] Dependency component wait thread exit
+7.312824 [mod=CR, lvl=WARN] [tid=407] getHandler Device.CR.SystemReady called when systemReady=true
+8.550125 [mod=CR, lvl=WARN] [tid=407] getHandler Device.CR.SystemReady called when systemReady=true
+13.211060 [mod=CR, lvl=INFO] [tid=407] CR  INFO rbus.c:2313 -- Thread-407: calling methodHandler method [Device.CR.RegisterComponent()]
+
+13.211075 [mod=CR, lvl=WARN] [tid=407] methodHandler Device.CR.RegisterComponent()
+13.211082 [mod=CR, lvl=WARN] [tid=407] RegisterComponent: eRT.com.cisco.spvtg.ccsp.meshagent not found in registry

@@ -1,0 +1,101 @@
+241119-23:09:34 [Utopia] Guest Lan_init_start:943526
+241119-23:09:34 [Utopia] Lan_init_start:943526
+241120-00:09:35 [PAM] Device reboot due to reason unknown
+241119-23:09:38 [Utopia] RDKB_FIREWALL_RESTART:943530
+241119-23:09:38 [Utopia] Lan_init_complete:943530
+241120-00:09:43 [Utopia] [handle_defconfig][309] Received [deconfig] event from udhcpc 
+241120-00:09:43 [Utopia] [get_and_fill_env_data-1497] Server id is not available in dhcp ack 
+241120-00:09:43 [Utopia] [send_dhcp_data_to_wanmanager-1742] Created socket endpoint 
+241120-00:09:43 [Utopia] [send_dhcp_data_to_wanmanager-1752] Connected to server socket [tcp://127.0.0.1:50321] 
+241120-00:09:43 [Utopia] Successfully send 972 bytes to wanmanager 
+241120-00:09:45 [Utopia] [handle_wan][968] Received [bound] event from udhcpc 
+241120-00:09:45 [Utopia] [get_and_fill_env_data-1609] Renewl time is not available in dhcp ack 
+241120-00:09:45 [Utopia] [get_and_fill_env_data-1623] Rebinding time is not available in dhcp ack 
+241120-00:09:45 [Utopia] [get_and_fill_env_data-1634] Timezone is not available in dhcp ack 
+241120-00:09:45 [Utopia] [get_and_fill_env_data-1645] Timeoffset is not available in dhcp ack 
+241120-00:09:45 [Utopia] [get_and_fill_env_data-1655] Upstreamrate is not available in dhcp ack 
+241120-00:09:45 [Utopia] [get_and_fill_env_data-1665] Upstreamrate is not available in dhcp ack 
+241120-00:09:45 [Utopia] [handle_wan][999] ===============DHCPv4 Configuration Received==============================
+241120-00:09:45 [Utopia] [handle_wan][1000] Address assigned = 1 
+241120-00:09:45 [Utopia] [handle_wan][1001] is expired      = 0 
+241120-00:09:45 [Utopia] [handle_wan][1002] ip              = 10.178.200.100
+241120-00:09:45 [Utopia] [handle_wan][1003] mask            = 255.255.255.0 
+241120-00:09:45 [Utopia] [handle_wan][1004] gateway         = 10.178.200.1 
+241120-00:09:45 [Utopia] [handle_wan][1005] dnsserver1      = 8.8.8.8 
+241120-00:09:45 [Utopia] [handle_wan][1009] Interface       = erouter0 
+241120-00:09:45 [Utopia] [handle_wan][1010] Lease time      = 3600 
+241120-00:09:45 [Utopia] [handle_wan][1011] Renewal Time    = 0 
+241120-00:09:45 [Utopia] [handle_wan][1012] Rebinding Time  = 0 
+241120-00:09:45 [Utopia] [handle_wan][1013] Time offset     = 0 
+241120-00:09:45 [Utopia] [handle_wan][1014] TimeZone        =  
+241120-00:09:45 [Utopia] [handle_wan][1015] DHCP Server ID  = 10.178.200.1 
+241120-00:09:45 [Utopia] [handle_wan][1016] DHCP State      = bound 
+241120-00:09:45 [Utopia] [handle_wan][1017] NTP Server      =  
+241120-00:09:45 [Utopia] [handle_wan][1018] Domain Name     =  
+241120-00:09:45 [Utopia] [send_dhcp_data_to_wanmanager-1742] Created socket endpoint 
+241120-00:09:45 [Utopia] [send_dhcp_data_to_wanmanager-1752] Connected to server socket [tcp://127.0.0.1:50321] 
+241120-00:09:45 [Utopia] Successfully send 972 bytes to wanmanager 
+241120-00:09:45 [Utopia] [handle_defconfig][309] Received [deconfig] event from udhcpc 
+241120-00:09:45 [Utopia] [get_and_fill_env_data-1497] Server id is not available in dhcp ack 
+241120-00:09:45 [Utopia] [send_dhcp_data_to_wanmanager-1742] Created socket endpoint 
+241120-00:09:45 [Utopia] [send_dhcp_data_to_wanmanager-1752] Connected to server socket [tcp://127.0.0.1:50321] 
+241120-00:09:45 [Utopia] Successfully send 972 bytes to wanmanager 
+241120-00:09:46 [Utopia] [handle_wan][968] Received [bound] event from udhcpc 
+241120-00:09:46 [Utopia] [get_and_fill_env_data-1609] Renewl time is not available in dhcp ack 
+241120-00:09:46 [Utopia] [get_and_fill_env_data-1623] Rebinding time is not available in dhcp ack 
+241120-00:09:46 [Utopia] [get_and_fill_env_data-1634] Timezone is not available in dhcp ack 
+241120-00:09:46 [Utopia] [get_and_fill_env_data-1645] Timeoffset is not available in dhcp ack 
+241120-00:09:46 [Utopia] [get_and_fill_env_data-1655] Upstreamrate is not available in dhcp ack 
+241120-00:09:46 [Utopia] [get_and_fill_env_data-1665] Upstreamrate is not available in dhcp ack 
+241120-00:09:46 [Utopia] [handle_wan][999] ===============DHCPv4 Configuration Received==============================
+241120-00:09:46 [Utopia] [handle_wan][1000] Address assigned = 1 
+241120-00:09:46 [Utopia] [handle_wan][1001] is expired      = 0 
+241120-00:09:46 [Utopia] [handle_wan][1002] ip              = 10.177.200.100
+241120-00:09:46 [Utopia] [handle_wan][1003] mask            = 255.255.255.0 
+241120-00:09:46 [Utopia] [handle_wan][1004] gateway         = 10.177.200.1 
+241120-00:09:46 [Utopia] [handle_wan][1005] dnsserver1      = 10.177.200.1 
+241120-00:09:46 [Utopia] [handle_wan][1009] Interface       = mg0 
+241120-00:09:46 [Utopia] [handle_wan][1010] Lease time      = 3435 
+241120-00:09:46 [Utopia] [handle_wan][1011] Renewal Time    = 0 
+241120-00:09:46 [Utopia] [handle_wan][1012] Rebinding Time  = 0 
+241120-00:09:46 [Utopia] [handle_wan][1013] Time offset     = 0 
+241120-00:09:46 [Utopia] [handle_wan][1014] TimeZone        =  
+241120-00:09:46 [Utopia] [handle_wan][1015] DHCP Server ID  = 10.177.200.1 
+241120-00:09:46 [Utopia] [handle_wan][1016] DHCP State      = bound 
+241120-00:09:46 [Utopia] [handle_wan][1017] NTP Server      = 10.177.200.1 
+241120-00:09:46 [Utopia] [handle_wan][1018] Domain Name     =  
+241120-00:09:46 [Utopia] [send_dhcp_data_to_wanmanager-1742] Created socket endpoint 
+241120-00:09:46 [Utopia] [send_dhcp_data_to_wanmanager-1752] Connected to server socket [tcp://127.0.0.1:50321] 
+241120-00:09:46 [Utopia] Successfully send 972 bytes to wanmanager 
+241120-00:09:47 [Utopia] [handle_defconfig][309] Received [deconfig] event from udhcpc 
+241120-00:09:47 [Utopia] [get_and_fill_env_data-1497] Server id is not available in dhcp ack 
+241120-00:09:47 [Utopia] [send_dhcp_data_to_wanmanager-1742] Created socket endpoint 
+241120-00:09:47 [Utopia] [send_dhcp_data_to_wanmanager-1752] Connected to server socket [tcp://127.0.0.1:50321] 
+241120-00:09:47 [Utopia] Successfully send 972 bytes to wanmanager 
+241120-00:09:48 [Utopia] [handle_wan][968] Received [bound] event from udhcpc 
+241120-00:09:48 [Utopia] [get_and_fill_env_data-1609] Renewl time is not available in dhcp ack 
+241120-00:09:48 [Utopia] [get_and_fill_env_data-1623] Rebinding time is not available in dhcp ack 
+241120-00:09:48 [Utopia] [get_and_fill_env_data-1634] Timezone is not available in dhcp ack 
+241120-00:09:48 [Utopia] [get_and_fill_env_data-1645] Timeoffset is not available in dhcp ack 
+241120-00:09:48 [Utopia] [get_and_fill_env_data-1655] Upstreamrate is not available in dhcp ack 
+241120-00:09:48 [Utopia] [get_and_fill_env_data-1665] Upstreamrate is not available in dhcp ack 
+241120-00:09:48 [Utopia] [handle_wan][999] ===============DHCPv4 Configuration Received==============================
+241120-00:09:48 [Utopia] [handle_wan][1000] Address assigned = 1 
+241120-00:09:48 [Utopia] [handle_wan][1001] is expired      = 0 
+241120-00:09:48 [Utopia] [handle_wan][1002] ip              = 10.179.200.100
+241120-00:09:48 [Utopia] [handle_wan][1003] mask            = 255.255.255.0 
+241120-00:09:48 [Utopia] [handle_wan][1004] gateway         = 10.179.200.1 
+241120-00:09:48 [Utopia] [handle_wan][1005] dnsserver1      = 10.179.200.1 
+241120-00:09:48 [Utopia] [handle_wan][1009] Interface       = voip0 
+241120-00:09:48 [Utopia] [handle_wan][1010] Lease time      = 3431 
+241120-00:09:48 [Utopia] [handle_wan][1011] Renewal Time    = 0 
+241120-00:09:48 [Utopia] [handle_wan][1012] Rebinding Time  = 0 
+241120-00:09:48 [Utopia] [handle_wan][1013] Time offset     = 0 
+241120-00:09:48 [Utopia] [handle_wan][1014] TimeZone        =  
+241120-00:09:48 [Utopia] [handle_wan][1015] DHCP Server ID  = 10.179.200.1 
+241120-00:09:48 [Utopia] [handle_wan][1016] DHCP State      = bound 
+241120-00:09:48 [Utopia] [handle_wan][1017] NTP Server      =  
+241120-00:09:48 [Utopia] [handle_wan][1018] Domain Name     =  
+241120-00:09:48 [Utopia] [send_dhcp_data_to_wanmanager-1742] Created socket endpoint 
+241120-00:09:48 [Utopia] [send_dhcp_data_to_wanmanager-1752] Connected to server socket [tcp://127.0.0.1:50321] 
+241120-00:09:48 [Utopia] Successfully send 972 bytes to wanmanager 

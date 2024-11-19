@@ -1,0 +1,5 @@
+rip_force_restart: RIP not enabled
+rip_force_restart: RIP not enabled
+serv_routed_start: LAN is not ready !
+[SERVICE-ROUTED]: fail to exec `start'
+rip_force_restart: RIP not enabled
