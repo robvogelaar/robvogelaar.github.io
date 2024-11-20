@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Installation Guide</title>
+    <style>
+        :root {
+            --bg-primary: #1a1b26;
+            --bg-secondary: #24283b;
+            --text-primary: #a9b1d6;
+            --text-secondary: #787c99;
+            --accent-primary: #7aa2f7;
+            --accent-secondary: #449dab;
+            --code-bg: #1f2335;
+            --code-border: #292e42;
+            --success: #9ece6a;
+            --link: #73daca;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+        }
+
+        .code-block {
+            position: relative;
+            background: var(--code-bg);
+            border: 1px solid var(--code-border);
+            border-radius: 8px;
+            padding: 1.2em;
+            margin: 1.5em 0;
+            overflow-x: auto;
+        }
+
+        .copy-button {
+            position: absolute;
+            top: 0.8em;
+            right: 0.8em;
+            padding: 0.5em 1em;
+            background: var(--accent-primary);
+            color: var(--bg-primary);
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            opacity: 0;
+            transition: all 0.2s ease;
+            font-weight: 500;
+            font-size: 0.9em;
+        }
+
+        .code-block:hover .copy-button {
+            opacity: 1;
+        }
+
+        .copy-button:hover {
+            transform: translateY(-1px);
+            background: var(--accent-secondary);
+        }
+
+        .copy-feedback {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: var(--success);
+            color: var(--bg-primary);
+            padding: 10px 20px;
+            border-radius: 6px;
+            display: none;
+            font-weight: 500;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        pre {
+            margin: 0;
+            white-space: pre-wrap;
+            font-family: 'Fira Code', 'Cascadia Code', Consolas, monospace;
+            font-size: 0.95em;
+        }
+
+        code {
+            font-family: inherit;
+            color: #e0af68;
+        }
+
+        h1, h2, h3 { 
+            margin-top: 1.5em;
+            color: #fff;
+            font-weight: 600;
+        }
+
+        h1 { font-size: 2em; margin-bottom: 0.8em; }
+        h2 { font-size: 1.5em; margin-bottom: 0.6em; }
+        h3 { font-size: 1.2em; margin-bottom: 0.4em; }
+
+        p { margin: 1em 0; }
+
+        #markup-content {
+            display: none;
+        }
+
+        :not(pre) > code {
+            background: var(--code-bg);
+            padding: 0.2em 0.4em;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div id="markup-content">
+# Installation Guide
+
+## Install LXD
+
+First, install LXD using snap:
+
+```bash
+sudo snap install lxd
+sudo lxd init --auto
+```
+
+Add your user to the LXD group:
+
+```bash
+sudo usermod -a -G lxd $USER
+newgrp lxd
+```
+
+Verify installation:
+
+```bash
+lxc --version
+lxc list
+```
+
+## Clone Repositories
+
+Clone the main repository:
+
+```bash
+git clone https://github.com/example/main-repo.git
+cd main-repo
+```
+
+Clone multiple repositories in parallel:
+
+```bash
+mkdir projects && cd projects
+git clone https://github.com/example/repo1.git &
+git clone https://github.com/example/repo2.git &
+git clone https://github.com/example/repo3.git &
+wait
+```
+
+Clone a specific branch:
+
+```bash
+git clone -b develop https://github.com/example/feature-repo.git
+```
+
+Clone with depth limit for faster download:
+
+```bash
+git clone --depth 1 https://github.com/example/large-repo.git
+```
+    </div>
+
+    <div id="output"></div>
+    <div class="copy-feedback">Copied to clipboard!</div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.3.0/marked.min.js"></script>
+    <script>
+        function renderContent() {
+            const input = document.getElementById('markup-content').textContent;
+            const output = document.getElementById('output');
+            
+            marked.setOptions({
+                highlight: function(code) {
+                    return code;
+                }
+            });
+
+            let html = marked.parse(input);
+
+            html = html.replace(
+                /<pre><code([^>]*)>([\s\S]*?)<\/code><\/pre>/g,
+                '<div class="code-block"><button class="copy-button">Copy</button><pre><code$1>$2</code></pre></div>'
+            );
+
+            output.innerHTML = html;
+
+            document.querySelectorAll('.copy-button').forEach(button => {
+                button.addEventListener('click', function() {
+                    const codeBlock = this.nextElementSibling.querySelector('code');
+                    navigator.clipboard.writeText(codeBlock.textContent).then(() => {
+                        showCopyFeedback();
+                    });
+                });
+            });
+        }
+
+        function showCopyFeedback() {
+            const feedback = document.querySelector('.copy-feedback');
+            feedback.style.display = 'block';
+            setTimeout(() => {
+                feedback.style.display = 'none';
+            }, 2000);
+        }
+
+        document.addEventListener('DOMContentLoaded', renderContent);
+    </script>
+</body>
+</html>
