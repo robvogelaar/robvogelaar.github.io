@@ -1,0 +1,104 @@
+7.110153 [mod=MESH, lvl=INFO] [tid=1533] Registering MeshAgent component 'MeshAgent' with CR ..
+7.110245 [mod=MESH, lvl=INFO] [tid=1533] [MeshAgent] msgBusInit called with com.cisco.spvtg.ccsp.meshagent
+7.110455 [mod=MESH, lvl=INFO] [tid=1534] Connect to bus daemon...
+7.110481 [mod=MESH, lvl=INFO] [tid=1534] ssp_Mbi_MessageBusEngage() called
+8.111656 [mod=MESH, lvl=ERROR] [tid=1534]  !!! CCSP_Message_Bus_Register_Event: CurrentSessionIDSignal ERROR returnStatus: 102!!!
+8.111675 [mod=MESH, lvl=INFO] [tid=1534] ssp_create - ComponentCommonDmInit called 
+8.112270 [mod=MESH, lvl=INFO] [tid=1534] Registering the back-end apis for the data model
+8.112282 [mod=MESH, lvl=INFO] [tid=1534] Initializing CosaMeshAgent
+8.112293 [mod=MESH, lvl=INFO] [tid=1534] Initialize MeshAgent
+8.112305 [mod=MESH, lvl=INFO] [tid=1534] oneWifi is disabled 
+8.112316 [mod=MESH, lvl=INFO] [tid=1534] wanFailOver is disabled 
+8.112347 [mod=MESH, lvl=INFO] [tid=1534] msgQServer thread created successfully
+8.112373 [mod=MESH, lvl=INFO] [tid=1534] msgQServer thread name Mesh_msgQServer set successfully
+8.112404 [mod=MESH, lvl=INFO] [tid=1710] Waiting for connections ...
+8.112598 [mod=MESH, lvl=INFO] [tid=1534] meshAgent registered with sysevent daemon successfully
+8.112686 [mod=MESH, lvl=INFO] [tid=1534] meshAgent-gs registered with sysevent daemon successfully
+8.112804 [mod=MESH, lvl=INFO] [tid=1534] Mesh url is ssl:wildfire.plume.tech:443
+8.112930 [mod=MESH, lvl=INFO] [tid=1534] Setting initial mesh state to Full
+8.112942 [mod=MESH, lvl=INFO] [tid=1534] Meshwifi state is set to Full
+8.113091 [mod=MESH, lvl=INFO] [tid=1534] Setting initial mesh wifi default to disabled
+8.113110 [mod=MESH, lvl=INFO] [tid=1534] meshSetSyscfg Commitsyscfg:0 Setting mesh enable in syscfg to 0
+8.113117 [mod=MESH, lvl=INFO] [tid=1534] mesh enable set in the syscfg successfully
+8.113125 [mod=MESH, lvl=ERROR] [tid=1534] Failed to remove Mesh Flag from persistent memory
+8.113178 [mod=MESH, lvl=INFO] [tid=1534] Setting initial ethbhaul mode to false
+8.113186 [mod=MESH, lvl=INFO] [tid=1534] Mesh_SetMeshEthBhaul: Ethbhaul Commit:0, Enable:0
+8.113190 [mod=MESH, lvl=INFO] [tid=1534] RFC_UPDATE: param: PodEthernetGreBackhaul.Enable val:false type=3
+8.113194 [mod=MESH, lvl=INFO] [tid=1534] RFC_UPDATE: Failed param: PodEthernetGreBackhaul.Enable val:false type=3
+8.114513 [mod=MESH, lvl=INFO] [tid=1534] Socket bind to localhost
+8.114525 [mod=MESH, lvl=INFO] [tid=1534] Created dnsmasq socket for Eth Bhaul mac update
+8.114555 [mod=MESH, lvl=INFO] [tid=1534] Pod mac address sent to dnsmasq MAC: 00:00:00:00:00:00
+8.114571 [mod=MESH, lvl=INFO] [tid=1534] syscfg_get failed
+8.114574 [mod=MESH, lvl=INFO] [tid=1534] Syscfg get, MESH_WIFI_OPT_MODE : 0
+8.114578 [mod=MESH, lvl=INFO] [tid=1534] Syscfg, Setting MESH_WIFI_OPT_MODE to default OFF
+8.114620 [mod=MESH, lvl=INFO] [tid=1534] syscfg_get failed
+8.114689 [mod=MESH, lvl=INFO] [tid=1534] Syscfg get, MESH_WIFI_REINIT_PERIOD : 2
+8.114697 [mod=MESH, lvl=INFO] [tid=1534] Mesh_SetReinitPeriod: meshReinitPeriod: 2
+8.114723 [mod=MESH, lvl=INFO] [tid=1534] Setting initial Opensync mode to false
+8.114731 [mod=MESH, lvl=INFO] [tid=1534] OpensyncSetSyscfg Setting Opensync enable in syscfg to 0
+8.185467 [mod=MESH, lvl=INFO] [tid=1534] opensync enable set in the syscfg successfully
+8.218349 [mod=MESH, lvl=INFO] [tid=1534] legacy opensync enable disabled in the syscfg successfully
+8.218365 [mod=MESH, lvl=INFO] [tid=1534] Opensync_RFC_changed_to_disabled
+8.218369 [mod=MESH, lvl=INFO] [tid=1534] RFC_UPDATE: param: Opensync.Enable val:false type=3
+8.218384 [mod=MESH, lvl=INFO] [tid=1534] RFC_UPDATE: Failed param: Opensync.Enable val:false type=3
+8.218468 [mod=MESH, lvl=INFO] [tid=1534] Setting initial OVS mode to false
+8.218475 [mod=MESH, lvl=INFO] [tid=1534] Mesh_SetOVS: OVS Enable Commit:0, Enable:0, XB3 Platform:0
+8.218479 [mod=MESH, lvl=INFO] [tid=1534] Disabling opensync since OVS is disabled
+8.218510 [mod=MESH, lvl=INFO] [tid=1534] OVS_RFC_changed_to_disabled
+8.218517 [mod=MESH, lvl=INFO] [tid=1534] RFC_UPDATE: param: OVS.Enable val:false type=3
+8.218521 [mod=MESH, lvl=INFO] [tid=1534] RFC_UPDATE: Failed param: OVS.Enable val:false type=3
+8.218548 [mod=MESH, lvl=INFO] [tid=1534] Setting initial mesh_security_legacy to true
+8.218555 [mod=MESH, lvl=INFO] [tid=1534] Mesh_SetSecuritySchemaLegacy: Enable:1, Init:1, Commit:0.
+8.218559 [mod=MESH, lvl=INFO] [tid=1534] RFC_UPDATE: param: MeshSecuritySchemaLegacy.Enable val:true type=3
+8.218563 [mod=MESH, lvl=INFO] [tid=1534] RFC_UPDATE: Failed param: MeshSecuritySchemaLegacy.Enable val:true type=3
+8.218594 [mod=MESH, lvl=INFO] [tid=1534] Setting initial Cache Status to false
+8.218597 [mod=MESH, lvl=INFO] [tid=1534] Mesh_SetCacheStatus: Enable:0, Init:1, Commit:0.
+8.218601 [mod=MESH, lvl=INFO] [tid=1534] RFC_UPDATE: param: MeshGREBackhaulCache.Enable val:false type=3
+8.218609 [mod=MESH, lvl=INFO] [tid=1534] RFC_UPDATE: Failed param: MeshGREBackhaulCache.Enable val:false type=3
+8.218636 [mod=MESH, lvl=INFO] [tid=1534] Setting initial optimized mesh retry mode to true
+8.218639 [mod=MESH, lvl=INFO] [tid=1534] Mesh_SetMeshRetryOptimized: mesh_conn_opt_retry Commit:0, Enable:1
+8.218670 [mod=MESH, lvl=INFO] [tid=1534] meshSet_sm_app_Syscfg Setting SMAPP disable in syscfg to 1
+8.246960 [mod=MESH, lvl=INFO] [tid=1534] SMAPP disable set in the syscfg successfully
+8.246983 [mod=MESH, lvl=INFO] [tid=1534] Mesh_Register_sysevent Successful
+8.247025 [mod=MESH, lvl=INFO] [tid=1534] Mesh_sysevent_handler thread created successfully
+8.247051 [mod=MESH, lvl=INFO] [tid=1534] Mesh_sysevent_handler thread name Mesh_sysevent set successfully
+13.247158 [mod=MESH, lvl=INFO] [tid=1534] leaseServer thread created successfully
+13.247192 [mod=MESH, lvl=INFO] [tid=1534] leaseServer thread name MeshLeaseServer set successfully
+13.247238 [mod=MESH, lvl=ERROR] [tid=1534] parodus url is not present in device.properties file
+13.247246 [mod=MESH, lvl=INFO] [tid=1534] parodus url formed is (null)
+13.248905 [mod=MESH, lvl=INFO] [tid=2275] leaseServer Socket bind to localhost
+13.249386 [mod=MESH, lvl=INFO] [tid=1534] Rbus events subscription start Device.IP.Diagnostics.X_RDKCENTRAL-COM_SpeedTest.Status
+13.249584 [mod=MESH, lvl=ERROR] [tid=1534] Rbus events subscribe failed:Device.IP.Diagnostics.X_RDKCENTRAL-COM_SpeedTest.Status
+13.249596 [mod=MESH, lvl=INFO] [tid=1534] Mesh_Init: OvsAgentApi is not integrated in this platform yet
+13.249603 [mod=MESH, lvl=INFO] [tid=1534] MeshAgent initialized
+13.249607 [mod=MESH, lvl=INFO] [tid=1534]   Initializing WebConfig Framework!
+13.249672 [mod=MESH, lvl=INFO] [tid=1711] last_set= 0, enable = 0
+13.249680 [mod=MESH, lvl=INFO] [tid=1711] Skipping mesh redundant set
+13.250618 [mod=MESH, lvl=INFO] [tid=1534]   Initializing WebConfig Framework done!
+13.253284 [mod=MESH, lvl=INFO] [tid=1534]  ssp_engage - RegisterCcspDataModel success.  System is fully initialized.
+13.254086 [mod=MESH, lvl=INFO] [tid=1534] msgBusInit - /tmp/meshagent_initialized created
+13.254112 [mod=MESH, lvl=INFO] [tid=1534] Registered MeshAgent component 'MeshAgent' with CR ..
+16.230453 [mod=MESH, lvl=INFO] [tid=1717] sysevent_getnotification: event="lease_resync" val=""
+16.230484 [mod=MESH, lvl=INFO] [tid=1717] received notification event MESH_DHCP_RESYNC_LEASES: "lease_resync"
+16.230492 [mod=MESH, lvl=INFO] [tid=1717] Copying dnsmasq.leases file from ARM to Atom for the first time
+16.232960 [mod=MESH, lvl=INFO] [tid=1717] Sending Mesh sync lease notification to plume agent
+17.246735 [mod=MESH, lvl=INFO] [tid=1717] sysevent_getnotification: event="lease_resync" val=""
+17.246750 [mod=MESH, lvl=INFO] [tid=1717] received notification event MESH_DHCP_RESYNC_LEASES: "lease_resync"
+17.246754 [mod=MESH, lvl=INFO] [tid=1717] Copying dnsmasq.leases file from ARM to Atom for the first time
+17.251659 [mod=MESH, lvl=INFO] [tid=1717] Sending Mesh sync lease notification to plume agent
+18.279709 [mod=MESH, lvl=INFO] [tid=1717] sysevent_getnotification: event="lease_resync" val=""
+18.279720 [mod=MESH, lvl=INFO] [tid=1717] received notification event MESH_DHCP_RESYNC_LEASES: "lease_resync"
+18.279728 [mod=MESH, lvl=INFO] [tid=1717] Copying dnsmasq.leases file from ARM to Atom for the first time
+18.287395 [mod=MESH, lvl=INFO] [tid=1717] Sending Mesh sync lease notification to plume agent
+19.294022 [mod=MESH, lvl=INFO] [tid=1717] sysevent_getnotification: event="lease_resync" val=""
+19.294037 [mod=MESH, lvl=INFO] [tid=1717] received notification event MESH_DHCP_RESYNC_LEASES: "lease_resync"
+19.294044 [mod=MESH, lvl=INFO] [tid=1717] Copying dnsmasq.leases file from ARM to Atom for the first time
+19.296799 [mod=MESH, lvl=INFO] [tid=1717] Sending Mesh sync lease notification to plume agent
+20.316727 [mod=MESH, lvl=INFO] [tid=1717] sysevent_getnotification: event="lease_resync" val=""
+20.316738 [mod=MESH, lvl=INFO] [tid=1717] received notification event MESH_DHCP_RESYNC_LEASES: "lease_resync"
+20.316746 [mod=MESH, lvl=INFO] [tid=1717] Copying dnsmasq.leases file from ARM to Atom for the first time
+20.332767 [mod=MESH, lvl=INFO] [tid=1717] Sending Mesh sync lease notification to plume agent
+21.343647 [mod=MESH, lvl=INFO] [tid=1717] sysevent_getnotification: event="lease_resync" val=""
+21.343662 [mod=MESH, lvl=INFO] [tid=1717] received notification event MESH_DHCP_RESYNC_LEASES: "lease_resync"
+21.343670 [mod=MESH, lvl=INFO] [tid=1717] Copying dnsmasq.leases file from ARM to Atom for the first time
+21.347961 [mod=MESH, lvl=INFO] [tid=1717] Sending Mesh sync lease notification to plume agent

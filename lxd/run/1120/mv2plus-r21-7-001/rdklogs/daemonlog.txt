@@ -1,0 +1,5 @@
+Nov 21 00:15:46 mv2plus-r21-7-001 daemon.notice ovs-vsctl: ovs|00001|vsctl|INFO|Called as ovs-vsctl set Bridge brlan0 other_config:mcast-snooping-max-bundle=64
+Nov 21 00:15:46 mv2plus-r21-7-001 daemon.err ovs-vsctl: ovs|00002|db_ctl_base|ERR|unix:/var/run/openvswitch/db.sock: database connection failed (No such file or directory)
+Nov 21 00:15:46 mv2plus-r21-7-001 daemon.err ovs-vsctl: ovs|00001|db_ctl_base|ERR|unix:/var/run/openvswitch/db.sock: database connection failed (No such file or directory)
+Nov 21 00:15:48 mv2plus-r21-7-001 daemon.notice wifidb-server: ovs|00001|vlog|INFO|opened log file /var/tmp/wifidb.log
+Nov 21 00:15:49 mv2plus-r21-7-001 daemon.err telnetd[1691]: bind: Address already in use

@@ -1,0 +1,735 @@
+2.094437 [mod=WIFI, lvl=WARN] [tid=719] 
+Subsystem is eRT.
+2.094742 [mod=WIFI, lvl=WARN] [tid=726] Core dump is opened, do not catch signal
+2.094772 [mod=WIFI, lvl=INFO] [tid=726] Connect to bus daemon...
+2.094803 [mod=WIFI, lvl=INFO] [tid=726] rbuscore.c:2340 RBus Enabled
+
+2.094833 [mod=WIFI, lvl=INFO] [tid=726] rbuscore.c:656 Broker address: unix:///tmp/rtrouted
+
+2.095112 [mod=WIFI, lvl=INFO] [tid=726] connection opened for eRT.com.cisco.spvtg.ccsp.wifi
+2.095169 [mod=WIFI, lvl=INFO] [tid=726] rbuscore.c:939 Registering method table for object eRT.com.cisco.spvtg.ccsp.wifi
+
+2.095203 [mod=WIFI, lvl=INFO] [tid=726] eRT.com.cisco.spvtg.ccsp.wifi start to check eRT.com.cisco.spvtg.ccsp.psm status
+2.095367 [mod=WIFI, lvl=INFO] [tid=726] eRT.com.cisco.spvtg.ccsp.psm is ready, eRT.com.cisco.spvtg.ccsp.wifi continue
+2.095375 [mod=WIFI, lvl=INFO] [tid=726] !!! Connected to message bus... bus_handle: 0x0x9edd610 !!!
+3.096058 [mod=WIFI, lvl=INFO] [tid=726] CcspBaseIf_Register_Event_rbus : rbus_registerEvent called for event: currentSessionIDSignal
+3.096237 [mod=WIFI, lvl=INFO] [tid=726] rbuscore.c:755 Subscription for _rbus_session_mgr::currentSessionIDSignal is now active.
+
+3.096336 [mod=WIFI, lvl=WARN] [tid=726] Register empty object : com.
+3.096348 [mod=WIFI, lvl=WARN] [tid=726] Register empty object : com.cisco.
+3.096355 [mod=WIFI, lvl=WARN] [tid=726] Register empty object : com.cisco.spvtg.
+3.096363 [mod=WIFI, lvl=WARN] [tid=726] Register empty object : com.cisco.spvtg.ccsp.
+3.096481 [mod=WIFI, lvl=WARN] [tid=726] DM Library module name = CCSP Base Data Model
+3.097298 [mod=WIFI, lvl=WARN] [tid=726] DM Library module name = COSA_TR181_WiFi_USGv2
+3.097309 [mod=WIFI, lvl=WARN] [tid=726] Loading DM library libwifi.so...
+3.100739 [mod=WIFI, lvl=WARN] [tid=726]  RDKB_SYSTEM_BOOT_UP_LOG : CosaWifiInitialize - WiFi initialize. 
+3.552559 [mod=WIFI, lvl=INFO] [tid=726] WIFI m_wifi_init : Notify Mesh of wifi_init
+3.553349 [mod=WIFI, lvl=WARN] [tid=726] WIFI CosaDmlWiFiGetFactoryResetPsmData 
+3.553360 [mod=WIFI, lvl=WARN] [tid=726] WIFI CosaDmlWiFiGetFactoryResetPsmData :Calling PSM GET to get FactoryReset flag value
+3.556126 [mod=WIFI, lvl=WARN] [tid=726] WIFI CosaDmlWiFiGetFactoryResetPsmData :PSM GET Success eRT.com.cisco.spvtg.ccsp.tr181pa.Device.WiFi.FactoryReset = 0 
+3.556137 [mod=WIFI, lvl=WARN] [tid=726] WIFI CosaDmlWiFiGetFactoryResetPsmData : Returning Success 
+6.557190 [mod=WIFI, lvl=INFO] [tid=726]  rdkWifiConfigInit wifi_getRadioOperatingParameters radio_index 0 returned enable 0
+6.558090 [mod=WIFI, lvl=INFO] [tid=726]  rdkWifiConfigInit Calling wifi_setRadioOperatingParameters radioIndex=0 enable=0
+6.558495 [mod=WIFI, lvl=INFO] [tid=726]  rdkWifiConfigInit For radioIndex:0 wifi_setRadioOperatingParameters returned Success
+6.559822 [mod=WIFI, lvl=INFO] [tid=726]  rdkWifiConfigInit wifi_getRadioOperatingParameters radio_index 1 returned enable 0
+6.560684 [mod=WIFI, lvl=INFO] [tid=726]  rdkWifiConfigInit Calling wifi_setRadioOperatingParameters radioIndex=1 enable=0
+6.561081 [mod=WIFI, lvl=INFO] [tid=726]  rdkWifiConfigInit For radioIndex:1 wifi_setRadioOperatingParameters returned Success
+6.562141 [mod=WIFI, lvl=INFO] [tid=726]  rdkWifiConfigInit wifi_getRadioOperatingParameters radio_index 2 returned enable 0
+6.563221 [mod=WIFI, lvl=INFO] [tid=726]  rdkWifiConfigInit For radioIndex:2 PSM values are already updated
+6.563953 [mod=WIFI, lvl=WARN] [tid=726] WIFI CosaDmlWiFiGetResetHotSpotRequired : Returning Success 
+6.563976 [mod=WIFI, lvl=ERROR] [tid=726] getPrivateApFromRadioIndex not recognised for radioIndex 0!!!
+6.564362 [mod=WIFI, lvl=ERROR] [tid=726] getPrivateApFromRadioIndex not recognised for radioIndex 1!!!
+6.564720 [mod=WIFI, lvl=ERROR] [tid=726] getPrivateApFromRadioIndex not recognised for radioIndex 2!!!
+6.566135 [mod=WIFI, lvl=WARN] [tid=726] WIFI CosaDmlWiFiGetResetRequired : Calling PSM GET for eRT.com.cisco.spvtg.ccsp.Device.WiFi.VlanCfgVerion 
+6.566284 [mod=WIFI, lvl=WARN] [tid=726] WIFI CosaDmlWiFiGetResetRequired : PSM GET Success eRT.com.cisco.spvtg.ccsp.Device.WiFi.VlanCfgVerion = 2
+6.566292 [mod=WIFI, lvl=WARN] [tid=726] WIFI CosaDmlWiFiGetResetRequired : Returning Success 
+6.601688 [mod=WIFI, lvl=INFO] [tid=726] WIFI m_wifi_init : Notify Mesh of wifi_init
+6.601887 [mod=WIFI, lvl=INFO] [tid=726] CcspBaseIf_Register_Event_rbus : rbus_registerEvent called for event: WifiDbStatus
+6.601913 [mod=WIFI, lvl=INFO] [tid=726] wifi_handle_sysevent_async...
+6.601967 [mod=WIFI, lvl=INFO] [tid=1101] wifi_sysevent_handler_th created
+6.601978 [mod=WIFI, lvl=INFO] [tid=1101] wifi_sysevent_init
+6.602608 [mod=WIFI, lvl=INFO] [tid=1101] wifi_sysevent_init - Exit
+6.602615 [mod=WIFI, lvl=INFO] [tid=1101] wifi_check_sysevent_status
+6.602795 [mod=WIFI, lvl=INFO] [tid=1101] wifi_sysvent_listener created
+6.612217 [mod=WIFI, lvl=WARN] [tid=726] WIFI CosaDmlWiFi_GetGoodRssiThresholdValue : Calling PSM Get
+6.614967 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetRapidReconnectThresholdValue Failed to get PSM
+6.615116 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetRapidReconnectThresholdValue Failed to get PSM
+6.615288 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetRapidReconnectThresholdValue Failed to get PSM
+6.615444 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetRapidReconnectThresholdValue Failed to get PSM
+6.615593 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetRapidReconnectThresholdValue Failed to get PSM
+6.615742 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetRapidReconnectThresholdValue Failed to get PSM
+6.615894 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetRapidReconnectThresholdValue Failed to get PSM
+6.616310 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetRapidReconnectThresholdValue Failed to get PSM
+6.616810 [mod=WIFI, lvl=ERROR] [tid=726]  parodus url is not present in device.properties file, adding default parodus_url
+6.618198 [mod=WIFI, lvl=WARN] [tid=726] WIFI CosaDmlWiFi_GetGoodRssiThresholdValue : Calling PSM Get
+6.618370 [mod=WIFI, lvl=WARN] [tid=726] WIFI CosaDmlWiFi_GetAssocCountThresholdValue : Calling PSM Get
+6.618561 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetAssocCountThresholdValue Failed to get PSM
+6.618568 [mod=WIFI, lvl=WARN] [tid=726] WIFI CosaDmlWiFi_GetAssocMonitorDurationValue : Calling PSM Get
+6.618725 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetAssocMonitorDurationValue Failed to get PSM
+6.618736 [mod=WIFI, lvl=WARN] [tid=726] WIFI CosaDmlWiFi_GetAssocGateTimeValue : Calling PSM Get
+6.618881 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetAssocGateTimeValue Failed to get PSM
+6.619038 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetWiFiReservedSSIDNames Failed to get PSM
+6.619068 [mod=WIFI, lvl=WARN] [tid=726] WIFI CosaDmlWiFi_GetFeatureMFPConfigValue : Calling PSM Get
+6.619228 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetFeatureMFPConfigValue Failed to get PSM
+6.619343 [mod=WIFI, lvl=WARN] [tid=726] CosaDmlWiFi_GetRapidReconnectIndicationEnable : Calling PSM Get
+6.619499 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetRapidReconnectIndicationEnable Failed to get PSM
+6.620720 [mod=WIFI, lvl=WARN] [tid=726] CosaWiFiInitializeParmUpdateSource: WiFiRegionCode = USI
+6.620728 [mod=WIFI, lvl=WARN] [tid=726] CosaWifiInitialize - Get Radio Info ...
+6.620777 [mod=WIFI, lvl=INFO] [tid=726]  In CosaDmlWiFiRadioGetCfg wlanIndex : 0
+6.620796 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiRadioGetCfg Input radioIndex = 0 Band=0 is  not found in capability
+6.620800 [mod=WIFI, lvl=INFO] [tid=726]  In CosaDmlWiFiRadioGetSinfo wlanIndex : 0
+6.620811 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiRadioGetSinfo Input radioIndex = 0 Band=0 is  not found in capability
+6.621204 [mod=WIFI, lvl=INFO] [tid=726]  In CosaDmlWiFiRadioGetCfg wlanIndex : 1
+6.621216 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiRadioGetCfg Input radioIndex = 1 Band=0 is  not found in capability
+6.621223 [mod=WIFI, lvl=INFO] [tid=726]  In CosaDmlWiFiRadioGetSinfo wlanIndex : 1
+6.621231 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiRadioGetSinfo Input radioIndex = 1 Band=0 is  not found in capability
+6.621605 [mod=WIFI, lvl=INFO] [tid=726]  In CosaDmlWiFiRadioGetCfg wlanIndex : 2
+6.621616 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiRadioGetCfg Input radioIndex = 2 Band=0 is  not found in capability
+6.621624 [mod=WIFI, lvl=INFO] [tid=726]  In CosaDmlWiFiRadioGetSinfo wlanIndex : 2
+6.621632 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiRadioGetSinfo Input radioIndex = 2 Band=0 is  not found in capability
+6.622318 [mod=WIFI, lvl=WARN] [tid=726] CosaWifiInitialize - Initialize middle layer ...
+6.622341 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 0 not found 
+6.622349 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetCfg Unable to get VAP info for wlanIndex:0
+6.622364 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 0 not found 
+6.622368 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetDinfo Unable to get VAP info for wlanIndex:0
+6.622375 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 0 not found 
+6.622379 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetSinfo Unable to get VAP info for wlanIndex:0
+6.622395 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 1 not found 
+6.622398 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetCfg Unable to get VAP info for wlanIndex:1
+6.622406 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 1 not found 
+6.622410 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetDinfo Unable to get VAP info for wlanIndex:1
+6.622417 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 1 not found 
+6.622421 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetSinfo Unable to get VAP info for wlanIndex:1
+6.622429 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 2 not found 
+6.622433 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetCfg Unable to get VAP info for wlanIndex:2
+6.622440 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 2 not found 
+6.622444 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetDinfo Unable to get VAP info for wlanIndex:2
+6.622448 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 2 not found 
+6.622456 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetSinfo Unable to get VAP info for wlanIndex:2
+6.622459 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 3 not found 
+6.622467 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetCfg Unable to get VAP info for wlanIndex:3
+6.622471 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 3 not found 
+6.622478 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetDinfo Unable to get VAP info for wlanIndex:3
+6.622482 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 3 not found 
+6.622486 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetSinfo Unable to get VAP info for wlanIndex:3
+6.622494 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 4 not found 
+6.622501 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetCfg Unable to get VAP info for wlanIndex:4
+6.622505 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 4 not found 
+6.622513 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetDinfo Unable to get VAP info for wlanIndex:4
+6.622517 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 4 not found 
+6.622520 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetSinfo Unable to get VAP info for wlanIndex:4
+6.622528 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 5 not found 
+6.622532 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetCfg Unable to get VAP info for wlanIndex:5
+6.622540 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 5 not found 
+6.622543 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetDinfo Unable to get VAP info for wlanIndex:5
+6.622547 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 5 not found 
+6.622555 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetSinfo Unable to get VAP info for wlanIndex:5
+6.622559 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 6 not found 
+6.622566 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetCfg Unable to get VAP info for wlanIndex:6
+6.622570 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 6 not found 
+6.622574 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetDinfo Unable to get VAP info for wlanIndex:6
+6.622581 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 6 not found 
+6.622585 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetSinfo Unable to get VAP info for wlanIndex:6
+6.622593 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 7 not found 
+6.622597 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetCfg Unable to get VAP info for wlanIndex:7
+6.622604 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 7 not found 
+6.622608 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetDinfo Unable to get VAP info for wlanIndex:7
+6.622612 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 7 not found 
+6.622616 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetSinfo Unable to get VAP info for wlanIndex:7
+6.622623 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 8 not found 
+6.622627 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetCfg Unable to get VAP info for wlanIndex:8
+6.622635 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 8 not found 
+6.622643 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetDinfo Unable to get VAP info for wlanIndex:8
+6.622646 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 8 not found 
+6.622650 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetSinfo Unable to get VAP info for wlanIndex:8
+6.622658 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 9 not found 
+6.622662 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetCfg Unable to get VAP info for wlanIndex:9
+6.622669 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 9 not found 
+6.622673 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetDinfo Unable to get VAP info for wlanIndex:9
+6.622677 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 9 not found 
+6.622681 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetSinfo Unable to get VAP info for wlanIndex:9
+6.622688 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 10 not found 
+6.622692 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetCfg Unable to get VAP info for wlanIndex:10
+6.622700 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 10 not found 
+6.622707 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetDinfo Unable to get VAP info for wlanIndex:10
+6.622711 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 10 not found 
+6.622715 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetSinfo Unable to get VAP info for wlanIndex:10
+6.622723 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 11 not found 
+6.622726 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetCfg Unable to get VAP info for wlanIndex:11
+6.622734 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 11 not found 
+6.622738 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetDinfo Unable to get VAP info for wlanIndex:11
+6.622746 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 11 not found 
+6.622749 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetSinfo Unable to get VAP info for wlanIndex:11
+6.622757 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 12 not found 
+6.622761 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetCfg Unable to get VAP info for wlanIndex:12
+6.622768 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 12 not found 
+6.622772 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetDinfo Unable to get VAP info for wlanIndex:12
+6.622776 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 12 not found 
+6.622780 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetSinfo Unable to get VAP info for wlanIndex:12
+6.622787 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 13 not found 
+6.622791 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetCfg Unable to get VAP info for wlanIndex:13
+6.622799 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 13 not found 
+6.622807 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetDinfo Unable to get VAP info for wlanIndex:13
+6.622810 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 13 not found 
+6.622833 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetSinfo Unable to get VAP info for wlanIndex:13
+6.622841 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 14 not found 
+6.622849 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetCfg Unable to get VAP info for wlanIndex:14
+6.622856 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 14 not found 
+6.622860 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetDinfo Unable to get VAP info for wlanIndex:14
+6.622868 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 14 not found 
+6.622871 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetSinfo Unable to get VAP info for wlanIndex:14
+6.622879 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 15 not found 
+6.622883 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetCfg Unable to get VAP info for wlanIndex:15
+6.622890 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 15 not found 
+6.622894 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetDinfo Unable to get VAP info for wlanIndex:15
+6.622898 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 15 not found 
+6.622906 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetSinfo Unable to get VAP info for wlanIndex:15
+6.622913 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 16 not found 
+6.622917 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetCfg Unable to get VAP info for wlanIndex:16
+6.622921 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 16 not found 
+6.622929 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetDinfo Unable to get VAP info for wlanIndex:16
+6.622932 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 16 not found 
+6.622940 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetSinfo Unable to get VAP info for wlanIndex:16
+6.622948 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 17 not found 
+6.622952 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetCfg Unable to get VAP info for wlanIndex:17
+6.622959 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 17 not found 
+6.622963 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetDinfo Unable to get VAP info for wlanIndex:17
+6.622967 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 17 not found 
+6.622974 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetSinfo Unable to get VAP info for wlanIndex:17
+6.622982 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 18 not found 
+6.622986 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetCfg Unable to get VAP info for wlanIndex:18
+6.622993 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 18 not found 
+6.622997 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetDinfo Unable to get VAP info for wlanIndex:18
+6.623001 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 18 not found 
+6.623005 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetSinfo Unable to get VAP info for wlanIndex:18
+6.623013 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 19 not found 
+6.623020 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetCfg Unable to get VAP info for wlanIndex:19
+6.623024 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 19 not found 
+6.623028 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetDinfo Unable to get VAP info for wlanIndex:19
+6.623035 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 19 not found 
+6.623039 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetSinfo Unable to get VAP info for wlanIndex:19
+6.623047 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 20 not found 
+6.623051 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetCfg Unable to get VAP info for wlanIndex:20
+6.623058 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 20 not found 
+6.623062 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetDinfo Unable to get VAP info for wlanIndex:20
+6.623066 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 20 not found 
+6.623074 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetSinfo Unable to get VAP info for wlanIndex:20
+6.623077 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 21 not found 
+6.623085 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetCfg Unable to get VAP info for wlanIndex:21
+6.623089 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 21 not found 
+6.623096 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetDinfo Unable to get VAP info for wlanIndex:21
+6.623100 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 21 not found 
+6.623104 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetSinfo Unable to get VAP info for wlanIndex:21
+6.623116 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 22 not found 
+6.623119 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetCfg Unable to get VAP info for wlanIndex:22
+6.623123 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 22 not found 
+6.623131 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetDinfo Unable to get VAP info for wlanIndex:22
+6.623135 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 22 not found 
+6.623138 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetSinfo Unable to get VAP info for wlanIndex:22
+6.623146 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 23 not found 
+6.623150 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetCfg Unable to get VAP info for wlanIndex:23
+6.623158 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 23 not found 
+6.623165 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetDinfo Unable to get VAP info for wlanIndex:23
+6.623169 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 23 not found 
+6.623173 [mod=WIFI, lvl=ERROR] [tid=726]  CosaDmlWiFiSsidGetSinfo Unable to get VAP info for wlanIndex:23
+6.623188 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.623196 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetCfg : Couldn't find wlanIndex from IfName 
+6.623211 [mod=WIFI, lvl=INFO] [tid=726] rbuscore.c:2340 RBus Enabled
+
+6.623219 [mod=WIFI, lvl=INFO] [tid=726] rbus.c:2778 rbus open for component: t2_lib_ccsp-wifi-agent
+
+6.623314 [mod=WIFI, lvl=INFO] [tid=726] rbus.c:2854  rbus open (t2_lib_ccsp-wifi-agent) success
+
+6.623356 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.623363 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetInfo : Couldn't find wlanIndex from IfName 
+6.625942 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlGetApRadiusSettings : pSsid =  Couldn't find wlanIndex 
+6.626266 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = -1 not found, Out of range
+6.626274 [mod=WIFI, lvl=ERROR] [tid=726] getRadioIndexFromAp not recognised!!!
+6.626282 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.626289 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetCfg : Couldn't find wlanIndex from IfName 
+6.626694 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetEntry : pSsid =  Couldn't find wlanIndex 
+6.627113 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetCfg : pSsid =  Couldn't find wlanIndex 
+6.627480 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetEntry : pSsid =  Couldn't find wlanIndex 
+6.627838 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.627846 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApMfGetCfg : Couldn't find wlanIndex from IfName 
+6.627850 [mod=WIFI, lvl=WARN] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable : Calling PSM Get
+6.628036 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable PSM get success Value: 1
+6.629787 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.629795 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetCfg : Couldn't find wlanIndex from IfName 
+6.629833 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.629837 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetInfo : Couldn't find wlanIndex from IfName 
+6.630222 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlGetApRadiusSettings : pSsid =  Couldn't find wlanIndex 
+6.630264 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = -1 not found, Out of range
+6.630272 [mod=WIFI, lvl=ERROR] [tid=726] getRadioIndexFromAp not recognised!!!
+6.630280 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.630283 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetCfg : Couldn't find wlanIndex from IfName 
+6.630703 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetEntry : pSsid =  Couldn't find wlanIndex 
+6.631123 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetCfg : pSsid =  Couldn't find wlanIndex 
+6.631485 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetEntry : pSsid =  Couldn't find wlanIndex 
+6.631977 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.631985 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApMfGetCfg : Couldn't find wlanIndex from IfName 
+6.631992 [mod=WIFI, lvl=WARN] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable : Calling PSM Get
+6.632156 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable PSM get success Value: 1
+6.633186 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.633194 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetCfg : Couldn't find wlanIndex from IfName 
+6.633240 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.633247 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetInfo : Couldn't find wlanIndex from IfName 
+6.633633 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlGetApRadiusSettings : pSsid =  Couldn't find wlanIndex 
+6.633675 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = -1 not found, Out of range
+6.633682 [mod=WIFI, lvl=ERROR] [tid=726] getRadioIndexFromAp not recognised!!!
+6.633690 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.633694 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetCfg : Couldn't find wlanIndex from IfName 
+6.634060 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetEntry : pSsid =  Couldn't find wlanIndex 
+6.634472 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetCfg : pSsid =  Couldn't find wlanIndex 
+6.634830 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetEntry : pSsid =  Couldn't find wlanIndex 
+6.635189 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.635197 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApMfGetCfg : Couldn't find wlanIndex from IfName 
+6.635201 [mod=WIFI, lvl=WARN] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable : Calling PSM Get
+6.635372 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable PSM get success Value: 0
+6.636482 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.636490 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetCfg : Couldn't find wlanIndex from IfName 
+6.636536 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.636543 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetInfo : Couldn't find wlanIndex from IfName 
+6.636929 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlGetApRadiusSettings : pSsid =  Couldn't find wlanIndex 
+6.636974 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = -1 not found, Out of range
+6.636978 [mod=WIFI, lvl=ERROR] [tid=726] getRadioIndexFromAp not recognised!!!
+6.636986 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.636993 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetCfg : Couldn't find wlanIndex from IfName 
+6.637352 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetEntry : pSsid =  Couldn't find wlanIndex 
+6.637764 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetCfg : pSsid =  Couldn't find wlanIndex 
+6.647350 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetEntry : pSsid =  Couldn't find wlanIndex 
+6.647732 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.647739 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApMfGetCfg : Couldn't find wlanIndex from IfName 
+6.647747 [mod=WIFI, lvl=WARN] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable : Calling PSM Get
+6.647987 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable PSM get success Value: 0
+6.653339 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.653347 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetCfg : Couldn't find wlanIndex from IfName 
+6.653385 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.653389 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetInfo : Couldn't find wlanIndex from IfName 
+6.653778 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlGetApRadiusSettings : pSsid =  Couldn't find wlanIndex 
+6.653816 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = -1 not found, Out of range
+6.653820 [mod=WIFI, lvl=ERROR] [tid=726] getRadioIndexFromAp not recognised!!!
+6.653831 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.653835 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetCfg : Couldn't find wlanIndex from IfName 
+6.654202 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetEntry : pSsid =  Couldn't find wlanIndex 
+6.654613 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetCfg : pSsid =  Couldn't find wlanIndex 
+6.654968 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetEntry : pSsid =  Couldn't find wlanIndex 
+6.655334 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.655342 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApMfGetCfg : Couldn't find wlanIndex from IfName 
+6.655346 [mod=WIFI, lvl=WARN] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable : Calling PSM Get
+6.656647 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable PSM get success Value: 0
+6.658485 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.658493 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetCfg : Couldn't find wlanIndex from IfName 
+6.658550 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.658558 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetInfo : Couldn't find wlanIndex from IfName 
+6.658947 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlGetApRadiusSettings : pSsid =  Couldn't find wlanIndex 
+6.659019 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = -1 not found, Out of range
+6.659027 [mod=WIFI, lvl=ERROR] [tid=726] getRadioIndexFromAp not recognised!!!
+6.659035 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.659042 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetCfg : Couldn't find wlanIndex from IfName 
+6.659599 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetEntry : pSsid =  Couldn't find wlanIndex 
+6.660137 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetCfg : pSsid =  Couldn't find wlanIndex 
+6.660503 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetEntry : pSsid =  Couldn't find wlanIndex 
+6.660870 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.660877 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApMfGetCfg : Couldn't find wlanIndex from IfName 
+6.660881 [mod=WIFI, lvl=WARN] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable : Calling PSM Get
+6.661060 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable PSM get success Value: 0
+6.662411 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.662418 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetCfg : Couldn't find wlanIndex from IfName 
+6.662498 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.662514 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetInfo : Couldn't find wlanIndex from IfName 
+6.663223 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlGetApRadiusSettings : pSsid =  Couldn't find wlanIndex 
+6.663326 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = -1 not found, Out of range
+6.663334 [mod=WIFI, lvl=ERROR] [tid=726] getRadioIndexFromAp not recognised!!!
+6.663342 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.663345 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetCfg : Couldn't find wlanIndex from IfName 
+6.664082 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetEntry : pSsid =  Couldn't find wlanIndex 
+6.664505 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetCfg : pSsid =  Couldn't find wlanIndex 
+6.664867 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetEntry : pSsid =  Couldn't find wlanIndex 
+6.665226 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.665234 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApMfGetCfg : Couldn't find wlanIndex from IfName 
+6.665237 [mod=WIFI, lvl=WARN] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable : Calling PSM Get
+6.665546 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable PSM get success Value: 0
+6.668392 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.668400 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetCfg : Couldn't find wlanIndex from IfName 
+6.668438 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.668461 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetInfo : Couldn't find wlanIndex from IfName 
+6.668911 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlGetApRadiusSettings : pSsid =  Couldn't find wlanIndex 
+6.668964 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = -1 not found, Out of range
+6.668968 [mod=WIFI, lvl=ERROR] [tid=726] getRadioIndexFromAp not recognised!!!
+6.668980 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.668983 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetCfg : Couldn't find wlanIndex from IfName 
+6.669403 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetEntry : pSsid =  Couldn't find wlanIndex 
+6.669891 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetCfg : pSsid =  Couldn't find wlanIndex 
+6.670383 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetEntry : pSsid =  Couldn't find wlanIndex 
+6.670807 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.670815 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApMfGetCfg : Couldn't find wlanIndex from IfName 
+6.670822 [mod=WIFI, lvl=WARN] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable : Calling PSM Get
+6.675037 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable PSM get success Value: 0
+6.676155 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.676167 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetCfg : Couldn't find wlanIndex from IfName 
+6.676231 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.676243 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetInfo : Couldn't find wlanIndex from IfName 
+6.676685 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlGetApRadiusSettings : pSsid =  Couldn't find wlanIndex 
+6.676727 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = -1 not found, Out of range
+6.676735 [mod=WIFI, lvl=ERROR] [tid=726] getRadioIndexFromAp not recognised!!!
+6.676743 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.676750 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetCfg : Couldn't find wlanIndex from IfName 
+6.677200 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetEntry : pSsid =  Couldn't find wlanIndex 
+6.677673 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetCfg : pSsid =  Couldn't find wlanIndex 
+6.678085 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetEntry : pSsid =  Couldn't find wlanIndex 
+6.678509 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.678516 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApMfGetCfg : Couldn't find wlanIndex from IfName 
+6.678520 [mod=WIFI, lvl=WARN] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable : Calling PSM Get
+6.679401 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable PSM get success Value: 0
+6.683838 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.683849 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetCfg : Couldn't find wlanIndex from IfName 
+6.683884 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.683891 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetInfo : Couldn't find wlanIndex from IfName 
+6.684330 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlGetApRadiusSettings : pSsid =  Couldn't find wlanIndex 
+6.684368 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = -1 not found, Out of range
+6.684372 [mod=WIFI, lvl=ERROR] [tid=726] getRadioIndexFromAp not recognised!!!
+6.684383 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.684387 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetCfg : Couldn't find wlanIndex from IfName 
+6.684807 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetEntry : pSsid =  Couldn't find wlanIndex 
+6.685276 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetCfg : pSsid =  Couldn't find wlanIndex 
+6.685680 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetEntry : pSsid =  Couldn't find wlanIndex 
+6.686104 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.686111 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApMfGetCfg : Couldn't find wlanIndex from IfName 
+6.686119 [mod=WIFI, lvl=WARN] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable : Calling PSM Get
+6.686310 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable PSM get success Value: 0
+6.687481 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.687492 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetCfg : Couldn't find wlanIndex from IfName 
+6.687531 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.687534 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetInfo : Couldn't find wlanIndex from IfName 
+6.687977 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlGetApRadiusSettings : pSsid =  Couldn't find wlanIndex 
+6.688046 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = -1 not found, Out of range
+6.688053 [mod=WIFI, lvl=ERROR] [tid=726] getRadioIndexFromAp not recognised!!!
+6.688061 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.688068 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetCfg : Couldn't find wlanIndex from IfName 
+6.688480 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetEntry : pSsid =  Couldn't find wlanIndex 
+6.688961 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetCfg : pSsid =  Couldn't find wlanIndex 
+6.689384 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetEntry : pSsid =  Couldn't find wlanIndex 
+6.689804 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.689812 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApMfGetCfg : Couldn't find wlanIndex from IfName 
+6.689816 [mod=WIFI, lvl=WARN] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable : Calling PSM Get
+6.689995 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable PSM get success Value: 0
+6.691265 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.691273 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetCfg : Couldn't find wlanIndex from IfName 
+6.691311 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.691319 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetInfo : Couldn't find wlanIndex from IfName 
+6.691788 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlGetApRadiusSettings : pSsid =  Couldn't find wlanIndex 
+6.691853 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = -1 not found, Out of range
+6.691860 [mod=WIFI, lvl=ERROR] [tid=726] getRadioIndexFromAp not recognised!!!
+6.691868 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.691872 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetCfg : Couldn't find wlanIndex from IfName 
+6.692276 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetEntry : pSsid =  Couldn't find wlanIndex 
+6.692753 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetCfg : pSsid =  Couldn't find wlanIndex 
+6.693180 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetEntry : pSsid =  Couldn't find wlanIndex 
+6.693600 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.693607 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApMfGetCfg : Couldn't find wlanIndex from IfName 
+6.693611 [mod=WIFI, lvl=WARN] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable : Calling PSM Get
+6.693790 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable PSM get success Value: 0
+6.694801 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.694813 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetCfg : Couldn't find wlanIndex from IfName 
+6.694847 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.694855 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetInfo : Couldn't find wlanIndex from IfName 
+6.695477 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlGetApRadiusSettings : pSsid =  Couldn't find wlanIndex 
+6.695515 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = -1 not found, Out of range
+6.695522 [mod=WIFI, lvl=ERROR] [tid=726] getRadioIndexFromAp not recognised!!!
+6.695530 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.695534 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetCfg : Couldn't find wlanIndex from IfName 
+6.695896 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetEntry : pSsid =  Couldn't find wlanIndex 
+6.696312 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetCfg : pSsid =  Couldn't find wlanIndex 
+6.696671 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetEntry : pSsid =  Couldn't find wlanIndex 
+6.697033 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.697041 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApMfGetCfg : Couldn't find wlanIndex from IfName 
+6.697048 [mod=WIFI, lvl=WARN] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable : Calling PSM Get
+6.697231 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable PSM get success Value: 0
+6.698292 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.698303 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetCfg : Couldn't find wlanIndex from IfName 
+6.698341 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.698345 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetInfo : Couldn't find wlanIndex from IfName 
+6.698734 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlGetApRadiusSettings : pSsid =  Couldn't find wlanIndex 
+6.698776 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = -1 not found, Out of range
+6.698780 [mod=WIFI, lvl=ERROR] [tid=726] getRadioIndexFromAp not recognised!!!
+6.698792 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.698795 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetCfg : Couldn't find wlanIndex from IfName 
+6.699158 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetEntry : pSsid =  Couldn't find wlanIndex 
+6.699574 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetCfg : pSsid =  Couldn't find wlanIndex 
+6.699932 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetEntry : pSsid =  Couldn't find wlanIndex 
+6.700287 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.700294 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApMfGetCfg : Couldn't find wlanIndex from IfName 
+6.700298 [mod=WIFI, lvl=WARN] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable : Calling PSM Get
+6.700474 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable PSM get success Value: 0
+6.701550 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.701557 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetCfg : Couldn't find wlanIndex from IfName 
+6.701603 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.701611 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetInfo : Couldn't find wlanIndex from IfName 
+6.701996 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlGetApRadiusSettings : pSsid =  Couldn't find wlanIndex 
+6.702038 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = -1 not found, Out of range
+6.702042 [mod=WIFI, lvl=ERROR] [tid=726] getRadioIndexFromAp not recognised!!!
+6.702049 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.702057 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetCfg : Couldn't find wlanIndex from IfName 
+6.702419 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetEntry : pSsid =  Couldn't find wlanIndex 
+6.702831 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetCfg : pSsid =  Couldn't find wlanIndex 
+6.703190 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetEntry : pSsid =  Couldn't find wlanIndex 
+6.703621 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.703629 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApMfGetCfg : Couldn't find wlanIndex from IfName 
+6.703632 [mod=WIFI, lvl=WARN] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable : Calling PSM Get
+6.703789 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable PSM get success Value: 0
+6.704803 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.704811 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetCfg : Couldn't find wlanIndex from IfName 
+6.704849 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.704853 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetInfo : Couldn't find wlanIndex from IfName 
+6.705238 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlGetApRadiusSettings : pSsid =  Couldn't find wlanIndex 
+6.705280 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = -1 not found, Out of range
+6.705284 [mod=WIFI, lvl=ERROR] [tid=726] getRadioIndexFromAp not recognised!!!
+6.705292 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.705299 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetCfg : Couldn't find wlanIndex from IfName 
+6.705662 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetEntry : pSsid =  Couldn't find wlanIndex 
+6.706074 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetCfg : pSsid =  Couldn't find wlanIndex 
+6.706429 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetEntry : pSsid =  Couldn't find wlanIndex 
+6.706791 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.706795 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApMfGetCfg : Couldn't find wlanIndex from IfName 
+6.706802 [mod=WIFI, lvl=WARN] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable : Calling PSM Get
+6.706963 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable PSM get success Value: 0
+6.707962 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.707973 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetCfg : Couldn't find wlanIndex from IfName 
+6.708019 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.708027 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetInfo : Couldn't find wlanIndex from IfName 
+6.708408 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlGetApRadiusSettings : pSsid =  Couldn't find wlanIndex 
+6.708450 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = -1 not found, Out of range
+6.708458 [mod=WIFI, lvl=ERROR] [tid=726] getRadioIndexFromAp not recognised!!!
+6.708462 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.708469 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetCfg : Couldn't find wlanIndex from IfName 
+6.708866 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetEntry : pSsid =  Couldn't find wlanIndex 
+6.709278 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetCfg : pSsid =  Couldn't find wlanIndex 
+6.709637 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetEntry : pSsid =  Couldn't find wlanIndex 
+6.709999 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.710003 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApMfGetCfg : Couldn't find wlanIndex from IfName 
+6.710011 [mod=WIFI, lvl=WARN] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable : Calling PSM Get
+6.711456 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable Failed to get PSM
+6.711620 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetRapidReconnectThresholdValue Failed to get PSM
+6.712479 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.712490 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetCfg : Couldn't find wlanIndex from IfName 
+6.712524 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.712528 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetInfo : Couldn't find wlanIndex from IfName 
+6.712914 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlGetApRadiusSettings : pSsid =  Couldn't find wlanIndex 
+6.712959 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = -1 not found, Out of range
+6.712963 [mod=WIFI, lvl=ERROR] [tid=726] getRadioIndexFromAp not recognised!!!
+6.712971 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.712978 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetCfg : Couldn't find wlanIndex from IfName 
+6.713367 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetEntry : pSsid =  Couldn't find wlanIndex 
+6.713779 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetCfg : pSsid =  Couldn't find wlanIndex 
+6.714314 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetEntry : pSsid =  Couldn't find wlanIndex 
+6.715008 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.715015 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApMfGetCfg : Couldn't find wlanIndex from IfName 
+6.715023 [mod=WIFI, lvl=WARN] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable : Calling PSM Get
+6.715195 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable Failed to get PSM
+6.715363 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetRapidReconnectThresholdValue Failed to get PSM
+6.716209 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.716217 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetCfg : Couldn't find wlanIndex from IfName 
+6.716274 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.716282 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetInfo : Couldn't find wlanIndex from IfName 
+6.716957 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlGetApRadiusSettings : pSsid =  Couldn't find wlanIndex 
+6.717003 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = -1 not found, Out of range
+6.717010 [mod=WIFI, lvl=ERROR] [tid=726] getRadioIndexFromAp not recognised!!!
+6.717018 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.717022 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetCfg : Couldn't find wlanIndex from IfName 
+6.717388 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetEntry : pSsid =  Couldn't find wlanIndex 
+6.717823 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetCfg : pSsid =  Couldn't find wlanIndex 
+6.718185 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetEntry : pSsid =  Couldn't find wlanIndex 
+6.718548 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.718555 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApMfGetCfg : Couldn't find wlanIndex from IfName 
+6.718559 [mod=WIFI, lvl=WARN] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable : Calling PSM Get
+6.718758 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable Failed to get PSM
+6.718937 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetRapidReconnectThresholdValue Failed to get PSM
+6.719826 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.719833 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetCfg : Couldn't find wlanIndex from IfName 
+6.719872 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.719875 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetInfo : Couldn't find wlanIndex from IfName 
+6.720253 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlGetApRadiusSettings : pSsid =  Couldn't find wlanIndex 
+6.720299 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = -1 not found, Out of range
+6.720306 [mod=WIFI, lvl=ERROR] [tid=726] getRadioIndexFromAp not recognised!!!
+6.720314 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.720318 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetCfg : Couldn't find wlanIndex from IfName 
+6.720684 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetEntry : pSsid =  Couldn't find wlanIndex 
+6.721088 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetCfg : pSsid =  Couldn't find wlanIndex 
+6.721447 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetEntry : pSsid =  Couldn't find wlanIndex 
+6.721809 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.721813 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApMfGetCfg : Couldn't find wlanIndex from IfName 
+6.721817 [mod=WIFI, lvl=WARN] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable : Calling PSM Get
+6.722012 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable Failed to get PSM
+6.722168 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetRapidReconnectThresholdValue Failed to get PSM
+6.722977 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.722984 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetCfg : Couldn't find wlanIndex from IfName 
+6.723022 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.723030 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetInfo : Couldn't find wlanIndex from IfName 
+6.723419 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlGetApRadiusSettings : pSsid =  Couldn't find wlanIndex 
+6.723461 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = -1 not found, Out of range
+6.723469 [mod=WIFI, lvl=ERROR] [tid=726] getRadioIndexFromAp not recognised!!!
+6.723476 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.723480 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetCfg : Couldn't find wlanIndex from IfName 
+6.723846 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetEntry : pSsid =  Couldn't find wlanIndex 
+6.724380 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetCfg : pSsid =  Couldn't find wlanIndex 
+6.724743 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetEntry : pSsid =  Couldn't find wlanIndex 
+6.725098 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.725101 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApMfGetCfg : Couldn't find wlanIndex from IfName 
+6.725109 [mod=WIFI, lvl=WARN] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable : Calling PSM Get
+6.725277 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable Failed to get PSM
+6.725433 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetRapidReconnectThresholdValue Failed to get PSM
+6.726337 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.726345 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetCfg : Couldn't find wlanIndex from IfName 
+6.726387 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.726391 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetInfo : Couldn't find wlanIndex from IfName 
+6.726795 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlGetApRadiusSettings : pSsid =  Couldn't find wlanIndex 
+6.726841 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = -1 not found, Out of range
+6.726849 [mod=WIFI, lvl=ERROR] [tid=726] getRadioIndexFromAp not recognised!!!
+6.726856 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.726864 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetCfg : Couldn't find wlanIndex from IfName 
+6.727230 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetEntry : pSsid =  Couldn't find wlanIndex 
+6.727638 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetCfg : pSsid =  Couldn't find wlanIndex 
+6.727993 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetEntry : pSsid =  Couldn't find wlanIndex 
+6.728374 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.728382 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApMfGetCfg : Couldn't find wlanIndex from IfName 
+6.728386 [mod=WIFI, lvl=WARN] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable : Calling PSM Get
+6.728554 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable Failed to get PSM
+6.728710 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetRapidReconnectThresholdValue Failed to get PSM
+6.729507 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.729515 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetCfg : Couldn't find wlanIndex from IfName 
+6.729553 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.729561 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetInfo : Couldn't find wlanIndex from IfName 
+6.729942 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlGetApRadiusSettings : pSsid =  Couldn't find wlanIndex 
+6.729984 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = -1 not found, Out of range
+6.729992 [mod=WIFI, lvl=ERROR] [tid=726] getRadioIndexFromAp not recognised!!!
+6.730000 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.730003 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetCfg : Couldn't find wlanIndex from IfName 
+6.730415 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetEntry : pSsid =  Couldn't find wlanIndex 
+6.730824 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetCfg : pSsid =  Couldn't find wlanIndex 
+6.731178 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetEntry : pSsid =  Couldn't find wlanIndex 
+6.731537 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.731544 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApMfGetCfg : Couldn't find wlanIndex from IfName 
+6.731548 [mod=WIFI, lvl=WARN] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable : Calling PSM Get
+6.731819 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable Failed to get PSM
+6.731972 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetRapidReconnectThresholdValue Failed to get PSM
+6.732803 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.732815 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetCfg : Couldn't find wlanIndex from IfName 
+6.732849 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.732857 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApGetInfo : Couldn't find wlanIndex from IfName 
+6.733227 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlGetApRadiusSettings : pSsid =  Couldn't find wlanIndex 
+6.733269 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = -1 not found, Out of range
+6.733276 [mod=WIFI, lvl=ERROR] [tid=726] getRadioIndexFromAp not recognised!!!
+6.733280 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.733288 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetCfg : Couldn't find wlanIndex from IfName 
+6.733677 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApSecGetEntry : pSsid =  Couldn't find wlanIndex 
+6.734070 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetCfg : pSsid =  Couldn't find wlanIndex 
+6.734421 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApAcctGetEntry : pSsid =  Couldn't find wlanIndex 
+6.734768 [mod=WIFI, lvl=ERROR] [tid=726] WIFI rdkGetIndexFromName : pIfaceName :  is not found
+6.734776 [mod=WIFI, lvl=ERROR] [tid=726] WIFI CosaDmlWiFiApMfGetCfg : Couldn't find wlanIndex from IfName 
+6.734779 [mod=WIFI, lvl=WARN] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable : Calling PSM Get
+6.734940 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetRapidReconnectCountEnable Failed to get PSM
+6.735092 [mod=WIFI, lvl=INFO] [tid=726] CosaDmlWiFi_GetRapidReconnectThresholdValue Failed to get PSM
+6.743084 [mod=WIFI, lvl=WARN] [tid=726] CosaDmlHarvesterInit : fetching the PSM db failed for ActiveMsmtEnabled
+6.743237 [mod=WIFI, lvl=WARN] [tid=726] CosaDmlHarvesterInit : fetching the PSM db failed for ActiveMsmtSampleDuration
+6.743423 [mod=WIFI, lvl=WARN] [tid=726] CosaDmlHarvesterInit : fetching the PSM db failed for ActiveMsmtPktSize
+6.743580 [mod=WIFI, lvl=WARN] [tid=726] CosaDmlHarvesterInit : fetching the PSM db failed for ActiveMsmtNumberOfSamples
+6.743725 [mod=WIFI, lvl=WARN] [tid=726] CosaWifiInitialize - CosaWifiRegGetSsidInfo ...
+6.752434 [mod=WIFI, lvl=WARN] [tid=726] CosaWifiInitialize - CosaDmlWiFiNeighbouringGetEntry ...
+6.753662 [mod=WIFI, lvl=WARN] [tid=1301] RegisterWiFiConfigureCallBack CaptivePortal: PSM get of NotifyChanges value is true PSM get returned 100...
+6.756443 [mod=WIFI, lvl=WARN] [tid=726]  RDKB_SYSTEM_BOOT_UP_LOG : CosaWifiInitialize - WiFi initialization complete. 
+6.756485 [mod=WIFI, lvl=WARN] [tid=726] CosaWifiInitialize - returnStatus 0
+6.767929 [mod=WIFI, lvl=WARN] [tid=726] Search for empty object in 'dslhCpeCheckEmptyObject'
+6.813663 [mod=WIFI, lvl=INFO] [tid=726] Wifi Agent loaded successfully...
+6.813717 [mod=WIFI, lvl=ERROR] [tid=726]  getVapInfo Input apIndex = 6 not found 
+6.813740 [mod=WIFI, lvl=ERROR] [tid=726]  AccessPoint_GetParamStringValue Unable to get VAP info for apIndex:6
+6.814083 [mod=WIFI, lvl=WARN] [tid=726] RDKB_SYSTEM_BOOT_UP_LOG : Entering Wifi loop 
+9.254036 [mod=WIFI, lvl=ERROR] [tid=728]  getVapInfo Input apIndex = 4 not found 
+9.254055 [mod=WIFI, lvl=ERROR] [tid=728]  SSID_GetParamStringValue Unable to get VAP info for apIndex:4
+9.254593 [mod=WIFI, lvl=ERROR] [tid=728]  getVapInfo Input apIndex = 5 not found 
+9.254601 [mod=WIFI, lvl=ERROR] [tid=728]  SSID_GetParamStringValue Unable to get VAP info for apIndex:5
+12.286968 [mod=WIFI, lvl=ERROR] [tid=728]  getVapInfo Input apIndex = 4 not found 
+12.286980 [mod=WIFI, lvl=ERROR] [tid=728]  SSID_GetParamStringValue Unable to get VAP info for apIndex:4
+12.288082 [mod=WIFI, lvl=ERROR] [tid=728]  getVapInfo Input apIndex = 5 not found 
+12.288090 [mod=WIFI, lvl=ERROR] [tid=728]  SSID_GetParamStringValue Unable to get VAP info for apIndex:5
+15.289093 [mod=WIFI, lvl=ERROR] [tid=728]  getVapInfo Input apIndex = 4 not found 
+15.289108 [mod=WIFI, lvl=ERROR] [tid=728]  SSID_GetParamStringValue Unable to get VAP info for apIndex:4
+15.289791 [mod=WIFI, lvl=ERROR] [tid=728]  getVapInfo Input apIndex = 5 not found 
+15.289803 [mod=WIFI, lvl=ERROR] [tid=728]  SSID_GetParamStringValue Unable to get VAP info for apIndex:5
+18.290531 [mod=WIFI, lvl=ERROR] [tid=728]  getVapInfo Input apIndex = 4 not found 
+18.290546 [mod=WIFI, lvl=ERROR] [tid=728]  SSID_GetParamStringValue Unable to get VAP info for apIndex:4
+18.291088 [mod=WIFI, lvl=ERROR] [tid=728]  getVapInfo Input apIndex = 5 not found 
+18.291100 [mod=WIFI, lvl=ERROR] [tid=728]  SSID_GetParamStringValue Unable to get VAP info for apIndex:5
+21.291824 [mod=WIFI, lvl=ERROR] [tid=728]  getVapInfo Input apIndex = 4 not found 
+21.291836 [mod=WIFI, lvl=ERROR] [tid=728]  SSID_GetParamStringValue Unable to get VAP info for apIndex:4
+21.292377 [mod=WIFI, lvl=ERROR] [tid=728]  getVapInfo Input apIndex = 5 not found 
+21.292385 [mod=WIFI, lvl=ERROR] [tid=728]  SSID_GetParamStringValue Unable to get VAP info for apIndex:5
+21.753750 [mod=WIFI, lvl=ERROR] [tid=1301] getPrivateApFromRadioIndex not recognised for radioIndex 0!!!
+21.753910 [mod=WIFI, lvl=WARN] [tid=1301] RegisterWiFiConfigureCallBack CaptivePortal: SSID_DEF IS NULL for radio Index  0
+21.754078 [mod=WIFI, lvl=WARN] [tid=1301] RegisterWiFiConfigureCallBack CaptivePortal: PASSPHRASE_DEF IS NULL for radio Index  0
+21.754154 [mod=WIFI, lvl=ERROR] [tid=1301] getPrivateApFromRadioIndex not recognised for radioIndex 1!!!
+21.754238 [mod=WIFI, lvl=WARN] [tid=1301] RegisterWiFiConfigureCallBack CaptivePortal: SSID_DEF IS NULL for radio Index  1
+21.754372 [mod=WIFI, lvl=WARN] [tid=1301] RegisterWiFiConfigureCallBack CaptivePortal: PASSPHRASE_DEF IS NULL for radio Index  1
+21.754444 [mod=WIFI, lvl=ERROR] [tid=1301] getPrivateApFromRadioIndex not recognised for radioIndex 2!!!
+21.754524 [mod=WIFI, lvl=WARN] [tid=1301] RegisterWiFiConfigureCallBack CaptivePortal: SSID_DEF IS NULL for radio Index  2
+21.754662 [mod=WIFI, lvl=WARN] [tid=1301] RegisterWiFiConfigureCallBack CaptivePortal: PASSPHRASE_DEF IS NULL for radio Index  2
+24.293072 [mod=WIFI, lvl=ERROR] [tid=728]  getVapInfo Input apIndex = 4 not found 
+24.293091 [mod=WIFI, lvl=ERROR] [tid=728]  SSID_GetParamStringValue Unable to get VAP info for apIndex:4
+24.293762 [mod=WIFI, lvl=ERROR] [tid=728]  getVapInfo Input apIndex = 5 not found 
+24.293770 [mod=WIFI, lvl=ERROR] [tid=728]  SSID_GetParamStringValue Unable to get VAP info for apIndex:5
+27.294487 [mod=WIFI, lvl=ERROR] [tid=728]  getVapInfo Input apIndex = 4 not found 
+27.294502 [mod=WIFI, lvl=ERROR] [tid=728]  SSID_GetParamStringValue Unable to get VAP info for apIndex:4
+27.295063 [mod=WIFI, lvl=ERROR] [tid=728]  getVapInfo Input apIndex = 5 not found 
+27.295074 [mod=WIFI, lvl=ERROR] [tid=728]  SSID_GetParamStringValue Unable to get VAP info for apIndex:5
+28.754398 [mod=WIFI, lvl=ERROR] [tid=728]  getVapInfo Input apIndex = 4 not found 
+28.754410 [mod=WIFI, lvl=ERROR] [tid=728]  SSID_GetParamStringValue Unable to get VAP info for apIndex:4
+28.754936 [mod=WIFI, lvl=ERROR] [tid=728]  getVapInfo Input apIndex = 5 not found 
+28.754948 [mod=WIFI, lvl=ERROR] [tid=728]  SSID_GetParamStringValue Unable to get VAP info for apIndex:5
+30.295834 [mod=WIFI, lvl=ERROR] [tid=728]  getVapInfo Input apIndex = 4 not found 
+30.295849 [mod=WIFI, lvl=ERROR] [tid=728]  SSID_GetParamStringValue Unable to get VAP info for apIndex:4
+30.296406 [mod=WIFI, lvl=ERROR] [tid=728]  getVapInfo Input apIndex = 5 not found 
+30.296413 [mod=WIFI, lvl=ERROR] [tid=728]  SSID_GetParamStringValue Unable to get VAP info for apIndex:5
+33.297142 [mod=WIFI, lvl=ERROR] [tid=728]  getVapInfo Input apIndex = 4 not found 
+33.297157 [mod=WIFI, lvl=ERROR] [tid=728]  SSID_GetParamStringValue Unable to get VAP info for apIndex:4
+33.297726 [mod=WIFI, lvl=ERROR] [tid=728]  getVapInfo Input apIndex = 5 not found 
+33.297737 [mod=WIFI, lvl=ERROR] [tid=728]  SSID_GetParamStringValue Unable to get VAP info for apIndex:5
+36.298462 [mod=WIFI, lvl=ERROR] [tid=728]  getVapInfo Input apIndex = 4 not found 
+36.298477 [mod=WIFI, lvl=ERROR] [tid=728]  SSID_GetParamStringValue Unable to get VAP info for apIndex:4
+36.299000 [mod=WIFI, lvl=ERROR] [tid=728]  getVapInfo Input apIndex = 5 not found 
+36.299011 [mod=WIFI, lvl=ERROR] [tid=728]  SSID_GetParamStringValue Unable to get VAP info for apIndex:5
+39.299759 [mod=WIFI, lvl=ERROR] [tid=728]  getVapInfo Input apIndex = 4 not found 
+39.299774 [mod=WIFI, lvl=ERROR] [tid=728]  SSID_GetParamStringValue Unable to get VAP info for apIndex:4
+39.300316 [mod=WIFI, lvl=ERROR] [tid=728]  getVapInfo Input apIndex = 5 not found 
+39.300327 [mod=WIFI, lvl=ERROR] [tid=728]  SSID_GetParamStringValue Unable to get VAP info for apIndex:5
+42.301048 [mod=WIFI, lvl=ERROR] [tid=728]  getVapInfo Input apIndex = 4 not found 
+42.301064 [mod=WIFI, lvl=ERROR] [tid=728]  SSID_GetParamStringValue Unable to get VAP info for apIndex:4
+42.301582 [mod=WIFI, lvl=ERROR] [tid=728]  getVapInfo Input apIndex = 5 not found 
+42.301590 [mod=WIFI, lvl=ERROR] [tid=728]  SSID_GetParamStringValue Unable to get VAP info for apIndex:5
+45.302277 [mod=WIFI, lvl=ERROR] [tid=728]  getVapInfo Input apIndex = 4 not found 
+45.302296 [mod=WIFI, lvl=ERROR] [tid=728]  SSID_GetParamStringValue Unable to get VAP info for apIndex:4
+45.302841 [mod=WIFI, lvl=ERROR] [tid=728]  getVapInfo Input apIndex = 5 not found 
+45.302853 [mod=WIFI, lvl=ERROR] [tid=728]  SSID_GetParamStringValue Unable to get VAP info for apIndex:5
+48.303623 [mod=WIFI, lvl=ERROR] [tid=728]  getVapInfo Input apIndex = 4 not found 
+48.303642 [mod=WIFI, lvl=ERROR] [tid=728]  SSID_GetParamStringValue Unable to get VAP info for apIndex:4
+48.304218 [mod=WIFI, lvl=ERROR] [tid=728]  getVapInfo Input apIndex = 5 not found 
+48.304230 [mod=WIFI, lvl=ERROR] [tid=728]  SSID_GetParamStringValue Unable to get VAP info for apIndex:5
+51.304989 [mod=WIFI, lvl=ERROR] [tid=728]  getVapInfo Input apIndex = 4 not found 
+51.305004 [mod=WIFI, lvl=ERROR] [tid=728]  SSID_GetParamStringValue Unable to get VAP info for apIndex:4
+51.305542 [mod=WIFI, lvl=ERROR] [tid=728]  getVapInfo Input apIndex = 5 not found 
+51.305553 [mod=WIFI, lvl=ERROR] [tid=728]  SSID_GetParamStringValue Unable to get VAP info for apIndex:5
+54.306244 [mod=WIFI, lvl=ERROR] [tid=728]  getVapInfo Input apIndex = 4 not found 
+54.306259 [mod=WIFI, lvl=ERROR] [tid=728]  SSID_GetParamStringValue Unable to get VAP info for apIndex:4
+54.306919 [mod=WIFI, lvl=ERROR] [tid=728]  getVapInfo Input apIndex = 5 not found 
+54.306931 [mod=WIFI, lvl=ERROR] [tid=728]  SSID_GetParamStringValue Unable to get VAP info for apIndex:5
+57.307690 [mod=WIFI, lvl=ERROR] [tid=728]  getVapInfo Input apIndex = 4 not found 
+57.307705 [mod=WIFI, lvl=ERROR] [tid=728]  SSID_GetParamStringValue Unable to get VAP info for apIndex:4
+57.308273 [mod=WIFI, lvl=ERROR] [tid=728]  getVapInfo Input apIndex = 5 not found 
+57.308285 [mod=WIFI, lvl=ERROR] [tid=728]  SSID_GetParamStringValue Unable to get VAP info for apIndex:5
+60.309036 [mod=WIFI, lvl=ERROR] [tid=728]  getVapInfo Input apIndex = 4 not found 
+60.309052 [mod=WIFI, lvl=ERROR] [tid=728]  SSID_GetParamStringValue Unable to get VAP info for apIndex:4
+60.309593 [mod=WIFI, lvl=ERROR] [tid=728]  getVapInfo Input apIndex = 5 not found 
+60.309601 [mod=WIFI, lvl=ERROR] [tid=728]  SSID_GetParamStringValue Unable to get VAP info for apIndex:5
+63.310356 [mod=WIFI, lvl=ERROR] [tid=728]  getVapInfo Input apIndex = 4 not found 
+63.310375 [mod=WIFI, lvl=ERROR] [tid=728]  SSID_GetParamStringValue Unable to get VAP info for apIndex:4
+63.310921 [mod=WIFI, lvl=ERROR] [tid=728]  getVapInfo Input apIndex = 5 not found 
+63.310932 [mod=WIFI, lvl=ERROR] [tid=728]  SSID_GetParamStringValue Unable to get VAP info for apIndex:5

@@ -1,0 +1,24 @@
+2024.11.21 01:16:03 Client Notice    | Dibbler - a portable DHCPv6, version 1.0.2RC1 (CLIENT, Linux port)
+2024.11.21 01:16:03 Client Notice    My pid (2230) is stored in /tmp/dibbler_voip0/client.pid
+2024.11.21 01:16:03 Client Notice    Detected iface wl1/4915, MAC=00:16:3e:51:c0:80.
+2024.11.21 01:16:03 Client Notice    Detected iface wl0/4913, MAC=00:16:3e:d8:15:ed.
+2024.11.21 01:16:03 Client Notice    Detected iface eth4/4911, MAC=00:16:3e:90:9d:4f.
+2024.11.21 01:16:03 Client Notice    Detected iface eth3/4909, MAC=00:16:3e:13:cb:23.
+2024.11.21 01:16:03 Client Notice    Detected iface eth2/4907, MAC=00:16:3e:d9:4c:56.
+2024.11.21 01:16:03 Client Notice    Detected iface eth1/4905, MAC=00:16:3e:aa:8c:15.
+2024.11.21 01:16:03 Client Notice    Detected iface eth0/4903, MAC=00:60:2f:4f:96:d1.
+2024.11.21 01:16:03 Client Notice    Detected iface vrf-voip0/15, MAC=6e:98:ae:45:ee:4e.
+2024.11.21 01:16:03 Client Notice    Detected iface vrf-mg0/14, MAC=7e:85:31:ac:84:2b.
+2024.11.21 01:16:03 Client Notice    Detected iface voip0/13, MAC=00:16:3e:57:8f:a4.
+2024.11.21 01:16:03 Client Notice    Detected iface mg0/12, MAC=00:16:3e:57:8f:a5.
+2024.11.21 01:16:03 Client Notice    Detected iface erouter0/11, MAC=00:16:3e:57:8f:a0.
+2024.11.21 01:16:03 Client Notice    Detected iface brlan0/10, MAC=00:16:3e:13:cb:23.
+2024.11.21 01:16:03 Client Notice    Detected iface brlan7/9, MAC=5a:0b:45:f6:97:1a.
+2024.11.21 01:16:03 Client Notice    Detected iface brebhaul/8, MAC=aa:5b:43:b3:c5:e7.
+2024.11.21 01:16:03 Client Notice    Detected iface br403/7, MAC=de:8e:c3:8f:85:08.
+2024.11.21 01:16:03 Client Notice    Detected iface wl1.1/6, MAC=a6:32:e7:73:3c:f3.
+2024.11.21 01:16:03 Client Notice    Detected iface wl0.1/5, MAC=82:45:e7:d4:56:54.
+2024.11.21 01:16:03 Client Notice    Detected iface erspan0/4, MAC=00:00:00:00:00:00.
+2024.11.21 01:16:03 Client Notice    Detected iface gretap0/3, MAC=00:00:00:00:00:00.
+2024.11.21 01:16:03 Client Notice    Detected iface lo/1, MAC=00:00:00:00:00:00.
+2024.11.21 01:16:03 Client Notice    Parsing /tmp/dibbler_voip0/client.conf config file...

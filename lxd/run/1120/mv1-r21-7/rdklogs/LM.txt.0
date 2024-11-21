@@ -1,0 +1,14 @@
+4.108055 [mod=LM, lvl=WARN] [tid=776] LMLite:rdk initialzed!
+4.108505 [mod=LM, lvl=WARN] [tid=783] ValidateHostRetry_Thread started
+4.110828 [mod=LM, lvl=WARN] [tid=776] Atom mac is 
+9.114506 [mod=LM, lvl=WARN] [tid=776] Send_Eth_Host_Sync_Req : Get Ethernet Clients 
+9.116234 [mod=LM, lvl=WARN] [tid=776] WIFI SyncWiFi : Get WiFi Clients 
+9.116695 [mod=LM, lvl=ERROR] [tid=776] SetParameterValues for param[0]=Device.WiFi.X_RDKCENTRAL-COM_WiFiHost_Sync failed with Err: 17
+9.116741 [mod=LM, lvl=WARN] [tid=776] WIFI SyncWiFi : Failed ret 102
+9.124012 [mod=LM, lvl=WARN] [tid=1015] Atom mac is 
+19.409920 [mod=LM, lvl=WARN] [tid=1015] Atom mac is 
+29.414082 [mod=LM, lvl=WARN] [tid=1015] Atom mac is 
+39.665478 [mod=LM, lvl=WARN] [tid=1015] Atom mac is 
+49.669437 [mod=LM, lvl=WARN] [tid=1015] Atom mac is 
+59.673050 [mod=LM, lvl=WARN] [tid=1015] Atom mac is 
+69.676636 [mod=LM, lvl=WARN] [tid=1015] Atom mac is 

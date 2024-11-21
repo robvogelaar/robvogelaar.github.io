@@ -1,1 +1,0 @@
-241119-23:09:15.954464 [mod=LXD, lvl=INFO] [tid=1] ## mv3: uptimestamp

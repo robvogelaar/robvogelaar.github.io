@@ -1,0 +1,35 @@
+Nov 21 01:16:00 mv3-r21-9-001 daemon.notice ovs-vsctl: ovs|00001|vsctl|INFO|Called as ovs-vsctl set Bridge brlan0 other_config:mcast-snooping-max-bundle=64
+Nov 21 01:16:00 mv3-r21-9-001 daemon.err ovs-vsctl: ovs|00002|db_ctl_base|ERR|unix:/var/run/openvswitch/db.sock: database connection failed (No such file or directory)
+Nov 21 01:16:02 mv3-r21-9-001 daemon.notice wifidb-server: ovs|00001|vlog|INFO|opened log file /var/tmp/wifidb.log
+Nov 21 01:16:09 mv3-r21-9-001 daemon.info udhcpc[1793]: started, v1.32.1
+Nov 21 01:16:09 mv3-r21-9-001 daemon.info udhcpc[1793]: executing /usr/bin/service_udhcpc deconfig
+Nov 21 01:16:09 mv3-r21-9-001 daemon.info udhcpc[1793]: entering listen mode: raw
+Nov 21 01:16:09 mv3-r21-9-001 daemon.info udhcpc[1793]: created raw socket
+Nov 21 01:16:09 mv3-r21-9-001 daemon.info udhcpc[1793]: sending discover
+Nov 21 01:16:09 mv3-r21-9-001 daemon.info udhcpc[1793]: waiting 3 seconds
+Nov 21 01:16:09 mv3-r21-9-001 daemon.info udhcpc[1793]: unrelated/bogus packet, ignoring
+Nov 21 01:16:09 mv3-r21-9-001 daemon.info udhcpc[1793]: waiting 3 seconds
+Nov 21 01:16:10 mv3-r21-9-001 daemon.info udhcpc[1793]: received a packet
+Nov 21 01:16:10 mv3-r21-9-001 daemon.info udhcpc[1793]: sending select for 10.179.200.101
+Nov 21 01:16:10 mv3-r21-9-001 daemon.info udhcpc[1793]: waiting 3 seconds
+Nov 21 01:16:10 mv3-r21-9-001 daemon.info udhcpc[1793]: received a packet
+Nov 21 01:16:10 mv3-r21-9-001 daemon.info udhcpc[1793]: lease of 10.179.200.101 obtained, lease time 3600
+Nov 21 01:16:10 mv3-r21-9-001 daemon.info udhcpc[1793]: executing /usr/bin/service_udhcpc bound
+Nov 21 01:16:10 mv3-r21-9-001 daemon.info udhcpc[1793]: entering listen mode: none
+Nov 21 01:16:10 mv3-r21-9-001 daemon.info udhcpc[1804]: waiting 1800 seconds
+Nov 21 01:16:10 mv3-r21-9-001 daemon.info udhcpc[2034]: started, v1.32.1
+Nov 21 01:16:10 mv3-r21-9-001 daemon.info udhcpc[2034]: executing /usr/bin/service_udhcpc deconfig
+Nov 21 01:16:10 mv3-r21-9-001 daemon.info udhcpc[2034]: entering listen mode: raw
+Nov 21 01:16:10 mv3-r21-9-001 daemon.info udhcpc[2034]: created raw socket
+Nov 21 01:16:10 mv3-r21-9-001 daemon.info udhcpc[2034]: sending discover
+Nov 21 01:16:11 mv3-r21-9-001 daemon.info udhcpc[2034]: waiting 3 seconds
+Nov 21 01:16:11 mv3-r21-9-001 daemon.info udhcpc[2034]: unrelated/bogus packet, ignoring
+Nov 21 01:16:11 mv3-r21-9-001 daemon.info udhcpc[2034]: waiting 3 seconds
+Nov 21 01:16:12 mv3-r21-9-001 daemon.info udhcpc[2034]: received a packet
+Nov 21 01:16:12 mv3-r21-9-001 daemon.info udhcpc[2034]: sending select for 10.177.200.101
+Nov 21 01:16:12 mv3-r21-9-001 daemon.info udhcpc[2034]: waiting 3 seconds
+Nov 21 01:16:12 mv3-r21-9-001 daemon.info udhcpc[2034]: received a packet
+Nov 21 01:16:12 mv3-r21-9-001 daemon.info udhcpc[2034]: lease of 10.177.200.101 obtained, lease time 3600
+Nov 21 01:16:12 mv3-r21-9-001 daemon.info udhcpc[2034]: executing /usr/bin/service_udhcpc bound
+Nov 21 01:16:12 mv3-r21-9-001 daemon.info udhcpc[2034]: entering listen mode: none
+Nov 21 01:16:12 mv3-r21-9-001 daemon.info udhcpc[2057]: waiting 1800 seconds

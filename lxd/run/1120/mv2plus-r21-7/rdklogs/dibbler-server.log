@@ -1,0 +1,43 @@
+2024.11.21 00:15:54 Server Notice    | Dibbler - a portable DHCPv6, version 1.0.2RC1 (SERVER, Linux port)
+2024.11.21 00:15:54 Server Notice    My pid (3059) is stored in /var/lib/dibbler/server.pid
+2024.11.21 00:15:54 Server Notice    Detected iface wl1/4885, MAC=00:16:3e:af:f3:e5.
+2024.11.21 00:15:54 Server Notice    Detected iface wl0/4883, MAC=00:16:3e:20:95:1c.
+2024.11.21 00:15:54 Server Notice    Detected iface eth3/4881, MAC=00:16:3e:46:ba:2d.
+2024.11.21 00:15:54 Server Notice    Detected iface eth2/4879, MAC=00:16:3e:2a:51:9a.
+2024.11.21 00:15:54 Server Notice    Detected iface eth1/4877, MAC=00:16:3e:6c:a1:55.
+2024.11.21 00:15:54 Server Notice    Detected iface brlan0/13, MAC=38:a6:59:31:6b:f1.
+2024.11.21 00:15:54 Server Notice    Detected iface brebhaul/12, MAC=5a:5a:e0:f2:2c:76.
+2024.11.21 00:15:54 Server Notice    Detected iface eth0/4875, MAC=00:16:3e:1e:71:61.
+2024.11.21 00:15:54 Server Notice    Detected iface br403/11, MAC=86:c8:c7:10:1b:af.
+2024.11.21 00:15:54 Server Notice    Detected iface wl1.1/10, MAC=9e:d7:87:00:97:7d.
+2024.11.21 00:15:54 Server Notice    Detected iface lbr0/4873, MAC=00:16:3e:b0:bf:a1.
+2024.11.21 00:15:54 Server Notice    Detected iface wl0.1/9, MAC=12:70:4a:15:6c:17.
+2024.11.21 00:15:54 Server Notice    Detected iface privbr/8, MAC=9e:30:f5:d0:33:58.
+2024.11.21 00:15:54 Server Notice    Detected iface priv0/7, MAC=9e:30:f5:d0:33:58.
+2024.11.21 00:15:54 Server Notice    Detected iface erouter0/5, MAC=00:16:3e:b0:bf:a1.
+2024.11.21 00:15:54 Server Notice    Detected iface erspan0/4, MAC=00:00:00:00:00:00.
+2024.11.21 00:15:54 Server Notice    Detected iface gretap0/3, MAC=00:00:00:00:00:00.
+2024.11.21 00:15:54 Server Notice    Detected iface lo/1, MAC=00:00:00:00:00:00.
+2024.11.21 00:15:54 Server Notice    Parsing /etc/dibbler/server.conf config file...
+2024.11.21 00:15:57 Server Critical  Signal received. Shutting down.
+2024.11.21 00:16:02 Server Notice    | Dibbler - a portable DHCPv6, version 1.0.2RC1 (SERVER, Linux port)
+2024.11.21 00:16:02 Server Notice    My pid (3700) is stored in /var/lib/dibbler/server.pid
+2024.11.21 00:16:02 Server Notice    Detected iface wl1/4885, MAC=00:16:3e:af:f3:e5.
+2024.11.21 00:16:02 Server Notice    Detected iface wl0/4883, MAC=00:16:3e:20:95:1c.
+2024.11.21 00:16:02 Server Notice    Detected iface eth3/4881, MAC=00:16:3e:46:ba:2d.
+2024.11.21 00:16:02 Server Notice    Detected iface eth2/4879, MAC=00:16:3e:2a:51:9a.
+2024.11.21 00:16:02 Server Notice    Detected iface eth1/4877, MAC=00:16:3e:6c:a1:55.
+2024.11.21 00:16:02 Server Notice    Detected iface brlan0/13, MAC=38:a6:59:31:6b:f1.
+2024.11.21 00:16:02 Server Notice    Detected iface brebhaul/12, MAC=5a:5a:e0:f2:2c:76.
+2024.11.21 00:16:02 Server Notice    Detected iface eth0/4875, MAC=00:16:3e:1e:71:61.
+2024.11.21 00:16:02 Server Notice    Detected iface br403/11, MAC=86:c8:c7:10:1b:af.
+2024.11.21 00:16:02 Server Notice    Detected iface wl1.1/10, MAC=9e:d7:87:00:97:7d.
+2024.11.21 00:16:02 Server Notice    Detected iface lbr0/4873, MAC=00:16:3e:b0:bf:a1.
+2024.11.21 00:16:02 Server Notice    Detected iface wl0.1/9, MAC=12:70:4a:15:6c:17.
+2024.11.21 00:16:02 Server Notice    Detected iface privbr/8, MAC=9e:30:f5:d0:33:58.
+2024.11.21 00:16:02 Server Notice    Detected iface priv0/7, MAC=9e:30:f5:d0:33:58.
+2024.11.21 00:16:02 Server Notice    Detected iface erouter0/5, MAC=00:16:3e:b0:bf:a1.
+2024.11.21 00:16:02 Server Notice    Detected iface erspan0/4, MAC=00:00:00:00:00:00.
+2024.11.21 00:16:02 Server Notice    Detected iface gretap0/3, MAC=00:00:00:00:00:00.
+2024.11.21 00:16:02 Server Notice    Detected iface lo/1, MAC=00:00:00:00:00:00.
+2024.11.21 00:16:02 Server Notice    Parsing /etc/dibbler/server.conf config file...

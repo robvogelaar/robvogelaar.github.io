@@ -1,0 +1,19 @@
+2.149426 [mod=GPONMANAGER, lvl=INFO] [tid=714] Connect to bus daemon...
+2.149487 [mod=GPONMANAGER, lvl=INFO] [tid=714] rbuscore.c:2340 RBus Enabled
+
+2.149498 [mod=GPONMANAGER, lvl=INFO] [tid=714] rbuscore.c:656 Broker address: unix:///tmp/rtrouted
+
+2.151665 [mod=GPONMANAGER, lvl=INFO] [tid=714] connection opened for eRT.com.cisco.spvtg.ccsp.gponmanager
+2.151726 [mod=GPONMANAGER, lvl=INFO] [tid=714] INFO: bus_handle: 0x 8d2b7c0 
+3.153645 [mod=GPONMANAGER, lvl=INFO] [tid=714] CcspBaseIf_Register_Event_rbus : rbus_registerEvent called for event: currentSessionIDSignal
+3.153839 [mod=GPONMANAGER, lvl=INFO] [tid=714] rbuscore.c:755 Subscription for _rbus_session_mgr::currentSessionIDSignal is now active.
+
+3.153927 [mod=GPONMANAGER, lvl=WARN] [tid=714] Register empty object : com.
+3.153938 [mod=GPONMANAGER, lvl=WARN] [tid=714] Register empty object : com.cisco.
+3.153946 [mod=GPONMANAGER, lvl=WARN] [tid=714] Register empty object : com.cisco.spvtg.
+3.153950 [mod=GPONMANAGER, lvl=WARN] [tid=714] Register empty object : com.cisco.spvtg.ccsp.
+3.154053 [mod=GPONMANAGER, lvl=WARN] [tid=714] DM Library module name = CCSP Base Data Model
+3.154278 [mod=GPONMANAGER, lvl=WARN] [tid=714] GponMgrDml_BackEndManagerInitialize...
+3.154850 [mod=GPONMANAGER, lvl=WARN] [tid=714]   GponMgrDml_create done!
+3.155132 [mod=GPONMANAGER, lvl=WARN] [tid=714] DM Library module name = TR181_RdkGponManager
+3.156010 [mod=GPONMANAGER, lvl=WARN] [tid=714] Search for empty object in 'dslhCpeCheckEmptyObject'

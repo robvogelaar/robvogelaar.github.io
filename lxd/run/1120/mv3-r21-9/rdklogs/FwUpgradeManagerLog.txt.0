@@ -1,0 +1,25 @@
+2.164665 [mod=FWUPGRADEMANAGER, lvl=INFO] [tid=719] 
+After daemonize before signal
+2.164719 [mod=FWUPGRADEMANAGER, lvl=INFO] [tid=719] Connect to bus daemon...
+2.164749 [mod=FWUPGRADEMANAGER, lvl=INFO] [tid=719] rbuscore.c:2340 RBus Enabled
+
+2.164761 [mod=FWUPGRADEMANAGER, lvl=INFO] [tid=719] rbuscore.c:656 Broker address: unix:///tmp/rtrouted
+
+2.165260 [mod=FWUPGRADEMANAGER, lvl=INFO] [tid=719] connection opened for eRT.com.cisco.spvtg.ccsp.fwupgrademanager
+2.165318 [mod=FWUPGRADEMANAGER, lvl=INFO] [tid=719] INFO: bus_handle: 0x 88f6410 
+3.167549 [mod=FWUPGRADEMANAGER, lvl=INFO] [tid=719] CcspBaseIf_Register_Event_rbus : rbus_registerEvent called for event: currentSessionIDSignal
+3.169113 [mod=FWUPGRADEMANAGER, lvl=INFO] [tid=719] rbuscore.c:755 Subscription for _rbus_session_mgr::currentSessionIDSignal is now active.
+
+3.169209 [mod=FWUPGRADEMANAGER, lvl=WARN] [tid=719] Register empty object : com.
+3.169220 [mod=FWUPGRADEMANAGER, lvl=WARN] [tid=719] Register empty object : com.cisco.
+3.169228 [mod=FWUPGRADEMANAGER, lvl=WARN] [tid=719] Register empty object : com.cisco.spvtg.
+3.169235 [mod=FWUPGRADEMANAGER, lvl=WARN] [tid=719] Register empty object : com.cisco.spvtg.ccsp.
+3.169342 [mod=FWUPGRADEMANAGER, lvl=WARN] [tid=719] DM Library module name = CCSP Base Data Model
+3.169384 [mod=FWUPGRADEMANAGER, lvl=INFO] [tid=719]  Download_Control_Flag is 1 
+3.210697 [mod=FWUPGRADEMANAGER, lvl=INFO] [tid=719]  Current FW Version is UNKNOWN
+3.211452 [mod=FWUPGRADEMANAGER, lvl=WARN] [tid=719] DM Library module name = TR181_RdkFirmwareUpgradeManager
+3.212803 [mod=FWUPGRADEMANAGER, lvl=WARN] [tid=719] Search for empty object in 'dslhCpeCheckEmptyObject'
+8.426430 [mod=FWUPGRADEMANAGER, lvl=INFO] [tid=722] <<< DslhWmpdoMpaSetParameterAttributes pSetParameterAttribArray[0].RequesterID 4 >>>
+8.426449 [mod=FWUPGRADEMANAGER, lvl=INFO] [tid=722] <<< DslhVarroSetNotification pMyObject->RequesterID 4 >>>
+8.426514 [mod=FWUPGRADEMANAGER, lvl=INFO] [tid=722] <<<  pDslhVarRecord->RequesterID 4 >>>
+8.428101 [mod=FWUPGRADEMANAGER, lvl=INFO] [tid=722] <<< DslhWmpdoMpaSetParameterAttributes pSetParameterAttribArray[0].RequesterID 4 >>>

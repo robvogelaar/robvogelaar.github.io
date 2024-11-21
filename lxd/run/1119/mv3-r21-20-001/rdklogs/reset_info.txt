@@ -1,4 +1,0 @@
-Tue Nov 19 23:10:00 UTC 2024: reboot_cause->[unknown]
-Prev boot cycle image name: 
-This boot cycle image name: imagename="ofw-exm-qemux86-mv3-20241119224750"
-*Kernel crash detected: No

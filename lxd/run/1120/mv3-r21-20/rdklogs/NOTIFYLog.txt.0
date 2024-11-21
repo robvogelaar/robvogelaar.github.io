@@ -1,0 +1,220 @@
+0.153667 [mod=NOTIFY, lvl=INFO] [tid=426] 
+ File ReloadNotifyParam not present. Nothing to load
+0.153877 [mod=NOTIFY, lvl=NOTICE] [tid=426] Connect to bus daemon...
+0.153927 [mod=NOTIFY, lvl=INFO] [tid=426] rbuscore.c:2340 RBus Enabled
+
+0.153938 [mod=NOTIFY, lvl=INFO] [tid=426] rbuscore.c:656 Broker address: unix:///tmp/rtrouted
+
+0.154308 [mod=NOTIFY, lvl=INFO] [tid=426] connection opened for eRT.com.cisco.spvtg.ccsp.notifycomponent
+0.154510 [mod=NOTIFY, lvl=INFO] [tid=426] INFO: bus_handle: 0x0x854b7c0 
+1.155140 [mod=NOTIFY, lvl=INFO] [tid=426] CcspBaseIf_Register_Event_rbus : rbus_registerEvent called for event: currentSessionIDSignal
+1.161507 [mod=NOTIFY, lvl=INFO] [tid=426] rbuscore.c:755 Subscription for _rbus_session_mgr::currentSessionIDSignal is now active.
+
+1.161812 [mod=NOTIFY, lvl=NOTICE] [tid=426] ssp_engage 
+1.161919 [mod=NOTIFY, lvl=WARN] [tid=426] Register empty object : com.
+1.161949 [mod=NOTIFY, lvl=WARN] [tid=426] Register empty object : com.cisco.
+1.161983 [mod=NOTIFY, lvl=WARN] [tid=426] Register empty object : com.cisco.spvtg.
+1.162014 [mod=NOTIFY, lvl=WARN] [tid=426] Register empty object : com.cisco.spvtg.ccsp.
+1.162476 [mod=NOTIFY, lvl=WARN] [tid=426] DM Library module name = CCSP Base Data Model
+1.162910 [mod=NOTIFY, lvl=WARN] [tid=426] DM Library module name = COSA_TR181_USGv2
+1.163136 [mod=NOTIFY, lvl=WARN] [tid=426] Search for empty object in 'dslhCpeCheckEmptyObject'
+3.483696 [mod=NOTIFY, lvl=WARN] [tid=430] DslhObjcoValidate: SetNotifi_ParamName, bsUpdate = 3
+
+3.483711 [mod=NOTIFY, lvl=INFO] [tid=430]  
+ Notification : < NotifyComponent_SetParamStringValue : 189 > ParamName = Device.X_RDK_WanManager.Interface.1.MarkingNumberOfEntries,0,1,0,2 
+3.483727 [mod=NOTIFY, lvl=INFO] [tid=430]  
+ Notification : Msg Posted to queue
+3.483959 [mod=NOTIFY, lvl=INFO] [tid=438]  
+ Notification : Msg recieved from queue = Device.X_RDK_WanManager.Interface.1.MarkingNumberOfEntries,0,1,0,2
+3.483974 [mod=NOTIFY, lvl=INFO] [tid=438]  
+ Notification : Parameter Device.X_RDK_WanManager.Interface.1.MarkingNumberOfEntries not found in the list 
+3.483978 [mod=NOTIFY, lvl=INFO] [tid=438]  
+ Notification : Msg processed
+3.485016 [mod=NOTIFY, lvl=WARN] [tid=430] DslhObjcoValidate: SetNotifi_ParamName, bsUpdate = 3
+
+3.485023 [mod=NOTIFY, lvl=INFO] [tid=430]  
+ Notification : < NotifyComponent_SetParamStringValue : 189 > ParamName = Device.X_RDK_WanManager.Interface.1.MarkingNumberOfEntries,0,2,1,2 
+3.485046 [mod=NOTIFY, lvl=INFO] [tid=438]  
+ Notification : Msg recieved from queue = Device.X_RDK_WanManager.Interface.1.MarkingNumberOfEntries,0,2,1,2
+3.485054 [mod=NOTIFY, lvl=INFO] [tid=438]  
+ Notification : Parameter Device.X_RDK_WanManager.Interface.1.MarkingNumberOfEntries not found in the list 
+3.485062 [mod=NOTIFY, lvl=INFO] [tid=438]  
+ Notification : Msg processed
+3.485062 [mod=NOTIFY, lvl=INFO] [tid=430]  
+ Notification : Msg Posted to queue
+3.485973 [mod=NOTIFY, lvl=WARN] [tid=430] DslhObjcoValidate: SetNotifi_ParamName, bsUpdate = 3
+
+3.485996 [mod=NOTIFY, lvl=INFO] [tid=430]  
+ Notification : < NotifyComponent_SetParamStringValue : 189 > ParamName = Device.X_RDK_WanManager.Interface.1.MarkingNumberOfEntries,0,3,2,2 
+3.486015 [mod=NOTIFY, lvl=INFO] [tid=430]  
+ Notification : Msg Posted to queue
+3.486019 [mod=NOTIFY, lvl=INFO] [tid=438]  
+ Notification : Msg recieved from queue = Device.X_RDK_WanManager.Interface.1.MarkingNumberOfEntries,0,3,2,2
+3.486031 [mod=NOTIFY, lvl=INFO] [tid=438]  
+ Notification : Parameter Device.X_RDK_WanManager.Interface.1.MarkingNumberOfEntries not found in the list 
+3.486034 [mod=NOTIFY, lvl=INFO] [tid=438]  
+ Notification : Msg processed
+3.486965 [mod=NOTIFY, lvl=WARN] [tid=430] DslhObjcoValidate: SetNotifi_ParamName, bsUpdate = 3
+
+3.486977 [mod=NOTIFY, lvl=INFO] [tid=430]  
+ Notification : < NotifyComponent_SetParamStringValue : 189 > ParamName = Device.X_RDK_WanManager.Interface.1.MarkingNumberOfEntries,0,4,3,2 
+3.486988 [mod=NOTIFY, lvl=INFO] [tid=430]  
+ Notification : Msg Posted to queue
+3.486996 [mod=NOTIFY, lvl=INFO] [tid=438]  
+ Notification : Msg recieved from queue = Device.X_RDK_WanManager.Interface.1.MarkingNumberOfEntries,0,4,3,2
+3.487003 [mod=NOTIFY, lvl=INFO] [tid=438]  
+ Notification : Parameter Device.X_RDK_WanManager.Interface.1.MarkingNumberOfEntries not found in the list 
+3.487011 [mod=NOTIFY, lvl=INFO] [tid=438]  
+ Notification : Msg processed
+3.487938 [mod=NOTIFY, lvl=WARN] [tid=430] DslhObjcoValidate: SetNotifi_ParamName, bsUpdate = 3
+
+3.487946 [mod=NOTIFY, lvl=INFO] [tid=430]  
+ Notification : < NotifyComponent_SetParamStringValue : 189 > ParamName = Device.X_RDK_WanManager.Interface.1.MarkingNumberOfEntries,0,5,4,2 
+3.487961 [mod=NOTIFY, lvl=INFO] [tid=430]  
+ Notification : Msg Posted to queue
+3.487965 [mod=NOTIFY, lvl=INFO] [tid=438]  
+ Notification : Msg recieved from queue = Device.X_RDK_WanManager.Interface.1.MarkingNumberOfEntries,0,5,4,2
+3.487976 [mod=NOTIFY, lvl=INFO] [tid=438]  
+ Notification : Parameter Device.X_RDK_WanManager.Interface.1.MarkingNumberOfEntries not found in the list 
+3.487980 [mod=NOTIFY, lvl=INFO] [tid=438]  
+ Notification : Msg processed
+3.489075 [mod=NOTIFY, lvl=WARN] [tid=430] DslhObjcoValidate: SetNotifi_ParamName, bsUpdate = 3
+
+3.489082 [mod=NOTIFY, lvl=INFO] [tid=430]  
+ Notification : < NotifyComponent_SetParamStringValue : 189 > ParamName = Device.X_RDK_WanManager.Interface.1.MarkingNumberOfEntries,0,6,5,2 
+3.489098 [mod=NOTIFY, lvl=INFO] [tid=430]  
+ Notification : Msg Posted to queue
+3.489101 [mod=NOTIFY, lvl=INFO] [tid=438]  
+ Notification : Msg recieved from queue = Device.X_RDK_WanManager.Interface.1.MarkingNumberOfEntries,0,6,5,2
+3.489113 [mod=NOTIFY, lvl=INFO] [tid=438]  
+ Notification : Parameter Device.X_RDK_WanManager.Interface.1.MarkingNumberOfEntries not found in the list 
+3.489117 [mod=NOTIFY, lvl=INFO] [tid=438]  
+ Notification : Msg processed
+3.490192 [mod=NOTIFY, lvl=WARN] [tid=430] DslhObjcoValidate: SetNotifi_ParamName, bsUpdate = 3
+
+3.490204 [mod=NOTIFY, lvl=INFO] [tid=430]  
+ Notification : < NotifyComponent_SetParamStringValue : 189 > ParamName = Device.X_RDK_WanManager.Interface.1.MarkingNumberOfEntries,0,7,6,2 
+3.490215 [mod=NOTIFY, lvl=INFO] [tid=430]  
+ Notification : Msg Posted to queue
+3.490223 [mod=NOTIFY, lvl=INFO] [tid=438]  
+ Notification : Msg recieved from queue = Device.X_RDK_WanManager.Interface.1.MarkingNumberOfEntries,0,7,6,2
+3.490231 [mod=NOTIFY, lvl=INFO] [tid=438]  
+ Notification : Parameter Device.X_RDK_WanManager.Interface.1.MarkingNumberOfEntries not found in the list 
+3.490238 [mod=NOTIFY, lvl=INFO] [tid=438]  
+ Notification : Msg processed
+3.492264 [mod=NOTIFY, lvl=WARN] [tid=430] DslhObjcoValidate: SetNotifi_ParamName, bsUpdate = 3
+
+3.492275 [mod=NOTIFY, lvl=INFO] [tid=430]  
+ Notification : < NotifyComponent_SetParamStringValue : 189 > ParamName = Device.X_RDK_WanManager.Interface.1.MarkingNumberOfEntries,0,8,7,2 
+3.492287 [mod=NOTIFY, lvl=INFO] [tid=430]  
+ Notification : Msg Posted to queue
+3.492348 [mod=NOTIFY, lvl=INFO] [tid=438]  
+ Notification : Msg recieved from queue = Device.X_RDK_WanManager.Interface.1.MarkingNumberOfEntries,0,8,7,2
+3.492355 [mod=NOTIFY, lvl=INFO] [tid=438]  
+ Notification : Parameter Device.X_RDK_WanManager.Interface.1.MarkingNumberOfEntries not found in the list 
+3.492359 [mod=NOTIFY, lvl=INFO] [tid=438]  
+ Notification : Msg processed
+3.493286 [mod=NOTIFY, lvl=WARN] [tid=430] DslhObjcoValidate: SetNotifi_ParamName, bsUpdate = 3
+
+3.493294 [mod=NOTIFY, lvl=INFO] [tid=430]  
+ Notification : < NotifyComponent_SetParamStringValue : 189 > ParamName = Device.X_RDK_WanManager.Interface.1.MarkingNumberOfEntries,0,9,8,2 
+3.493309 [mod=NOTIFY, lvl=INFO] [tid=430]  
+ Notification : Msg Posted to queue
+3.493313 [mod=NOTIFY, lvl=INFO] [tid=438]  
+ Notification : Msg recieved from queue = Device.X_RDK_WanManager.Interface.1.MarkingNumberOfEntries,0,9,8,2
+3.493324 [mod=NOTIFY, lvl=INFO] [tid=438]  
+ Notification : Parameter Device.X_RDK_WanManager.Interface.1.MarkingNumberOfEntries not found in the list 
+3.493328 [mod=NOTIFY, lvl=INFO] [tid=438]  
+ Notification : Msg processed
+3.494781 [mod=NOTIFY, lvl=WARN] [tid=430] DslhObjcoValidate: SetNotifi_ParamName, bsUpdate = 3
+
+3.494793 [mod=NOTIFY, lvl=INFO] [tid=430]  
+ Notification : < NotifyComponent_SetParamStringValue : 189 > ParamName = Device.X_RDK_WanManager.Interface.1.MarkingNumberOfEntries,0,10,9,2 
+3.494808 [mod=NOTIFY, lvl=INFO] [tid=430]  
+ Notification : Msg Posted to queue
+3.494812 [mod=NOTIFY, lvl=INFO] [tid=438]  
+ Notification : Msg recieved from queue = Device.X_RDK_WanManager.Interface.1.MarkingNumberOfEntries,0,10,9,2
+3.494823 [mod=NOTIFY, lvl=INFO] [tid=438]  
+ Notification : Parameter Device.X_RDK_WanManager.Interface.1.MarkingNumberOfEntries not found in the list 
+3.494827 [mod=NOTIFY, lvl=INFO] [tid=438]  
+ Notification : Msg processed
+3.496044 [mod=NOTIFY, lvl=WARN] [tid=430] DslhObjcoValidate: SetNotifi_ParamName, bsUpdate = 3
+
+3.496052 [mod=NOTIFY, lvl=INFO] [tid=430]  
+ Notification : < NotifyComponent_SetParamStringValue : 189 > ParamName = Device.X_RDK_WanManager.Interface.1.MarkingNumberOfEntries,0,11,10,2 
+3.496067 [mod=NOTIFY, lvl=INFO] [tid=430]  
+ Notification : Msg Posted to queue
+3.496094 [mod=NOTIFY, lvl=INFO] [tid=438]  
+ Notification : Msg recieved from queue = Device.X_RDK_WanManager.Interface.1.MarkingNumberOfEntries,0,11,10,2
+3.496101 [mod=NOTIFY, lvl=INFO] [tid=438]  
+ Notification : Parameter Device.X_RDK_WanManager.Interface.1.MarkingNumberOfEntries not found in the list 
+3.496105 [mod=NOTIFY, lvl=INFO] [tid=438]  
+ Notification : Msg processed
+3.497486 [mod=NOTIFY, lvl=WARN] [tid=430] DslhObjcoValidate: SetNotifi_ParamName, bsUpdate = 3
+
+3.497494 [mod=NOTIFY, lvl=INFO] [tid=430]  
+ Notification : < NotifyComponent_SetParamStringValue : 189 > ParamName = Device.X_RDK_WanManager.Interface.1.MarkingNumberOfEntries,0,12,11,2 
+3.497509 [mod=NOTIFY, lvl=INFO] [tid=430]  
+ Notification : Msg Posted to queue
+3.497513 [mod=NOTIFY, lvl=INFO] [tid=438]  
+ Notification : Msg recieved from queue = Device.X_RDK_WanManager.Interface.1.MarkingNumberOfEntries,0,12,11,2
+3.497524 [mod=NOTIFY, lvl=INFO] [tid=438]  
+ Notification : Parameter Device.X_RDK_WanManager.Interface.1.MarkingNumberOfEntries not found in the list 
+3.497528 [mod=NOTIFY, lvl=INFO] [tid=438]  
+ Notification : Msg processed
+3.500381 [mod=NOTIFY, lvl=WARN] [tid=430] DslhObjcoValidate: SetNotifi_ParamName, bsUpdate = 3
+
+3.500393 [mod=NOTIFY, lvl=INFO] [tid=430]  
+ Notification : < NotifyComponent_SetParamStringValue : 189 > ParamName = Device.X_RDK_WanManager.Interface.1.MarkingNumberOfEntries,0,13,12,2 
+3.500404 [mod=NOTIFY, lvl=INFO] [tid=430]  
+ Notification : Msg Posted to queue
+3.500412 [mod=NOTIFY, lvl=INFO] [tid=438]  
+ Notification : Msg recieved from queue = Device.X_RDK_WanManager.Interface.1.MarkingNumberOfEntries,0,13,12,2
+3.500420 [mod=NOTIFY, lvl=INFO] [tid=438]  
+ Notification : Parameter Device.X_RDK_WanManager.Interface.1.MarkingNumberOfEntries not found in the list 
+3.500427 [mod=NOTIFY, lvl=INFO] [tid=438]  
+ Notification : Msg processed
+3.502945 [mod=NOTIFY, lvl=WARN] [tid=430] DslhObjcoValidate: SetNotifi_ParamName, bsUpdate = 3
+
+3.502956 [mod=NOTIFY, lvl=INFO] [tid=430]  
+ Notification : < NotifyComponent_SetParamStringValue : 189 > ParamName = Device.X_RDK_WanManager.Interface.1.MarkingNumberOfEntries,0,14,13,2 
+3.502972 [mod=NOTIFY, lvl=INFO] [tid=430]  
+ Notification : Msg Posted to queue
+3.502979 [mod=NOTIFY, lvl=INFO] [tid=438]  
+ Notification : Msg recieved from queue = Device.X_RDK_WanManager.Interface.1.MarkingNumberOfEntries,0,14,13,2
+3.502991 [mod=NOTIFY, lvl=INFO] [tid=438]  
+ Notification : Parameter Device.X_RDK_WanManager.Interface.1.MarkingNumberOfEntries not found in the list 
+3.502995 [mod=NOTIFY, lvl=INFO] [tid=438]  
+ Notification : Msg processed
+10.112236 [mod=NOTIFY, lvl=WARN] [tid=430] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+10.112251 [mod=NOTIFY, lvl=INFO] [tid=430]  
+ Notification : Parameter Device.IP.X_LGI-COM_ManagementIpInterface is added in the list by eRT.com.cisco.spvtg.ccsp.tr069pa 
+10.113628 [mod=NOTIFY, lvl=WARN] [tid=430] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+10.113640 [mod=NOTIFY, lvl=INFO] [tid=430]  
+ Notification : Parameter Device.IP.Interface.1.IPv4Address.1.IPAddress is added in the list by eRT.com.cisco.spvtg.ccsp.tr069pa 
+10.113796 [mod=NOTIFY, lvl=WARN] [tid=430] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+10.113804 [mod=NOTIFY, lvl=INFO] [tid=430]  
+ Notification : Parameter Device.IP.X_LGI-COM_ManagementIpInterface is added in the list by eRT.com.cisco.spvtg.ccsp.tr069pa 
+12.753304 [mod=NOTIFY, lvl=WARN] [tid=430] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+12.753319 [mod=NOTIFY, lvl=INFO] [tid=430]  
+ Notification : Parameter Device.DeviceInfo.X_RDKCENTRAL-COM_FirmwareDownloadStatus is added in the list by eRT.com.cisco.spvtg.ccsp.tr069pa 
+12.753754 [mod=NOTIFY, lvl=WARN] [tid=430] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+12.753765 [mod=NOTIFY, lvl=INFO] [tid=430]  
+ Notification : Parameter Device.DeviceInfo.ProvisioningCode is added in the list by eRT.com.cisco.spvtg.ccsp.tr069pa 
+12.754265 [mod=NOTIFY, lvl=WARN] [tid=430] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+12.754280 [mod=NOTIFY, lvl=INFO] [tid=430]  
+ Notification : Parameter Device.ManagementServer.ConnectionRequestURL is added in the list by eRT.com.cisco.spvtg.ccsp.tr069pa 
+12.754898 [mod=NOTIFY, lvl=WARN] [tid=430] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+12.754906 [mod=NOTIFY, lvl=INFO] [tid=430]  
+ Notification : Parameter Device.DeviceInfo.X_RDKCENTRAL-COM_FirmwareDownloadStatus is added in the list by eRT.com.cisco.spvtg.ccsp.tr069pa 
+13.602150 [mod=NOTIFY, lvl=WARN] [tid=430] DslhObjcoValidate: Notifi_ParamName, bsUpdate = 3
+
+13.602165 [mod=NOTIFY, lvl=INFO] [tid=430]  
+ Notification : Parameter Device.NotifyComponent.X_RDKCENTRAL-COM_Connected-Client is added in the list by eRT.com.cisco.spvtg.ccsp.meshagent 

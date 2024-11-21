@@ -1,0 +1,21 @@
+2.115864 [mod=VLANMANAGER, lvl=INFO] [tid=816] Connect to bus daemon...
+2.115990 [mod=VLANMANAGER, lvl=INFO] [tid=816] rbuscore.c:2340 RBus Enabled
+
+2.116020 [mod=VLANMANAGER, lvl=INFO] [tid=816] rbuscore.c:656 Broker address: unix:///tmp/rtrouted
+
+2.116299 [mod=VLANMANAGER, lvl=INFO] [tid=816] connection opened for eRT.com.cisco.spvtg.ccsp.vlanmanager
+2.116367 [mod=VLANMANAGER, lvl=INFO] [tid=816] INFO: bus_handle: 0x 946c6b0 
+3.117043 [mod=VLANMANAGER, lvl=INFO] [tid=816] CcspBaseIf_Register_Event_rbus : rbus_registerEvent called for event: currentSessionIDSignal
+3.117268 [mod=VLANMANAGER, lvl=INFO] [tid=816] rbuscore.c:755 Subscription for _rbus_session_mgr::currentSessionIDSignal is now active.
+
+3.117382 [mod=VLANMANAGER, lvl=WARN] [tid=816] Register empty object : com.
+3.117393 [mod=VLANMANAGER, lvl=WARN] [tid=816] Register empty object : com.cisco.
+3.117401 [mod=VLANMANAGER, lvl=WARN] [tid=816] Register empty object : com.cisco.spvtg.
+3.117409 [mod=VLANMANAGER, lvl=WARN] [tid=816] Register empty object : com.cisco.spvtg.ccsp.
+3.117519 [mod=VLANMANAGER, lvl=WARN] [tid=816] DM Library module name = CCSP Base Data Model
+3.117538 [mod=VLANMANAGER, lvl=WARN] [tid=816] BackEndManagerInitialize...
+3.119141 [mod=VLANMANAGER, lvl=WARN] [tid=816]   VlanCreate done!
+3.120548 [mod=VLANMANAGER, lvl=WARN] [tid=816]   EthernetCreate done!
+3.120644 [mod=VLANMANAGER, lvl=DEBUG] [tid=816] 'unsignedInt[1:7]' UINT range [1:7]
+3.120735 [mod=VLANMANAGER, lvl=WARN] [tid=816] DM Library module name = COSA_TR181_RdkVlanManager
+3.121277 [mod=VLANMANAGER, lvl=WARN] [tid=816] Search for empty object in 'dslhCpeCheckEmptyObject'

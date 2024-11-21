@@ -1,0 +1,92 @@
+10.147575 [mod=GWPROV, lvl=INFO] [tid=535] Dump of TLV buffer : 
+10.147606 [mod=GWPROV, lvl=INFO] [tid=535] 0x1 
+10.147610 [mod=GWPROV, lvl=INFO] [tid=535] 0x1 
+10.147617 [mod=GWPROV, lvl=INFO] [tid=535] 0x3 
+10.147621 [mod=GWPROV, lvl=INFO] [tid=535] 0x2 
+10.147625 [mod=GWPROV, lvl=INFO] [tid=535] 0x48 
+10.147629 [mod=GWPROV, lvl=INFO] [tid=535] 0x1 
+10.147633 [mod=GWPROV, lvl=INFO] [tid=535] 0x1 
+10.147636 [mod=GWPROV, lvl=INFO] [tid=535] 0x1 
+10.147640 [mod=GWPROV, lvl=INFO] [tid=535] 0x2 
+10.147644 [mod=GWPROV, lvl=INFO] [tid=535] 0x32 
+10.147648 [mod=GWPROV, lvl=INFO] [tid=535] 0x68 
+10.147652 [mod=GWPROV, lvl=INFO] [tid=535] 0x74 
+10.147655 [mod=GWPROV, lvl=INFO] [tid=535] 0x74 
+10.147663 [mod=GWPROV, lvl=INFO] [tid=535] 0x70 
+10.147667 [mod=GWPROV, lvl=INFO] [tid=535] 0x3a 
+10.147671 [mod=GWPROV, lvl=INFO] [tid=535] 0x2f 
+10.147675 [mod=GWPROV, lvl=INFO] [tid=535] 0x2f 
+10.147678 [mod=GWPROV, lvl=INFO] [tid=535] 0x5b 
+10.147682 [mod=GWPROV, lvl=INFO] [tid=535] 0x32 
+10.147686 [mod=GWPROV, lvl=INFO] [tid=535] 0x30 
+10.147690 [mod=GWPROV, lvl=INFO] [tid=535] 0x30 
+10.147694 [mod=GWPROV, lvl=INFO] [tid=535] 0x31 
+10.147697 [mod=GWPROV, lvl=INFO] [tid=535] 0x3a 
+10.147701 [mod=GWPROV, lvl=INFO] [tid=535] 0x64 
+10.147705 [mod=GWPROV, lvl=INFO] [tid=535] 0x65 
+10.147709 [mod=GWPROV, lvl=INFO] [tid=535] 0x61 
+10.147713 [mod=GWPROV, lvl=INFO] [tid=535] 0x64 
+10.147717 [mod=GWPROV, lvl=INFO] [tid=535] 0x3a 
+10.147724 [mod=GWPROV, lvl=INFO] [tid=535] 0x62 
+10.147728 [mod=GWPROV, lvl=INFO] [tid=535] 0x65 
+10.147732 [mod=GWPROV, lvl=INFO] [tid=535] 0x65 
+10.147736 [mod=GWPROV, lvl=INFO] [tid=535] 0x66 
+10.147739 [mod=GWPROV, lvl=INFO] [tid=535] 0x3a 
+10.147743 [mod=GWPROV, lvl=INFO] [tid=535] 0x31 
+10.147747 [mod=GWPROV, lvl=INFO] [tid=535] 0x3a 
+10.147751 [mod=GWPROV, lvl=INFO] [tid=535] 0x35 
+10.147755 [mod=GWPROV, lvl=INFO] [tid=535] 0x36 
+10.147758 [mod=GWPROV, lvl=INFO] [tid=535] 0x65 
+10.147762 [mod=GWPROV, lvl=INFO] [tid=535] 0x65 
+10.147766 [mod=GWPROV, lvl=INFO] [tid=535] 0x3a 
+10.147770 [mod=GWPROV, lvl=INFO] [tid=535] 0x37 
+10.147774 [mod=GWPROV, lvl=INFO] [tid=535] 0x35 
+10.147778 [mod=GWPROV, lvl=INFO] [tid=535] 0x66 
+10.147781 [mod=GWPROV, lvl=INFO] [tid=535] 0x66 
+10.147789 [mod=GWPROV, lvl=INFO] [tid=535] 0x3a 
+10.147793 [mod=GWPROV, lvl=INFO] [tid=535] 0x66 
+10.147797 [mod=GWPROV, lvl=INFO] [tid=535] 0x65 
+10.147800 [mod=GWPROV, lvl=INFO] [tid=535] 0x34 
+10.147804 [mod=GWPROV, lvl=INFO] [tid=535] 0x34 
+10.147808 [mod=GWPROV, lvl=INFO] [tid=535] 0x3a 
+10.147812 [mod=GWPROV, lvl=INFO] [tid=535] 0x64 
+10.147816 [mod=GWPROV, lvl=INFO] [tid=535] 0x34 
+10.147820 [mod=GWPROV, lvl=INFO] [tid=535] 0x35 
+10.147823 [mod=GWPROV, lvl=INFO] [tid=535] 0x37 
+10.147827 [mod=GWPROV, lvl=INFO] [tid=535] 0x5d 
+10.147831 [mod=GWPROV, lvl=INFO] [tid=535] 0x3a 
+10.147835 [mod=GWPROV, lvl=INFO] [tid=535] 0x39 
+10.147839 [mod=GWPROV, lvl=INFO] [tid=535] 0x36 
+10.147842 [mod=GWPROV, lvl=INFO] [tid=535] 0x37 
+10.147850 [mod=GWPROV, lvl=INFO] [tid=535] 0x35 
+10.147854 [mod=GWPROV, lvl=INFO] [tid=535] 0x3 
+10.147858 [mod=GWPROV, lvl=INFO] [tid=535] 0x5 
+10.147861 [mod=GWPROV, lvl=INFO] [tid=535] 0x74 
+10.147865 [mod=GWPROV, lvl=INFO] [tid=535] 0x72 
+10.147869 [mod=GWPROV, lvl=INFO] [tid=535] 0x30 
+10.147873 [mod=GWPROV, lvl=INFO] [tid=535] 0x36 
+10.147877 [mod=GWPROV, lvl=INFO] [tid=535] 0x39 
+10.147884 [mod=GWPROV, lvl=INFO] [tid=535] 0x4 
+10.147888 [mod=GWPROV, lvl=INFO] [tid=535] 0x5 
+10.147892 [mod=GWPROV, lvl=INFO] [tid=535] 0x74 
+10.147896 [mod=GWPROV, lvl=INFO] [tid=535] 0x72 
+10.147900 [mod=GWPROV, lvl=INFO] [tid=535] 0x30 
+10.147903 [mod=GWPROV, lvl=INFO] [tid=535] 0x36 
+10.147907 [mod=GWPROV, lvl=INFO] [tid=535] 0x39 
+10.147911 [mod=GWPROV, lvl=INFO] [tid=535] 0x7 
+10.147915 [mod=GWPROV, lvl=INFO] [tid=535] 0x1 
+10.147919 [mod=GWPROV, lvl=INFO] [tid=535] 0x1 
+10.147923 [mod=GWPROV, lvl=INFO] [tid=535] Router TLV 0: Type   1(01) Len   1
+10.147930 [mod=GWPROV, lvl=INFO] [tid=535] er_init_mode 3
+10.148018 [mod=GWPROV, lvl=INFO] [tid=535] Set cfgFileRouterMode : 3 
+10.148026 [mod=GWPROV, lvl=INFO] [tid=535] Router TLV 1: Type   2(02) Len  72
+10.148029 [mod=GWPROV, lvl=INFO] [tid=535]  0: Tag   1 Len   1
+10.148033 [mod=GWPROV, lvl=INFO] [tid=535] er_enable_cwmp 1
+10.220543 [mod=GWPROV, lvl=INFO] [tid=535]  1: Tag   7 Len   1
+10.220558 [mod=GWPROV, lvl=INFO] [tid=535] er_acs_override 1
+10.242401 [mod=GWPROV, lvl=INFO] [tid=535]  2: Tag   2 Len  50
+10.242416 [mod=GWPROV, lvl=INFO] [tid=535] er_url (http://[2001:dead:beef:1:56ee:75ff:fe44:d457]:9675)(50)
+10.273777 [mod=GWPROV, lvl=INFO] [tid=535]  3: Tag   3 Len   5
+10.273796 [mod=GWPROV, lvl=INFO] [tid=535] er_username tr069
+10.303802 [mod=GWPROV, lvl=INFO] [tid=535]  4: Tag   4 Len   5
+10.303822 [mod=GWPROV, lvl=INFO] [tid=535] er_password tr069

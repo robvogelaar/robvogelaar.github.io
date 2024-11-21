@@ -1,0 +1,91 @@
+Nov 21 00:15:33 mv1-r21-7 daemon.info dnsmasq[665]: started, version 2.87 cachesize 150
+Nov 21 00:15:33 mv1-r21-7 daemon.info dnsmasq[665]: compile time options: IPv6 GNU-getopt no-DBus no-UBus no-i18n no-IDN DHCP DHCPv6 no-Lua no-TFTP no-conntrack ipset no-nftset auth no-cryptohash no-DNSSEC loop-detect inotify dumpfile
+Nov 21 00:15:33 mv1-r21-7 daemon.info dnsmasq-dhcp[665]: DHCP, IP range 169.254.1.3 -- 169.254.1.254, lease time infinite
+Nov 21 00:15:33 mv1-r21-7 daemon.info dnsmasq-dhcp[665]: DHCP, IP range 169.254.0.3 -- 169.254.0.254, lease time infinite
+Nov 21 00:15:33 mv1-r21-7 daemon.info dnsmasq-dhcp[665]: DHCP, IP range 192.168.0.10 -- 192.168.0.254, lease time 2m
+Nov 21 00:15:33 mv1-r21-7 daemon.info dnsmasq[665]: using only locally-known addresses for c.f.ip6.arpa
+Nov 21 00:15:33 mv1-r21-7 daemon.info dnsmasq[665]: reading /etc/resolv.conf
+Nov 21 00:15:33 mv1-r21-7 daemon.info dnsmasq[665]: using nameserver 10.107.201.1#53
+Nov 21 00:15:33 mv1-r21-7 daemon.info dnsmasq[665]: using nameserver 8.8.8.8#53
+Nov 21 00:15:33 mv1-r21-7 daemon.info dnsmasq[665]: using only locally-known addresses for c.f.ip6.arpa
+Nov 21 00:15:33 mv1-r21-7 daemon.info dnsmasq[665]: read /etc/hosts - 9 addresses
+Nov 21 00:15:33 mv1-r21-7 daemon.info dnsmasq-dhcp[665]: read /etc/dhcp_static_hosts
+Nov 21 00:15:33 mv1-r21-7 daemon.info dnsmasq-dhcp[665]: read /var/dhcp_options
+Nov 21 00:15:33 mv1-r21-7 daemon.info dnsmasq[665]: read /etc/hosts - 9 addresses
+Nov 21 00:15:33 mv1-r21-7 daemon.info dnsmasq-dhcp[665]: read /etc/dhcp_static_hosts
+Nov 21 00:15:33 mv1-r21-7 daemon.info dnsmasq-dhcp[665]: read /var/dhcp_options
+Nov 21 00:15:35 mv1-r21-7 daemon.info dnsmasq[665]: exiting on receipt of SIGTERM
+Nov 21 00:15:36 mv1-r21-7 daemon.info dnsmasq[1001]: started, version 2.87 cachesize 150
+Nov 21 00:15:36 mv1-r21-7 daemon.info dnsmasq[1001]: compile time options: IPv6 GNU-getopt no-DBus no-UBus no-i18n no-IDN DHCP DHCPv6 no-Lua no-TFTP no-conntrack ipset no-nftset auth no-cryptohash no-DNSSEC loop-detect inotify dumpfile
+Nov 21 00:15:36 mv1-r21-7 daemon.info dnsmasq-dhcp[1001]: DHCP, IP range 169.254.1.3 -- 169.254.1.254, lease time infinite
+Nov 21 00:15:36 mv1-r21-7 daemon.info dnsmasq-dhcp[1001]: DHCP, IP range 169.254.0.3 -- 169.254.0.254, lease time infinite
+Nov 21 00:15:36 mv1-r21-7 daemon.info dnsmasq-dhcp[1001]: DHCP, IP range 192.168.1.100 -- 192.168.1.150, lease time 2m
+Nov 21 00:15:36 mv1-r21-7 daemon.info dnsmasq-dhcp[1001]: DHCP, IP range 192.168.0.10 -- 192.168.0.254, lease time 2m
+Nov 21 00:15:36 mv1-r21-7 daemon.info dnsmasq[1001]: using only locally-known addresses for c.f.ip6.arpa
+Nov 21 00:15:36 mv1-r21-7 daemon.info dnsmasq[1001]: reading /etc/resolv.conf
+Nov 21 00:15:36 mv1-r21-7 daemon.info dnsmasq[1001]: using nameserver 10.107.201.1#53
+Nov 21 00:15:36 mv1-r21-7 daemon.info dnsmasq[1001]: using nameserver 8.8.8.8#53
+Nov 21 00:15:36 mv1-r21-7 daemon.info dnsmasq[1001]: using only locally-known addresses for c.f.ip6.arpa
+Nov 21 00:15:36 mv1-r21-7 daemon.info dnsmasq[1001]: read /etc/hosts - 9 addresses
+Nov 21 00:15:36 mv1-r21-7 daemon.info dnsmasq-dhcp[1001]: read /etc/dhcp_static_hosts
+Nov 21 00:15:36 mv1-r21-7 daemon.info dnsmasq-dhcp[1001]: read /var/dhcp_options
+Nov 21 00:15:41 mv1-r21-7 daemon.info udhcpc[1156]: started, v1.32.1
+Nov 21 00:15:41 mv1-r21-7 daemon.info udhcpc[1156]: executing /etc/udhcpc.script deconfig
+Nov 21 00:15:41 mv1-r21-7 daemon.info udhcpc[1156]: entering listen mode: raw
+Nov 21 00:15:41 mv1-r21-7 daemon.info udhcpc[1156]: created raw socket
+Nov 21 00:15:41 mv1-r21-7 daemon.info udhcpc[1156]: sending discover
+Nov 21 00:15:41 mv1-r21-7 daemon.info udhcpc[1156]: waiting 3 seconds
+Nov 21 00:15:41 mv1-r21-7 daemon.info udhcpc[1156]: received a packet
+Nov 21 00:15:41 mv1-r21-7 daemon.info udhcpc[1156]: sending select for 10.107.200.106
+Nov 21 00:15:41 mv1-r21-7 daemon.info udhcpc[1156]: waiting 3 seconds
+Nov 21 00:15:41 mv1-r21-7 daemon.info udhcpc[1156]: received a packet
+Nov 21 00:15:41 mv1-r21-7 daemon.info udhcpc[1156]: lease of 10.107.200.106 obtained, lease time 3600
+Nov 21 00:15:41 mv1-r21-7 daemon.info udhcpc[1156]: executing /etc/udhcpc.script bound
+Nov 21 00:15:42 mv1-r21-7 daemon.info dnsmasq[1001]: reading /etc/resolv.conf
+Nov 21 00:15:42 mv1-r21-7 daemon.info dnsmasq[1001]: using nameserver 10.107.201.1#53
+Nov 21 00:15:42 mv1-r21-7 daemon.info dnsmasq[1001]: using nameserver 8.8.8.8#53
+Nov 21 00:15:42 mv1-r21-7 daemon.info dnsmasq[1001]: using only locally-known addresses for c.f.ip6.arpa
+Nov 21 00:15:42 mv1-r21-7 daemon.info dnsmasq[1001]: reading /etc/resolv.conf
+Nov 21 00:15:42 mv1-r21-7 daemon.info dnsmasq[1001]: using nameserver 10.107.200.1#53
+Nov 21 00:15:42 mv1-r21-7 daemon.info dnsmasq[1001]: using nameserver 8.8.8.8#53
+Nov 21 00:15:42 mv1-r21-7 daemon.info dnsmasq[1001]: using nameserver 10.107.201.1#53
+Nov 21 00:15:42 mv1-r21-7 daemon.info dnsmasq[1001]: using only locally-known addresses for c.f.ip6.arpa
+Nov 21 00:15:42 mv1-r21-7 daemon.info udhcpc[1156]: entering listen mode: none
+Nov 21 00:15:42 mv1-r21-7 daemon.info udhcpc[1258]: waiting 1800 seconds
+Nov 21 00:15:42 mv1-r21-7 daemon.info dnsmasq[1001]: exiting on receipt of SIGTERM
+Nov 21 00:15:43 mv1-r21-7 daemon.info dnsmasq[1484]: started, version 2.87 cachesize 150
+Nov 21 00:15:43 mv1-r21-7 daemon.info dnsmasq[1484]: compile time options: IPv6 GNU-getopt no-DBus no-UBus no-i18n no-IDN DHCP DHCPv6 no-Lua no-TFTP no-conntrack ipset no-nftset auth no-cryptohash no-DNSSEC loop-detect inotify dumpfile
+Nov 21 00:15:43 mv1-r21-7 daemon.info dnsmasq-dhcp[1484]: DHCP, IP range 169.254.1.3 -- 169.254.1.254, lease time infinite
+Nov 21 00:15:43 mv1-r21-7 daemon.info dnsmasq-dhcp[1484]: DHCP, IP range 169.254.0.3 -- 169.254.0.254, lease time infinite
+Nov 21 00:15:43 mv1-r21-7 daemon.info dnsmasq-dhcp[1484]: DHCP, IP range 192.168.1.100 -- 192.168.1.150, lease time 1d
+Nov 21 00:15:43 mv1-r21-7 daemon.info dnsmasq[1484]: using only locally-known addresses for c.f.ip6.arpa
+Nov 21 00:15:43 mv1-r21-7 daemon.info dnsmasq[1484]: reading /etc/resolv.conf
+Nov 21 00:15:43 mv1-r21-7 daemon.info dnsmasq[1484]: using nameserver 10.107.200.1#53
+Nov 21 00:15:43 mv1-r21-7 daemon.info dnsmasq[1484]: using nameserver 8.8.8.8#53
+Nov 21 00:15:43 mv1-r21-7 daemon.info dnsmasq[1484]: using nameserver 10.107.201.1#53
+Nov 21 00:15:43 mv1-r21-7 daemon.info dnsmasq[1484]: using only locally-known addresses for c.f.ip6.arpa
+Nov 21 00:15:43 mv1-r21-7 daemon.info dnsmasq[1484]: read /etc/hosts - 9 addresses
+Nov 21 00:15:43 mv1-r21-7 daemon.info dnsmasq-dhcp[1484]: read /etc/dhcp_static_hosts
+Nov 21 00:15:43 mv1-r21-7 daemon.info dnsmasq-dhcp[1484]: read /var/dhcp_options
+Nov 21 00:15:43 mv1-r21-7 daemon.info dnsmasq[1484]: exiting on receipt of SIGTERM
+Nov 21 00:15:44 mv1-r21-7 daemon.info dnsmasq[1521]: started, version 2.87 cachesize 150
+Nov 21 00:15:44 mv1-r21-7 daemon.info dnsmasq[1521]: compile time options: IPv6 GNU-getopt no-DBus no-UBus no-i18n no-IDN DHCP DHCPv6 no-Lua no-TFTP no-conntrack ipset no-nftset auth no-cryptohash no-DNSSEC loop-detect inotify dumpfile
+Nov 21 00:15:44 mv1-r21-7 daemon.info dnsmasq-dhcp[1521]: DHCP, IP range 169.254.1.3 -- 169.254.1.254, lease time infinite
+Nov 21 00:15:44 mv1-r21-7 daemon.info dnsmasq-dhcp[1521]: DHCP, IP range 169.254.0.3 -- 169.254.0.254, lease time infinite
+Nov 21 00:15:44 mv1-r21-7 daemon.info dnsmasq-dhcp[1521]: DHCP, IP range 192.168.1.100 -- 192.168.1.150, lease time 1d
+Nov 21 00:15:44 mv1-r21-7 daemon.info dnsmasq-dhcp[1521]: DHCP, IP range 192.168.0.10 -- 192.168.0.254, lease time 1d
+Nov 21 00:15:44 mv1-r21-7 daemon.info dnsmasq[1521]: using only locally-known addresses for c.f.ip6.arpa
+Nov 21 00:15:44 mv1-r21-7 daemon.info dnsmasq[1521]: reading /etc/resolv.conf
+Nov 21 00:15:44 mv1-r21-7 daemon.info dnsmasq[1521]: using nameserver 10.107.200.1#53
+Nov 21 00:15:44 mv1-r21-7 daemon.info dnsmasq[1521]: using nameserver 8.8.8.8#53
+Nov 21 00:15:44 mv1-r21-7 daemon.info dnsmasq[1521]: using nameserver 10.107.201.1#53
+Nov 21 00:15:44 mv1-r21-7 daemon.info dnsmasq[1521]: using only locally-known addresses for c.f.ip6.arpa
+Nov 21 00:15:44 mv1-r21-7 daemon.info dnsmasq[1521]: read /etc/hosts - 9 addresses
+Nov 21 00:15:44 mv1-r21-7 daemon.info dnsmasq-dhcp[1521]: read /etc/dhcp_static_hosts
+Nov 21 00:15:44 mv1-r21-7 daemon.info dnsmasq-dhcp[1521]: read /var/dhcp_options
+Nov 21 00:15:46 mv1-r21-7 daemon.info dnsmasq[1521]: reading /etc/resolv.conf
+Nov 21 00:15:46 mv1-r21-7 daemon.info dnsmasq[1521]: using nameserver 2001:dae:7:1::129#53
+Nov 21 00:15:46 mv1-r21-7 daemon.info dnsmasq[1521]: using nameserver 10.107.200.1#53
+Nov 21 00:15:46 mv1-r21-7 daemon.info dnsmasq[1521]: using nameserver 8.8.8.8#53
+Nov 21 00:15:46 mv1-r21-7 daemon.info dnsmasq[1521]: using nameserver 10.107.201.1#53
+Nov 21 00:15:46 mv1-r21-7 daemon.info dnsmasq[1521]: using only locally-known addresses for c.f.ip6.arpa

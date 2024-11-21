@@ -1,0 +1,67 @@
+[INFO] [241121-00:15:36]: Starting to handle migration
+[INFO] [241121-00:15:36]: Getting prev and curr version of SW
+[INFO] [241121-00:15:36]: Retrieving prev version
+[INFO] [241121-00:15:36]: Reading the file - /nvram/previous_version.txt
+[ERROR] [241121-00:15:36]: Can't open file - /nvram/previous_version.txt!
+[INFO] [241121-00:15:36]: Retrieving curr version
+[INFO] [241121-00:15:36]: Reading the file - /etc/sagemcom_info
+[INFO] [241121-00:15:36]: Getting size of the file - /etc/sagemcom_info
+[DEBUG] [241121-00:15:36]: Size of /etc/sagemcom_info is 70
+[INFO] [241121-00:15:36]: File has been read successfuly
+[INFO] [241121-00:15:36]: Trying to get version from file - /etc/sagemcom_info
+[INFO] [241121-00:15:36]: Version has been retrieved successfuly
+[DEBUG] [241121-00:15:36]: Version - [10.9.3]
+[DEBUG] [241121-00:15:36]: Current ver: 10.9.3 | Prev ver: 0.0.0
+[INFO] [241121-00:15:36]: Checking if migration is needed
+[INFO] [241121-00:15:36]: Comparing versions
+[DEBUG] [241121-00:15:36]: V1 - 000.000.000 | V2 - 010.009.003
+[NOTICE] [241121-00:15:36]: Migration handling is NEEDED
+[INFO] [241121-00:15:36]: Trying to parse cfg
+[INFO] [241121-00:15:36]: Parsing cfg from the file - /etc/migration_cfg.json
+[INFO] [241121-00:15:36]: Parsing json from file - /etc/migration_cfg.json
+[INFO] [241121-00:15:36]: Reading the file - /etc/migration_cfg.json
+[INFO] [241121-00:15:36]: Getting size of the file - /etc/migration_cfg.json
+[DEBUG] [241121-00:15:36]: Size of /etc/migration_cfg.json is 494
+[INFO] [241121-00:15:36]: File has been read successfuly
+[INFO] [241121-00:15:36]: JSON has been parced successfuly
+[DEBUG] [241121-00:15:36]: Trying to parse-th 0 migration item
+[INFO] [241121-00:15:36]: Parsing version obj of migration from cfg
+[DEBUG] [241121-00:15:36]: Version[9.0.1] has been parced successfully
+[INFO] [241121-00:15:36]: Parsing storage array of migration from cfg
+[DEBUG] [241121-00:15:36]: Parcing 0-th storage object
+[INFO] [241121-00:15:36]: Parsing storage obj from cfg
+[INFO] [241121-00:15:36]: Parsing type of storage obj
+[INFO] [241121-00:15:36]: Parsing params array of storage obj
+[DEBUG] [241121-00:15:36]: Parsing params[0]
+[INFO] [241121-00:15:36]: Parsing param obj from cfg
+[INFO] [241121-00:15:36]: Parsing param name from obj
+[INFO] [241121-00:15:36]: Parsing param value from obj
+[INFO] [241121-00:15:36]: Parsing param cid from obj
+[DEBUG] [241121-00:15:36]: Parsing param obj[Name:NatAlgSupported - Value:582 - CID:0 - Restore Def:0] - success
+[DEBUG] [241121-00:15:36]: Parsing params[0] - success
+[INFO] [241121-00:15:36]: Storage obj has been parced successfuly
+[DEBUG] [241121-00:15:36]: Parcing 0-th storage object - success
+[INFO] [241121-00:15:36]: Parsing storage array has been done successfuly
+[DEBUG] [241121-00:15:36]: Trying to parse 0-th migration item - success
+[INFO] [241121-00:15:36]: Parsing has been completed
+[DEBUG] [241121-00:15:36]: Number of migrations - 1
+[DEBUG] [241121-00:15:36]: Processin migration[0] of version - 9.0.1
+[INFO] [241121-00:15:36]: Checking version validity
+[INFO] [241121-00:15:36]: Comparing versions
+[DEBUG] [241121-00:15:36]: V1 - 009.000.001 | V2 - 000.000.000
+[INFO] [241121-00:15:36]: Handling scripts
+[DEBUG] [241121-00:15:36]: Number of scripts to handle - 0
+[ERROR] [241121-00:15:36]: There are no scripts to handle
+[INFO] [241121-00:15:36]: Handling storages
+[DEBUG] [241121-00:15:36]: Number of storages to handle - 1
+[DEBUG] [241121-00:15:36]: Starting to handle storage[0]
+[INFO] [241121-00:15:36]: Begin handling storage
+[INFO] [241121-00:15:36]: Getting utopia default params
+[INFO] [241121-00:15:36]: Reading the file - /etc/utopia/system_defaults
+[INFO] [241121-00:15:36]: Getting size of the file - /etc/utopia/system_defaults
+[DEBUG] [241121-00:15:36]: Size of /etc/utopia/system_defaults is 50929
+[INFO] [241121-00:15:36]: File has been read successfuly
+[DEBUG] [241121-00:15:36]: Retrieving customer ID from PP
+[INFO] [241121-00:15:36]: Reading the file - /nvram/sagemCmCustomerId
+[ERROR] [241121-00:15:36]: Can't open file - /nvram/sagemCmCustomerId!
+[ERROR] [241121-00:15:36]: Can't read /nvram/sagemCmCustomerId

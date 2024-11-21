@@ -1,0 +1,40 @@
+[INFO] [241121-00:15:56]: Handling scripts
+[DEBUG] [241121-00:15:56]: Number of scripts to handle - 1
+[DEBUG] [241121-00:15:56]: Handling script - mv /opt/secure/telcovoice_config_current.json /opt/secure/telcovoice_config_current_v2.json
+[INFO] [241121-00:15:56]: All scripts have been handled successfully
+[INFO] [241121-00:15:56]: Handling storages
+[DEBUG] [241121-00:15:56]: Number of storages to handle - 2
+[DEBUG] [241121-00:15:56]: Starting to handle storage[0]
+[INFO] [241121-00:15:56]: Begin handling storage
+[INFO] [241121-00:15:56]: Getting utopia default params
+[INFO] [241121-00:15:56]: Reading the file - /etc/utopia/system_defaults
+[INFO] [241121-00:15:56]: Getting size of the file - /etc/utopia/system_defaults
+[DEBUG] [241121-00:15:56]: Size of /etc/utopia/system_defaults is 50830
+[INFO] [241121-00:15:56]: File has been read successfuly
+[DEBUG] [241121-00:15:56]: Retrieving customer ID from PP
+[INFO] [241121-00:15:56]: Reading the file - /etc/utopia/defaults/lg_syscfg_cust_9.db
+[INFO] [241121-00:15:56]: Getting size of the file - /etc/utopia/defaults/lg_syscfg_cust_9.db
+[DEBUG] [241121-00:15:56]: Size of /etc/utopia/defaults/lg_syscfg_cust_9.db is 621
+[INFO] [241121-00:15:56]: File has been read successfuly
+[DEBUG] [241121-00:15:56]: Param count - 1
+[WARN] [241121-00:15:56]: Could not retrive default value for param [led_brightness]. Skipped!
+[INFO] [241121-00:15:56]: All default params have been retrieved successfuly
+[INFO] [241121-00:15:56]: Setting utopia params
+[DEBUG] [241121-00:15:57]: Retrieving customer ID from PP
+[INFO] [241121-00:15:57]: Reading the file - /nvram/syscfg.db
+[INFO] [241121-00:15:57]: Getting size of the file - /nvram/syscfg.db
+[DEBUG] [241121-00:15:57]: Size of /nvram/syscfg.db is 27902
+[INFO] [241121-00:15:57]: File has been read successfuly
+[DEBUG] [241121-00:15:57]: Param count - 1
+[DEBUG] [241121-00:15:57]: Param [led_brightness] has been removed from current config successfuly!
+[INFO] [241121-00:15:57]: Writing into the file - /nvram/syscfg.db
+[DEBUG] [241121-00:15:57]: Content's size - 27884!
+[INFO] [241121-00:15:57]: File has been writen successfuly
+[INFO] [241121-00:15:57]: All params have been set successfuly
+[INFO] [241121-00:15:57]: Storage has been successfuly handled
+[DEBUG] [241121-00:15:57]: Starting to handle storage[1]
+[INFO] [241121-00:15:57]: Begin handling storage
+[INFO] [241121-00:15:57]: Getting voice default params
+[DEBUG] [241121-00:15:57]: Retrieving customer ID from PP
+[INFO] [241121-00:15:57]: Reading the file - /usr/rdk/voicemanager/telcovoice_config_default.json
+[ERROR] [241121-00:15:57]: Can't open file - /usr/rdk/voicemanager/telcovoice_config_default.json!

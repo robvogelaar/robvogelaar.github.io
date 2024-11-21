@@ -1,0 +1,5 @@
+241121-00:15:52.201610 SERVICE_NTPD : End of shell script
+241121-00:15:53.034107 SERVICE_NTPD : ntpd-restart called
+241121-00:15:53.157280 SERVICE_NTPD : End of shell script
+241121-00:15:53.262506 SERVICE_NTPD : wan-status calling service_start
+241121-00:15:53.322524 SERVICE_NTPD : End of shell script

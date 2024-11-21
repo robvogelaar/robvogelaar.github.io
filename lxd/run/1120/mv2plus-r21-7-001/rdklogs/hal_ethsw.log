@@ -1,0 +1,33 @@
+GWP_RegisterEthWan_Callback - Registered callbacks
+CcspHalExtSw_getAssociatedDevice - port 1: mac address is 00:11:22:33:44:55 link up
+CcspHalExtSw_getAssociatedDevice - port 1: mac address is 00:11:22:33:44:56 link up
+CcspHalExtSw_getAssociatedDevice - port 1: mac address is 00:11:22:33:44:57 link up
+ethsw_thread_main - entered ethsw_thread_main - checking eth0 up/down
+CcspHalExtSw_getAssociatedDevice - port 1: mac address is 00:11:22:33:44:55 link up
+CcspHalExtSw_getAssociatedDevice - port 1: mac address is 00:11:22:33:44:56 link up
+CcspHalExtSw_getAssociatedDevice - port 1: mac address is 00:11:22:33:44:57 link up
+CcspHalExtSw_getAssociatedDevice - port 1: mac address is 00:11:22:33:44:55 link up
+CcspHalExtSw_getAssociatedDevice - port 1: mac address is 00:11:22:33:44:56 link up
+CcspHalExtSw_getAssociatedDevice - port 1: mac address is 00:11:22:33:44:57 link up
+CcspHalExtSw_getAssociatedDevice - port 1: mac address is 00:11:22:33:44:55 link up
+CcspHalExtSw_getAssociatedDevice - port 1: mac address is 00:11:22:33:44:56 link up
+CcspHalExtSw_getAssociatedDevice - port 1: mac address is 00:11:22:33:44:57 link up
+CcspHalExtSw_getAssociatedDevice - port 1: mac address is 00:11:22:33:44:55 link up
+CcspHalExtSw_getAssociatedDevice - port 1: mac address is 00:11:22:33:44:56 link up
+CcspHalExtSw_getAssociatedDevice - port 1: mac address is 00:11:22:33:44:57 link up
+CcspHalExtSw_getAssociatedDevice - port 1: mac address is 00:11:22:33:44:55 link up
+CcspHalExtSw_getAssociatedDevice - port 1: mac address is 00:11:22:33:44:56 link up
+CcspHalExtSw_getAssociatedDevice - port 1: mac address is 00:11:22:33:44:57 link up
+CcspHalExtSw_getAssociatedDevice - port 1: mac address is 00:11:22:33:44:55 link up
+CcspHalExtSw_getAssociatedDevice - port 1: mac address is 00:11:22:33:44:56 link up
+CcspHalExtSw_getAssociatedDevice - port 1: mac address is 00:11:22:33:44:57 link up
+ethsw_thread_main - call pGWP_act_EthWanLinkUP
+CcspHalExtSw_getAssociatedDevice - port 1: mac address is 00:11:22:33:44:55 link up
+CcspHalExtSw_getAssociatedDevice - port 1: mac address is 00:11:22:33:44:56 link up
+CcspHalExtSw_getAssociatedDevice - port 1: mac address is 00:11:22:33:44:57 link up
+CcspHalExtSw_getAssociatedDevice - port 1: mac address is 00:11:22:33:44:55 link up
+CcspHalExtSw_getAssociatedDevice - port 1: mac address is 00:11:22:33:44:56 link up
+CcspHalExtSw_getAssociatedDevice - port 1: mac address is 00:11:22:33:44:57 link up
+CcspHalExtSw_getAssociatedDevice - port 1: mac address is 00:11:22:33:44:55 link up
+CcspHalExtSw_getAssociatedDevice - port 1: mac address is 00:11:22:33:44:56 link up
+CcspHalExtSw_getAssociatedDevice - port 1: mac address is 00:11:22:33:44:57 link up

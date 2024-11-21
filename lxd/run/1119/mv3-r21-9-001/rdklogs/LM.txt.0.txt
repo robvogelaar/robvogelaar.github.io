@@ -1,2 +1,0 @@
-2.191944 [mod=LM, lvl=WARN] [tid=779] LMLite:rdk initialzed!
-2.192116 [mod=LM, lvl=WARN] [tid=792] ValidateHostRetry_Thread started

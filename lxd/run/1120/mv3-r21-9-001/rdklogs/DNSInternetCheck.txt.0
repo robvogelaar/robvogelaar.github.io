@@ -1,0 +1,4 @@
+3.398682 [mod=WANCNCTVTYCHK, lvl=INFO] [tid=805] RBUS enabled, Proceed with Wan Connectivity check
+3.398991 [mod=WANCNCTVTYCHK, lvl=INFO] [tid=805] CosaWanCnctvtyChk_Init: Wan Connectivty Check Enable : true
+3.402153 [mod=WANCNCTVTYCHK, lvl=INFO] [tid=805] 
+CosaWanCnctvtyChk_Init_URLTable 306 - URL Table (Device.Diagnostics.X_RDK_DNSInternet.TestURL.) Added Successfully

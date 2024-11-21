@@ -1,0 +1,520 @@
+SSH: Forward SSH changed to disabled
+241121-00:15:58 ENTERED FIREWALL, argc = 2 
+241121-00:15:58 Inside service_ev_t get_service_event
+241121-01:15:58 shm open in create mode
+241121-01:15:58 Created shm mutex
+241121-01:15:58  Process 397 is waiting for lock
+241121-01:15:58  Process 397 acquired the lock
+241121-01:15:58 Inside firewall service_init()
+241121-01:15:58 firewall service initializing
+241121-01:15:58 Inside get_options
+241121-01:15:58 Exiting get_options
+241121-01:15:59 firewall opening sysevent_fd 19, token 55
+241121-01:15:59 Entering prepare_globals_from_configuration
+241121-01:15:59 Exiting prepare_globals_from_configuration
+241121-01:15:59 Exiting firewall service_init()
+241121-01:15:59 Inside firewall service_stop()
+241121-01:15:59 stopping firewall service
+241121-01:15:59 Inside prepare_stopped_ipv4_firewall 
+241121-01:15:59 Exiting prepare_stopped_ipv4_firewall 
+241121-01:15:59 stopped firewall service
+241121-01:15:59 Exiting firewall service_stop()
+241121-01:15:59 Inside firewall service_close()
+241121-01:15:59 firewall closing sysevent_fd 19, token 55
+241121-01:15:59 firewall closing dbus connection
+241121-01:15:59 exiting firewall service_close()
+241121-00:16:00 ENTERED FIREWALL, argc = 4 
+241121-00:16:00 Inside service_ev_t get_service_event
+241121-01:16:00  Process 583 is waiting for lock
+241121-01:16:00  Process 583 acquired the lock
+241121-01:16:00 Inside firewall service_init()
+241121-01:16:00 firewall service initializing
+241121-01:16:00 Inside get_options
+241121-01:16:00 Exiting get_options
+241121-01:16:00 firewall opening sysevent_fd 19, token 85
+241121-01:16:00 Entering prepare_globals_from_configuration
+241121-01:16:00 Exiting prepare_globals_from_configuration
+241121-01:16:00 Exiting firewall service_init()
+241121-01:16:00 Inside Firewall service_restart () 
+241121-01:16:00 Inside firewall service_start()
+241121-01:16:00 starting firewall service
+241121-01:16:00 offset hours = 1 | mins = 0 | sec = 0
+241121-01:16:00 Inside prepare_ipv4_firewall 
+241121-01:16:00 Entering prepare_disabled_ipv4_firewall 
+241121-01:16:00 Entering add_qos_marking_statements
+241121-01:16:00 Exiting add_qos_marking_statements
+241121-01:16:00 Exiting add_dslite_mss_clamping
+241121-01:16:00 do_port_forwarding : Device is in bridge mode returning
+241121-01:16:00 Inside do_ipv4_UIoverWAN_filter 
+241121-01:16:00 Exiting do_ipv4_UIoverWAN_filter 
+241121-01:16:00 Entering do_nat_ephemeral
+241121-01:16:00 Exiting do_nat_ephemeral
+241121-01:16:00 Entering do_filter_table_general_rules
+241121-01:16:00 Exiting do_filter_table_general_rules
+241121-01:16:00 Adding rule for GUI access via lan inetrface 
+241121-01:16:00 getCwmpPort port: 7547
+241121-01:16:00 Entering do_tr69_whitelistTable (IPv6)
+241121-01:16:00 getCwmpPort port: 7547
+241121-01:16:00 CWMP is enabled. ACCEPT TR069 port 7547
+241121-01:16:00 Exiting do_tr69_whitelistTable (IPv6)
+241121-01:16:00 Entering do_tr69_whitelistTable (IPv6)
+241121-01:16:00 getCwmpPort port: 7547
+241121-01:16:00 CWMP is enabled. ACCEPT TR069 port 7547
+241121-01:16:00 Exiting do_tr69_whitelistTable (IPv6)
+241121-01:16:00 Entering do_webui_rate_limit
+241121-01:16:00 Exiting do_webui_rate_limit
+241121-01:16:00 Exiting prepare_disabled_ipv4_firewall 
+241121-01:16:00 Exiting prepare_ipv4_firewall 
+241121-01:16:00 Inside prepare_ipv6_firewall 
+241121-01:16:00 Inside do_ipv6_sn_filter 
+241121-01:16:00 Inside do_ipv6_UIoverWAN_filter 
+241121-01:16:00 Exiting do_ipv6_UIoverWAN_filter 
+241121-01:16:00 Inside do_ipv6_filter_table 
+241121-01:16:00 getCwmpPort port: 7547
+241121-01:16:00 Entering do_tr69_whitelistTable (IPv6)
+241121-01:16:00 getCwmpPort port: 7547
+241121-01:16:00 CWMP is enabled. ACCEPT TR069 port 7547
+241121-01:16:00 Exiting do_tr69_whitelistTable (IPv6)
+241121-01:16:00 Entering do_tr69_whitelistTable (IPv6)
+241121-01:16:00 getCwmpPort port: 7547
+241121-01:16:00 CWMP is enabled. ACCEPT TR069 port 7547
+241121-01:16:00 Exiting do_tr69_whitelistTable (IPv6)
+241121-01:16:00 Exiting prepare_ipv6_firewall 
+241121-01:16:00 Entering do_parental_control
+241121-01:16:00 Entering do_parcon_mgmt_device
+241121-01:16:00 Exiting do_parcon_mgmt_device
+241121-01:16:00 Entering do_parcon_mgmt_site_keywd
+241121-01:16:00 Exiting do_parcon_mgmt_site_keywd
+241121-01:16:00 Entering do_parcon_mgmt_service
+241121-01:16:00 Exiting do_parcon_mgmt_service
+241121-01:16:00 Exiting do_parental_control
+241121-01:16:00 mac filter count = 
+241121-01:16:00 ipv6 filter count = 
+241121-01:16:00 Exiting prepare_ipv6_firewall 
+241121-01:16:00 Inside firewall drop_traffic_from_lan_client_in_bridgemode()
+241121-01:16:00 Exiting firewall drop_traffic_from_lan_client_in_bridgemode()
+241121-01:16:00 Total conntrack flush
+241121-01:16:00 started firewall service
+241121-01:16:00 Exiting firewall service_start()
+241121-01:16:00 Inside firewall service_close()
+241121-01:16:00 firewall closing sysevent_fd 19, token 85
+241121-01:16:00 firewall closing dbus connection
+241121-01:16:00 exiting firewall service_close()
+241121-01:16:07 ENTERED FIREWALL, argc = 2 
+241121-01:16:07 Inside service_ev_t get_service_event
+241121-01:16:07 Exiting service_ev_t get_service_event
+241121-01:16:07  Process 1550 is waiting for lock
+241121-01:16:07  Process 1550 acquired the lock
+241121-01:16:07 Inside firewall service_init()
+241121-01:16:07 firewall service initializing
+241121-01:16:07 Inside get_options
+241121-01:16:07 Exiting get_options
+241121-01:16:07 firewall opening sysevent_fd 14, token 129
+241121-01:16:07 Entering prepare_globals_from_configuration
+241121-01:16:07 Exiting prepare_globals_from_configuration
+241121-01:16:07 Exiting firewall service_init()
+241121-01:16:07 Inside Firewall service_restart () 
+241121-01:16:07 Inside firewall service_start()
+241121-01:16:07 starting firewall service
+241121-01:16:07 offset hours = 1 | mins = 0 | sec = 0
+241121-01:16:07 Inside prepare_ipv4_firewall 
+241121-01:16:07 Entering prepare_disabled_ipv4_firewall 
+241121-01:16:07 Entering add_qos_marking_statements
+241121-01:16:07 Exiting add_qos_marking_statements
+241121-01:16:07 Exiting add_dslite_mss_clamping
+241121-01:16:07 do_port_forwarding : Device is in bridge mode returning
+241121-01:16:07 Inside do_ipv4_UIoverWAN_filter 
+241121-01:16:07 Exiting do_ipv4_UIoverWAN_filter 
+241121-01:16:07 Entering do_nat_ephemeral
+241121-01:16:07 Exiting do_nat_ephemeral
+241121-01:16:07 Entering do_filter_table_general_rules
+241121-01:16:07 Exiting do_filter_table_general_rules
+241121-01:16:07 Adding rule for GUI access via lan inetrface 
+241121-01:16:07 getCwmpPort port: 7547
+241121-01:16:07 Entering do_tr69_whitelistTable (IPv6)
+241121-01:16:07 getCwmpPort port: 7547
+241121-01:16:07 CWMP is enabled. ACCEPT TR069 port 7547
+241121-01:16:07 Exiting do_tr69_whitelistTable (IPv6)
+241121-01:16:07 Entering do_tr69_whitelistTable (IPv6)
+241121-01:16:07 getCwmpPort port: 7547
+241121-01:16:07 CWMP is enabled. ACCEPT TR069 port 7547
+241121-01:16:07 Exiting do_tr69_whitelistTable (IPv6)
+241121-01:16:07 Entering do_webui_rate_limit
+241121-01:16:07 Exiting do_webui_rate_limit
+241121-01:16:07 Exiting prepare_disabled_ipv4_firewall 
+241121-01:16:07 Exiting prepare_ipv4_firewall 
+241121-01:16:07 Inside prepare_ipv6_firewall 
+241121-01:16:07 Inside do_ipv6_sn_filter 
+241121-01:16:07 Inside do_ipv6_UIoverWAN_filter 
+241121-01:16:07 Exiting do_ipv6_UIoverWAN_filter 
+241121-01:16:07 Inside do_ipv6_filter_table 
+241121-01:16:07 getCwmpPort port: 7547
+241121-01:16:07 Entering do_tr69_whitelistTable (IPv6)
+241121-01:16:07 getCwmpPort port: 7547
+241121-01:16:07 CWMP is enabled. ACCEPT TR069 port 7547
+241121-01:16:07 Exiting do_tr69_whitelistTable (IPv6)
+241121-01:16:07 Entering do_tr69_whitelistTable (IPv6)
+241121-01:16:07 getCwmpPort port: 7547
+241121-01:16:07 CWMP is enabled. ACCEPT TR069 port 7547
+241121-01:16:07 Exiting do_tr69_whitelistTable (IPv6)
+241121-01:16:07 Exiting prepare_ipv6_firewall 
+241121-01:16:07 Entering do_parental_control
+241121-01:16:07 Entering do_parcon_mgmt_device
+241121-01:16:07 Exiting do_parcon_mgmt_device
+241121-01:16:07 Entering do_parcon_mgmt_site_keywd
+241121-01:16:07 Exiting do_parcon_mgmt_site_keywd
+241121-01:16:07 Entering do_parcon_mgmt_service
+241121-01:16:07 Exiting do_parcon_mgmt_service
+241121-01:16:07 Exiting do_parental_control
+241121-01:16:07 mac filter count = 
+241121-01:16:07 ipv6 filter count = 
+241121-01:16:07 Exiting prepare_ipv6_firewall 
+241121-01:16:07 Inside firewall drop_traffic_from_lan_client_in_bridgemode()
+241121-01:16:07 Exiting firewall drop_traffic_from_lan_client_in_bridgemode()
+241121-01:16:07 Total conntrack flush
+241121-01:16:07 started firewall service
+241121-01:16:07 Exiting firewall service_start()
+241121-01:16:07 Inside firewall service_close()
+241121-01:16:07 firewall closing sysevent_fd 14, token 129
+241121-01:16:07 firewall closing dbus connection
+241121-01:16:07 exiting firewall service_close()
+241121-00:16:12 ENTERED FIREWALL, argc = 4 
+241121-00:16:12 Inside service_ev_t get_service_event
+241121-01:16:12  Process 2117 is waiting for lock
+241121-01:16:12  Process 2117 acquired the lock
+241121-01:16:12 Inside firewall service_init()
+241121-01:16:12 firewall service initializing
+241121-01:16:12 Inside get_options
+241121-01:16:12 Exiting get_options
+241121-01:16:12 firewall opening sysevent_fd 19, token 158
+241121-01:16:12 Entering prepare_globals_from_configuration
+241121-01:16:12 Exiting prepare_globals_from_configuration
+241121-01:16:12 Exiting firewall service_init()
+241121-01:16:12 Inside Firewall service_restart () 
+241121-01:16:12 Inside firewall service_start()
+241121-01:16:12 starting firewall service
+241121-01:16:12 offset hours = 1 | mins = 0 | sec = 0
+241121-01:16:12 Inside prepare_ipv4_firewall 
+241121-01:16:12 Entering prepare_disabled_ipv4_firewall 
+241121-01:16:12 Entering add_qos_marking_statements
+241121-01:16:12 Exiting add_qos_marking_statements
+241121-01:16:12 Exiting add_dslite_mss_clamping
+241121-01:16:12 do_port_forwarding : Device is in bridge mode returning
+241121-01:16:12 Inside do_ipv4_UIoverWAN_filter 
+241121-01:16:12 Exiting do_ipv4_UIoverWAN_filter 
+241121-01:16:12 Entering do_nat_ephemeral
+241121-01:16:12 Exiting do_nat_ephemeral
+241121-01:16:12 Entering do_filter_table_general_rules
+241121-01:16:12 Exiting do_filter_table_general_rules
+241121-01:16:12 Entering do_remote_access_control
+241121-01:16:12 drop the packets by default
+241121-01:16:12 Entering do_csr_control
+241121-01:16:12 Exiting do_csr_control
+241121-01:16:12 Adding rule for GUI access via lan inetrface 
+241121-01:16:12 getCwmpPort port: 7547
+241121-01:16:12 Entering do_tr69_whitelistTable (IPv6)
+241121-01:16:12 getCwmpPort port: 7547
+241121-01:16:12 CWMP is enabled. ACCEPT TR069 port 7547
+241121-01:16:12 Exiting do_tr69_whitelistTable (IPv6)
+241121-01:16:12 Entering do_tr69_whitelistTable (IPv6)
+241121-01:16:12 getCwmpPort port: 7547
+241121-01:16:12 CWMP is enabled. ACCEPT TR069 port 7547
+241121-01:16:12 Exiting do_tr69_whitelistTable (IPv6)
+241121-01:16:12 Entering do_webui_rate_limit
+241121-01:16:12 Exiting do_webui_rate_limit
+241121-01:16:12 Exiting prepare_disabled_ipv4_firewall 
+241121-01:16:12 Exiting prepare_ipv4_firewall 
+241121-01:16:12 Inside prepare_ipv6_firewall 
+241121-01:16:12 Inside do_ipv6_sn_filter 
+241121-01:16:12 Inside do_ipv6_UIoverWAN_filter 
+241121-01:16:12 Exiting do_ipv6_UIoverWAN_filter 
+241121-01:16:12 Inside do_ipv6_filter_table 
+241121-01:16:12 getCwmpPort port: 7547
+241121-01:16:12 Entering do_tr69_whitelistTable (IPv6)
+241121-01:16:12 getCwmpPort port: 7547
+241121-01:16:12 CWMP is enabled. ACCEPT TR069 port 7547
+241121-01:16:12 Exiting do_tr69_whitelistTable (IPv6)
+241121-01:16:12 Entering do_tr69_whitelistTable (IPv6)
+241121-01:16:12 getCwmpPort port: 7547
+241121-01:16:12 CWMP is enabled. ACCEPT TR069 port 7547
+241121-01:16:12 Exiting do_tr69_whitelistTable (IPv6)
+241121-01:16:12 Entering do_remote_access_control
+241121-01:16:12 drop the packets by default
+241121-01:16:12 Entering do_csr_control
+241121-01:16:12 Exiting do_csr_control
+241121-01:16:12 Exiting prepare_ipv6_firewall 
+241121-01:16:12 Entering do_parental_control
+241121-01:16:12 Entering do_parcon_mgmt_device
+241121-01:16:12 Exiting do_parcon_mgmt_device
+241121-01:16:12 Entering do_parcon_mgmt_site_keywd
+241121-01:16:12 Exiting do_parcon_mgmt_site_keywd
+241121-01:16:12 Entering do_parcon_mgmt_service
+241121-01:16:12 Exiting do_parcon_mgmt_service
+241121-01:16:12 Exiting do_parental_control
+241121-01:16:12 mac filter count = 
+241121-01:16:12 ipv6 filter count = 
+241121-01:16:12 Exiting prepare_ipv6_firewall 
+241121-01:16:12 Inside firewall drop_traffic_from_lan_client_in_bridgemode()
+241121-01:16:12 Exiting firewall drop_traffic_from_lan_client_in_bridgemode()
+241121-01:16:12 Total conntrack flush
+241121-01:16:12 started firewall service
+241121-01:16:12 Exiting firewall service_start()
+241121-01:16:12 Inside firewall service_close()
+241121-01:16:12 firewall closing sysevent_fd 19, token 158
+241121-01:16:12 firewall closing dbus connection
+241121-01:16:12 exiting firewall service_close()
+241121-00:16:12 ENTERED FIREWALL, argc = 4 
+241121-00:16:12 Inside service_ev_t get_service_event
+241121-01:16:12  Process 2172 is waiting for lock
+241121-01:16:12  Process 2172 acquired the lock
+241121-01:16:12 Inside firewall service_init()
+241121-01:16:12 firewall service initializing
+241121-01:16:12 Inside get_options
+241121-01:16:12 Exiting get_options
+241121-01:16:12 firewall opening sysevent_fd 19, token 161
+241121-01:16:12 Entering prepare_globals_from_configuration
+241121-01:16:12 Exiting prepare_globals_from_configuration
+241121-01:16:12 Exiting firewall service_init()
+241121-01:16:12 Inside Firewall service_restart () 
+241121-01:16:12 Inside firewall service_start()
+241121-01:16:12 starting firewall service
+241121-01:16:12 offset hours = 1 | mins = 0 | sec = 0
+241121-01:16:12 Inside prepare_ipv4_firewall 
+241121-01:16:12 Entering prepare_disabled_ipv4_firewall 
+241121-01:16:12 Entering add_qos_marking_statements
+241121-01:16:12 Exiting add_qos_marking_statements
+241121-01:16:12 Exiting add_dslite_mss_clamping
+241121-01:16:12 do_port_forwarding : Device is in bridge mode returning
+241121-01:16:12 Inside do_ipv4_UIoverWAN_filter 
+241121-01:16:12 Exiting do_ipv4_UIoverWAN_filter 
+241121-01:16:12 Entering do_nat_ephemeral
+241121-01:16:12 Exiting do_nat_ephemeral
+241121-01:16:12 Entering do_filter_table_general_rules
+241121-01:16:12 Exiting do_filter_table_general_rules
+241121-01:16:12 Entering do_remote_access_control
+241121-01:16:12 drop the packets by default
+241121-01:16:12 Entering do_csr_control
+241121-01:16:12 Exiting do_csr_control
+241121-01:16:12 Adding rule for GUI access via lan inetrface 
+241121-01:16:12 getCwmpPort port: 7547
+241121-01:16:12 Entering do_tr69_whitelistTable (IPv6)
+241121-01:16:12 getCwmpPort port: 7547
+241121-01:16:12 CWMP is enabled. ACCEPT TR069 port 7547
+241121-01:16:12 Exiting do_tr69_whitelistTable (IPv6)
+241121-01:16:12 Entering do_tr69_whitelistTable (IPv6)
+241121-01:16:12 getCwmpPort port: 7547
+241121-01:16:12 CWMP is enabled. ACCEPT TR069 port 7547
+241121-01:16:12 Exiting do_tr69_whitelistTable (IPv6)
+241121-01:16:12 Entering do_webui_rate_limit
+241121-01:16:12 Exiting do_webui_rate_limit
+241121-01:16:12 Exiting prepare_disabled_ipv4_firewall 
+241121-01:16:12 Exiting prepare_ipv4_firewall 
+241121-01:16:12 Inside prepare_ipv6_firewall 
+241121-01:16:12 Inside do_ipv6_sn_filter 
+241121-01:16:12 Inside do_ipv6_UIoverWAN_filter 
+241121-01:16:12 Exiting do_ipv6_UIoverWAN_filter 
+241121-01:16:12 Inside do_ipv6_filter_table 
+241121-01:16:12 getCwmpPort port: 7547
+241121-01:16:12 Entering do_tr69_whitelistTable (IPv6)
+241121-01:16:12 getCwmpPort port: 7547
+241121-01:16:12 CWMP is enabled. ACCEPT TR069 port 7547
+241121-01:16:12 Exiting do_tr69_whitelistTable (IPv6)
+241121-01:16:12 Entering do_tr69_whitelistTable (IPv6)
+241121-01:16:12 getCwmpPort port: 7547
+241121-01:16:12 CWMP is enabled. ACCEPT TR069 port 7547
+241121-01:16:12 Exiting do_tr69_whitelistTable (IPv6)
+241121-01:16:12 Entering do_remote_access_control
+241121-01:16:12 drop the packets by default
+241121-01:16:12 Entering do_csr_control
+241121-01:16:12 Exiting do_csr_control
+241121-01:16:12 Exiting prepare_ipv6_firewall 
+241121-01:16:12 Entering do_parental_control
+241121-01:16:12 Entering do_parcon_mgmt_device
+241121-01:16:12 Exiting do_parcon_mgmt_device
+241121-01:16:12 Entering do_parcon_mgmt_site_keywd
+241121-01:16:12 Exiting do_parcon_mgmt_site_keywd
+241121-01:16:12 Entering do_parcon_mgmt_service
+241121-01:16:12 Exiting do_parcon_mgmt_service
+241121-01:16:12 Exiting do_parental_control
+241121-01:16:12 mac filter count = 
+241121-01:16:12 ipv6 filter count = 
+241121-01:16:12 Exiting prepare_ipv6_firewall 
+241121-01:16:12 Inside firewall drop_traffic_from_lan_client_in_bridgemode()
+241121-01:16:12 Exiting firewall drop_traffic_from_lan_client_in_bridgemode()
+241121-01:16:12 Total conntrack flush
+241121-01:16:12 started firewall service
+241121-01:16:12 Exiting firewall service_start()
+241121-01:16:12 Inside firewall service_close()
+241121-01:16:12 firewall closing sysevent_fd 19, token 161
+241121-01:16:12 firewall closing dbus connection
+241121-01:16:12 exiting firewall service_close()
+241121-00:16:12 ENTERED FIREWALL, argc = 4 
+241121-00:16:12 Inside service_ev_t get_service_event
+241121-01:16:12  Process 2439 is waiting for lock
+241121-01:16:12  Process 2439 acquired the lock
+241121-01:16:12 Inside firewall service_init()
+241121-01:16:12 firewall service initializing
+241121-01:16:12 Inside get_options
+241121-01:16:12 Exiting get_options
+241121-01:16:12 firewall opening sysevent_fd 19, token 170
+241121-01:16:12 Entering prepare_globals_from_configuration
+241121-01:16:12 Exiting prepare_globals_from_configuration
+241121-01:16:12 Exiting firewall service_init()
+241121-01:16:12 Inside Firewall service_restart () 
+241121-01:16:12 Inside firewall service_start()
+241121-01:16:12 starting firewall service
+241121-01:16:12 offset hours = 1 | mins = 0 | sec = 0
+241121-01:16:12 Inside prepare_ipv4_firewall 
+241121-01:16:12 Entering prepare_disabled_ipv4_firewall 
+241121-01:16:12 Entering add_qos_marking_statements
+241121-01:16:12 Exiting add_qos_marking_statements
+241121-01:16:12 Exiting add_dslite_mss_clamping
+241121-01:16:12 do_port_forwarding : Device is in bridge mode returning
+241121-01:16:12 Inside do_ipv4_UIoverWAN_filter 
+241121-01:16:12 Exiting do_ipv4_UIoverWAN_filter 
+241121-01:16:12 Entering do_nat_ephemeral
+241121-01:16:12 Exiting do_nat_ephemeral
+241121-01:16:12 Entering do_filter_table_general_rules
+241121-01:16:12 Exiting do_filter_table_general_rules
+241121-01:16:12 Entering do_remote_access_control
+241121-01:16:12 drop the packets by default
+241121-01:16:12 Entering do_csr_control
+241121-01:16:12 Exiting do_csr_control
+241121-01:16:12 Adding rule for GUI access via lan inetrface 
+241121-01:16:12 getCwmpPort port: 7547
+241121-01:16:12 Entering do_tr69_whitelistTable (IPv6)
+241121-01:16:12 getCwmpPort port: 7547
+241121-01:16:12 CWMP is enabled. ACCEPT TR069 port 7547
+241121-01:16:12 Exiting do_tr69_whitelistTable (IPv6)
+241121-01:16:12 Entering do_tr69_whitelistTable (IPv6)
+241121-01:16:12 getCwmpPort port: 7547
+241121-01:16:12 CWMP is enabled. ACCEPT TR069 port 7547
+241121-01:16:12 Exiting do_tr69_whitelistTable (IPv6)
+241121-01:16:12 Entering do_webui_rate_limit
+241121-01:16:12 Exiting do_webui_rate_limit
+241121-01:16:12 Exiting prepare_disabled_ipv4_firewall 
+241121-01:16:12 Exiting prepare_ipv4_firewall 
+241121-01:16:12 Inside prepare_ipv6_firewall 
+241121-01:16:12 Inside do_ipv6_sn_filter 
+241121-01:16:12 Inside do_ipv6_UIoverWAN_filter 
+241121-01:16:12 Exiting do_ipv6_UIoverWAN_filter 
+241121-01:16:12 Inside do_ipv6_filter_table 
+241121-01:16:12 getCwmpPort port: 7547
+241121-01:16:12 Entering do_tr69_whitelistTable (IPv6)
+241121-01:16:12 getCwmpPort port: 7547
+241121-01:16:12 CWMP is enabled. ACCEPT TR069 port 7547
+241121-01:16:12 Exiting do_tr69_whitelistTable (IPv6)
+241121-01:16:12 Entering do_tr69_whitelistTable (IPv6)
+241121-01:16:12 getCwmpPort port: 7547
+241121-01:16:12 CWMP is enabled. ACCEPT TR069 port 7547
+241121-01:16:12 Exiting do_tr69_whitelistTable (IPv6)
+241121-01:16:12 Entering do_remote_access_control
+241121-01:16:12 drop the packets by default
+241121-01:16:12 Entering do_csr_control
+241121-01:16:12 Exiting do_csr_control
+241121-01:16:12 Exiting prepare_ipv6_firewall 
+241121-01:16:12 Entering do_parental_control
+241121-01:16:12 Entering do_parcon_mgmt_device
+241121-01:16:12 Exiting do_parcon_mgmt_device
+241121-01:16:12 Entering do_parcon_mgmt_site_keywd
+241121-01:16:12 Exiting do_parcon_mgmt_site_keywd
+241121-01:16:12 Entering do_parcon_mgmt_service
+241121-01:16:12 Exiting do_parcon_mgmt_service
+241121-01:16:12 Exiting do_parental_control
+241121-01:16:12 mac filter count = 
+241121-01:16:12 ipv6 filter count = 
+241121-01:16:12 Exiting prepare_ipv6_firewall 
+241121-01:16:12 Inside firewall drop_traffic_from_lan_client_in_bridgemode()
+241121-01:16:12 Exiting firewall drop_traffic_from_lan_client_in_bridgemode()
+241121-01:16:12 Total conntrack flush
+241121-01:16:12 started firewall service
+241121-01:16:12 Exiting firewall service_start()
+241121-01:16:12 Inside firewall service_close()
+241121-01:16:12 firewall closing sysevent_fd 19, token 170
+241121-01:16:12 firewall closing dbus connection
+241121-01:16:12 exiting firewall service_close()
+241121-00:16:12 ENTERED FIREWALL, argc = 4 
+241121-00:16:12 Inside service_ev_t get_service_event
+241121-01:16:12  Process 2530 is waiting for lock
+241121-01:16:12  Process 2530 acquired the lock
+241121-01:16:12 Inside firewall service_init()
+241121-01:16:12 firewall service initializing
+241121-01:16:12 Inside get_options
+241121-01:16:12 Exiting get_options
+241121-01:16:12 firewall opening sysevent_fd 19, token 173
+241121-01:16:12 Entering prepare_globals_from_configuration
+241121-01:16:12 Exiting prepare_globals_from_configuration
+241121-01:16:12 Exiting firewall service_init()
+241121-01:16:12 Inside Firewall service_restart () 
+241121-01:16:12 Inside firewall service_start()
+241121-01:16:12 starting firewall service
+241121-01:16:12 offset hours = 1 | mins = 0 | sec = 0
+241121-01:16:12 Inside prepare_ipv4_firewall 
+241121-01:16:12 Entering prepare_disabled_ipv4_firewall 
+241121-01:16:12 Entering add_qos_marking_statements
+241121-01:16:12 Exiting add_qos_marking_statements
+241121-01:16:12 Exiting add_dslite_mss_clamping
+241121-01:16:12 do_port_forwarding : Device is in bridge mode returning
+241121-01:16:12 Inside do_ipv4_UIoverWAN_filter 
+241121-01:16:12 Exiting do_ipv4_UIoverWAN_filter 
+241121-01:16:12 Entering do_nat_ephemeral
+241121-01:16:12 Exiting do_nat_ephemeral
+241121-01:16:12 Entering do_filter_table_general_rules
+241121-01:16:12 Exiting do_filter_table_general_rules
+241121-01:16:12 Entering do_remote_access_control
+241121-01:16:12 drop the packets by default
+241121-01:16:12 Entering do_csr_control
+241121-01:16:12 Exiting do_csr_control
+241121-01:16:12 Adding rule for GUI access via lan inetrface 
+241121-01:16:12 getCwmpPort port: 7547
+241121-01:16:12 Entering do_tr69_whitelistTable (IPv6)
+241121-01:16:12 getCwmpPort port: 7547
+241121-01:16:12 CWMP is enabled. ACCEPT TR069 port 7547
+241121-01:16:12 Exiting do_tr69_whitelistTable (IPv6)
+241121-01:16:12 Entering do_tr69_whitelistTable (IPv6)
+241121-01:16:12 getCwmpPort port: 7547
+241121-01:16:12 CWMP is enabled. ACCEPT TR069 port 7547
+241121-01:16:12 Exiting do_tr69_whitelistTable (IPv6)
+241121-01:16:12 Entering do_webui_rate_limit
+241121-01:16:12 Exiting do_webui_rate_limit
+241121-01:16:12 Exiting prepare_disabled_ipv4_firewall 
+241121-01:16:12 Exiting prepare_ipv4_firewall 
+241121-01:16:12 Inside prepare_ipv6_firewall 
+241121-01:16:12 Inside do_ipv6_sn_filter 
+241121-01:16:12 Inside do_ipv6_UIoverWAN_filter 
+241121-01:16:12 Exiting do_ipv6_UIoverWAN_filter 
+241121-01:16:12 Inside do_ipv6_filter_table 
+241121-01:16:12 getCwmpPort port: 7547
+241121-01:16:12 Entering do_tr69_whitelistTable (IPv6)
+241121-01:16:12 getCwmpPort port: 7547
+241121-01:16:12 CWMP is enabled. ACCEPT TR069 port 7547
+241121-01:16:12 Exiting do_tr69_whitelistTable (IPv6)
+241121-01:16:12 Entering do_tr69_whitelistTable (IPv6)
+241121-01:16:12 getCwmpPort port: 7547
+241121-01:16:12 CWMP is enabled. ACCEPT TR069 port 7547
+241121-01:16:12 Exiting do_tr69_whitelistTable (IPv6)
+241121-01:16:12 Entering do_remote_access_control
+241121-01:16:12 drop the packets by default
+241121-01:16:12 Entering do_csr_control
+241121-01:16:12 Exiting do_csr_control
+241121-01:16:12 Exiting prepare_ipv6_firewall 
+241121-01:16:12 Entering do_parental_control
+241121-01:16:12 Entering do_parcon_mgmt_device
+241121-01:16:12 Exiting do_parcon_mgmt_device
+241121-01:16:12 Entering do_parcon_mgmt_site_keywd
+241121-01:16:12 Exiting do_parcon_mgmt_site_keywd
+241121-01:16:12 Entering do_parcon_mgmt_service
+241121-01:16:12 Exiting do_parcon_mgmt_service
+241121-01:16:12 Exiting do_parental_control
+241121-01:16:12 mac filter count = 
+241121-01:16:12 ipv6 filter count = 
+241121-01:16:12 Exiting prepare_ipv6_firewall 
+241121-01:16:12 Inside firewall drop_traffic_from_lan_client_in_bridgemode()
+241121-01:16:12 Exiting firewall drop_traffic_from_lan_client_in_bridgemode()
+241121-01:16:12 Total conntrack flush
+241121-01:16:12 started firewall service
+241121-01:16:12 Exiting firewall service_start()
+241121-01:16:12 Inside firewall service_close()
+241121-01:16:12 firewall closing sysevent_fd 19, token 173
+241121-01:16:12 firewall closing dbus connection
+241121-01:16:12 exiting firewall service_close()

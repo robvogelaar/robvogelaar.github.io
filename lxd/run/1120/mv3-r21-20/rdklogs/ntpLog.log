@@ -1,0 +1,82 @@
+241121-00:16:15.399083 SERVICE_NTPD : End of shell script
+241121-00:16:15.838147 SERVICE_NTPD : ntpd-restart called
+241121-00:16:15.908184 SERVICE_NTPD : End of shell script
+241121-00:16:17.649413 SERVICE_NTPD : wan-status calling service_start
+241121-00:16:17.674889 SERVICE_NTPD : Creating NTP config with New NTP Enabled
+241121-00:16:47.746968 NTPD Quick sync : Initiating DNS lookup for server  
+241121-00:16:47.748125 NTPD Quick sync : NTP server configured is not in URL format 
+241121-00:16:47.748579 NTPD Quick sync :  Skipping DNS lookup
+241121-00:16:47.758121 SERVICE_NTPD : Creating NTP Quick Sync Conf file: /tmp/ntp_quick_sync.conf
+241121-00:16:47.759361 SERVICE_NTPD : Killing All Instances of NTP
+241121-00:16:52.761445 SERVICE_NTPD : Starting NTP Quick Sync
+21 Nov 00:16:52 ntpd[2925]: ntpd 4.2.8p15@1.3728-o Mon 15 Jul 2024 10:45:21 PM UTC (2): Starting
+21 Nov 00:16:52 ntpd[2925]: Command line: ntpd -c /tmp/ntp_quick_sync.conf --interface erouter0 -x -gq -l /rdklogs/logs/ntpLog.log
+21 Nov 00:16:52 ntpd[2925]: ----------------------------------------------------
+21 Nov 00:16:52 ntpd[2925]: ntp-4 is maintained by Network Time Foundation,
+21 Nov 00:16:52 ntpd[2925]: Inc. (NTF), a non-profit 501(c)(3) public-benefit
+21 Nov 00:16:52 ntpd[2925]: corporation.  Support and training for ntp-4 are
+21 Nov 00:16:52 ntpd[2925]: available at https://www.nwtime.org/support
+21 Nov 00:16:52 ntpd[2925]: ----------------------------------------------------
+21 Nov 00:16:52 ntpd[2925]: proto: precision = 0.097 usec (-23)
+21 Nov 00:16:52 ntpd[2925]: basedate set to 2024-07-03
+21 Nov 00:16:52 ntpd[2925]: gps base set to 2024-07-07 (week 2322)
+21 Nov 00:16:52 ntpd[2925]: restrict default: KOD does nothing without LIMITED.
+21 Nov 00:16:52 ntpd[2925]: restrict ::: KOD does nothing without LIMITED.
+21 Nov 00:16:52 ntpd[2925]: Listen and drop on 0 v6wildcard [::]:123
+21 Nov 00:16:52 ntpd[2925]: Listen and drop on 1 v4wildcard 0.0.0.0:123
+21 Nov 00:16:52 ntpd[2925]: Listen normally on 2 lo 127.0.0.1:123
+21 Nov 00:16:52 ntpd[2925]: Listen normally on 3 erouter0 10.120.200.106:123
+21 Nov 00:16:52 ntpd[2925]: Listen normally on 4 lo [::1]:123
+21 Nov 00:16:52 ntpd[2925]: Listen normally on 5 erouter0 [2001:dae:20:1::252]:123
+21 Nov 00:16:52 ntpd[2925]: Listen normally on 6 erouter0 [fe80::216:3eff:fef8:9839%11]:123
+21 Nov 00:16:52 ntpd[2925]: Listening on routing socket on fd #20 for interface updates
+21 Nov 00:16:52 ntpd[2925]: 213.239.234.28 8011 81 mobilize assoc 34841
+21 Nov 00:16:52 ntpd[2925]: 0.0.0.0 c016 06 restart
+21 Nov 00:16:52 ntpd[2925]: DNS ntp1.revdomain.com -> 2001:dbf:0:1::120
+21 Nov 00:16:52 ntpd[2925]: 2001:dbf:0:1::120 8011 81 mobilize assoc 34842
+21 Nov 00:16:53 ntpd[2925]: 213.239.234.28 8014 84 reachable
+21 Nov 00:16:59 ntpd[2925]: 213.239.234.28 901a 8a sys_peer
+21 Nov 00:16:59 ntpd[2925]: adj_systime: Operation not permitted
+21 Nov 00:16:59 ntpd[2925]: ntpd: time slew +0.000688 s
+241121-00:17:02.765655 NTP quick sync succeeded,set ntp status
+241121-00:17:02.770233 DEBUG : clock-event file created in /tmp. Time Sync is successful. Xconf is good to start
+241121-00:17:02.770737 SERVICE_NTPD : Killing All Instances of NTP
+241121-00:17:02.772067 SERVICE_NTPD : Starting NTP Daemon
+21 Nov 00:17:02 ntpd[3022]: ntpd 4.2.8p15@1.3728-o Mon 15 Jul 2024 10:45:21 PM UTC (2): Starting
+21 Nov 00:17:02 ntpd[3022]: Command line: ntpd -u ntp:ntp -p /run/ntpd.pid -l /rdklogs/logs/ntpLog.log -c /tmp/ntp.conf -g
+21 Nov 00:17:02 ntpd[3022]: ----------------------------------------------------
+21 Nov 00:17:02 ntpd[3022]: ntp-4 is maintained by Network Time Foundation,
+21 Nov 00:17:02 ntpd[3022]: Inc. (NTF), a non-profit 501(c)(3) public-benefit
+21 Nov 00:17:02 ntpd[3022]: corporation.  Support and training for ntp-4 are
+21 Nov 00:17:02 ntpd[3022]: available at https://www.nwtime.org/support
+21 Nov 00:17:02 ntpd[3022]: ----------------------------------------------------
+21 Nov 00:17:02 ntpd[3024]: proto: precision = 0.096 usec (-23)
+21 Nov 00:17:02 ntpd[3024]: basedate set to 2024-07-03
+21 Nov 00:17:02 ntpd[3024]: gps base set to 2024-07-07 (week 2322)
+21 Nov 00:17:02 ntpd[3024]: restrict default: KOD does nothing without LIMITED.
+21 Nov 00:17:02 ntpd[3024]: restrict ::: KOD does nothing without LIMITED.
+21 Nov 00:17:02 ntpd[3024]: Listen normally on 0 lo 127.0.0.1:123
+21 Nov 00:17:02 ntpd[3024]: Listen normally on 1 erouter0 10.120.200.106:123
+21 Nov 00:17:02 ntpd[3024]: Listen normally on 2 lo [::1]:123
+21 Nov 00:17:02 ntpd[3024]: Listen normally on 3 erouter0 [2001:dae:20:1::252]:123
+21 Nov 00:17:02 ntpd[3024]: Listen normally on 4 erouter0 [fe80::216:3eff:fef8:9839%11]:123
+21 Nov 00:17:02 ntpd[3024]: Listening on routing socket on fd #22 for interface updates
+21 Nov 00:17:02 ntpd[3024]: 213.239.234.28 8011 81 mobilize assoc 14319
+21 Nov 00:17:02 ntpd[3024]: start_kern_loop: ntp-4.2.8p15/ntpd/ntp_loopfilter.c line 1140: ntp_adjtime: Operation not permitted
+21 Nov 00:17:02 ntpd[3024]: 0.0.0.0 c01d 0d kern kernel time sync enabled
+21 Nov 00:17:02 ntpd[3024]: set_freq: ntp-4.2.8p15/ntpd/ntp_loopfilter.c line 1099: ntp_adjtime: Operation not permitted
+21 Nov 00:17:02 ntpd[3024]: 0.0.0.0 c012 02 freq_set kernel 0.000 PPM
+21 Nov 00:17:02 ntpd[3024]: 0.0.0.0 c011 01 freq_not_set
+21 Nov 00:17:02 ntpd[3024]: 0.0.0.0 c016 06 restart
+21 Nov 00:17:02 ntpd[3024]: DNS ntp1.revdomain.com -> 2001:dbf:0:1::120
+241121-00:17:02.909688 SERVICE_NTPD : ntpd started , setting the status as started
+21 Nov 00:17:02 ntpd[3024]: 2001:dbf:0:1::120 8011 81 mobilize assoc 14320
+241121-00:17:02.911368 SERVICE_NTPD : End of shell script
+241121-00:17:02.921831 SERVICE_NTPD : ntpd-restart called
+21 Nov 00:17:02 ntpd[3024]: ntpd exiting on signal 15 (Terminated)
+21 Nov 00:17:02 ntpd[3024]: 213.239.234.28 8012 82 demobilize assoc 14319
+21 Nov 00:17:02 ntpd[3024]: 213.239.234.28 local addr 10.120.200.106 -> <null>
+21 Nov 00:17:02 ntpd[3024]: 2001:dbf:0:1::120 8012 82 demobilize assoc 14320
+21 Nov 00:17:02 ntpd[3024]: 2001:dbf:0:1::120 local addr 2001:dae:20:1::252 -> <null>
+21 Nov 00:17:02 ntpd[3024]: 0.0.0.0 c01d 0d kern kernel time sync disabled
+241121-00:17:02.926862 SERVICE_NTPD : Creating NTP config with New NTP Enabled

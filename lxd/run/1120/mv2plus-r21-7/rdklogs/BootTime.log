@@ -1,0 +1,17 @@
+00:15:38 [BootUpTime] cosa_service_start=1033889
+00:15:38 [BootUpTime] boot_to_cr_uptime=1033889
+00:15:38 [BootUpTime] boot_to_psm_uptime=1033889
+00:15:38 [BootUpTime] utopia_init_start=1033889
+00:15:39 [BootUpTime] Lan_init_start=1033890
+Received reboot_reason as:unknown
+00:15:39 [BootUpTime] boot_to_PnM_uptime=1033891
+00:15:41 [BootUpTime] wifi_hal-init_sequence-started=1033892
+00:15:41 [BootUpTime] boot_to_ETH_uptime=1033893
+00:15:41 [BootUpTime] Laninit_complete=1033893
+00:15:44 [BootUpTime] boot_to_WIFI_uptime=1033895
+00:15:44 [BootUpTime] boot_to_tr069_uptime=1033895
+00:15:50 [BootUpTime] Waninit_start=1033901
+00:15:51 [BootUpTime] boot_to_meshagent_uptime=1033902
+00:15:53 [BootUpTime] wan_ipv4_up=1033904
+00:15:53 [BootUpTime] Waninit_complete=1033904
+00:15:53 [BootUpTime] boot_to_wan_uptime=1033904

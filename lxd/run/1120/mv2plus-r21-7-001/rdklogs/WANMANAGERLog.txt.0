@@ -1,0 +1,254 @@
+2.108677 [mod=WANMANAGER, lvl=INFO] [tid=804] WanMgr_SetConfigData_Default 67: Setting GATEWAY Mode
+2.110859 [mod=WANMANAGER, lvl=INFO] [tid=811] Connect to bus daemon...
+2.110901 [mod=WANMANAGER, lvl=INFO] [tid=811] rbuscore.c:2340 RBus Enabled
+
+2.110916 [mod=WANMANAGER, lvl=INFO] [tid=811] rbuscore.c:656 Broker address: unix:///tmp/rtrouted
+
+2.111263 [mod=WANMANAGER, lvl=INFO] [tid=811] connection opened for eRT.com.cisco.spvtg.ccsp.wanmanager
+2.111397 [mod=WANMANAGER, lvl=INFO] [tid=811] INFO: bus_handle: 0x 84fef50 
+3.111752 [mod=WANMANAGER, lvl=INFO] [tid=811] CcspBaseIf_Register_Event_rbus : rbus_registerEvent called for event: currentSessionIDSignal
+3.111950 [mod=WANMANAGER, lvl=INFO] [tid=811] rbuscore.c:755 Subscription for _rbus_session_mgr::currentSessionIDSignal is now active.
+
+3.112061 [mod=WANMANAGER, lvl=WARN] [tid=811] Register empty object : com.
+3.112072 [mod=WANMANAGER, lvl=WARN] [tid=811] Register empty object : com.cisco.
+3.112080 [mod=WANMANAGER, lvl=WARN] [tid=811] Register empty object : com.cisco.spvtg.
+3.112087 [mod=WANMANAGER, lvl=WARN] [tid=811] Register empty object : com.cisco.spvtg.ccsp.
+3.112198 [mod=WANMANAGER, lvl=WARN] [tid=811] DM Library module name = CCSP Base Data Model
+3.112289 [mod=WANMANAGER, lvl=WARN] [tid=811] BackEndManagerInitialize...
+3.112297 [mod=WANMANAGER, lvl=INFO] [tid=811] WanMgr_WanConfInit 1584 Initialize WanConf 
+3.112495 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.wanenable : 1
+3.112663 [mod=WANMANAGER, lvl=ERROR] [tid=811] WanMgr_RdkBus_GetParamValuesFromDB Error 102 reading dmsb.wanmanager.allowremoteinterfaces
+3.112675 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.allowremoteinterfaces : 
+3.112816 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.RestorationDelay : 120
+3.112953 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.IPv6AddrMonEnable : 1
+3.112965 [mod=WANMANAGER, lvl=INFO] [tid=811] WanMgr_Group_Configure 126 Initialize Wan Group Conf 
+3.113079 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.group.Count : 2
+3.113091 [mod=WANMANAGER, lvl=INFO] [tid=811] WanMgr_Group_Configure 134 - Total no of Groups 2
+3.113228 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.group.1.policy : 6
+3.113365 [mod=WANMANAGER, lvl=ERROR] [tid=811] WanMgr_RdkBus_GetParamValuesFromDB Error 102 reading dmsb.wanmanager.group.1.PersistSelectedInterface
+3.113377 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.group.1.PersistSelectedInterface : 
+3.113380 [mod=WANMANAGER, lvl=INFO] [tid=811] WanMgr_Group_Configure 157 Group[0] Policy : 6 
+3.113514 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.group.2.policy : 6
+3.113651 [mod=WANMANAGER, lvl=ERROR] [tid=811] WanMgr_RdkBus_GetParamValuesFromDB Error 102 reading dmsb.wanmanager.group.2.PersistSelectedInterface
+3.113663 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.group.2.PersistSelectedInterface : 
+3.113667 [mod=WANMANAGER, lvl=INFO] [tid=811] WanMgr_Group_Configure 157 Group[1] Policy : 6 
+3.113670 [mod=WANMANAGER, lvl=INFO] [tid=811] WanMgr_WanIfaceConfInit 228 Initialize Wan Iface Conf 
+3.113800 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.wan.interfacecount : 2
+3.113823 [mod=WANMANAGER, lvl=INFO] [tid=811] WanMgr_CheckAndResetV2PSMEntries 1572 Enter 
+3.113972 [mod=WANMANAGER, lvl=ERROR] [tid=811] WanMgr_RdkBus_GetParamValuesFromDB Error 102 reading dmsb.wanmanager.if.1.BaseInterface
+3.113983 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.1.BaseInterface : o
+3.114113 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.1.Selection.Enable : TRUE
+3.114269 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.1.VirtualInterface.1.Enable : TRUE
+3.114407 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.2.BaseInterface : Device.Ethernet.X_RDK_Interface.1
+3.114544 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.2.Selection.Enable : FALSE
+3.114563 [mod=WANMANAGER, lvl=INFO] [tid=811] get_Wan_Interface_ParametersFromPSM 65 Update Wan Virtual iface Conf from PSM 
+3.114693 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.1.Selection.Enable : TRUE
+3.114834 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.1.Selection.ActiveLink : TRUE
+3.114964 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.1.DisplayName : CM
+3.115089 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.1.Name : lbr0
+3.115231 [mod=WANMANAGER, lvl=ERROR] [tid=811] WanMgr_RdkBus_GetParamValuesFromDB Error 102 reading dmsb.wanmanager.if.1.AliasName
+3.115238 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.1.AliasName : 
+3.115379 [mod=WANMANAGER, lvl=ERROR] [tid=811] WanMgr_RdkBus_GetParamValuesFromDB Error 102 reading dmsb.wanmanager.if.1.BaseInterface
+3.115387 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.1.BaseInterface : 
+3.115520 [mod=WANMANAGER, lvl=ERROR] [tid=811] WanMgr_RdkBus_GetParamValuesFromDB Error 102 reading dmsb.wanmanager.if.1.Type
+3.115528 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.1.Type : 
+3.115665 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.1.Selection.Priority : 0
+3.115810 [mod=WANMANAGER, lvl=ERROR] [tid=811] WanMgr_RdkBus_GetParamValuesFromDB Error 102 reading dmsb.wanmanager.if.1.Selection.Timeout
+3.115822 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.1.Selection.Timeout : 
+3.115952 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.1.Selection.Group : 1
+3.116085 [mod=WANMANAGER, lvl=ERROR] [tid=811] WanMgr_RdkBus_GetParamValuesFromDB Error 102 reading dmsb.wanmanager.if.1.Selection.RequiresReboot
+3.116093 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.1.Selection.RequiresReboot : 
+3.116215 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.1.VirtualInterfaceifcount : 1
+3.116226 [mod=WANMANAGER, lvl=INFO] [tid=811] WanMgr_WanIfaceConfInit 261 No Of Virtual Interfaces 1 
+3.116230 [mod=WANMANAGER, lvl=INFO] [tid=811] WanMgr_VirtIface_Init 748 Initialize Wan Virtual Iface Conf 
+3.116234 [mod=WANMANAGER, lvl=INFO] [tid=811] get_Virtual_Interface_FromPSM 230 Update Wan Virtual iface Conf from PSM 
+3.116367 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.1.VirtualInterface.1.EnableMAPT : FALSE
+3.116505 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.1.VirtualInterface.1.EnableDSLite : FALSE
+3.116634 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.1.VirtualInterface.1.EnableIPoE : FALSE
+3.116776 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.1.VirtualInterface.1.Enable : TRUE
+3.116928 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.1.VirtualInterface.1.Name : erouter0
+3.117069 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.1.VirtualInterface.1.Alias : DATA
+3.117222 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.1.VirtualInterface.1.PPPInterface : 
+3.117676 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.1.VirtualInterface.1.VlanCount : 0
+3.117989 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.1.VirtualInterface.1.Timeout : 0
+3.123386 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.1.VirtualInterface.1.VlanInUse : 
+3.124619 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.1.VirtualInterface.1.MarkingCount : 0
+3.125034 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.1.VirtualInterface.1.IPInterface : 
+3.125446 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.1.VirtualInterface.1.IP.Mode : 4
+3.125965 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.1.VirtualInterface.1.IP.IPv4Source : 2
+3.126591 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.1.VirtualInterface.1.IP.IPv6Source : 2
+3.126762 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.1.VirtualInterface.1.IP.PreferredMode : 1
+3.126965 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.1.VirtualInterface.1.IP.ModeForceEnable : TRUE
+3.127182 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.1.VirtualInterface.1.IP.RTable : 0
+3.127316 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.1.VirtualInterface.1.IP.DNSCfgPath : 
+3.127327 [mod=WANMANAGER, lvl=INFO] [tid=811] WanMgr_WanIfaceConfInit 274 Adding 0 
+3.127331 [mod=WANMANAGER, lvl=INFO] [tid=811] WanMgr_AddVirtualToList 567 Adding 0 
+3.127335 [mod=WANMANAGER, lvl=INFO] [tid=811] get_Wan_Interface_ParametersFromPSM 65 Update Wan Virtual iface Conf from PSM 
+3.127468 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.2.Selection.Enable : FALSE
+3.127697 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.2.Selection.ActiveLink : FALSE
+3.132439 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.2.DisplayName : WanOE
+3.132603 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.2.Name : eth0
+3.225094 [mod=WANMANAGER, lvl=ERROR] [tid=811] WanMgr_RdkBus_GetParamValuesFromDB Error 102 reading dmsb.wanmanager.if.2.AliasName
+3.225105 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.2.AliasName : 
+3.225716 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.2.BaseInterface : Device.Ethernet.X_RDK_Interface.1
+3.226002 [mod=WANMANAGER, lvl=ERROR] [tid=811] WanMgr_RdkBus_GetParamValuesFromDB Error 102 reading dmsb.wanmanager.if.2.Type
+3.226009 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.2.Type : 
+3.226234 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.2.Selection.Priority : 1
+3.226456 [mod=WANMANAGER, lvl=ERROR] [tid=811] WanMgr_RdkBus_GetParamValuesFromDB Error 102 reading dmsb.wanmanager.if.2.Selection.Timeout
+3.226463 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.2.Selection.Timeout : 
+3.226719 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.2.Selection.Group : 2
+3.226994 [mod=WANMANAGER, lvl=ERROR] [tid=811] WanMgr_RdkBus_GetParamValuesFromDB Error 102 reading dmsb.wanmanager.if.2.Selection.RequiresReboot
+3.227001 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.2.Selection.RequiresReboot : 
+3.227245 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.2.VirtualInterfaceifcount : 1
+3.227257 [mod=WANMANAGER, lvl=INFO] [tid=811] WanMgr_WanIfaceConfInit 261 No Of Virtual Interfaces 1 
+3.227261 [mod=WANMANAGER, lvl=INFO] [tid=811] WanMgr_VirtIface_Init 748 Initialize Wan Virtual Iface Conf 
+3.227264 [mod=WANMANAGER, lvl=INFO] [tid=811] get_Virtual_Interface_FromPSM 230 Update Wan Virtual iface Conf from PSM 
+3.227535 [mod=WANMANAGER, lvl=ERROR] [tid=811] WanMgr_RdkBus_GetParamValuesFromDB Error 102 reading dmsb.wanmanager.if.2.VirtualInterface.1.EnableMAPT
+3.227543 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.2.VirtualInterface.1.EnableMAPT : 
+3.227810 [mod=WANMANAGER, lvl=ERROR] [tid=811] WanMgr_RdkBus_GetParamValuesFromDB Error 102 reading dmsb.wanmanager.if.2.VirtualInterface.1.EnableDSLite
+3.227821 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.2.VirtualInterface.1.EnableDSLite : 
+3.231121 [mod=WANMANAGER, lvl=ERROR] [tid=811] WanMgr_RdkBus_GetParamValuesFromDB Error 102 reading dmsb.wanmanager.if.2.VirtualInterface.1.EnableIPoE
+3.231133 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.2.VirtualInterface.1.EnableIPoE : 
+3.231342 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.2.VirtualInterface.1.Enable : TRUE
+3.231560 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.2.VirtualInterface.1.Name : erouter1
+3.231777 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.2.VirtualInterface.1.Alias : DATA
+3.231983 [mod=WANMANAGER, lvl=ERROR] [tid=811] WanMgr_RdkBus_GetParamValuesFromDB Error 102 reading dmsb.wanmanager.if.2.VirtualInterface.1.PPPInterface
+3.231991 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.2.VirtualInterface.1.PPPInterface : 
+3.232208 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.2.VirtualInterface.1.VlanCount : 1
+3.232418 [mod=WANMANAGER, lvl=ERROR] [tid=811] WanMgr_RdkBus_GetParamValuesFromDB Error 102 reading dmsb.wanmanager.if.2.VirtualInterface.1.Timeout
+3.232426 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.2.VirtualInterface.1.Timeout : 
+3.232845 [mod=WANMANAGER, lvl=ERROR] [tid=811] WanMgr_RdkBus_GetParamValuesFromDB Error 102 reading dmsb.wanmanager.if.2.VirtualInterface.1.VlanInUse
+3.232857 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.2.VirtualInterface.1.VlanInUse : 
+3.232861 [mod=WANMANAGER, lvl=INFO] [tid=811] get_Virtual_Interface_FromPSM 318 Valid VLAN interface is configured. Use VLAN
+3.233387 [mod=WANMANAGER, lvl=ERROR] [tid=811] WanMgr_RdkBus_GetParamValuesFromDB Error 102 reading dmsb.wanmanager.if.2.VirtualInterface.1.MarkingCount
+3.233398 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.2.VirtualInterface.1.MarkingCount : 
+3.233788 [mod=WANMANAGER, lvl=ERROR] [tid=811] WanMgr_RdkBus_GetParamValuesFromDB Error 102 reading dmsb.wanmanager.if.2.VirtualInterface.1.IPInterface
+3.233814 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.2.VirtualInterface.1.IPInterface : 
+3.234043 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.2.VirtualInterface.1.IP.Mode : 1
+3.234856 [mod=WANMANAGER, lvl=ERROR] [tid=811] WanMgr_RdkBus_GetParamValuesFromDB Error 102 reading dmsb.wanmanager.if.2.VirtualInterface.1.IP.IPv4Source
+3.234867 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.2.VirtualInterface.1.IP.IPv4Source : 
+3.235165 [mod=WANMANAGER, lvl=ERROR] [tid=811] WanMgr_RdkBus_GetParamValuesFromDB Error 102 reading dmsb.wanmanager.if.2.VirtualInterface.1.IP.IPv6Source
+3.235172 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.2.VirtualInterface.1.IP.IPv6Source : 
+3.235348 [mod=WANMANAGER, lvl=ERROR] [tid=811] WanMgr_RdkBus_GetParamValuesFromDB Error 102 reading dmsb.wanmanager.if.2.VirtualInterface.1.IP.PreferredMode
+3.235355 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.2.VirtualInterface.1.IP.PreferredMode : 
+3.235500 [mod=WANMANAGER, lvl=ERROR] [tid=811] WanMgr_RdkBus_GetParamValuesFromDB Error 102 reading dmsb.wanmanager.if.2.VirtualInterface.1.IP.ModeForceEnable
+3.235512 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.2.VirtualInterface.1.IP.ModeForceEnable : 
+3.235657 [mod=WANMANAGER, lvl=ERROR] [tid=811] WanMgr_RdkBus_GetParamValuesFromDB Error 102 reading dmsb.wanmanager.if.2.VirtualInterface.1.IP.RTable
+3.235664 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.2.VirtualInterface.1.IP.RTable : 
+3.235806 [mod=WANMANAGER, lvl=ERROR] [tid=811] WanMgr_RdkBus_GetParamValuesFromDB Error 102 reading dmsb.wanmanager.if.2.VirtualInterface.1.IP.DNSCfgPath
+3.235813 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.2.VirtualInterface.1.IP.DNSCfgPath : 
+3.235817 [mod=WANMANAGER, lvl=INFO] [tid=811] WanMgr_WanIfaceConfInit 274 Adding 0 
+3.235962 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.2.VirtualInterface.1.VLAN.1.Interface : Device.X_RDK_Ethernet.VLANTermination.1
+3.235970 [mod=WANMANAGER, lvl=INFO] [tid=811] WanMgr_VirtIfConfVLAN 195 Adding Vlan Interface entry 0 
+3.235977 [mod=WANMANAGER, lvl=INFO] [tid=811] WanMgr_AddVirtVlanIfToList 493 Adding 0 
+3.235981 [mod=WANMANAGER, lvl=INFO] [tid=811] WanMgr_AddVirtualToList 567 Adding 0 
+3.236423 [mod=WANMANAGER, lvl=WARN] [tid=811]   WanMgr_Dhcpv4Create done!
+3.264946 [mod=WANMANAGER, lvl=WARN] [tid=811]   WanMgr_Dhcpv6Create done!
+3.265110 [mod=WANMANAGER, lvl=DEBUG] [tid=811] 'unsignedInt[1:7]' UINT range [1:7]
+3.265518 [mod=WANMANAGER, lvl=WARN] [tid=811] DM Library module name = TR181_RdkWanManager
+3.265694 [mod=WANMANAGER, lvl=DEBUG] [tid=811] 'unsignedInt[20:65535]' UINT range [20:65535]
+3.265717 [mod=WANMANAGER, lvl=DEBUG] [tid=811] 'unsignedInt[1:2]' UINT range [1:2]
+3.265820 [mod=WANMANAGER, lvl=DEBUG] [tid=811] 'unsignedInt[0:65535]' UINT range [0:65535]
+3.266056 [mod=WANMANAGER, lvl=DEBUG] [tid=811] 'int[-1:]' Integer range [-1:2147483647]
+3.266094 [mod=WANMANAGER, lvl=DEBUG] [tid=811] 'unsignedInt[1:254]' UINT range [1:254]
+3.266125 [mod=WANMANAGER, lvl=DEBUG] [tid=811] 'unsignedInt[1:]' UINT range [1:4294967295]
+3.266136 [mod=WANMANAGER, lvl=DEBUG] [tid=811] 'unsignedInt[1:254]' UINT range [1:254]
+3.266205 [mod=WANMANAGER, lvl=DEBUG] [tid=811] 'int[-1:]' Integer range [-1:2147483647]
+3.266212 [mod=WANMANAGER, lvl=DEBUG] [tid=811] 'int[-1:]' Integer range [-1:2147483647]
+3.266273 [mod=WANMANAGER, lvl=DEBUG] [tid=811] 'unsignedInt[0:65535]' UINT range [0:65535]
+3.266300 [mod=WANMANAGER, lvl=DEBUG] [tid=811] 'unsignedInt[0:65535]' UINT range [0:65535]
+3.266521 [mod=WANMANAGER, lvl=WARN] [tid=811] Search for empty object in 'dslhCpeCheckEmptyObject'
+3.278011 [mod=WANMANAGER, lvl=INFO] [tid=811] Inside FUNC check_component_crash LINE 359, init file is /tmp/wanmanager_initialized 
+3.278027 [mod=WANMANAGER, lvl=INFO] [tid=811] /tmp/wanmanager_initialized file not present, need to send component init event to webconfig 
+3.306465 [mod=WANMANAGER, lvl=INFO] [tid=811] WanMgr_SysEvents_Init 1485 - DmlWanMsgHandler -- pthread_create successfully 
+3.306660 [mod=WANMANAGER, lvl=INFO] [tid=1443] WanManagerSyseventHandler 595 
+3.337910 [mod=WANMANAGER, lvl=INFO] [tid=811] WanMgr_StartIpcServer 565 - IPC Thread Started Successfully
+3.338127 [mod=WANMANAGER, lvl=INFO] [tid=811] wanmgr_set_ipv6_addrmon_enable 1397 - Set IPv6 AddrMon Enable: 1
+3.338161 [mod=WANMANAGER, lvl=INFO] [tid=811] Restarting netmonitor - with parameters (null) 
+3.338284 [mod=WANMANAGER, lvl=ERROR] [tid=1465] IpcServerThread 371 Creating nn_socket and binding tcp://127.0.0.1:50321
+3.338383 [mod=WANMANAGER, lvl=INFO] [tid=1465] IpcServerThread 387 ipcListenFd 0 bind is successful
+3.339104 [mod=WANMANAGER, lvl=INFO] [tid=811] Starting netmonitor - with parameters (null) 
+3.339146 [mod=WANMANAGER, lvl=INFO] [tid=811] spawning netmonitor args (null)
+3.339485 [mod=WANMANAGER, lvl=INFO] [tid=811] netmonitor launched, pid 1467
+3.339500 [mod=WANMANAGER, lvl=INFO] [tid=811] waitUntilSystemReady 93 Entered 
+3.339508 [mod=WANMANAGER, lvl=INFO] [tid=811] waitUntilSystemReady 109 rbus not enabled. Continuing. 
+3.339516 [mod=WANMANAGER, lvl=INFO] [tid=811] Inside FUNC register_sub_docs LINE 240
+3.368553 [mod=WANMANAGER, lvl=INFO] [tid=811] getWanDataBlobVersion Failed to get wan manager Data wanmanager blob version
+3.368916 [mod=WANMANAGER, lvl=INFO] [tid=811] getWanDataBlobVersion Failed to get wan manager Data wanfailover blob version
+3.368923 [mod=WANMANAGER, lvl=INFO] [tid=811] Inside FUNC initMessageQueue LINE 1109 
+3.370090 [mod=WANMANAGER, lvl=INFO] [tid=811] WanMgrDmlWanWebConfigInit Wan manager Webconfig Subdoc Registration Complete
+3.370193 [mod=WANMANAGER, lvl=INFO] [tid=811] WanMgr_UpdatePrevData 953: No ntp sync in device, so setting Boot to Wan up to false
+3.370312 [mod=WANMANAGER, lvl=ERROR] [tid=811] WanMgr_RdkBus_GetParamValueFromAnyComp 426: CcspBaseIf_discComponentSupportingNamespace() call failed
+3.370323 [mod=WANMANAGER, lvl=ERROR] [tid=811] WanMgr_GetBaseInterfaceStatus-859: .Status, Failed to get param value
+3.370396 [mod=WANMANAGER, lvl=ERROR] [tid=811] WanMgr_RdkBus_GetParamValueFromAnyComp 426: CcspBaseIf_discComponentSupportingNamespace() call failed
+3.370403 [mod=WANMANAGER, lvl=ERROR] [tid=811] WanMgr_GetBaseInterfaceStatus-859: Device.Ethernet.X_RDK_Interface.1.Status, Failed to get param value
+3.370476 [mod=WANMANAGER, lvl=INFO] [tid=811] WanMgr_RdkBus_setDhcpv6DnsServerInfo 896 - sysevent ula_address is empty 
+3.370491 [mod=WANMANAGER, lvl=INFO] [tid=811] WanController_Init_PeriodicTimers 90 - Periodic timer is created: ipv6_AddrMonTimer
+3.370667 [mod=WANMANAGER, lvl=INFO] [tid=1473] Inside FUNC messageQueueProcessing LINE 899 
+3.370995 [mod=WANMANAGER, lvl=ERROR] [tid=811] WanMgr_RdkBus_GetParamValuesFromDB Error 102 reading dmsb.wanmanager.if.1.Marking.List
+3.371002 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.1.Marking.List : 
+3.371311 [mod=WANMANAGER, lvl=ERROR] [tid=811] WanMgr_RdkBus_GetParamValuesFromDB Error 102 reading dmsb.wanmanager.if.2.Marking.List
+3.371323 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.if.2.Marking.List : 
+3.371326 [mod=WANMANAGER, lvl=INFO] [tid=811] WanController_Init_StateMachine 33 
+3.372639 [mod=WANMANAGER, lvl=INFO] [tid=1475] subscribeSubdocForceReset: Discover component for event 'Device.X_RDK_WebConfig.webcfgSubdocForceReset' 
+3.372761 [mod=WANMANAGER, lvl=INFO] [tid=1475] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+3.372990 [mod=WANMANAGER, lvl=ERROR] [tid=1475] Failed to discover component. Error Code = 2
+3.373558 [mod=WANMANAGER, lvl=INFO] [tid=1474] Inside FUNC display_subDocs LINE 88
+3.871403 [mod=WANMANAGER, lvl=INFO] [tid=811] WanMgr_FailOverThread 906 
+3.871632 [mod=WANMANAGER, lvl=ERROR] [tid=811] WanMgr_RdkBus_GetParamValuesFromDB Error 102 reading dmsb.wanmanager.FailOverType
+3.871639 [mod=WANMANAGER, lvl=INFO] [tid=811] PSM Read => dmsb.wanmanager.FailOverType : 
+3.871647 [mod=WANMANAGER, lvl=INFO] [tid=811] Transition_Start 444  
+3.871651 [mod=WANMANAGER, lvl=INFO] [tid=811] WanMgr_FO_IfaceGroupMonitor 306 - Creating AUTOWAN_MODE selection thread for Group(1) 
+3.871712 [mod=WANMANAGER, lvl=INFO] [tid=811] WanMgr_FO_IfaceGroupMonitor 316 - Successfully Created Group(1) Thread Id :4073700160 
+SelectionTimeOut 20 Interfaces_mask 1
+3.871723 [mod=WANMANAGER, lvl=INFO] [tid=811] WanMgr_FO_IfaceGroupMonitor 306 - Creating AUTOWAN_MODE selection thread for Group(2) 
+3.871731 [mod=WANMANAGER, lvl=INFO] [tid=1579] WanMgr_AutoWanSelectionProcess 1504 
+3.871750 [mod=WANMANAGER, lvl=INFO] [tid=811] WanMgr_FO_IfaceGroupMonitor 316 - Successfully Created Group(2) Thread Id :4065307456 
+SelectionTimeOut 20 Interfaces_mask 2
+3.871754 [mod=WANMANAGER, lvl=INFO] [tid=1580] WanMgr_AutoWanSelectionProcess 1504 
+3.871758 [mod=WANMANAGER, lvl=INFO] [tid=1580] WanMgr_AutoWanSelectionProcess 1526: SelectionProcess Thread Starting for GroupId(2) 
+3.871765 [mod=WANMANAGER, lvl=INFO] [tid=1580] WanManager_WaitForGroupInterfaceComponents 1035: Wait for Phy component to be ready.. (Device.Ethernet.X_RDK_Interface.1) 
+3.871769 [mod=WANMANAGER, lvl=INFO] [tid=1579] WanMgr_AutoWanSelectionProcess 1526: SelectionProcess Thread Starting for GroupId(1) 
+3.871777 [mod=WANMANAGER, lvl=INFO] [tid=1579] WanMgr_GetPrevSelectedInterface 177: Previous ActiveLink Interface Index:0
+3.871780 [mod=WANMANAGER, lvl=INFO] [tid=1579] Transition_Start 490: Previous ActiveLink interface from DB is 0
+3.871788 [mod=WANMANAGER, lvl=INFO] [tid=1579] Transition_Start 500: State changed to STATE_AUTO_WAN_INTERFACE_SELECTING 
+3.871944 [mod=WANMANAGER, lvl=INFO] [tid=1580] com.cisco.spvtg.ccsp.ethagent component health is Green, continue
+3.871952 [mod=WANMANAGER, lvl=INFO] [tid=1580] Transition_Start 495: unable to select an previous active interface from psm
+3.871956 [mod=WANMANAGER, lvl=INFO] [tid=1580] Transition_Start 500: State changed to STATE_AUTO_WAN_INTERFACE_SELECTING 
+4.122055 [mod=WANMANAGER, lvl=INFO] [tid=1579] State_SelectingInterface 1006: Selected interface index:0
+4.122074 [mod=WANMANAGER, lvl=INFO] [tid=1579] Transition_InterfaceSelected 523: selected interface idx=0, name=CM, selectionTimeOut=20 
+4.122078 [mod=WANMANAGER, lvl=INFO] [tid=1579] Transition_InterfaceSelected 527: Starting timer for interface 0 
+4.122086 [mod=WANMANAGER, lvl=INFO] [tid=1579] Transition_InterfaceSelected 557: State changed to STATE_AUTO_WAN_INTERFACE_WAITING 
+4.232323 [mod=WANMANAGER, lvl=WARN] [tid=813] DslhObjcoValidate: BaseInterface, bsUpdate = 3
+
+4.232338 [mod=WANMANAGER, lvl=WARN] [tid=813] Before committing:Device.X_RDK_WanManager.Interface.2.
+4.232342 [mod=WANMANAGER, lvl=WARN] [tid=813] After committing:Device.X_RDK_WanManager.Interface.2.:0
+4.232510 [mod=WANMANAGER, lvl=WARN] [tid=813] DslhObjcoValidate: BaseInterfaceStatus, bsUpdate = 3
+
+4.232517 [mod=WANMANAGER, lvl=WARN] [tid=813] Before committing:Device.X_RDK_WanManager.Interface.2.
+4.232525 [mod=WANMANAGER, lvl=WARN] [tid=813] After committing:Device.X_RDK_WanManager.Interface.2.:0
+4.596111 [mod=WANMANAGER, lvl=INFO] [tid=1443] WanManagerSyseventHandler 727 - received notification event multinet_1-status:partial
+4.770729 [mod=WANMANAGER, lvl=INFO] [tid=1443] WanManagerSyseventHandler 727 - received notification event bridge-status:started
+4.770813 [mod=WANMANAGER, lvl=INFO] [tid=1443] WanManagerSyseventHandler-978: Bridge Mode Changed to 2, bridge-status=started, Previous BridgeMode=2
+13.373081 [mod=WANMANAGER, lvl=INFO] [tid=1475] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+13.373100 [mod=WANMANAGER, lvl=ERROR] [tid=1475] Failed to discover component. Error Code = 2
+23.373177 [mod=WANMANAGER, lvl=INFO] [tid=1475] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+23.373192 [mod=WANMANAGER, lvl=ERROR] [tid=1475] Failed to discover component. Error Code = 2
+33.373226 [mod=WANMANAGER, lvl=INFO] [tid=1475] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+33.373245 [mod=WANMANAGER, lvl=ERROR] [tid=1475] Failed to discover component. Error Code = 2
+40.033592 [mod=WANMANAGER, lvl=WARN] [tid=813] DslhObjcoValidate: Mode, bsUpdate = 3
+
+40.033607 [mod=WANMANAGER, lvl=WARN] [tid=813] Before committing:Device.X_RDK_WanManager.Interface.1.VirtualInterface.1.IP.
+40.033611 [mod=WANMANAGER, lvl=INFO] [tid=813] write_Virtual_Interface_ToPSM 515 Entered
+40.036945 [mod=WANMANAGER, lvl=WARN] [tid=813] After committing:Device.X_RDK_WanManager.Interface.1.VirtualInterface.1.IP.:0
+40.099777 [mod=WANMANAGER, lvl=WARN] [tid=813] DslhObjcoValidate: Mode, bsUpdate = 3
+
+40.099792 [mod=WANMANAGER, lvl=WARN] [tid=813] Before committing:Device.X_RDK_WanManager.Interface.1.VirtualInterface.1.IP.
+40.099800 [mod=WANMANAGER, lvl=INFO] [tid=813] write_Virtual_Interface_ToPSM 515 Entered
+40.102215 [mod=WANMANAGER, lvl=WARN] [tid=813] After committing:Device.X_RDK_WanManager.Interface.1.VirtualInterface.1.IP.:0
+43.373314 [mod=WANMANAGER, lvl=INFO] [tid=1475] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+43.373333 [mod=WANMANAGER, lvl=ERROR] [tid=1475] Failed to discover component. Error Code = 2
+53.373409 [mod=WANMANAGER, lvl=INFO] [tid=1475] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+53.373425 [mod=WANMANAGER, lvl=ERROR] [tid=1475] Failed to discover component. Error Code = 2
+63.373501 [mod=WANMANAGER, lvl=INFO] [tid=1475] webcfg_rbus_discover_component rbusModuleList[Device.X_RDK_WebConfig.webcfgSubdocForceReset]
+63.373520 [mod=WANMANAGER, lvl=ERROR] [tid=1475] Failed to discover component. Error Code = 2
