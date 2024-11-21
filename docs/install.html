@@ -120,28 +120,44 @@
 </head>
 <body>
     <div id="markup-content">
+
 # VCPE Installation Guide
+
 
 ## Prerequisites
 
-Ubuntu 20.04 is known to work.
+The VCPE environment operates on an x86 Linux system using LXD containerization. VCPE runs a large number of Linux containers simultaneously, VCPE also creates specific networking configurations including network interfaces and bridges. While it can run on a shared server, deploying it on a dedicated physical host is recommended.
 
-Ubuntu >= 22.04, optionally switch nftables back to iptables:
+## OS Requirements
+
+Ubuntu 20.04: is recommended as it is known to work correctly for all cpe and bng container configurations.
+
+Ubuntu >= 22.04: is yet to be fully confirmed to be working. Currently only single-vlan and multi-vlan cpe and bng (mv3 bng-9/bng-20) configurations have been verified to work. No-vlan cpe and bng (mv1 / mv2plus and bng-7) configurations fail in dhcp.. In addition, the below is recommended.
+
+Switch nftables backend back to iptables:
 
 ```bash
 sudo update-alternatives --set iptables /usr/sbin/iptables-legacy
 sudo update-alternatives --set ip6tables /usr/sbin/ip6tables-legacy
 ```
 
-sudo without password prompts is preferred
+## OS Prerequisites
 
-## (re-) Install LXD from snap
+sudo without password prompt is recommended.
+
+## OS Packages
 
 ```bash
-sudo snap remove lxd --purge
-sudo snap install lxd
-sudo snap refresh lxd --channel=6.1/stable
-lxd init --auto
+sudo apt install jq
+```
+
+## Install LXD from snap
+
+Note: LXD uninstall instructions for apt and snap can be found at the bottom of this page.
+
+```bash
+sudo snap install lxd --channel=6.1
+lxd init #select all defaults
 lxd version
 ```
 
@@ -152,14 +168,7 @@ sudo usermod -a -G lxd $USER
 newgrp lxd
 ```
 
-Verify installation:
-
-```bash
-lxc --version
-lxc list
-```
-
-Run a container test:
+Run a container - internet connectivity test (test lxdbr0 NAT):
 
 ```bash
 lxc launch images:alpine/edge edge
@@ -167,28 +176,79 @@ lxc exec edge -- ping google.com -c 3
 lxc delete edge -f
 ```
 
-
 ## Install meta-lxd
 
+meta-lxd contains a large number of scripts to manage the VCPE environment. This includes scripts required for container creation and configuration, these are found in meta-lxd/gen. This also includes scripts required for running various vcpe tests, and scripts required for obtaining and processing vcpe data, including a large number of rdk debug and visualization tooling scripts known as probes. These (probes) scripts are in meta-lxd/probes/scripts. meta-lxd/doc contains additional documentation. meta-lxd/recipes is part of the vcpe container build layers (yocto) meta-layers.
 
 Clone the repo:
 
 ```bash
 cd
-mkdir git
+mkdir -p git
 cd git
 git clone ssh://git@bitbucket.upc.biz:7999/~rvogelaar/meta-lxd.git
 ```
 
-Add meta-lxd to System PATH
-
+Add meta-lxd to system PATH:
 
 ```bash
 vi ~/.bashrc
-export PATH="$HOME/git/meta-lxd/probes/scripts:$PATH"
 export PATH="$HOME/git/meta-lxd/gen:$PATH"
+export PATH="$HOME/git/meta-lxd/probes/scripts:$PATH"
 source ~/.bashrc
 ```
+
+# VCPE Nomenclature
+
+## acs container
+
+The acs container (debian 7 based) contains the Axiros cwmp stack. cpe containers will register and establish the tr069 protocol with the acs. The acs will receive a static ip address of 10.10.10.200, The web UI can be port forwarded using ssh:
+
+```bash
+ssh -L 192.168.2.130:8888:10.10.10.200:80 rev@192.168.2.130
+firefox http://192.168.2.130:8888/live/AXDashboard/
+'admin':'ohdeetheipheela!'
+```
+
+Auto testing (soap) acs scripts can be found in meta-lxd.
+
+## bng containers
+
+The bng containers (devuan chimaera based) provide configuration and connectivity services to the cpe containers (similar to cmts / back-office). This includes dhcpv4/v6, radvd, dns, ntp, iperf, http, etc. There are multiple bng containers providing a specific real world market (customer index) configuration. For instance bng-9 is configured for multi-vlan. Each bng provides a wan (internet) and a cm (cmts) connection to the cpe containers.
+
+## mvx (cpe) containers
+
+The mvx or cpe containers run the full rdk-b router gateway stack, including oem and soc layers, with a virtual hal. These containers are created from the rootfs obtained from a rdk-b build server. When lxd starts a container, it runs the /sbin/init in the container.
+
+The cpe containers follow a strict naming scheme. This helps identify what is running in the container:
+
+MV-REL-BNG-EXTRA
+
+MV    : mv1 mv2plus mv3 : ie. one of the common LG virtualized platforms
+
+REL   : r21 : ie. the release number. Builds for r22 release have not been prepared
+
+BNG   : 7 9 20 : this indicates to which bng (customer index) this container is configured and connected
+
+EXTRA : empty or 001..099, use the extra when creating another instance of a container 
+
+cpe containers are created from a mv1, mv2plus, or mv3 image. They are then provided with a unique profile, this profile contains device configurations such as which network devices are required. cpe containers are also provided with a unique storage volume which holds the persistent nvram data. Since the name of the nvram storage volume that is associated with the container, is configured in the containers profile, each container has a unique profile.
+
+
+## lan (client) containers
+
+lan clients are extremely small 'alpine/edge' or 'alpine/busybox' based, and run udhcpc.
+
+## Bridges
+
+lxdbr1 bridge. This bridge connects the acs container to the bng containers, and provides host gateway (internet access) to the bng containers using NAT.
+
+cpe containers connect to bng containers using a common wan bridge (supporting single/multi/no - vlan) and a common cm bridge.
+
+lan clients connect to cpe containers lan ports using lan-p1..lan-p4 bridges. The cpe containers lan ports and the lan-p1.lan-p4 bridges are vlan configured allowing a large number of client connections to cpe containers lan ports.
+
+wlan interfaces connect to wlan0 and wlan1 bridges.
+
 
 ## Install VCPE bridges
 
@@ -202,8 +262,22 @@ bridges.sh
 
 Run the acs.sh script:
 
+Note: as part of the acs container creation, an encrypted Axiros container image is obtained from dropbox.
+
 ```bash
 acs.sh
+```
+
+Verify acs daemons are running:
+
+```bash
+lxc exec acs -- /etc/init.d/axess_all_daemons status
+```
+
+Restart acs daemons:
+
+```bash
+lxc exec acs -- /etc/init.d/axess_all_daemons status
 ```
 
 ## Install BNG containers
@@ -217,6 +291,30 @@ bng.sh 7
 bng.sh 9
 bng.sh 20
 ```
+
+## Verify running acs and bng containers
+
+```bash
+ lxc list
++--------+---------+--------------------------+-------------------------------+
+|  NAME  |  STATE  |           IPV4           |             IPV6              |
++--------+---------+--------------------------+-------------------------------+
+| acs    | RUNNING | 10.10.10.200 (eth0)      | 2001:dbf:0:1::200 (eth0)      |
++--------+---------+--------------------------+-------------------------------+
+| bng-7  | RUNNING | 10.107.201.1 (eth2)      | 2001:dbf:0:1::107 (eth0)      |
+|        |         | 10.107.200.1 (eth1)      | 2001:daf:7:1::129 (eth2)      |
+|        |         | 10.10.10.107 (eth0)      | 2001:dae:7:1::129 (eth1)      |
++--------+---------+--------------------------+-------------------------------+
+| bng-9  | RUNNING | 10.179.200.1 (eth1.981)  | 2001:dbf:0:1::109 (eth0)      |
+|        |         | 10.178.200.1 (eth1.1081) | 2001:dbe:0:1::129 (eth1.1081) |
+|        |         | 10.177.200.1 (eth1.881)  | 2001:dbd:0:1::129 (eth1.881)  |
+|        |         | 10.10.10.109 (eth0)      | 2001:dbc:0:1::129 (eth1.981)  |
++--------+---------+--------------------------+-------------------------------+
+| bng-20 | RUNNING | 10.120.200.1 (eth1.100)  | 2001:dbf:0:1::120 (eth0)      |
+|        |         | 10.10.10.120 (eth0)      | 2001:dae:20:1::129 (eth1.100) |
++--------+---------+--------------------------+-------------------------------+
+```
+
 
 ## Install CPE containers
 
@@ -232,14 +330,31 @@ Run the mv.sh script to install mv2plus container to work with bng-7 (no vlan):
 mv.sh https://vcpe-images.vcpe.dev/mv2plus-r21.rootfs 7
 ```
 
+Run the mv.sh script to install a second mv2plus container to work with bng-7 (no vlan), this container can later be configured to work in bridge mode:
+
+```bash
+mv.sh https://vcpe-images.vcpe.dev/mv2plus-r21.rootfs 7 001
+```
+
 Run the mv.sh script to install mv3 container to work with bng-9 (multi vlan):
 
 ```bash
-mv.sh https://vcpe-images.vcpe.dev/mv3-r21.rootfs
+mv.sh https://vcpe-images.vcpe.dev/mv3-r21.rootfs 9
 ```
 
+Run the mv.sh script to install mv3 container to work with bng-9 (multi vlan), this container can later be configured to work in bridge mode:
+
+```bash
+mv.sh https://vcpe-images.vcpe.dev/mv3-r21.rootfs 9 001
+```
 
 Run the mv.sh script to install a second mv3 container to work with bng-20 (single vlan):
+
+```bash
+mv.sh https://vcpe-images.vcpe.dev/mv3-r21.rootfs 20
+```
+
+Run the mv.sh script to install a second mv3 container to work with bng-20 (single vlan), this container can later be configured to work in bridge mode:
 
 ```bash
 mv.sh https://vcpe-images.vcpe.dev/mv3-r21.rootfs 20 001
@@ -248,14 +363,158 @@ mv.sh https://vcpe-images.vcpe.dev/mv3-r21.rootfs 20 001
 
 ## Configure the CPE containers
 
-on each container run a factory default and set customer id on the containers to match with the bng. Do this by shell into the container.
+on each container run a factory default and set customer id on the containers to match with the bng. Do this by shell into the container and running the appropriate command syscfg / dmcli etc.
 
+
+```bash
+lxc exec mv1-r21-7 exec bash
+root@mv1-r21-7:~$ hint
+
+run the appropriate command: e.e
+
+root@mv1-r21-7:~$ syscfg set Customer_Index 7 && syscfg commit
+root@mv1-r21-7:~$ reboot
+
+
+```
+
+Note: the cpe container bash history will be saved in /nvram/, to write the history file exit and re-enter the container, the history will now be available upon a container reboot.
 
 ## Install lan client containers
 
+Pull the alpine busybox image:
 
-## Container management exercises:
+```bash
+pull-alpine-busybox.sh
+```
 
+Run the vcpe script with the 'create client' option. This will automatically create clients for all ports for all cpe containers.
+
+
+```bash
+vcpe create client
+```
+
+## Container management:
+
+list all containers
+```bash
+lxc list
+lxc image list
+lxc profile list
+lxc storage volume list
+```
+
+enter a cpe container's console
+```bash
+lxc console mv2plus-r21-7
+lxc console mv3-r21-9 bash
+```
+
+enter a shell on a cpe container
+```bash
+lxc exec mv2plus-r21-7 bash
+lxc exec mv3-r21-9 bash
+lxc exec bng-7 bash
+lxc exec acs bash
+```
+
+run a command in a container
+```bash
+lxc exec mv2plus-r21-7 bash -- dmcli eRT getv Device.
+```
+
+pull a file from a container
+```bash
+lxc file pull mv3-r21-9/rdklogs/logs/WANManager.log.txt .
+```
+
+push a file to a container
+```bash
+lxc file push debug.ini mv3-r21-9/etc/debug.ini
+```
+
+stop start restart (reboot) a container
+```bash
+lxc stop mv3-r21-9
+lxc start mv3-r21-9
+lxc restart mv3-r21-9
+```
+
+
+# Probes
+
+
+## getrdklogs
+```bash
+getrdklogs.sh mv3-r21-9
+```
+
+## getlogs
+```bash
+getlogs.sh mv3-r21-9
+```
+
+## forkstat
+```bash
+do-forkstat.sh mv3-r21-9
+```
+
+## reboot
+
+## reload
+
+## acs tests
+
+## usp tests
+
+# LXD UI
+
+Manage containers using lxd web interface.
+
+```bash
+lxc config set core.https_address :8443
+```
+
+start a browser on port 8443, follow instructions.
+
+
+## After a host reboot
+
+All containers will come up in the stopped state, they all require a lxc start. All VCP bridges (except lxdbr1) have to be re-created by running the bridges.sh script.
+
+
+## Uninstall LXD from apt
+
+```bash
+# Stop the LXD service
+sudo systemctl stop lxd
+sudo systemctl stop lxd.socket
+
+# Remove all LXD containers, images, and storage pools
+lxd shutdown
+
+# Remove the LXD packages
+sudo apt purge lxd lxd-client lxc
+sudo apt autoremove
+
+# Remove LXD configuration and data directories
+sudo rm -rf /var/lib/lxd
+sudo rm -rf /var/log/lxd
+sudo rm -rf ~/.config/lxc
+sudo rm -rf /etc/lxd
+```
+
+## Uninstall LXD from snap
+
+```bash
+sudo snap remove lxd --purge
+```
+
+
+```bash
+for br in cm wan lan-p1 lan-p2 lan-p3 lan-p4 lxdbr0 wlan0 wlan1; do sudo ip link set $br down && sudo brctl delbr $br; done
+```
 
 
     </div>
