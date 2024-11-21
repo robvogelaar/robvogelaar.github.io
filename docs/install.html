@@ -120,15 +120,29 @@
 </head>
 <body>
     <div id="markup-content">
-# Installation Guide
+# VCPE Installation Guide
 
-## Install LXD
+## Prerequisites
 
-First, install LXD using snap:
+Ubuntu 20.04 is known to work.
+
+Ubuntu >= 22.04, optionally switch nftables back to iptables:
 
 ```bash
+sudo update-alternatives --set iptables /usr/sbin/iptables-legacy
+sudo update-alternatives --set ip6tables /usr/sbin/ip6tables-legacy
+```
+
+sudo without password prompts is preferred
+
+## (re-) Install LXD from snap
+
+```bash
+sudo snap remove lxd --purge
 sudo snap install lxd
-sudo lxd init --auto
+sudo snap refresh lxd --channel=6.1/stable
+lxd init --auto
+lxd version
 ```
 
 Add your user to the LXD group:
@@ -145,36 +159,105 @@ lxc --version
 lxc list
 ```
 
-## Clone Repositories
-
-Clone the main repository:
+Run a container test:
 
 ```bash
-git clone https://github.com/example/main-repo.git
-cd main-repo
+lxc launch images:alpine/edge edge
+lxc exec edge -- ping google.com -c 3
+lxc delete edge -f
 ```
 
-Clone multiple repositories in parallel:
+
+## Install meta-lxd
+
+
+Clone the repo:
 
 ```bash
-mkdir projects && cd projects
-git clone https://github.com/example/repo1.git &
-git clone https://github.com/example/repo2.git &
-git clone https://github.com/example/repo3.git &
-wait
+cd
+mkdir git
+cd git
+git clone ssh://git@bitbucket.upc.biz:7999/~rvogelaar/meta-lxd.git
 ```
 
-Clone a specific branch:
+Add meta-lxd to System PATH
+
 
 ```bash
-git clone -b develop https://github.com/example/feature-repo.git
+vi ~/.bashrc
+export PATH="$HOME/git/meta-lxd/probes/scripts:$PATH"
+export PATH="$HOME/git/meta-lxd/gen:$PATH"
+source ~/.bashrc
 ```
 
-Clone with depth limit for faster download:
+## Install VCPE bridges
+
+Run the bridges.sh script:
 
 ```bash
-git clone --depth 1 https://github.com/example/large-repo.git
+bridges.sh
 ```
+
+## Install ACS container
+
+Run the acs.sh script:
+
+```bash
+acs.sh
+```
+
+## Install BNG containers
+
+Run the bng.sh script to install bng-7, bng-9, and bng-20:
+
+Note: The first step involves creating a BNG base container. This is a one-time process that will take several minutes to complete, as it builds the container from scratch. Please be patient during this initial setup.
+
+```bash
+bng.sh 7
+bng.sh 9
+bng.sh 20
+```
+
+## Install CPE containers
+
+Run the mv.sh script to install mv1 container to work with bng-7 (no vlan):
+
+```bash
+mv.sh https://vcpe-images.vcpe.dev/mv1-r21.rootfs 7
+```
+
+Run the mv.sh script to install mv2plus container to work with bng-7 (no vlan):
+
+```bash
+mv.sh https://vcpe-images.vcpe.dev/mv2plus-r21.rootfs 7
+```
+
+Run the mv.sh script to install mv3 container to work with bng-9 (multi vlan):
+
+```bash
+mv.sh https://vcpe-images.vcpe.dev/mv3-r21.rootfs
+```
+
+
+Run the mv.sh script to install a second mv3 container to work with bng-20 (single vlan):
+
+```bash
+mv.sh https://vcpe-images.vcpe.dev/mv3-r21.rootfs 20 001
+```
+
+
+## Configure the CPE containers
+
+on each container run a factory default and set customer id on the containers to match with the bng. Do this by shell into the container.
+
+
+## Install lan client containers
+
+
+## Container management exercises:
+
+
+
     </div>
 
     <div id="output"></div>
