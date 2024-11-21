@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Installation Guide</title>
+    <title>VCPE Installation Guide</title>
     <style>
         :root {
             --bg-primary: #1a1b26;
@@ -123,10 +123,13 @@
 
 # VCPE Installation Guide
 
+[Overview 1](https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com/robvogelaar/robvogelaar.github.io/main/drawio/containers.drawio "ctrl-click to open containers.drawio")
+
+[Overview 2](https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com/robvogelaar/robvogelaar.github.io/main/drawio/mvx.drawio "ctrl-click to open mvx.drawio")
 
 ## Prerequisites
 
-The VCPE environment operates on an x86 Linux system using LXD containerization. VCPE runs a large number of Linux containers simultaneously, VCPE also creates specific networking configurations including network interfaces and bridges. While it can run on a shared server, deploying it on a dedicated physical host is recommended.
+The Virtual CPE Environment operates on an x86 Linux system using LXD containerization. VCPE runs a large number of Linux containers simultaneously, VCPE also creates specific networking configurations including network interfaces and bridges. While it can run on a shared server, deploying it on a dedicated physical host is recommended.
 
 ## OS Requirements
 
@@ -178,7 +181,7 @@ lxc delete edge -f
 
 ## Install meta-lxd
 
-meta-lxd contains a large number of scripts to manage the VCPE environment. This includes scripts required for container creation and configuration, these are found in meta-lxd/gen. This also includes scripts required for running various vcpe tests, and scripts required for obtaining and processing vcpe data, including a large number of rdk debug and visualization tooling scripts known as probes. These (probes) scripts are in meta-lxd/probes/scripts. meta-lxd/doc contains additional documentation. meta-lxd/recipes is part of the vcpe container build layers (yocto) meta-layers.
+meta-lxd contains a large number of scripts to manage the VCPE environment. This includes scripts required for container creation and configuration, these are found in meta-lxd/gen. meta-lxd also includes scripts required for running various vcpe tests, and scripts required for obtaining and processing vcpe data, including a large number of debug and visualization tooling scripts known as probes. These (probes) scripts are in meta-lxd/probes/scripts. meta-lxd/doc contains additional documentation. meta-lxd/recipes is part of the vcpe container build layers (yocto) meta-layers.
 
 Clone the repo:
 
@@ -214,11 +217,11 @@ Auto testing (soap) acs scripts can be found in meta-lxd.
 
 ## bng containers
 
-The bng containers (devuan chimaera based) provide configuration and connectivity services to the cpe containers (similar to cmts / back-office). This includes dhcpv4/v6, radvd, dns, ntp, iperf, http, etc. There are multiple bng containers providing a specific real world market (customer index) configuration. For instance bng-9 is configured for multi-vlan. Each bng provides a wan (internet) and a cm (cmts) connection to the cpe containers.
+The bng containers (devuan chimaera based) provide configuration and connectivity services to the cpe containers (similar to cmts / back-office). This includes: router.cfg tftp, dhcpv4/v6, radvd, dns, ntp, iperf, http, etc. There are multiple bng containers providing a specific real world market (customer index) configuration. For instance bng-9 is configured for multi-vlan with a specific ip-pool. Each bng provides a wan (internet) and a cm (cmts) connection to the cpe containers. bng containers provide internet acces to cpe containers using NAT.
 
 ## mvx (cpe) containers
 
-The mvx or cpe containers run the full rdk-b router gateway stack, including oem and soc layers, with a virtual hal. These containers are created from the rootfs obtained from a rdk-b build server. When lxd starts a container, it runs the /sbin/init in the container.
+The mvx or cpe containers run the full ofw (rdk-b) router gateway stack, including oem and soc layers, with a virtual hal. These containers are created from the rootfs obtained from a rdk-b build server. When lxd starts a container, it runs the /sbin/init in the container.
 
 The cpe containers follow a strict naming scheme. This helps identify what is running in the container:
 
@@ -232,7 +235,7 @@ BNG   : 7 9 20 : this indicates to which bng (customer index) this container is 
 
 EXTRA : empty or 001..099, use the extra when creating another instance of a container 
 
-cpe containers are created from a mv1, mv2plus, or mv3 image. They are then provided with a unique profile, this profile contains device configurations such as which network devices are required. cpe containers are also provided with a unique storage volume which holds the persistent nvram data. Since the name of the nvram storage volume that is associated with the container, is configured in the containers profile, each container has a unique profile.
+cpe containers are created from a mv1, mv2plus, or mv3 image. They are then provided with a unique profile, this profile contains device configurations such as which network devices are required. cpe containers are also provided with a unique storage volume which holds the persistent nvram data. Since the name of the nvram storage volume that is associated with the container is configured in the container's profile, each container requires a unique profile.
 
 
 ## lan (client) containers
@@ -435,10 +438,18 @@ lxc file push debug.ini mv3-r21-9/etc/debug.ini
 ```
 
 stop start restart (reboot) a container
+
+Note: stopping (restarting) a container is a graceful procedure and takes a few seconds to finish. If a container is in a state where it cannot shutdown cleanly often due to dhcp release, then the container can be forced stopped or restarted using the -f option. In this case ctrl-c twice to break the pending action and rerun the action with -f.
+
 ```bash
 lxc stop mv3-r21-9
 lxc start mv3-r21-9
 lxc restart mv3-r21-9
+```
+
+force delete all lan clients
+```bash
+lxm.sh alpine delete -f
 ```
 
 
