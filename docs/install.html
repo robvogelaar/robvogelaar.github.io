@@ -148,10 +148,9 @@ sudo update-alternatives --set ip6tables /usr/sbin/ip6tables-legacy
 
 sudo without password prompt is recommended.
 
-## OS Packages
-
 ```bash
-sudo apt install jq
+sudo apt install jq graphviz python3 python3-pip
+sudo pip install msgpack
 ```
 
 ## Install LXD from snap
@@ -205,15 +204,7 @@ source ~/.bashrc
 
 ## acs container
 
-The acs container (debian 7 based) contains the Axiros cwmp stack. cpe containers will register and establish the tr069 protocol with the acs. The acs will receive a static ip address of 10.10.10.200, The web UI can be port forwarded using ssh:
-
-```bash
-ssh -L 192.168.2.130:8888:10.10.10.200:80 rev@192.168.2.130
-firefox http://192.168.2.130:8888/live/AXDashboard/
-'admin':'ohdeetheipheela!'
-```
-
-Auto testing (soap) acs scripts can be found in meta-lxd.
+The acs container (debian 7 based) contains the Axiros cwmp stack. cpe containers will register and establish the tr069 protocol with the acs. Auto testing (soap) acs scripts can be found in meta-lxd.
 
 ## bng containers
 
@@ -238,9 +229,9 @@ EXTRA : empty or 001..099, use the extra when creating another instance of a con
 cpe containers are created from a mv1, mv2plus, or mv3 image. They are then provided with a unique profile, this profile contains device configurations such as which network devices are required. cpe containers are also provided with a unique storage volume which holds the persistent nvram data. Since the name of the nvram storage volume that is associated with the container is configured in the container's profile, each container requires a unique profile.
 
 
-## lan (client) containers
+## (lan) client containers
 
-lan clients are extremely small 'alpine/edge' or 'alpine/busybox' based, and run udhcpc.
+clients are 'alpine' based, and run busybox - udhcpc.
 
 ## Bridges
 
@@ -283,6 +274,14 @@ Restart acs daemons:
 lxc exec acs -- /etc/init.d/axess_all_daemons status
 ```
 
+The acs will receive a static ip address of 10.10.10.200, The web UI can be port forwarded using ssh:
+
+```bash
+ssh -L 192.168.2.130:8888:10.10.10.200:80 rev@192.168.2.130
+firefox http://192.168.2.130:8888/live/AXDashboard/
+'admin':'ohdeetheipheela!'
+```
+
 ## Install BNG containers
 
 Run the bng.sh script to install bng-7, bng-9, and bng-20:
@@ -293,6 +292,13 @@ Note: The first step involves creating a BNG base container. This is a one-time 
 bng.sh 7
 bng.sh 9
 bng.sh 20
+```
+
+## Add an alias to frequently used lxc commands
+
+```bash
+vi ~/.bash_aliases
+alias l="lxc list"
 ```
 
 ## Verify running acs and bng containers
@@ -366,8 +372,7 @@ mv.sh https://vcpe-images.vcpe.dev/mv3-r21.rootfs 20 001
 
 ## Configure the CPE containers
 
-on each container run a factory default and set customer id on the containers to match with the bng. Do this by shell into the container and running the appropriate command syscfg / dmcli etc.
-
+On each container run a factory default and set customer id on the containers to match with the bng. Do this by shell into the container and running the appropriate command syscfg / dmcli etc.
 
 ```bash
 lxc exec mv1-r21-7 exec bash
@@ -378,21 +383,21 @@ run the appropriate command: e.e
 root@mv1-r21-7:~$ syscfg set Customer_Index 7 && syscfg commit
 root@mv1-r21-7:~$ reboot
 
+```
 
+mv2plus containers will run ovs by default, there is however a large cpu load in ovs-vswitchd related to as of yet incorrectly terminated wlan interfaces in the brlan0 ovs bridge. It is recommended to disable ovs, and instead use linux bridge:
+
+```bash
+lxc exec mv2plus-r21-7 exec bash
+root@mv2plus-r21-7:~$ nvram set emf_enable=1
+root@mv2plus-r21-7:~$ reboot
 ```
 
 Note: the cpe container bash history will be saved in /nvram/, to write the history file exit and re-enter the container, the history will now be available upon a container reboot.
 
-## Install lan client containers
+## Install (lan) client containers
 
-Pull the alpine busybox image:
-
-```bash
-pull-alpine-busybox.sh
-```
-
-Run the vcpe script with the 'create client' option. This will automatically create clients for all ports for all cpe containers.
-
+Run the vcpe script with the 'create client' option. This will automatically create clients for all cpe containers. Each cpe container will receive a client on each of its lan ports
 
 ```bash
 vcpe create client
@@ -449,7 +454,7 @@ lxc restart mv3-r21-9
 
 force delete all lan clients
 ```bash
-lxm.sh alpine delete -f
+lxm.sh client delete -f
 ```
 
 
