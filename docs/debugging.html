@@ -18,6 +18,16 @@
             --link: #73daca;
         }
 
+        a {
+            color: var(--text-primary);
+            text-decoration: none;
+            transition: opacity 0.2s;
+        }
+
+        a:hover {
+            opacity: 0.8;
+        }
+
         * {
             margin: 0;
             padding: 0;
@@ -123,34 +133,35 @@
 
 # VCPE Debugging Guide
 
-Remote debugging with gdbserver and split debug files.
+## Remote debugging with gdbserver and split debug files
 
 PACKAGE_DEBUG_SPLIT_STYLE = "debug-with-srcpkg"
 
-## Obtain rootfs and rootfs-dbg
+Obtain rootfs and rootfs-dbg
 
 ```bash
+mkdir -p ~/git/meta-lxd/probes/tmp/gdb
 cd ~/git/meta-lxd/probes/tmp
-mkdir gdb
+
 tar xavf rootfs.tar.bz2 -C gdb
 tar xavf rootfs-dbg.tar.bz2 -C gdb
 ```
 
-## Start gdbserver in container
+Start gdbserver in container
 
 ```bash
 lxc exec mv3-r21-9 bash
 gdbserver --attach $(pidof wanmanager)
 ```
 
-## Prepare gdbport
+Prepare gdbport
 
 ```bash
 lxc config device add mv3-r21-20 gdbport proxy listen=tcp:$192.168.2.120:2345 connect=tcp:127.0.0.1:2345
 (lxc config device remove mv3-r21-20 gdbport)
 ```
 
-## Run gdb on host
+Run gdb on host
 
 ```bash
 vi ~/.gdbinit
@@ -164,7 +175,7 @@ gdb) target remote 192.168.2.120:2345
 gdb) thread apply all bt full
 ```
 
-## core files
+## debugging with core files
 
 ```bash
 root@mv2plus-r21-7:~$ ulimit -c unlimited

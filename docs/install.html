@@ -18,6 +18,16 @@
             --link: #73daca;
         }
 
+        a {
+            color: var(--text-primary);
+            text-decoration: none;
+            transition: opacity 0.2s;
+        }
+
+        a:hover {
+            opacity: 0.8;
+        }
+
         * {
             margin: 0;
             padding: 0;
@@ -123,6 +133,8 @@
 
 # VCPE Installation Guide
 
+[LXD documentation](https://documentation.ubuntu.com/lxd)
+
 [Overview 1](https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com/robvogelaar/robvogelaar.github.io/main/drawio/containers.drawio "ctrl-click to open containers.drawio")
 
 [Overview 2](https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com/robvogelaar/robvogelaar.github.io/main/drawio/mvx.drawio "ctrl-click to open mvx.drawio")
@@ -180,7 +192,7 @@ lxc delete edge -f
 
 ## Install meta-lxd
 
-meta-lxd contains a large number of scripts to manage the VCPE environment. This includes scripts required for container creation and configuration, these are found in meta-lxd/gen. meta-lxd also includes scripts required for running various vcpe tests, and scripts required for obtaining and processing vcpe data, including a large number of debug and visualization tooling scripts known as probes. These (probes) scripts are in meta-lxd/probes/scripts. meta-lxd/doc contains additional documentation. meta-lxd/recipes is part of the vcpe container build layers (yocto) meta-layers.
+meta-lxd contains a large number of scripts to manage the VCPE environment. This includes scripts required for container configuration and creation, these are found in meta-lxd/gen. meta-lxd also includes scripts required for running various vcpe tests, and scripts required for obtaining and processing vcpe data, including a large number of debug and visualization tooling scripts known as probes. These (probes) scripts are in meta-lxd/probes/scripts. meta-lxd/doc contains additional documentation. meta-lxd/recipes is part of the vcpe container build layers (yocto) meta-layers.
 
 Clone the repo:
 
@@ -503,14 +515,22 @@ do-forkstat.sh mv3-r21-9
 ```
 
 ## reboot
+```bash
+do-reboot.sh
+```
 
 ## reload
+```bash
+do-reload.sh 1124
+```
 
 ## acs tests
 
 ## usp tests
 
 # LXD UI
+
+[Reference](https://documentation.ubuntu.com/lxd/en/stable-5.21/tutorial/ui/)
 
 Manage containers using lxd web interface.
 
@@ -519,6 +539,10 @@ lxc config set core.https_address :8443
 ```
 
 start a browser on port 8443, follow instructions.
+
+# Prometheus and Grafana
+
+see docs/metrics
 
 
 ## After a host reboot
