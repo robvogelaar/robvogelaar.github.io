@@ -397,14 +397,6 @@ root@mv1-r21-7:~$ reboot
 
 ```
 
-mv2plus containers will run ovs by default, there is however a large cpu load in ovs-vswitchd related to as of yet incorrectly terminated wlan interfaces in the brlan0 ovs bridge. It is recommended to disable ovs, and instead use linux bridge:
-
-```bash
-lxc exec mv2plus-r21-7 exec bash
-root@mv2plus-r21-7:~$ nvram set emf_enable=1
-root@mv2plus-r21-7:~$ reboot
-```
-
 Note: the cpe container bash history will be saved in /nvram/, to write the history file exit and re-enter the container, the history will now be available upon a container reboot.
 
 ## Install (lan) client containers
