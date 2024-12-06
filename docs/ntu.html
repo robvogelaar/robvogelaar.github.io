@@ -135,11 +135,49 @@
 
 [Overview](https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com/robvogelaar/robvogelaar.github.io/main/drawio/ntu.drawio "ctrl-click to open ntu.drawio")
 
-ntu.yaml
+ntu-1206.yaml
 
 ```bash
 
-# vcpe
+# Container Configuration File
+#
+# Common Options (All Containers):
+# - reload: Command used to reload container
+# - actions: List of actions (start, stop, restart, reload)
+# - lan-p1 to lan-p4: LAN port properties
+#
+# MV Container Specific:
+# - build: Build identifier (global or per-container)
+#   Examples:
+#   - No build:      mv1-r21-7 -> mv.sh mv1-r21 7
+#   - Date format:   build: 20241120 -> mv.sh mv1-r21-20241120 7
+#   - Custom tag:    build: custom-123 -> mv.sh mv1-r21-custom-123 7
+#
+# - url: Image URL (global or per-container)
+#   Examples:
+#   - VCPE images without build:
+#     url: https://vcpe-images.vcpe.dev
+#     mv1-r21-7 -> mv.sh https://vcpe-images.vcpe.dev/mv1-r21.rootfs 7
+#   - VCPE images with build:
+#     url: https://vcpe-images.vcpe.dev
+#     build: 20241120
+#     mv1-r21-7 -> mv.sh https://vcpe-images.vcpe.dev/mv1-r21_20241120.rootfs 7
+#   - Custom URL:
+#     url: http://custom-server/images -> mv.sh mv1-r21-http://custom-server/images 7
+#
+# - post: List of post-processing commands
+#
+# Container Naming Rules:
+# - ACS: Must be exactly 'acs'
+# - BNG: Must be 'bng-<id>' where id is 7, 9, or 20
+# - MV:  Must follow: <type>-r<release>-<id>[-<suffix>]
+#        type = mv1, mv2plus, or mv3
+#        release = release number
+#        id = 7, 9, or 20
+#        suffix = optional 001-099
+# - Client: Must follow: client-<mvtype>-r<release>-<id>[-<suffix>]-p<port>
+#          port = 1-4
+
 acs:
   reload: acs.sh
   containers:
@@ -165,7 +203,9 @@ bng:
 
 mv:
   reload: mv.sh
-  build: 1203
+  url: https://vcpe-images.vcpe.dev
+  build: 20241206
+
   actions:
     #- restart
     - reload
@@ -192,15 +232,13 @@ mv:
         # enable wanoe mode
         - echo "dmcli eRT setv Device.X_RDK_WanManager.Interface.2.Selection.Enable bool true"
 
-#client:
-#  reload: client-alpine.sh
-#
-#  containers:
-#
-#    -name client-mv1-r21-7-p1
-#
-#    -name client-mv1-r21-7-p2
-#
+client:
+  reload: client-alpine.sh
+  actions:
+    - reload
+
+  containers:
+    - name: client-mv2plus-r21-7-p1
 
 
 ```
@@ -210,47 +248,33 @@ lxc list
 
 ```bash
 
-+-------------------+---------+------------------------------+-------------------------------+-----------+-----------+
-|       NAME        |  STATE  |             IPV4             |             IPV6              |   TYPE    | SNAPSHOTS |
-+-------------------+---------+------------------------------+-------------------------------+-----------+-----------+
-| acs               | RUNNING | 10.10.10.200 (eth0)          | 2001:dbf:0:1::200 (eth0)      | CONTAINER | 0         |
-+-------------------+---------+------------------------------+-------------------------------+-----------+-----------+
-| bng-7             | RUNNING | 10.107.201.1 (eth2)          | 2001:dbf:0:1::107 (eth0)      | CONTAINER | 0         |
-|                   |         | 10.107.200.1 (eth1)          | 2001:daf:7:1::129 (eth2)      |           |           |
-|                   |         | 10.10.10.107 (eth0)          | 2001:dae:7:1::129 (eth1)      |           |           |
-+-------------------+---------+------------------------------+-------------------------------+-----------+-----------+
-| bng-9             | RUNNING | 10.179.200.1 (eth1.981)      | 2001:dbf:0:1::109 (eth0)      | CONTAINER | 0         |
-|                   |         | 10.178.200.1 (eth1.1081)     | 2001:dbe:0:1::129 (eth1.1081) |           |           |
-|                   |         | 10.177.200.1 (eth1.881)      | 2001:dbd:0:1::129 (eth1.881)  |           |           |
-|                   |         | 10.10.10.109 (eth0)          | 2001:dbc:0:1::129 (eth1.981)  |           |           |
-+-------------------+---------+------------------------------+-------------------------------+-----------+-----------+
-| bng-20            | RUNNING | 10.120.200.1 (eth1.100)      | 2001:dbf:0:1::120 (eth0)      | CONTAINER | 0         |
-|                   |         | 10.10.10.120 (eth0)          | 2001:dae:20:1::129 (eth1.100) |           |           |
-+-------------------+---------+------------------------------+-------------------------------+-----------+-----------+
-| mv1-r21-7         | STOPPED |                              |                               | CONTAINER | 0         |
-+-------------------+---------+------------------------------+-------------------------------+-----------+-----------+
-| mv2plus-r21-7     | RUNNING | 192.168.245.1 (br403)        | 2001:dae:7:1::248 (erouter0)  | CONTAINER | 0         |
-|                   |         | 192.168.0.1 (lan0)           |                               |           |           |
-|                   |         | 172.31.255.70 (privbr:1)     |                               |           |           |
-|                   |         | 172.31.255.40 (privbr)       |                               |           |           |
-|                   |         | 172.31.255.32 (privbr:cmnat) |                               |           |           |
-|                   |         | 172.31.255.20 (privbr:0)     |                               |           |           |
-|                   |         | 10.107.200.110 (erouter0)    |                               |           |           |
-+-------------------+---------+------------------------------+-------------------------------+-----------+-----------+
-| mv2plus-r21-7-001 | RUNNING | 192.168.245.1 (br403)        |                               | CONTAINER | 0         |
-|                   |         | 192.168.0.1 (brlan0)         |                               |           |           |
-|                   |         | 172.31.255.70 (privbr:1)     |                               |           |           |
-|                   |         | 172.31.255.40 (privbr)       |                               |           |           |
-|                   |         | 172.31.255.32 (privbr:cmnat) |                               |           |           |
-|                   |         | 172.31.255.20 (privbr:0)     |                               |           |           |
-|                   |         | 10.107.200.132 (erouter1)    |                               |           |           |
-+-------------------+---------+------------------------------+-------------------------------+-----------+-----------+
-| mv2plus-r21-7-010 | STOPPED |                              |                               | CONTAINER | 0         |
-+-------------------+---------+------------------------------+-------------------------------+-----------+-----------+
-| mv3-r21-9         | STOPPED |                              |                               | CONTAINER | 0         |
-+-------------------+---------+------------------------------+-------------------------------+-----------+-----------+
-| mv3-r21-20        | STOPPED |                              |                               | CONTAINER | 0         |
-+-------------------+---------+------------------------------+-------------------------------+-----------+-----------+
++-------------------------+---------+------------------------------+----------------------------------------------+-----------+
+|          NAME           |  STATE  |             IPV4             |                     IPV6                     |   TYPE    |
++-------------------------+---------+------------------------------+----------------------------------------------+-----------+
+| acs                     | RUNNING | 10.10.10.200 (eth0)          | 2001:dbf:0:1::200 (eth0)                     | CONTAINER |
++-------------------------+---------+------------------------------+----------------------------------------------+-----------+
+| bng-7                   | RUNNING | 10.107.201.1 (eth2)          | 2001:dbf:0:1::107 (eth0)                     | CONTAINER |
+|                         |         | 10.107.200.1 (eth1)          | 2001:daf:7:1::129 (eth2)                     |           |
+|                         |         | 10.10.10.107 (eth0)          | 2001:dae:7:1::129 (eth1)                     |           |
++-------------------------+---------+------------------------------+----------------------------------------------+-----------+
+| client-mv2plus-r21-7-p1 | RUNNING | 10.107.200.161 (eth0)        |                                              | CONTAINER |
++-------------------------+---------+------------------------------+----------------------------------------------+-----------+
+| mv2plus-r21-7           | RUNNING | 192.168.245.1 (br403)        | 2001:dae:7:1::246 (erouter0)                 | CONTAINER |
+|                         |         | 192.168.0.1 (lan0)           |                                              |           |
+|                         |         | 172.31.255.70 (privbr:1)     |                                              |           |
+|                         |         | 172.31.255.40 (privbr)       |                                              |           |
+|                         |         | 172.31.255.32 (privbr:cmnat) |                                              |           |
+|                         |         | 172.31.255.20 (privbr:0)     |                                              |           |
+|                         |         | 10.107.200.165 (erouter0)    |                                              |           |
++-------------------------+---------+------------------------------+----------------------------------------------+-----------+
+| mv2plus-r21-7-001       | RUNNING | 192.168.245.1 (br403)        |                                              | CONTAINER |
+|                         |         | 192.168.0.1 (brlan0)         |                                              |           |
+|                         |         | 172.31.255.70 (privbr:1)     |                                              |           |
+|                         |         | 172.31.255.40 (privbr)       |                                              |           |
+|                         |         | 172.31.255.32 (privbr:cmnat) |                                              |           |
+|                         |         | 172.31.255.20 (privbr:0)     |                                              |           |
+|                         |         | 10.107.200.164 (erouter1)    |                                              |           |
++-------------------------+---------+------------------------------+----------------------------------------------+-----------+
 
 ```
 
@@ -259,18 +283,18 @@ check.sh
 ```bash
 
 mv2plus-r21-7
-Build Time (Local): 2024-12-03 16:17:27 PST
+Build Time (Local): 2024-12-06 09:12:25 PST
 bcm0       -> cm         (VLAN: )
 cm0        -> wan        (VLAN: )
 eth0       -> lan-p1     (VLAN: "2001")
 eth1       -> lan-p2     (VLAN: "2001")
-eth2       -> wanoe      (VLAN: "2001")
-eth3       -> lan-p4     (VLAN: "2001")
+eth2       -> lan-p3     (VLAN: "2001")
+eth3       -> wanoe      (VLAN: "2001")
 wl0        -> wlan0      (VLAN: "2001")
 wl1        -> wlan1      (VLAN: "2001")
-wanoecmd:lan-p3=wanoe
+wanoecmd:lan-p4=wanoe
 mv2plus-r21-7-001
-Build Time (Local): 2024-12-03 16:17:27 PST
+Build Time (Local): 2024-12-06 09:12:25 PST
 eth0       -> wanoe      (VLAN: "2001")
 eth1       -> lan-p2     (VLAN: "2002")
 eth2       -> lan-p3     (VLAN: "2002")
