@@ -37,7 +37,7 @@
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
             line-height: 1.6;
-            max-width: 800px;
+            max-width: 1000px;
             margin: 0 auto;
             padding: 20px;
             background: var(--bg-primary);
@@ -133,11 +133,11 @@
 
 # VCPE Installation Guide
 
-[LXD documentation](https://documentation.ubuntu.com/lxd)
+## [LXD documentation](https://documentation.ubuntu.com/lxd)
 
-[Overview 1](https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com/robvogelaar/robvogelaar.github.io/main/drawio/containers.drawio "ctrl-click to open containers.drawio")
+## [Diagram 1: end to end - environment](https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com/robvogelaar/robvogelaar.github.io/main/drawio/containers.drawio "ctrl-click to open containers.drawio")
 
-[Overview 2](https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com/robvogelaar/robvogelaar.github.io/main/drawio/mvx.drawio "ctrl-click to open mvx.drawio")
+## [Diagram 2: vcpe layering](https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com/robvogelaar/robvogelaar.github.io/main/drawio/mvx.drawio "ctrl-click to open mvx.drawio")
 
 ## Prerequisites
 
@@ -145,23 +145,14 @@ The Virtual CPE Environment operates on an x86 Linux system using LXD containeri
 
 ## OS Requirements
 
-Ubuntu 20.04: is recommended as it is known to work correctly for all cpe and bng container configurations.
-
-Ubuntu >= 22.04: is yet to be fully confirmed to be working. Currently only single-vlan and multi-vlan cpe and bng (mv3 bng-9/bng-20) configurations have been verified to work. No-vlan cpe and bng (mv1 / mv2plus and bng-7) configurations fail in dhcp.. In addition, the below is recommended.
-
-Switch nftables backend back to iptables:
-
-```bash
-sudo update-alternatives --set iptables /usr/sbin/iptables-legacy
-sudo update-alternatives --set ip6tables /usr/sbin/ip6tables-legacy
-```
+Ubuntu 20.04: is recommended as it is known to work correctly for all cpe, bng, client, and services - container configurations.
 
 ## OS Prerequisites
 
 sudo without password prompt is recommended.
 
 ```bash
-sudo apt install jq graphviz python3 python3-pip
+sudo apt install jq yq graphviz python3 python3-pip
 sudo pip install msgpack
 ```
 
@@ -217,6 +208,14 @@ source ~/.bashrc
 ## acs container
 
 The acs container (debian 7 based) contains the Axiros cwmp stack. cpe containers will register and establish the tr069 protocol with the acs. Auto testing (soap) acs scripts can be found in meta-lxd.
+
+## usp container
+
+The usp container (debian 12 based) contains the Oktopus usp controller stack. cpe containers run usp agent and will register and establish the usp over mqtt protocol with Oktopus. Oktopus services run as docker containers.
+
+## webpa container
+
+The webpa container (centos-stream 9 based) contains the webpa server xmidt stack. cpe containers run webpa client and will register and establish the web-pa protocol with web-pa server.
 
 ## bng containers
 
@@ -293,6 +292,55 @@ ssh -L 192.168.2.130:8888:10.10.10.200:80 rev@192.168.2.130
 firefox http://192.168.2.130:8888/live/AXDashboard/
 'admin':'ohdeetheipheela!'
 ```
+
+## Install USP (Oktopus) container
+
+Run the oktopus.sh script to install oktopus container
+
+
+```bash
+oktopus.sh
+
+
++----------+---------+--------------------------------+----------------------------------------+
+| oktopus  | RUNNING | 172.17.0.1 (docker0)           | 2001:dbf:0:1::220 (eth0)               |
+|          |         | 172.16.235.1 (br-ab31f132a111) | 2001:dbf:0:1:216:3eff:fe25:904c (eth0) |
+|          |         | 10.10.10.220 (eth0)            |                                        |
++----------+---------+--------------------------------+----------------------------------------+
+
+```
+
+the Oktopus UI will be at 10.10.10.220:80
+
+
+## Install WebPA (Xmidt) container
+
+
+Run the webpa.sh script to install webpa container
+
+```bash
+webpa.sh
+
+
++-------+---------+----------------------+---------------------------+
+| webpa | RUNNING | 10.10.10.210 (eth0)  | 2001:dbf:0:1::210 (eth0)  |
++-------+---------+----------------------+---------------------------+
+
+```
+
+the webpa api will be:
+
+```bash
+
+curl -H 'Authorization:Basic dXNlcjEyMzp3ZWJwYUAxMjM0NTY3ODkw' http://10.10.10.210:8080/api/v2/devices
+
+{"devices":[{"id": "mac:00163e08c00f", "pending": 0, "statistics": {"bytesSent": 192, "messagesSent": 1, "bytesReceived": 3622, "messagesReceived": 6, "duplications": 0, "connectedAt": "2024-12-06T23:22:13.83241117Z", "upTime": "14m53.977362322s"}}]}
+
+curl -H 'Authorization:Basic dXNlcjEyMzp3ZWJwYUAxMjM0NTY3ODkw' http://10.10.10.210:9003/api/v2/device/mac:00163e08c00f/config?names=Device.DeviceInfo.ModelName
+{"parameters":[{"name":"Device.DeviceInfo.ModelName","value":"F3896LG","dataType":0,"parameterCount":1,"message":"Success"}],"statusCode":200}rev@rev120:~/git/meta-lxd$
+
+```
+
 
 ## Install BNG containers
 
@@ -464,7 +512,7 @@ lxm.sh client delete -f
 
 # Probes
 
-build
+## build
 
 [cloc mv1](https://www.vcpe.dev/lxd/build/cloc-mv1-lxd-r21-oe30-1115.html "ctrl-click to open")
 
@@ -475,7 +523,7 @@ build
 [deps mv3](https://www.vcpe.dev/lxd/build/deps-mv3-lxd-r21-oe31-1115.html "ctrl-click to open")
 
 
-run
+## run
 
 [combined rdk logs](https://www.vcpe.dev/lxd/run/1120/mv3-r21-9/rdklogs/combined_logs.txt.0.html "ctrl-click to open")
 
@@ -519,6 +567,8 @@ do-reload.sh 1124
 ## acs tests
 
 ## usp tests
+
+## webpa tests
 
 # LXD UI
 
