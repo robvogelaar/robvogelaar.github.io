@@ -151,13 +151,13 @@ Start gdbserver in container
 
 ```bash
 lxc exec mv3-r21-9 bash
-gdbserver --attach $(pidof wanmanager)
+gdbserver --attach :2345 $(pidof wanmanager)
 ```
 
 Prepare gdbport
 
 ```bash
-lxc config device add mv3-r21-20 gdbport proxy listen=tcp:$192.168.2.120:2345 connect=tcp:127.0.0.1:2345
+lxc config device add mv3-r21-20 gdbport proxy listen=tcp:192.168.2.120:2345 connect=tcp:127.0.0.1:2345
 (lxc config device remove mv3-r21-20 gdbport)
 ```
 
