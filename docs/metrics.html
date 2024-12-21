@@ -144,6 +144,7 @@
 ```bash
 lxc query /1.0/metrics
 
+lxc config set core.https_address :8443
 lxc config set core.metrics_authentication false
 curl -k "https://192.168.2.120:8443/1.0/metrics"
 ```
@@ -184,6 +185,11 @@ wget -q -O - https://apt.grafana.com/gpg.key | gpg --dearmor | sudo tee /etc/apt
 echo "deb [signed-by=/etc/apt/keyrings/grafana.gpg] https://apt.grafana.com stable main" | sudo tee -a /etc/apt/sources.list.d/grafana.list
 sudo apt-get update
 sudo apt-get install grafana
+
+sudo systemctl daemon-reload
+sudo systemctl start grafana-server
+sudo systemctl status grafana-server
+
 
 http://192.168.2.130:3000
 ```
