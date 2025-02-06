@@ -150,11 +150,8 @@ Ubuntu 20: is recommended as it is known to work correctly for all cpe, bng, cli
 Ubuntu 22/24: this may require the below setting to support ipv4 dhcp over wan bridge:
 
 ```bash
-sudo sysctl -w net.bridge.bridge-nf-call-iptables=0
-sudo ip link set wan type bridge nf_call_iptables 0
 cat /proc/sys/net/bridge/bridge-nf-call-iptables
-ip -d link show wan
-https://unix.stackexchange.com/questions/719112/why-do-net-bridge-bridge-nf-call-arp-ip-ip6tables-default-to-1
+sudo sysctl -w net.bridge.bridge-nf-call-iptables=0
 ```
 
 
