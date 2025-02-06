@@ -145,16 +145,18 @@ The Virtual CPE Environment operates on an x86 Linux system using LXD containeri
 
 ## OS Requirements
 
-Ubuntu 20.04: is recommended as it is known to work correctly for all cpe, bng, client, and services - container configurations.
+Ubuntu 20: is recommended as it is known to work correctly for all cpe, bng, client, and services - container configurations.
 
-## OS Prerequisites
-
-sudo without password prompt is recommended.
+Ubuntu 22/24: this may require the below setting to support ipv4 dhcp over wan bridge:
 
 ```bash
-sudo apt install jq yq graphviz python3 python3-pip
-sudo pip install msgpack
+sudo sysctl -w net.bridge.bridge-nf-call-iptables=0
+sudo ip link set wan type bridge nf_call_iptables 0
+cat /proc/sys/net/bridge/bridge-nf-call-iptables
+ip -d link show wan
+https://unix.stackexchange.com/questions/719112/why-do-net-bridge-bridge-nf-call-arp-ip-ip6tables-default-to-1
 ```
+
 
 ## Install LXD from snap
 
@@ -162,13 +164,17 @@ Note: LXD uninstall instructions for apt and snap can be found at the bottom of 
 
 ```bash
 sudo snap install lxd --channel=6.1
+#or
+sudo snap refresh lxd --channel=6.1
 lxd init #select all defaults
 lxd version
 ```
 
-Add your user to the LXD group:
+Check / Add your user to the LXD group:
 
 ```bash
+groups $USER
+#
 sudo usermod -a -G lxd $USER
 newgrp lxd
 ```
@@ -231,7 +237,7 @@ MV-REL-BNG-EXTRA
 
 MV    : mv1 mv2plus mv3 : ie. one of the common LG virtualized platforms
 
-REL   : r21 : ie. the release number. Builds for r22 release have not been prepared
+REL   : r21 : ie. the release number.
 
 BNG   : 7 9 20 : this indicates to which bng (customer index) this container is configured and connected
 
@@ -349,6 +355,7 @@ Run the bng.sh script to install bng-7, bng-9, and bng-20:
 Note: The first step involves creating a BNG base container. This is a one-time process that will take several minutes to complete, as it builds the container from scratch. Please be patient during this initial setup.
 
 ```bash
+bng-base.sh
 bng.sh 7
 bng.sh 9
 bng.sh 20
@@ -364,7 +371,7 @@ alias l="lxc list"
 ## Verify running acs and bng containers
 
 ```bash
- lxc list
+l
 +--------+---------+--------------------------+-------------------------------+
 |  NAME  |  STATE  |           IPV4           |             IPV6              |
 +--------+---------+--------------------------+-------------------------------+
@@ -383,7 +390,6 @@ alias l="lxc list"
 |        |         | 10.10.10.120 (eth0)      | 2001:dae:20:1::129 (eth1.100) |
 +--------+---------+--------------------------+-------------------------------+
 ```
-
 
 ## Install CPE containers
 
@@ -438,7 +444,7 @@ On each container run a factory default and set customer id on the containers to
 lxc exec mv1-r21-7 exec bash
 root@mv1-r21-7:~$ hint
 
-run the appropriate command: e.e
+run the appropriate command: e.g.
 
 root@mv1-r21-7:~$ syscfg set Customer_Index 7 && syscfg commit
 root@mv1-r21-7:~$ reboot
@@ -591,27 +597,6 @@ see docs/metrics
 
 All containers will come up in the stopped state, they all require a lxc start. All VCP bridges (except lxdbr1) have to be re-created by running the bridges.sh script.
 
-
-## Uninstall LXD from apt
-
-```bash
-# Stop the LXD service
-sudo systemctl stop lxd
-sudo systemctl stop lxd.socket
-
-# Remove all LXD containers, images, and storage pools
-lxd shutdown
-
-# Remove the LXD packages
-sudo apt purge lxd lxd-client lxc
-sudo apt autoremove
-
-# Remove LXD configuration and data directories
-sudo rm -rf /var/lib/lxd
-sudo rm -rf /var/log/lxd
-sudo rm -rf ~/.config/lxc
-sudo rm -rf /etc/lxd
-```
 
 ## Uninstall LXD from snap
 
