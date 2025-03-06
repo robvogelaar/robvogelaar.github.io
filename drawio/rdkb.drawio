@@ -1,0 +1,453 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.16" pages="2">
+  <diagram id="CaJrav0Ks9dbAxRaC8s3" name="startup">
+    <mxGraphModel dx="1792" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="Ctrap0ORq_py7FJHEWEQ-6" edge="1" source="HaenMIY_Y_Yz_WXMwMJQ-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="245" y="50" as="sourcePoint" />
+            <mxPoint x="145" y="-95" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="245" y="30" />
+              <mxPoint x="245" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-9" value="After" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Ctrap0ORq_py7FJHEWEQ-8" vertex="1" connectable="0">
+          <mxGeometry x="0.1797" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HaenMIY_Y_Yz_WXMwMJQ-9" target="Ctrap0ORq_py7FJHEWEQ-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="980" y="-62" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-43" value="After" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="Ctrap0ORq_py7FJHEWEQ-28" vertex="1" connectable="0">
+          <mxGeometry x="0.0921" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dHDx69oJGEYUdPEooDdm-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HaenMIY_Y_Yz_WXMwMJQ-9" target="Ctrap0ORq_py7FJHEWEQ-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="-30" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="940" y="-100" />
+              <mxPoint x="940" y="-470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HaenMIY_Y_Yz_WXMwMJQ-9" value="CcspPandMSsp" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontSize=22;verticalAlign=top;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="200" y="-215" width="550" height="205" as="geometry" />
+        </mxCell>
+        <mxCell id="nihvY-NNrgZjXgcSUX2D-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HaenMIY_Y_Yz_WXMwMJQ-10" target="HaenMIY_Y_Yz_WXMwMJQ-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nihvY-NNrgZjXgcSUX2D-2" value="After" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="nihvY-NNrgZjXgcSUX2D-1" vertex="1" connectable="0">
+          <mxGeometry x="-0.35" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HaenMIY_Y_Yz_WXMwMJQ-10" value="CcspCrSsp" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="240" y="-600" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jsRW752Dgb9fndnlYt7Z-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HaenMIY_Y_Yz_WXMwMJQ-11" target="HaenMIY_Y_Yz_WXMwMJQ-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="-240" />
+              <mxPoint x="300" y="-240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jsRW752Dgb9fndnlYt7Z-2" value="After" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="jsRW752Dgb9fndnlYt7Z-1" vertex="1" connectable="0">
+          <mxGeometry x="-0.1" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" source="HaenMIY_Y_Yz_WXMwMJQ-11" target="Ctrap0ORq_py7FJHEWEQ-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-18" value="After" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="Ctrap0ORq_py7FJHEWEQ-17" vertex="1" connectable="0">
+          <mxGeometry x="-0.1548" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HaenMIY_Y_Yz_WXMwMJQ-11" value="PsmSsp" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="240" y="-440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-SFAgJQSVejThjJHDz4t-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="HaenMIY_Y_Yz_WXMwMJQ-9" target="-SFAgJQSVejThjJHDz4t-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="-319.96000000000004" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="780" y="-160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-SFAgJQSVejThjJHDz4t-2" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;/usr/ccsp/utopiaInitCheck.sh&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;/tmp/utopia_inited&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="710" y="-280" width="150" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="HaenMIY_Y_Yz_WXMwMJQ-9" target="-SFAgJQSVejThjJHDz4t-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="-225" />
+              <mxPoint x="520" y="-225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-SFAgJQSVejThjJHDz4t-3" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;/usr/ccsp/pam/GwProvCheck.sh&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;sysevent get gw_prov-status ?= up&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;/tmp/OS_WANMANAGER_ENABLED&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="440" y="-325" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-SFAgJQSVejThjJHDz4t-6" target="Ctrap0ORq_py7FJHEWEQ-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="-570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-15" value="After" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Ctrap0ORq_py7FJHEWEQ-14" vertex="1" connectable="0">
+          <mxGeometry x="-0.0558" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-SFAgJQSVejThjJHDz4t-6" target="-SFAgJQSVejThjJHDz4t-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="781" y="-585" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-SFAgJQSVejThjJHDz4t-6" value="Utopia" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="460" y="-730" width="120" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="QYjlURlQi1eM6L4crGB4-1" target="HaenMIY_Y_Yz_WXMwMJQ-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-5" value="After" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Ctrap0ORq_py7FJHEWEQ-2" vertex="1" connectable="0">
+          <mxGeometry x="-0.2634" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dHDx69oJGEYUdPEooDdm-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QYjlURlQi1eM6L4crGB4-1" target="dHDx69oJGEYUdPEooDdm-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dHDx69oJGEYUdPEooDdm-3" value="After" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dHDx69oJGEYUdPEooDdm-2">
+          <mxGeometry x="0.3733" y="4" relative="1" as="geometry">
+            <mxPoint x="-7" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QYjlURlQi1eM6L4crGB4-1" value="rbus" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="-730" width="50" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ctrap0ORq_py7FJHEWEQ-1" target="HaenMIY_Y_Yz_WXMwMJQ-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-4" value="After" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Ctrap0ORq_py7FJHEWEQ-3" vertex="1" connectable="0">
+          <mxGeometry x="-0.3653" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-1" value="dbus" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="-730" width="50" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ctrap0ORq_py7FJHEWEQ-6" target="Ctrap0ORq_py7FJHEWEQ-38" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-42" value="After" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Ctrap0ORq_py7FJHEWEQ-41" vertex="1" connectable="0">
+          <mxGeometry x="-0.1813" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-6" value="CcspEthAgent" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="195" y="135" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ctrap0ORq_py7FJHEWEQ-10" target="-SFAgJQSVejThjJHDz4t-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-10" value="RdkWanManager" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="460" y="-440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" source="HaenMIY_Y_Yz_WXMwMJQ-11" target="Ctrap0ORq_py7FJHEWEQ-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="-350" as="sourcePoint" />
+            <mxPoint x="310" y="-270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-12" value="After" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="Ctrap0ORq_py7FJHEWEQ-11" vertex="1" connectable="0">
+          <mxGeometry x="-0.1" y="-2" relative="1" as="geometry">
+            <mxPoint y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-16" value="RdkVlanManager" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="40" y="-440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ctrap0ORq_py7FJHEWEQ-19" target="-SFAgJQSVejThjJHDz4t-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="-580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="700" y="-290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-19" value="gwprovapp" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="640" y="-730" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ctrap0ORq_py7FJHEWEQ-21" target="Ctrap0ORq_py7FJHEWEQ-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-23" value="After" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Ctrap0ORq_py7FJHEWEQ-22" vertex="1" connectable="0">
+          <mxGeometry x="0.0556" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-21" value="securemount" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="-820" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ctrap0ORq_py7FJHEWEQ-24" target="-SFAgJQSVejThjJHDz4t-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-26" value="After" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Ctrap0ORq_py7FJHEWEQ-25" vertex="1" connectable="0">
+          <mxGeometry x="-0.1858" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-24" value="mount-nonvol" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="-820" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dHDx69oJGEYUdPEooDdm-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ctrap0ORq_py7FJHEWEQ-27" target="dHDx69oJGEYUdPEooDdm-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dHDx69oJGEYUdPEooDdm-16" value="After" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dHDx69oJGEYUdPEooDdm-15">
+          <mxGeometry x="0.5546" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-27" value="ccspwifiagent" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fontSize=22;verticalAlign=top;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="830" y="60" width="340" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-30" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="230" y="-135" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-37" value="CcspTandD" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="315" y="135" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dHDx69oJGEYUdPEooDdm-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ctrap0ORq_py7FJHEWEQ-53" target="dHDx69oJGEYUdPEooDdm-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="320" as="sourcePoint" />
+            <mxPoint x="855" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="700" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dHDx69oJGEYUdPEooDdm-13" value="After" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dHDx69oJGEYUdPEooDdm-12">
+          <mxGeometry x="0.0843" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-38" value="CcspLMLite" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="202.5" y="215" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="Ctrap0ORq_py7FJHEWEQ-37" edge="1" source="HaenMIY_Y_Yz_WXMwMJQ-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="50" as="sourcePoint" />
+            <mxPoint x="255" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="20" />
+              <mxPoint x="360" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-40" value="After" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Ctrap0ORq_py7FJHEWEQ-39" vertex="1" connectable="0">
+          <mxGeometry x="0.1797" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-44" value="CcspTr069PaSsp" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="425" y="135" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="Ctrap0ORq_py7FJHEWEQ-44" edge="1" source="HaenMIY_Y_Yz_WXMwMJQ-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="485" y="50" as="sourcePoint" />
+            <mxPoint x="365" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="485" y="20" />
+              <mxPoint x="485" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-46" value="After" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Ctrap0ORq_py7FJHEWEQ-45" vertex="1" connectable="0">
+          <mxGeometry x="0.1797" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="Ctrap0ORq_py7FJHEWEQ-47" target="Ctrap0ORq_py7FJHEWEQ-50" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-47" value="CcspWebUI" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="555" y="135" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="Ctrap0ORq_py7FJHEWEQ-47" edge="1" source="HaenMIY_Y_Yz_WXMwMJQ-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="50" as="sourcePoint" />
+            <mxPoint x="495" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="30" />
+              <mxPoint x="600" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-49" value="After" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Ctrap0ORq_py7FJHEWEQ-48" vertex="1" connectable="0">
+          <mxGeometry x="0.1797" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-50" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;/lib/rdk/brlan0_check.sh&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="535" y="215" width="130" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-52" value="hostapd" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="820" y="-730" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-53" value="parodus" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="665" y="135" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="Ctrap0ORq_py7FJHEWEQ-53" edge="1" source="HaenMIY_Y_Yz_WXMwMJQ-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="665" y="155" as="sourcePoint" />
+            <mxPoint x="610" y="245" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="690" y="40" />
+              <mxPoint x="690" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-56" value="After" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Ctrap0ORq_py7FJHEWEQ-55" vertex="1" connectable="0">
+          <mxGeometry x="0.1797" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-57" value="dnsmasq" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="900" y="-730" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-58" value="dcm-log" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="990" y="-730" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="Ctrap0ORq_py7FJHEWEQ-59" target="Ctrap0ORq_py7FJHEWEQ-64" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1345" y="-690" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1340" y="-690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-59" value="checkrpiwifisupport" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="-730" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ctrap0ORq_py7FJHEWEQ-68" target="Ctrap0ORq_py7FJHEWEQ-59" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1052.5454545454545" y="-520" as="sourcePoint" />
+            <mxPoint x="1000" y="-580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ctrap0ORq_py7FJHEWEQ-64" target="Ctrap0ORq_py7FJHEWEQ-70" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-64" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;/usr/ccsp/wifi/checkwifi.sh&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;/tmp/wifi_driver_initialized&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="-610" width="130" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-68" value="checkrpiwifisupport.path&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;/tmp/pam_initialized&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;rounded=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1067.5" y="-500" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ctrap0ORq_py7FJHEWEQ-70" target="Ctrap0ORq_py7FJHEWEQ-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1375" y="-360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1345" y="-270" />
+              <mxPoint x="1345" y="-270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-74" value="Activate" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Ctrap0ORq_py7FJHEWEQ-73" vertex="1" connectable="0">
+          <mxGeometry x="-0.0477" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ctrap0ORq_py7FJHEWEQ-70" value="rpiwifiinitialized.path&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-size: 8px; background-color: transparent;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-size: 8px; background-color: transparent;&quot;&gt;/tmp/wifi_driver_initialized&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;rounded=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1260" y="-500" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dHDx69oJGEYUdPEooDdm-1" value="rbus_&lt;div&gt;log&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="-730" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dHDx69oJGEYUdPEooDdm-4" value="rbus_&lt;div&gt;monitor&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-730" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dHDx69oJGEYUdPEooDdm-5" value="rbus_&lt;div&gt;session_&lt;/div&gt;&lt;div&gt;manager&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="-690" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dHDx69oJGEYUdPEooDdm-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QYjlURlQi1eM6L4crGB4-1" target="dHDx69oJGEYUdPEooDdm-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="-680" as="sourcePoint" />
+            <mxPoint x="205" y="-705" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dHDx69oJGEYUdPEooDdm-7" value="After" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dHDx69oJGEYUdPEooDdm-6">
+          <mxGeometry x="0.3733" y="4" relative="1" as="geometry">
+            <mxPoint x="-7" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dHDx69oJGEYUdPEooDdm-10" value="webpabroadband" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="750" y="395" width="170" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="systemd" id="Axyi0ZO_WcJgHzGyMsrf">
+    <mxGraphModel dx="7834" dy="2465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2gBsQM0f74D-0JB1OnKC-2" value="&lt;b&gt;CcspPandMSsp&lt;/b&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;[Unit]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 8px;&quot;&gt;After=PsmSsp.service&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[Service]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Type=forking&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;PIDFile=/var/tmp/CcspPandMSsp.pid&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;WorkingDirectory=/usr/ccsp/pam&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Environment=&quot;Subsys=eRT.&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Environment=&quot;LOG4C_RCPATH=/etc&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;EnvironmentFile=/etc/device.properties&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ExecStartPre=/bin/sh -c &#39;(/usr/ccsp/utopiaInitCheck.sh)&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ExecStartPre=-/bin/sh -c &#39;rm -rf /tmp/pam_initialized&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ExecStartPre=/bin/sh -c &#39;(/usr/ccsp/pam/GwProvCheck.sh)&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ExecStart=/bin/sh -c &#39;/usr/bin/CcspPandMSsp -subsys $Subsys&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ExecStopPost=/bin/sh -c &#39;echo &quot;`date`: Stopping/Restarting CcspPandMSsp&quot; &amp;gt;&amp;gt; ${PROCESS_RESTART_LOG}&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;##ExecStartPost=/bin/sh -c &#39;(/usr/ccsp/ccspPAMCPCheck.sh)&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Restart=always&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[Install]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;WantedBy=multi-user.target&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="-6560" y="-1680" width="520" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="BO7AwZJJYQX66CxqbQMC-2" value="&lt;b&gt;CcspCrSsp&lt;/b&gt;&lt;div&gt;&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;[Unit]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Description=CcspCrSsp service&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;After=disable_systemd_restart_param.service&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;After=rbus.service dbus.service&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;[Service]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Type=forking&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;PIDFile=/var/tmp/CcspCrSsp.pid&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;WorkingDirectory=/usr/ccsp&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Environment=&quot;Subsys=eRT.&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Environment=&quot;LOG4C_RCPATH=/etc&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;EnvironmentFile=/etc/device.properties&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ExecStartPre=-/bin/sh -c &#39;mkdir -p /rdklogs/logs/&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ExecStartPre=/bin/sh -c &#39;(/usr/ccsp/ccspSysConfigEarly.sh)&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ExecStart=/bin/sh -c &#39;/usr/bin/CcspCrSsp -subsys $Subsys&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ExecStopPost=/bin/sh -c &#39;echo 0 &amp;gt;&amp;gt; /tmp/CcspCrSsp_Restarted&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Restart=always&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;[Install]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;WantedBy=multi-user.target&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-6560" y="-1000" width="520" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="BO7AwZJJYQX66CxqbQMC-3" value="&lt;b&gt;CcspEthAgent&lt;/b&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[Unit]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 8px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;After=CcspCrSsp.service CcspPandMSsp.service&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 8px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[Service]&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Type=forking&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;WorkingDirectory=/usr/ccsp/ethagent&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Environment=&quot;Subsys=eRT.&quot;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Environment=&quot;LOG4C_RCPATH=/etc&quot;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;EnvironmentFile=/etc/device.properties&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;ExecStart=/bin/sh -c &#39;/usr/bin/CcspEthAgent -subsys $Subsys&#39;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;ExecStopPost=/bin/sh -c &#39;echo &quot;`date`: Stopping/Restarting CcspEthAgent&quot; &amp;gt;&amp;gt; ${PROCESS_RESTART_LOG}&#39;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Restart=always&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 8px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[Install]&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;WantedBy=multi-user.target&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-6000" y="-1680" width="655" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="BO7AwZJJYQX66CxqbQMC-4" value="&lt;b&gt;PsmSsp&lt;/b&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;[Unit]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;After=CcspCrSsp.service&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[Service]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Type=forking&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;PIDFile=/var/tmp/PsmSsp.pid&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;WorkingDirectory=/usr/ccsp&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Environment=&quot;Subsys=eRT.&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Environment=&quot;LOG4C_RCPATH=/etc&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;EnvironmentFile=/etc/device.properties&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ExecStart=/bin/sh -c &#39;/usr/bin/PsmSsp -subsys $Subsys&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ExecStartPost=/bin/sh -c &#39;(/etc/migration_to_psm.sh)&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ExecStopPost=/bin/sh -c &#39;echo &quot;`date`: Stopping/Restarting PsmSsp&quot; &amp;gt;&amp;gt; ${PROCESS_RESTART_LOG}&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Restart=always&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[Install]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;WantedBy=multi-user.target&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-6560" y="-1320" width="520" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="BO7AwZJJYQX66CxqbQMC-5" value="&lt;b&gt;parodus&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;[Unit]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;After=CcspPsm.service CcspPandM.service&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[Service]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ExecStart=/bin/sh -c &#39;/lib/rdk/parodus_start.sh;&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Type=forking&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Restart=always&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[Install]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;WantedBy=multi-user.target&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-6010" y="-1320" width="280" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="BO7AwZJJYQX66CxqbQMC-6" value="&lt;b&gt;Gwprovapp&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;[Unit]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;After=securemount.service&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[Service]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;#Note: Don&#39;t Uncomment Below Line: Each Device needs a conf file to launch the binary&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;#ExecStart=/usr/bin/gw_prov_utopia $IP&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;EnvironmentFile=/etc/device.properties&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ExecStartPre=-/bin/sh -c &#39;mkdir -p /rdklogs/logs/&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ExecStopPost=/bin/sh -c &#39;echo &quot;`date`: Stopping Gwprovapp service due to GWPROV_crash&quot; &amp;gt;&amp;gt; ${PROCESS_RESTART_LOG}&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ExecStopPost=/bin/sh -c &#39;echo 0 &amp;gt;&amp;gt; /tmp/GWPROV_Restarted&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Restart=always&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[Install]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;WantedBy=multi-user.target&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-5680" y="-1320" width="460" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="BO7AwZJJYQX66CxqbQMC-7" value="&lt;b&gt;RdkVlanManager&lt;/b&gt;&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;[Unit]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;After=CcspCrSsp.service PsmSsp.service&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[Service]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Type=forking&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Environment=&quot;Subsys=eRT.&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Environment=&quot;LOG4C_RCPATH=/etc&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;EnvironmentFile=/etc/device.properties&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;WorkingDirectory=/usr/rdk/vlanmanager&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ExecStart=/usr/bin/VlanManager -subsys $Subsys&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ExecStop=/bin/sh -c &#39;echo &quot;`date`: Stopping/Restarting VlanManager&quot; &amp;gt;&amp;gt; ${PROCESS_RESTART_LOG}&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Restart=always&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[Install]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;WantedBy=multi-user.target&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-5990" y="-960" width="510" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="BO7AwZJJYQX66CxqbQMC-8" value="&lt;b&gt;RdkWanManager&lt;/b&gt;&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;[Unit]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;After=CcspCrSsp.service utopia.service PsmSsp.service PsmSsp.service&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[Service]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Type=forking&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Environment=&quot;Subsys=eRT.&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Environment=&quot;LOG4C_RCPATH=/etc&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;EnvironmentFile=/etc/device.properties&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;WorkingDirectory=/usr/rdk/wanmanager&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ExecStartPre=/bin/sh /lib/rdk/run_rm_key.sh&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ExecStartPre=/bin/touch /tmp/OS_WANMANAGER_ENABLED&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ExecStartPre=/bin/sh -c &#39;(/usr/ccsp/utopiaInitCheck.sh)&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ExecStart=/usr/rdk/wanmanager/wanmanager -subsys $Subsys&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ExecStop=/bin/sh -c &#39;echo &quot;`date`: Stopping/Restarting RdkWanManager&quot; &amp;gt;&amp;gt; ${PROCESS_RESTART_LOG}&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Restart=always&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[Install]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;WantedBy=multi-user.target&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-5990" y="-710" width="510" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="BO7AwZJJYQX66CxqbQMC-9" value="&lt;b&gt;Utopia&lt;/b&gt;&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;[Unit]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;After=mount-nonvol.service&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[Service]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Type=forking&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;WorkingDirectory=/etc/utopia&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;EnvironmentFile=/etc/device.properties&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ExecStart=/bin/sh /etc/utopia/utopia_init.sh&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ExecStop=/bin/sh -c &#39;echo &quot;Stopping/Restarting utopia_init.sh&quot; &amp;gt;&amp;gt; ${PROCESS_RESTART_LOG}&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;StandardOutput=syslog+console&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[Install]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;WantedBy=multi-user.target&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-5440" y="-710" width="470" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="BO7AwZJJYQX66CxqbQMC-10" value="&lt;b&gt;TandDSsp&lt;/b&gt;&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;[Unit]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;After=CcspPandMSsp.service&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[Service]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Type=forking&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Environment=&quot;Subsys=eRT.&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Environment=&quot;LOG4C_RCPATH=/etc&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;EnvironmentFile=/etc/device.properties&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;WorkingDirectory=/usr/ccsp/tad&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ExecStart=/bin/sh -c &#39;/usr/bin/CcspTandDSsp -subsys $Subsys&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ExecStopPost=/bin/sh -c &#39;echo &quot;`date`: Stopping/Restarting CcspTandDSsp&quot; &amp;gt;&amp;gt; ${PROCESS_RESTART_LOG}&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Restart=always&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[Install]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;WantedBy=multi-user.target&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-5990" y="-400" width="470" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="BO7AwZJJYQX66CxqbQMC-11" value="&lt;b&gt;CcspTr069Ssp&lt;/b&gt;&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;[Unit]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 8px;&quot;&gt;After=CcspPandMSsp.service&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ConditionPathExists=!/tmp/disableTr069&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[Service]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Type=forking&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Environment=&quot;Subsys=eRT.&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Environment=&quot;LOG4C_RCPATH=/etc&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;EnvironmentFile=/etc/device.properties&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;WorkingDirectory=/usr/ccsp/tr069pa&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ExecStartPre=/bin/sh -c &#39;val=`syscfg get EnableTR69Binary`; if [ &quot;$val&quot; == &quot;false&quot; ]; then `systemctl stop CcspTr069PaSsp`; fi&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ExecStart=/bin/sh -c &#39;/usr/bin/CcspTr069PaSsp -subsys $Subsys&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ExecStopPost=/bin/sh -c &#39;echo &quot;`date`: Stopping/Restarting CcspTr069PaSsp&quot; &amp;gt;&amp;gt; ${PROCESS_RESTART_LOG}&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Restart=always&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;SuccessExitStatus=SIGTERM&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[Install]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;WantedBy=multi-user.target&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-5440" y="-400" width="470" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="BO7AwZJJYQX66CxqbQMC-12" value="&lt;b&gt;CcspWebUI&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;[Unit]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;After=CcspPandMSsp.service&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[Service]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Type=forking&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;WorkingDirectory=/usr/www2&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ExecStartPre=/bin/sh -c &#39;/lib/rdk/brlan0_check.sh &amp;amp;&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;ExecStart=/bin/sh /lib/rdk/CcspWebUI.sh&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Restart=always&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;StandardOutput=syslog+console&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[Install]&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;WantedBy=multi-user.target&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-5080" y="-1640" width="290" height="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
