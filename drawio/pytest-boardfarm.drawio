@@ -1,0 +1,118 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.2 Chrome/134.0.6998.178 Electron/35.1.2 Safari/537.36" version="26.2.2">
+  <diagram name="Pytest-Boardfarm-Architecture" id="pytest-boardfarm-arch">
+    <mxGraphModel dx="1810" dy="995" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Pytest Boardfarm Testing Environment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=24;fontColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="370" y="10" width="530" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lxd-host" value="LXD Host (192.168.2.120)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=3;fontSize=16;fontStyle=1;fontColor=#6c8ebf;verticalAlign=top;spacingTop=20;" parent="1" vertex="1">
+          <mxGeometry x="50" y="60" width="1300" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="boardfarm-container" value="Boardfarm Container&lt;br&gt;IP: 10.10.10.230&lt;br&gt;Python 3.11 + pytest&lt;br&gt;Boardfarm 3.x Framework&lt;br&gt;LXD Client Certificates" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=3;fontSize=14;fontStyle=1;fontColor=#6c8ebf;verticalAlign=top;spacingTop=15;" parent="1" vertex="1">
+          <mxGeometry x="80" y="120" width="350" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="test-runner" value="Test Runner&#xa;pytest engine&#xa;test discovery&#xa;result reporting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=12;fontColor=#6c8ebf;verticalAlign=top;spacingTop=10;" parent="1" vertex="1">
+          <mxGeometry x="100" y="250" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="device-drivers" value="Device Drivers&#xa;LXD API client&#xa;WebSocket shells&#xa;DMCLI interface" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=12;fontColor=#6c8ebf;verticalAlign=top;spacingTop=10;" parent="1" vertex="1">
+          <mxGeometry x="260" y="250" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cert-auth" value="Certificate Authentication&#xa;/root/.config/lxc/client.crt + client.key" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontSize=11;fontColor=#6c8ebf;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="100" y="350" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="test-network" value="Test Device Network (10.10.10.0/24)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=4;fontSize=16;fontStyle=1;fontColor=#6c8ebf;verticalAlign=top;spacingTop=20;" parent="1" vertex="1">
+          <mxGeometry x="520" y="120" width="800" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="vcpe-device" value="VCPE Device&#xa;Container: vcpe&#xa;IP: 10.10.10.100&#xa;Type: lxd_vcpe&#xa;Interfaces:&#xa;• erouter0 (WAN)&#xa;• brlan0 (LAN)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#6c8ebf;verticalAlign=top;spacingTop=10;" parent="1" vertex="1">
+          <mxGeometry x="540" y="180" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bng-device" value="BNG Device&#xa;Container: bng-7&#xa;IP: 10.10.10.150&#xa;Type: lxd_bng&#xa;Services:&#xa;• DHCP Server&#xa;• Gateway Sim" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#6c8ebf;verticalAlign=top;spacingTop=10;" parent="1" vertex="1">
+          <mxGeometry x="740" y="180" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lan-client" value="LAN Client&#xa;Container: client-lan&#xa;IP: DHCP&#xa;Type: lxd_lan&#xa;Ethernet testing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#6c8ebf;verticalAlign=top;spacingTop=10;" parent="1" vertex="1">
+          <mxGeometry x="540" y="320" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wlan-client" value="WLAN Client&#xa;Container: client-wlan&#xa;IP: DHCP&#xa;Type: lxd_wlan&#xa;WiFi testing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#6c8ebf;verticalAlign=top;spacingTop=10;" parent="1" vertex="1">
+          <mxGeometry x="740" y="320" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="genieacs" value="GenieACS&#xa;TR-069 ACS&#xa;Port: 7557&#xa;Type: lxd_genieacs&#xa;Device mgmt" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#6c8ebf;verticalAlign=top;spacingTop=10;" parent="1" vertex="1">
+          <mxGeometry x="540" y="440" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="oktopus" value="Oktopus&#xa;USP Controller&#xa;Port: 9090&#xa;Type: lxd_oktopus&#xa;TR-369 USP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#6c8ebf;verticalAlign=top;spacingTop=10;" parent="1" vertex="1">
+          <mxGeometry x="680" y="440" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="webpa" value="WebPA&#xa;WebPA Protocol&#xa;Port: 8080&#xa;Type: lxd_webpa&#xa;REST API" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;fontSize=12;fontStyle=1;fontColor=#6c8ebf;verticalAlign=top;spacingTop=10;" parent="1" vertex="1">
+          <mxGeometry x="820" y="440" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xconf" value="XConf&#xa;Config Mgmt&#xa;Port: 8080&#xa;Type: lxd_xconf&#xa;Firmware" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#6c8ebf;verticalAlign=top;spacingTop=10;" parent="1" vertex="1">
+          <mxGeometry x="960" y="440" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="telemetry" value="Telemetry Server&#xa;Log Collection&#xa;Elasticsearch: 9200&#xa;Type: lxd_telemetry&#xa;Metrics &amp; Analytics" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#6c8ebf;verticalAlign=top;spacingTop=10;" parent="1" vertex="1">
+          <mxGeometry x="700" y="560" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="api-connection" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;strokeDashArray=5 5;endArrow=none;" parent="1" source="boardfarm-container" target="test-network" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="api-label" value="LXD API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="430" y="210" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="test-flow-label" value="Test Execution" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="430" y="245" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" value="Legend" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#6c8ebf;verticalAlign=top;spacingTop=15;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="180" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-device" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="225" width="15" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-device-text" value="Test Devices" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="220" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-server" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="245" width="15" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-server-text" value="Management Servers" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="240" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-webpa" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="265" width="15" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-webpa-text" value="WebPA Server" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="260" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-container" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="285" width="15" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-container-text" value="Containers" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="280" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-flow" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry x="1100" y="290" width="15" height="5" as="geometry" />
+          <mxPoint x="1100" y="292" as="sourcePoint" />
+          <mxPoint x="1115" y="292" as="targetPoint" />
+        </mxCell>
+        <mxCell id="legend-flow-text" value="Test Flow" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="300" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-api" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;strokeDashArray=5 5;" parent="1" edge="1">
+          <mxGeometry x="1100" y="310" width="15" height="5" as="geometry" />
+          <mxPoint x="1100" y="312" as="sourcePoint" />
+          <mxPoint x="1115" y="312" as="targetPoint" />
+        </mxCell>
+        <mxCell id="legend-api-text" value="LXD API" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="320" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-network" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=4;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="345" width="15" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-network-text" value="Network Segments" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="340" width="100" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
