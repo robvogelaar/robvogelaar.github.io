@@ -1,0 +1,2443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yocto Build Warning Analysis Report</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .meta-info {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+        
+        .summary-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 30px;
+            background: #fafafa;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            text-align: center;
+        }
+        
+        .card-value {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #667eea;
+            margin: 10px 0;
+        }
+        
+        .card-label {
+            color: #666;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .section {
+            padding: 30px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .section:last-child {
+            border-bottom: none;
+        }
+        
+        h2 {
+            color: #444;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #667eea;
+            cursor: pointer;
+            user-select: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        h2:hover {
+            color: #667eea;
+        }
+        
+        h2::after {
+            content: '▼';
+            font-size: 0.8em;
+            transition: transform 0.3s;
+        }
+        
+        h2.collapsed::after {
+            transform: rotate(-90deg);
+        }
+        
+        .collapsible {
+            max-height: 100000px;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        
+        .collapsible.collapsed {
+            max-height: 0;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+        }
+        
+        th {
+            background: #f8f9fa;
+            font-weight: 600;
+            color: #555;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        
+        tr:hover {
+            background: #f8f9fa;
+        }
+        
+        .package-item {
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        .package-header {
+            background: #f8f9fa;
+            padding: 15px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            user-select: none;
+        }
+        
+        .package-header:hover {
+            background: #e9ecef;
+        }
+        
+        .package-name {
+            font-weight: bold;
+            color: #444;
+        }
+        
+        .package-stats {
+            display: flex;
+            gap: 20px;
+            font-size: 0.9em;
+            color: #666;
+        }
+        
+        .package-content {
+            padding: 20px;
+            background: white;
+            display: none;
+        }
+        
+        .package-content.expanded {
+            display: block;
+        }
+        
+        .warning-flags {
+            background: #f0f8ff;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+        
+        .warning-type-badge {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 3px;
+            font-size: 0.85em;
+            margin: 2px;
+        }
+        
+        .critical {
+            background: #fee;
+            color: #c00;
+            font-weight: bold;
+        }
+        
+        .important {
+            background: #fff3cd;
+            color: #856404;
+        }
+        
+        .moderate {
+            background: #e7f3ff;
+            color: #004085;
+        }
+        
+        .normal {
+            background: #f0f0f0;
+            color: #666;
+        }
+        
+        .search-box {
+            margin-bottom: 20px;
+            display: flex;
+            gap: 10px;
+        }
+        
+        .search-input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        
+        .search-button {
+            padding: 10px 20px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        
+        .search-button:hover {
+            background: #5a67d8;
+        }
+        
+        .filter-info {
+            background: #e7f3ff;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            color: #004085;
+        }
+        
+        .chart-container {
+            margin: 20px 0;
+            padding: 20px;
+            background: #fafafa;
+            border-radius: 8px;
+        }
+        
+        .bar-chart {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        .bar-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .bar-label {
+            min-width: 250px;
+            font-size: 0.9em;
+            text-align: right;
+        }
+        
+        .bar-container {
+            flex: 1;
+            background: #e0e0e0;
+            border-radius: 4px;
+            height: 24px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .bar-fill {
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            height: 100%;
+            border-radius: 4px;
+            transition: width 0.5s ease;
+        }
+        
+        .bar-value {
+            position: absolute;
+            right: 8px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 0.85em;
+            font-weight: bold;
+            color: white;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+        }
+        
+        /* Documentation Section Styles */
+        .doc-section {
+            max-width: none;
+        }
+        
+        .severity-explanation {
+            margin: 20px 0;
+        }
+        
+        .severity-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid;
+        }
+        
+        .severity-item.critical {
+            background: #fef2f2;
+            border-left-color: #dc2626;
+        }
+        
+        .severity-item.important {
+            background: #fffbeb;
+            border-left-color: #d97706;
+        }
+        
+        .severity-item.moderate {
+            background: #eff6ff;
+            border-left-color: #2563eb;
+        }
+        
+        .critical-explanations {
+            margin: 30px 0;
+        }
+        
+        .warning-explanation {
+            margin-bottom: 30px;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        .warning-explanation h4 {
+            background: #f9fafb;
+            margin: 0;
+            padding: 15px;
+            border-bottom: 1px solid #e5e7eb;
+            font-family: 'Courier New', monospace;
+            color: #374151;
+        }
+        
+        .warning-details {
+            padding: 20px;
+        }
+        
+        .code-example {
+            margin: 15px 0;
+            background: #1f2937;
+            border-radius: 6px;
+            overflow-x: auto;
+        }
+        
+        .code-example pre {
+            margin: 0;
+            padding: 15px;
+            color: #f9fafb;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+            line-height: 1.4;
+        }
+        
+        .code-example code {
+            background: none;
+            color: inherit;
+            padding: 0;
+        }
+        
+        .arch-section {
+            margin-top: 30px;
+        }
+        
+        .arch-table {
+            margin: 20px 0;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        .arch-table th {
+            background: #f3f4f6;
+            font-weight: 600;
+        }
+        
+        .arch-table td {
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+        
+        .arch-warning {
+            margin: 25px 0;
+            padding: 20px;
+            background: #fef2f2;
+            border: 1px solid #fecaca;
+            border-radius: 8px;
+        }
+        
+        .arch-warning h5 {
+            margin: 0 0 15px 0;
+            color: #dc2626;
+            font-family: 'Courier New', monospace;
+        }
+        
+        .migration-issues {
+            margin: 25px 0;
+        }
+        
+        .issue-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f8fafc;
+            border-left: 4px solid #3b82f6;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .issue-item h5 {
+            margin: 0 0 10px 0;
+            color: #1e40af;
+        }
+        
+        .best-practices {
+            background: #f0fdf4;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #16a34a;
+            margin: 20px 0;
+        }
+        
+        .best-practices li {
+            margin-bottom: 8px;
+            line-height: 1.5;
+        }
+        
+        .best-practices code {
+            background: #dcfce7;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+        
+        .doc-section h3 {
+            color: #374151;
+            margin: 30px 0 20px 0;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e5e7eb;
+        }
+        
+        .doc-section h4 {
+            color: #4b5563;
+            margin: 25px 0 15px 0;
+        }
+        
+        .doc-section h5 {
+            color: #6b7280;
+            margin: 20px 0 10px 0;
+        }
+        
+        .doc-section code {
+            background: #f3f4f6;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+            color: #374151;
+        }
+        
+        .doc-section strong {
+            color: #374151;
+        }
+        
+        @media (max-width: 768px) {
+            .summary-cards {
+                grid-template-columns: 1fr;
+            }
+            
+            .package-stats {
+                flex-direction: column;
+                gap: 5px;
+            }
+            
+            .bar-label {
+                min-width: 150px;
+            }
+            
+            .doc-section {
+                font-size: 0.9em;
+            }
+            
+            .code-example {
+                margin: 10px -20px;
+                border-radius: 0;
+            }
+            
+            .arch-table {
+                font-size: 0.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Yocto Build Warning Analysis</h1>
+            <div class="meta-info">
+                <p>Build Directory: /home/rev/yocto/mv2plus-lxd-r22-oe40-0815/brcm-openbfc-rdkm-scom/build-exm-qemux86-mv2plus</p>
+                <p>Generated: 2025-08-18 15:21:25</p>
+            </div>
+        </header>
+        
+        <div class="summary-cards">
+            <div class="card">
+                <div class="card-label">Total Warnings</div>
+                <div class="card-value">1,140</div>
+            </div>
+            <div class="card">
+                <div class="card-label">Packages with Warnings</div>
+                <div class="card-value">28</div>
+            </div>
+            <div class="card">
+                <div class="card-label">Warning Types</div>
+                <div class="card-value">14</div>
+            </div>
+            <div class="card">
+                <div class="card-label">Critical Warnings</div>
+                <div class="card-value">464</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 onclick="toggleSection(this)">Warning Types Distribution</h2>
+            <div class="collapsible">
+                <div class="chart-container">
+                    <div class="bar-chart">
+
+                        <div class="bar-item">
+                            <div class="bar-label">-Wunused-result <span class="warning-type-badge important">IMPORTANT</span></div>
+                            <div class="bar-container">
+                                <div class="bar-fill" style="width: 36.14%"></div>
+                                <div class="bar-value">412 (36.14%)</div>
+                            </div>
+                        </div>
+
+                        <div class="bar-item">
+                            <div class="bar-label">-Wincompatible-pointer-types <span class="warning-type-badge critical">CRITICAL</span></div>
+                            <div class="bar-container">
+                                <div class="bar-fill" style="width: 25.79%"></div>
+                                <div class="bar-value">294 (25.79%)</div>
+                            </div>
+                        </div>
+
+                        <div class="bar-item">
+                            <div class="bar-label">-Wdeprecated-declarations <span class="warning-type-badge important">IMPORTANT</span></div>
+                            <div class="bar-container">
+                                <div class="bar-fill" style="width: 15.96%"></div>
+                                <div class="bar-value">182 (15.96%)</div>
+                            </div>
+                        </div>
+
+                        <div class="bar-item">
+                            <div class="bar-label">-Wimplicit-function-declaration <span class="warning-type-badge critical">CRITICAL</span></div>
+                            <div class="bar-container">
+                                <div class="bar-fill" style="width: 14.91%"></div>
+                                <div class="bar-value">170 (14.91%)</div>
+                            </div>
+                        </div>
+
+                        <div class="bar-item">
+                            <div class="bar-label">-Wdiscarded-qualifiers <span class="warning-type-badge moderate">MODERATE</span></div>
+                            <div class="bar-container">
+                                <div class="bar-fill" style="width: 2.81%"></div>
+                                <div class="bar-value">32 (2.81%)</div>
+                            </div>
+                        </div>
+
+                        <div class="bar-item">
+                            <div class="bar-label">unknown</div>
+                            <div class="bar-container">
+                                <div class="bar-fill" style="width: 1.4%"></div>
+                                <div class="bar-value">16 (1.4%)</div>
+                            </div>
+                        </div>
+
+                        <div class="bar-item">
+                            <div class="bar-label">-Wint-conversion</div>
+                            <div class="bar-container">
+                                <div class="bar-fill" style="width: 0.7%"></div>
+                                <div class="bar-value">8 (0.7%)</div>
+                            </div>
+                        </div>
+
+                        <div class="bar-item">
+                            <div class="bar-label">-Waddress-of-packed-member</div>
+                            <div class="bar-container">
+                                <div class="bar-fill" style="width: 0.7%"></div>
+                                <div class="bar-value">8 (0.7%)</div>
+                            </div>
+                        </div>
+
+                        <div class="bar-item">
+                            <div class="bar-label">-Woverflow</div>
+                            <div class="bar-container">
+                                <div class="bar-fill" style="width: 0.53%"></div>
+                                <div class="bar-value">6 (0.53%)</div>
+                            </div>
+                        </div>
+
+                        <div class="bar-item">
+                            <div class="bar-label">-Wsign-compare <span class="warning-type-badge important">IMPORTANT</span></div>
+                            <div class="bar-container">
+                                <div class="bar-fill" style="width: 0.35%"></div>
+                                <div class="bar-value">4 (0.35%)</div>
+                            </div>
+                        </div>
+
+                        <div class="bar-item">
+                            <div class="bar-label">-Wimplicit-int</div>
+                            <div class="bar-container">
+                                <div class="bar-fill" style="width: 0.18%"></div>
+                                <div class="bar-value">2 (0.18%)</div>
+                            </div>
+                        </div>
+
+                        <div class="bar-item">
+                            <div class="bar-label">-Wstringop-overflow=</div>
+                            <div class="bar-container">
+                                <div class="bar-fill" style="width: 0.18%"></div>
+                                <div class="bar-value">2 (0.18%)</div>
+                            </div>
+                        </div>
+
+                        <div class="bar-item">
+                            <div class="bar-label">-Wbuiltin-declaration-mismatch</div>
+                            <div class="bar-container">
+                                <div class="bar-fill" style="width: 0.18%"></div>
+                                <div class="bar-value">2 (0.18%)</div>
+                            </div>
+                        </div>
+
+                        <div class="bar-item">
+                            <div class="bar-label">-Wformat-truncation=</div>
+                            <div class="bar-container">
+                                <div class="bar-fill" style="width: 0.18%"></div>
+                                <div class="bar-value">2 (0.18%)</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Warning Type</th>
+                            <th>Count</th>
+                            <th>Percentage</th>
+                            <th>Severity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <td>-Wunused-result</td>
+                            <td>412</td>
+                            <td>36.14%</td>
+                            <td><span class="warning-type-badge important">IMPORTANT</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>-Wincompatible-pointer-types</td>
+                            <td>294</td>
+                            <td>25.79%</td>
+                            <td><span class="warning-type-badge critical">CRITICAL</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>-Wdeprecated-declarations</td>
+                            <td>182</td>
+                            <td>15.96%</td>
+                            <td><span class="warning-type-badge important">IMPORTANT</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>-Wimplicit-function-declaration</td>
+                            <td>170</td>
+                            <td>14.91%</td>
+                            <td><span class="warning-type-badge critical">CRITICAL</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>-Wdiscarded-qualifiers</td>
+                            <td>32</td>
+                            <td>2.81%</td>
+                            <td><span class="warning-type-badge moderate">MODERATE</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>unknown</td>
+                            <td>16</td>
+                            <td>1.40%</td>
+                            <td><span class="warning-type-badge normal">Normal</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>-Wint-conversion</td>
+                            <td>8</td>
+                            <td>0.70%</td>
+                            <td><span class="warning-type-badge normal">Normal</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>-Waddress-of-packed-member</td>
+                            <td>8</td>
+                            <td>0.70%</td>
+                            <td><span class="warning-type-badge normal">Normal</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>-Woverflow</td>
+                            <td>6</td>
+                            <td>0.53%</td>
+                            <td><span class="warning-type-badge normal">Normal</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>-Wsign-compare</td>
+                            <td>4</td>
+                            <td>0.35%</td>
+                            <td><span class="warning-type-badge important">IMPORTANT</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>-Wimplicit-int</td>
+                            <td>2</td>
+                            <td>0.18%</td>
+                            <td><span class="warning-type-badge normal">Normal</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>-Wstringop-overflow=</td>
+                            <td>2</td>
+                            <td>0.18%</td>
+                            <td><span class="warning-type-badge normal">Normal</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>-Wbuiltin-declaration-mismatch</td>
+                            <td>2</td>
+                            <td>0.18%</td>
+                            <td><span class="warning-type-badge normal">Normal</span></td>
+                        </tr>
+
+                        <tr>
+                            <td>-Wformat-truncation=</td>
+                            <td>2</td>
+                            <td>0.18%</td>
+                            <td><span class="warning-type-badge normal">Normal</span></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 onclick="toggleSection(this)">Package Details</h2>
+            <div class="collapsible">
+                <div class="search-box">
+                    <input type="text" class="search-input" id="packageSearch" placeholder="Search packages..." onkeyup="filterPackages()">
+                </div>
+
+                <div class="package-item" data-package-name="ccsp-p-and-m-8888+gitautoinc+10e5d66b1c-r0">
+                    <div class="package-header" onclick="togglePackage(this)">
+                        <div class="package-name">ccsp-p-and-m-8888+gitAUTOINC+10e5d66b1c-r0</div>
+                        <div class="package-stats">
+                            <span>Total: <strong>199</strong> warnings</span>
+                            <span>Types: <strong>7</strong></span>
+                        </div>
+                    </div>
+                    <div class="package-content">
+
+                        <div class="warning-flags">
+                            <strong>Compiler Warning Flags:</strong><br>
+                            -Wl
+                        </div>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Warning Type</th>
+                                    <th>Count</th>
+                                    <th>Severity</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td>-Wunused-result</td>
+                                    <td>120</td>
+                                    <td><span class="warning-type-badge important">IMPORTANT</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wimplicit-function-declaration</td>
+                                    <td>31</td>
+                                    <td><span class="warning-type-badge critical">CRITICAL</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wincompatible-pointer-types</td>
+                                    <td>29</td>
+                                    <td><span class="warning-type-badge critical">CRITICAL</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wdeprecated-declarations</td>
+                                    <td>9</td>
+                                    <td><span class="warning-type-badge important">IMPORTANT</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>unknown</td>
+                                    <td>6</td>
+                                    <td><span class="warning-type-badge normal">Normal</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wdiscarded-qualifiers</td>
+                                    <td>3</td>
+                                    <td><span class="warning-type-badge moderate">MODERATE</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wbuiltin-declaration-mismatch</td>
+                                    <td>1</td>
+                                    <td><span class="warning-type-badge normal">Normal</span></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="package-item" data-package-name="ccsp-p-and-m-8888+gitautoinc+10e5d66b1c-r0">
+                    <div class="package-header" onclick="togglePackage(this)">
+                        <div class="package-name">ccsp-p-and-m-8888+gitAUTOINC+10e5d66b1c-r0</div>
+                        <div class="package-stats">
+                            <span>Total: <strong>199</strong> warnings</span>
+                            <span>Types: <strong>7</strong></span>
+                        </div>
+                    </div>
+                    <div class="package-content">
+
+                        <div class="warning-flags">
+                            <strong>Compiler Warning Flags:</strong><br>
+                            -Wl
+                        </div>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Warning Type</th>
+                                    <th>Count</th>
+                                    <th>Severity</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td>-Wunused-result</td>
+                                    <td>240</td>
+                                    <td><span class="warning-type-badge important">IMPORTANT</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wimplicit-function-declaration</td>
+                                    <td>62</td>
+                                    <td><span class="warning-type-badge critical">CRITICAL</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wincompatible-pointer-types</td>
+                                    <td>58</td>
+                                    <td><span class="warning-type-badge critical">CRITICAL</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wdeprecated-declarations</td>
+                                    <td>18</td>
+                                    <td><span class="warning-type-badge important">IMPORTANT</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>unknown</td>
+                                    <td>12</td>
+                                    <td><span class="warning-type-badge normal">Normal</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wdiscarded-qualifiers</td>
+                                    <td>6</td>
+                                    <td><span class="warning-type-badge moderate">MODERATE</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wbuiltin-declaration-mismatch</td>
+                                    <td>2</td>
+                                    <td><span class="warning-type-badge normal">Normal</span></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="package-item" data-package-name="ccsp-tr069-pa-8888+gitautoinc+2e94730664-r0">
+                    <div class="package-header" onclick="togglePackage(this)">
+                        <div class="package-name">ccsp-tr069-pa-8888+gitAUTOINC+2e94730664-r0</div>
+                        <div class="package-stats">
+                            <span>Total: <strong>126</strong> warnings</span>
+                            <span>Types: <strong>4</strong></span>
+                        </div>
+                    </div>
+                    <div class="package-content">
+
+                        <div class="warning-flags">
+                            <strong>Compiler Warning Flags:</strong><br>
+                            -Wl
+                        </div>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Warning Type</th>
+                                    <th>Count</th>
+                                    <th>Severity</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td>-Wincompatible-pointer-types</td>
+                                    <td>94</td>
+                                    <td><span class="warning-type-badge critical">CRITICAL</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wunused-result</td>
+                                    <td>23</td>
+                                    <td><span class="warning-type-badge important">IMPORTANT</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wimplicit-function-declaration</td>
+                                    <td>6</td>
+                                    <td><span class="warning-type-badge critical">CRITICAL</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wint-conversion</td>
+                                    <td>3</td>
+                                    <td><span class="warning-type-badge normal">Normal</span></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="package-item" data-package-name="ccsp-tr069-pa-8888+gitautoinc+2e94730664-r0">
+                    <div class="package-header" onclick="togglePackage(this)">
+                        <div class="package-name">ccsp-tr069-pa-8888+gitAUTOINC+2e94730664-r0</div>
+                        <div class="package-stats">
+                            <span>Total: <strong>126</strong> warnings</span>
+                            <span>Types: <strong>4</strong></span>
+                        </div>
+                    </div>
+                    <div class="package-content">
+
+                        <div class="warning-flags">
+                            <strong>Compiler Warning Flags:</strong><br>
+                            -Wl
+                        </div>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Warning Type</th>
+                                    <th>Count</th>
+                                    <th>Severity</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td>-Wincompatible-pointer-types</td>
+                                    <td>188</td>
+                                    <td><span class="warning-type-badge critical">CRITICAL</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wunused-result</td>
+                                    <td>46</td>
+                                    <td><span class="warning-type-badge important">IMPORTANT</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wimplicit-function-declaration</td>
+                                    <td>12</td>
+                                    <td><span class="warning-type-badge critical">CRITICAL</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wint-conversion</td>
+                                    <td>6</td>
+                                    <td><span class="warning-type-badge normal">Normal</span></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="package-item" data-package-name="ccsp-wifi-agent-8888+gitautoinc+c1bba7f8ad-r0">
+                    <div class="package-header" onclick="togglePackage(this)">
+                        <div class="package-name">ccsp-wifi-agent-8888+gitAUTOINC+c1bba7f8ad-r0</div>
+                        <div class="package-stats">
+                            <span>Total: <strong>95</strong> warnings</span>
+                            <span>Types: <strong>7</strong></span>
+                        </div>
+                    </div>
+                    <div class="package-content">
+
+                        <div class="warning-flags">
+                            <strong>Compiler Warning Flags:</strong><br>
+                            -Wl, -Wno-error=unused-but-set-variable, -Wno-unused-parameter, -Wno-unused-variable
+                        </div>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Warning Type</th>
+                                    <th>Count</th>
+                                    <th>Severity</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td>-Wimplicit-function-declaration</td>
+                                    <td>43</td>
+                                    <td><span class="warning-type-badge critical">CRITICAL</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wunused-result</td>
+                                    <td>28</td>
+                                    <td><span class="warning-type-badge important">IMPORTANT</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wincompatible-pointer-types</td>
+                                    <td>14</td>
+                                    <td><span class="warning-type-badge critical">CRITICAL</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Waddress-of-packed-member</td>
+                                    <td>4</td>
+                                    <td><span class="warning-type-badge normal">Normal</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Woverflow</td>
+                                    <td>3</td>
+                                    <td><span class="warning-type-badge normal">Normal</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wdiscarded-qualifiers</td>
+                                    <td>2</td>
+                                    <td><span class="warning-type-badge moderate">MODERATE</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>unknown</td>
+                                    <td>1</td>
+                                    <td><span class="warning-type-badge normal">Normal</span></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="package-item" data-package-name="ccsp-wifi-agent-8888+gitautoinc+c1bba7f8ad-r0">
+                    <div class="package-header" onclick="togglePackage(this)">
+                        <div class="package-name">ccsp-wifi-agent-8888+gitAUTOINC+c1bba7f8ad-r0</div>
+                        <div class="package-stats">
+                            <span>Total: <strong>95</strong> warnings</span>
+                            <span>Types: <strong>7</strong></span>
+                        </div>
+                    </div>
+                    <div class="package-content">
+
+                        <div class="warning-flags">
+                            <strong>Compiler Warning Flags:</strong><br>
+                            -Wl, -Wno-error=unused-but-set-variable, -Wno-unused-parameter, -Wno-unused-variable
+                        </div>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Warning Type</th>
+                                    <th>Count</th>
+                                    <th>Severity</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td>-Wimplicit-function-declaration</td>
+                                    <td>86</td>
+                                    <td><span class="warning-type-badge critical">CRITICAL</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wunused-result</td>
+                                    <td>56</td>
+                                    <td><span class="warning-type-badge important">IMPORTANT</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wincompatible-pointer-types</td>
+                                    <td>28</td>
+                                    <td><span class="warning-type-badge critical">CRITICAL</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Waddress-of-packed-member</td>
+                                    <td>8</td>
+                                    <td><span class="warning-type-badge normal">Normal</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Woverflow</td>
+                                    <td>6</td>
+                                    <td><span class="warning-type-badge normal">Normal</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wdiscarded-qualifiers</td>
+                                    <td>4</td>
+                                    <td><span class="warning-type-badge moderate">MODERATE</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>unknown</td>
+                                    <td>2</td>
+                                    <td><span class="warning-type-badge normal">Normal</span></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="package-item" data-package-name="ccsp-common-library-8888+gitautoinc+314e2310b2-r0">
+                    <div class="package-header" onclick="togglePackage(this)">
+                        <div class="package-name">ccsp-common-library-8888+gitAUTOINC+314e2310b2-r0</div>
+                        <div class="package-stats">
+                            <span>Total: <strong>92</strong> warnings</span>
+                            <span>Types: <strong>4</strong></span>
+                        </div>
+                    </div>
+                    <div class="package-content">
+
+                        <div class="warning-flags">
+                            <strong>Compiler Warning Flags:</strong><br>
+                            -Wall, -Wl, -Wno-deprecated
+                        </div>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Warning Type</th>
+                                    <th>Count</th>
+                                    <th>Severity</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td>-Wdeprecated-declarations</td>
+                                    <td>82</td>
+                                    <td><span class="warning-type-badge important">IMPORTANT</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wunused-result</td>
+                                    <td>8</td>
+                                    <td><span class="warning-type-badge important">IMPORTANT</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wincompatible-pointer-types</td>
+                                    <td>1</td>
+                                    <td><span class="warning-type-badge critical">CRITICAL</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wimplicit-function-declaration</td>
+                                    <td>1</td>
+                                    <td><span class="warning-type-badge critical">CRITICAL</span></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="package-item" data-package-name="ccsp-common-library-8888+gitautoinc+314e2310b2-r0">
+                    <div class="package-header" onclick="togglePackage(this)">
+                        <div class="package-name">ccsp-common-library-8888+gitAUTOINC+314e2310b2-r0</div>
+                        <div class="package-stats">
+                            <span>Total: <strong>92</strong> warnings</span>
+                            <span>Types: <strong>4</strong></span>
+                        </div>
+                    </div>
+                    <div class="package-content">
+
+                        <div class="warning-flags">
+                            <strong>Compiler Warning Flags:</strong><br>
+                            -Wall, -Wl, -Wno-deprecated
+                        </div>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Warning Type</th>
+                                    <th>Count</th>
+                                    <th>Severity</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td>-Wdeprecated-declarations</td>
+                                    <td>164</td>
+                                    <td><span class="warning-type-badge important">IMPORTANT</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wunused-result</td>
+                                    <td>16</td>
+                                    <td><span class="warning-type-badge important">IMPORTANT</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wincompatible-pointer-types</td>
+                                    <td>2</td>
+                                    <td><span class="warning-type-badge critical">CRITICAL</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wimplicit-function-declaration</td>
+                                    <td>2</td>
+                                    <td><span class="warning-type-badge critical">CRITICAL</span></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="package-item" data-package-name="ccsp-cm-agent-8888+gitautoinc+84e2a45a4f-r0">
+                    <div class="package-header" onclick="togglePackage(this)">
+                        <div class="package-name">ccsp-cm-agent-8888+gitAUTOINC+84e2a45a4f-r0</div>
+                        <div class="package-stats">
+                            <span>Total: <strong>27</strong> warnings</span>
+                            <span>Types: <strong>5</strong></span>
+                        </div>
+                    </div>
+                    <div class="package-content">
+
+                        <div class="warning-flags">
+                            <strong>Compiler Warning Flags:</strong><br>
+                            -Wl
+                        </div>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Warning Type</th>
+                                    <th>Count</th>
+                                    <th>Severity</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td>-Wunused-result</td>
+                                    <td>13</td>
+                                    <td><span class="warning-type-badge important">IMPORTANT</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wincompatible-pointer-types</td>
+                                    <td>9</td>
+                                    <td><span class="warning-type-badge critical">CRITICAL</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wdiscarded-qualifiers</td>
+                                    <td>3</td>
+                                    <td><span class="warning-type-badge moderate">MODERATE</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wimplicit-function-declaration</td>
+                                    <td>1</td>
+                                    <td><span class="warning-type-badge critical">CRITICAL</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wimplicit-int</td>
+                                    <td>1</td>
+                                    <td><span class="warning-type-badge normal">Normal</span></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="package-item" data-package-name="ccsp-cm-agent-8888+gitautoinc+84e2a45a4f-r0">
+                    <div class="package-header" onclick="togglePackage(this)">
+                        <div class="package-name">ccsp-cm-agent-8888+gitAUTOINC+84e2a45a4f-r0</div>
+                        <div class="package-stats">
+                            <span>Total: <strong>27</strong> warnings</span>
+                            <span>Types: <strong>5</strong></span>
+                        </div>
+                    </div>
+                    <div class="package-content">
+
+                        <div class="warning-flags">
+                            <strong>Compiler Warning Flags:</strong><br>
+                            -Wl
+                        </div>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Warning Type</th>
+                                    <th>Count</th>
+                                    <th>Severity</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td>-Wunused-result</td>
+                                    <td>26</td>
+                                    <td><span class="warning-type-badge important">IMPORTANT</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wincompatible-pointer-types</td>
+                                    <td>18</td>
+                                    <td><span class="warning-type-badge critical">CRITICAL</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wdiscarded-qualifiers</td>
+                                    <td>6</td>
+                                    <td><span class="warning-type-badge moderate">MODERATE</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wimplicit-function-declaration</td>
+                                    <td>2</td>
+                                    <td><span class="warning-type-badge critical">CRITICAL</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wimplicit-int</td>
+                                    <td>2</td>
+                                    <td><span class="warning-type-badge normal">Normal</span></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="package-item" data-package-name="ccsp-lm-lite-8888+gitautoinc+647ce96541-r0">
+                    <div class="package-header" onclick="togglePackage(this)">
+                        <div class="package-name">ccsp-lm-lite-8888+gitAUTOINC+647ce96541-r0</div>
+                        <div class="package-stats">
+                            <span>Total: <strong>10</strong> warnings</span>
+                            <span>Types: <strong>4</strong></span>
+                        </div>
+                    </div>
+                    <div class="package-content">
+
+                        <div class="warning-flags">
+                            <strong>Compiler Warning Flags:</strong><br>
+                            -Wl
+                        </div>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Warning Type</th>
+                                    <th>Count</th>
+                                    <th>Severity</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td>-Wunused-result</td>
+                                    <td>6</td>
+                                    <td><span class="warning-type-badge important">IMPORTANT</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wimplicit-function-declaration</td>
+                                    <td>2</td>
+                                    <td><span class="warning-type-badge critical">CRITICAL</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wstringop-overflow=</td>
+                                    <td>1</td>
+                                    <td><span class="warning-type-badge normal">Normal</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wint-conversion</td>
+                                    <td>1</td>
+                                    <td><span class="warning-type-badge normal">Normal</span></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="package-item" data-package-name="ccsp-lm-lite-8888+gitautoinc+647ce96541-r0">
+                    <div class="package-header" onclick="togglePackage(this)">
+                        <div class="package-name">ccsp-lm-lite-8888+gitAUTOINC+647ce96541-r0</div>
+                        <div class="package-stats">
+                            <span>Total: <strong>10</strong> warnings</span>
+                            <span>Types: <strong>4</strong></span>
+                        </div>
+                    </div>
+                    <div class="package-content">
+
+                        <div class="warning-flags">
+                            <strong>Compiler Warning Flags:</strong><br>
+                            -Wl
+                        </div>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Warning Type</th>
+                                    <th>Count</th>
+                                    <th>Severity</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td>-Wunused-result</td>
+                                    <td>12</td>
+                                    <td><span class="warning-type-badge important">IMPORTANT</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wimplicit-function-declaration</td>
+                                    <td>4</td>
+                                    <td><span class="warning-type-badge critical">CRITICAL</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wstringop-overflow=</td>
+                                    <td>2</td>
+                                    <td><span class="warning-type-badge normal">Normal</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wint-conversion</td>
+                                    <td>2</td>
+                                    <td><span class="warning-type-badge normal">Normal</span></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="package-item" data-package-name="ccsp-dmcli-8888+gitautoinc+7d8ea53509-r0">
+                    <div class="package-header" onclick="togglePackage(this)">
+                        <div class="package-name">ccsp-dmcli-8888+gitAUTOINC+7d8ea53509-r0</div>
+                        <div class="package-stats">
+                            <span>Total: <strong>6</strong> warnings</span>
+                            <span>Types: <strong>1</strong></span>
+                        </div>
+                    </div>
+                    <div class="package-content">
+
+                        <div class="warning-flags">
+                            <strong>Compiler Warning Flags:</strong><br>
+                            -Wl
+                        </div>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Warning Type</th>
+                                    <th>Count</th>
+                                    <th>Severity</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td>-Wdiscarded-qualifiers</td>
+                                    <td>6</td>
+                                    <td><span class="warning-type-badge moderate">MODERATE</span></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="package-item" data-package-name="ccsp-dmcli-8888+gitautoinc+7d8ea53509-r0">
+                    <div class="package-header" onclick="togglePackage(this)">
+                        <div class="package-name">ccsp-dmcli-8888+gitAUTOINC+7d8ea53509-r0</div>
+                        <div class="package-stats">
+                            <span>Total: <strong>6</strong> warnings</span>
+                            <span>Types: <strong>1</strong></span>
+                        </div>
+                    </div>
+                    <div class="package-content">
+
+                        <div class="warning-flags">
+                            <strong>Compiler Warning Flags:</strong><br>
+                            -Wl
+                        </div>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Warning Type</th>
+                                    <th>Count</th>
+                                    <th>Severity</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td>-Wdiscarded-qualifiers</td>
+                                    <td>12</td>
+                                    <td><span class="warning-type-badge moderate">MODERATE</span></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="package-item" data-package-name="ccsp-eth-agent-8888+gitautoinc+e451bab124-r0">
+                    <div class="package-header" onclick="togglePackage(this)">
+                        <div class="package-name">ccsp-eth-agent-8888+gitAUTOINC+e451bab124-r0</div>
+                        <div class="package-stats">
+                            <span>Total: <strong>4</strong> warnings</span>
+                            <span>Types: <strong>3</strong></span>
+                        </div>
+                    </div>
+                    <div class="package-content">
+
+                        <div class="warning-flags">
+                            <strong>Compiler Warning Flags:</strong><br>
+                            -Wl, -Wno-missing-braces, -Wno-missing-field-initializers
+                        </div>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Warning Type</th>
+                                    <th>Count</th>
+                                    <th>Severity</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td>-Wunused-result</td>
+                                    <td>2</td>
+                                    <td><span class="warning-type-badge important">IMPORTANT</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wimplicit-function-declaration</td>
+                                    <td>1</td>
+                                    <td><span class="warning-type-badge critical">CRITICAL</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wdiscarded-qualifiers</td>
+                                    <td>1</td>
+                                    <td><span class="warning-type-badge moderate">MODERATE</span></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="package-item" data-package-name="ccsp-eth-agent-8888+gitautoinc+e451bab124-r0">
+                    <div class="package-header" onclick="togglePackage(this)">
+                        <div class="package-name">ccsp-eth-agent-8888+gitAUTOINC+e451bab124-r0</div>
+                        <div class="package-stats">
+                            <span>Total: <strong>4</strong> warnings</span>
+                            <span>Types: <strong>3</strong></span>
+                        </div>
+                    </div>
+                    <div class="package-content">
+
+                        <div class="warning-flags">
+                            <strong>Compiler Warning Flags:</strong><br>
+                            -Wl, -Wno-missing-braces, -Wno-missing-field-initializers
+                        </div>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Warning Type</th>
+                                    <th>Count</th>
+                                    <th>Severity</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td>-Wunused-result</td>
+                                    <td>4</td>
+                                    <td><span class="warning-type-badge important">IMPORTANT</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wimplicit-function-declaration</td>
+                                    <td>2</td>
+                                    <td><span class="warning-type-badge critical">CRITICAL</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wdiscarded-qualifiers</td>
+                                    <td>2</td>
+                                    <td><span class="warning-type-badge moderate">MODERATE</span></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="package-item" data-package-name="ccsp-jse-8888+gitautoinc+42a8738f01-r0">
+                    <div class="package-header" onclick="togglePackage(this)">
+                        <div class="package-name">ccsp-jse-8888+gitAUTOINC+42a8738f01-r0</div>
+                        <div class="package-stats">
+                            <span>Total: <strong>4</strong> warnings</span>
+                            <span>Types: <strong>3</strong></span>
+                        </div>
+                    </div>
+                    <div class="package-content">
+
+                        <div class="warning-flags">
+                            <strong>Compiler Warning Flags:</strong><br>
+                            -Wall, -Wextra, -Wl
+                        </div>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Warning Type</th>
+                                    <th>Count</th>
+                                    <th>Severity</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td>-Wsign-compare</td>
+                                    <td>2</td>
+                                    <td><span class="warning-type-badge important">IMPORTANT</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>unknown</td>
+                                    <td>1</td>
+                                    <td><span class="warning-type-badge normal">Normal</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wdiscarded-qualifiers</td>
+                                    <td>1</td>
+                                    <td><span class="warning-type-badge moderate">MODERATE</span></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="package-item" data-package-name="ccsp-jse-8888+gitautoinc+42a8738f01-r0">
+                    <div class="package-header" onclick="togglePackage(this)">
+                        <div class="package-name">ccsp-jse-8888+gitAUTOINC+42a8738f01-r0</div>
+                        <div class="package-stats">
+                            <span>Total: <strong>4</strong> warnings</span>
+                            <span>Types: <strong>3</strong></span>
+                        </div>
+                    </div>
+                    <div class="package-content">
+
+                        <div class="warning-flags">
+                            <strong>Compiler Warning Flags:</strong><br>
+                            -Wall, -Wextra, -Wl
+                        </div>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Warning Type</th>
+                                    <th>Count</th>
+                                    <th>Severity</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td>-Wsign-compare</td>
+                                    <td>4</td>
+                                    <td><span class="warning-type-badge important">IMPORTANT</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>unknown</td>
+                                    <td>2</td>
+                                    <td><span class="warning-type-badge normal">Normal</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>-Wdiscarded-qualifiers</td>
+                                    <td>2</td>
+                                    <td><span class="warning-type-badge moderate">MODERATE</span></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="package-item" data-package-name="ccsp-hotspot-8888+gitautoinc+094a84d0b0-r0">
+                    <div class="package-header" onclick="togglePackage(this)">
+                        <div class="package-name">ccsp-hotspot-8888+gitAUTOINC+094a84d0b0-r0</div>
+                        <div class="package-stats">
+                            <span>Total: <strong>2</strong> warnings</span>
+                            <span>Types: <strong>1</strong></span>
+                        </div>
+                    </div>
+                    <div class="package-content">
+
+                        <div class="warning-flags">
+                            <strong>Compiler Warning Flags:</strong><br>
+                            -Wl
+                        </div>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Warning Type</th>
+                                    <th>Count</th>
+                                    <th>Severity</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td>-Wunused-result</td>
+                                    <td>2</td>
+                                    <td><span class="warning-type-badge important">IMPORTANT</span></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="package-item" data-package-name="ccsp-hotspot-8888+gitautoinc+094a84d0b0-r0">
+                    <div class="package-header" onclick="togglePackage(this)">
+                        <div class="package-name">ccsp-hotspot-8888+gitAUTOINC+094a84d0b0-r0</div>
+                        <div class="package-stats">
+                            <span>Total: <strong>2</strong> warnings</span>
+                            <span>Types: <strong>1</strong></span>
+                        </div>
+                    </div>
+                    <div class="package-content">
+
+                        <div class="warning-flags">
+                            <strong>Compiler Warning Flags:</strong><br>
+                            -Wl
+                        </div>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Warning Type</th>
+                                    <th>Count</th>
+                                    <th>Severity</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td>-Wunused-result</td>
+                                    <td>4</td>
+                                    <td><span class="warning-type-badge important">IMPORTANT</span></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="package-item" data-package-name="ccsp-misc-8888+gitautoinc+2febeede73-r0">
+                    <div class="package-header" onclick="togglePackage(this)">
+                        <div class="package-name">ccsp-misc-8888+gitAUTOINC+2febeede73-r0</div>
+                        <div class="package-stats">
+                            <span>Total: <strong>2</strong> warnings</span>
+                            <span>Types: <strong>1</strong></span>
+                        </div>
+                    </div>
+                    <div class="package-content">
+
+                        <div class="warning-flags">
+                            <strong>Compiler Warning Flags:</strong><br>
+                            -Wall, -Werror, -Wl
+                        </div>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Warning Type</th>
+                                    <th>Count</th>
+                                    <th>Severity</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td>-Wunused-result</td>
+                                    <td>2</td>
+                                    <td><span class="warning-type-badge important">IMPORTANT</span></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="package-item" data-package-name="ccsp-misc-8888+gitautoinc+2febeede73-r0">
+                    <div class="package-header" onclick="togglePackage(this)">
+                        <div class="package-name">ccsp-misc-8888+gitAUTOINC+2febeede73-r0</div>
+                        <div class="package-stats">
+                            <span>Total: <strong>2</strong> warnings</span>
+                            <span>Types: <strong>1</strong></span>
+                        </div>
+                    </div>
+                    <div class="package-content">
+
+                        <div class="warning-flags">
+                            <strong>Compiler Warning Flags:</strong><br>
+                            -Wall, -Werror, -Wl
+                        </div>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Warning Type</th>
+                                    <th>Count</th>
+                                    <th>Severity</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td>-Wunused-result</td>
+                                    <td>4</td>
+                                    <td><span class="warning-type-badge important">IMPORTANT</span></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="package-item" data-package-name="ccsp-cr-8888+gitautoinc+e70143779a-r0">
+                    <div class="package-header" onclick="togglePackage(this)">
+                        <div class="package-name">ccsp-cr-8888+gitAUTOINC+e70143779a-r0</div>
+                        <div class="package-stats">
+                            <span>Total: <strong>1</strong> warnings</span>
+                            <span>Types: <strong>1</strong></span>
+                        </div>
+                    </div>
+                    <div class="package-content">
+
+                        <div class="warning-flags">
+                            <strong>Compiler Warning Flags:</strong><br>
+                            -Wl
+                        </div>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Warning Type</th>
+                                    <th>Count</th>
+                                    <th>Severity</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td>-Wunused-result</td>
+                                    <td>1</td>
+                                    <td><span class="warning-type-badge important">IMPORTANT</span></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="package-item" data-package-name="ccsp-cr-8888+gitautoinc+e70143779a-r0">
+                    <div class="package-header" onclick="togglePackage(this)">
+                        <div class="package-name">ccsp-cr-8888+gitAUTOINC+e70143779a-r0</div>
+                        <div class="package-stats">
+                            <span>Total: <strong>1</strong> warnings</span>
+                            <span>Types: <strong>1</strong></span>
+                        </div>
+                    </div>
+                    <div class="package-content">
+
+                        <div class="warning-flags">
+                            <strong>Compiler Warning Flags:</strong><br>
+                            -Wl
+                        </div>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Warning Type</th>
+                                    <th>Count</th>
+                                    <th>Severity</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td>-Wunused-result</td>
+                                    <td>2</td>
+                                    <td><span class="warning-type-badge important">IMPORTANT</span></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="package-item" data-package-name="ccsp-psm-8888+gitautoinc+f6e7ac9cce-r0">
+                    <div class="package-header" onclick="togglePackage(this)">
+                        <div class="package-name">ccsp-psm-8888+gitAUTOINC+f6e7ac9cce-r0</div>
+                        <div class="package-stats">
+                            <span>Total: <strong>1</strong> warnings</span>
+                            <span>Types: <strong>1</strong></span>
+                        </div>
+                    </div>
+                    <div class="package-content">
+
+                        <div class="warning-flags">
+                            <strong>Compiler Warning Flags:</strong><br>
+                            -Wl
+                        </div>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Warning Type</th>
+                                    <th>Count</th>
+                                    <th>Severity</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td>-Wunused-result</td>
+                                    <td>1</td>
+                                    <td><span class="warning-type-badge important">IMPORTANT</span></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="package-item" data-package-name="ccsp-psm-8888+gitautoinc+f6e7ac9cce-r0">
+                    <div class="package-header" onclick="togglePackage(this)">
+                        <div class="package-name">ccsp-psm-8888+gitAUTOINC+f6e7ac9cce-r0</div>
+                        <div class="package-stats">
+                            <span>Total: <strong>1</strong> warnings</span>
+                            <span>Types: <strong>1</strong></span>
+                        </div>
+                    </div>
+                    <div class="package-content">
+
+                        <div class="warning-flags">
+                            <strong>Compiler Warning Flags:</strong><br>
+                            -Wl
+                        </div>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Warning Type</th>
+                                    <th>Count</th>
+                                    <th>Severity</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td>-Wunused-result</td>
+                                    <td>2</td>
+                                    <td><span class="warning-type-badge important">IMPORTANT</span></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="package-item" data-package-name="ccsp-common-library-native-8888+gitautoinc+314e2310b2-r0">
+                    <div class="package-header" onclick="togglePackage(this)">
+                        <div class="package-name">ccsp-common-library-native-8888+gitAUTOINC+314e2310b2-r0</div>
+                        <div class="package-stats">
+                            <span>Total: <strong>1</strong> warnings</span>
+                            <span>Types: <strong>1</strong></span>
+                        </div>
+                    </div>
+                    <div class="package-content">
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Warning Type</th>
+                                    <th>Count</th>
+                                    <th>Severity</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td>-Wformat-truncation=</td>
+                                    <td>1</td>
+                                    <td><span class="warning-type-badge normal">Normal</span></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="package-item" data-package-name="ccsp-common-library-native-8888+gitautoinc+314e2310b2-r0">
+                    <div class="package-header" onclick="togglePackage(this)">
+                        <div class="package-name">ccsp-common-library-native-8888+gitAUTOINC+314e2310b2-r0</div>
+                        <div class="package-stats">
+                            <span>Total: <strong>1</strong> warnings</span>
+                            <span>Types: <strong>1</strong></span>
+                        </div>
+                    </div>
+                    <div class="package-content">
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Warning Type</th>
+                                    <th>Count</th>
+                                    <th>Severity</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td>-Wformat-truncation=</td>
+                                    <td>2</td>
+                                    <td><span class="warning-type-badge normal">Normal</span></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 onclick="toggleSection(this)">Documentation & Warning Explanations</h2>
+            <div class="collapsible">
+                <div class="doc-section">
+                    <h3>Understanding Warning Severity Levels</h3>
+                    
+                    <div class="severity-explanation">
+                        <div class="severity-item critical">
+                            <h4><span class="warning-type-badge critical">CRITICAL</span> Runtime Crashes & Undefined Behavior</h4>
+                            <p>These warnings indicate code that will likely cause crashes, memory corruption, or unpredictable behavior at runtime. They must be fixed immediately as they represent actual bugs that can cause system instability, security vulnerabilities, or data corruption.</p>
+                        </div>
+                        
+                        <div class="severity-item important">
+                            <h4><span class="warning-type-badge important">IMPORTANT</span> Security & Logic Errors</h4>
+                            <p>These warnings indicate potential security vulnerabilities, data corruption, or logic errors that may not immediately crash the program but can lead to incorrect behavior, security exploits, or subtle bugs that are difficult to diagnose.</p>
+                        </div>
+                        
+                        <div class="severity-item moderate">
+                            <h4><span class="warning-type-badge moderate">MODERATE</span> Code Quality & Maintainability</h4>
+                            <p>These warnings indicate code quality issues, style problems, or potential performance impacts. While not immediately dangerous, they should be addressed to improve code maintainability, readability, and long-term stability.</p>
+                        </div>
+                    </div>
+                    
+                    <h3>Critical Warnings Detailed Explanations</h3>
+                    
+                    <div class="critical-explanations">
+                        <div class="warning-explanation">
+                            <h4>-Wimplicit-function-declaration</h4>
+                            <div class="warning-details">
+                                <p><strong>What it means:</strong> A function is called without a declaration/prototype in scope.</p>
+                                <p><strong>Why it's critical:</strong> The compiler assumes the function returns <code>int</code> (32-bit), but the actual function may return a pointer (64-bit on 64-bit systems).</p>
+                                <div class="code-example">
+                                    <pre><code>// Missing #include &lt;stdlib.h&gt;
+char *ptr = malloc(100);  // Compiler assumes malloc() returns int
+// 32-bit: int=32bit, pointer=32bit → usually works by accident
+// 64-bit: int=32bit, pointer=64bit → STACK CORRUPTION!</code></pre>
+                                </div>
+                                <p><strong>Impact:</strong> On 64-bit systems, this causes stack corruption, crashes, and security vulnerabilities.</p>
+                                <p><strong>Fix:</strong> Add proper #include statements or function declarations.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="warning-explanation">
+                            <h4>-Wincompatible-pointer-types</h4>
+                            <div class="warning-details">
+                                <p><strong>What it means:</strong> Assigning or passing pointers of incompatible types without explicit casting.</p>
+                                <p><strong>Why it's critical:</strong> Can lead to type confusion, accessing wrong memory layouts, or calling wrong functions.</p>
+                                <div class="code-example">
+                                    <pre><code>int *int_ptr;
+char *char_ptr = int_ptr;  // Wrong! Different pointer types
+*char_ptr = 255;           // May corrupt integer data</code></pre>
+                                </div>
+                                <p><strong>Impact:</strong> Memory corruption, wrong data interpretation, potential security vulnerabilities.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="warning-explanation">
+                            <h4>-Wmaybe-uninitialized / -Wuninitialized</h4>
+                            <div class="warning-details">
+                                <p><strong>What it means:</strong> Using a variable before it has been initialized.</p>
+                                <p><strong>Why it's critical:</strong> The variable contains random memory contents, leading to unpredictable behavior.</p>
+                                <div class="code-example">
+                                    <pre><code>int count;
+if (some_condition) {
+    count = 10;
+}
+// If some_condition is false, count contains garbage
+return count * 2;  // Unpredictable result!</code></pre>
+                                </div>
+                                <p><strong>Impact:</strong> Unpredictable program behavior, crashes, security vulnerabilities due to information leakage.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="warning-explanation">
+                            <h4>-Warray-bounds</h4>
+                            <div class="warning-details">
+                                <p><strong>What it means:</strong> Array access is outside the bounds of the declared array.</p>
+                                <p><strong>Why it's critical:</strong> Direct buffer overflow leading to memory corruption.</p>
+                                <div class="code-example">
+                                    <pre><code>int arr[10];
+arr[15] = 42;  // Buffer overflow! Corrupts adjacent memory</code></pre>
+                                </div>
+                                <p><strong>Impact:</strong> Memory corruption, crashes, security vulnerabilities (buffer overflow exploits).</p>
+                            </div>
+                        </div>
+                        
+                        <div class="warning-explanation">
+                            <h4>-Wreturn-type</h4>
+                            <div class="warning-details">
+                                <p><strong>What it means:</strong> Function declared to return a value but doesn't return anything, or vice versa.</p>
+                                <p><strong>Why it's critical:</strong> Caller expects a return value but gets garbage from stack/registers.</p>
+                                <div class="code-example">
+                                    <pre><code>int calculate_result(int x) {
+    if (x > 0) {
+        return x * 2;
+    }
+    // Missing return! Caller gets garbage value
+}
+
+int result = calculate_result(-5);  // result contains random data</code></pre>
+                                </div>
+                                <p><strong>Impact:</strong> Undefined behavior, logic errors, crashes when garbage values are used.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <h3>32-bit vs 64-bit Architecture Warnings</h3>
+                    
+                    <div class="arch-section">
+                        <p>When running 32-bit code on 64-bit systems or during cross-compilation, several categories of warnings become critically important due to fundamental differences in data type sizes and memory layout.</p>
+                        
+                        <h4>Data Type Size Differences</h4>
+                        <table class="arch-table">
+                            <thead>
+                                <tr>
+                                    <th>Type</th>
+                                    <th>32-bit Size</th>
+                                    <th>64-bit Size</th>
+                                    <th>Impact</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><code>int</code></td>
+                                    <td>32 bits</td>
+                                    <td>32 bits</td>
+                                    <td>Same</td>
+                                </tr>
+                                <tr>
+                                    <td><code>long</code></td>
+                                    <td>32 bits</td>
+                                    <td>64 bits</td>
+                                    <td><strong>Different!</strong></td>
+                                </tr>
+                                <tr>
+                                    <td><code>pointer</code></td>
+                                    <td>32 bits</td>
+                                    <td>64 bits</td>
+                                    <td><strong>Critical difference!</strong></td>
+                                </tr>
+                                <tr>
+                                    <td><code>size_t</code></td>
+                                    <td>32 bits</td>
+                                    <td>64 bits</td>
+                                    <td><strong>Different!</strong></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        
+                        <h4>Critical 64-bit Specific Warnings</h4>
+                        
+                        <div class="arch-warning">
+                            <h5>-Wpointer-to-int-cast (Pointer → int)</h5>
+                            <div class="code-example">
+                                <pre><code>void *ptr = malloc(1000);
+int handle = (int)ptr;    // 32-bit: OK, 64-bit: TRUNCATED!
+// Later...
+void *restored = (void*)handle;  // 64-bit: INVALID POINTER!</code></pre>
+                            </div>
+                            <p><strong>32-bit:</strong> Pointer = 32 bits, int = 32 bits → No data loss</p>
+                            <p><strong>64-bit:</strong> Pointer = 64 bits, int = 32 bits → <strong>Loses 32 bits!</strong></p>
+                            <p><strong>Result:</strong> Cannot recover original pointer, segmentation faults.</p>
+                        </div>
+                        
+                        <div class="arch-warning">
+                            <h5>-Wint-to-pointer-cast (int → Pointer)</h5>
+                            <div class="code-example">
+                                <pre><code>int x = 0x12345678;
+void *ptr = (void*)x;     // 64-bit: Creates invalid pointer!
+*ptr = 42;                // 64-bit: SEGMENTATION FAULT!</code></pre>
+                            </div>
+                            <p><strong>32-bit:</strong> Valid address space (0x00000000 - 0xFFFFFFFF)</p>
+                            <p><strong>64-bit:</strong> Creates pointer in low memory, likely invalid or protected.</p>
+                        </div>
+                        
+                        <div class="arch-warning">
+                            <h5>-Wformat (Printf Format Specifiers)</h5>
+                            <div class="code-example">
+                                <pre><code>size_t len = strlen(buffer);
+printf("Length: %lu", len);  // 32-bit: OK, 64-bit: MAY CRASH!
+
+// Correct:
+printf("Length: %zu", len);  // Portable across architectures</code></pre>
+                            </div>
+                            <p><strong>32-bit:</strong> <code>size_t</code> = <code>unsigned long</code> (32-bit), <code>%lu</code> works</p>
+                            <p><strong>64-bit:</strong> <code>size_t</code> = 64-bit, <code>%lu</code> may be 32-bit → stack corruption</p>
+                        </div>
+                        
+                        <div class="arch-warning">
+                            <h5>-Wconversion / -Wsign-conversion</h5>
+                            <div class="code-example">
+                                <pre><code>size_t file_size = get_file_size();  // 64-bit value
+int buffer_size = file_size;          // 64-bit: TRUNCATION!
+
+if (buffer_size < 0) {  // 64-bit: May be true due to truncation!
+    // Error handling that shouldn't trigger
+}</code></pre>
+                            </div>
+                            <p><strong>Impact on 64-bit:</strong> Large files (>2GB) get truncated to negative sizes, causing logic errors.</p>
+                        </div>
+                        
+                        <h4>Common 32-bit to 64-bit Migration Issues</h4>
+                        
+                        <div class="migration-issues">
+                            <div class="issue-item">
+                                <h5>Pointer Storage in Integers</h5>
+                                <p><strong>Problem:</strong> Legacy code storing pointers in <code>int</code> or <code>long</code> variables.</p>
+                                <p><strong>Solution:</strong> Use <code>uintptr_t</code> or <code>intptr_t</code> for portable pointer storage.</p>
+                            </div>
+                            
+                            <div class="issue-item">
+                                <h5>Serialization/Network Protocols</h5>
+                                <p><strong>Problem:</strong> Saving pointer values or size_t to files/network breaks on 64-bit.</p>
+                                <p><strong>Solution:</strong> Use fixed-size types (uint32_t, uint64_t) for portable serialization.</p>
+                            </div>
+                            
+                            <div class="issue-item">
+                                <h5>Memory Layout Assumptions</h5>
+                                <p><strong>Problem:</strong> Structure padding changes between 32-bit and 64-bit.</p>
+                                <p><strong>Solution:</strong> Use explicit padding or packed structures for consistent layout.</p>
+                            </div>
+                            
+                            <div class="issue-item">
+                                <h5>Function Pointer Casting</h5>
+                                <p><strong>Problem:</strong> Casting function pointers through void* or integer types.</p>
+                                <p><strong>Solution:</strong> Use proper function pointer types and avoid casting through integers.</p>
+                            </div>
+                        </div>
+                        
+                        <h4>Best Practices for Cross-Architecture Code</h4>
+                        <ul class="best-practices">
+                            <li><strong>Use stdint.h types:</strong> <code>uint32_t</code>, <code>uint64_t</code> instead of <code>int</code>, <code>long</code></li>
+                            <li><strong>Use proper format specifiers:</strong> <code>%zu</code> for <code>size_t</code>, <code>%jd</code> for <code>intmax_t</code></li>
+                            <li><strong>Never store pointers in integers:</strong> Use <code>uintptr_t</code> if absolutely necessary</li>
+                            <li><strong>Test on target architecture:</strong> 32-bit warnings may hide 64-bit critical issues</li>
+                            <li><strong>Enable architecture-specific warnings:</strong> <code>-Wpointer-to-int-cast</code>, <code>-Wint-to-pointer-cast</code></li>
+                            <li><strong>Use static analysis tools:</strong> Tools like Clang Static Analyzer can catch architecture-specific issues</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+    <script>
+        function toggleSection(header) {
+            header.classList.toggle('collapsed');
+            const content = header.nextElementSibling;
+            content.classList.toggle('collapsed');
+        }
+        
+        function togglePackage(header) {
+            const content = header.nextElementSibling;
+            content.classList.toggle('expanded');
+        }
+        
+        function filterPackages() {
+            const searchTerm = document.getElementById('packageSearch').value.toLowerCase();
+            const packages = document.querySelectorAll('.package-item');
+            
+            packages.forEach(pkg => {
+                const packageName = pkg.getAttribute('data-package-name');
+                if (packageName.includes(searchTerm)) {
+                    pkg.style.display = 'block';
+                } else {
+                    pkg.style.display = 'none';
+                }
+            });
+        }
+        
+        // Add keyboard shortcuts
+        document.addEventListener('keydown', function(e) {
+            // Ctrl+F or Cmd+F to focus search
+            if ((e.ctrlKey || e.metaKey) && e.key === 'f') {
+                e.preventDefault();
+                document.getElementById('packageSearch').focus();
+            }
+            
+            // Escape to clear search
+            if (e.key === 'Escape') {
+                document.getElementById('packageSearch').value = '';
+                filterPackages();
+            }
+        });
+        
+        // Animate charts on load
+        window.addEventListener('load', function() {
+            const bars = document.querySelectorAll('.bar-fill');
+            bars.forEach((bar, index) => {
+                setTimeout(() => {
+                    bar.style.width = bar.style.width;
+                }, index * 50);
+            });
+        });
+    </script>
+</body>
+</html>
